@@ -1,0 +1,58 @@
+{
+  "chosen_products": [
+    "Strava mobile app",
+    "Nike Run Club mobile app"
+  ],
+  "source_count_per_product": {
+    "Strava": 8,
+    "Nike Run Club": 8
+  },
+  "manifest": [
+    {
+      "file": "GroupID-PA1-ProductResearch.pdf",
+      "bytes": 15373,
+      "pages": 4,
+      "status": "PASS"
+    },
+    {
+      "file": "GroupID-PA1-PotentialSolutions.pdf",
+      "bytes": 16551,
+      "pages": 6,
+      "status": "PASS"
+    },
+    {
+      "file": "GroupID-PA1-PeerReview.pdf",
+      "bytes": 10403,
+      "pages": 3,
+      "status": "PASS"
+    },
+    {
+      "file": "GroupID-PA1-WeeklyReport.pdf",
+      "bytes": 11085,
+      "pages": 4,
+      "status": "PASS"
+    },
+    {
+      "file": "GroupID-PA1.zip",
+      "bytes": 38810,
+      "status": "PASS"
+    }
+  ],
+  "acceptance": {
+    "ProductResearch": "PASS",
+    "PotentialSolutions": "PASS",
+    "PeerReview": "PASS",
+    "WeeklyReport": "PASS",
+    "Zip": "PASS"
+  },
+  "overall": "PASS",
+  "submission_checklist": [
+    "Exact PDF filenames generated",
+    "Zip contains four PDFs at top level",
+    "Shared fact base saved to pa1_project_data.json",
+    "Source log saved to pa1_sources_strava_nrc.json",
+    "Editable Markdown and Mermaid sources saved under sources/",
+    "Migration audit saved to docs/pa1_strava_nrc_migration_audit.md"
+  ],
+  "generated_at": "2026-06-10"
+}
