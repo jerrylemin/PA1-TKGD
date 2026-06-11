@@ -10,1013 +10,1212 @@
   "deliverable_language": "English",
   "sprint_length_days": 14,
   "products": {
-    "strava": {
-      "id": "strava",
-      "name": "Strava",
-      "domain": "Sports activity tracking and social fitness",
-      "modality": "Mobile-first GPS, maps, social feed, route and segment interaction",
-      "positioning": "Mobile social activity network and multi-sport tracking.",
-      "summary": "Strava emphasizes broad sports tracking, social competition, route and segment culture, activity sharing, and privacy settings."
+    "fifa_web": {
+      "id": "fifa_web",
+      "name": "FIFA",
+      "domain": "Official football portal and watch ecosystem",
+      "modality": "Browse-first web product for football information, rankings, ticketing, and watch handoff",
+      "positioning": "Browse-first football web ecosystem for official news, match-following, rankings, tournament discovery, ticketing trust, and FIFA+ watch handoff."
     },
-    "nike_run_club": {
-      "id": "nike_run_club",
-      "name": "Nike Run Club",
-      "domain": "Running coach and run tracking",
-      "modality": "Mobile-first run tracking, audio-guided coaching, plans, challenges, achievements, live location sharing, optional Apple Watch support",
-      "positioning": "Mobile running coach and guided run experience, with optional Apple Watch support.",
-      "summary": "Nike Run Club emphasizes running-specific coaching, audio guidance, beginner support, training plans, achievements, challenges, and safety sharing."
+    "chesscom_web": {
+      "id": "chesscom_web",
+      "name": "Chess.com",
+      "domain": "Online chess play and learning platform",
+      "modality": "Action-first web product for play, review, analysis, and learning",
+      "positioning": "Action-first chess web platform for games, review, self-analysis, puzzles, lessons, study plans, tournaments, and fair-play-guided competitive play."
     }
   },
   "personas": {
-    "Strava": [
+    "FIFA": [
       [
-        "S-P1",
-        "Maya Chen",
-        "21",
-        "Female",
-        "High",
-        "Campus runner; three 5 km runs per week",
-        "Track pace and join monthly distance challenges",
-        "Forgets privacy settings when routes start near home",
-        "Outdoor campus loop, bright sun, phone in armband, one-handed checks"
-      ],
-      [
-        "S-P2",
-        "Dara Somchai",
-        "34",
-        "Male",
+        "F-P1",
+        "Lan Tran",
+        "20",
         "Medium",
-        "Weekend cyclist",
-        "Compare segment performance and plan familiar routes",
-        "Leaderboards can feel punitive when rankings are far away",
-        "Road ride planning at home, then mid-ride glances on phone mount"
+        "Check scores, fixtures, and one key tournament story between classes",
+        "Student on campus laptop, short time window, noisy environment, intermittent attention"
       ],
       [
-        "S-P3",
-        "Lina Pham",
-        "46",
-        "Female",
-        "Low-medium",
-        "Walks for health after work",
-        "Save walks privately and see progress without public pressure",
-        "Discard/save wording feels risky when tired",
-        "Evening walk, low light, sweaty hands, intermittent attention"
-      ]
-    ],
-    "Nike Run Club": [
-      [
-        "N-P1",
-        "Anh Nguyen",
-        "19",
-        "Male",
-        "Medium",
-        "Beginner runner, wants first 5K",
-        "Follow guided runs without planning too much",
-        "Gets confused when there are many run types and plan options",
-        "Campus road, evening run, phone in hand or armband, earphones, outdoor noise, intermittent attention"
-      ],
-      [
-        "N-P2",
-        "Sofia Tran",
+        "F-P2",
+        "Ethan Nguyen",
         "27",
-        "Female",
         "High",
-        "Trains for 10K and half marathon",
-        "Follow structured plan, track pace, compare progress, keep streaks",
-        "Audio cues and achievement prompts may interrupt focus",
-        "Morning urban run, phone locked, earphones, bright sunlight, moving fast, safety concern at crossings"
+        "Follow official tournament news and rankings during office breaks",
+        "Desktop at work, multiple tabs open, daylight glare, short sessions, high scan pressure"
       ],
       [
-        "N-P3",
-        "Minh Le",
-        "42",
-        "Male",
-        "Low-medium",
-        "Returns to running after long break",
-        "Run safely, avoid overtraining, share live location with family",
-        "Unsure whether live sharing, plan difficulty, and achievements match his fitness level",
-        "Night neighborhood run, low light, sweaty hands, phone in belt pouch, family wants safety updates"
-      ]
-    ]
-  },
-  "use_cases": {
-    "Strava": [
-      [
-        "S-UC1",
-        "Record an outdoor run",
-        "S-P1",
-        "Open Record, wait for location confidence, start, pause/finish, review, set privacy, save.",
-        "Campus loop; evening; standing then moving; phone in armband; mobile data; traffic noise; large touch controls; evidence [2][3]."
-      ],
-      [
-        "S-UC2",
-        "Create a mobile route",
-        "S-P2",
-        "Open Maps, Create Route, choose sport, tap route points, review distance/elevation, save.",
-        "Home planning; seated; Wi-Fi; map touch; route mental model; evidence [4]."
-      ],
-      [
-        "S-UC3",
-        "Compare a segment effort",
-        "S-P2",
-        "Open activity, inspect segment match, compare rank, filter context, decide next training goal.",
-        "Post-ride review; indoor light; cognitive comparison; evidence [5]."
-      ],
-      [
-        "S-UC4",
-        "Join a challenge",
-        "S-P1",
-        "Browse challenge, inspect goal terms, join, track progress, receive completion feedback.",
-        "Monthly motivation; social pressure; evidence [6][7]."
-      ],
-      [
-        "S-UC5",
-        "Edit activity privacy before sharing",
-        "S-P3",
-        "Review activity, choose visibility, confirm audience, save, verify detail page.",
-        "Home-route privacy concern; low light; error prevention; evidence [2][3]."
+        "F-P3",
+        "Maria Pham",
+        "31",
+        "Medium",
+        "Verify official ticket source, resale status, and then watch highlights on FIFA+",
+        "Evening home browsing on laptop, compares tabs, trust-sensitive, family trip planning"
       ]
     ],
-    "Nike Run Club": [
+    "Chess.com": [
       [
-        "N-UC1",
-        "Start and record a free run",
-        "N-P1",
-        "Trigger: wants a quick run. Preconditions: signed in, location permission enabled. Flow: Open Nike Run Club, Run tab, select basic run or target, press start, watch pace/distance/duration, pause/finish, review result, save. Alternate: set distance/time target first. Error path: location permission missing; app prompts permission and runner restarts. Feedback: countdown, active metrics, pause state, saved run confirmation.",
-        "Campus road; evening; standing then jogging; phone in hand or armband; cellular may vary; street noise; thumb touch; postcondition saved free run; evidence [9][11][14]."
+        "C-P1",
+        "Minh Bui",
+        "18",
+        "Medium",
+        "Learn chess basics through lessons, puzzles, and a study plan",
+        "Student on shared laptop, beginner mental model, low confidence, needs guidance"
       ],
       [
-        "N-UC2",
-        "Start an audio-guided run",
-        "N-P1",
-        "Trigger: wants coaching. Preconditions: headphones connected and audio available. Flow: choose Guided Run, review coach/run length, connect headphones, start run, receive coach voice and pace cues, glance at core metrics, finish, review achievements, save/share. Alternate: continue without headphones using speaker. Error path: cue missed in traffic; runner needs replay or text summary. Feedback: coach voice, elapsed time, pace cues, completion message.",
-        "Campus route; outdoor noise; fatigue; intermittent attention; evidence [9][10][11][14][15]."
+        "C-P2",
+        "Alex Hoang",
+        "24",
+        "High",
+        "Start blitz games fast, use premoves, reduce distractions, keep momentum",
+        "External keyboard and mouse, noisy dorm room, many short sessions, time pressure"
       ],
       [
-        "N-UC3",
-        "Choose and follow a training plan",
-        "N-P2",
-        "Trigger: race preparation. Preconditions: goal distance and schedule known. Flow: open plans, choose goal, inspect weekly schedule, start plan, complete scheduled run, view progress. Alternate: edit schedule. Error path: beginner picks plan too hard and abandons; needs clearer load preview. Feedback: weekly progress, next run, completion status.",
-        "Morning urban training; phone locked during run; calendar mental model; bright sunlight; evidence [10][12][13][15]."
-      ],
-      [
-        "N-UC4",
-        "Create or join a challenge",
-        "N-P2",
-        "Trigger: wants motivation with friends. Preconditions: account and friends/community available. Flow: browse challenge, inspect goal terms and time window, join or invite friends, record runs, view progress screen, receive achievement. Alternate: private challenge. Error path: falling behind creates pressure; needs casual labels. Feedback: mileage progress, rank/status, badges.",
-        "Monthly mileage challenge; social motivation and pressure; evidence [9][10][11]."
-      ],
-      [
-        "N-UC5",
-        "Share live run location and finish safely",
-        "N-P3",
-        "Trigger: night run safety. Preconditions: location permission and chosen contacts. Flow: choose live sharing, confirm recipients and duration, start run, family receives location, finish, end sharing, confirm stopped status. Alternate: extend duration. Error path: runner is unsure who can see location; needs receipt and expiry. Feedback: sharing active indicator, stop button, finish confirmation.",
-        "Night neighborhood run; low light; sweaty hands; phone in belt pouch; family safety mental model; evidence [10][15]."
+        "C-P3",
+        "Quynh Le",
+        "29",
+        "High",
+        "Review finished games, run self-analysis, and plan tournament play",
+        "Quiet desktop setup, longer study sessions, strong interest in accuracy and improvement"
       ]
     ]
   },
-  "hci_findings": {
-    "Strava": [
-      [
-        "S-HCI1",
-        "Record screen",
-        "Start button",
-        "Large primary action supports one-handed run start",
-        "S-P1 campus run",
-        "Motor efficiency; recognition over recall; feedback",
-        "Benefit",
-        "Maya can start recording while standing at a crossing without navigating menus.",
-        "High",
-        "[2]"
-      ],
-      [
-        "S-HCI2",
-        "Recording flow",
-        "Save/discard controls",
-        "Destructive discard sits near completion decisions",
-        "S-P3 tired evening walk",
-        "Error prevention; user control; attention",
-        "Drawback",
-        "Lina may discard a walk after fatigue because the end state mixes save and discard choices.",
-        "High",
-        "[2]"
-      ],
-      [
-        "S-HCI3",
-        "Privacy selector",
-        "Everyone/Followers/Only You",
-        "Per-activity visibility can be changed before or after upload",
-        "S-P1 route starts near home",
-        "Privacy mental model; system status",
-        "Benefit",
-        "Maya can reduce exposure before saving a home-start route.",
-        "High",
-        "[3]"
-      ],
-      [
-        "S-HCI4",
-        "Privacy defaults",
-        "Audience wording",
-        "Multiple privacy levels require users to understand social reach",
-        "S-P3 low-tech user",
-        "Memory load; recognition over recall",
-        "Drawback",
-        "Lina may not remember whether followers include local acquaintances.",
-        "Medium",
-        "[3]"
-      ],
-      [
-        "S-HCI5",
-        "Route builder",
-        "Map taps and sport selector",
-        "Mobile route creation uses map interaction and sport type",
-        "S-P2 cycling plan",
-        "Spatial cognition; direct manipulation",
-        "Benefit",
-        "Dara can sketch a road ride by manipulating the map instead of typing turn-by-turn notes.",
-        "Medium",
-        "[4]"
-      ],
-      [
-        "S-HCI6",
-        "Route builder",
-        "Elevation/distance preview",
-        "Route previews can overload casual planners with metrics",
-        "S-P1 beginner route",
-        "Cognitive load; progressive disclosure",
-        "Drawback",
-        "Maya only needs a safe 5 km loop but faces distance, map, and route tradeoffs together.",
-        "Medium",
-        "[4]"
-      ],
-      [
-        "S-HCI7",
-        "Segment leaderboard",
-        "Rank table",
-        "Leaderboards show comparative performance for matched GPS efforts",
-        "S-P2 cyclist",
-        "Social comparison; motivation design",
-        "Benefit",
-        "Dara sees whether a climb effort improved relative to local riders.",
-        "Medium",
-        "[5]"
-      ],
-      [
-        "S-HCI8",
-        "Segment leaderboard",
-        "Broad ranking context",
-        "Large leaderboards can demotivate non-elite users",
-        "S-P1 casual runner",
-        "Satisfaction; comparison pressure",
-        "Drawback",
-        "Maya sees a low rank after a good personal run and feels the app ignored her context.",
-        "Medium",
-        "[5]"
-      ],
-      [
-        "S-HCI9",
-        "Challenges",
-        "Join/progress controls",
-        "Challenge progress provides visible goal feedback",
-        "S-P1 monthly run goal",
-        "Feedback; goal gradient; motivation",
-        "Benefit",
-        "Maya can see distance remaining and maintain a weekly habit.",
-        "Medium",
-        "[6][7]"
-      ],
-      [
-        "S-HCI10",
-        "Activity detail",
-        "Map, stats, comments",
-        "Dense post-activity detail supports review but raises attention cost",
-        "S-P3 evening review",
-        "Human vision; cognitive load",
-        "Benefit and drawback",
-        "Lina gets evidence of progress, but small labels and social controls require careful reading.",
-        "Medium",
-        "[2][7]"
-      ]
+  "use_cases": [
+    [
+      "F-UC1",
+      "FIFA",
+      "Open Match Centre and check today's matches",
+      "F-P1",
+      "Find current fixtures or results quickly",
+      "Short break begins",
+      "Campus laptop, noisy hallway, five-minute window",
+      "Browser online; FIFA.com reachable",
+      "User knows which matches are active today",
+      "Open FIFA.com; choose Match Centre; scan today/live filters; open one match detail; return to list",
+      "If no live match appears, switch to latest results",
+      "Client-side content is slow; use navigation label and retry or refresh",
+      "Fixture cards, live status, score rows, match detail link",
+      "[1][7]"
     ],
-    "Nike Run Club": [
-      [
-        "N-HCI1",
-        "Start Run screen",
-        "Large start action",
-        "A clear primary start action supports quick free-run recording",
-        "N-P1 campus road, one hand",
-        "Motor efficiency; recognition over recall; feedback",
-        "Benefit",
-        "Anh can begin a basic run outside without planning a workout first.",
-        "High",
-        "[11][14]"
-      ],
-      [
-        "N-HCI2",
-        "Run metrics screen",
-        "Pace, distance, duration, heart rate or splits where supported",
-        "Dense running metrics support progress checks but can compete with road attention",
-        "N-P2 bright urban run",
-        "Human vision; attention; cognitive load",
-        "Benefit and risk",
-        "Sofia glances for pace at speed, but reading too many values near a crossing can distract her.",
-        "High",
-        "[16]"
-      ],
-      [
-        "N-HCI3",
-        "Guided Runs",
-        "Coach voice",
-        "Audio-guided runs reduce visual demand and provide situated coaching",
-        "N-P1 beginner run",
-        "Auditory feedback; reduced visual demand; situated coaching",
-        "Benefit",
-        "Anh keeps eyes on the road while hearing when to relax, speed up, or finish.",
-        "High",
-        "[9][10][11][14][15]"
-      ],
-      [
-        "N-HCI4",
-        "Audio cues",
-        "Cue timing and voice prompts",
-        "Cues can be missed when fatigue, music, or traffic masks speech",
-        "N-P2 noisy street",
-        "Hearing limitation; split attention; interruption cost",
-        "Drawback",
-        "Sofia misses a pace cue beside traffic and has no low-effort way to recover it.",
-        "Medium",
-        "[10][11][15]"
-      ],
-      [
-        "N-HCI5",
-        "Training plans",
-        "Plan list and goal selection",
-        "Plans give structure but can overload beginners choosing distance, schedule, and intensity",
-        "N-P1 first 5K",
-        "Mental model; progressive disclosure; choice overload",
-        "Benefit and drawback",
-        "Anh wants one first-5K path but must interpret plan options and weekly commitment.",
-        "Medium",
-        "[12][13][15]"
-      ],
-      [
-        "N-HCI6",
-        "Challenges",
-        "Challenge browse/join/progress",
-        "Community challenges motivate mileage but can create comparison pressure",
-        "N-P2 monthly challenge",
-        "Social motivation; comparison pressure; motivation design",
-        "Benefit and drawback",
-        "Sofia joins friends, then feels pressure after missing runs during recovery.",
-        "Medium",
-        "[9][10][11]"
-      ],
-      [
-        "N-HCI7",
-        "Achievements and streaks",
-        "Badges and streak feedback",
-        "Achievements reinforce progress but can overvalue extrinsic reward",
-        "N-P3 return to running",
-        "Feedback; motivation; extrinsic reward risk",
-        "Benefit and drawback",
-        "Minh likes a first-week badge, but a broken streak can discourage needed rest.",
-        "Medium",
-        "[10][11]"
-      ],
-      [
-        "N-HCI8",
-        "Live location sharing",
-        "Sharing active state",
-        "Real-time sharing supports safety and trust during outdoor runs",
-        "N-P3 night run",
-        "Visibility of system status; safety; trust",
-        "Benefit",
-        "Minh can let family track his route while he runs in low light.",
-        "High",
-        "[10][15]"
-      ],
-      [
-        "N-HCI9",
-        "Live sharing setup",
-        "Recipients, duration, stop confirmation",
-        "Sharing setup can create privacy uncertainty if audience and expiry are not salient",
-        "N-P3 night run",
-        "Privacy mental model; error prevention; system status",
-        "Drawback",
-        "Minh is unsure who sees location and whether sharing stops when the run ends.",
-        "High",
-        "[10][15]"
-      ],
-      [
-        "N-HCI10",
-        "Apple Watch support",
-        "Cross-device run start/review",
-        "Optional Apple Watch support improves glanceability but needs consistent mode visibility across devices",
-        "N-P2 phone locked",
-        "Cross-device consistency; glanceability; mode visibility",
-        "Benefit and drawback",
-        "Sofia can start or monitor a run with less phone handling, then review details later on the phone.",
-        "Medium",
-        "[10][16]"
-      ]
-    ]
-  },
-  "benefits": {
-    "Strava": [
-      [
-        "S-B1",
-        "Fast mobile recording",
-        "Large record/start path reduces setup time.",
-        "S-HCI1"
-      ],
-      [
-        "S-B2",
-        "Privacy control",
-        "Per-activity visibility supports sensitive routes.",
-        "S-HCI3"
-      ],
-      [
-        "S-B3",
-        "Route planning",
-        "Map interaction supports spatial planning.",
-        "S-HCI5"
-      ],
-      [
-        "S-B4",
-        "Segment feedback",
-        "Leaderboards provide concrete performance comparison.",
-        "S-HCI7"
-      ],
-      [
-        "S-B5",
-        "Challenge progress",
-        "Goal feedback makes effort visible over time.",
-        "S-HCI9"
-      ]
+    [
+      "F-UC2",
+      "FIFA",
+      "Open official tournament news and read one FIFA World Cup 2026 story",
+      "F-P2",
+      "Read one current official tournament story",
+      "Office break and tournament headline interest",
+      "Desktop with many tabs and glare",
+      "Inside FIFA and tournament blog available",
+      "One article read and source confidence maintained",
+      "Open Inside FIFA; choose FIFA World Cup 2026 blog or News; scan dated story cards; open one story; return to topic hub",
+      "Use All stories filters if blog card is not visible",
+      "Story list overload delays choice",
+      "Dated cards, topic labels, article headline, breadcrumb",
+      "[1][2][3]"
     ],
-    "Nike Run Club": [
-      [
-        "N-B1",
-        "Beginner-friendly start",
-        "A simple start flow supports first-run confidence.",
-        "N-HCI1"
-      ],
-      [
-        "N-B2",
-        "Audio coaching",
-        "Voice guidance lowers visual demand during motion.",
-        "N-HCI3"
-      ],
-      [
-        "N-B3",
-        "Structured plans",
-        "Plans convert race goals into weekly action.",
-        "N-HCI5"
-      ],
-      [
-        "N-B4",
-        "Community challenges",
-        "Challenges create social accountability.",
-        "N-HCI6"
-      ],
-      [
-        "N-B5",
-        "Safety sharing",
-        "Live location sharing increases trust for night runs.",
-        "N-HCI8"
-      ]
-    ]
-  },
-  "drawbacks": {
-    "Strava": [
-      [
-        "S-D1",
-        "Irrecoverable discard risk",
-        "End-of-activity decisions can cause accidental data loss.",
-        "S-HCI2",
-        "High"
-      ],
-      [
-        "S-D2",
-        "Privacy audience uncertainty",
-        "Users may not understand who can see a sensitive route.",
-        "S-HCI4",
-        "High"
-      ],
-      [
-        "S-D3",
-        "Route planning overload",
-        "Map, sport, distance, and elevation choices can overload casual users.",
-        "S-HCI6",
-        "Medium"
-      ],
-      [
-        "S-D4",
-        "Leaderboard pressure",
-        "Broad rankings can demotivate personal-progress users.",
-        "S-HCI8",
-        "Medium"
-      ],
-      [
-        "S-D5",
-        "Post-activity detail density",
-        "Stats, map, comments, and sharing controls compete for attention.",
-        "S-HCI10",
-        "Medium"
-      ]
+    [
+      "F-UC3",
+      "FIFA",
+      "Open Rankings from the global navigation",
+      "F-P2",
+      "Check the latest official ranking quickly",
+      "Coworker asks ranking question",
+      "Desktop at work; short session; high scan pressure",
+      "Ranking page reachable",
+      "User identifies latest ranking and update date",
+      "Open FIFA global nav; choose Rankings; select men's ranking; scan rank table; note last official update",
+      "Switch filters if the wrong table appears",
+      "Ranking table loads after shell; user waits or retries",
+      "Rank table, filters, update date, full rankings control",
+      "[1][8]"
     ],
-    "Nike Run Club": [
-      [
-        "N-D1",
-        "Audio-guided run cues may be missed in noisy outdoor contexts.",
-        "Traffic noise, earphone issues, music playback, and fatigue can mask instructions for Anh, Sofia, and Minh.",
-        "N-HCI4",
-        "Medium"
-      ],
-      [
-        "N-D2",
-        "Training plan selection may overload beginners.",
-        "First 5K, return-from-break, and low-confidence contexts can make plan choice feel risky for Anh and Minh.",
-        "N-HCI5",
-        "Medium"
-      ],
-      [
-        "N-D3",
-        "Challenge and achievement mechanics may pressure casual users.",
-        "Falling behind a challenge, streak loss, and rest-day anxiety can reduce motivation for Anh and Minh.",
-        "N-HCI6/N-HCI7",
-        "Medium"
-      ],
-      [
-        "N-D4",
-        "Live location sharing may create privacy uncertainty.",
-        "Night-run safety sharing can create uncertainty about duration and recipients for Sofia and Minh.",
-        "N-HCI9",
-        "High"
-      ],
-      [
-        "N-D5",
-        "During-run metric density may distract runners in motion.",
-        "Bright sunlight, fast pace, road crossings, and sweaty hands can make metric inspection unsafe for Sofia and Anh.",
-        "N-HCI2",
-        "Medium"
-      ]
+    [
+      "F-UC4",
+      "FIFA",
+      "Verify official tickets and resale source",
+      "F-P3",
+      "Confirm official ticket and resale route before family purchase",
+      "Trip planning conversation begins",
+      "Home laptop, multiple comparison tabs, trust-sensitive",
+      "Ticket page and media release available",
+      "User trusts FIFA.com/tickets and understands resale/exchange status",
+      "Open FIFA Tickets; cross-check media release; identify FIFA.com/tickets; read resale/exchange note; save official URL",
+      "Check hospitality if standard tickets unavailable",
+      "Availability changes require repeated checks",
+      "Official/preferred wording, ticket URL, resale/exchange marketplace cue",
+      "[4][5][9]"
+    ],
+    [
+      "F-UC5",
+      "FIFA",
+      "Open FIFA+ and start a watch session",
+      "F-P3",
+      "Move from FIFA information to FIFA+ highlights or archive",
+      "After ticket/news research, user wants video",
+      "Evening laptop, family browsing, account friction sensitivity",
+      "FIFA+ URL reachable; account may be required",
+      "User starts or understands the next step for watching",
+      "Choose FIFA+ from FIFA ecosystem; land on watch page; scan live/highlight rails; select content; sign in or get started",
+      "Continue browsing FIFA.com if sign-in is not acceptable",
+      "DAZN branding creates handoff uncertainty",
+      "FIFA+ hero, sign-in/get-started controls, live and archive rails",
+      "[1][6]"
+    ],
+    [
+      "C-UC1",
+      "Chess.com",
+      "Start a live game with default or custom settings",
+      "C-P2",
+      "Begin a game with low setup time",
+      "User has a short blitz window",
+      "Dorm desktop, external mouse, noise, time pressure",
+      "Signed in or guest play available",
+      "Game starts with selected opponent and time control",
+      "Open Chess.com; choose Play or homescreen start; accept recent time control or customize; choose random opponent, bot, or friend; start",
+      "Choose unrated or custom settings first",
+      "Rating or match settings mismatch; return to play setup",
+      "Play call-to-action, time control, rated toggle, opponent choice",
+      "[10][11]"
+    ],
+    [
+      "C-UC2",
+      "Chess.com",
+      "Use premoves during a blitz game",
+      "C-P2",
+      "Save seconds under time pressure without losing control",
+      "Clock drops below comfort level",
+      "Noisy dorm room, fast mouse input, high stress",
+      "Premoves enabled in live settings",
+      "Queued legal move executes after opponent response",
+      "During opponent turn, drag next move; observe queued move; continue if response fits",
+      "Disable premoves for serious accuracy",
+      "Opponent reply makes queued idea risky but legal",
+      "Board input, queued move behavior, clock feedback",
+      "[12]"
+    ],
+    [
+      "C-UC3",
+      "Chess.com",
+      "Turn on Focus Mode before a serious game",
+      "C-P2",
+      "Reduce visual distraction and expand the board",
+      "User starts a serious game",
+      "Dorm noise and many on-screen distractions",
+      "Board visible; focus control available",
+      "Board expands and nonessential panels hide",
+      "Hover near board/sidebar boundary; choose Focus Mode; confirm board-only layout; start game",
+      "Use keyboard shortcut or settings if discovered",
+      "Control hidden on hover and missed by first-time user",
+      "Focus icon, expanded board, clocks, draw and resign controls",
+      "[13][14]"
+    ],
+    [
+      "C-UC4",
+      "Chess.com",
+      "Run Game Review after a finished game, then go to Self Analysis",
+      "C-P3",
+      "Understand mistakes and continue engine study",
+      "Game ends",
+      "Quiet desktop, longer study session",
+      "Finished game saved; review available",
+      "User sees classifications and starts deeper analysis",
+      "Click Game Review; inspect graph, accuracy, key moves; retry a move; open Game Analysis or Analysis Board",
+      "Reopen review from archive",
+      "Premium or depth gates interrupt expectations",
+      "Game Review button, graph, move classifications, retry, analysis controls",
+      "[15][16][17]"
+    ],
+    [
+      "C-UC5",
+      "Chess.com",
+      "Solve puzzles and choose a follow-up lesson or study plan",
+      "C-P1",
+      "Build beginner skill through a guided loop",
+      "Student wants to improve after a loss",
+      "Shared laptop, low confidence, needs direction",
+      "Puzzles and Learn reachable",
+      "User completes a puzzle and chooses next learning action",
+      "Open Puzzles; solve puzzle of day or rated puzzle; review feedback; open lesson or study plan; save next step",
+      "Choose a beginner lesson first",
+      "Premium limit appears after click and interrupts momentum",
+      "Puzzle feedback, Learn menu, study-plan link, access labels",
+      "[18][19][20]"
     ]
-  },
+  ],
+  "hci_findings": [
+    [
+      "F-HCI1",
+      "FIFA",
+      "Benefit",
+      "Global navigation",
+      "Match Centre, News, Rankings, Tickets & Hospitality",
+      "Navigation exposes key football information tasks.",
+      "F-P1/F-P2",
+      "Information scent; recognition over recall; efficient task entry",
+      "Lan can enter Match Centre from the top level instead of remembering a direct URL.",
+      "High",
+      "[1][7][8][9]"
+    ],
+    [
+      "F-HCI2",
+      "FIFA",
+      "Benefit",
+      "All stories & topics",
+      "Category and content-type filters",
+      "Story browsing supports exploratory scanning across FIFA topics.",
+      "F-P2",
+      "Information foraging; hierarchical scanning",
+      "Ethan narrows from broad news to a tournament story during a short office break.",
+      "Medium",
+      "[2][3]"
+    ],
+    [
+      "F-HCI3",
+      "FIFA",
+      "Benefit",
+      "Ticket discovery",
+      "Official/preferred ticket wording and resale/exchange note",
+      "Ticket media releases create a clear trust cue.",
+      "F-P3",
+      "Credibility; error prevention; trust",
+      "Maria avoids a third-party ticket tab because FIFA identifies FIFA.com/tickets as the source.",
+      "High",
+      "[4][5][9]"
+    ],
+    [
+      "F-HCI4",
+      "FIFA",
+      "Benefit",
+      "FIFA+ entry",
+      "Hero and get-started controls",
+      "FIFA+ states the watch proposition and next action.",
+      "F-P3",
+      "Feedforward; clear CTA; reduced ambiguity",
+      "Maria can tell that the next step is to sign in or get started before watching.",
+      "Medium",
+      "[6]"
+    ],
+    [
+      "F-HCI5",
+      "FIFA",
+      "Benefit",
+      "FIFA+ watch rails",
+      "Live, highlights, replays, archive, documentaries",
+      "FIFA+ supports both live football and time-shifted content.",
+      "F-P3",
+      "Flexibility; broad retrieval paths",
+      "Maria can choose a highlight if live content does not fit the family's schedule.",
+      "Medium",
+      "[6]"
+    ],
+    [
+      "F-HCI6",
+      "FIFA",
+      "Drawback",
+      "Ecosystem navigation",
+      "FIFA.com, inside.fifa.com, plus.fifa.com, Store, Collect, Rewards",
+      "Task paths span several sibling properties.",
+      "F-P1/F-P3",
+      "Context switching; mental model fragmentation; consistency",
+      "Lan expects a single football hub but is moved across different hosts for stories, tickets, and video.",
+      "High",
+      "[1][6][9]"
+    ],
+    [
+      "F-HCI7",
+      "FIFA",
+      "Drawback",
+      "FIFA+ handoff",
+      "DAZN-branded page with login/get-started controls",
+      "The watch path changes brand context and account expectations.",
+      "F-P3",
+      "Continuity break; trust friction; mode boundary",
+      "Maria pauses because the FIFA+ destination looks like a different service during family planning.",
+      "High",
+      "[6]"
+    ],
+    [
+      "F-HCI8",
+      "FIFA",
+      "Drawback",
+      "FIFA+ content browsing",
+      "Long content rails",
+      "Dense rails increase scan cost before a user finds live or archive content.",
+      "F-P3",
+      "Visual attention; choice overload",
+      "Maria searches highlights but has to scan many rail items before choosing.",
+      "Medium",
+      "[6]"
+    ],
+    [
+      "F-HCI9",
+      "FIFA",
+      "Drawback",
+      "Ticket status",
+      "Check regularly for availability",
+      "Ticket status is visible only as repeated-check guidance.",
+      "F-P3",
+      "Visibility of system status; planning friction",
+      "Maria cannot tell when new family-trip availability may appear without repeatedly checking.",
+      "High",
+      "[5][9]"
+    ],
+    [
+      "F-HCI10",
+      "FIFA",
+      "Drawback",
+      "Story hub",
+      "Article-first cards",
+      "Story browsing is strong, but quick tasks require a second jump.",
+      "F-P1/F-P2",
+      "Task interruption; efficiency gap",
+      "Lan reads a headline and then has to jump elsewhere for scores or tickets.",
+      "Medium",
+      "[1][2][3][7]"
+    ],
+    [
+      "C-HCI1",
+      "Chess.com",
+      "Benefit",
+      "Homepage",
+      "Play, Puzzles, Learn, Train, Watch, Community",
+      "Homepage navigation foregrounds core chess tasks.",
+      "C-P1/C-P2",
+      "Strong information scent; task signposting",
+      "Minh sees Learn and Puzzles without knowing internal feature names.",
+      "High",
+      "[10]"
+    ],
+    [
+      "C-HCI2",
+      "Chess.com",
+      "Benefit",
+      "Start game flow",
+      "Random opponent, bot, friend, time controls, rated toggle, rating range",
+      "Game start is short and flexible.",
+      "C-P2",
+      "Flexibility; user control; low entry friction",
+      "Alex starts a blitz game quickly or adjusts time control before matching.",
+      "High",
+      "[11]"
+    ],
+    [
+      "C-HCI3",
+      "Chess.com",
+      "Benefit",
+      "Focus Mode",
+      "Expanded board with only essential play controls",
+      "Focus Mode hides distractions while preserving clocks and resign/draw actions.",
+      "C-P2",
+      "Attention support; reduced clutter; task focus",
+      "Alex makes decisions with a larger board and fewer side panels.",
+      "Medium",
+      "[13]"
+    ],
+    [
+      "C-HCI4",
+      "Chess.com",
+      "Benefit",
+      "Game Review",
+      "Graph, accuracy, classifications, coach, key moves, retry",
+      "Review turns a finished game into concrete feedback.",
+      "C-P3",
+      "Feedback; reflection; error recovery; external cognition",
+      "Quynh sees a blunder classification, retries the move, and understands the alternative.",
+      "High",
+      "[15][16]"
+    ],
+    [
+      "C-HCI5",
+      "Chess.com",
+      "Benefit",
+      "Analysis Board",
+      "Move pieces, setup position, load FEN/PGN, history, collections",
+      "Analysis supports expert direct manipulation and artifact transfer.",
+      "C-P3",
+      "Direct manipulation; expert control; transfer of artifacts",
+      "Quynh pastes a PGN, changes a line, and compares engine feedback.",
+      "High",
+      "[17]"
+    ],
+    [
+      "C-HCI6",
+      "Chess.com",
+      "Benefit",
+      "Study Plans",
+      "Skill-level study guides",
+      "Study plans reduce uncertainty about what to learn next.",
+      "C-P1",
+      "Progressive disclosure; guided learning",
+      "Minh chooses a beginner plan after puzzles instead of guessing from all lessons.",
+      "Medium",
+      "[19][20]"
+    ],
+    [
+      "C-HCI7",
+      "Chess.com",
+      "Drawback",
+      "Product surface",
+      "Many primary areas and training paths",
+      "The broad surface can overwhelm first-time users.",
+      "C-P1",
+      "Choice overload; weak progressive disclosure at entry",
+      "Minh sees Play, Learn, Train, Puzzles, and Watch before knowing the best beginner sequence.",
+      "Medium",
+      "[10][18][19][20]"
+    ],
+    [
+      "C-HCI8",
+      "Chess.com",
+      "Drawback",
+      "Premove",
+      "Queued move during opponent turn",
+      "Premoves are efficient but risky when the reply is unexpected.",
+      "C-P2",
+      "Speed versus accuracy; error risk",
+      "Alex premoves a capture that remains legal but weak after a surprising reply.",
+      "High",
+      "[12]"
+    ],
+    [
+      "C-HCI9",
+      "Chess.com",
+      "Drawback",
+      "Focus Mode discovery",
+      "Hover-only board-side control",
+      "Focus Mode can be hard to discover because related controls appear only near the board boundary.",
+      "C-P2",
+      "Discoverability; hidden controls",
+      "Alex never enables Focus Mode because the icon appears only on hover.",
+      "Medium",
+      "[13][14]"
+    ],
+    [
+      "C-HCI10",
+      "Chess.com",
+      "Drawback",
+      "Analysis screens",
+      "Toggles, charts, lines, classifications, premium gates",
+      "Analysis surfaces many controls and access expectations at once.",
+      "C-P1/C-P3",
+      "Cognitive load; progressive disclosure gap; expectation mismatch",
+      "Minh opens analysis after a loss and cannot tell which chart or control matters first.",
+      "Medium",
+      "[15][16][17][19]"
+    ]
+  ],
+  "drawbacks": [
+    [
+      "F-D1",
+      "FIFA",
+      "Ecosystem sprawl across sibling FIFA properties",
+      "F-HCI6",
+      "High"
+    ],
+    [
+      "F-D2",
+      "FIFA",
+      "FIFA+ handoff breaks continuity",
+      "F-HCI7",
+      "High"
+    ],
+    [
+      "F-D3",
+      "FIFA",
+      "FIFA+ scan overload",
+      "F-HCI8",
+      "Medium"
+    ],
+    [
+      "F-D4",
+      "FIFA",
+      "Ticket status uncertainty",
+      "F-HCI9",
+      "High"
+    ],
+    [
+      "F-D5",
+      "FIFA",
+      "Browse-first friction for quick utilitarian tasks",
+      "F-HCI10",
+      "Medium"
+    ],
+    [
+      "C-D1",
+      "Chess.com",
+      "Menu and feature overload for novices",
+      "C-HCI7",
+      "High"
+    ],
+    [
+      "C-D2",
+      "Chess.com",
+      "Analysis overload",
+      "C-HCI10",
+      "High"
+    ],
+    [
+      "C-D3",
+      "Chess.com",
+      "Premium gating interrupts learning momentum",
+      "C-HCI10",
+      "Medium"
+    ],
+    [
+      "C-D4",
+      "Chess.com",
+      "Premove blunder risk",
+      "C-HCI8",
+      "High"
+    ],
+    [
+      "C-D5",
+      "Chess.com",
+      "Focus Mode is hard to discover",
+      "C-HCI9",
+      "Medium"
+    ]
+  ],
   "solutions": [
     [
-      "S-S1",
-      "S-D1",
-      "Strava",
-      "Recoverable Activity Trash",
-      "After discard, move activity to a 7-day trash with Restore and Delete forever.",
-      "Error recovery; user control",
-      "Maya/Lina",
-      "End-of-run fatigue",
-      "Expected gain: fewer lost recordings. Tradeoff: storage and extra state. Priority High. Effort Medium."
+      "F-S1",
+      "F-D1",
+      "Task-first global nav",
+      "Keep Match Centre, News, Rankings, Tickets, Watch at top level; move Store, Collect, and Rewards into More FIFA.",
+      "Slim header with one primary task row and one tucked ecosystem menu.",
+      "Recognition over recall; cognitive load reduction",
+      "F-P1/F-P2/F-P3",
+      "Short task entry, office browsing, ticket planning",
+      "Fewer property jumps for common tasks.",
+      "Store and collectibles receive less top-level exposure.",
+      "High",
+      "Medium"
     ],
     [
-      "S-S2",
-      "S-D1",
-      "Strava",
-      "Safer Finish Hierarchy",
-      "Make Save primary, move Discard behind a confirm sheet with activity summary.",
-      "Error prevention; motor efficiency",
-      "Maya/Lina",
-      "Sweaty hands after activity",
-      "Expected gain: fewer accidental destructive actions. Tradeoff: one extra tap for true discard. Priority High. Effort Low."
+      "F-S2",
+      "F-D1",
+      "Audience intent switcher",
+      "Add five quick-intent chips under the hero: Scores, News, Rankings, Tickets, Watch.",
+      "Horizontal chip bar under page title.",
+      "Feedforward; efficient entry",
+      "F-P1/F-P2/F-P3",
+      "Short sessions with unclear starting point",
+      "Users choose by intent before reading navigation labels.",
+      "One more row competes for above-fold attention.",
+      "High",
+      "Low"
     ],
     [
-      "S-S3",
-      "S-D2",
-      "Strava",
-      "Privacy Receipt",
-      "Show audience, map visibility, and home-area warning before save.",
-      "Privacy mental model; visibility",
-      "Maya/Lina",
-      "Home route sharing",
-      "Expected gain: higher confidence. Tradeoff: more review text. Priority High. Effort Low."
+      "F-S3",
+      "F-D2",
+      "Handoff explainer card",
+      "Before leaving FIFA.com, show You are opening FIFA+ powered by DAZN with destination benefits and sign-in expectation.",
+      "Centered modal with Continue and Stay on FIFA.com.",
+      "Visibility of system status; trust",
+      "F-P3",
+      "Family watch handoff",
+      "Users understand why branding and login state change.",
+      "Adds one step for repeat viewers.",
+      "High",
+      "Low"
     ],
     [
-      "S-S4",
-      "S-D2",
-      "Strava",
-      "Sensitive Route Reminder",
-      "Detect route near saved home area and suggest Only You or hidden map zone.",
-      "Error prevention; feedforward",
-      "Maya",
-      "Campus/home start",
-      "Expected gain: lower accidental exposure. Tradeoff: false positives. Priority High. Effort Medium."
+      "F-S4",
+      "F-D2",
+      "Shared breadcrumb and visual bridge",
+      "Add persistent Back to FIFA.com strip and tournament breadcrumb on FIFA+.",
+      "Thin top bar with FIFA icon, destination label, and return link.",
+      "Continuity; orientation",
+      "F-P3",
+      "FIFA+ watch browsing after ticket/news research",
+      "Users retain orientation across the watch boundary.",
+      "Needs cross-property coordination.",
+      "Medium",
+      "Medium"
     ],
     [
-      "S-S5",
-      "S-D3",
-      "Strava",
-      "Simple Route Wizard",
-      "Ask distance, sport, and loop/out-back, then recommend one editable route.",
-      "Progressive disclosure; recognition",
-      "Dara/Maya",
-      "Planning a new route",
-      "Expected gain: lower setup effort. Tradeoff: less initial control. Priority Medium. Effort Medium."
+      "F-S5",
+      "F-D3",
+      "Filter-first rail controls",
+      "Provide filters for Live, Highlights, Documentaries, Competition, and Duration above rails.",
+      "Sticky filter row above content rails.",
+      "Visual filtering; reduced scan cost",
+      "F-P3",
+      "Evening highlight search",
+      "Users narrow a large content surface faster.",
+      "Filter accuracy depends on metadata quality.",
+      "High",
+      "Medium"
     ],
     [
-      "S-S6",
-      "S-D3",
-      "Strava",
-      "Route Confidence Labels",
-      "Label routes Easy, Hilly, Unfamiliar, or Busy based on visible criteria.",
-      "Feedforward; mental model",
-      "Dara/Maya",
-      "Map route choice",
-      "Expected gain: faster decision. Tradeoff: requires clear criteria. Priority Medium. Effort Medium."
+      "F-S6",
+      "F-D3",
+      "Compact scan mode",
+      "Collapse nonmatching rails into section labels until expanded.",
+      "Condensed page with one expanded rail and folded sections.",
+      "Progressive disclosure; visual economy",
+      "F-P3",
+      "Slow browsing with family waiting",
+      "Lower vertical scanning burden.",
+      "Some content feels less discoverable.",
+      "Medium",
+      "Medium"
     ],
     [
-      "S-S7",
-      "S-D4",
-      "Strava",
-      "Peer-Band Leaderboards",
-      "Default casual users to similar-level comparison bands before global ranking.",
-      "Motivation design; satisfaction",
-      "Maya/Dara",
-      "Segment review",
-      "Expected gain: less demotivation. Tradeoff: competitive users may prefer global view. Priority Medium. Effort High."
+      "F-S7",
+      "F-D4",
+      "Ticket status dashboard",
+      "Show Official sale, Resale open, Waiting room, Coming soon, and Latest update time by tournament.",
+      "Small status cards above ticket links.",
+      "Visibility of system status; planning support",
+      "F-P3",
+      "Trust-sensitive ticket planning",
+      "Users know whether to act now or wait.",
+      "Requires reliable status data and governance.",
+      "High",
+      "Medium"
     ],
     [
-      "S-S8",
-      "S-D4",
-      "Strava",
-      "Personal Progress First",
-      "Show PR delta and trend before rank for casual profiles.",
-      "Feedback; user fit",
-      "Maya",
-      "Post-run review",
-      "Expected gain: healthier motivation. Tradeoff: rank is one tap deeper. Priority Medium. Effort Low."
+      "F-S8",
+      "F-D4",
+      "Official availability alerts",
+      "Offer email and browser alerts by tournament and market, confirmed by receipt.",
+      "Alert drawer with checkbox list and next release note.",
+      "Memory load reduction; trust",
+      "F-P3",
+      "Family travel planning over many days",
+      "Users stop manually rechecking availability.",
+      "Notification fatigue and opt-in compliance.",
+      "Medium",
+      "Medium"
     ],
     [
-      "S-S9",
-      "S-D5",
-      "Strava",
-      "Post-Activity Summary Mode",
-      "Show map, distance, time, privacy first; hide comments/segments behind tabs.",
-      "Cognitive load reduction",
-      "Lina",
-      "Low-light review",
-      "Expected gain: less visual overload. Tradeoff: advanced metrics are less immediate. Priority Medium. Effort Medium."
+      "F-S9",
+      "F-D5",
+      "Utility rail on story pages",
+      "Add right rail or sticky side sheet for Scores today, Rankings latest, Tickets official source, Watch now.",
+      "Compact side module with four task cards.",
+      "Task continuity; reduced jumping",
+      "F-P1/F-P2/F-P3",
+      "Reading story then switching task",
+      "Story readers can branch into utilitarian tasks in context.",
+      "May distract from article reading.",
+      "Medium",
+      "Low"
     ],
     [
-      "S-S10",
-      "S-D5",
-      "Strava",
-      "Large-Type Review",
-      "Offer high-contrast, large-type post-run summary for tired or low-light contexts.",
-      "Vision; accessibility",
-      "Lina",
-      "Evening walk",
-      "Expected gain: better readability. Tradeoff: more display modes. Priority Low. Effort Medium."
+      "F-S10",
+      "F-D5",
+      "Embedded action chips in articles",
+      "Add context chips in article header: Open Match Centre, View Tickets, Watch on FIFA+.",
+      "Chip row under headline metadata.",
+      "Contextual navigation; information scent",
+      "F-P1/F-P2/F-P3",
+      "Tournament article with adjacent action need",
+      "Users can act from the article without searching navigation again.",
+      "Requires article metadata rules.",
+      "Medium",
+      "Low"
     ],
     [
-      "N-S1",
-      "N-D1",
-      "Nike Run Club",
-      "Audio Cue Replay button",
-      "Small accessible control on run screen and headphone gesture shortcut; shows last cue text summary for 5 seconds.",
-      "Recovery; auditory limitation support; reduced memory load",
-      "Anh/Sofia/Minh",
-      "Noisy streets, fatigue, music playback",
-      "Expected gain: fewer missed instructions. Tradeoff: adds control to run screen. Priority High. Effort Low."
+      "C-S1",
+      "C-D1",
+      "Goal-based onboarding home",
+      "First-run chooser: Play now, Review last game, Learn basics, Solve puzzles, Join tournament.",
+      "Large task cards above default homepage feed.",
+      "Progressive disclosure; recognition over recall",
+      "C-P1/C-P2/C-P3",
+      "First visit after signup",
+      "New users see goals before feature taxonomy.",
+      "Adds onboarding state management.",
+      "High",
+      "Medium"
     ],
     [
-      "N-S2",
-      "N-D1",
-      "Nike Run Club",
-      "Adaptive cue mode",
-      "User selects Quiet route, Normal, or Noisy street; app increases cue clarity, haptic emphasis, and text summary by mode.",
-      "Context-aware feedback; multimodal interaction",
-      "Anh/Sofia/Minh",
-      "Traffic or crowded route",
-      "Expected gain: better guidance in traffic. Tradeoff: mode setup can add complexity. Priority Medium. Effort High."
+      "C-S2",
+      "C-D1",
+      "Personal dashboard mode",
+      "User pins top three tasks and hides unused modules for 30 days.",
+      "Compact home with pinned cards and Edit layout button.",
+      "Personalization; cognitive load reduction",
+      "C-P1/C-P2/C-P3",
+      "Repeated use with stable goals",
+      "Homepage better matches user intent.",
+      "May hide growth paths if poorly explained.",
+      "Medium",
+      "Medium"
     ],
     [
-      "N-S3",
-      "N-D2",
-      "Nike Run Club",
-      "Beginner Plan Wizard",
-      "Ask current ability, target distance, available days, injury concern; recommend one plan with a clear reason.",
-      "Recognition over recall; progressive disclosure",
-      "Anh/Minh",
-      "First 5K or return after break",
-      "Expected gain: lower setup effort. Tradeoff: users may want full list immediately. Priority High. Effort Medium."
+      "C-S3",
+      "C-D2",
+      "Beginner analysis preset",
+      "One-click preset keeps evaluation bar, best move, and plain-language coach notes.",
+      "Preset chips at top of analysis panel: Beginner, Standard, Expert.",
+      "Progressive disclosure; low-friction defaults",
+      "C-P1",
+      "Post-loss beginner review",
+      "Novices get a readable analysis surface.",
+      "Advanced controls become one step deeper.",
+      "High",
+      "Low"
     ],
     [
-      "N-S4",
-      "N-D2",
-      "Nike Run Club",
-      "Plan difficulty receipt",
-      "Before starting a plan, show weekly load, rest days, expected longest run, and Edit Difficulty.",
-      "Feedforward; user control; error prevention",
-      "Anh/Minh",
-      "Low-confidence plan selection",
-      "Expected gain: lower overcommitment. Tradeoff: more pre-plan reading. Priority Medium. Effort Medium."
+      "C-S4",
+      "C-D2",
+      "Inline analysis glossary",
+      "Hover or tap chart and toggle labels for plain-language explanations.",
+      "Right-side info drawer with What this means text.",
+      "Learnability; reduced memory load",
+      "C-P1/C-P3",
+      "Analysis and Game Review study sessions",
+      "Users learn the meaning of graphs and labels in place.",
+      "Adds copy maintenance and localization work.",
+      "Medium",
+      "Medium"
     ],
     [
-      "N-S5",
-      "N-D3",
-      "Nike Run Club",
-      "Healthy Streak mode",
-      "Rest day counts as protected training when user selects recovery.",
-      "Motivation design; overtraining prevention",
-      "Anh/Minh",
-      "Rest-day anxiety",
-      "Expected gain: less pressure to run every day. Tradeoff: streak semantics change. Priority Medium. Effort Medium."
+      "C-S5",
+      "C-D3",
+      "Upfront entitlement labels",
+      "Mark each lesson, puzzle, and analysis feature with access labels before click.",
+      "Small pill tags: Free, 3/day, 1 lesson/day, Diamond.",
+      "Expectation setting; error prevention",
+      "C-P1/C-P3",
+      "Learning path selection",
+      "Users know limits before investing attention.",
+      "Access labels may add visual noise.",
+      "High",
+      "Low"
     ],
     [
-      "N-S6",
-      "N-D3",
-      "Nike Run Club",
-      "Challenge pressure filter",
-      "Label challenges Casual, Consistent, Competitive; default new users to Casual.",
-      "Mental model alignment; choice architecture",
-      "Anh/Minh",
-      "Monthly challenge browsing",
-      "Expected gain: better fit by user type. Tradeoff: challenge taxonomy maintenance. Priority Medium. Effort Low."
+      "C-S6",
+      "C-D3",
+      "Soft-landing after limit reached",
+      "After a limit wall, offer free alternative, reset timer, and queue for later.",
+      "Modal with Continue learning free, Save for later, Upgrade.",
+      "Continuity; frustration reduction",
+      "C-P1",
+      "Study session after a daily limit",
+      "Users keep learning instead of stopping abruptly.",
+      "May reduce upgrade pressure.",
+      "Medium",
+      "Medium"
     ],
     [
-      "N-S7",
-      "N-D4",
-      "Nike Run Club",
-      "Live Sharing Receipt",
-      "After starting sharing, show recipients, duration, stop button, and finish notification status.",
-      "Visibility of system status; privacy mental model",
-      "Sofia/Minh",
-      "Night run family sharing",
-      "Expected gain: higher trust. Tradeoff: extra status surface. Priority High. Effort Low."
+      "C-S7",
+      "C-D4",
+      "Premove queue preview",
+      "Show pending premoves with danger icon when opponent reply tree makes risk high.",
+      "Tiny queue strip above board, first item tinted warning color.",
+      "Error prevention; system status",
+      "C-P2",
+      "Blitz and bullet time trouble",
+      "Users see what will execute before it happens.",
+      "Risk estimate can be imperfect.",
+      "High",
+      "Medium"
     ],
     [
-      "N-S8",
-      "N-D4",
-      "Nike Run Club",
-      "Auto-stop and expiry control",
-      "Default live sharing expires at run end or chosen duration; end screen confirms sharing stopped.",
-      "Error prevention; closure feedback",
-      "Sofia/Minh",
-      "Safety sharing with family",
-      "Expected gain: lower privacy risk. Tradeoff: edge cases for extended runs. Priority Medium. Effort Medium."
+      "C-S8",
+      "C-D4",
+      "Fast clear shortcut",
+      "One-click Clear or Esc clears queued premove chain.",
+      "Small Clear premoves pill next to clocks or settings.",
+      "Recoverability; user control",
+      "C-P2",
+      "Fast play after unexpected opponent move",
+      "Users recover from risky queued intent quickly.",
+      "Adds one more in-game control.",
+      "Medium",
+      "Low"
     ],
     [
-      "N-S9",
-      "N-D5",
-      "Nike Run Club",
-      "Focus Run screen",
-      "During movement, show only distance, pace, and elapsed time with large type; move other metrics behind swipe or post-run detail.",
-      "Cognitive load reduction; human vision; motor efficiency",
-      "Sofia/Anh",
-      "Bright sunlight and fast pace",
-      "Expected gain: safer glance behavior. Tradeoff: fewer metrics visible by default. Priority High. Effort Medium."
+      "C-S9",
+      "C-D5",
+      "First-time coachmark",
+      "After two full games, show Need fewer distractions? Try Focus Mode.",
+      "Tooltip near board corner.",
+      "Discoverability; contextual help",
+      "C-P2",
+      "Post-game moment before next serious game",
+      "Users learn the hidden control when it is relevant.",
+      "Coachmarks can annoy expert users.",
+      "Medium",
+      "Low"
     ],
     [
-      "N-S10",
-      "N-D5",
-      "Nike Run Club",
-      "Crossing-safe interaction lock",
-      "If phone detects fast movement and screen wake, delay nonessential overlays and use voice or haptic cues.",
-      "Interruption management; safety; attention support",
-      "Sofia/Anh",
-      "Road crossings",
-      "Expected gain: fewer distraction moments. Tradeoff: may suppress desired messages. Priority Medium. Effort High."
+      "C-S10",
+      "C-D5",
+      "Persistent settings shortcut",
+      "Add Focus Mode toggle into board settings and keyboard shortcut help.",
+      "Settings panel item with live preview thumbnail.",
+      "Consistency; discoverability",
+      "C-P2/C-P3",
+      "Board settings and serious-game setup",
+      "Focus Mode becomes findable without hover discovery.",
+      "Settings panel grows slightly.",
+      "Medium",
+      "Low"
     ]
   ],
   "sources": [
     {
       "num": 1,
-      "id": "S-REF1",
-      "product": "Strava",
-      "source_type": "Official product page",
-      "title": "Strava | Running, Cycling & Hiking App",
-      "url": "https://www.strava.com/",
+      "id": "F-REF1",
+      "product": "FIFA",
+      "title": "Inside FIFA",
+      "url": "https://inside.fifa.com/",
+      "domain": "inside.fifa.com",
+      "source_type": "Official FIFA news and navigation",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "Strava positions itself around activity tracking, maps, performance data, and community sharing."
+        "Inside FIFA exposes Latest FIFA News and the global navigation labels Match Centre, News, Rankings, Tickets & Hospitality, Play, Inside FIFA, plus sibling destinations such as FIFA+, Store, Collect, and Rewards."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 2,
-      "id": "S-REF2",
-      "product": "Strava",
-      "source_type": "Official support",
-      "title": "Recording an Activity - Strava Support",
-      "url": "https://support.strava.com/hc/en-us/articles/216917397-Recording-an-Activity",
+      "id": "F-REF2",
+      "product": "FIFA",
+      "title": "All stories & topics",
+      "url": "https://inside.fifa.com/all-stories",
+      "domain": "inside.fifa.com",
+      "source_type": "Official FIFA topic index",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "Mobile recording includes activity capture, save/discard choices, activity details, privacy controls, and Beacon entry points."
+        "The all stories page supports exploratory browsing through categories, content types, articles, blogs, media releases, videos, and albums."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 3,
-      "id": "S-REF3",
-      "product": "Strava",
-      "source_type": "Official support",
-      "title": "Activity Privacy Controls - Strava Support",
-      "url": "https://support.strava.com/hc/en-us/articles/216919377-Activity-Privacy-Controls",
+      "id": "F-REF3",
+      "product": "FIFA",
+      "title": "FIFA World Cup 2026 Blog",
+      "url": "https://inside.fifa.com/blogs/fwc-2026",
+      "domain": "inside.fifa.com",
+      "source_type": "Official FIFA tournament blog",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "Activities can use Everyone, Followers, or Only You visibility, with default and per-activity changes."
+        "The FIFA World Cup 2026 blog functions as a tournament story hub with dated updates and story cards."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 4,
-      "id": "S-REF4",
-      "product": "Strava",
-      "source_type": "Official support",
-      "title": "Creating Routes on Mobile - Strava Support",
-      "url": "https://support.strava.com/hc/en-us/articles/18001474720397-Creating-Routes-on-Mobile",
+      "id": "F-REF4",
+      "product": "FIFA",
+      "title": "FIFA World Cup 26 Ticketing Programme launches this September",
+      "url": "https://inside.fifa.com/tournament-organisation/commercial/media-releases/world-cup-26-ticketing-programme-launch-september",
+      "domain": "inside.fifa.com",
+      "source_type": "Official FIFA media release",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "The mobile Maps tab and Create Route flow support route planning by sport type and map interaction."
+        "FIFA directs fans to FIFA.com/tickets to register interest, create a FIFA ID, and follow phased ticket releases."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 5,
-      "id": "S-REF5",
-      "product": "Strava",
-      "source_type": "Official support",
-      "title": "Segment Leaderboard Guidelines - Strava Support",
-      "url": "https://support.strava.com/hc/en-us/articles/216919507-Segment-Leaderboard-Guidelines",
+      "id": "F-REF5",
+      "product": "FIFA",
+      "title": "FIFA World Cup 2026 Last-Minute Sales Phase",
+      "url": "https://inside.fifa.com/media-releases/last-minute-ticket-sales-phase-fifa-world-cup-2026",
+      "domain": "inside.fifa.com",
+      "source_type": "Official FIFA media release",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "Segments use matched GPS efforts and leaderboards separated by activity type."
+        "FIFA.com/tickets is identified as the official and preferred ticket source; fans are asked to check it regularly; the official Resale/Exchange Marketplace is available for eligible ticket holders."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 6,
-      "id": "S-REF6",
-      "product": "Strava",
-      "source_type": "Official support",
-      "title": "Strava Challenges - Strava Support",
-      "url": "https://support.strava.com/hc/en-us/articles/216919177-Strava-Challenges",
+      "id": "F-REF6",
+      "product": "FIFA",
+      "title": "Watch FIFA+ Live Stream Online",
+      "url": "https://www.plus.fifa.com/",
+      "domain": "www.plus.fifa.com",
+      "source_type": "Official FIFA+ watch destination",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "Challenges motivate activity through distance, elevation, time, segment, and frequency goals."
+        "FIFA+ presents a watch surface with sign-in or get-started controls, live or upcoming content, highlights, replays, documentaries, and archive content.",
+        "The FIFA+ destination is presented through a DAZN-branded page."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 7,
-      "id": "S-REF7",
-      "product": "Strava",
-      "source_type": "Official app store",
-      "title": "Strava: Run, Bike, Walk - App Store",
-      "url": "https://apps.apple.com/us/app/strava-run-bike-walk/id426826309",
+      "id": "F-REF7",
+      "product": "FIFA",
+      "title": "Match Centre",
+      "url": "https://www.fifa.com/en/match-centre",
+      "domain": "www.fifa.com",
+      "source_type": "Official FIFA Match Centre",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "The listing describes GPS tracking, activity sharing, segments, route planning, and challenges."
+        "The Match Centre URL exposes fixtures, results, match details, competitions, and live-now filtering; some content is client-side rendered."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 8,
-      "id": "S-REF8",
-      "product": "Strava",
-      "source_type": "Official app store",
-      "title": "Strava: Run, Bike, Walk - Google Play",
-      "url": "https://play.google.com/store/apps/details?id=com.strava",
+      "id": "F-REF8",
+      "product": "FIFA",
+      "title": "FIFA/Coca-Cola Men's World Ranking",
+      "url": "https://inside.fifa.com/fifa-world-ranking/men",
+      "domain": "inside.fifa.com",
+      "source_type": "Official FIFA rankings page",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "The listing presents Strava as a multi-sport tracking and fitness community app."
+        "The rankings page exposes the latest men's ranking table, filters, official update dates, and ranking rules notes."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 9,
-      "id": "N-REF1",
-      "product": "Nike Run Club",
-      "source_type": "Official product page",
-      "title": "Nike Run Club App",
-      "url": "https://www.nike.com/nrc-app",
+      "id": "F-REF9",
+      "product": "FIFA",
+      "title": "Tickets & Hospitality",
+      "url": "https://www.fifa.com/en/tickets",
+      "domain": "www.fifa.com",
+      "source_type": "Official FIFA tickets page",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "Nike Run Club is a running app with guided runs, training plans, challenges, run tracking, and community motivation."
+        "The tickets URL is the official entry point for first-hand FIFA tournament ticket and hospitality information; the page is client-side rendered in crawled text."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 10,
-      "id": "N-REF2",
-      "product": "Nike Run Club",
-      "source_type": "Official app store",
-      "title": "Nike Run Club: Running Coach - App Store",
-      "url": "https://apps.apple.com/us/app/nike-run-club-running-coach/id387771637",
+      "id": "C-REF1",
+      "product": "Chess.com",
+      "title": "Chess.com homepage",
+      "url": "https://www.chess.com/",
+      "domain": "www.chess.com",
+      "source_type": "Official Chess.com homepage",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "The listing describes Guided Runs, Training Plans, Apple Watch support, challenges, achievements, and safety features."
+        "The homepage foregrounds Play, Puzzles, Learn, Train, Watch, Community, Get Started, lessons, bots, puzzles, and watching events."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 11,
-      "id": "N-REF3",
-      "product": "Nike Run Club",
-      "source_type": "Official app store",
-      "title": "Nike Run Club - Running Coach - Google Play",
-      "url": "https://play.google.com/store/apps/details?id=com.nike.plusgps",
+      "id": "C-REF2",
+      "product": "Chess.com",
+      "title": "How do I start a game on Chess.com?",
+      "url": "https://support.chess.com/en/articles/8609779-how-do-i-start-a-game-on-chess-com",
+      "domain": "support.chess.com",
+      "source_type": "Official Chess.com help",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "The listing describes GPS run tracking, Audio-Guided Runs, Training Plans, challenges, and coaching."
+        "Users can start games from the homescreen or site-wide Play menu, using recent time control, custom settings, random opponent, bots, or friends."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 12,
-      "id": "N-REF4",
-      "product": "Nike Run Club",
-      "source_type": "Official Nike page",
-      "title": "Running Training Plans. Nike.com",
-      "url": "https://www.nike.com/running/training-plans",
+      "id": "C-REF3",
+      "product": "Chess.com",
+      "title": "What are pre-moves and how do they work?",
+      "url": "https://support.chess.com/en/articles/8562432-what-are-pre-moves-and-how-do-they-work",
+      "domain": "support.chess.com",
+      "source_type": "Official Chess.com help",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "Nike training plans include guided runs, mindset advice, recovery tips, and goal-oriented running schedules."
+        "Premoves can be enabled and then entered while it is the opponent's turn; the feature saves time but executes automatically if legal."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 13,
-      "id": "N-REF5",
-      "product": "Nike Run Club",
-      "source_type": "Official Nike help",
-      "title": "Does the NRC App Have Training Plans? | Nike Help",
-      "url": "https://www.nike.com/help/a/nrc-plan",
+      "id": "C-REF4",
+      "product": "Chess.com",
+      "title": "What is focus mode? How do I turn it on?",
+      "url": "https://support.chess.com/en/articles/8588088-what-is-focus-mode-how-do-i-turn-it-on",
+      "domain": "support.chess.com",
+      "source_type": "Official Chess.com help",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "Nike states the app features training plans created by NRC coaches for all levels of runners."
+        "Focus Mode minimizes distractions by expanding the board and showing only the board, clocks, draw, and resign controls."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 14,
-      "id": "N-REF6",
-      "product": "Nike Run Club",
-      "source_type": "Official Nike help",
-      "title": "How Do I Get Started in the NRC App? | Nike Help",
-      "url": "https://www.nike.com/help/a/nrc-start-run",
+      "id": "C-REF5",
+      "product": "Chess.com",
+      "title": "How do I change my board size?",
+      "url": "https://support.chess.com/en/articles/8609533-how-do-i-change-my-board-size",
+      "domain": "support.chess.com",
+      "source_type": "Official Chess.com help",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "The Run tab supports basic runs, distance or time targets, speed runs, and Guided Runs."
+        "Board settings, Focus Mode, Theatre Mode, and Flip Board appear when hovering near the board/sidebar boundary, creating a discoverability issue for hidden controls."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 15,
-      "id": "N-REF7",
-      "product": "Nike Run Club",
-      "source_type": "Official Nike newsroom",
-      "title": "Nike Run Club App Delivers New Features",
-      "url": "https://about.nike.com/en/newsroom/releases/nike-run-club-app-new-features",
+      "id": "C-REF6",
+      "product": "Chess.com",
+      "title": "How does Game Review work?",
+      "url": "https://support.chess.com/en/articles/8584089-how-does-game-review-work",
+      "domain": "support.chess.com",
+      "source_type": "Official Chess.com help",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "Nike describes localized run tips, real-time location sharing with friends and family, six training plans, and about 300 audio guided runs."
+        "Game Review appears after a game and provides a detailed review flow with accuracy, move classifications, key moves, coach guidance, graphs, and retry learning."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     },
     {
       "num": 16,
-      "id": "N-REF8",
-      "product": "Nike Run Club",
-      "source_type": "Official Nike page",
-      "title": "How the Nike Run Club App Can Help You Reach Your Running Goals",
-      "url": "https://www.nike.com/a/running-goals",
+      "id": "C-REF7",
+      "product": "Chess.com",
+      "title": "How do I use Game Analysis?",
+      "url": "https://support.chess.com/en/articles/8583757-how-do-i-use-game-analysis",
+      "domain": "support.chess.com",
+      "source_type": "Official Chess.com help",
+      "language": "English",
       "access_date": "2026-06-10",
       "claims_supported": [
-        "Nike describes pace, location, distance, elevation, heart rate, mile splits, progress history, and wearable pairing."
+        "Game Analysis lets users revisit analyzed games and continue deeper study through analysis tools."
       ],
       "confidence": "High",
-      "notes": "Official source; accessed for PA1 evidence refresh."
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+    },
+    {
+      "num": 17,
+      "id": "C-REF8",
+      "product": "Chess.com",
+      "title": "How do I use the analysis board?",
+      "url": "https://support.chess.com/en/articles/8583825-how-do-i-use-the-analysis-board",
+      "domain": "support.chess.com",
+      "source_type": "Official Chess.com help",
+      "language": "English",
+      "access_date": "2026-06-10",
+      "claims_supported": [
+        "The Analysis Board supports direct manipulation, setup position, FEN/PGN loading, game history, collections, engine settings, evaluation bar, lines, arrows, and move feedback."
+      ],
+      "confidence": "High",
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+    },
+    {
+      "num": 18,
+      "id": "C-REF9",
+      "product": "Chess.com",
+      "title": "How do Puzzles work on Chess.com?",
+      "url": "https://support.chess.com/en/articles/8608686-how-do-puzzles-work-on-chess-com",
+      "domain": "support.chess.com",
+      "source_type": "Official Chess.com help",
+      "language": "English",
+      "access_date": "2026-06-10",
+      "claims_supported": [
+        "Puzzles are reachable from the side menu or homepage and include puzzle of the day, rated puzzles, themes, Puzzle Rush, and Puzzle Battle."
+      ],
+      "confidence": "High",
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+    },
+    {
+      "num": 19,
+      "id": "C-REF10",
+      "product": "Chess.com",
+      "title": "How do Lessons work on Chess.com?",
+      "url": "https://support.chess.com/en/articles/8609703-how-do-lessons-work-on-chess-com",
+      "domain": "support.chess.com",
+      "source_type": "Official Chess.com help",
+      "language": "English",
+      "access_date": "2026-06-10",
+      "claims_supported": [
+        "Lessons are reached from Learn, use interactive practice challenges, and include access limits by membership level."
+      ],
+      "confidence": "High",
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+    },
+    {
+      "num": 20,
+      "id": "C-REF11",
+      "product": "Chess.com",
+      "title": "Chess Study Plans for All Levels",
+      "url": "https://www.chess.com/article/view/study-plan-directory",
+      "domain": "www.chess.com",
+      "source_type": "Official Chess.com article",
+      "language": "English",
+      "access_date": "2026-06-10",
+      "claims_supported": [
+        "Study plans guide players by skill level and help organize training time through curated lessons and videos."
+      ],
+      "confidence": "High",
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+    },
+    {
+      "num": 21,
+      "id": "C-REF12",
+      "product": "Chess.com",
+      "title": "Chess.com tournaments schedule",
+      "url": "https://support.chess.com/en/articles/9062345-chess-com-tournaments-schedule",
+      "domain": "support.chess.com",
+      "source_type": "Official Chess.com help",
+      "language": "English",
+      "access_date": "2026-06-10",
+      "claims_supported": [
+        "Tournament schedules expose arena and prize tournament calendars such as Titled Tuesday, Arena Kings, Bullet Brawls, and variant events."
+      ],
+      "confidence": "High",
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+    },
+    {
+      "num": 22,
+      "id": "C-REF13",
+      "product": "Chess.com",
+      "title": "Cheating And Fair Play On Chess.com",
+      "url": "https://www.chess.com/cheating",
+      "domain": "www.chess.com",
+      "source_type": "Official Chess.com fair-play page",
+      "language": "English",
+      "access_date": "2026-06-10",
+      "claims_supported": [
+        "The fair-play page explains competitive integrity, account closures, fair-play policy, event checks, and enforcement expectations."
+      ],
+      "confidence": "High",
+      "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
     }
   ],
   "assumptions": [
-    "GROUP_ID remains the default placeholder because no real group identifier was provided.",
-    "Team roster uses placeholder names because no real member names were provided.",
-    "The weekly-report template PDF was not present in this repository or /mnt/data during repair, so the fallback RUP + Scrum structure is used.",
-    "Access date is recorded as 2026-06-10 using the workspace date.",
-    "Interface observations are source-grounded from official product/help/store/newsroom pages, not from unsupported screenshots.",
-    "Mermaid source is preserved and readable text fallback diagrams are included in PDFs."
+    "GROUP_ID and member names are placeholders.",
+    "Peer reviewer names are mock names for preparation only.",
+    "Official Vietnamese pages were not surfaced during the source refresh.",
+    "Mermaid source is preserved; PDF diagrams include readable text fallback."
   ]
 }

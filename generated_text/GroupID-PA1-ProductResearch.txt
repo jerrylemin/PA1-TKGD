@@ -1,189 +1,2188 @@
-GroupID-PA1 Product Research: Strava and Nike Run Club
+GroupID-PA1 Product Research: FIFA and Chess.com web experiences
+Group ID: GroupID. Members: Member1, Member2, Member3, Member4, Member5. Course: HCI. Date: 2026-06-10. Product pair: FIFA.com and Chess.com. Screenshot evidence note: all screen-level claims
+reference captured or annotated Playwright evidence.
 Executive summary
-This report compares Strava and Nike Run Club as mobile-first running and activity products. Strava emphasizes broad sports tracking, social
-competition, route and segment culture, activity sharing, and privacy settings. Nike Run Club emphasizes running-specific coaching, audio
-guidance, beginner support, training plans, achievements, challenges, and safety sharing [1][2][9][10][15].
-Product selection
-| Product | Domain | Modality | Positioning |
-| --- | --- | --- | --- |
-| Strava | Sports activity tracking and social fitness | Mobile-first GPS, maps, social feed, route and segment interaction | Mobile social activity network and multi-sport trackin
-| Nike Run Club | Running coach and run tracking | Mobile-first run tracking, audio-guided coaching, plans, challenges, achievements, live location sharing, optional Apple Watch su
-Source protocol
-Official product, support, help, newsroom, App Store, and Google Play pages were prioritized. Every nontrivial product claim cites the numbered
-references below; interface observations are treated as source-grounded, not as unsupported screenshots.
-| Citation | Product | Type | Claim supported |
-| --- | --- | --- | --- |
-| [1] | Strava | Official product page | Strava positions itself around activity tracking, maps, performance data, and community sharing. |
-| [2] | Strava | Official support | Mobile recording includes activity capture, save/discard choices, activity details, privacy controls, and Beacon entry points. |
-| [3] | Strava | Official support | Activities can use Everyone, Followers, or Only You visibility, with default and per-activity changes. |
-| [4] | Strava | Official support | The mobile Maps tab and Create Route flow support route planning by sport type and map interaction. |
-| [5] | Strava | Official support | Segments use matched GPS efforts and leaderboards separated by activity type. |
-| [6] | Strava | Official support | Challenges motivate activity through distance, elevation, time, segment, and frequency goals. |
-| [7] | Strava | Official app store | The listing describes GPS tracking, activity sharing, segments, route planning, and challenges. |
-| [8] | Strava | Official app store | The listing presents Strava as a multi-sport tracking and fitness community app. |
-| [9] | Nike Run Club | Official product page | Nike Run Club is a running app with guided runs, training plans, challenges, run tracking, and community motivation. |
-| [10] | Nike Run Club | Official app store | The listing describes Guided Runs, Training Plans, Apple Watch support, challenges, achievements, and safety features. |
-| [11] | Nike Run Club | Official app store | The listing describes GPS run tracking, Audio-Guided Runs, Training Plans, challenges, and coaching. |
-| [12] | Nike Run Club | Official Nike page | Nike training plans include guided runs, mindset advice, recovery tips, and goal-oriented running schedules. |
-| [13] | Nike Run Club | Official Nike help | Nike states the app features training plans created by NRC coaches for all levels of runners. |
-| [14] | Nike Run Club | Official Nike help | The Run tab supports basic runs, distance or time targets, speed runs, and Guided Runs. |
-| [15] | Nike Run Club | Official Nike newsroom | Nike describes localized run tips, real-time location sharing with friends and family, six training plans, and about 300 audio gui
-| [16] | Nike Run Club | Official Nike page | Nike describes pace, location, distance, elevation, heart rate, mile splits, progress history, and wearable pairing. |
+This report compares FIFA and Chess.com as web experiences with opposite interaction centers. FIFA is primarily browse, compare, and follow: the user moves through official football news, match data, rankings,
+tickets, and a FIFA+ watch handoff. Chess.com is primarily do, review, and improve: the user starts games, manages speed features, reviews finished games, analyzes positions, solves puzzles, follows lessons, and
+plans tournaments. Numbered references are used for all product claims.
+Method and evidence protocol
+The team observed official website screens through Chromium automation, saved raw screenshots, generated annotated versions and crops with sharp, and recorded captions in assets/figures_manifest.json.
+Screenshots are used as evidence only when the referenced UI region is visible. Limitations: login-only personalized states were not entered, and any live content visible on access date may change.
+Figure
+Product
+Evidence role
+F-01 to F-08
+FIFA.com
+Captured live pages for home, navigation, Match Centre, search, article, competition, and mobile
+density
+F-09 to F-12
+FIFA.com
+Flow/map, crop, and proposed improvement figures grounded in the captured evidence
+C-01 to C-08
+Chess.com
+Captured live pages for home, play, board, puzzle, learn, navigation, feedback, and mobile layout
+C-09 to C-12
+Chess.com
+Flow/map, crop, and proposed improvement figures grounded in the captured evidence
+Product selection rationale
+Product
+Domain
+Modality
+Positioning
+FIFA
+Official football portal and watch ecosystem
+Browse-first web product for football information, rankings, ticketing, and
+watch handoff
+Browse-first football web ecosystem for official news, match-following,
+rankings, tournament discovery, ticketing trust, and FIFA+ watch handoff.
+Chess.com
+Online chess play and learning platform
+Action-first web product for play, review, analysis, and learning
+Action-first chess web platform for games, review, self-analysis, puzzles,
+lessons, study plans, tournaments, and fair-play-guided competitive play.
+FIFA.com was selected as the official browse-first football portal. Chess.com was selected as an action-first online chess platform. The comparison isolates how sports websites differ when one product centers on
+official information discovery and the other centers on immediate gameplay and feedback.
+Source method
+Official English pages were prioritized. FIFA client-side pages that yielded sparse crawl text were retained as official URLs when screenshots confirmed the screen. Chess.com claims rely on the official homepage,
+observed Playwright screenshots, and official support pages. Secondary sources were not needed.
+Citation
+Product
+Type
+Claim supported
+[1]
+FIFA
+Official FIFA news and navigation
+Inside FIFA exposes Latest FIFA News and the global navigation labels
+Match Centre, News, Rankings, Tickets & Hospitality, Play, Inside FIFA,
+plus sibling destinations such as FIFA+, Store, Collect, and Rewards.
+[2]
+FIFA
+Official FIFA topic index
+The all stories page supports exploratory browsing through categories,
+content types, articles, blogs, media releases, videos, and albums.
+[3]
+FIFA
+Official FIFA tournament blog
+The FIFA World Cup 2026 blog functions as a tournament story hub with
+dated updates and story cards.
+[4]
+FIFA
+Official FIFA media release
+FIFA directs fans to FIFA.com/tickets to register interest, create a FIFA
+ID, and follow phased ticket releases.
+
+Citation
+Product
+Type
+Claim supported
+[5]
+FIFA
+Official FIFA media release
+FIFA.com/tickets is identified as the official and preferred ticket source;
+fans are asked to check it regularly; the official Resale/Exchange
+Marketplace is available for eligible ticket holders.
+[6]
+FIFA
+Official FIFA+ watch destination
+FIFA+ presents a watch surface with sign-in or get-started controls, live or
+upcoming content, highlights, replays, documentaries, and archive
+content. The FIFA+ destination is presented through a DAZN-branded
+page.
+[7]
+FIFA
+Official FIFA Match Centre
+The Match Centre URL exposes fixtures, results, match details,
+competitions, and live-now filtering; some content is client-side rendered.
+[8]
+FIFA
+Official FIFA rankings page
+The rankings page exposes the latest men's ranking table, filters, official
+update dates, and ranking rules notes.
+[9]
+FIFA
+Official FIFA tickets page
+The tickets URL is the official entry point for first-hand FIFA tournament
+ticket and hospitality information; the page is client-side rendered in
+crawled text.
+[10]
+Chess.com
+Official Chess.com homepage
+The homepage foregrounds Play, Puzzles, Learn, Train, Watch,
+Community, Get Started, lessons, bots, puzzles, and watching events.
+[11]
+Chess.com
+Official Chess.com help
+Users can start games from the homescreen or site-wide Play menu,
+using recent time control, custom settings, random opponent, bots, or
+friends.
+[12]
+Chess.com
+Official Chess.com help
+Premoves can be enabled and then entered while it is the opponent's
+turn; the feature saves time but executes automatically if legal.
+[13]
+Chess.com
+Official Chess.com help
+Focus Mode minimizes distractions by expanding the board and showing
+only the board, clocks, draw, and resign controls.
+[14]
+Chess.com
+Official Chess.com help
+Board settings, Focus Mode, Theatre Mode, and Flip Board appear when
+hovering near the board/sidebar boundary, creating a discoverability issue
+for hidden controls.
+[15]
+Chess.com
+Official Chess.com help
+Game Review appears after a game and provides a detailed review flow
+with accuracy, move classifications, key moves, coach guidance, graphs,
+and retry learning.
+[16]
+Chess.com
+Official Chess.com help
+Game Analysis lets users revisit analyzed games and continue deeper
+study through analysis tools.
+[17]
+Chess.com
+Official Chess.com help
+The Analysis Board supports direct manipulation, setup position,
+FEN/PGN loading, game history, collections, engine settings, evaluation
+bar, lines, arrows, and move feedback.
+[18]
+Chess.com
+Official Chess.com help
+Puzzles are reachable from the side menu or homepage and include
+puzzle of the day, rated puzzles, themes, Puzzle Rush, and Puzzle Battle.
+[19]
+Chess.com
+Official Chess.com help
+Lessons are reached from Learn, use interactive practice challenges, and
+include access limits by membership level.
+[20]
+Chess.com
+Official Chess.com article
+Study plans guide players by skill level and help organize training time
+through curated lessons and videos.
+[21]
+Chess.com
+Official Chess.com help
+Tournament schedules expose arena and prize tournament calendars
+such as Titled Tuesday, Arena Kings, Bullet Brawls, and variant events.
+[22]
+Chess.com
+Official Chess.com fair-play page
+The fair-play page explains competitive integrity, account closures,
+fair-play policy, event checks, and enforcement expectations.
+Product A: FIFA.com
+FIFA.com is the official football web portal for sports news, match information, tournament discovery, rankings, official media, tickets, and FIFA+ handoff when relevant.
+FIFA user groups
+Casual fans, tournament followers, and media/student researchers need official football information under different time pressure and credibility requirements.
+Product B: Chess.com
+
+Chess.com is an online chess platform for playing games, solving puzzles, learning lessons, reviewing games, reading chess content, and improving chess skill.
+Chess.com user groups
+Beginner learners, competitive online players, and returning casual players need fast play, visible feedback, and progressive learning paths.
 Personas
-Strava personas
-| ID | Name | Age | Gender | Tech | Habit | Goal | Frustration | Context |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S-P1 | Maya Chen | 21 | Female | High | Campus runner; three 5 km runs per week | Track pace and join monthly distance challenges | Forgets privacy settings when routes start nea
-| S-P2 | Dara Somchai | 34 | Male | Medium | Weekend cyclist | Compare segment performance and plan familiar routes | Leaderboards can feel punitive when rankings are far away | Ro
-| S-P3 | Lina Pham | 46 | Female | Low-medium | Walks for health after work | Save walks privately and see progress without public pressure | Discard/save wording feels risky when 
-Nike Run Club personas
-| ID | Name | Age | Gender | Tech | Habit | Goal | Frustration | Context |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| N-P1 | Anh Nguyen | 19 | Male | Medium | Beginner runner, wants first 5K | Follow guided runs without planning too much | Gets confused when there are many run types and plan opt
-| N-P2 | Sofia Tran | 27 | Female | High | Trains for 10K and half marathon | Follow structured plan, track pace, compare progress, keep streaks | Audio cues and achievement prompt
-| N-P3 | Minh Le | 42 | Male | Low-medium | Returns to running after long break | Run safely, avoid overtraining, share live location with family | Unsure whether live sharing, pla
+ID
+Persona
+Age range
+Tech experience
+Domain experience
+Main goal
+Frustration
+Device
+Environment
+Usage frequency
+Constraint
+F-P1
+Casual football fan
+18-25
+Medium
+Low-medium
+Check today's fixtures,
+live scores, results, and
+short news quickly
+Slow paths to match
+information
+Mobile phone
+Public transport or short
+break
+Several times per week
+Interrupted attention and
+low patience
+F-P2
+Tournament follower
+24-40
+High
+Medium-high
+Follow tournament
+pages, teams, fixtures,
+standings, and media
+Too many tournament
+links to compare
+Desktop
+Home or office
+Weekly during
+tournaments
+Needs scannable
+date/team comparison
+F-P3
+Media or student
+researcher
+20-35
+High
+Medium
+Find official football news,
+tournament history, team
+info, and reliable sources
+Unclear source path
+across FIFA properties
+Laptop
+Focused research
+session
+Monthly or project-based
+Needs credible source
+trails
+C-P1
+Beginner chess learner
+13-22
+Medium
+Low
+Start a simple game,
+learn rules, solve easy
+puzzles
+Feature overload before
+knowing chess terms
+Mobile or laptop
+Home or school
+Several times per week
+Low domain knowledge
+and needs guidance
+C-P2
+Competitive online player
+18-35
+High
+High
+Start a rated game
+quickly and monitor clock,
+moves, rating, opponent
+status
+Delay or mis-tap under
+time pressure
+Desktop
+Focused play setup
+Daily
+Motor accuracy and low
+delay tolerance
+C-P3
+Returning casual player
+25-45
+Medium-high
+Medium
+Play a daily or quick
+game, read content,
+review mistakes
+Forgets feature locations
+and analysis meanings
+Mobile browser
+Interrupted home use
+Weekly
+Needs recognition and
+lightweight feedback
+FIFA personas
+ID
+Name
+Age
+Tech proficiency
+Goal
+Context
+F-P1
+Lan Tran
+20
+Medium
+Check scores, fixtures, and one key tournament
+story between classes
+Student on campus laptop, short time window,
+noisy environment, intermittent attention
+F-P2
+Ethan Nguyen
+27
+High
+Follow official tournament news and rankings
+during office breaks
+Desktop at work, multiple tabs open, daylight
+glare, short sessions, high scan pressure
+F-P3
+Maria Pham
+31
+Medium
+Verify official ticket source, resale status, and
+then watch highlights on FIFA+
+Evening home browsing on laptop, compares
+tabs, trust-sensitive, family trip planning
+Chess.com personas
+ID
+Name
+Age
+Tech proficiency
+Goal
+Context
+C-P1
+Minh Bui
+18
+Medium
+Learn chess basics through lessons, puzzles,
+and a study plan
+Student on shared laptop, beginner mental
+model, low confidence, needs guidance
+C-P2
+Alex Hoang
+24
+High
+Start blitz games fast, use premoves, reduce
+distractions, keep momentum
+External keyboard and mouse, noisy dorm room,
+many short sessions, time pressure
+C-P3
+Quynh Le
+29
+High
+Review finished games, run self-analysis, and
+plan tournament play
+Quiet desktop setup, longer study sessions,
+strong interest in accuracy and improvement
 Use cases
-Strava use cases
-| ID | Title | Primary persona | Step-by-step user flow | Context, preconditions, postconditions, alternate/error paths, feedback, evidence |
 
-| --- | --- | --- | --- | --- |
-| S-UC1 | Record an outdoor run | S-P1 | Open Record, wait for location confidence, start, pause/finish, review, set privacy, save. | Campus loop; evening; standing then moving; ph
-| S-UC2 | Create a mobile route | S-P2 | Open Maps, Create Route, choose sport, tap route points, review distance/elevation, save. | Home planning; seated; Wi-Fi; map touch; route 
-| S-UC3 | Compare a segment effort | S-P2 | Open activity, inspect segment match, compare rank, filter context, decide next training goal. | Post-ride review; indoor light; cogniti
-| S-UC4 | Join a challenge | S-P1 | Browse challenge, inspect goal terms, join, track progress, receive completion feedback. | Monthly motivation; social pressure; evidence [6][7].
-| S-UC5 | Edit activity privacy before sharing | S-P3 | Review activity, choose visibility, confirm audience, save, verify detail page. | Home-route privacy concern; low light; err
-Nike Run Club use cases
-| ID | Title | Primary persona | Step-by-step user flow | Context, preconditions, postconditions, alternate/error paths, feedback, evidence |
-| --- | --- | --- | --- | --- |
-| N-UC1 | Start and record a free run | N-P1 | Trigger: wants a quick run. Preconditions: signed in, location permission enabled. Flow: Open Nike Run Club, Run tab, select basic ru
-| N-UC2 | Start an audio-guided run | N-P1 | Trigger: wants coaching. Preconditions: headphones connected and audio available. Flow: choose Guided Run, review coach/run length, con
-| N-UC3 | Choose and follow a training plan | N-P2 | Trigger: race preparation. Preconditions: goal distance and schedule known. Flow: open plans, choose goal, inspect weekly sched
-| N-UC4 | Create or join a challenge | N-P2 | Trigger: wants motivation with friends. Preconditions: account and friends/community available. Flow: browse challenge, inspect goal t
-| N-UC5 | Share live run location and finish safely | N-P3 | Trigger: night run safety. Preconditions: location permission and chosen contacts. Flow: choose live sharing, confirm r
+ID
+Title
+Product
+Persona
+Device
+Posture
+Attention
+Distraction
+Normal flow
+Alternate flow
+Error path
+Figures
+HCI concepts
+F-UC1
+Find today's match
+schedule
+FIFA.com
+F-P1
+Mobile
+One-handed glance
+Low
+Public transport
+Open FIFA.com,
+select Match Centre,
+scan date/live rows
+No live match; switch
+to results
+Slow client render;
+retry/refresh
+F-04, F-08
+information scent,
+visibility of status
+F-UC2
+Check live score or
+result
+FIFA.com
+F-P1
+Mobile/desktop
+Short break
+Low
+Noisy place
+Use Match Centre
+and live toggle
+Sort/filter by
+competition
+Too many entries;
+search competition
+F-04
+mental model,
+cognitive load
+F-UC3
+Read football news
+article
+FIFA.com
+F-P2
+Desktop/mobile
+Leaning back
+Medium
+Office
+Open News or article
+URL, scan
+headline/body
+Use related links
+Reading interrupted
+by dense media
+F-06
+visual attention,
+reading load
+F-UC4
+Find tournament
+information
+FIFA.com
+F-P2
+Desktop
+Focused comparison
+Medium
+Home/office
+Open tournament
+page, scan
+dates/teams/content
+Use navigation/footer
+Wrong FIFA property
+reached
+F-07, F-10
+information
+architecture,
+consistency
+F-UC5
+Search team/player/a
+rticle/tournament
+FIFA.com
+F-P3
+Laptop
+Focused lookup
+High
+Research session
+Open search, enter
+query, compare
+result categories
+Use navigation if
+search fails
+Sparse or mixed
+results
+F-05
+recognition, error
+recovery
+C-UC1
+Start quick online
+chess game
+Chess.com
+C-P2
+Desktop/mobile
+Focused play
+High
+Quiet or noisy room
+Open Play, choose
+time control, start
+game
+Custom challenge or
+friend
+Account prompt or
+match settings
+mismatch
+C-02, C-07
+efficiency, user
+control
+C-UC2
+Solve a puzzle
+Chess.com
+C-P1
+Mobile/desktop
+Learning posture
+Medium
+School/home
+Open Puzzles, read
+prompt, make move,
+observe feedback
+Choose puzzle mode
+Intro modal or access
+limit interrupts
+C-04, C-11
+feedback, learnability
+C-UC3
+Learn a beginner
+lesson
+Chess.com
+C-P1
+Laptop
+Exploratory
+Medium
+Home
+Open Learn/Lessons,
+choose beginner
+topic
+Use study plan
+Too many paths
+C-05
+progressive
+disclosure
+C-UC4
+Review game or view
+board feedback
+Chess.com
+C-P3
+Desktop
+Reflective study
+High
+Quiet desk
+Finish/open game,
+view review/analysis
+controls
+Use analysis board
+Dense feedback
+overwhelms
+C-03, C-12
+informative feedback
+C-UC5
+Read chess
+news/opening
+content
+Chess.com
+C-P3
+Mobile/desktop
+Casual reading
+Medium
+Interrupted attention
+Open News, scan
+article list, open story
+Search community
+content
+Navigation density
+distracts
+C-09B, C-06
+content discovery,
+memory load
+F-UC1. Open Match Centre and check today's matches
+Field
+Detail
+Primary persona
+F-P1
+Goal
+Find current fixtures or results quickly
+Trigger
+Short break begins
+Context
+Campus laptop, noisy hallway, five-minute window
+Preconditions
+Browser online; FIFA.com reachable
+Postconditions
+User knows which matches are active today
+Step-by-step flow
+Open FIFA.com; choose Match Centre; scan today/live filters; open one match detail; return to list
+Alternate flow
+If no live match appears, switch to latest results
+Error path
+Client-side content is slow; use navigation label and retry or refresh
+Feedback points
+Fixture cards, live status, score rows, match detail link
+Evidence references
+[1][7]
+F-UC2. Open official tournament news and read one FIFA World Cup 2026 story
+Field
+Detail
+Primary persona
+F-P2
+Goal
+Read one current official tournament story
+Trigger
+Office break and tournament headline interest
+Context
+Desktop with many tabs and glare
+
+Field
+Detail
+Preconditions
+Inside FIFA and tournament blog available
+Postconditions
+One article read and source confidence maintained
+Step-by-step flow
+Open Inside FIFA; choose FIFA World Cup 2026 blog or News; scan dated story cards; open one story; return to topic hub
+Alternate flow
+Use All stories filters if blog card is not visible
+Error path
+Story list overload delays choice
+Feedback points
+Dated cards, topic labels, article headline, breadcrumb
+Evidence references
+[1][2][3]
+F-UC3. Open Rankings from the global navigation
+Field
+Detail
+Primary persona
+F-P2
+Goal
+Check the latest official ranking quickly
+Trigger
+Coworker asks ranking question
+Context
+Desktop at work; short session; high scan pressure
+Preconditions
+Ranking page reachable
+Postconditions
+User identifies latest ranking and update date
+Step-by-step flow
+Open FIFA global nav; choose Rankings; select men's ranking; scan rank table; note last official update
+Alternate flow
+Switch filters if the wrong table appears
+Error path
+Ranking table loads after shell; user waits or retries
+Feedback points
+Rank table, filters, update date, full rankings control
+Evidence references
+[1][8]
+F-UC4. Verify official tickets and resale source
+Field
+Detail
+Primary persona
+F-P3
+Goal
+Confirm official ticket and resale route before family purchase
+Trigger
+Trip planning conversation begins
+Context
+Home laptop, multiple comparison tabs, trust-sensitive
+Preconditions
+Ticket page and media release available
+Postconditions
+User trusts FIFA.com/tickets and understands resale/exchange status
+Step-by-step flow
+Open FIFA Tickets; cross-check media release; identify FIFA.com/tickets; read resale/exchange note; save official URL
+Alternate flow
+Check hospitality if standard tickets unavailable
+Error path
+Availability changes require repeated checks
+Feedback points
+Official/preferred wording, ticket URL, resale/exchange marketplace cue
+Evidence references
+[4][5][9]
+F-UC5. Open FIFA+ and start a watch session
+Field
+Detail
+Primary persona
+F-P3
+Goal
+Move from FIFA information to FIFA+ highlights or archive
+Trigger
+After ticket/news research, user wants video
+Context
+Evening laptop, family browsing, account friction sensitivity
+
+Field
+Detail
+Preconditions
+FIFA+ URL reachable; account may be required
+Postconditions
+User starts or understands the next step for watching
+Step-by-step flow
+Choose FIFA+ from FIFA ecosystem; land on watch page; scan live/highlight rails; select content; sign in or get started
+Alternate flow
+Continue browsing FIFA.com if sign-in is not acceptable
+Error path
+DAZN branding creates handoff uncertainty
+Feedback points
+FIFA+ hero, sign-in/get-started controls, live and archive rails
+Evidence references
+[1][6]
+C-UC1. Start a live game with default or custom settings
+Field
+Detail
+Primary persona
+C-P2
+Goal
+Begin a game with low setup time
+Trigger
+User has a short blitz window
+Context
+Dorm desktop, external mouse, noise, time pressure
+Preconditions
+Signed in or guest play available
+Postconditions
+Game starts with selected opponent and time control
+Step-by-step flow
+Open Chess.com; choose Play or homescreen start; accept recent time control or customize; choose random opponent, bot, or friend; start
+Alternate flow
+Choose unrated or custom settings first
+Error path
+Rating or match settings mismatch; return to play setup
+Feedback points
+Play call-to-action, time control, rated toggle, opponent choice
+Evidence references
+[10][11]
+C-UC2. Use premoves during a blitz game
+Field
+Detail
+Primary persona
+C-P2
+Goal
+Save seconds under time pressure without losing control
+Trigger
+Clock drops below comfort level
+Context
+Noisy dorm room, fast mouse input, high stress
+Preconditions
+Premoves enabled in live settings
+Postconditions
+Queued legal move executes after opponent response
+Step-by-step flow
+During opponent turn, drag next move; observe queued move; continue if response fits
+Alternate flow
+Disable premoves for serious accuracy
+Error path
+Opponent reply makes queued idea risky but legal
+Feedback points
+Board input, queued move behavior, clock feedback
+Evidence references
+[12]
+C-UC3. Turn on Focus Mode before a serious game
+Field
+Detail
+Primary persona
+C-P2
+Goal
+Reduce visual distraction and expand the board
+Trigger
+User starts a serious game
+Context
+Dorm noise and many on-screen distractions
+
+Field
+Detail
+Preconditions
+Board visible; focus control available
+Postconditions
+Board expands and nonessential panels hide
+Step-by-step flow
+Hover near board/sidebar boundary; choose Focus Mode; confirm board-only layout; start game
+Alternate flow
+Use keyboard shortcut or settings if discovered
+Error path
+Control hidden on hover and missed by first-time user
+Feedback points
+Focus icon, expanded board, clocks, draw and resign controls
+Evidence references
+[13][14]
+C-UC4. Run Game Review after a finished game, then go to Self Analysis
+Field
+Detail
+Primary persona
+C-P3
+Goal
+Understand mistakes and continue engine study
+Trigger
+Game ends
+Context
+Quiet desktop, longer study session
+Preconditions
+Finished game saved; review available
+Postconditions
+User sees classifications and starts deeper analysis
+Step-by-step flow
+Click Game Review; inspect graph, accuracy, key moves; retry a move; open Game Analysis or Analysis Board
+Alternate flow
+Reopen review from archive
+Error path
+Premium or depth gates interrupt expectations
+Feedback points
+Game Review button, graph, move classifications, retry, analysis controls
+Evidence references
+[15][16][17]
+C-UC5. Solve puzzles and choose a follow-up lesson or study plan
+Field
+Detail
+Primary persona
+C-P1
+Goal
+Build beginner skill through a guided loop
+Trigger
+Student wants to improve after a loss
+Context
+Shared laptop, low confidence, needs direction
+Preconditions
+Puzzles and Learn reachable
+Postconditions
+User completes a puzzle and chooses next learning action
+Step-by-step flow
+Open Puzzles; solve puzzle of day or rated puzzle; review feedback; open lesson or study plan; save next step
+Alternate flow
+Choose a beginner lesson first
+Error path
+Premium limit appears after click and interrupts momentum
+Feedback points
+Puzzle feedback, Learn menu, study-plan link, access labels
+Evidence references
+[18][19][20]
+Screen-level HCI analysis with annotated figures
+Figure F-01. FIFA.com home page information hierarchy
+
+The highlighted hero and task-entry regions show how a casual fan's attention is pulled between promotional content and football task entry.
+Figure F-02. FIFA.com desktop navigation
+
+The top navigation labels support recognition over recall for Match Centre, News, Rankings, Tickets, and More.
+Figure F-03. FIFA.com mobile navigation
+
+The mobile header and menu entry show the extra progressive-disclosure step before match-related tasks.
+Figure F-04. FIFA.com Match Centre
+
+The date rail, search, live toggle, and match rows support the user's mental model of checking fixtures by day.
+Figure F-05. FIFA.com search and discovery
+
+The search state supports official lookup tasks but needs clear category separation for teams, tournaments, and articles.
+Figure F-06. FIFA.com news article page
+
+The article surface shows reading-load and scan-load issues for football news consumption.
+Figure F-07. FIFA.com tournament page
+
+The tournament page groups competition discovery content for a tournament follower.
+Figure F-08. FIFA.com mobile content density
+
+The observed promotional modal on mobile is direct evidence of attention interruption over the home-page content.
+Figure F-09. FIFA.com task flow diagram
+
+The task-first navigation sketch is used as a visual proxy for the proposed FIFA browse-to-task flow.
+Figure F-10. FIFA.com navigation map
+
+The footer and ecosystem links show how global support and sibling destinations extend the navigation map.
+Figure F-11. FIFA.com usability issue crop
+
+The crop isolates the mobile overlay interruption that competes with match and article discovery.
+Figure F-12. FIFA.com proposed improvement sketch
+
+The proposed Match Centre filter bar maps the observed fixture-scanning issue to a concrete control redesign.
+Figure C-01. Chess.com home page information hierarchy
+
+The highlighted home page regions show task signposting for Play, Puzzles, Learn, Train, Watch, and Community.
+Figure C-02. Chess.com play entry point
+
+The board plus Start Game controls show the action-first pathway for starting a quick chess game.
+Figure C-03. Chess.com game board or demo board
+
+The chess board uses direct manipulation and a familiar game-board metaphor.
+Figure C-04. Chess.com puzzle page
+
+The puzzle screen shows a learning task with layered onboarding and feedback expectations.
+Figure C-05. Chess.com Learn page
+
+The learning surface shows multiple routes that need progressive disclosure for beginners.
+Figure C-06. Chess.com navigation menu
+
+The side navigation exposes many features, which helps expert recognition but increases beginner scan load.
+Figure C-07. Chess.com feedback and move status
+
+The compact play screen shows how clock, board, and action controls compete for mobile attention.
+Figure C-08. Chess.com mobile layout
+
+The mobile layout compresses feature discovery and account prompts into a narrow touch surface.
+Figure C-09. Chess.com task flow diagram
+
+The beginner-home sketch shows the proposed play, learn, puzzle, and review task sequence.
+Figure C-10. Chess.com navigation map
+
+The mobile navigation capture shows how feature-rich navigation shifts behind compact controls.
+Figure C-11. Chess.com usability issue crop
+
+The puzzle crop isolates a dense learning prompt layered over the board state.
+Figure C-12. Chess.com proposed improvement sketch
+
+The beginner analysis preset sketch maps observed analysis complexity to a progressive-disclosure solution.
 HCI findings
-Strava HCI findings
-| ID | Screen/flow | Interface element | Observed behavior | Persona/context | HCI concept mapping | Benefit/drawback | Concrete scenario | Severity | Evidence |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S-HCI1 | Record screen | Start button | Large primary action supports one-handed run start | S-P1 campus run | Motor efficiency; recognition over recall; feedback | Benefit | May
-| S-HCI2 | Recording flow | Save/discard controls | Destructive discard sits near completion decisions | S-P3 tired evening walk | Error prevention; user control; attention | Drawb
-| S-HCI3 | Privacy selector | Everyone/Followers/Only You | Per-activity visibility can be changed before or after upload | S-P1 route starts near home | Privacy mental model; syst
-| S-HCI4 | Privacy defaults | Audience wording | Multiple privacy levels require users to understand social reach | S-P3 low-tech user | Memory load; recognition over recall | Draw
-| S-HCI5 | Route builder | Map taps and sport selector | Mobile route creation uses map interaction and sport type | S-P2 cycling plan | Spatial cognition; direct manipulation | Be
-| S-HCI6 | Route builder | Elevation/distance preview | Route previews can overload casual planners with metrics | S-P1 beginner route | Cognitive load; progressive disclosure | Dr
-| S-HCI7 | Segment leaderboard | Rank table | Leaderboards show comparative performance for matched GPS efforts | S-P2 cyclist | Social comparison; motivation design | Benefit | Da
-| S-HCI8 | Segment leaderboard | Broad ranking context | Large leaderboards can demotivate non-elite users | S-P1 casual runner | Satisfaction; comparison pressure | Drawback | May
-| S-HCI9 | Challenges | Join/progress controls | Challenge progress provides visible goal feedback | S-P1 monthly run goal | Feedback; goal gradient; motivation | Benefit | Maya ca
-| S-HCI10 | Activity detail | Map, stats, comments | Dense post-activity detail supports review but raises attention cost | S-P3 evening review | Human vision; cognitive load | Ben
-Nike Run Club HCI findings
-| ID | Screen/flow | Interface element | Observed behavior | Persona/context | HCI concept mapping | Benefit/drawback | Concrete scenario | Severity | Evidence |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| N-HCI1 | Start Run screen | Large start action | A clear primary start action supports quick free-run recording | N-P1 campus road, one hand | Motor efficiency; recognition over 
-| N-HCI2 | Run metrics screen | Pace, distance, duration, heart rate or splits where supported | Dense running metrics support progress checks but can compete with road attention |
-| N-HCI3 | Guided Runs | Coach voice | Audio-guided runs reduce visual demand and provide situated coaching | N-P1 beginner run | Auditory feedback; reduced visual demand; situated
-| N-HCI4 | Audio cues | Cue timing and voice prompts | Cues can be missed when fatigue, music, or traffic masks speech | N-P2 noisy street | Hearing limitation; split attention; in
-| N-HCI5 | Training plans | Plan list and goal selection | Plans give structure but can overload beginners choosing distance, schedule, and intensity | N-P1 first 5K | Mental model
-| N-HCI6 | Challenges | Challenge browse/join/progress | Community challenges motivate mileage but can create comparison pressure | N-P2 monthly challenge | Social motivation; comp
-| N-HCI7 | Achievements and streaks | Badges and streak feedback | Achievements reinforce progress but can overvalue extrinsic reward | N-P3 return to running | Feedback; motivatio
-| N-HCI8 | Live location sharing | Sharing active state | Real-time sharing supports safety and trust during outdoor runs | N-P3 night run | Visibility of system status; safety; tr
-| N-HCI9 | Live sharing setup | Recipients, duration, stop confirmation | Sharing setup can create privacy uncertainty if audience and expiry are not salient | N-P3 night run | Pri
-| N-HCI10 | Apple Watch support | Cross-device run start/review | Optional Apple Watch support improves glanceability but needs consistent mode visibility across devices | N-P2 pho
-Benefits inventory
-Strava benefits
-| ID | Benefit | Why it helps | HCI link |
-| --- | --- | --- | --- |
-| S-B1 | Fast mobile recording | Large record/start path reduces setup time. | S-HCI1 |
-| S-B2 | Privacy control | Per-activity visibility supports sensitive routes. | S-HCI3 |
-| S-B3 | Route planning | Map interaction supports spatial planning. | S-HCI5 |
-| S-B4 | Segment feedback | Leaderboards provide concrete performance comparison. | S-HCI7 |
-| S-B5 | Challenge progress | Goal feedback makes effort visible over time. | S-HCI9 |
-Nike Run Club benefits
-| ID | Benefit | Why it helps | HCI link |
-| --- | --- | --- | --- |
-| N-B1 | Beginner-friendly start | A simple start flow supports first-run confidence. | N-HCI1 |
-| N-B2 | Audio coaching | Voice guidance lowers visual demand during motion. | N-HCI3 |
+Finding ID
+Product
+Screenshot figure
+Screen or flow
+Highlighted UI
+element
+Observed behavior
+Persona/context
+HCI mapping
+Benefit/drawback
+Concrete scenario
+Severity
+Evidence
+Improvement
+direction
+F-HCI1
+FIFA
+F-01
+Global navigation
+Match Centre, News,
+Rankings, Tickets &
+Hospitality
+Navigation exposes
+key football
+information tasks.
+F-P1/F-P2
+Information scent;
+recognition over
+recall; efficient task
+entry
+Benefit
+Lan can enter Match
+Centre from the top
+level instead of
+remembering a direct
+URL.
+High
+F-01 and [1][7][8][9]
+See related solution
+direction in
+PotentialSolutions
+F-HCI2
+FIFA
+F-02
+All stories & topics
+Category and
+content-type filters
+Story browsing
+supports exploratory
+scanning across
+FIFA topics.
+F-P2
+Information foraging;
+hierarchical scanning
+Benefit
+Ethan narrows from
+broad news to a
+tournament story
+during a short office
+break.
+Medium
+F-02 and [2][3]
+See related solution
+direction in
+PotentialSolutions
+F-HCI3
+FIFA
+F-09
+Ticket discovery
+Official/preferred
+ticket wording and
+resale/exchange note
+Ticket media
+releases create a
+clear trust cue.
+F-P3
+Credibility; error
+prevention; trust
+Benefit
+Maria avoids a
+third-party ticket tab
+because FIFA
+identifies
+FIFA.com/tickets as
+the source.
+High
+F-09 and [4][5][9]
+See related solution
+direction in
+PotentialSolutions
 
-| N-B3 | Structured plans | Plans convert race goals into weekly action. | N-HCI5 |
-| N-B4 | Community challenges | Challenges create social accountability. | N-HCI6 |
-| N-B5 | Safety sharing | Live location sharing increases trust for night runs. | N-HCI8 |
-Drawback inventory and difficulty matrix
-Strava drawbacks
-| ID | Drawback | Concrete context | HCI evidence | Severity |
-| --- | --- | --- | --- | --- |
-| S-D1 | Irrecoverable discard risk | End-of-activity decisions can cause accidental data loss. | S-HCI2 | High |
-| S-D2 | Privacy audience uncertainty | Users may not understand who can see a sensitive route. | S-HCI4 | High |
-| S-D3 | Route planning overload | Map, sport, distance, and elevation choices can overload casual users. | S-HCI6 | Medium |
-| S-D4 | Leaderboard pressure | Broad rankings can demotivate personal-progress users. | S-HCI8 | Medium |
-| S-D5 | Post-activity detail density | Stats, map, comments, and sharing controls compete for attention. | S-HCI10 | Medium |
-Nike Run Club drawbacks
-| ID | Drawback | Concrete context | HCI evidence | Severity |
-| --- | --- | --- | --- | --- |
-| N-D1 | Audio-guided run cues may be missed in noisy outdoor contexts. | Traffic noise, earphone issues, music playback, and fatigue can mask instructions for Anh, Sofia, and Minh
-| N-D2 | Training plan selection may overload beginners. | First 5K, return-from-break, and low-confidence contexts can make plan choice feel risky for Anh and Minh. | N-HCI5 | Med
-| N-D3 | Challenge and achievement mechanics may pressure casual users. | Falling behind a challenge, streak loss, and rest-day anxiety can reduce motivation for Anh and Minh. | N-
-| N-D4 | Live location sharing may create privacy uncertainty. | Night-run safety sharing can create uncertainty about duration and recipients for Sofia and Minh. | N-HCI9 | High |
-| N-D5 | During-run metric density may distract runners in motion. | Bright sunlight, fast pace, road crossings, and sweaty hands can make metric inspection unsafe for Sofia and An
-Cross-product comparison: Strava vs Nike Run Club
-| Dimension | Strava | Nike Run Club |
-| --- | --- | --- |
-| Sports scope | Multi-sport tracking for running, cycling, walking, and route/segment culture [1][7][8]. | Running-specific coaching and run recording [9][10][11]. |
-| Target users | Athletes and casual users who value sharing, routes, segments, and challenges. | Beginner to race-focused runners who value guidance, plans, achievements, and safe
-| Recording flow | Record -> location ready -> start -> finish -> privacy -> save [2][3]. | Run tab or Guided Run -> start -> metrics/audio -> finish -> achievements/save [10][11][
-| Guidance style | Map, route, segment, and social feedback. | Audio-guided coaching, training plans, and run-specific prompts [12][13][15]. |
-| Social feedback | Feed, challenges, and leaderboards [5][6]. | Challenges, achievements, friends, and community motivation [9][10][11]. |
-| Privacy and safety | Activity visibility controls and Beacon entry points [2][3]. | Live location sharing with friends and family [10][15]. |
-| Metric density | Activity details combine map, stats, segments, and comments. | Run screen and review can include pace, distance, duration, heart rate, elevation, and mile splits
-| Motivation design | Competitive segments and monthly challenges. | Guided runs, plans, achievements, streaks, and challenges. |
-| Learnability | Familiar mobile map/feed conventions but privacy requires care. | Beginner coaching helps, but plan choice can overload novices. |
-| Error tolerance | Privacy controls help; discard recovery needs improvement. | Audio cues help; missed cue replay and live-sharing receipt need improvement. |
-| Accessibility | Large recording action helps; maps and dense details can strain vision. | Audio reduces visual demand; noisy contexts and metric density need multimodal support. 
-| Context fit | Phone-carried runs, cycling, route planning, social comparison. | Phone-carried runs, guided runs, training plans, night safety sharing, optional Apple Watch suppor
-Diagrams
-Strava record activity flow
+Finding ID
+Product
+Screenshot figure
+Screen or flow
+Highlighted UI
+element
+Observed behavior
+Persona/context
+HCI mapping
+Benefit/drawback
+Concrete scenario
+Severity
+Evidence
+Improvement
+direction
+F-HCI4
+FIFA
+F-10
+FIFA+ entry
+Hero and get-started
+controls
+FIFA+ states the
+watch proposition
+and next action.
+F-P3
+Feedforward; clear
+CTA; reduced
+ambiguity
+Benefit
+Maria can tell that the
+next step is to sign in
+or get started before
+watching.
+Medium
+F-10 and [6]
+See related solution
+direction in
+PotentialSolutions
+F-HCI5
+FIFA
+F-10
+FIFA+ watch rails
+Live, highlights,
+replays, archive,
+documentaries
+FIFA+ supports both
+live football and
+time-shifted content.
+F-P3
+Flexibility; broad
+retrieval paths
+Benefit
+Maria can choose a
+highlight if live
+content does not fit
+the family's schedule.
+Medium
+F-10 and [6]
+See related solution
+direction in
+PotentialSolutions
+F-HCI6
+FIFA
+F-10
+Ecosystem
+navigation
+FIFA.com,
+inside.fifa.com,
+plus.fifa.com, Store,
+Collect, Rewards
+Task paths span
+several sibling
+properties.
+F-P1/F-P3
+Context switching;
+mental model
+fragmentation;
+consistency
+Drawback
+Lan expects a single
+football hub but is
+moved across
+different hosts for
+stories, tickets, and
+video.
+High
+F-10 and [1][6][9]
+See related solution
+direction in
+PotentialSolutions
+F-HCI7
+FIFA
+F-12
+FIFA+ handoff
+DAZN-branded page
+with login/get-started
+controls
+The watch path
+changes brand
+context and account
+expectations.
+F-P3
+Continuity break;
+trust friction; mode
+boundary
+Drawback
+Maria pauses
+because the FIFA+
+destination looks like
+a different service
+during family
+planning.
+High
+F-12 and [6]
+See related solution
+direction in
+PotentialSolutions
+F-HCI8
+FIFA
+F-08
+FIFA+ content
+browsing
+Long content rails
+Dense rails increase
+scan cost before a
+user finds live or
+archive content.
+F-P3
+Visual attention;
+choice overload
+Drawback
+Maria searches
+highlights but has to
+scan many rail items
+before choosing.
+Medium
+F-08 and [6]
+See related solution
+direction in
+PotentialSolutions
+F-HCI9
+FIFA
+F-11
+Ticket status
+Check regularly for
+availability
+Ticket status is
+visible only as
+repeated-check
+guidance.
+F-P3
+Visibility of system
+status; planning
+friction
+Drawback
+Maria cannot tell
+when new family-trip
+availability may
+appear without
+repeatedly checking.
+High
+F-11 and [5][9]
+See related solution
+direction in
+PotentialSolutions
+F-HCI10
+FIFA
+F-06
+Story hub
+Article-first cards
+Story browsing is
+strong, but quick
+tasks require a
+second jump.
+F-P1/F-P2
+Task interruption;
+efficiency gap
+Drawback
+Lan reads a headline
+and then has to jump
+elsewhere for scores
+or tickets.
+Medium
+F-06 and [1][2][3][7]
+See related solution
+direction in
+PotentialSolutions
+C-HCI1
+Chess.com
+C-02
+Homepage
+Play, Puzzles, Learn,
+Train, Watch,
+Community
+Homepage
+navigation
+foregrounds core
+chess tasks.
+C-P1/C-P2
+Strong information
+scent; task
+signposting
+Benefit
+Minh sees Learn and
+Puzzles without
+knowing internal
+feature names.
+High
+C-02 and [10]
+See related solution
+direction in
+PotentialSolutions
+C-HCI2
+Chess.com
+C-03
+Start game flow
+Random opponent,
+bot, friend, time
+controls, rated
+toggle, rating range
+Game start is short
+and flexible.
+C-P2
+Flexibility; user
+control; low entry
+friction
+Benefit
+Alex starts a blitz
+game quickly or
+adjusts time control
+before matching.
+High
+C-03 and [11]
+See related solution
+direction in
+PotentialSolutions
+C-HCI3
+Chess.com
+C-07
+Focus Mode
+Expanded board with
+only essential play
+controls
+Focus Mode hides
+distractions while
+preserving clocks
+and resign/draw
+actions.
+C-P2
+Attention support;
+reduced clutter; task
+focus
+Benefit
+Alex makes
+decisions with a
+larger board and
+fewer side panels.
+Medium
+C-07 and [13]
+See related solution
+direction in
+PotentialSolutions
+C-HCI4
+Chess.com
+C-07
+Game Review
+Graph, accuracy,
+classifications,
+coach, key moves,
+retry
+Review turns a
+finished game into
+concrete feedback.
+C-P3
+Feedback; reflection;
+error recovery;
+external cognition
+Benefit
+Quynh sees a
+blunder classification,
+retries the move, and
+understands the
+alternative.
+High
+C-07 and [15][16]
+See related solution
+direction in
+PotentialSolutions
+C-HCI5
+Chess.com
+C-04
+Analysis Board
+Move pieces, setup
+position, load
+FEN/PGN, history,
+collections
+Analysis supports
+expert direct
+manipulation and
+artifact transfer.
+C-P3
+Direct manipulation;
+expert control;
+transfer of artifacts
+Benefit
+Quynh pastes a
+PGN, changes a line,
+and compares
+engine feedback.
+High
+C-04 and [17]
+See related solution
+direction in
+PotentialSolutions
+C-HCI6
+Chess.com
+C-05
+Study Plans
+Skill-level study
+guides
+Study plans reduce
+uncertainty about
+what to learn next.
+C-P1
+Progressive
+disclosure; guided
+learning
+Benefit
+Minh chooses a
+beginner plan after
+puzzles instead of
+guessing from all
+lessons.
+Medium
+C-05 and [19][20]
+See related solution
+direction in
+PotentialSolutions
+
+Finding ID
+Product
+Screenshot figure
+Screen or flow
+Highlighted UI
+element
+Observed behavior
+Persona/context
+HCI mapping
+Benefit/drawback
+Concrete scenario
+Severity
+Evidence
+Improvement
+direction
+C-HCI7
+Chess.com
+C-06
+Product surface
+Many primary areas
+and training paths
+The broad surface
+can overwhelm
+first-time users.
+C-P1
+Choice overload;
+weak progressive
+disclosure at entry
+Drawback
+Minh sees Play,
+Learn, Train,
+Puzzles, and Watch
+before knowing the
+best beginner
+sequence.
+Medium
+C-06 and
+[10][18][19][20]
+See related solution
+direction in
+PotentialSolutions
+C-HCI8
+Chess.com
+C-02
+Premove
+Queued move during
+opponent turn
+Premoves are
+efficient but risky
+when the reply is
+unexpected.
+C-P2
+Speed versus
+accuracy; error risk
+Drawback
+Alex premoves a
+capture that remains
+legal but weak after a
+surprising reply.
+High
+C-02 and [12]
+See related solution
+direction in
+PotentialSolutions
+C-HCI9
+Chess.com
+C-03
+Focus Mode
+discovery
+Hover-only
+board-side control
+Focus Mode can be
+hard to discover
+because related
+controls appear only
+near the board
+boundary.
+C-P2
+Discoverability;
+hidden controls
+Drawback
+Alex never enables
+Focus Mode because
+the icon appears only
+on hover.
+Medium
+C-03 and [13][14]
+See related solution
+direction in
+PotentialSolutions
+C-HCI10
+Chess.com
+C-12
+Analysis screens
+Toggles, charts,
+lines, classifications,
+premium gates
+Analysis surfaces
+many controls and
+access expectations
+at once.
+C-P1/C-P3
+Cognitive load;
+progressive
+disclosure gap;
+expectation
+mismatch
+Drawback
+Minh opens analysis
+after a loss and
+cannot tell which
+chart or control
+matters first.
+Medium
+C-12 and
+[15][16][17][19]
+See related solution
+direction in
+PotentialSolutions
+ID
+Product
+Type
+Screen or flow
+UI element
+Observed behavior
+Persona/context
+HCI mapping
+Concrete scenario
+Severity
+Evidence
+F-HCI1
+FIFA
+Benefit
+Global navigation
+Match Centre, News,
+Rankings, Tickets &
+Hospitality
+Navigation exposes key
+football information tasks.
+F-P1/F-P2
+Information scent;
+recognition over recall;
+efficient task entry
+Lan can enter Match
+Centre from the top level
+instead of remembering a
+direct URL.
+High
+[1][7][8][9]
+F-HCI2
+FIFA
+Benefit
+All stories & topics
+Category and
+content-type filters
+Story browsing supports
+exploratory scanning
+across FIFA topics.
+F-P2
+Information foraging;
+hierarchical scanning
+Ethan narrows from
+broad news to a
+tournament story during a
+short office break.
+Medium
+[2][3]
+F-HCI3
+FIFA
+Benefit
+Ticket discovery
+Official/preferred ticket
+wording and
+resale/exchange note
+Ticket media releases
+create a clear trust cue.
+F-P3
+Credibility; error
+prevention; trust
+Maria avoids a third-party
+ticket tab because FIFA
+identifies
+FIFA.com/tickets as the
+source.
+High
+[4][5][9]
+F-HCI4
+FIFA
+Benefit
+FIFA+ entry
+Hero and get-started
+controls
+FIFA+ states the watch
+proposition and next
+action.
+F-P3
+Feedforward; clear CTA;
+reduced ambiguity
+Maria can tell that the
+next step is to sign in or
+get started before
+watching.
+Medium
+[6]
+F-HCI5
+FIFA
+Benefit
+FIFA+ watch rails
+Live, highlights, replays,
+archive, documentaries
+FIFA+ supports both live
+football and time-shifted
+content.
+F-P3
+Flexibility; broad retrieval
+paths
+Maria can choose a
+highlight if live content
+does not fit the family's
+schedule.
+Medium
+[6]
+F-HCI6
+FIFA
+Drawback
+Ecosystem navigation
+FIFA.com,
+inside.fifa.com,
+plus.fifa.com, Store,
+Collect, Rewards
+Task paths span several
+sibling properties.
+F-P1/F-P3
+Context switching; mental
+model fragmentation;
+consistency
+Lan expects a single
+football hub but is moved
+across different hosts for
+stories, tickets, and
+video.
+High
+[1][6][9]
+F-HCI7
+FIFA
+Drawback
+FIFA+ handoff
+DAZN-branded page with
+login/get-started controls
+The watch path changes
+brand context and
+account expectations.
+F-P3
+Continuity break; trust
+friction; mode boundary
+Maria pauses because
+the FIFA+ destination
+looks like a different
+service during family
+planning.
+High
+[6]
+F-HCI8
+FIFA
+Drawback
+FIFA+ content browsing
+Long content rails
+Dense rails increase scan
+cost before a user finds
+live or archive content.
+F-P3
+Visual attention; choice
+overload
+Maria searches highlights
+but has to scan many rail
+items before choosing.
+Medium
+[6]
+F-HCI9
+FIFA
+Drawback
+Ticket status
+Check regularly for
+availability
+Ticket status is visible
+only as repeated-check
+guidance.
+F-P3
+Visibility of system status;
+planning friction
+Maria cannot tell when
+new family-trip availability
+may appear without
+repeatedly checking.
+High
+[5][9]
+
+ID
+Product
+Type
+Screen or flow
+UI element
+Observed behavior
+Persona/context
+HCI mapping
+Concrete scenario
+Severity
+Evidence
+F-HCI10
+FIFA
+Drawback
+Story hub
+Article-first cards
+Story browsing is strong,
+but quick tasks require a
+second jump.
+F-P1/F-P2
+Task interruption;
+efficiency gap
+Lan reads a headline and
+then has to jump
+elsewhere for scores or
+tickets.
+Medium
+[1][2][3][7]
+C-HCI1
+Chess.com
+Benefit
+Homepage
+Play, Puzzles, Learn,
+Train, Watch, Community
+Homepage navigation
+foregrounds core chess
+tasks.
+C-P1/C-P2
+Strong information scent;
+task signposting
+Minh sees Learn and
+Puzzles without knowing
+internal feature names.
+High
+[10]
+C-HCI2
+Chess.com
+Benefit
+Start game flow
+Random opponent, bot,
+friend, time controls,
+rated toggle, rating range
+Game start is short and
+flexible.
+C-P2
+Flexibility; user control;
+low entry friction
+Alex starts a blitz game
+quickly or adjusts time
+control before matching.
+High
+[11]
+C-HCI3
+Chess.com
+Benefit
+Focus Mode
+Expanded board with
+only essential play
+controls
+Focus Mode hides
+distractions while
+preserving clocks and
+resign/draw actions.
+C-P2
+Attention support;
+reduced clutter; task
+focus
+Alex makes decisions
+with a larger board and
+fewer side panels.
+Medium
+[13]
+C-HCI4
+Chess.com
+Benefit
+Game Review
+Graph, accuracy,
+classifications, coach,
+key moves, retry
+Review turns a finished
+game into concrete
+feedback.
+C-P3
+Feedback; reflection;
+error recovery; external
+cognition
+Quynh sees a blunder
+classification, retries the
+move, and understands
+the alternative.
+High
+[15][16]
+C-HCI5
+Chess.com
+Benefit
+Analysis Board
+Move pieces, setup
+position, load FEN/PGN,
+history, collections
+Analysis supports expert
+direct manipulation and
+artifact transfer.
+C-P3
+Direct manipulation;
+expert control; transfer of
+artifacts
+Quynh pastes a PGN,
+changes a line, and
+compares engine
+feedback.
+High
+[17]
+C-HCI6
+Chess.com
+Benefit
+Study Plans
+Skill-level study guides
+Study plans reduce
+uncertainty about what to
+learn next.
+C-P1
+Progressive disclosure;
+guided learning
+Minh chooses a beginner
+plan after puzzles instead
+of guessing from all
+lessons.
+Medium
+[19][20]
+C-HCI7
+Chess.com
+Drawback
+Product surface
+Many primary areas and
+training paths
+The broad surface can
+overwhelm first-time
+users.
+C-P1
+Choice overload; weak
+progressive disclosure at
+entry
+Minh sees Play, Learn,
+Train, Puzzles, and
+Watch before knowing
+the best beginner
+sequence.
+Medium
+[10][18][19][20]
+C-HCI8
+Chess.com
+Drawback
+Premove
+Queued move during
+opponent turn
+Premoves are efficient
+but risky when the reply is
+unexpected.
+C-P2
+Speed versus accuracy;
+error risk
+Alex premoves a capture
+that remains legal but
+weak after a surprising
+reply.
+High
+[12]
+C-HCI9
+Chess.com
+Drawback
+Focus Mode discovery
+Hover-only board-side
+control
+Focus Mode can be hard
+to discover because
+related controls appear
+only near the board
+boundary.
+C-P2
+Discoverability; hidden
+controls
+Alex never enables
+Focus Mode because the
+icon appears only on
+hover.
+Medium
+[13][14]
+C-HCI10
+Chess.com
+Drawback
+Analysis screens
+Toggles, charts, lines,
+classifications, premium
+gates
+Analysis surfaces many
+controls and access
+expectations at once.
+C-P1/C-P3
+Cognitive load;
+progressive disclosure
+gap; expectation
+mismatch
+Minh opens analysis after
+a loss and cannot tell
+which chart or control
+matters first.
+Medium
+[15][16][17][19]
+Benefits summary
+ID
+Product
+Screen/flow
+UI element
+HCI mapping
+Severity
+Evidence
+F-HCI1
+FIFA
+Global navigation
+Match Centre, News, Rankings, Tickets
+& Hospitality
+Information scent; recognition over recall;
+efficient task entry
+High
+[1][7][8][9]
+F-HCI2
+FIFA
+All stories & topics
+Category and content-type filters
+Information foraging; hierarchical
+scanning
+Medium
+[2][3]
+F-HCI3
+FIFA
+Ticket discovery
+Official/preferred ticket wording and
+resale/exchange note
+Credibility; error prevention; trust
+High
+[4][5][9]
+F-HCI4
+FIFA
+FIFA+ entry
+Hero and get-started controls
+Feedforward; clear CTA; reduced
+ambiguity
+Medium
+[6]
+F-HCI5
+FIFA
+FIFA+ watch rails
+Live, highlights, replays, archive,
+documentaries
+Flexibility; broad retrieval paths
+Medium
+[6]
+C-HCI1
+Chess.com
+Homepage
+Play, Puzzles, Learn, Train, Watch,
+Community
+Strong information scent; task
+signposting
+High
+[10]
+
+ID
+Product
+Screen/flow
+UI element
+HCI mapping
+Severity
+Evidence
+C-HCI2
+Chess.com
+Start game flow
+Random opponent, bot, friend, time
+controls, rated toggle, rating range
+Flexibility; user control; low entry friction
+High
+[11]
+C-HCI3
+Chess.com
+Focus Mode
+Expanded board with only essential play
+controls
+Attention support; reduced clutter; task
+focus
+Medium
+[13]
+C-HCI4
+Chess.com
+Game Review
+Graph, accuracy, classifications, coach,
+key moves, retry
+Feedback; reflection; error recovery;
+external cognition
+High
+[15][16]
+C-HCI5
+Chess.com
+Analysis Board
+Move pieces, setup position, load
+FEN/PGN, history, collections
+Direct manipulation; expert control;
+transfer of artifacts
+High
+[17]
+C-HCI6
+Chess.com
+Study Plans
+Skill-level study guides
+Progressive disclosure; guided learning
+Medium
+[19][20]
+Drawbacks summary
+ID
+Product
+Drawback
+Linked finding
+Severity
+F-D1
+FIFA
+Ecosystem sprawl across sibling FIFA properties
+F-HCI6
+High
+F-D2
+FIFA
+FIFA+ handoff breaks continuity
+F-HCI7
+High
+F-D3
+FIFA
+FIFA+ scan overload
+F-HCI8
+Medium
+F-D4
+FIFA
+Ticket status uncertainty
+F-HCI9
+High
+F-D5
+FIFA
+Browse-first friction for quick utilitarian tasks
+F-HCI10
+Medium
+C-D1
+Chess.com
+Menu and feature overload for novices
+C-HCI7
+High
+C-D2
+Chess.com
+Analysis overload
+C-HCI10
+High
+C-D3
+Chess.com
+Premium gating interrupts learning momentum
+C-HCI10
+Medium
+C-D4
+Chess.com
+Premove blunder risk
+C-HCI8
+High
+C-D5
+Chess.com
+Focus Mode is hard to discover
+C-HCI9
+Medium
+Difficulty and hindrance matrix
+ID
+Product
+Hindrance
+Severity
+Task difficulty
+Disposition
+F-D1
+FIFA
+Ecosystem sprawl across sibling FIFA properties
+High
+High
+Addressed in PotentialSolutions
+F-D2
+FIFA
+FIFA+ handoff breaks continuity
+High
+High
+Addressed in PotentialSolutions
+F-D3
+FIFA
+FIFA+ scan overload
+Medium
+Medium
+Addressed in PotentialSolutions
+F-D4
+FIFA
+Ticket status uncertainty
+High
+High
+Addressed in PotentialSolutions
+F-D5
+FIFA
+Browse-first friction for quick utilitarian tasks
+Medium
+Medium
+Addressed in PotentialSolutions
+C-D1
+Chess.com
+Menu and feature overload for novices
+High
+High
+Addressed in PotentialSolutions
+C-D2
+Chess.com
+Analysis overload
+High
+High
+Addressed in PotentialSolutions
+C-D3
+Chess.com
+Premium gating interrupts learning momentum
+Medium
+Medium
+Addressed in PotentialSolutions
+C-D4
+Chess.com
+Premove blunder risk
+High
+High
+Addressed in PotentialSolutions
+C-D5
+Chess.com
+Focus Mode is hard to discover
+Medium
+Medium
+Addressed in PotentialSolutions
+Cross-product comparison
+Dimension
+FIFA
+Chess.com
+Task type
+Browse, compare, follow, verify, then hand off to FIFA+ for video
+Do, review, analyze, train, and enter competitive flows
+Target users
+Fans checking official football information, tickets, rankings, and video
+Players who want fast games, feedback, training, and fair competitive play
+Information scent
+Strong for official labels; weaker when tasks cross properties [1][6]
+Strong action labels on homepage and support flows [10][11]
+Learnability
+Easy for news/rankings; ticket and watch handoff need clearer status [5][6]
+Easy to start; analysis and training depth require guidance [15][17][20]
+
+Dimension
+FIFA
+Chess.com
+Cognitive load
+Browse surfaces and rails can become dense [2][6]
+Feature breadth and analysis controls can overwhelm novices [10][17]
+Motivation pattern
+Follow official tournaments and national-team context
+Immediate play loop plus feedback, puzzles, lessons, and study plans
+Trust model
+Official source and ticket credibility are central [4][5][9]
+Fair play and review credibility shape competitive trust [15][22]
+Error risk
+Wrong ticket source or lost context during handoff
+Queued premove, hidden focus control, and access-limit interruptions
+Reflection and feedback
+Article reading and ranking lookup; limited personal feedback
+Game Review and Analysis give rich post-action reflection [15][16][17]
+Accessibility
+Official 2026 coverage includes accessibility efforts, but this report focuses on IA and task flow
+Focus Mode and board settings support attention but need stronger discovery [13][14]
+Speed of first success
+Fast for news and rankings; slower for ticket status or watch handoff
+Fast for starting a game; slower for understanding review depth
+Summary of major drawbacks
+The highest-risk FIFA drawbacks are mobile interruption, hidden mobile navigation layers, match/filter scanning, dense article/media pages, and source continuity across FIFA/FIFA+. The highest-risk Chess.com
+drawbacks are beginner feature overload, account-prompt interruption, mobile board mis-tap risk, unclear beginner learning paths, and dense post-game feedback.
+Diagram A. FIFA browse and watch flow
 flowchart LR
-A[Start app] --> B[Record] --> C[Location ready] --> D[Start] --> E[Pause/Finish] --> F[Review activity] --> G[Set privacy] --> H[Save] --> I[Activity detail]
-Text fallback: Start app -> Record -> Location ready -> Start -> Pause/Finish -> Review activity -> Set privacy -> Save -> Activity detail.
-Nike Run Club audio-guided run flow
+A[Open FIFA.com] --> B[Choose Match Centre or News or Rankings or Tickets]
+B --> C[Read tournament info]
+C --> D{Need live or archive video?}
+D -- Yes --> E[Open FIFA+]
+E --> F[Sign up or log in]
+F --> G[Watch Live and Coming Up or Highlights]
+D -- No --> H[Continue on FIFA.com]
+Text fallback: Open FIFA.com, choose task entry, read official info, then move to FIFA+ only if video is needed.
+Diagram B. Chess.com play, review, and learn flow
 flowchart LR
-A[Open Nike Run Club] --> B[Choose Guided Run] --> C[Connect headphones] --> D[Start run] --> E[Receive audio cues] --> F[View core metrics] --> G[Finish] --> H[Review achievements
-Text fallback: Open Nike Run Club -> Choose Guided Run -> Connect headphones -> Start run -> Receive audio cues -> View core metrics ->
-Finish -> Review achievements -> Save/share.
+A[Open Chess.com] --> B[Start Game]
+B --> C[Play]
+C --> D[Game Over]
+D --> E[Game Review]
+E --> F[Self Analysis]
+F --> G[Puzzles or Lesson or Study Plan]
+Text fallback: Open site, start a game, finish, run Game Review, move into deeper analysis, then continue with training.
+Appendix A: Screenshot manifest
+The full machine-readable screenshot manifest is stored in assets/figures_manifest.json and includes raw paths, annotated paths, crops, highlighted regions, claims, HCI concepts, and captions.
+Appendix B: Figure list
+Figure
+Product
+Evidence role
+F-01 to F-08
+FIFA.com
+Captured live pages for home, navigation, Match Centre, search, article, competition, and mobile
+density
+F-09 to F-12
+FIFA.com
+Flow/map, crop, and proposed improvement figures grounded in the captured evidence
+C-01 to C-08
+Chess.com
+Captured live pages for home, play, board, puzzle, learn, navigation, feedback, and mobile layout
+C-09 to C-12
+Chess.com
+Flow/map, crop, and proposed improvement figures grounded in the captured evidence
+
 References
-[1] Strava | Running, Cycling & Hiking App. Official product page. https://www.strava.com/. Accessed 2026-06-10. Supports: Strava positions
-itself around activity tracking, maps, performance data, and community sharing.
-[2] Recording an Activity - Strava Support. Official support. https://support.strava.com/hc/en-us/articles/216917397-Recording-an-Activity.
-Accessed 2026-06-10. Supports: Mobile recording includes activity capture, save/discard choices, activity details, privacy controls, and Beacon
-
-entry points.
-[3] Activity Privacy Controls - Strava Support. Official support. https://support.strava.com/hc/en-us/articles/216919377-Activity-Privacy-Controls.
-Accessed 2026-06-10. Supports: Activities can use Everyone, Followers, or Only You visibility, with default and per-activity changes.
-[4] Creating Routes on Mobile - Strava Support. Official support.
-https://support.strava.com/hc/en-us/articles/18001474720397-Creating-Routes-on-Mobile. Accessed 2026-06-10. Supports: The mobile Maps
-tab and Create Route flow support route planning by sport type and map interaction.
-[5] Segment Leaderboard Guidelines - Strava Support. Official support.
-https://support.strava.com/hc/en-us/articles/216919507-Segment-Leaderboard-Guidelines. Accessed 2026-06-10. Supports: Segments use
-matched GPS efforts and leaderboards separated by activity type.
-[6] Strava Challenges - Strava Support. Official support. https://support.strava.com/hc/en-us/articles/216919177-Strava-Challenges. Accessed
-2026-06-10. Supports: Challenges motivate activity through distance, elevation, time, segment, and frequency goals.
-[7] Strava: Run, Bike, Walk - App Store. Official app store. https://apps.apple.com/us/app/strava-run-bike-walk/id426826309. Accessed
-2026-06-10. Supports: The listing describes GPS tracking, activity sharing, segments, route planning, and challenges.
-[8] Strava: Run, Bike, Walk - Google Play. Official app store. https://play.google.com/store/apps/details?id=com.strava. Accessed 2026-06-10.
-Supports: The listing presents Strava as a multi-sport tracking and fitness community app.
-[9] Nike Run Club App. Official product page. https://www.nike.com/nrc-app. Accessed 2026-06-10. Supports: Nike Run Club is a running app
-with guided runs, training plans, challenges, run tracking, and community motivation.
-[10] Nike Run Club: Running Coach - App Store. Official app store. https://apps.apple.com/us/app/nike-run-club-running-coach/id387771637.
-Accessed 2026-06-10. Supports: The listing describes Guided Runs, Training Plans, Apple Watch support, challenges, achievements, and
-safety features.
-[11] Nike Run Club - Running Coach - Google Play. Official app store. https://play.google.com/store/apps/details?id=com.nike.plusgps.
-Accessed 2026-06-10. Supports: The listing describes GPS run tracking, Audio-Guided Runs, Training Plans, challenges, and coaching.
-[12] Running Training Plans. Nike.com. Official Nike page. https://www.nike.com/running/training-plans. Accessed 2026-06-10. Supports: Nike
-training plans include guided runs, mindset advice, recovery tips, and goal-oriented running schedules.
-[13] Does the NRC App Have Training Plans? | Nike Help. Official Nike help. https://www.nike.com/help/a/nrc-plan. Accessed 2026-06-10.
-Supports: Nike states the app features training plans created by NRC coaches for all levels of runners.
-[14] How Do I Get Started in the NRC App? | Nike Help. Official Nike help. https://www.nike.com/help/a/nrc-start-run. Accessed 2026-06-10.
-Supports: The Run tab supports basic runs, distance or time targets, speed runs, and Guided Runs.
-[15] Nike Run Club App Delivers New Features. Official Nike newsroom.
-https://about.nike.com/en/newsroom/releases/nike-run-club-app-new-features. Accessed 2026-06-10. Supports: Nike describes localized run
-tips, real-time location sharing with friends and family, six training plans, and about 300 audio guided runs.
-[16] How the Nike Run Club App Can Help You Reach Your Running Goals. Official Nike page. https://www.nike.com/a/running-goals.
-Accessed 2026-06-10. Supports: Nike describes pace, location, distance, elevation, heart rate, mile splits, progress history, and wearable
-pairing.
+[1] Inside FIFA. Official FIFA news and navigation. https://inside.fifa.com/. Accessed 2026-06-10. Supports: Inside FIFA exposes Latest FIFA News and the global navigation labels Match Centre, News, Rankings,
+Tickets & Hospitality, Play, Inside FIFA, plus sibling destinations such as FIFA+, Store, Collect, and Rewards.
+[2] All stories & topics. Official FIFA topic index. https://inside.fifa.com/all-stories. Accessed 2026-06-10. Supports: The all stories page supports exploratory browsing through categories, content types, articles, blogs,
+media releases, videos, and albums.
+[3] FIFA World Cup 2026 Blog. Official FIFA tournament blog. https://inside.fifa.com/blogs/fwc-2026. Accessed 2026-06-10. Supports: The FIFA World Cup 2026 blog functions as a tournament story hub with dated
+updates and story cards.
+[4] FIFA World Cup 26 Ticketing Programme launches this September. Official FIFA media release.
+https://inside.fifa.com/tournament-organisation/commercial/media-releases/world-cup-26-ticketing-programme-launch-september. Accessed 2026-06-10. Supports: FIFA directs fans to FIFA.com/tickets to register
+interest, create a FIFA ID, and follow phased ticket releases.
+[5] FIFA World Cup 2026 Last-Minute Sales Phase. Official FIFA media release. https://inside.fifa.com/media-releases/last-minute-ticket-sales-phase-fifa-world-cup-2026. Accessed 2026-06-10. Supports:
+FIFA.com/tickets is identified as the official and preferred ticket source; fans are asked to check it regularly; the official Resale/Exchange Marketplace is available for eligible ticket holders.
+[6] Watch FIFA+ Live Stream Online. Official FIFA+ watch destination. https://www.plus.fifa.com/. Accessed 2026-06-10. Supports: FIFA+ presents a watch surface with sign-in or get-started controls, live or upcoming
+content, highlights, replays, documentaries, and archive content. The FIFA+ destination is presented through a DAZN-branded page.
+[7] Match Centre. Official FIFA Match Centre. https://www.fifa.com/en/match-centre. Accessed 2026-06-10. Supports: The Match Centre URL exposes fixtures, results, match details, competitions, and live-now
+filtering; some content is client-side rendered.
+[8] FIFA/Coca-Cola Men's World Ranking. Official FIFA rankings page. https://inside.fifa.com/fifa-world-ranking/men. Accessed 2026-06-10. Supports: The rankings page exposes the latest men's ranking table, filters,
+official update dates, and ranking rules notes.
+[9] Tickets & Hospitality. Official FIFA tickets page. https://www.fifa.com/en/tickets. Accessed 2026-06-10. Supports: The tickets URL is the official entry point for first-hand FIFA tournament ticket and hospitality
+information; the page is client-side rendered in crawled text.
+[10] Chess.com homepage. Official Chess.com homepage. https://www.chess.com/. Accessed 2026-06-10. Supports: The homepage foregrounds Play, Puzzles, Learn, Train, Watch, Community, Get Started,
+lessons, bots, puzzles, and watching events.
+[11] How do I start a game on Chess.com?. Official Chess.com help. https://support.chess.com/en/articles/8609779-how-do-i-start-a-game-on-chess-com. Accessed 2026-06-10. Supports: Users can start games from
+the homescreen or site-wide Play menu, using recent time control, custom settings, random opponent, bots, or friends.
+[12] What are pre-moves and how do they work?. Official Chess.com help. https://support.chess.com/en/articles/8562432-what-are-pre-moves-and-how-do-they-work. Accessed 2026-06-10. Supports: Premoves can
+be enabled and then entered while it is the opponent's turn; the feature saves time but executes automatically if legal.
+[13] What is focus mode? How do I turn it on?. Official Chess.com help. https://support.chess.com/en/articles/8588088-what-is-focus-mode-how-do-i-turn-it-on. Accessed 2026-06-10. Supports: Focus Mode minimizes
+distractions by expanding the board and showing only the board, clocks, draw, and resign controls.
+[14] How do I change my board size?. Official Chess.com help. https://support.chess.com/en/articles/8609533-how-do-i-change-my-board-size. Accessed 2026-06-10. Supports: Board settings, Focus Mode, Theatre
+Mode, and Flip Board appear when hovering near the board/sidebar boundary, creating a discoverability issue for hidden controls.
+[15] How does Game Review work?. Official Chess.com help. https://support.chess.com/en/articles/8584089-how-does-game-review-work. Accessed 2026-06-10. Supports: Game Review appears after a game and
+provides a detailed review flow with accuracy, move classifications, key moves, coach guidance, graphs, and retry learning.
+[16] How do I use Game Analysis?. Official Chess.com help. https://support.chess.com/en/articles/8583757-how-do-i-use-game-analysis. Accessed 2026-06-10. Supports: Game Analysis lets users revisit analyzed
+games and continue deeper study through analysis tools.
+[17] How do I use the analysis board?. Official Chess.com help. https://support.chess.com/en/articles/8583825-how-do-i-use-the-analysis-board. Accessed 2026-06-10. Supports: The Analysis Board supports direct
+manipulation, setup position, FEN/PGN loading, game history, collections, engine settings, evaluation bar, lines, arrows, and move feedback.
+[18] How do Puzzles work on Chess.com?. Official Chess.com help. https://support.chess.com/en/articles/8608686-how-do-puzzles-work-on-chess-com. Accessed 2026-06-10. Supports: Puzzles are reachable from
+the side menu or homepage and include puzzle of the day, rated puzzles, themes, Puzzle Rush, and Puzzle Battle.
+[19] How do Lessons work on Chess.com?. Official Chess.com help. https://support.chess.com/en/articles/8609703-how-do-lessons-work-on-chess-com. Accessed 2026-06-10. Supports: Lessons are reached from
+Learn, use interactive practice challenges, and include access limits by membership level.
+[20] Chess Study Plans for All Levels. Official Chess.com article. https://www.chess.com/article/view/study-plan-directory. Accessed 2026-06-10. Supports: Study plans guide players by skill level and help organize
+training time through curated lessons and videos.
+[21] Chess.com tournaments schedule. Official Chess.com help. https://support.chess.com/en/articles/9062345-chess-com-tournaments-schedule. Accessed 2026-06-10. Supports: Tournament schedules expose
+arena and prize tournament calendars such as Titled Tuesday, Arena Kings, Bullet Brawls, and variant events.
+[22] Cheating And Fair Play On Chess.com. Official Chess.com fair-play page. https://www.chess.com/cheating. Accessed 2026-06-10. Supports: The fair-play page explains competitive integrity, account closures,
+fair-play policy, event checks, and enforcement expectations.

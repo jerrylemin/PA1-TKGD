@@ -4,18 +4,19 @@
 
 Completed:
 
-- Repaired product pair to Strava and Nike Run Club.
-- Replaced old Product B source data with Nike Run Club sources, personas, use cases, HCI findings, drawbacks, and solutions.
-- Generated shared PA1 fact base.
-- Generated four final PDF deliverables with exact placeholder filenames.
+- Migrated the product pair to FIFA and Chess.com.
+- Added Playwright screenshot capture and sharp annotation pipeline.
+- Captured 13 raw FIFA screenshots and 13 raw Chess.com screenshots.
+- Generated 26 annotated screenshots, 26 crops, and 8 solution sketch figures.
+- Refreshed official source log as `pa1_sources_fifa_chess.json`.
+- Rebuilt personas, use cases, HCI findings, drawbacks, and solutions with F- and C-prefix IDs.
+- Regenerated four final PDF deliverables with exact placeholder filenames.
 - Generated final zip with the four PDFs at top level.
-- Generated editable Markdown, Mermaid source files, source log, and artifact manifest.
-- Validated PDF readability with `pypdf`.
-- Validated zip top-level contents.
+- Generated editable Markdown, Mermaid source files, shared fact base, audit, and artifact manifest.
+- Validated PDF readability, old-term removal, source counts, and zip contents.
 
-Remaining optional updates:
+Remaining manual updates:
 
-- Replace `GroupID` with a real group ID if provided.
+- Replace `GroupID` with the real group ID if provided.
 - Replace placeholder member names with real names and rerun the generator.
-- Replace mock peer-review commenter names with actual peer names if the lecturer requires it.
-- If the official weekly report template becomes available, update the weekly-report renderer to mirror that template.
+- Replace mock peer-review commenter names with actual peer names if required.

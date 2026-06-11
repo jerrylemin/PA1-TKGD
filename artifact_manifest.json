@@ -1,40 +1,47 @@
 {
   "chosen_products": [
-    "Strava mobile app",
-    "Nike Run Club mobile app"
+    "FIFA web experience",
+    "Chess.com web experience"
   ],
   "source_count_per_product": {
-    "Strava": 8,
-    "Nike Run Club": 8
+    "FIFA": 9,
+    "Chess.com": 13
   },
+  "archived_previous_outputs": "archive\\previous_pa1_outputs_20260610_233509",
   "manifest": [
     {
       "file": "GroupID-PA1-ProductResearch.pdf",
-      "bytes": 15373,
-      "pages": 4,
+      "bytes": 9231554,
+      "pages_text_chars": 51068,
       "status": "PASS"
     },
     {
       "file": "GroupID-PA1-PotentialSolutions.pdf",
-      "bytes": 16551,
-      "pages": 6,
+      "bytes": 561323,
+      "pages_text_chars": 21162,
       "status": "PASS"
     },
     {
       "file": "GroupID-PA1-PeerReview.pdf",
-      "bytes": 10403,
-      "pages": 3,
+      "bytes": 10515,
+      "pages_text_chars": 9788,
       "status": "PASS"
     },
     {
       "file": "GroupID-PA1-WeeklyReport.pdf",
-      "bytes": 11085,
-      "pages": 4,
+      "bytes": 11305,
+      "pages_text_chars": 10337,
       "status": "PASS"
     },
     {
       "file": "GroupID-PA1.zip",
-      "bytes": 38810,
+      "bytes": 7846942,
+      "contents": [
+        "GroupID-PA1-ProductResearch.pdf",
+        "GroupID-PA1-PotentialSolutions.pdf",
+        "GroupID-PA1-PeerReview.pdf",
+        "GroupID-PA1-WeeklyReport.pdf"
+      ],
       "status": "PASS"
     }
   ],
@@ -43,16 +50,11 @@
     "PotentialSolutions": "PASS",
     "PeerReview": "PASS",
     "WeeklyReport": "PASS",
-    "Zip": "PASS"
+    "Zip": "PASS",
+    "Old product removal": "PASS"
   },
+  "scan_failures": [],
   "overall": "PASS",
-  "submission_checklist": [
-    "Exact PDF filenames generated",
-    "Zip contains four PDFs at top level",
-    "Shared fact base saved to pa1_project_data.json",
-    "Source log saved to pa1_sources_strava_nrc.json",
-    "Editable Markdown and Mermaid sources saved under sources/",
-    "Migration audit saved to docs/pa1_strava_nrc_migration_audit.md"
-  ],
+  "build_command": "python build_pa1_package.py",
   "generated_at": "2026-06-10"
 }

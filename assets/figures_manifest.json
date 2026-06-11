@@ -1,0 +1,1162 @@
+{
+  "screenshots": [
+    {
+      "figure_id": "F-01",
+      "product": "fifa",
+      "screen": "Home page information hierarchy",
+      "url": "https://www.fifa.com/en",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_home_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured home state. Visible text sample: Skip to main content FIFA REWARDS FIFA+ FIFA STORE FIFA COLLECT | English TOURNAMENTS & EVENTS MATCH CENTRE NEWS RANKINGS TICKETS & HOSPITALITY MORE FIFA World Cup 2026™ 11 June - ",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_home_desktop.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_home_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 72,
+            "y": 120,
+            "width": 893,
+            "height": 340
+          },
+          "hci_concept": "visual hierarchy",
+          "claim": "hero and task entry compete for attention"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 806,
+            "y": 440,
+            "width": 518,
+            "height": 280
+          },
+          "hci_concept": "visual hierarchy",
+          "claim": "hero and task entry compete for attention"
+        }
+      ],
+      "hci_concept": "visual hierarchy",
+      "claim": "hero and task entry compete for attention",
+      "caption": "Figure F-01. FIFA.com - Home page information hierarchy. The highlighted area shows primary page heading and hero/task area. This matters because visual hierarchy affects the target persona while hero and task entry compete for attention."
+    },
+    {
+      "figure_id": "F-08",
+      "product": "fifa",
+      "screen": "Mobile scrolling and content density",
+      "url": "https://www.fifa.com/en",
+      "viewport": "mobile",
+      "viewport_size": {
+        "width": 390,
+        "height": 844
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_home_mobile.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured home state. Visible text sample: Don't miss the FIFA Countdown Concert Celebrate the FIFA World Cup 2026™ with a synchronised concert across three Host Cities FIND OUT MORE Skip to main content 00 days 21 hours 44",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_home_mobile.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_home_mobile_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 20,
+            "y": 101,
+            "width": 242,
+            "height": 287
+          },
+          "hci_concept": "progressive disclosure",
+          "claim": "mobile navigation hides task paths behind an extra step"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 23,
+            "y": 405,
+            "width": 335,
+            "height": 236
+          },
+          "hci_concept": "progressive disclosure",
+          "claim": "mobile navigation hides task paths behind an extra step"
+        }
+      ],
+      "hci_concept": "progressive disclosure",
+      "claim": "mobile navigation hides task paths behind an extra step",
+      "caption": "Figure F-08. FIFA.com - Mobile scrolling and content density. The highlighted area shows primary page heading and hero/task area. This matters because progressive disclosure affects the target persona while mobile navigation hides task paths behind an extra step."
+    },
+    {
+      "figure_id": "F-T01",
+      "product": "fifa",
+      "screen": "Tablet home layout",
+      "url": "https://www.fifa.com/en",
+      "viewport": "tablet",
+      "viewport_size": {
+        "width": 768,
+        "height": 1024
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_home_tablet.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured home state. Visible text sample: Skip to main content 00 days 21 hours 43 mins 55 secs Follow the World Cup MEX V RSA KOR V CZE CAN V BIH USA V PAR AUS V TUR BRA V MAR HAI V SCO QAT V SUI CIV V ECU GER V CUW NED V",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_home_tablet.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_home_tablet_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 38,
+            "y": 123,
+            "width": 476,
+            "height": 348
+          },
+          "hci_concept": "visual hierarchy",
+          "claim": "hero and task entry compete for attention"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 430,
+            "y": 451,
+            "width": 276,
+            "height": 287
+          },
+          "hci_concept": "visual hierarchy",
+          "claim": "hero and task entry compete for attention"
+        }
+      ],
+      "hci_concept": "visual hierarchy",
+      "claim": "hero and task entry compete for attention",
+      "caption": "Figure F-T01. FIFA.com - Tablet home layout. The highlighted area shows primary page heading and hero/task area. This matters because visual hierarchy affects the target persona while hero and task entry compete for attention."
+    },
+    {
+      "figure_id": "F-02",
+      "product": "fifa",
+      "screen": "Desktop navigation",
+      "url": "https://www.fifa.com/en",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_navigation_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured navigation state. Visible text sample: Skip to main content FIFA REWARDS FIFA+ FIFA STORE FIFA COLLECT | English TOURNAMENTS & EVENTS MATCH CENTRE NEWS RANKINGS TICKETS & HOSPITALITY MORE FIFA World Cup 2026™ 11 June - ",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_navigation_desktop.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_navigation_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "navigation entry",
+          "box": {
+            "x": 58,
+            "y": 60,
+            "width": 1066,
+            "height": 80
+          },
+          "hci_concept": "recognition over recall",
+          "claim": "global labels expose important football tasks"
+        }
+      ],
+      "hci_concept": "recognition over recall",
+      "claim": "global labels expose important football tasks",
+      "caption": "Figure F-02. FIFA.com - Desktop navigation. The highlighted area shows navigation entry. This matters because recognition over recall affects the target persona while global labels expose important football tasks."
+    },
+    {
+      "figure_id": "F-03",
+      "product": "fifa",
+      "screen": "Mobile navigation",
+      "url": "https://www.fifa.com/en",
+      "viewport": "mobile",
+      "viewport_size": {
+        "width": 390,
+        "height": 844
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_navigation_mobile.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured mobile-menu state. Visible text sample: Don't miss the FIFA Countdown Concert Celebrate the FIFA World Cup 2026™ with a synchronised concert across three Host Cities FIND OUT MORE Skip to main content 00 days 21 hours 43",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_navigation_mobile.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_navigation_mobile_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "navigation entry",
+          "box": {
+            "x": 16,
+            "y": 51,
+            "width": 137,
+            "height": 93
+          },
+          "hci_concept": "recognition over recall",
+          "claim": "global labels expose important football tasks"
+        }
+      ],
+      "hci_concept": "recognition over recall",
+      "claim": "global labels expose important football tasks",
+      "caption": "Figure F-03. FIFA.com - Mobile navigation. The highlighted area shows navigation entry. This matters because recognition over recall affects the target persona while global labels expose important football tasks."
+    },
+    {
+      "figure_id": "F-05",
+      "product": "fifa",
+      "screen": "Search or discovery flow",
+      "url": "https://www.fifa.com/en/search?q=world+cup",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_search_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured search state. Visible text sample: Skip to main content FIFA REWARDS FIFA+ FIFA STORE FIFA COLLECT | English TOURNAMENTS & EVENTS MATCH CENTRE NEWS RANKINGS TICKETS & HOSPITALITY MORE BACK 30907 search results for C",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_search_desktop.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_search_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 72,
+            "y": 120,
+            "width": 893,
+            "height": 340
+          },
+          "hci_concept": "information scent",
+          "claim": "search/discovery needs category clarity for official lookup"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 806,
+            "y": 440,
+            "width": 518,
+            "height": 280
+          },
+          "hci_concept": "information scent",
+          "claim": "search/discovery needs category clarity for official lookup"
+        }
+      ],
+      "hci_concept": "information scent",
+      "claim": "search/discovery needs category clarity for official lookup",
+      "caption": "Figure F-05. FIFA.com - Search or discovery flow. The highlighted area shows primary page heading and hero/task area. This matters because information scent affects the target persona while search/discovery needs category clarity for official lookup."
+    },
+    {
+      "figure_id": "F-04",
+      "product": "fifa",
+      "screen": "Match Centre fixtures page",
+      "url": "https://www.fifa.com/en/match-centre",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_match_centre_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured match state. Visible text sample: Skip to main content FIFA REWARDS FIFA+ FIFA STORE FIFA COLLECT | English TOURNAMENTS & EVENTS MATCH CENTRE NEWS RANKINGS TICKETS & HOSPITALITY MORE Match Centre MEN WOMEN MATCHES ",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_match_centre_desktop.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_match_centre_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "date and fixture selector",
+          "box": {
+            "x": 58,
+            "y": 180,
+            "width": 1296,
+            "height": 180
+          },
+          "hci_concept": "mental model",
+          "claim": "fixture lists need date and competition alignment"
+        },
+        {
+          "label": "B",
+          "element": "match list area",
+          "box": {
+            "x": 86,
+            "y": 360,
+            "width": 1181,
+            "height": 360
+          },
+          "hci_concept": "mental model",
+          "claim": "fixture lists need date and competition alignment"
+        }
+      ],
+      "hci_concept": "mental model",
+      "claim": "fixture lists need date and competition alignment",
+      "caption": "Figure F-04. FIFA.com - Match Centre fixtures page. The highlighted area shows date and fixture selector. This matters because mental model affects the target persona while fixture lists need date and competition alignment."
+    },
+    {
+      "figure_id": "F-04M",
+      "product": "fifa",
+      "screen": "Match Centre mobile fixtures page",
+      "url": "https://www.fifa.com/en/match-centre",
+      "viewport": "mobile",
+      "viewport_size": {
+        "width": 390,
+        "height": 844
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_match_centre_mobile.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured match state. Visible text sample: Skip to main content Match Centre MEN WOMEN MATCHES Live(2) Jun 11, 2026 Friendlies Friendlies 1 LIVE 66' POR 1 - 1 NGA LIVE 13' ENG 1 - 0 CRC AUT C - C GUA Match is cancelled LATE",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_match_centre_mobile.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_match_centre_mobile_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "date and fixture selector",
+          "box": {
+            "x": 16,
+            "y": 152,
+            "width": 351,
+            "height": 152
+          },
+          "hci_concept": "progressive disclosure",
+          "claim": "mobile navigation hides task paths behind an extra step"
+        },
+        {
+          "label": "B",
+          "element": "match list area",
+          "box": {
+            "x": 23,
+            "y": 304,
+            "width": 320,
+            "height": 304
+          },
+          "hci_concept": "progressive disclosure",
+          "claim": "mobile navigation hides task paths behind an extra step"
+        }
+      ],
+      "hci_concept": "progressive disclosure",
+      "claim": "mobile navigation hides task paths behind an extra step",
+      "caption": "Figure F-04M. FIFA.com - Match Centre mobile fixtures page. The highlighted area shows date and fixture selector. This matters because progressive disclosure affects the target persona while mobile navigation hides task paths behind an extra step."
+    },
+    {
+      "figure_id": "F-06",
+      "product": "fifa",
+      "screen": "News article page",
+      "url": "https://inside.fifa.com/tournament-organisation/commercial/media-releases/world-cup-26-ticketing-programme-launch-september",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_news_article_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured article state. Visible text sample: FIFA.com STRATEGIC OBJECTIVES: 2023–2027WHAT FIFA DOESORGANISATIONMEMBER ASSOCIATIONSCAMPAIGNSREPORTS & DOCUMENTSFIFA RANKINGS Media Release Fédération Internationale de Football A",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_news_article_desktop.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_news_article_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 72,
+            "y": 120,
+            "width": 893,
+            "height": 340
+          },
+          "hci_concept": "reading load",
+          "claim": "article pages must support scanning in interrupted contexts"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 806,
+            "y": 440,
+            "width": 518,
+            "height": 280
+          },
+          "hci_concept": "reading load",
+          "claim": "article pages must support scanning in interrupted contexts"
+        }
+      ],
+      "hci_concept": "reading load",
+      "claim": "article pages must support scanning in interrupted contexts",
+      "caption": "Figure F-06. FIFA.com - News article page. The highlighted area shows primary page heading and hero/task area. This matters because reading load affects the target persona while article pages must support scanning in interrupted contexts."
+    },
+    {
+      "figure_id": "F-06M",
+      "product": "fifa",
+      "screen": "News article mobile page",
+      "url": "https://inside.fifa.com/tournament-organisation/commercial/media-releases/world-cup-26-ticketing-programme-launch-september",
+      "viewport": "mobile",
+      "viewport_size": {
+        "width": 390,
+        "height": 844
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_news_article_mobile.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured article state. Visible text sample: FIFA.com Media Release Fédération Internationale de Football Association FIFA Strasse 20, P.O Box 8044 Zurich, Switzerland, +41 (0) 43 222 7777 Tuesday 15 July 2025, 22:00 Commerci",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_news_article_mobile.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_news_article_mobile_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 20,
+            "y": 101,
+            "width": 242,
+            "height": 287
+          },
+          "hci_concept": "progressive disclosure",
+          "claim": "mobile navigation hides task paths behind an extra step"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 23,
+            "y": 405,
+            "width": 335,
+            "height": 236
+          },
+          "hci_concept": "progressive disclosure",
+          "claim": "mobile navigation hides task paths behind an extra step"
+        }
+      ],
+      "hci_concept": "progressive disclosure",
+      "claim": "mobile navigation hides task paths behind an extra step",
+      "caption": "Figure F-06M. FIFA.com - News article mobile page. The highlighted area shows primary page heading and hero/task area. This matters because progressive disclosure affects the target persona while mobile navigation hides task paths behind an extra step."
+    },
+    {
+      "figure_id": "F-07",
+      "product": "fifa",
+      "screen": "Tournament or competition page",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_competition_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured competition state. Visible text sample: FIFA World Cup™ Fantasy Build your 15-player squad and challenge other managers around the world! PLAY NOW! Skip to main content FIFA REWARDS FIFA+ FIFA STORE FIFA COLLECT | Englis",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_competition_desktop.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_competition_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 72,
+            "y": 120,
+            "width": 893,
+            "height": 340
+          },
+          "hci_concept": "information architecture",
+          "claim": "competition pages group deep tournament content"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 806,
+            "y": 440,
+            "width": 518,
+            "height": 280
+          },
+          "hci_concept": "information architecture",
+          "claim": "competition pages group deep tournament content"
+        }
+      ],
+      "hci_concept": "information architecture",
+      "claim": "competition pages group deep tournament content",
+      "caption": "Figure F-07. FIFA.com - Tournament or competition page. The highlighted area shows primary page heading and hero/task area. This matters because information architecture affects the target persona while competition pages group deep tournament content."
+    },
+    {
+      "figure_id": "F-09B",
+      "product": "fifa",
+      "screen": "Footer language and ecosystem area",
+      "url": "https://www.fifa.com/en",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_footer_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured footer state. Visible text sample: Skip to main content FIFA REWARDS FIFA+ FIFA STORE FIFA COLLECT | English TOURNAMENTS & EVENTS MATCH CENTRE NEWS RANKINGS TICKETS & HOSPITALITY MORE FIFA World Cup 2026™ 11 June - ",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_footer_desktop.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_footer_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "footer language and ecosystem links",
+          "box": {
+            "x": 72,
+            "y": 550,
+            "width": 1296,
+            "height": 350
+          },
+          "hci_concept": "international support",
+          "claim": "footer and language areas support global users"
+        }
+      ],
+      "hci_concept": "international support",
+      "claim": "footer and language areas support global users",
+      "caption": "Figure F-09B. FIFA.com - Footer language and ecosystem area. The highlighted area shows footer language and ecosystem links. This matters because international support affects the target persona while footer and language areas support global users."
+    },
+    {
+      "figure_id": "F-10B",
+      "product": "fifa",
+      "screen": "FIFA+ video or media area",
+      "url": "https://www.dazn.com/en-VN/competition/Competition:50kvbmxi5r9amj2e39hznggqj",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/fifa/fifa_video_or_media_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured media state. Visible text sample: DAZN | FIFA+ Carousel loaded. Now showing slide 1 of 4 Home All sports Live TV Schedule Log in Sign up for free A World of Football Stream live matches from around the globe, reliv",
+      "annotated_path": "assets/screenshots/annotated/fifa/fifa_video_or_media_desktop.png",
+      "crop_path": "assets/screenshots/crops/fifa/fifa_video_or_media_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 72,
+            "y": 120,
+            "width": 893,
+            "height": 340
+          },
+          "hci_concept": "attention",
+          "claim": "media rails can become dense when users want one highlight"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 806,
+            "y": 440,
+            "width": 518,
+            "height": 280
+          },
+          "hci_concept": "attention",
+          "claim": "media rails can become dense when users want one highlight"
+        }
+      ],
+      "hci_concept": "attention",
+      "claim": "media rails can become dense when users want one highlight",
+      "caption": "Figure F-10B. FIFA.com - FIFA+ video or media area. The highlighted area shows primary page heading and hero/task area. This matters because attention affects the target persona while media rails can become dense when users want one highlight."
+    },
+    {
+      "figure_id": "C-01",
+      "product": "chess",
+      "screen": "Home page information hierarchy",
+      "url": "https://www.chess.com/",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_home_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured home state. Visible text sample: Skip to content Play Puzzles Learn Train Watch Community Other Search Sign Up Log In Help & Support English Play Chess Online on the #1 Site! Join 250+ million players in the world",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_home_desktop.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_home_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 72,
+            "y": 120,
+            "width": 893,
+            "height": 340
+          },
+          "hci_concept": "information scent",
+          "claim": "core chess actions are visible from the start"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 806,
+            "y": 440,
+            "width": 518,
+            "height": 280
+          },
+          "hci_concept": "information scent",
+          "claim": "core chess actions are visible from the start"
+        }
+      ],
+      "hci_concept": "information scent",
+      "claim": "core chess actions are visible from the start",
+      "caption": "Figure C-01. Chess.com - Home page information hierarchy. The highlighted area shows primary page heading and hero/task area. This matters because information scent affects the target persona while core chess actions are visible from the start."
+    },
+    {
+      "figure_id": "C-08",
+      "product": "chess",
+      "screen": "Mobile home layout",
+      "url": "https://www.chess.com/",
+      "viewport": "mobile",
+      "viewport_size": {
+        "width": 390,
+        "height": 844
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_home_mobile.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured home state. Visible text sample: Sign Up Log In Play Chess Online on the #1 Site! Join 250+ million players in the world's largest chess community Get Started Improve Your Game with Lessons Learn with quick, fun l",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_home_mobile.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_home_mobile_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 20,
+            "y": 101,
+            "width": 242,
+            "height": 287
+          },
+          "hci_concept": "information scent",
+          "claim": "core chess actions are visible from the start"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 23,
+            "y": 405,
+            "width": 335,
+            "height": 236
+          },
+          "hci_concept": "information scent",
+          "claim": "core chess actions are visible from the start"
+        }
+      ],
+      "hci_concept": "information scent",
+      "claim": "core chess actions are visible from the start",
+      "caption": "Figure C-08. Chess.com - Mobile home layout. The highlighted area shows primary page heading and hero/task area. This matters because information scent affects the target persona while core chess actions are visible from the start."
+    },
+    {
+      "figure_id": "C-T01",
+      "product": "chess",
+      "screen": "Tablet home layout",
+      "url": "https://www.chess.com/",
+      "viewport": "tablet",
+      "viewport_size": {
+        "width": 768,
+        "height": 1024
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_home_tablet.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured home state. Visible text sample: Sign Up Log In Play Chess Online on the #1 Site! Join 250+ million players in the world's largest chess community Get Started Improve Your Game with Lessons Learn with quick, fun l",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_home_tablet.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_home_tablet_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 38,
+            "y": 123,
+            "width": 476,
+            "height": 348
+          },
+          "hci_concept": "information scent",
+          "claim": "core chess actions are visible from the start"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 430,
+            "y": 451,
+            "width": 276,
+            "height": 287
+          },
+          "hci_concept": "information scent",
+          "claim": "core chess actions are visible from the start"
+        }
+      ],
+      "hci_concept": "information scent",
+      "claim": "core chess actions are visible from the start",
+      "caption": "Figure C-T01. Chess.com - Tablet home layout. The highlighted area shows primary page heading and hero/task area. This matters because information scent affects the target persona while core chess actions are visible from the start."
+    },
+    {
+      "figure_id": "C-06",
+      "product": "chess",
+      "screen": "Desktop navigation",
+      "url": "https://www.chess.com/",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_navigation_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured navigation state. Visible text sample: Skip to content Play Puzzles Learn Train Watch Community Other Search Sign Up Log In Help & Support English Play Chess Online on the #1 Site! Join 250+ million players in the world",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_navigation_desktop.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_navigation_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "navigation entry",
+          "box": {
+            "x": 58,
+            "y": 60,
+            "width": 1066,
+            "height": 80
+          },
+          "hci_concept": "memory load",
+          "claim": "feature-rich menus require clear grouping"
+        }
+      ],
+      "hci_concept": "memory load",
+      "claim": "feature-rich menus require clear grouping",
+      "caption": "Figure C-06. Chess.com - Desktop navigation. The highlighted area shows navigation entry. This matters because memory load affects the target persona while feature-rich menus require clear grouping."
+    },
+    {
+      "figure_id": "C-06M",
+      "product": "chess",
+      "screen": "Mobile navigation",
+      "url": "https://www.chess.com/",
+      "viewport": "mobile",
+      "viewport_size": {
+        "width": 390,
+        "height": 844
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_navigation_mobile.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured mobile-menu state. Visible text sample: Sign Up Log In Play Chess Online on the #1 Site! Join 250+ million players in the world's largest chess community Get Started Improve Your Game with Lessons Learn with quick, fun l",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_navigation_mobile.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_navigation_mobile_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "navigation entry",
+          "box": {
+            "x": 16,
+            "y": 51,
+            "width": 137,
+            "height": 93
+          },
+          "hci_concept": "motor accuracy",
+          "claim": "small screens compress navigation and action controls"
+        }
+      ],
+      "hci_concept": "motor accuracy",
+      "claim": "small screens compress navigation and action controls",
+      "caption": "Figure C-06M. Chess.com - Mobile navigation. The highlighted area shows navigation entry. This matters because motor accuracy affects the target persona while small screens compress navigation and action controls."
+    },
+    {
+      "figure_id": "C-02",
+      "product": "chess",
+      "screen": "Play entry point",
+      "url": "https://www.chess.com/play/online",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_play_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured play state. Visible text sample: Skip to content Play Puzzles Learn Train Watch Community Other Search Sign Up Log In Help & Support English Opponent 10:00 8 7 6 5 4 3 2 1 a b c d e f g h Player 10:00 New Game Gam",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_play_desktop.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_play_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "board or play surface",
+          "box": {
+            "x": 346,
+            "y": 120,
+            "width": 605,
+            "height": 620
+          },
+          "hci_concept": "efficiency",
+          "claim": "play entry points reduce time to first game"
+        },
+        {
+          "label": "B",
+          "element": "start or game controls",
+          "box": {
+            "x": 979,
+            "y": 180,
+            "width": 360,
+            "height": 360
+          },
+          "hci_concept": "efficiency",
+          "claim": "play entry points reduce time to first game"
+        }
+      ],
+      "hci_concept": "efficiency",
+      "claim": "play entry points reduce time to first game",
+      "caption": "Figure C-02. Chess.com - Play entry point. The highlighted area shows board or play surface. This matters because efficiency affects the target persona while play entry points reduce time to first game."
+    },
+    {
+      "figure_id": "C-02M",
+      "product": "chess",
+      "screen": "Mobile play entry point",
+      "url": "https://www.chess.com/play/online",
+      "viewport": "mobile",
+      "viewport_size": {
+        "width": 390,
+        "height": 844
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_play_mobile.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured play state. Visible text sample: Sign Up Log In Opponent 10:00 8 7 6 5 4 3 2 1 a b c d e f g h Player 10:00 New Game Games Players 10 min (Rapid) Start Game Custom Challenge Play a Friend Tournaments 217,769 PLAYI",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_play_mobile.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_play_mobile_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "board or play surface",
+          "box": {
+            "x": 8,
+            "y": 152,
+            "width": 374,
+            "height": 371
+          },
+          "hci_concept": "motor accuracy",
+          "claim": "small screens compress navigation and action controls"
+        },
+        {
+          "label": "B",
+          "element": "start or game controls",
+          "box": {
+            "x": 31,
+            "y": 540,
+            "width": 328,
+            "height": 186
+          },
+          "hci_concept": "motor accuracy",
+          "claim": "small screens compress navigation and action controls"
+        }
+      ],
+      "hci_concept": "motor accuracy",
+      "claim": "small screens compress navigation and action controls",
+      "caption": "Figure C-02M. Chess.com - Mobile play entry point. The highlighted area shows board or play surface. This matters because motor accuracy affects the target persona while small screens compress navigation and action controls."
+    },
+    {
+      "figure_id": "C-03",
+      "product": "chess",
+      "screen": "Game board or demo board",
+      "url": "https://www.chess.com/play/computer",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_board_or_demo_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured board state. Visible text sample: Skip to content Play Puzzles Learn Train Watch Community Other Search Sign Up Log In Help & Support English Rooky (325) 8 7 6 5 4 3 2 1 a b c d e f g h Guest Play Bots Hello Earth ",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_board_or_demo_desktop.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_board_or_demo_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "board or play surface",
+          "box": {
+            "x": 346,
+            "y": 120,
+            "width": 605,
+            "height": 620
+          },
+          "hci_concept": "direct manipulation",
+          "claim": "the board uses the familiar chess metaphor for piece movement"
+        },
+        {
+          "label": "B",
+          "element": "start or game controls",
+          "box": {
+            "x": 979,
+            "y": 180,
+            "width": 360,
+            "height": 360
+          },
+          "hci_concept": "direct manipulation",
+          "claim": "the board uses the familiar chess metaphor for piece movement"
+        }
+      ],
+      "hci_concept": "direct manipulation",
+      "claim": "the board uses the familiar chess metaphor for piece movement",
+      "caption": "Figure C-03. Chess.com - Game board or demo board. The highlighted area shows board or play surface. This matters because direct manipulation affects the target persona while the board uses the familiar chess metaphor for piece movement."
+    },
+    {
+      "figure_id": "C-04",
+      "product": "chess",
+      "screen": "Puzzle page",
+      "url": "https://www.chess.com/puzzles",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_puzzles_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured puzzles state. Visible text sample: Skip to content Play Puzzles Learn Train Watch Community Other Search Sign Up Log In Help & Support English 8 7 6 5 4 3 2 1 a b c d e f g h Puzzles If you have a few minutes to spa",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_puzzles_desktop.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_puzzles_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "puzzle task area",
+          "box": {
+            "x": 288,
+            "y": 180,
+            "width": 605,
+            "height": 480
+          },
+          "hci_concept": "feedback",
+          "claim": "puzzle surfaces need clear correctness and next-step feedback"
+        }
+      ],
+      "hci_concept": "feedback",
+      "claim": "puzzle surfaces need clear correctness and next-step feedback",
+      "caption": "Figure C-04. Chess.com - Puzzle page. The highlighted area shows puzzle task area. This matters because feedback affects the target persona while puzzle surfaces need clear correctness and next-step feedback."
+    },
+    {
+      "figure_id": "C-04M",
+      "product": "chess",
+      "screen": "Puzzle page mobile",
+      "url": "https://www.chess.com/puzzles",
+      "viewport": "mobile",
+      "viewport_size": {
+        "width": 390,
+        "height": 844
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_puzzles_mobile.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured puzzles state. Visible text sample: Sign Up Log In Puzzles Never skip Puzzle day! Solve Puzzles",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_puzzles_mobile.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_puzzles_mobile_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "puzzle task area",
+          "box": {
+            "x": 16,
+            "y": 152,
+            "width": 351,
+            "height": 405
+          },
+          "hci_concept": "motor accuracy",
+          "claim": "small screens compress navigation and action controls"
+        }
+      ],
+      "hci_concept": "motor accuracy",
+      "claim": "small screens compress navigation and action controls",
+      "caption": "Figure C-04M. Chess.com - Puzzle page mobile. The highlighted area shows puzzle task area. This matters because motor accuracy affects the target persona while small screens compress navigation and action controls."
+    },
+    {
+      "figure_id": "C-05",
+      "product": "chess",
+      "screen": "Learn page",
+      "url": "https://www.chess.com/lessons",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_learn_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured learn state. Visible text sample: Skip to content Play Puzzles Learn Train Watch Community Other Search Sign Up Log In Help & Support English Lessons Remove Ads Learning Rank Pawn 0 0/10 Remove Ads Support Chess Te",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_learn_desktop.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_learn_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 72,
+            "y": 120,
+            "width": 893,
+            "height": 340
+          },
+          "hci_concept": "progressive disclosure",
+          "claim": "beginner learning paths need obvious first steps"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 806,
+            "y": 440,
+            "width": 518,
+            "height": 280
+          },
+          "hci_concept": "progressive disclosure",
+          "claim": "beginner learning paths need obvious first steps"
+        }
+      ],
+      "hci_concept": "progressive disclosure",
+      "claim": "beginner learning paths need obvious first steps",
+      "caption": "Figure C-05. Chess.com - Learn page. The highlighted area shows primary page heading and hero/task area. This matters because progressive disclosure affects the target persona while beginner learning paths need obvious first steps."
+    },
+    {
+      "figure_id": "C-09B",
+      "product": "chess",
+      "screen": "News page",
+      "url": "https://www.chess.com/news",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_news_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured news state. Visible text sample: Skip to content Play Puzzles Learn Train Watch Community Other Search Sign Up Log In Help & Support English News Docuseries 'Grandmasters' Premieres To Packed House At Tribeca Tarj",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_news_desktop.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_news_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "primary page heading and hero/task area",
+          "box": {
+            "x": 72,
+            "y": 120,
+            "width": 893,
+            "height": 340
+          },
+          "hci_concept": "content discovery",
+          "claim": "news pages shift the product from play to reading"
+        },
+        {
+          "label": "B",
+          "element": "secondary action or content cards",
+          "box": {
+            "x": 806,
+            "y": 440,
+            "width": 518,
+            "height": 280
+          },
+          "hci_concept": "content discovery",
+          "claim": "news pages shift the product from play to reading"
+        }
+      ],
+      "hci_concept": "content discovery",
+      "claim": "news pages shift the product from play to reading",
+      "caption": "Figure C-09B. Chess.com - News page. The highlighted area shows primary page heading and hero/task area. This matters because content discovery affects the target persona while news pages shift the product from play to reading."
+    },
+    {
+      "figure_id": "C-10B",
+      "product": "chess",
+      "screen": "Account prompt or sign-in entry",
+      "url": "https://www.chess.com/login",
+      "viewport": "desktop",
+      "viewport_size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "raw_path": "assets/screenshots/raw/chess/chess_account_or_prompt_desktop.png",
+      "capture_status": "success",
+      "access_date": "2026-06-11",
+      "notes": "Captured account state. Visible text sample: Chess.com Remember me Forgot Password? Log In OR Log in with Apple Log in with Google Log in with Facebook New? Sign up - and start playing chess!",
+      "annotated_path": "assets/screenshots/annotated/chess/chess_account_or_prompt_desktop.png",
+      "crop_path": "assets/screenshots/crops/chess/chess_account_or_prompt_desktop_crop_A.png",
+      "highlighted_regions": [
+        {
+          "label": "A",
+          "element": "sign-in form or account prompt",
+          "box": {
+            "x": 461,
+            "y": 180,
+            "width": 518,
+            "height": 460
+          },
+          "hci_concept": "user control",
+          "claim": "sign-in prompts can interrupt fast-play intent"
+        }
+      ],
+      "hci_concept": "user control",
+      "claim": "sign-in prompts can interrupt fast-play intent",
+      "caption": "Figure C-10B. Chess.com - Account prompt or sign-in entry. The highlighted area shows sign-in form or account prompt. This matters because user control affects the target persona while sign-in prompts can interrupt fast-play intent."
+    }
+  ],
+  "solution_figures": [
+    {
+      "figure_id": "S-01",
+      "product": "fifa",
+      "screen": "FIFA task-first navigation",
+      "annotated_path": "assets/diagrams/s-01_fifa_solution.png",
+      "caption": "Figure S-01. FIFA task-first navigation. This solution sketch maps observed evidence to a proposed HCI improvement."
+    },
+    {
+      "figure_id": "S-02",
+      "product": "fifa",
+      "screen": "FIFA Match Centre filter bar",
+      "annotated_path": "assets/diagrams/s-02_fifa_solution.png",
+      "caption": "Figure S-02. FIFA Match Centre filter bar. This solution sketch maps observed evidence to a proposed HCI improvement."
+    },
+    {
+      "figure_id": "S-03",
+      "product": "fifa",
+      "screen": "FIFA article utility rail",
+      "annotated_path": "assets/diagrams/s-03_fifa_solution.png",
+      "caption": "Figure S-03. FIFA article utility rail. This solution sketch maps observed evidence to a proposed HCI improvement."
+    },
+    {
+      "figure_id": "S-04",
+      "product": "fifa",
+      "screen": "FIFA+ handoff explainer",
+      "annotated_path": "assets/diagrams/s-04_fifa_solution.png",
+      "caption": "Figure S-04. FIFA+ handoff explainer. This solution sketch maps observed evidence to a proposed HCI improvement."
+    },
+    {
+      "figure_id": "S-05",
+      "product": "chess",
+      "screen": "Chess.com beginner home",
+      "annotated_path": "assets/diagrams/s-05_chess_solution.png",
+      "caption": "Figure S-05. Chess.com beginner home. This solution sketch maps observed evidence to a proposed HCI improvement."
+    },
+    {
+      "figure_id": "S-06",
+      "product": "chess",
+      "screen": "Chess.com mobile board guard",
+      "annotated_path": "assets/diagrams/s-06_chess_solution.png",
+      "caption": "Figure S-06. Chess.com mobile board guard. This solution sketch maps observed evidence to a proposed HCI improvement."
+    },
+    {
+      "figure_id": "S-07",
+      "product": "chess",
+      "screen": "Chess.com beginner analysis preset",
+      "annotated_path": "assets/diagrams/s-07_chess_solution.png",
+      "caption": "Figure S-07. Chess.com beginner analysis preset. This solution sketch maps observed evidence to a proposed HCI improvement."
+    },
+    {
+      "figure_id": "S-08",
+      "product": "chess",
+      "screen": "Chess.com learn path",
+      "annotated_path": "assets/diagrams/s-08_chess_solution.png",
+      "caption": "Figure S-08. Chess.com learn path. This solution sketch maps observed evidence to a proposed HCI improvement."
+    }
+  ]
+}

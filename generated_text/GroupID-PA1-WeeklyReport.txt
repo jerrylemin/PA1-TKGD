@@ -1,158 +1,312 @@
-GroupID-PA1 Weekly Report: Strava and Nike Run Club
+GroupID-PA1 Weekly Report
 Sprint objective
-The 14-day sprint objective is to produce a consistent PA1 package comparing Strava and Nike Run Club, including product research, potential
-solutions, peer-review preparation, and a weekly report with validated PDFs and zip packaging.
-Team roster
-| Member | Role |
-| --- | --- |
-| Member1 | Coordinator/citation QA |
-| Member2 | Persona and use-case lead |
-| Member3 | HCI findings lead |
-| Member4 | Solution design lead |
-| Member5 | Report packaging and validation lead |
-Sprint planning record
-| Meeting | Attendance | Decisions | Actions |
-| --- | --- | --- | --- |
-| Sprint planning | All placeholder members | Product pair locked as Strava and Nike Run Club; RUP artifacts mapped into Scrum sprint; source log and ID policy approved. | Member1 
-14-day sprint plan
-| Day | Task | Owner | Reviewer | Hours | Dependency | Output | Done criteria |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Kickoff and scope lock | Member1 | All | 3 | None | Product pair locked as Strava and Nike Run Club | Team agrees on IDs and citation policy |
-| 2 | Official-source collection for Strava | Member2 | Member1 | 4 | Scope | Strava source log | At least 6 official sources |
-| 3 | Official-source collection for Nike Run Club | Member3 | Member1 | 4 | Scope | Nike Run Club source log | At least 7 official or reputable sources |
-| 4 | Personas for both products | Member2 | Member3 | 5 | Sources | 6 personas | Contexts include device, motion, lighting/noise |
-| 5 | Use cases for both products | Member2 | Member4 | 5 | Personas | 10 use cases | Each includes alternate/error/feedback |
-| 6 | Strava HCI findings | Member3 | Member4 | 5 | Use cases | 10 Strava findings | Each cites evidence |
-| 7 | Nike Run Club HCI findings | Member3 | Member4 | 5 | Use cases | 10 Nike Run Club findings | Each cites evidence |
-| 8 | Strava/Nike Run Club comparison | Member1 | Member5 | 4 | Findings | Comparison table | 12 dimensions covered |
-| 9 | Drawback inventory | Member4 | Member2 | 4 | Findings | 10 drawbacks | IDs S-D and N-D only |
-| 10 | Potential solution design | Member4 | Member3 | 6 | Drawbacks | 20 solutions | 2 solutions per drawback |
-| 11 | Peer-review preparation | Member5 | Member1 | 4 | Drafts | 7-slide plan | 7-minute script and Q&A |
-| 12 | Internal review and citation QA | Member1 | All | 5 | Drafts | QA notes | No unsupported claims |
-| 13 | PDF generation and text validation | Member5 | Member1 | 4 | QA | Four PDFs | No restricted old product text |
-| 14 | Final zip packaging | Member5 | Member1 | 2 | PDFs | GroupID-PA1.zip | Four PDFs at top level |
+Produce PA1 reports for FIFA.com and Chess.com with visual screenshot evidence and HCI analysis, then package four submission-ready PDFs in GroupID-PA1.zip.
+Role model
+If the team size is four, merge QA with Coordinator. This package keeps all five roles because five placeholder team members are present.
+Member
+Role
+Responsibility
+Member1
+Coordinator
+Scope lock, source protocol, final QA
+Member2
+FIFA research lead
+FIFA sources, personas, use cases
+Member3
+Chess.com research lead
+Chess.com sources, personas, use cases
+Member4
+HCI and solutions lead
+Findings, drawbacks, solution design
+Member5
+QA and packaging lead
+PDF regeneration, text scan, zip validation
+Meeting records
+Meeting
+Attendance
+Decisions
+Actions
+Sprint planning
+All five members
+Objective locked: produce four submission-ready PA1 PDFs plus
+GroupID-PA1.zip for FIFA web and Chess.com web.
+Use official sources first; use F- and C-prefix IDs; regenerate PDFs from
+source.
 Weekly scrum 1
-| Member | Done | Next | Blocker |
-| --- | --- | --- | --- |
-| Member1 | Locked Strava and Nike Run Club scope; created citation policy. | Review source log and comparison dimensions. | Needs real group ID if available. |
-| Member2 | Drafted Strava and Nike Run Club personas. | Complete use cases. | None. |
-| Member3 | Collected Nike Run Club official app/help/newsroom sources. | Write HCI findings. | Some app-store wording is long and must be summarized. |
-| Member4 | Started drawback taxonomy. | Map solutions to HCI concepts. | Waiting for final findings. |
-| Member5 | Prepared report structure and packaging checklist. | Validate PDFs and zip. | Weekly template PDF not present locally. |
+All five members
+FIFA and Chess.com source coverage accepted; personas and use
+cases in progress.
+Resolve FIFA client-side source sparsity by citing official navigation and
+media-release pages.
 Weekly scrum 2
-| Member | Done | Next | Blocker |
-| --- | --- | --- | --- |
-| Member1 | Checked citations and product-name consistency. | Final source scan. | None. |
-| Member2 | Completed 10 use cases with context and feedback. | Review peer questions. | None. |
-| Member3 | Completed Strava and Nike Run Club HCI findings. | Support speaker notes. | None. |
-| Member4 | Completed 20 solutions and priority table. | Help QA drawback mapping. | None. |
-| Member5 | Generated PDFs and zip draft. | Run text extraction and zip listing. | None. |
-
-Hours matrix
-| Member | Research | Writing | Review | Packaging | Total |
-| --- | --- | --- | --- | --- | --- |
-| Member1 | 4 | 5 | 5 | 1 | 15 |
-| Member2 | 5 | 6 | 2 | 0 | 13 |
-| Member3 | 6 | 5 | 2 | 0 | 13 |
-| Member4 | 2 | 7 | 3 | 0 | 12 |
-| Member5 | 1 | 4 | 3 | 5 | 13 |
+All five members
+Findings, drawbacks, and solution mappings accepted for final drafting.
+Run citation pass, PDF extraction, old-term scan, and zip validation.
 Sprint review
-| Reviewed item | Result | Follow-up |
-| --- | --- | --- |
-| ProductResearch | Pass: Strava and Nike Run Club personas, use cases, HCI findings, drawbacks, comparison, diagrams, and references included. | Replace placeholder names if lectu
-| PotentialSolutions | Pass: every drawback maps to two solutions and HCI principles. | Prototype quick wins if PA2 asks for mockups. |
-| PeerReview | Pass: 7-minute script, slide plan, questions, feedback, and revision log included. | Use real commenter names after live review. |
-| WeeklyReport | Pass: RUP + Scrum structure, 14-day plan, scrums, hours matrix, and checklist included. | Use official course template if provided later. |
-Submission checklist
-| Check | Status |
-| --- | --- |
-| Four PDFs generated | Pass |
-| Zip contains four PDFs at top level | Pass |
-| Source log created | Pass |
-| No old product analysis in deliverables | Pass |
-| Team roster appears | Pass |
-| Sprint planning, two weekly scrums, sprint review appear | Pass |
-Risk and QA log
-Risk 1: Product-pair inconsistency across reports. Mitigation: keep product names in the shared generator and regenerate all artifacts in one
-command.
-Risk 2: Unsupported interface claims. Mitigation: every HCI finding uses official product, support, app-store, help, or newsroom citations and
-avoids invented screenshots.
-Risk 3: Beginner analysis becoming generic. Mitigation: Nike Run Club use cases include trigger, context, preconditions, postconditions, normal
-flow, alternate flow, error path, and feedback.
-Risk 4: Privacy and safety claims becoming vague. Mitigation: Strava privacy is tied to audience controls, while Nike Run Club safety is tied to
-live location sharing recipients, duration, and stop confirmation.
-Risk 5: Generated output drifting from source files. Mitigation: the generator overwrites Markdown, JSON, PDFs, manifest, extracted text, and
-zip package in the same run.
-Definition of done
-ProductResearch is done when it contains two products, six personas, ten use cases, twenty HCI findings, ten drawbacks, ten benefits,
-cross-product comparison, two diagrams, and references.
-PotentialSolutions is done when every Strava and Nike Run Club drawback has two mapped solutions with UI behavior detail, HCI principle
-mapping, priority, effort, tradeoffs, and rollout placement.
-PeerReview is done when the seven-slide plan, seven-minute script, likely Q&A, feedback table, and revision log all use Strava and Nike Run
-Club consistently.
-WeeklyReport is done when the 14-day sprint plan, sprint planning record, two weekly scrums, sprint review, hours matrix, and submission
-checklist all match the corrected product pair.
-Packaging is done when the zip contains exactly the four regenerated PDFs at top level and no source files.
-Daily evidence notes
+All five members
+Four PDFs and final zip reviewed against acceptance criteria.
+Manual placeholders remain for GroupID, member names, and peer
+reviewer names.
+Day-by-day 14-day plan
+Day
+Task
+Owner
+Reviewer
+Hours
+Dependency
+Output
+Done criteria
+1
+Scope, product lock, repo audit,
+screenshot plan
+Coordinator
+All
+3
+None
+Visual migration audit
+FIFA.com and Chess.com locked
+2
+FIFA.com official source collection
+and screenshot capture
+FIFA research lead
+Visual QA
+4
+Day 1
+FIFA source log and raw
+screenshots
+Required FIFA screens captured
+3
+Chess.com official source collection
+and screenshot capture
+Chess.com research lead
+Visual QA
+4
+Day 1
+Chess.com source log and raw
+screenshots
+Required Chess.com screens
+captured
+4
+Personas and user groups
+Coordinator
+HCI lead
+5
+Sources
+Six personas
+Goals, frustrations, devices,
+contexts, constraints complete
+5
+Use cases and weekly scrum 1
+FIFA/Chess leads
+Coordinator
+5
+Personas
+Ten use cases and Scrum 1 notes
+Each use case has flows, errors,
+feedback, figures
+6
+FIFA.com annotation and HCI
+analysis
+HCI lead
+FIFA lead
+5
+FIFA screenshots
+F-HCI1 to F-HCI10
+Every finding references a
+screenshot
+7
+Chess.com annotation and HCI
+analysis
+HCI lead
+Chess lead
+5
+Chess screenshots
+C-HCI1 to C-HCI10
+Every finding references a
+screenshot
+8
+Cross-product comparison and
+drawback consolidation
+HCI lead
+All
+5
+Findings
+Ten drawbacks
+Comparison states browse-first vs
+action-first tradeoffs
+9
+Solution sketches and HCI mapping
+HCI lead
+Visual QA
+5
+Drawbacks
+Eight solution figures and twenty
+solutions
+Two solutions per drawback
 
-Day 1 note: The team locked the corrected product pair and agreed that all IDs must use S-P, N-P, S-UC, N-UC, S-HCI, N-HCI, S-D, N-D, S-S,
-and N-S formats.
-Day 2 note: Strava source collection focused on official product, support, route, privacy, segment, challenge, App Store, and Google Play
-sources.
-Day 3 note: Nike Run Club source collection focused on official Nike product, App Store, Google Play, training plan, help, newsroom, and
-running-goals sources.
-Day 4 note: Persona writing emphasized real running contexts rather than demographic-only profiles.
-Day 5 note: Use-case writing required normal flow, alternate flow, error path, feedback, preconditions, and postconditions.
-Day 6 note: Strava HCI findings were checked against record, route, privacy, segment, challenge, and activity-detail flows.
-Day 7 note: Nike Run Club HCI findings were checked against free run, Guided Run, training plan, challenge, achievement, live sharing,
-metrics, and optional Apple Watch support.
-Day 8 note: The comparison table was rewritten around sports scope, target users, recording flow, guidance style, social feedback, privacy and
-safety, metric density, motivation design, learnability, error tolerance, accessibility, and context fit.
-Day 9 note: Drawbacks were normalized so ProductResearch and PotentialSolutions use the same S-D and N-D IDs.
-Day 10 note: Solution design required two solutions per drawback and rejected ideas that lacked a concrete control or feedback behavior.
-Day 11 note: Peer-review preparation balanced speaker timing across five placeholder members and kept the presentation to seven minutes.
-Day 12 note: Citation QA checked that product claims are supported by numbered references and that no irrelevant source remains in
-deliverables.
-Day 13 note: Output QA extracted PDF text, checked file sizes, scanned restricted terms, and inspected zip contents.
-Day 14 note: The final package was created with exactly four PDFs at top level.
-Two-week sprint timeline
+Day
+Task
+Owner
+Reviewer
+Hours
+Dependency
+Output
+Done criteria
+10
+ProductResearch draft and weekly
+scrum 2
+Coordinator
+All
+5
+Evidence and findings
+ProductResearch source
+24 figures, personas, use cases,
+findings
+11
+PotentialSolutions draft
+HCI lead
+Coordinator
+5
+Drawbacks/solutions
+PotentialSolutions source
+10 drawbacks, 20 solutions, 8
+solution figures
+12
+PeerReview draft, slide plan,
+rehearsal
+Visual QA
+All
+4
+Draft reports
+PeerReview source
+Seven-slide plan and seven-minute
+script
+13
+WeeklyReport, citation pass, visual
+QA
+Visual QA
+Coordinator
+5
+All reports
+WeeklyReport and validation docs
+Source and figure checks pass
+14
+Sprint review, PDF export, zip
+packaging, final validation
+Visual QA
+All
+4
+QA complete
+GroupID-PA1.zip
+Four PDFs at zip top level
+Workload matrix
+Member
+Role
+Research
+Writing
+Review
+Packaging
+Total
+Member1
+Coordinator
+4
+5
+5
+1
+15
+Member2
+FIFA research lead
+6
+6
+2
+0
+14
+Member3
+Chess.com research lead
+6
+6
+2
+0
+14
+Member4
+HCI and solutions lead
+3
+8
+3
+0
+14
+Member5
+QA and packaging lead
+1
+4
+4
+6
+15
+Deliverable QA
+Deliverable
+Expected filename
+Acceptance status
+Product research
+GroupID-PA1-ProductResearch.pdf
+Pass after regeneration and text scan
+Potential solutions
+GroupID-PA1-PotentialSolutions.pdf
+Pass after drawback/solution mapping check
+Peer review
+GroupID-PA1-PeerReview.pdf
+Pass after seven-minute script and feedback check
+Weekly report
+GroupID-PA1-WeeklyReport.pdf
+Pass after process and workload check
+Submission package
+GroupID-PA1.zip
+Pass when exactly four PDFs are at zip top level
+Diagram C. Sprint timeline
+Figure W-01. Weekly sprint timeline and delivery sequence.
 flowchart LR
-A[Day 1 kickoff] --> B[Days 2-3 sources] --> C[Days 4-5 personas/use cases] --> D[Days 6-8 HCI/comparison] --> E[Days 9-11 solutions/drafts] --> F[Days 12-13 review/QA] --> G[Day 1
-Text fallback: Day 1 kickoff -> Days 2-3 sources -> Days 4-5 personas/use cases -> Days 6-8 HCI/comparison -> Days 9-11 solutions/drafts ->
-Days 12-13 review/QA -> Day 14 export/package.
+A[Day 1 Planning] --> B[Days 2 to 3 Sources]
+B --> C[Days 4 to 6 Personas and Use Cases]
+C --> D[Days 7 to 8 HCI Findings]
+D --> E[Days 9 to 11 Solutions and Drafts]
+E --> F[Days 12 to 13 Rehearsal and QA]
+F --> G[Day 14 Review, PDFs, Zip]
+Text fallback: Planning first, research next, analysis after that, then solution writing, then QA and packaging.
 References
-[1] Strava | Running, Cycling & Hiking App. Official product page. https://www.strava.com/. Accessed 2026-06-10. Supports: Strava positions
-itself around activity tracking, maps, performance data, and community sharing.
-[2] Recording an Activity - Strava Support. Official support. https://support.strava.com/hc/en-us/articles/216917397-Recording-an-Activity.
-Accessed 2026-06-10. Supports: Mobile recording includes activity capture, save/discard choices, activity details, privacy controls, and Beacon
-entry points.
-[3] Activity Privacy Controls - Strava Support. Official support. https://support.strava.com/hc/en-us/articles/216919377-Activity-Privacy-Controls.
-Accessed 2026-06-10. Supports: Activities can use Everyone, Followers, or Only You visibility, with default and per-activity changes.
-[4] Creating Routes on Mobile - Strava Support. Official support.
-https://support.strava.com/hc/en-us/articles/18001474720397-Creating-Routes-on-Mobile. Accessed 2026-06-10. Supports: The mobile Maps
-tab and Create Route flow support route planning by sport type and map interaction.
-[5] Segment Leaderboard Guidelines - Strava Support. Official support.
-https://support.strava.com/hc/en-us/articles/216919507-Segment-Leaderboard-Guidelines. Accessed 2026-06-10. Supports: Segments use
-matched GPS efforts and leaderboards separated by activity type.
-[6] Strava Challenges - Strava Support. Official support. https://support.strava.com/hc/en-us/articles/216919177-Strava-Challenges. Accessed
-2026-06-10. Supports: Challenges motivate activity through distance, elevation, time, segment, and frequency goals.
-[9] Nike Run Club App. Official product page. https://www.nike.com/nrc-app. Accessed 2026-06-10. Supports: Nike Run Club is a running app
-with guided runs, training plans, challenges, run tracking, and community motivation.
-[10] Nike Run Club: Running Coach - App Store. Official app store. https://apps.apple.com/us/app/nike-run-club-running-coach/id387771637.
-Accessed 2026-06-10. Supports: The listing describes Guided Runs, Training Plans, Apple Watch support, challenges, achievements, and
-safety features.
+[1] Inside FIFA. Official FIFA news and navigation. https://inside.fifa.com/. Accessed 2026-06-10. Supports: Inside FIFA exposes Latest FIFA News and the global navigation labels Match Centre, News, Rankings,
+Tickets & Hospitality, Play, Inside FIFA, plus sibling destinations such as FIFA+, Store, Collect, and Rewards.
+[2] All stories & topics. Official FIFA topic index. https://inside.fifa.com/all-stories. Accessed 2026-06-10. Supports: The all stories page supports exploratory browsing through categories, content types, articles, blogs,
+media releases, videos, and albums.
 
-[11] Nike Run Club - Running Coach - Google Play. Official app store. https://play.google.com/store/apps/details?id=com.nike.plusgps.
-Accessed 2026-06-10. Supports: The listing describes GPS run tracking, Audio-Guided Runs, Training Plans, challenges, and coaching.
-[12] Running Training Plans. Nike.com. Official Nike page. https://www.nike.com/running/training-plans. Accessed 2026-06-10. Supports: Nike
-training plans include guided runs, mindset advice, recovery tips, and goal-oriented running schedules.
-[13] Does the NRC App Have Training Plans? | Nike Help. Official Nike help. https://www.nike.com/help/a/nrc-plan. Accessed 2026-06-10.
-Supports: Nike states the app features training plans created by NRC coaches for all levels of runners.
-[14] How Do I Get Started in the NRC App? | Nike Help. Official Nike help. https://www.nike.com/help/a/nrc-start-run. Accessed 2026-06-10.
-Supports: The Run tab supports basic runs, distance or time targets, speed runs, and Guided Runs.
-[15] Nike Run Club App Delivers New Features. Official Nike newsroom.
-https://about.nike.com/en/newsroom/releases/nike-run-club-app-new-features. Accessed 2026-06-10. Supports: Nike describes localized run
-tips, real-time location sharing with friends and family, six training plans, and about 300 audio guided runs.
-[16] How the Nike Run Club App Can Help You Reach Your Running Goals. Official Nike page. https://www.nike.com/a/running-goals.
-Accessed 2026-06-10. Supports: Nike describes pace, location, distance, elevation, heart rate, mile splits, progress history, and wearable
-pairing.
+[3] FIFA World Cup 2026 Blog. Official FIFA tournament blog. https://inside.fifa.com/blogs/fwc-2026. Accessed 2026-06-10. Supports: The FIFA World Cup 2026 blog functions as a tournament story hub with dated
+updates and story cards.
+[4] FIFA World Cup 26 Ticketing Programme launches this September. Official FIFA media release.
+https://inside.fifa.com/tournament-organisation/commercial/media-releases/world-cup-26-ticketing-programme-launch-september. Accessed 2026-06-10. Supports: FIFA directs fans to FIFA.com/tickets to register
+interest, create a FIFA ID, and follow phased ticket releases.
+[5] FIFA World Cup 2026 Last-Minute Sales Phase. Official FIFA media release. https://inside.fifa.com/media-releases/last-minute-ticket-sales-phase-fifa-world-cup-2026. Accessed 2026-06-10. Supports:
+FIFA.com/tickets is identified as the official and preferred ticket source; fans are asked to check it regularly; the official Resale/Exchange Marketplace is available for eligible ticket holders.
+[6] Watch FIFA+ Live Stream Online. Official FIFA+ watch destination. https://www.plus.fifa.com/. Accessed 2026-06-10. Supports: FIFA+ presents a watch surface with sign-in or get-started controls, live or upcoming
+content, highlights, replays, documentaries, and archive content. The FIFA+ destination is presented through a DAZN-branded page.
+[7] Match Centre. Official FIFA Match Centre. https://www.fifa.com/en/match-centre. Accessed 2026-06-10. Supports: The Match Centre URL exposes fixtures, results, match details, competitions, and live-now
+filtering; some content is client-side rendered.
+[8] FIFA/Coca-Cola Men's World Ranking. Official FIFA rankings page. https://inside.fifa.com/fifa-world-ranking/men. Accessed 2026-06-10. Supports: The rankings page exposes the latest men's ranking table, filters,
+official update dates, and ranking rules notes.
+[9] Tickets & Hospitality. Official FIFA tickets page. https://www.fifa.com/en/tickets. Accessed 2026-06-10. Supports: The tickets URL is the official entry point for first-hand FIFA tournament ticket and hospitality
+information; the page is client-side rendered in crawled text.
+[10] Chess.com homepage. Official Chess.com homepage. https://www.chess.com/. Accessed 2026-06-10. Supports: The homepage foregrounds Play, Puzzles, Learn, Train, Watch, Community, Get Started,
+lessons, bots, puzzles, and watching events.
+[11] How do I start a game on Chess.com?. Official Chess.com help. https://support.chess.com/en/articles/8609779-how-do-i-start-a-game-on-chess-com. Accessed 2026-06-10. Supports: Users can start games from
+the homescreen or site-wide Play menu, using recent time control, custom settings, random opponent, bots, or friends.
+[15] How does Game Review work?. Official Chess.com help. https://support.chess.com/en/articles/8584089-how-does-game-review-work. Accessed 2026-06-10. Supports: Game Review appears after a game and
+provides a detailed review flow with accuracy, move classifications, key moves, coach guidance, graphs, and retry learning.
+[17] How do I use the analysis board?. Official Chess.com help. https://support.chess.com/en/articles/8583825-how-do-i-use-the-analysis-board. Accessed 2026-06-10. Supports: The Analysis Board supports direct
+manipulation, setup position, FEN/PGN loading, game history, collections, engine settings, evaluation bar, lines, arrows, and move feedback.
+[18] How do Puzzles work on Chess.com?. Official Chess.com help. https://support.chess.com/en/articles/8608686-how-do-puzzles-work-on-chess-com. Accessed 2026-06-10. Supports: Puzzles are reachable from
+the side menu or homepage and include puzzle of the day, rated puzzles, themes, Puzzle Rush, and Puzzle Battle.
+[19] How do Lessons work on Chess.com?. Official Chess.com help. https://support.chess.com/en/articles/8609703-how-do-lessons-work-on-chess-com. Accessed 2026-06-10. Supports: Lessons are reached from
+Learn, use interactive practice challenges, and include access limits by membership level.
+[20] Chess Study Plans for All Levels. Official Chess.com article. https://www.chess.com/article/view/study-plan-directory. Accessed 2026-06-10. Supports: Study plans guide players by skill level and help organize
+training time through curated lessons and videos.
+[21] Chess.com tournaments schedule. Official Chess.com help. https://support.chess.com/en/articles/9062345-chess-com-tournaments-schedule. Accessed 2026-06-10. Supports: Tournament schedules expose
+arena and prize tournament calendars such as Titled Tuesday, Arena Kings, Bullet Brawls, and variant events.
+[22] Cheating And Fair Play On Chess.com. Official Chess.com fair-play page. https://www.chess.com/cheating. Accessed 2026-06-10. Supports: The fair-play page explains competitive integrity, account closures,
+fair-play policy, event checks, and enforcement expectations.

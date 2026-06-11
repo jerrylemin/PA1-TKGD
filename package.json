@@ -1,0 +1,30 @@
+{
+  "name": "pa1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "capture:pa1": "node scripts/capture-pa1-screenshots.js",
+    "annotate:pa1": "node scripts/annotate-pa1-screenshots.js",
+    "visuals:pa1": "npm run capture:pa1 && npm run annotate:pa1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrylemin/PA1-TKGD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jerrylemin/PA1-TKGD/issues"
+  },
+  "homepage": "https://github.com/jerrylemin/PA1-TKGD#readme",
+  "dependencies": {
+    "playwright": "^1.60.0",
+    "sharp": "^0.35.0"
+  }
+}

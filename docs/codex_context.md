@@ -2,7 +2,7 @@
 
 Date: 2026-06-10
 
-This workspace contains a generated HCI PA1 package for a group project. The corrected product pair is Strava and Nike Run Club.
+This workspace contains a generated HCI PA1 package for a group project. The current product pair is FIFA and Chess.com.
 
 Generated deliverables:
 
@@ -16,18 +16,20 @@ Shared source of truth:
 
 - `build_pa1_package.py`
 - `pa1_project_data.json`
-- `pa1_sources_strava_nrc.json`
+- `pa1_sources_fifa_chess.json`
+- `assets/figures_manifest.json`
 - `sources/*.md`
 - `sources/*.mmd`
+- `assets/screenshots/`
 
 Product choices:
 
-- Product A: Strava mobile app
-- Product B: Nike Run Club mobile app
+- Product A: FIFA web experience
+- Product B: Chess.com web experience
 
 Key assumptions:
 
 - `GROUP_ID = "GroupID"`
 - `TEAM_MEMBERS = ["Member1", "Member2", "Member3", "Member4", "Member5"]`
-- Weekly report template was unavailable, so the fallback RUP + Scrum structure is used.
+- Peer-review names are mock names until real reviewers are known.
 - Mermaid source is preserved; PDF diagrams use text fallbacks.
