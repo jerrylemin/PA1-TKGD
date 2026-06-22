@@ -2,6 +2,11 @@
 
 Current state: PA1 package has been migrated and regenerated for FIFA and Chess.com.
 
+Repository status:
+
+- Local folder was prepared for GitHub remote `https://github.com/jerrylemin/PA1-TKGD.git`.
+- `node_modules/` is intentionally excluded from version control; restore dependencies with `npm install`.
+
 Important files:
 
 - Final zip: `GroupID-PA1.zip`

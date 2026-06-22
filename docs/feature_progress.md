@@ -20,3 +20,11 @@ Remaining manual updates:
 - Replace `GroupID` with the real group ID if provided.
 - Replace placeholder member names with real names and rerun the generator.
 - Replace mock peer-review commenter names with actual peer names if required.
+
+## 2026-06-22
+
+Completed:
+
+- Prepared the PA1 workspace for Git version control.
+- Added a minimal `.gitignore` excluding `node_modules/`; project dependencies remain reproducible via `package-lock.json`.
+- Linked the repository to `https://github.com/jerrylemin/PA1-TKGD.git` for initial push.
