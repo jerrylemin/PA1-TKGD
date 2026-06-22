@@ -2,7 +2,7 @@
 
 Date: 2026-06-10
 
-This workspace contains a generated HCI PA1 package for a group project. The current product pair is FIFA and Chess.com.
+This workspace contains a generated HCI PA1 package for a group project. The final product pair is FIFA.com and Chess.com.
 
 Generated deliverables:
 
@@ -24,12 +24,18 @@ Shared source of truth:
 
 Product choices:
 
-- Product A: FIFA web experience
+- Product A: FIFA.com web experience
 - Product B: Chess.com web experience
+
+Real team roster:
+
+- Le Minh, 21127645 - Project Coordinator, Integration Lead, PeerReview Lead, WeeklyReport Lead, Final Packaging Lead
+- Nguyen Vu Bach, 21127224 - FIFA.com Research Lead, FIFA Screenshot Evidence Lead, ProductResearch Co-Lead
+- Pham Nguyen Gia Bao, 20127119 - Chess.com Research Lead, Chess.com Screenshot Evidence Lead, ProductResearch Co-Lead
+- Trang Minh Nhut, 22127318 - HCI Analysis Lead, PotentialSolutions Lead, Visual QA Lead
 
 Key assumptions:
 
-- `GROUP_ID = "GroupID"`
-- `TEAM_MEMBERS = ["Member1", "Member2", "Member3", "Member4", "Member5"]`
-- Peer-review names are mock names until real reviewers are known.
+- `GROUP_ID = "GroupID"` remains in filenames until the real course group ID is provided.
+- Peer-review feedback entries are mock/internal rehearsal feedback until real classroom peer feedback is available.
 - Mermaid source is preserved; PDF diagrams use text fallbacks.

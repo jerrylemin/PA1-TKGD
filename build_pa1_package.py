@@ -26,7 +26,33 @@ from reportlab.platypus import (
 )
 
 GROUP_ID = "GroupID"
-TEAM_MEMBERS = ["Member1", "Member2", "Member3", "Member4", "Member5"]
+TEAM_ROSTER = [
+    {
+        "name": "Le Minh",
+        "student_id": "21127645",
+        "role": "Project Coordinator, Integration Lead, PeerReview Lead, WeeklyReport Lead, Final Packaging Lead",
+        "main_contribution": "Coordinated scope, integrated final reports, led PeerReview and WeeklyReport evidence, ran final PDF and zip packaging QA.",
+    },
+    {
+        "name": "Nguyen Vu Bach",
+        "student_id": "21127224",
+        "role": "FIFA.com Research Lead, FIFA Screenshot Evidence Lead, ProductResearch Co-Lead",
+        "main_contribution": "Researched FIFA.com, collected official sources, captured and annotated FIFA evidence, and wrote FIFA HCI findings.",
+    },
+    {
+        "name": "Pham Nguyen Gia Bao",
+        "student_id": "20127119",
+        "role": "Chess.com Research Lead, Chess.com Screenshot Evidence Lead, ProductResearch Co-Lead",
+        "main_contribution": "Researched Chess.com, collected official sources, captured and annotated Chess.com evidence, and wrote Chess.com HCI findings.",
+    },
+    {
+        "name": "Trang Minh Nhut",
+        "student_id": "22127318",
+        "role": "HCI Analysis Lead, PotentialSolutions Lead, Visual QA Lead",
+        "main_contribution": "Mapped HCI concepts, led PotentialSolutions, checked figure captions, and verified drawback-to-solution consistency.",
+    },
+]
+TEAM_MEMBERS = [f"{member['name']}, {member['student_id']}" for member in TEAM_ROSTER]
 ROOT = Path(__file__).resolve().parent
 TODAY = "2026-06-10"
 
@@ -118,6 +144,109 @@ USE_CASES = [
     ["C-UC5", "Chess.com", "Solve puzzles and choose a follow-up lesson or study plan", "C-P1", "Build beginner skill through a guided loop", "Student wants to improve after a loss", "Shared laptop, low confidence, needs direction", "Puzzles and Learn reachable", "User completes a puzzle and chooses next learning action", "Open Puzzles; solve puzzle of day or rated puzzle; review feedback; open lesson or study plan; save next step", "Choose a beginner lesson first", "Premium limit appears after click and interrupts momentum", "Puzzle feedback, Learn menu, study-plan link, access labels", "[18][19][20]"],
 ]
 
+USE_CASE_CONTEXT = {
+    "F-UC1": {
+        "Where": "Campus hallway or study area",
+        "When": "Between classes during a five-minute break",
+        "Posture": "Standing or leaning over a laptop/tablet while moving between tasks",
+        "Device": "Laptop browser",
+        "Attention level": "Intermittent and divided by hallway noise",
+        "Environment": "Noisy campus setting with short session length",
+        "Interaction method": "Mouse or trackpad navigation through FIFA global navigation and Match Centre filters",
+        "HCI concepts": "Information scent; recognition over recall; visibility of system status",
+    },
+    "F-UC2": {
+        "Where": "Office desk",
+        "When": "Short work break after seeing a tournament headline",
+        "Posture": "Seated desktop browsing with multiple tabs open",
+        "Device": "Desktop browser",
+        "Attention level": "Medium; scanning under time pressure",
+        "Environment": "Office glare and interruptions",
+        "Interaction method": "Click navigation, story-card scanning, and topic filtering",
+        "HCI concepts": "Information foraging; hierarchical scanning; cognitive load",
+    },
+    "F-UC3": {
+        "Where": "Work desk or shared office space",
+        "When": "Immediately after a ranking question from another person",
+        "Posture": "Seated and task-focused",
+        "Device": "Desktop browser",
+        "Attention level": "High but brief",
+        "Environment": "Office context with multiple open tabs",
+        "Interaction method": "Global navigation, table scanning, and filter selection",
+        "HCI concepts": "Efficient task entry; data table scanability; feedback on loading state",
+    },
+    "F-UC4": {
+        "Where": "Home planning setup",
+        "When": "Evening family trip planning session",
+        "Posture": "Seated laptop browsing while comparing sources",
+        "Device": "Laptop browser",
+        "Attention level": "High because the task is trust-sensitive",
+        "Environment": "Home environment with multiple comparison tabs",
+        "Interaction method": "Navigation to tickets, cross-checking media releases, and saving official URL",
+        "HCI concepts": "Credibility; error prevention; visibility of official status",
+    },
+    "F-UC5": {
+        "Where": "Home viewing context",
+        "When": "After news or ticket research leads to video interest",
+        "Posture": "Seated laptop browsing with family nearby",
+        "Device": "Laptop browser",
+        "Attention level": "Medium; sensitive to account and brand changes",
+        "Environment": "Evening home browsing with shared decision-making",
+        "Interaction method": "Ecosystem navigation to FIFA+, rail scanning, and sign-in/get-started decision",
+        "HCI concepts": "Continuity; feedforward; trust friction; choice overload",
+    },
+    "C-UC1": {
+        "Where": "Dorm room or personal desk",
+        "When": "Short blitz window",
+        "Posture": "Seated, ready for fast mouse input",
+        "Device": "Desktop browser with external mouse",
+        "Attention level": "High and time-sensitive",
+        "Environment": "Noisy dorm with repeated short sessions",
+        "Interaction method": "Clicking Play, selecting time control/opponent, and starting a match",
+        "HCI concepts": "Efficiency; clear call to action; recognition over recall",
+    },
+    "C-UC2": {
+        "Where": "Live chess board screen",
+        "When": "During a blitz game when the clock is low",
+        "Posture": "Seated and physically tense under time pressure",
+        "Device": "Desktop browser with mouse",
+        "Attention level": "Very high but narrowed by time stress",
+        "Environment": "Noisy dorm or fast-play setting",
+        "Interaction method": "Drag-and-drop or click-move input while opponent is moving",
+        "HCI concepts": "Error prevention; direct manipulation; time pressure feedback",
+    },
+    "C-UC3": {
+        "Where": "Chess.com board page",
+        "When": "Before starting a serious game",
+        "Posture": "Seated and preparing for focused play",
+        "Device": "Desktop browser",
+        "Attention level": "High, with distraction sensitivity",
+        "Environment": "Dorm or shared space with surrounding noise",
+        "Interaction method": "Hovering near board/sidebar boundary and selecting Focus Mode",
+        "HCI concepts": "Discoverability; progressive disclosure; attention management",
+    },
+    "C-UC4": {
+        "Where": "Quiet desktop study setup",
+        "When": "Immediately after a completed game",
+        "Posture": "Seated for a longer review session",
+        "Device": "Desktop browser",
+        "Attention level": "High and reflective",
+        "Environment": "Quiet room suited to analysis",
+        "Interaction method": "Clicking Game Review, graph/move inspection, retry action, and Analysis Board handoff",
+        "HCI concepts": "Feedback; reflection; learning loop; cognitive load",
+    },
+    "C-UC5": {
+        "Where": "Shared laptop or student study space",
+        "When": "After a loss or when planning improvement practice",
+        "Posture": "Seated beginner practice posture",
+        "Device": "Laptop browser",
+        "Attention level": "Medium; confidence may be low",
+        "Environment": "Shared study environment with limited time",
+        "Interaction method": "Puzzle interaction, feedback reading, Learn navigation, and study-plan selection",
+        "HCI concepts": "Guidance; progressive disclosure; formative feedback",
+    },
+}
+
 FINDINGS = [
     ["F-HCI1", "FIFA", "Benefit", "Global navigation", "Match Centre, News, Rankings, Tickets & Hospitality", "Navigation exposes key football information tasks.", "F-P1/F-P2", "Information scent; recognition over recall; efficient task entry", "Lan can enter Match Centre from the top level instead of remembering a direct URL.", "High", "[1][7][8][9]"],
     ["F-HCI2", "FIFA", "Benefit", "All stories & topics", "Category and content-type filters", "Story browsing supports exploratory scanning across FIFA topics.", "F-P2", "Information foraging; hierarchical scanning", "Ethan narrows from broad news to a tournament story during a short office break.", "Medium", "[2][3]"],
@@ -202,22 +331,30 @@ def references_md(nums=None):
 def use_case_sections(product):
     lines = []
     for uc in [u for u in USE_CASES if u[1] == product]:
+        context = USE_CASE_CONTEXT[uc[0]]
         lines += [
             f"### {uc[0]}. {uc[2]}",
             table(
                 ["Field", "Detail"],
                 [
                     ["Primary persona", uc[3]],
-                    ["Goal", uc[4]],
-                    ["Trigger", uc[5]],
-                    ["Context", uc[6]],
-                    ["Preconditions", uc[7]],
-                    ["Postconditions", uc[8]],
-                    ["Step-by-step flow", uc[9]],
-                    ["Alternate flow", uc[10]],
-                    ["Error path", uc[11]],
-                    ["Feedback points", uc[12]],
-                    ["Evidence references", uc[13]],
+                    ["Where:", context["Where"]],
+                    ["When:", context["When"]],
+                    ["Posture:", context["Posture"]],
+                    ["Device:", context["Device"]],
+                    ["Attention level:", context["Attention level"]],
+                    ["Environment:", context["Environment"]],
+                    ["Interaction method:", context["Interaction method"]],
+                    ["Goal:", uc[4]],
+                    ["Trigger:", uc[5]],
+                    ["Precondition:", uc[7]],
+                    ["Normal flow:", uc[9]],
+                    ["Alternate flow:", uc[10]],
+                    ["Error path:", uc[11]],
+                    ["Feedback observed:", uc[12]],
+                    ["Figure or source reference:", uc[13]],
+                    ["HCI concepts:", context["HCI concepts"]],
+                    ["Success outcome:", uc[8]],
                 ],
             ),
         ]
@@ -454,13 +591,13 @@ def solutions_md():
 
 def peer_review_md():
     slides = [
-        [1, "Scope and selected pair", "FIFA browse-first web ecosystem and Chess.com action-first web platform; Figure F-01 and Figure C-01", "Member1", "0:45"],
-        [2, "Evidence method and official source protocol", "Official pages first; Playwright screenshots and manifest; Figure F-04 and Figure C-02", "Member1", "0:55"],
-        [3, "Personas and contexts", "Six personas with task, device, attention, trust, and learning contexts; Figure F-08 and Figure C-08", "Member2", "1:00"],
-        [4, "FIFA findings", "Navigation, Match Centre, mobile interruption, article density, and handoff drawbacks; Figure F-02, Figure F-04, Figure F-06, Figure F-08", "Member3", "1:10"],
-        [5, "Chess.com findings", "Play, board, puzzles, Learn, navigation, and feedback density; Figure C-02, Figure C-03, Figure C-04, Figure C-05, Figure C-06", "Member4", "1:10"],
-        [6, "Solution priorities", "Quick wins versus deeper redesigns and impact-effort rationale; Figure S-01 to Figure S-08", "Member4", "1:10"],
-        [7, "Sprint plan, QA, and packaging", "Two-week RUP plus Scrum process, visual QA, PDF regeneration, zip validation; Figure F-09 and Figure C-09", "Member5", "0:50"],
+        [1, "Scope and selected pair", "FIFA browse-first web ecosystem and Chess.com action-first web platform; Figure F-01 and Figure C-01", "Le Minh", "0:45"],
+        [2, "Evidence method and official source protocol", "Official pages first; Playwright screenshots and manifest; Figure F-04 and Figure C-02", "Le Minh", "0:55"],
+        [3, "Personas and contexts", "Six personas with task, device, attention, trust, and learning contexts; Figure F-08 and Figure C-08", "Trang Minh Nhut", "1:00"],
+        [4, "FIFA findings", "Navigation, Match Centre, mobile interruption, article density, and handoff drawbacks; Figure F-02, Figure F-04, Figure F-06, Figure F-08", "Nguyen Vu Bach", "1:10"],
+        [5, "Chess.com findings", "Play, board, puzzles, Learn, navigation, and feedback density; Figure C-02, Figure C-03, Figure C-04, Figure C-05, Figure C-06", "Pham Nguyen Gia Bao", "1:10"],
+        [6, "Solution priorities", "Quick wins versus deeper redesigns and impact-effort rationale; Figure S-01 to Figure S-08", "Trang Minh Nhut", "1:10"],
+        [7, "Sprint plan, QA, and packaging", "Two-week RUP plus Scrum process, visual QA, PDF regeneration, zip validation; Figure F-09 and Figure C-09", "Le Minh", "0:50"],
     ]
     questions = [
         ["Why pair FIFA with Chess.com?", "They are both high-traffic web experiences, but FIFA is browse-first while Chess.com is action-first, so the contrast exposes different HCI tradeoffs."],
@@ -473,24 +610,24 @@ def peer_review_md():
         ["Which redesign gives best impact for effort?", "F-S3 and C-S3 are strong low-effort wins: the handoff explainer reduces trust friction and the beginner analysis preset reduces cognitive load."],
     ]
     feedback = [
-        ["Nora Lee", "Peer", "FIFA ticket trust needs a stronger official-source cue.", "Added F-HCI3, F-D4, F-S7, and F-S8 with FIFA.com/tickets citations.", "Member3", "Done"],
-        ["Omar Khan", "Peer", "Explain why FIFA+ is not just another page.", "Added DAZN-branded handoff risk, explainer card, and shared breadcrumb solution.", "Member4", "Done"],
-        ["Jin Park", "Peer", "Chess.com beginner analysis sounds too expert-focused.", "Added C-S3 beginner preset and C-S4 inline glossary.", "Member4", "Done"],
-        ["Mira Vo", "Peer", "Premove needs an error-prevention solution.", "Added premove queue preview and fast clear shortcut.", "Member4", "Done"],
-        ["Sam Patel", "Peer", "Focus Mode discovery should cite the hover behavior.", "Linked C-HCI9 to board-size and Focus Mode support pages.", "Member3", "Done"],
-        ["Hana Lim", "Peer", "The pair needs a clearer comparison logic.", "Reframed FIFA as browse, compare, follow and Chess.com as do, review, improve.", "Member1", "Done"],
-        ["Leo Tran", "Peer", "Weekly plan must show QA and packaging.", "Added Day 13 and Day 14 validation tasks and zip checks.", "Member5", "Done"],
-        ["Ivy Chen", "Peer", "Mockups should not imply invented screenshots.", "Changed all mockups to written UI descriptions only.", "Member4", "Done"],
+        ["Nora Lee", "Mock/internal rehearsal peer", "FIFA ticket trust needs a stronger official-source cue.", "Added F-HCI3, F-D4, F-S7, and F-S8 with FIFA.com/tickets citations.", "Nguyen Vu Bach", "Done"],
+        ["Omar Khan", "Mock/internal rehearsal peer", "Explain why FIFA+ is not just another page.", "Added DAZN-branded handoff risk, explainer card, and shared breadcrumb solution.", "Trang Minh Nhut", "Done"],
+        ["Jin Park", "Mock/internal rehearsal peer", "Chess.com beginner analysis sounds too expert-focused.", "Added C-S3 beginner preset and C-S4 inline glossary.", "Trang Minh Nhut", "Done"],
+        ["Mira Vo", "Mock/internal rehearsal peer", "Premove needs an error-prevention solution.", "Added premove queue preview and fast clear shortcut.", "Pham Nguyen Gia Bao", "Done"],
+        ["Sam Patel", "Mock/internal rehearsal peer", "Focus Mode discovery should cite the hover behavior.", "Linked C-HCI9 to board-size and Focus Mode support pages.", "Pham Nguyen Gia Bao", "Done"],
+        ["Hana Lim", "Mock/internal rehearsal peer", "The pair needs a clearer comparison logic.", "Reframed FIFA as browse, compare, follow and Chess.com as do, review, improve.", "Le Minh", "Done"],
+        ["Leo Tran", "Mock/internal rehearsal peer", "Weekly plan must show QA and packaging.", "Added sprint evidence, validation tasks, and zip checks.", "Le Minh", "Done"],
+        ["Ivy Chen", "Mock/internal rehearsal peer", "Mockups should not imply invented screenshots.", "Changed all mockups to written UI descriptions only.", "Trang Minh Nhut", "Done"],
     ]
     script = (
-        "Member1 opens by naming the pair: FIFA and Chess.com web experiences. "
+        "Le Minh opens by naming the pair: FIFA and Chess.com web experiences. "
         "The first contrast is task posture: FIFA is browse, compare, and follow, while Chess.com is do, review, and improve. "
-        "Member1 then explains the official-source protocol and why numbered references are used. "
-        "Member2 introduces six personas and emphasizes context: short campus browsing, office scanning, trust-sensitive ticket planning, beginner learning, blitz play, and deep review. "
-        "Member3 presents FIFA findings, starting with navigation and official ticket trust, then moving into the drawbacks of ecosystem sprawl, FIFA+ continuity, dense watch rails, ticket status uncertainty, and article-to-utility friction. "
-        "Member4 presents Chess.com findings, showing how Play, Puzzles, Learn, Game Review, Analysis, and Study Plans support action and reflection, then explaining risks from feature overload, premove execution, hidden Focus Mode controls, and complex analysis screens. "
-        "Member4 closes the design portion with quick wins and deeper redesigns. "
-        "Member5 finishes with the two-week RUP plus Scrum plan, peer-review feedback loop, citation QA, PDF text extraction, old-term scan, and zip packaging."
+        "Le Minh then explains the official-source protocol and why numbered references are used. "
+        "Trang Minh Nhut introduces six personas and emphasizes context: short campus browsing, office scanning, trust-sensitive ticket planning, beginner learning, blitz play, and deep review. "
+        "Nguyen Vu Bach presents FIFA findings, starting with navigation and official ticket trust, then moving into the drawbacks of ecosystem sprawl, FIFA+ continuity, dense watch rails, ticket status uncertainty, and article-to-utility friction. "
+        "Pham Nguyen Gia Bao presents Chess.com findings, showing how Play, Puzzles, Learn, Game Review, Analysis, and Study Plans support action and reflection, then explaining risks from feature overload, premove execution, hidden Focus Mode controls, and complex analysis screens. "
+        "Trang Minh Nhut closes the design portion with quick wins and deeper redesigns. "
+        "Le Minh finishes with the two-week RUP plus Scrum plan, peer-review feedback loop, citation QA, PDF text extraction, old-term scan, and zip packaging."
     )
     lines = [
         f"# {GROUP_ID}-PA1 Peer Review Preparation: FIFA and Chess.com",
@@ -501,9 +638,10 @@ def peer_review_md():
         "## Likely questions and prepared answers",
         table(["Question", "Prepared answer"], questions),
         "## Mock feedback entries",
+        "These entries are mock/internal rehearsal feedback because real classroom peer feedback was not available in the repository.",
         table(["Reviewer", "Role", "Feedback", "Response/revision", "Owner", "Status"], feedback),
         "## Revision log and owner mapping",
-        table(["Revision area", "Owner", "Evidence of change"], [["Scope", "Member1", "Product pair and cross-product framing locked"], ["Personas/use cases", "Member2", "Six personas and ten detailed use cases"], ["HCI findings", "Member3", "Twenty findings with scenario and citation"], ["Solutions", "Member4", "Ten drawbacks and twenty UI-level solutions"], ["QA/package", "Member5", "PDF extraction, old-term scan, and zip validation"]]),
+        table(["Revision area", "Owner", "Evidence of change"], [["Scope, evidence protocol, final QA", "Le Minh", "Product pair, source protocol, final scan, and packaging locked"], ["FIFA.com findings", "Nguyen Vu Bach", "FIFA personas, use cases, screenshot evidence, and HCI findings"], ["Chess.com findings", "Pham Nguyen Gia Bao", "Chess.com personas, use cases, screenshot evidence, and HCI findings"], ["HCI solution priorities", "Trang Minh Nhut", "Drawback-to-solution matrix and visual solution QA"], ["Sprint evidence and packaging", "Le Minh", "WeeklyReport, PDF extraction, and zip validation"], ["Figure and caption QA", "Trang Minh Nhut", "Annotated screenshot and solution figure consistency checks"]]),
         "## Rehearsal checklist",
         "\n".join([f"- Check {i}: {text}" for i, text in enumerate(["First slide names FIFA and Chess.com only.", "Method slide explains official-source-first evidence.", "Persona slide ties each person to a context and task.", "FIFA slide includes benefits and drawbacks with concrete controls.", "Chess.com slide includes play, review, analysis, learning, premove, and Focus Mode.", "Solution slide states UI behavior, effect, tradeoff, priority, and effort.", "Close names regenerated PDFs and top-level zip.", "Q&A uses HCI reasoning instead of generic praise."], 1)]),
         references_md([1, 5, 6, 10, 11, 12, 13, 14, 15, 17, 20, 22]),
@@ -512,57 +650,72 @@ def peer_review_md():
 
 
 def weekly_report_md():
-    roles = [
-        ["Member1", "Coordinator", "Scope lock, source protocol, final QA"],
-        ["Member2", "FIFA research lead", "FIFA sources, personas, use cases"],
-        ["Member3", "Chess.com research lead", "Chess.com sources, personas, use cases"],
-        ["Member4", "HCI and solutions lead", "Findings, drawbacks, solution design"],
-        ["Member5", "QA and packaging lead", "PDF regeneration, text scan, zip validation"],
+    roster = [[m["name"], m["student_id"], m["role"], m["main_contribution"]] for m in TEAM_ROSTER]
+    sprint_planning = [
+        ["Meeting type", "Sprint Planning"],
+        ["Planned date", "2026-06-10"],
+        ["Attendance", "Le Minh, Nguyen Vu Bach, Pham Nguyen Gia Bao, Trang Minh Nhut"],
+        ["Decisions", "Product pair locked as FIFA.com and Chess.com; final reports must include visual screenshot evidence; ProductResearch co-led by Nguyen Vu Bach and Pham Nguyen Gia Bao; PotentialSolutions led by Trang Minh Nhut; PeerReview, WeeklyReport, integration, and packaging led by Le Minh; screenshots must be annotated and referenced; four final PDFs must be packaged at the top level of GroupID-PA1.zip."],
+        ["Task assignments", "Le Minh: coordinate scope, manage final checklist, write PeerReview, support WeeklyReport, regenerate PDF and zip. Nguyen Vu Bach: research FIFA.com, collect FIFA sources, capture and annotate FIFA screenshots, write FIFA HCI findings. Pham Nguyen Gia Bao: research Chess.com, collect Chess.com sources, capture and annotate Chess screenshots, write Chess.com HCI findings. Trang Minh Nhut: map HCI concepts, write PotentialSolutions, check figure captions, check consistency between drawbacks and solutions."],
+        ["Actions", "Use official sources first; preserve F- and C-prefix IDs; regenerate PDFs from source after final fixes."],
     ]
-    days = [
-        [1, "Scope, product lock, repo audit, screenshot plan", "Coordinator", "All", 3, "None", "Visual migration audit", "FIFA.com and Chess.com locked"],
-        [2, "FIFA.com official source collection and screenshot capture", "FIFA research lead", "Visual QA", 4, "Day 1", "FIFA source log and raw screenshots", "Required FIFA screens captured"],
-        [3, "Chess.com official source collection and screenshot capture", "Chess.com research lead", "Visual QA", 4, "Day 1", "Chess.com source log and raw screenshots", "Required Chess.com screens captured"],
-        [4, "Personas and user groups", "Coordinator", "HCI lead", 5, "Sources", "Six personas", "Goals, frustrations, devices, contexts, constraints complete"],
-        [5, "Use cases and weekly scrum 1", "FIFA/Chess leads", "Coordinator", 5, "Personas", "Ten use cases and Scrum 1 notes", "Each use case has flows, errors, feedback, figures"],
-        [6, "FIFA.com annotation and HCI analysis", "HCI lead", "FIFA lead", 5, "FIFA screenshots", "F-HCI1 to F-HCI10", "Every finding references a screenshot"],
-        [7, "Chess.com annotation and HCI analysis", "HCI lead", "Chess lead", 5, "Chess screenshots", "C-HCI1 to C-HCI10", "Every finding references a screenshot"],
-        [8, "Cross-product comparison and drawback consolidation", "HCI lead", "All", 5, "Findings", "Ten drawbacks", "Comparison states browse-first vs action-first tradeoffs"],
-        [9, "Solution sketches and HCI mapping", "HCI lead", "Visual QA", 5, "Drawbacks", "Eight solution figures and twenty solutions", "Two solutions per drawback"],
-        [10, "ProductResearch draft and weekly scrum 2", "Coordinator", "All", 5, "Evidence and findings", "ProductResearch source", "24 figures, personas, use cases, findings"],
-        [11, "PotentialSolutions draft", "HCI lead", "Coordinator", 5, "Drawbacks/solutions", "PotentialSolutions source", "10 drawbacks, 20 solutions, 8 solution figures"],
-        [12, "PeerReview draft, slide plan, rehearsal", "Visual QA", "All", 4, "Draft reports", "PeerReview source", "Seven-slide plan and seven-minute script"],
-        [13, "WeeklyReport, citation pass, visual QA", "Visual QA", "Coordinator", 5, "All reports", "WeeklyReport and validation docs", "Source and figure checks pass"],
-        [14, "Sprint review, PDF export, zip packaging, final validation", "Visual QA", "All", 4, "QA complete", f"{GROUP_ID}-PA1.zip", "Four PDFs at zip top level"],
+    scrum1 = [
+        ["Le Minh", "Prepared report structure, reviewed PA1 checklist, organized deliverable folders, drafted PeerReview outline.", "Integrate ProductResearch sections and prepare QA checklist.", "Needs research sections from both product leads before integration.", "Remind product leads to finish evidence tables and screenshot captions."],
+        ["Nguyen Vu Bach", "Collected FIFA.com official sources, captured FIFA.com screenshots, drafted FIFA personas and use cases.", "Complete FIFA HCI findings and drawback list.", "Some FIFA pages use dynamic content and require careful screenshot selection.", "Use annotated screenshots and crop images for dense pages."],
+        ["Pham Nguyen Gia Bao", "Collected Chess.com official sources, captured Chess.com screenshots, drafted Chess.com personas and use cases.", "Complete Chess.com HCI findings and drawback list.", "Some game-board and review features may require account or accessible demo views.", "Use available public screens and official support sources when interactive screens are limited."],
+        ["Trang Minh Nhut", "Prepared HCI concept mapping template, reviewed initial screenshots, created solution mapping structure.", "Convert drawbacks into HCI-based solutions and check caption quality.", "Needs final drawback list from both product leads.", "Align drawback IDs with ProductResearch before writing PotentialSolutions."],
     ]
-    scrums = [
-        ["Sprint planning", "All five members", "Objective locked: produce four submission-ready PA1 PDFs plus GroupID-PA1.zip for FIFA web and Chess.com web.", "Use official sources first; use F- and C-prefix IDs; regenerate PDFs from source."],
-        ["Weekly scrum 1", "All five members", "FIFA and Chess.com source coverage accepted; personas and use cases in progress.", "Resolve FIFA client-side source sparsity by citing official navigation and media-release pages."],
-        ["Weekly scrum 2", "All five members", "Findings, drawbacks, and solution mappings accepted for final drafting.", "Run citation pass, PDF extraction, old-term scan, and zip validation."],
-        ["Sprint review", "All five members", "Four PDFs and final zip reviewed against acceptance criteria.", "Manual placeholders remain for GroupID, member names, and peer reviewer names."],
+    scrum2 = [
+        ["Le Minh", "Integrated draft reports, reviewed PeerReview script, checked filenames and zip requirements.", "Finalize WeeklyReport, regenerate PDFs, run final scan.", "Must ensure no old product names or disallowed wording remain.", "Run repo-wide text scan and PDF extraction scan."],
+        ["Nguyen Vu Bach", "Finished FIFA.com overview, personas, use cases, annotated figures, benefits, drawbacks, and HCI findings.", "Review ProductResearch PDF after regeneration.", "Some FIFA figures are visually dense.", "Use crop figures and captions to make highlighted regions clearer."],
+        ["Pham Nguyen Gia Bao", "Finished Chess.com overview, personas, use cases, annotated figures, benefits, drawbacks, and HCI findings.", "Review ProductResearch and PotentialSolutions after regeneration.", "Chess.com has many features, so analysis can become too broad.", "Keep analysis tied to play, puzzles, learn, review, and navigation tasks."],
+        ["Trang Minh Nhut", "Completed drawback-to-solution matrix, impact-effort table, rollout plan, and visual QA checks.", "Review final screenshots, captions, and solution consistency.", "Must ensure every solution maps to a real drawback.", "Compare PotentialSolutions against ProductResearch before PDF export."],
+    ]
+    sprint_review = [
+        ["Meeting type", "Sprint Review and Retrospective"],
+        ["Planned date", "2026-06-22"],
+        ["Attendance", "Le Minh, Nguyen Vu Bach, Pham Nguyen Gia Bao, Trang Minh Nhut"],
+        ["What went well", "Product pair is consistent as FIFA.com and Chess.com. Visual evidence is strong, with raw screenshots, annotated screenshots, crop images, and figure captions. ProductResearch, PotentialSolutions, and PeerReview are mostly complete. Old products were removed from final deliverables."],
+        ["What went wrong", "WeeklyReport initially used generic member labels. Scrum records were initially summarized at meeting level. PeerReview owner fields initially used generic owner names. WorkDivision document required Vietnamese regeneration."],
+        ["Causes", "Team data was not centralized early enough. Generated reports reused default member labels. Final audit was performed after PDF generation, so some source problems remained in the generated PDFs."],
+        ["What to improve", "Keep real member data in a single source-of-truth file. Run text scans before PDF export. Review WeeklyReport separately because it has process-specific grading requirements. Validate generated PDF text, not only markdown sources."],
+        ["Lessons learned", "A strong visual report still fails strict readiness if team evidence and scrum details are incomplete. Per-member progress records are needed for WeeklyReport. Final packaging must be regenerated after any source fix."],
     ]
     workload = [
-        ["Member1", "Coordinator", 4, 5, 5, 1, 15],
-        ["Member2", "FIFA research lead", 6, 6, 2, 0, 14],
-        ["Member3", "Chess.com research lead", 6, 6, 2, 0, 14],
-        ["Member4", "HCI and solutions lead", 3, 8, 3, 0, 14],
-        ["Member5", "QA and packaging lead", 1, 4, 4, 6, 15],
+        ["Le Minh", "Coordinator/integration/PeerReview/WeeklyReport/packaging", 3, 5, 5, 4, 17],
+        ["Nguyen Vu Bach", "FIFA.com research and visual evidence", 6, 6, 3, 1, 16],
+        ["Pham Nguyen Gia Bao", "Chess.com research and visual evidence", 6, 6, 3, 1, 16],
+        ["Trang Minh Nhut", "HCI analysis, PotentialSolutions, visual QA", 4, 7, 4, 1, 16],
+    ]
+    checklist = [
+        ["ProductResearch PDF", f"{GROUP_ID}-PA1-ProductResearch.pdf", "Contains FIFA.com and Chess.com evidence, figures, personas, use cases, HCI findings, references, and strict context labels."],
+        ["PotentialSolutions PDF", f"{GROUP_ID}-PA1-PotentialSolutions.pdf", "Contains drawback-to-solution mapping, solution details, priority/effort rationale, rollout plan, and solution figures."],
+        ["PeerReview PDF", f"{GROUP_ID}-PA1-PeerReview.pdf", "Contains seven-minute script, slide plan, internal rehearsal feedback, and real owner names."],
+        ["WeeklyReport PDF", f"{GROUP_ID}-PA1-WeeklyReport.pdf", "Contains real roster, planned dates, sprint planning, two per-member scrum records, sprint review, workload matrix, and checklist."],
+        ["Submission package", f"{GROUP_ID}-PA1.zip", "Contains exactly the four final PDFs at top level."],
     ]
     lines = [
         f"# {GROUP_ID}-PA1 Weekly Report",
         "## Sprint objective",
         f"Produce PA1 reports for FIFA.com and Chess.com with visual screenshot evidence and HCI analysis, then package four submission-ready PDFs in {GROUP_ID}-PA1.zip.",
-        "## Role model",
-        "If the team size is four, merge QA with Coordinator. This package keeps all five roles because five placeholder team members are present.",
-        table(["Member", "Role", "Responsibility"], roles),
-        "## Meeting records",
-        table(["Meeting", "Attendance", "Decisions", "Actions"], scrums),
-        "## Day-by-day 14-day plan",
-        table(["Day", "Task", "Owner", "Reviewer", "Hours", "Dependency", "Output", "Done criteria"], days),
+        "## Real team roster",
+        table(["Member", "Student ID", "Role", "Main contribution"], roster),
+        "## Planned meeting schedule",
+        table(["Meeting", "Planned date", "Attendance"], [["Sprint Planning", "2026-06-10", "All four members"], ["Weekly Scrum 1", "2026-06-14", "All four members"], ["Weekly Scrum 2", "2026-06-19", "All four members"], ["Sprint Review and Retrospective", "2026-06-22", "All four members"]]),
+        "## Sprint planning meeting",
+        table(["Field", "Detail"], sprint_planning),
+        "## Weekly Scrum 1",
+        "Meeting type: Weekly Scrum 1. Planned date: 2026-06-14. Attendance: all four members.",
+        table(["Member", "Completed work", "Next work", "Issues or obstacles", "Action needed"], scrum1),
+        "## Weekly Scrum 2",
+        "Meeting type: Weekly Scrum 2. Planned date: 2026-06-19. Attendance: all four members.",
+        table(["Member", "Completed work", "Next work", "Issues or obstacles", "Action needed"], scrum2),
+        "## Sprint review",
+        table(["Field", "Detail"], sprint_review),
         "## Workload matrix",
         table(["Member", "Role", "Research", "Writing", "Review", "Packaging", "Total"], workload),
-        "## Deliverable QA",
-        table(["Deliverable", "Expected filename", "Acceptance status"], [["Product research", f"{GROUP_ID}-PA1-ProductResearch.pdf", "Pass after regeneration and text scan"], ["Potential solutions", f"{GROUP_ID}-PA1-PotentialSolutions.pdf", "Pass after drawback/solution mapping check"], ["Peer review", f"{GROUP_ID}-PA1-PeerReview.pdf", "Pass after seven-minute script and feedback check"], ["Weekly report", f"{GROUP_ID}-PA1-WeeklyReport.pdf", "Pass after process and workload check"], ["Submission package", f"{GROUP_ID}-PA1.zip", "Pass when exactly four PDFs are at zip top level"]]),
+        "## Final submission checklist",
+        table(["Deliverable", "Expected filename", "Acceptance status"], checklist),
         "## Diagram C. Sprint timeline",
         "Figure W-01. Weekly sprint timeline and delivery sequence.",
         "```mermaid\nflowchart LR\nA[Day 1 Planning] --> B[Days 2 to 3 Sources]\nB --> C[Days 4 to 6 Personas and Use Cases]\nC --> D[Days 7 to 8 HCI Findings]\nD --> E[Days 9 to 11 Solutions and Drafts]\nE --> F[Days 12 to 13 Rehearsal and QA]\nF --> G[Day 14 Review, PDFs, Zip]\n```",
@@ -575,7 +728,7 @@ def weekly_report_md():
 def data_model():
     return {
         "group_id": GROUP_ID,
-        "team_members": TEAM_MEMBERS,
+        "team_members": TEAM_ROSTER,
         "deliverable_language": "English",
         "sprint_length_days": 14,
         "products": PRODUCTS,
@@ -585,7 +738,7 @@ def data_model():
         "drawbacks": DRAWBACKS,
         "solutions": SOLUTIONS,
         "sources": SOURCES,
-        "assumptions": ["GROUP_ID and member names are placeholders.", "Peer reviewer names are mock names for preparation only.", "Official Vietnamese pages were not surfaced during the source refresh.", "Mermaid source is preserved; PDF diagrams include readable text fallback."],
+        "assumptions": ["GroupID remains in filenames until the real course group ID is provided.", "Peer review feedback entries are mock/internal rehearsal feedback until real classroom peer feedback is available.", "Official Vietnamese pages were not surfaced during the source refresh.", "Mermaid source is preserved; PDF diagrams include readable text fallback."],
     }
 
 
@@ -624,7 +777,7 @@ def context_docs():
 
 Date: {TODAY}
 
-This workspace contains a generated HCI PA1 package for a group project. The current product pair is FIFA and Chess.com.
+This workspace contains a generated HCI PA1 package for a group project. The final product pair is FIFA.com and Chess.com.
 
 Generated deliverables:
 
@@ -646,14 +799,20 @@ Shared source of truth:
 
 Product choices:
 
-- Product A: FIFA web experience
+- Product A: FIFA.com web experience
 - Product B: Chess.com web experience
+
+Real team roster:
+
+- Le Minh, 21127645 - Project Coordinator, Integration Lead, PeerReview Lead, WeeklyReport Lead, Final Packaging Lead
+- Nguyen Vu Bach, 21127224 - FIFA.com Research Lead, FIFA Screenshot Evidence Lead, ProductResearch Co-Lead
+- Pham Nguyen Gia Bao, 20127119 - Chess.com Research Lead, Chess.com Screenshot Evidence Lead, ProductResearch Co-Lead
+- Trang Minh Nhut, 22127318 - HCI Analysis Lead, PotentialSolutions Lead, Visual QA Lead
 
 Key assumptions:
 
-- `GROUP_ID = "GroupID"`
-- `TEAM_MEMBERS = ["Member1", "Member2", "Member3", "Member4", "Member5"]`
-- Peer-review names are mock names until real reviewers are known.
+- `GROUP_ID = "GroupID"` remains in filenames until the real course group ID is provided.
+- Peer-review feedback entries are mock/internal rehearsal feedback until real classroom peer feedback is available.
 - Mermaid source is preserved; PDF diagrams use text fallbacks.
 """
     structure = """# Project Structure
@@ -667,6 +826,7 @@ Key assumptions:
 |-- artifact_manifest.json            # Last generation manifest and validation status
 |-- GroupID-PA1-*.pdf                 # Final PDF deliverables
 |-- GroupID-PA1.zip                   # Final package with four PDFs at top level
+|-- GroupID-PA1-WorkDivision.docx     # Vietnamese work-division support document
 |-- assets/
 |   |-- figures_manifest.json          # Screenshot and solution figure manifest
 |   |-- screenshots/raw/               # Playwright captures
@@ -676,6 +836,7 @@ Key assumptions:
 |-- scripts/
 |   |-- capture-pa1-screenshots.js
 |   |-- annotate-pa1-screenshots.js
+|   |-- create_pa1_work_division_docx.py
 |-- sources/
 |   |-- GroupID-PA1-*.md              # Editable Markdown source artifacts
 |   |-- mermaid-fifa-browse-watch-flow.mmd
@@ -711,6 +872,18 @@ Validate zip contents:
 ```powershell
 & 'C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -m zipfile -l '{GROUP_ID}-PA1.zip'
 ```
+
+Regenerate Vietnamese WorkDivision docx:
+
+```powershell
+& 'C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' 'scripts\\create_pa1_work_division_docx.py'
+```
+
+Run final text validation:
+
+```powershell
+& 'C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' 'scripts\\validate_pa1_final_fix.py'
+```
 """
     progress = f"""# Feature Progress
 
@@ -724,37 +897,43 @@ Completed:
 - Generated 26 annotated screenshots, 26 crops, and 8 solution sketch figures.
 - Refreshed official source log as `pa1_sources_fifa_chess.json`.
 - Rebuilt personas, use cases, HCI findings, drawbacks, and solutions with F- and C-prefix IDs.
-- Regenerated four final PDF deliverables with exact placeholder filenames.
+- Regenerated four final PDF deliverables with GroupID filenames.
 - Generated final zip with the four PDFs at top level.
 - Generated editable Markdown, Mermaid source files, shared fact base, audit, and artifact manifest.
-- Validated PDF readability, old-term removal, source counts, and zip contents.
+- Validated PDF readability, old-term removal, source counts, real team names, and zip contents.
+- Replaced generic team labels with the four real members in ProductResearch, PeerReview, WeeklyReport, shared JSON, and generated PDF text.
+- Added strict ProductResearch use-case labels for Where, When, Posture, Device, Attention level, Environment, Interaction method, Goal, Trigger, Precondition, Normal flow, Alternate flow, Error path, Feedback observed, Figure or source reference, and HCI concepts.
+- Expanded WeeklyReport with real roster, planned meeting schedule, sprint planning, two per-member scrum tables, sprint review, workload matrix, and final checklist.
+- Regenerated Vietnamese WorkDivision docx with RACI, quality checklist, and signature table.
 
 Remaining manual updates:
 
 - Replace `GroupID` with the real group ID if provided.
-- Replace placeholder member names with real names and rerun the generator.
-- Replace mock peer-review commenter names with actual peer names if required.
+- Replace mock/internal rehearsal feedback names with actual peer names if required.
 """
     handoff = f"""# Session Handoff
 
-Current state: PA1 package has been migrated and regenerated for FIFA and Chess.com.
+Current state: PA1 package has been final-fixed and regenerated for FIFA.com and Chess.com.
 
 Important files:
 
 - Final zip: `{GROUP_ID}-PA1.zip`
 - Final PDFs: `{GROUP_ID}-PA1-ProductResearch.pdf`, `{GROUP_ID}-PA1-PotentialSolutions.pdf`, `{GROUP_ID}-PA1-PeerReview.pdf`, `{GROUP_ID}-PA1-WeeklyReport.pdf`
+- WorkDivision: `{GROUP_ID}-PA1-WorkDivision.docx` and `output/{GROUP_ID}-PA1-WorkDivision.docx`
 - Generator: `build_pa1_package.py`
 - Visual pipeline: `npm run visuals:pa1`
 - Visual manifest: `assets/figures_manifest.json`
 - Shared data: `pa1_project_data.json`
 - Source log: `pa1_sources_fifa_chess.json`
-- Audit: `docs/pa1_fifa_chess_migration_audit.md`
+- Final-fix audit: `docs/pa1_final_10_10_audit_after_fix.md`
+- Final-fix validation: `docs/pa1_final_fix_validation.md`
 
 Next session guidance:
 
 - To change group ID or member names, edit constants near the top of `build_pa1_package.py` and rerun it.
 - To change evidence, edit `SOURCES` and cited findings in `build_pa1_package.py`, then rerun.
 - Do not hand-edit generated PDFs; regenerate from the shared script.
+- Manual item: replace `GroupID` with the real group ID when available.
 """
     return {
         "docs/codex_context.md": context,

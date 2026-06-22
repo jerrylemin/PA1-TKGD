@@ -199,7 +199,7 @@ def configure_document(doc: Document) -> None:
         style.paragraph_format.line_spacing = 1.10
 
     header = section.header.paragraphs[0]
-    header.text = "PA1 Work Division"
+    header.text = "Phan chia cong viec PA1"
     header.alignment = WD_ALIGN_PARAGRAPH.CENTER
     for run in header.runs:
         run.font.name = "Calibri"
@@ -207,7 +207,7 @@ def configure_document(doc: Document) -> None:
         run.font.color.rgb = RGBColor(85, 85, 85)
 
     footer = section.footer.paragraphs[0]
-    footer.text = "FIFA.com and Chess.com HCI Project"
+    footer.text = "Du an HCI cho FIFA.com va Chess.com"
     footer.alignment = WD_ALIGN_PARAGRAPH.CENTER
     for run in footer.runs:
         run.font.name = "Calibri"
@@ -225,149 +225,146 @@ def build_docx() -> None:
     title = doc.add_paragraph()
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     title.paragraph_format.space_after = Pt(3)
-    run = title.add_run("PA1 Work Division")
+    run = title.add_run("PHÂN CHIA CÔNG VIỆC PA1")
     run.font.name = "Calibri"
-    run.font.size = Pt(16)
+    run.font.size = Pt(18)
     run.font.bold = True
 
     subtitle = doc.add_paragraph()
     subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
     subtitle.paragraph_format.space_after = Pt(12)
-    run = subtitle.add_run("ProductResearch Work Division for FIFA.com and Chess.com")
+    run = subtitle.add_run("Nghiên cứu HCI cho FIFA.com và Chess.com")
     run.font.name = "Calibri"
     run.font.size = Pt(12)
 
-    add_heading(doc, "1. Project objective")
+    add_heading(doc, "1. Mục tiêu đồ án")
     add_body(
         doc,
-        "The group will complete only the ProductResearch part of PA1 by researching FIFA.com and Chess.com "
-        "from HCI and UX perspectives. The work includes product overview, target users, personas, use cases, "
-        "screenshot evidence, HCI findings, benefits, drawbacks, source citation, cross-product comparison, "
-        "and final QA for GroupID-PA1-ProductResearch.pdf.",
+        "Nhóm hoàn thiện gói PA1 cho cặp sản phẩm FIFA.com và Chess.com theo góc nhìn HCI. "
+        "Các sản phẩm nộp gồm ProductResearch, PotentialSolutions, PeerReview, WeeklyReport và gói nén cuối cùng. "
+        "Công việc nhấn mạnh bằng chứng ảnh chụp màn hình, chú thích hình, nguồn chính thức, phân tích HCI, giải pháp cải thiện và kiểm tra chất lượng trước khi nộp.",
     )
 
-    add_heading(doc, "2. Team members")
+    add_heading(doc, "2. Thành viên nhóm")
     add_table(
         doc,
-        ["No.", "Member", "Student ID", "Main role", "Supporting role"],
+        ["STT", "Thành viên", "MSSV", "Vai trò chính", "Vai trò hỗ trợ"],
         [
-            ["1", "Le Minh", "21127645", "FIFA.com ProductResearch Co-Lead", "Writing, source check, peer review within ProductResearch, and final QA"],
-            ["2", "Nguyen Vu Bach", "21127224", "FIFA.com ProductResearch Co-Lead", "Writing, source check, peer review within ProductResearch, and final QA"],
-            ["3", "Pham Nguyen Gia Bao", "20127119", "Chess.com ProductResearch Co-Lead", "Writing, source check, peer review within ProductResearch, and final QA"],
-            ["4", "Trang Minh Nhut", "22127318", "Chess.com ProductResearch Co-Lead", "Writing, source check, peer review within ProductResearch, and final QA"],
+            ["1", "Le Minh", "21127645", "Điều phối dự án, tích hợp, PeerReview, WeeklyReport, đóng gói cuối", "Kiểm tra nguồn, rà soát PDF, kiểm tra zip"],
+            ["2", "Nguyen Vu Bach", "21127224", "Trưởng nghiên cứu FIFA.com, phụ trách bằng chứng ảnh FIFA.com", "Đồng dẫn ProductResearch và rà soát phát hiện HCI"],
+            ["3", "Pham Nguyen Gia Bao", "20127119", "Trưởng nghiên cứu Chess.com, phụ trách bằng chứng ảnh Chess.com", "Đồng dẫn ProductResearch và rà soát phát hiện HCI"],
+            ["4", "Trang Minh Nhut", "22127318", "Trưởng phân tích HCI, PotentialSolutions, kiểm tra hình ảnh", "Rà soát chú thích, ma trận drawback-solution và nhất quán báo cáo"],
         ],
         [600, 1900, 1200, 3000, 2660],
     )
 
-    add_heading(doc, "3. General responsibility division")
+    add_heading(doc, "3. Phân chia trách nhiệm tổng quan")
     add_table(
         doc,
-        ["Member", "Main responsibilities", "Supporting responsibilities", "Expected outputs"],
+        ["Thành viên", "Trách nhiệm chính", "Trách nhiệm hỗ trợ", "Đầu ra dự kiến"],
         [
             [
                 "Le Minh",
-                "Research FIFA.com together with Nguyen Vu Bach; collect sources and screenshot evidence; write FIFA.com product overview, users, personas, use cases, benefits, drawbacks, and HCI findings.",
-                "Review Chess.com ProductResearch sections; check citations, screenshot captions, and comparison consistency.",
-                "FIFA.com research content; FIFA.com screenshot notes; ProductResearch writing; review comments; ProductResearch QA checklist item.",
+                "Khóa phạm vi, điều phối tiến độ, tích hợp nội dung, viết PeerReview và WeeklyReport, xuất PDF và đóng gói zip.",
+                "Hỗ trợ rà soát nguồn, tên file, checklist nộp bài và kiểm tra văn bản trích xuất từ PDF.",
+                "PeerReview, WeeklyReport, checklist cuối, PDF và GroupID-PA1.zip.",
             ],
             [
                 "Nguyen Vu Bach",
-                "Research FIFA.com together with Le Minh; collect sources and screenshot evidence; write FIFA.com product overview, users, personas, use cases, benefits, drawbacks, and HCI findings.",
-                "Review Chess.com ProductResearch sections; check citations, screenshot captions, and comparison consistency.",
-                "FIFA.com research content; FIFA.com screenshot notes; ProductResearch writing; review comments; ProductResearch QA checklist item.",
+                "Nghiên cứu FIFA.com, thu thập nguồn chính thức, chụp và chú thích ảnh, viết persona, use case, lợi ích, hạn chế và phát hiện HCI cho FIFA.com.",
+                "Hỗ trợ đối chiếu ProductResearch với hình ảnh, caption và nguồn FIFA.",
+                "Phần FIFA.com trong ProductResearch và bằng chứng ảnh FIFA.com.",
             ],
             [
                 "Pham Nguyen Gia Bao",
-                "Research Chess.com together with Trang Minh Nhut; collect sources and screenshot evidence; write Chess.com product overview, users, personas, use cases, benefits, drawbacks, and HCI findings.",
-                "Review FIFA.com ProductResearch sections; check citations, screenshot captions, and comparison consistency.",
-                "Chess.com research content; Chess.com screenshot notes; ProductResearch writing; review comments; ProductResearch QA checklist item.",
+                "Nghiên cứu Chess.com, thu thập nguồn chính thức, chụp và chú thích ảnh, viết persona, use case, lợi ích, hạn chế và phát hiện HCI cho Chess.com.",
+                "Hỗ trợ kiểm tra phạm vi Chess.com để báo cáo không quá rộng.",
+                "Phần Chess.com trong ProductResearch và bằng chứng ảnh Chess.com.",
             ],
             [
                 "Trang Minh Nhut",
-                "Research Chess.com together with Pham Nguyen Gia Bao; collect sources and screenshot evidence; write Chess.com product overview, users, personas, use cases, benefits, drawbacks, and HCI findings.",
-                "Review FIFA.com ProductResearch sections; check citations, screenshot captions, and comparison consistency.",
-                "Chess.com research content; Chess.com screenshot notes; ProductResearch writing; review comments; ProductResearch QA checklist item.",
+                "Ánh xạ khái niệm HCI, dẫn PotentialSolutions, kiểm tra caption, hình minh họa và tính nhất quán giữa drawback và solution.",
+                "Hỗ trợ kiểm tra trực quan cho ProductResearch, PotentialSolutions và PeerReview.",
+                "PotentialSolutions, ma trận RACI/QA trực quan và rà soát hình ảnh cuối.",
             ],
         ],
         [1550, 3200, 2500, 2110],
     )
 
-    add_page_break_heading(doc, "4. ProductResearch ownership")
+    add_page_break_heading(doc, "4. Phân công theo sản phẩm nộp")
     add_table(
         doc,
-        ["ProductResearch part", "Assigned product", "Main members", "Cross-review members", "Required contribution"],
+        ["Sản phẩm", "Người phụ trách chính", "Người phối hợp", "Nội dung công việc"],
         [
-            ["Product overview and source log", "FIFA.com", "Le Minh, Nguyen Vu Bach", "Pham Nguyen Gia Bao, Trang Minh Nhut", "Official sources, product purpose, target users, main HCI touchpoints"],
-            ["Product overview and source log", "Chess.com", "Pham Nguyen Gia Bao, Trang Minh Nhut", "Le Minh, Nguyen Vu Bach", "Official sources, product purpose, target users, main HCI touchpoints"],
-            ["Personas and use cases", "FIFA.com", "Le Minh, Nguyen Vu Bach", "Pham Nguyen Gia Bao, Trang Minh Nhut", "FIFA.com personas, realistic user goals, task flows, context, preconditions, feedback"],
-            ["Personas and use cases", "Chess.com", "Pham Nguyen Gia Bao, Trang Minh Nhut", "Le Minh, Nguyen Vu Bach", "Chess.com personas, realistic user goals, task flows, context, preconditions, feedback"],
-            ["HCI findings, benefits, drawbacks", "Both products", "All members by assigned product", "Opposite product pair", "Concrete HCI concepts, screenshots, benefits, drawbacks, and comparison notes for ProductResearch only"],
+            ["GroupID-PA1-ProductResearch.pdf", "Nguyen Vu Bach, Pham Nguyen Gia Bao", "Le Minh, Trang Minh Nhut", "Nghiên cứu FIFA.com và Chess.com, persona, use case, HCI findings, hình ảnh, nguồn tham khảo."],
+            ["GroupID-PA1-PotentialSolutions.pdf", "Trang Minh Nhut", "Nguyen Vu Bach, Pham Nguyen Gia Bao", "Chuyển drawback thành giải pháp, ưu tiên impact-effort, mô tả UI và kiểm tra mapping."],
+            ["GroupID-PA1-PeerReview.pdf", "Le Minh", "Cả nhóm", "Kịch bản 7 phút, slide outline, câu hỏi dự kiến, phản hồi mock/internal rehearsal và owner thật."],
+            ["GroupID-PA1-WeeklyReport.pdf", "Le Minh", "Cả nhóm", "Lịch họp, scrum theo từng thành viên, sprint review, workload matrix và checklist cuối."],
+            ["GroupID-PA1.zip", "Le Minh", "Trang Minh Nhut", "Đóng gói đúng bốn PDF ở cấp cao nhất và kiểm tra bằng zip listing."],
         ],
-        [1650, 2200, 2050, 1900, 1560],
+        [2200, 2300, 2100, 2760],
     )
 
-    add_heading(doc, "5. Workload balance summary")
+    add_heading(doc, "5. Tóm tắt cân bằng khối lượng công việc")
     add_table(
         doc,
-        ["Work category", "Le Minh", "Nguyen Vu Bach", "Pham Nguyen Gia Bao", "Trang Minh Nhut"],
+        ["Hạng mục", "Le Minh", "Nguyen Vu Bach", "Pham Nguyen Gia Bao", "Trang Minh Nhut"],
         [
-            ["Project coordination", "Shared", "Shared", "Shared", "Shared"],
-            ["FIFA.com research", "Co-lead", "Co-lead", "Cross-review", "Cross-review"],
-            ["Chess.com research", "Cross-review", "Cross-review", "Co-lead", "Co-lead"],
-            ["Screenshot collection", "FIFA.com screenshots", "FIFA.com screenshots", "Chess.com screenshots", "Chess.com screenshots"],
-            ["Personas and use cases", "FIFA.com personas/use cases", "FIFA.com personas/use cases", "Chess.com personas/use cases", "Chess.com personas/use cases"],
-            ["HCI findings", "FIFA.com HCI findings", "FIFA.com HCI findings", "Chess.com HCI findings", "Chess.com HCI findings"],
-            ["Benefits and drawbacks", "FIFA.com benefits/drawbacks", "FIFA.com benefits/drawbacks", "Chess.com benefits/drawbacks", "Chess.com benefits/drawbacks"],
-            ["Cross-product comparison", "FIFA.com comparison input", "FIFA.com comparison input", "Chess.com comparison input", "Chess.com comparison input"],
-            ["ProductResearch review", "Review Chess.com section", "Review Chess.com section", "Review FIFA.com section", "Review FIFA.com section"],
-            ["ProductResearch QA", "Citation and formatting check", "Citation and formatting check", "Screenshot and HCI consistency check", "Screenshot and HCI consistency check"],
+            ["Điều phối và tích hợp", "Chính", "Hỗ trợ", "Hỗ trợ", "Hỗ trợ"],
+            ["Nghiên cứu FIFA.com", "Rà soát", "Chính", "Tham khảo", "HCI review"],
+            ["Nghiên cứu Chess.com", "Rà soát", "Tham khảo", "Chính", "HCI review"],
+            ["Bằng chứng ảnh", "Kiểm tra cuối", "FIFA.com", "Chess.com", "Visual QA"],
+            ["ProductResearch", "Tích hợp", "FIFA.com", "Chess.com", "HCI consistency"],
+            ["PotentialSolutions", "Rà soát", "Input FIFA", "Input Chess.com", "Chính"],
+            ["PeerReview và WeeklyReport", "Chính", "Input FIFA", "Input Chess.com", "Visual/HCI input"],
+            ["Đóng gói cuối", "Chính", "Kiểm tra PDF", "Kiểm tra PDF", "Kiểm tra hình/caption"],
         ],
         [2050, 1800, 1900, 1900, 1710],
     )
 
-    add_page_break_heading(doc, "6. RACI matrix")
-    add_body(doc, "Legend: R = Responsible, A = Accountable, C = Consulted, I = Informed.")
+    add_page_break_heading(doc, "6. Ma trận RACI")
+    add_body(doc, "Chú thích: R = Responsible, A = Accountable, C = Consulted, I = Informed.")
     add_table(
         doc,
-        ["Task", "Le Minh", "Nguyen Vu Bach", "Pham Nguyen Gia Bao", "Trang Minh Nhut"],
+        ["Công việc", "Le Minh", "Nguyen Vu Bach", "Pham Nguyen Gia Bao", "Trang Minh Nhut"],
         [
-            ["ProductResearch scope and checklist", "R", "R", "R", "R"],
-            ["FIFA.com research", "A/R", "A/R", "C", "C"],
-            ["Chess.com research", "C", "C", "A/R", "A/R"],
-            ["Screenshot evidence", "A/R for FIFA.com", "A/R for FIFA.com", "A/R for Chess.com", "A/R for Chess.com"],
-            ["Personas and use cases", "A/R for FIFA.com", "A/R for FIFA.com", "A/R for Chess.com", "A/R for Chess.com"],
-            ["HCI analysis", "A/R for FIFA.com", "A/R for FIFA.com", "A/R for Chess.com", "A/R for Chess.com"],
-            ["ProductResearch report", "R", "R", "R", "R"],
-            ["Cross-product comparison", "R", "R", "R", "R"],
-            ["ProductResearch final QA", "R", "R", "R", "R"],
+            ["Scope và checklist", "A/R", "C", "C", "C"],
+            ["FIFA.com research", "C", "A/R", "I", "C"],
+            ["Chess.com research", "C", "I", "A/R", "C"],
+            ["HCI analysis", "C", "C", "C", "A/R"],
+            ["PotentialSolutions", "C", "C", "C", "A/R"],
+            ["PeerReview", "A/R", "C", "C", "C"],
+            ["WeeklyReport", "A/R", "C", "C", "C"],
+            ["Visual QA", "C", "C", "C", "A/R"],
+            ["Final export và zip packaging", "A/R", "C", "C", "C"],
         ],
         [2600, 1500, 1900, 1900, 1460],
     )
 
-    add_heading(doc, "7. Expected contribution from each member")
+    add_heading(doc, "7. Đóng góp dự kiến của từng thành viên")
     contributions = {
-        "Le Minh": "Responsible for the FIFA.com side together with Nguyen Vu Bach. He collects sources, screenshots, personas, use cases, HCI findings, benefits, drawbacks, comparison input, section writing, cross-review, and ProductResearch QA checks.",
-        "Nguyen Vu Bach": "Responsible for the FIFA.com side together with Le Minh. He collects sources, screenshots, personas, use cases, HCI findings, benefits, drawbacks, comparison input, section writing, cross-review, and ProductResearch QA checks.",
-        "Pham Nguyen Gia Bao": "Responsible for the Chess.com side together with Trang Minh Nhut. He collects sources, screenshots, personas, use cases, HCI findings, benefits, drawbacks, comparison input, section writing, cross-review, and ProductResearch QA checks.",
-        "Trang Minh Nhut": "Responsible for the Chess.com side together with Pham Nguyen Gia Bao. He collects sources, screenshots, personas, use cases, HCI findings, benefits, drawbacks, comparison input, section writing, cross-review, and ProductResearch QA checks.",
+        "Le Minh": "Điều phối phạm vi, tích hợp nội dung, viết PeerReview và WeeklyReport, chạy xuất PDF, kiểm tra văn bản PDF và đóng gói zip cuối.",
+        "Nguyen Vu Bach": "Phụ trách nghiên cứu FIFA.com, nguồn chính thức, ảnh chụp và chú thích FIFA.com, persona/use case, HCI findings, lợi ích và hạn chế của FIFA.com.",
+        "Pham Nguyen Gia Bao": "Phụ trách nghiên cứu Chess.com, nguồn chính thức, ảnh chụp và chú thích Chess.com, persona/use case, HCI findings, lợi ích và hạn chế của Chess.com.",
+        "Trang Minh Nhut": "Phụ trách ánh xạ HCI, viết PotentialSolutions, kiểm tra giải pháp với drawback, rà soát hình ảnh, caption và tính nhất quán trình bày.",
     }
     for member, text in contributions.items():
         p = doc.add_paragraph()
         p.add_run(f"{member}: ").bold = True
         p.add_run(text)
 
-    add_page_break_heading(doc, "8. Quality checklist")
+    add_page_break_heading(doc, "8. Checklist chất lượng")
     checklist = [
-        "Product pair is FIFA.com and Chess.com.",
-        "FIFA.com has exactly 2 research members: Le Minh and Nguyen Vu Bach.",
-        "Chess.com has exactly 2 research members: Pham Nguyen Gia Bao and Trang Minh Nhut.",
-        "All 4 members have clear responsibilities.",
-        "No member has only minor tasks.",
-        "ProductResearch has both products.",
-        "ProductResearch has users, personas, use cases, screenshots, HCI findings, benefits, drawbacks, and comparison.",
-        "Each website has product overview, source evidence, personas, use cases, HCI findings, benefits, drawbacks, and screenshots.",
-        "Each member has research, writing, review, and ProductResearch QA responsibilities.",
-        "Only GroupID-PA1-ProductResearch.pdf is divided in this document.",
+        "Cặp sản phẩm là FIFA.com và Chess.com.",
+        "Tất cả bốn thành viên và MSSV xuất hiện đúng.",
+        "ProductResearch có persona, use case, ảnh chụp, HCI findings, lợi ích, hạn chế, so sánh và nguồn.",
+        "PotentialSolutions map từng drawback sang giải pháp và có ưu tiên impact-effort.",
+        "PeerReview có kịch bản 7 phút, slide outline, owner thật và phản hồi mock/internal rehearsal được ghi nhãn rõ.",
+        "WeeklyReport có sprint planning, hai weekly scrum theo từng thành viên, sprint review, workload matrix và checklist.",
+        "Zip cuối chỉ chứa bốn PDF ở cấp cao nhất.",
+        "Tài liệu phân công chỉ mô tả trách nhiệm tổng quan, không mô tả lịch triển khai chi tiết.",
+        "Mỗi thành viên có đóng góp nghiên cứu, viết, rà soát hoặc QA có ý nghĩa.",
+        "RACI matrix, quality checklist và signature table đều có mặt.",
     ]
     for item in checklist:
         p = doc.add_paragraph()
@@ -375,11 +372,11 @@ def build_docx() -> None:
         p.add_run("\u2610 ").font.size = Pt(11)
         p.add_run(item)
 
-    add_heading(doc, "9. Signature table")
+    add_heading(doc, "9. Bảng xác nhận")
     add_table(
         doc,
-        ["Member", "Student ID", "Confirmed responsibilities", "Signature"],
-        [[name, sid, "Confirmed", ""] for name, sid in MEMBERS],
+        ["Thành viên", "MSSV", "Xác nhận trách nhiệm", "Chữ ký"],
+        [[name, sid, "Đã xác nhận", ""] for name, sid in MEMBERS],
         [2300, 1500, 3100, 2460],
     )
 
@@ -410,7 +407,17 @@ def validate_docx(path: Path) -> dict[str, object]:
         for row in table.rows:
             text += "\n" + "\t".join(cell.text for cell in row.cells)
     required = [
-        "PA1 Work Division",
+        "PHÂN CHIA CÔNG VIỆC PA1",
+        "Nghiên cứu HCI cho FIFA.com và Chess.com",
+        "Mục tiêu đồ án",
+        "Thành viên nhóm",
+        "Phân chia trách nhiệm tổng quan",
+        "Phân công theo sản phẩm nộp",
+        "Tóm tắt cân bằng khối lượng công việc",
+        "Ma trận RACI",
+        "Đóng góp dự kiến của từng thành viên",
+        "Checklist chất lượng",
+        "Bảng xác nhận",
         "Le Minh",
         "Nguyen Vu Bach",
         "Pham Nguyen Gia Bao",
@@ -419,12 +426,13 @@ def validate_docx(path: Path) -> dict[str, object]:
         "21127224",
         "20127119",
         "22127318",
-        "RACI matrix",
-        "Quality checklist",
-        "FIFA.com has exactly 2 research members",
-        "Chess.com has exactly 2 research members",
+        "GroupID-PA1-ProductResearch.pdf",
+        "GroupID-PA1-PotentialSolutions.pdf",
+        "GroupID-PA1-PeerReview.pdf",
+        "GroupID-PA1-WeeklyReport.pdf",
+        "GroupID-PA1.zip",
     ]
-    forbidden = ["14-day", "day-by-day", "Day 1", "Day 14"]
+    forbidden = ["14-day", "day-by-day", "Day 1", "Day 14", "14 ngày", "từng ngày"]
     return {
         "path": str(path),
         "exists": path.exists(),
@@ -434,11 +442,12 @@ def validate_docx(path: Path) -> dict[str, object]:
         "balanced_research_ok": all(
             term in text
             for term in [
-                "FIFA.com has exactly 2 research members: Le Minh and Nguyen Vu Bach.",
-                "Chess.com has exactly 2 research members: Pham Nguyen Gia Bao and Trang Minh Nhut.",
-                "FIFA.com ProductResearch Co-Lead",
-                "Chess.com ProductResearch Co-Lead",
-                "Only GroupID-PA1-ProductResearch.pdf is divided in this document.",
+                "FIFA.com",
+                "Chess.com",
+                "PotentialSolutions",
+                "PeerReview",
+                "WeeklyReport",
+                "A/R",
             ]
         ),
         "no_detailed_timeline": not any(term in text for term in forbidden),
@@ -459,16 +468,16 @@ def write_log(results: list[dict[str, object]]) -> None:
         "- Existing folders checked: `docs` exists; `output` created if missing; no `reports` or `deliverables` folder required for this task.",
         "- Python check: bundled Codex Python 3.12.13.",
         "- python-docx check: OK.",
-        "- Design preset: `standard_business_brief`, with A4 page-size override required by the user.",
+        "- Design preset: `standard_business_brief`, with A4 page-size override retained from the existing script.",
         "",
         "## Generation actions",
         "- Created `output/GroupID-PA1-WorkDivision.docx`.",
         f"- Root copy status for `GroupID-PA1-WorkDivision.docx`: {ROOT_COPY_STATUS['copied']}.",
         f"- Root copy error: {ROOT_COPY_STATUS['error'] or 'None'}.",
         "- Applied A4 page size, normal margins, centered title/subtitle, bold section headings, visible table borders, header, footer, and required page breaks.",
-        "- Updated assignment model: this document divides only `GroupID-PA1-ProductResearch.pdf`.",
-        "- Le Minh + Nguyen Vu Bach are FIFA.com ProductResearch co-leads; Pham Nguyen Gia Bao + Trang Minh Nhut are Chess.com ProductResearch co-leads.",
-        "- Each member now has matching ProductResearch research, writing, cross-review, and QA responsibilities.",
+        "- Updated assignment model: this Vietnamese document covers ProductResearch, PotentialSolutions, PeerReview, WeeklyReport, and final zip packaging.",
+        "- RACI model: Le Minh leads scope, PeerReview, WeeklyReport, final export, and zip packaging; Nguyen Vu Bach leads FIFA.com research; Pham Nguyen Gia Bao leads Chess.com research; Trang Minh Nhut leads HCI analysis, PotentialSolutions, and visual QA.",
+        "- Each member has meaningful research, writing, review, or QA responsibilities.",
         "",
         "## Validation results",
     ]
@@ -480,7 +489,7 @@ def write_log(results: list[dict[str, object]]) -> None:
                 f"- Size: {result['size']} bytes",
                 f"- Size > 10 KB: {result['size_gt_10kb']}",
                 f"- Required title/member/RACI/checklist terms present: {result['required_terms_ok']}",
-                f"- Balanced 2-member-per-website research assignment present: {result['balanced_research_ok']}",
+                f"- Balanced all-deliverable responsibility model present: {result['balanced_research_ok']}",
                 f"- No detailed day-by-day or 14-day plan terms: {result['no_detailed_timeline']}",
                 f"- Table count: {result['table_count']}",
                 "",

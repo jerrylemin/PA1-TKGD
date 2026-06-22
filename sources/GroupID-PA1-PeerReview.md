@@ -2,19 +2,19 @@
 
 ## Seven-minute script
 
-Member1 opens by naming the pair: FIFA and Chess.com web experiences. The first contrast is task posture: FIFA is browse, compare, and follow, while Chess.com is do, review, and improve. Member1 then explains the official-source protocol and why numbered references are used. Member2 introduces six personas and emphasizes context: short campus browsing, office scanning, trust-sensitive ticket planning, beginner learning, blitz play, and deep review. Member3 presents FIFA findings, starting with navigation and official ticket trust, then moving into the drawbacks of ecosystem sprawl, FIFA+ continuity, dense watch rails, ticket status uncertainty, and article-to-utility friction. Member4 presents Chess.com findings, showing how Play, Puzzles, Learn, Game Review, Analysis, and Study Plans support action and reflection, then explaining risks from feature overload, premove execution, hidden Focus Mode controls, and complex analysis screens. Member4 closes the design portion with quick wins and deeper redesigns. Member5 finishes with the two-week RUP plus Scrum plan, peer-review feedback loop, citation QA, PDF text extraction, old-term scan, and zip packaging.
+Le Minh opens by naming the pair: FIFA and Chess.com web experiences. The first contrast is task posture: FIFA is browse, compare, and follow, while Chess.com is do, review, and improve. Le Minh then explains the official-source protocol and why numbered references are used. Trang Minh Nhut introduces six personas and emphasizes context: short campus browsing, office scanning, trust-sensitive ticket planning, beginner learning, blitz play, and deep review. Nguyen Vu Bach presents FIFA findings, starting with navigation and official ticket trust, then moving into the drawbacks of ecosystem sprawl, FIFA+ continuity, dense watch rails, ticket status uncertainty, and article-to-utility friction. Pham Nguyen Gia Bao presents Chess.com findings, showing how Play, Puzzles, Learn, Game Review, Analysis, and Study Plans support action and reflection, then explaining risks from feature overload, premove execution, hidden Focus Mode controls, and complex analysis screens. Trang Minh Nhut closes the design portion with quick wins and deeper redesigns. Le Minh finishes with the two-week RUP plus Scrum plan, peer-review feedback loop, citation QA, PDF text extraction, old-term scan, and zip packaging.
 
 ## Slide outline
 
 | Slide | Topic | Purpose | Speaker | Time |
 | --- | --- | --- | --- | --- |
-| 1 | Scope and selected pair | FIFA browse-first web ecosystem and Chess.com action-first web platform; Figure F-01 and Figure C-01 | Member1 | 0:45 |
-| 2 | Evidence method and official source protocol | Official pages first; Playwright screenshots and manifest; Figure F-04 and Figure C-02 | Member1 | 0:55 |
-| 3 | Personas and contexts | Six personas with task, device, attention, trust, and learning contexts; Figure F-08 and Figure C-08 | Member2 | 1:00 |
-| 4 | FIFA findings | Navigation, Match Centre, mobile interruption, article density, and handoff drawbacks; Figure F-02, Figure F-04, Figure F-06, Figure F-08 | Member3 | 1:10 |
-| 5 | Chess.com findings | Play, board, puzzles, Learn, navigation, and feedback density; Figure C-02, Figure C-03, Figure C-04, Figure C-05, Figure C-06 | Member4 | 1:10 |
-| 6 | Solution priorities | Quick wins versus deeper redesigns and impact-effort rationale; Figure S-01 to Figure S-08 | Member4 | 1:10 |
-| 7 | Sprint plan, QA, and packaging | Two-week RUP plus Scrum process, visual QA, PDF regeneration, zip validation; Figure F-09 and Figure C-09 | Member5 | 0:50 |
+| 1 | Scope and selected pair | FIFA browse-first web ecosystem and Chess.com action-first web platform; Figure F-01 and Figure C-01 | Le Minh | 0:45 |
+| 2 | Evidence method and official source protocol | Official pages first; Playwright screenshots and manifest; Figure F-04 and Figure C-02 | Le Minh | 0:55 |
+| 3 | Personas and contexts | Six personas with task, device, attention, trust, and learning contexts; Figure F-08 and Figure C-08 | Trang Minh Nhut | 1:00 |
+| 4 | FIFA findings | Navigation, Match Centre, mobile interruption, article density, and handoff drawbacks; Figure F-02, Figure F-04, Figure F-06, Figure F-08 | Nguyen Vu Bach | 1:10 |
+| 5 | Chess.com findings | Play, board, puzzles, Learn, navigation, and feedback density; Figure C-02, Figure C-03, Figure C-04, Figure C-05, Figure C-06 | Pham Nguyen Gia Bao | 1:10 |
+| 6 | Solution priorities | Quick wins versus deeper redesigns and impact-effort rationale; Figure S-01 to Figure S-08 | Trang Minh Nhut | 1:10 |
+| 7 | Sprint plan, QA, and packaging | Two-week RUP plus Scrum process, visual QA, PDF regeneration, zip validation; Figure F-09 and Figure C-09 | Le Minh | 0:50 |
 
 ## Likely questions and prepared answers
 
@@ -31,26 +31,29 @@ Member1 opens by naming the pair: FIFA and Chess.com web experiences. The first 
 
 ## Mock feedback entries
 
+These entries are mock/internal rehearsal feedback because real classroom peer feedback was not available in the repository.
+
 | Reviewer | Role | Feedback | Response/revision | Owner | Status |
 | --- | --- | --- | --- | --- | --- |
-| Nora Lee | Peer | FIFA ticket trust needs a stronger official-source cue. | Added F-HCI3, F-D4, F-S7, and F-S8 with FIFA.com/tickets citations. | Member3 | Done |
-| Omar Khan | Peer | Explain why FIFA+ is not just another page. | Added DAZN-branded handoff risk, explainer card, and shared breadcrumb solution. | Member4 | Done |
-| Jin Park | Peer | Chess.com beginner analysis sounds too expert-focused. | Added C-S3 beginner preset and C-S4 inline glossary. | Member4 | Done |
-| Mira Vo | Peer | Premove needs an error-prevention solution. | Added premove queue preview and fast clear shortcut. | Member4 | Done |
-| Sam Patel | Peer | Focus Mode discovery should cite the hover behavior. | Linked C-HCI9 to board-size and Focus Mode support pages. | Member3 | Done |
-| Hana Lim | Peer | The pair needs a clearer comparison logic. | Reframed FIFA as browse, compare, follow and Chess.com as do, review, improve. | Member1 | Done |
-| Leo Tran | Peer | Weekly plan must show QA and packaging. | Added Day 13 and Day 14 validation tasks and zip checks. | Member5 | Done |
-| Ivy Chen | Peer | Mockups should not imply invented screenshots. | Changed all mockups to written UI descriptions only. | Member4 | Done |
+| Nora Lee | Mock/internal rehearsal peer | FIFA ticket trust needs a stronger official-source cue. | Added F-HCI3, F-D4, F-S7, and F-S8 with FIFA.com/tickets citations. | Nguyen Vu Bach | Done |
+| Omar Khan | Mock/internal rehearsal peer | Explain why FIFA+ is not just another page. | Added DAZN-branded handoff risk, explainer card, and shared breadcrumb solution. | Trang Minh Nhut | Done |
+| Jin Park | Mock/internal rehearsal peer | Chess.com beginner analysis sounds too expert-focused. | Added C-S3 beginner preset and C-S4 inline glossary. | Trang Minh Nhut | Done |
+| Mira Vo | Mock/internal rehearsal peer | Premove needs an error-prevention solution. | Added premove queue preview and fast clear shortcut. | Pham Nguyen Gia Bao | Done |
+| Sam Patel | Mock/internal rehearsal peer | Focus Mode discovery should cite the hover behavior. | Linked C-HCI9 to board-size and Focus Mode support pages. | Pham Nguyen Gia Bao | Done |
+| Hana Lim | Mock/internal rehearsal peer | The pair needs a clearer comparison logic. | Reframed FIFA as browse, compare, follow and Chess.com as do, review, improve. | Le Minh | Done |
+| Leo Tran | Mock/internal rehearsal peer | Weekly plan must show QA and packaging. | Added sprint evidence, validation tasks, and zip checks. | Le Minh | Done |
+| Ivy Chen | Mock/internal rehearsal peer | Mockups should not imply invented screenshots. | Changed all mockups to written UI descriptions only. | Trang Minh Nhut | Done |
 
 ## Revision log and owner mapping
 
 | Revision area | Owner | Evidence of change |
 | --- | --- | --- |
-| Scope | Member1 | Product pair and cross-product framing locked |
-| Personas/use cases | Member2 | Six personas and ten detailed use cases |
-| HCI findings | Member3 | Twenty findings with scenario and citation |
-| Solutions | Member4 | Ten drawbacks and twenty UI-level solutions |
-| QA/package | Member5 | PDF extraction, old-term scan, and zip validation |
+| Scope, evidence protocol, final QA | Le Minh | Product pair, source protocol, final scan, and packaging locked |
+| FIFA.com findings | Nguyen Vu Bach | FIFA personas, use cases, screenshot evidence, and HCI findings |
+| Chess.com findings | Pham Nguyen Gia Bao | Chess.com personas, use cases, screenshot evidence, and HCI findings |
+| HCI solution priorities | Trang Minh Nhut | Drawback-to-solution matrix and visual solution QA |
+| Sprint evidence and packaging | Le Minh | WeeklyReport, PDF extraction, and zip validation |
+| Figure and caption QA | Trang Minh Nhut | Annotated screenshot and solution figure consistency checks |
 
 ## Rehearsal checklist
 
