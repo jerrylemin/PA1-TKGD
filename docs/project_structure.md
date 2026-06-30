@@ -9,6 +9,7 @@
 |-- artifact_manifest.json            # Last generation manifest and validation status
 |-- GroupID-PA1-*.pdf                 # Final PDF deliverables
 |-- GroupID-PA1.zip                   # Final package with four PDFs at top level
+|-- GroupID-PA1-WorkDivision.docx     # Vietnamese work-division support document
 |-- assets/
 |   |-- figures_manifest.json          # Screenshot and solution figure manifest
 |   |-- screenshots/raw/               # Playwright captures
@@ -18,6 +19,7 @@
 |-- scripts/
 |   |-- capture-pa1-screenshots.js
 |   |-- annotate-pa1-screenshots.js
+|   |-- create_pa1_work_division_docx.py
 |-- sources/
 |   |-- GroupID-PA1-*.md              # Editable Markdown source artifacts
 |   |-- mermaid-fifa-browse-watch-flow.mmd

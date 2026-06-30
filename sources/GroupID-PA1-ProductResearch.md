@@ -1,6 +1,6 @@
 # GroupID-PA1 Product Research: FIFA and Chess.com web experiences
 
-Group ID: GroupID. Members: Member1, Member2, Member3, Member4, Member5. Course: HCI. Date: 2026-06-10. Product pair: FIFA.com and Chess.com. Screenshot evidence note: all screen-level claims reference captured or annotated Playwright evidence.
+Group ID: GroupID. Members: Le Minh, 21127645, Nguyen Vu Bach, 21127224, Pham Nguyen Gia Bao, 20127119, Trang Minh Nhut, 22127318. Course: HCI. Date: 2026-06-10. Product pair: FIFA.com and Chess.com. Screenshot evidence note: all screen-level claims reference captured or annotated Playwright evidence.
 
 ## Executive summary
 
@@ -118,160 +118,230 @@ Beginner learners, competitive online players, and returning casual players need
 | Field | Detail |
 | --- | --- |
 | Primary persona | F-P1 |
-| Goal | Find current fixtures or results quickly |
-| Trigger | Short break begins |
-| Context | Campus laptop, noisy hallway, five-minute window |
-| Preconditions | Browser online; FIFA.com reachable |
-| Postconditions | User knows which matches are active today |
-| Step-by-step flow | Open FIFA.com; choose Match Centre; scan today/live filters; open one match detail; return to list |
-| Alternate flow | If no live match appears, switch to latest results |
-| Error path | Client-side content is slow; use navigation label and retry or refresh |
-| Feedback points | Fixture cards, live status, score rows, match detail link |
-| Evidence references | [1][7] |
+| Where: | Campus hallway or study area |
+| When: | Between classes during a five-minute break |
+| Posture: | Standing or leaning over a laptop/tablet while moving between tasks |
+| Device: | Laptop browser |
+| Attention level: | Intermittent and divided by hallway noise |
+| Environment: | Noisy campus setting with short session length |
+| Interaction method: | Mouse or trackpad navigation through FIFA global navigation and Match Centre filters |
+| Goal: | Find current fixtures or results quickly |
+| Trigger: | Short break begins |
+| Precondition: | Browser online; FIFA.com reachable |
+| Normal flow: | Open FIFA.com; choose Match Centre; scan today/live filters; open one match detail; return to list |
+| Alternate flow: | If no live match appears, switch to latest results |
+| Error path: | Client-side content is slow; use navigation label and retry or refresh |
+| Feedback observed: | Fixture cards, live status, score rows, match detail link |
+| Figure or source reference: | [1][7] |
+| HCI concepts: | Information scent; recognition over recall; visibility of system status |
+| Success outcome: | User knows which matches are active today |
 
 ### F-UC2. Open official tournament news and read one FIFA World Cup 2026 story
 
 | Field | Detail |
 | --- | --- |
 | Primary persona | F-P2 |
-| Goal | Read one current official tournament story |
-| Trigger | Office break and tournament headline interest |
-| Context | Desktop with many tabs and glare |
-| Preconditions | Inside FIFA and tournament blog available |
-| Postconditions | One article read and source confidence maintained |
-| Step-by-step flow | Open Inside FIFA; choose FIFA World Cup 2026 blog or News; scan dated story cards; open one story; return to topic hub |
-| Alternate flow | Use All stories filters if blog card is not visible |
-| Error path | Story list overload delays choice |
-| Feedback points | Dated cards, topic labels, article headline, breadcrumb |
-| Evidence references | [1][2][3] |
+| Where: | Office desk |
+| When: | Short work break after seeing a tournament headline |
+| Posture: | Seated desktop browsing with multiple tabs open |
+| Device: | Desktop browser |
+| Attention level: | Medium; scanning under time pressure |
+| Environment: | Office glare and interruptions |
+| Interaction method: | Click navigation, story-card scanning, and topic filtering |
+| Goal: | Read one current official tournament story |
+| Trigger: | Office break and tournament headline interest |
+| Precondition: | Inside FIFA and tournament blog available |
+| Normal flow: | Open Inside FIFA; choose FIFA World Cup 2026 blog or News; scan dated story cards; open one story; return to topic hub |
+| Alternate flow: | Use All stories filters if blog card is not visible |
+| Error path: | Story list overload delays choice |
+| Feedback observed: | Dated cards, topic labels, article headline, breadcrumb |
+| Figure or source reference: | [1][2][3] |
+| HCI concepts: | Information foraging; hierarchical scanning; cognitive load |
+| Success outcome: | One article read and source confidence maintained |
 
 ### F-UC3. Open Rankings from the global navigation
 
 | Field | Detail |
 | --- | --- |
 | Primary persona | F-P2 |
-| Goal | Check the latest official ranking quickly |
-| Trigger | Coworker asks ranking question |
-| Context | Desktop at work; short session; high scan pressure |
-| Preconditions | Ranking page reachable |
-| Postconditions | User identifies latest ranking and update date |
-| Step-by-step flow | Open FIFA global nav; choose Rankings; select men's ranking; scan rank table; note last official update |
-| Alternate flow | Switch filters if the wrong table appears |
-| Error path | Ranking table loads after shell; user waits or retries |
-| Feedback points | Rank table, filters, update date, full rankings control |
-| Evidence references | [1][8] |
+| Where: | Work desk or shared office space |
+| When: | Immediately after a ranking question from another person |
+| Posture: | Seated and task-focused |
+| Device: | Desktop browser |
+| Attention level: | High but brief |
+| Environment: | Office context with multiple open tabs |
+| Interaction method: | Global navigation, table scanning, and filter selection |
+| Goal: | Check the latest official ranking quickly |
+| Trigger: | Coworker asks ranking question |
+| Precondition: | Ranking page reachable |
+| Normal flow: | Open FIFA global nav; choose Rankings; select men's ranking; scan rank table; note last official update |
+| Alternate flow: | Switch filters if the wrong table appears |
+| Error path: | Ranking table loads after shell; user waits or retries |
+| Feedback observed: | Rank table, filters, update date, full rankings control |
+| Figure or source reference: | [1][8] |
+| HCI concepts: | Efficient task entry; data table scanability; feedback on loading state |
+| Success outcome: | User identifies latest ranking and update date |
 
 ### F-UC4. Verify official tickets and resale source
 
 | Field | Detail |
 | --- | --- |
 | Primary persona | F-P3 |
-| Goal | Confirm official ticket and resale route before family purchase |
-| Trigger | Trip planning conversation begins |
-| Context | Home laptop, multiple comparison tabs, trust-sensitive |
-| Preconditions | Ticket page and media release available |
-| Postconditions | User trusts FIFA.com/tickets and understands resale/exchange status |
-| Step-by-step flow | Open FIFA Tickets; cross-check media release; identify FIFA.com/tickets; read resale/exchange note; save official URL |
-| Alternate flow | Check hospitality if standard tickets unavailable |
-| Error path | Availability changes require repeated checks |
-| Feedback points | Official/preferred wording, ticket URL, resale/exchange marketplace cue |
-| Evidence references | [4][5][9] |
+| Where: | Home planning setup |
+| When: | Evening family trip planning session |
+| Posture: | Seated laptop browsing while comparing sources |
+| Device: | Laptop browser |
+| Attention level: | High because the task is trust-sensitive |
+| Environment: | Home environment with multiple comparison tabs |
+| Interaction method: | Navigation to tickets, cross-checking media releases, and saving official URL |
+| Goal: | Confirm official ticket and resale route before family purchase |
+| Trigger: | Trip planning conversation begins |
+| Precondition: | Ticket page and media release available |
+| Normal flow: | Open FIFA Tickets; cross-check media release; identify FIFA.com/tickets; read resale/exchange note; save official URL |
+| Alternate flow: | Check hospitality if standard tickets unavailable |
+| Error path: | Availability changes require repeated checks |
+| Feedback observed: | Official/preferred wording, ticket URL, resale/exchange marketplace cue |
+| Figure or source reference: | [4][5][9] |
+| HCI concepts: | Credibility; error prevention; visibility of official status |
+| Success outcome: | User trusts FIFA.com/tickets and understands resale/exchange status |
 
 ### F-UC5. Open FIFA+ and start a watch session
 
 | Field | Detail |
 | --- | --- |
 | Primary persona | F-P3 |
-| Goal | Move from FIFA information to FIFA+ highlights or archive |
-| Trigger | After ticket/news research, user wants video |
-| Context | Evening laptop, family browsing, account friction sensitivity |
-| Preconditions | FIFA+ URL reachable; account may be required |
-| Postconditions | User starts or understands the next step for watching |
-| Step-by-step flow | Choose FIFA+ from FIFA ecosystem; land on watch page; scan live/highlight rails; select content; sign in or get started |
-| Alternate flow | Continue browsing FIFA.com if sign-in is not acceptable |
-| Error path | DAZN branding creates handoff uncertainty |
-| Feedback points | FIFA+ hero, sign-in/get-started controls, live and archive rails |
-| Evidence references | [1][6] |
+| Where: | Home viewing context |
+| When: | After news or ticket research leads to video interest |
+| Posture: | Seated laptop browsing with family nearby |
+| Device: | Laptop browser |
+| Attention level: | Medium; sensitive to account and brand changes |
+| Environment: | Evening home browsing with shared decision-making |
+| Interaction method: | Ecosystem navigation to FIFA+, rail scanning, and sign-in/get-started decision |
+| Goal: | Move from FIFA information to FIFA+ highlights or archive |
+| Trigger: | After ticket/news research, user wants video |
+| Precondition: | FIFA+ URL reachable; account may be required |
+| Normal flow: | Choose FIFA+ from FIFA ecosystem; land on watch page; scan live/highlight rails; select content; sign in or get started |
+| Alternate flow: | Continue browsing FIFA.com if sign-in is not acceptable |
+| Error path: | DAZN branding creates handoff uncertainty |
+| Feedback observed: | FIFA+ hero, sign-in/get-started controls, live and archive rails |
+| Figure or source reference: | [1][6] |
+| HCI concepts: | Continuity; feedforward; trust friction; choice overload |
+| Success outcome: | User starts or understands the next step for watching |
 
 ### C-UC1. Start a live game with default or custom settings
 
 | Field | Detail |
 | --- | --- |
 | Primary persona | C-P2 |
-| Goal | Begin a game with low setup time |
-| Trigger | User has a short blitz window |
-| Context | Dorm desktop, external mouse, noise, time pressure |
-| Preconditions | Signed in or guest play available |
-| Postconditions | Game starts with selected opponent and time control |
-| Step-by-step flow | Open Chess.com; choose Play or homescreen start; accept recent time control or customize; choose random opponent, bot, or friend; start |
-| Alternate flow | Choose unrated or custom settings first |
-| Error path | Rating or match settings mismatch; return to play setup |
-| Feedback points | Play call-to-action, time control, rated toggle, opponent choice |
-| Evidence references | [10][11] |
+| Where: | Dorm room or personal desk |
+| When: | Short blitz window |
+| Posture: | Seated, ready for fast mouse input |
+| Device: | Desktop browser with external mouse |
+| Attention level: | High and time-sensitive |
+| Environment: | Noisy dorm with repeated short sessions |
+| Interaction method: | Clicking Play, selecting time control/opponent, and starting a match |
+| Goal: | Begin a game with low setup time |
+| Trigger: | User has a short blitz window |
+| Precondition: | Signed in or guest play available |
+| Normal flow: | Open Chess.com; choose Play or homescreen start; accept recent time control or customize; choose random opponent, bot, or friend; start |
+| Alternate flow: | Choose unrated or custom settings first |
+| Error path: | Rating or match settings mismatch; return to play setup |
+| Feedback observed: | Play call-to-action, time control, rated toggle, opponent choice |
+| Figure or source reference: | [10][11] |
+| HCI concepts: | Efficiency; clear call to action; recognition over recall |
+| Success outcome: | Game starts with selected opponent and time control |
 
 ### C-UC2. Use premoves during a blitz game
 
 | Field | Detail |
 | --- | --- |
 | Primary persona | C-P2 |
-| Goal | Save seconds under time pressure without losing control |
-| Trigger | Clock drops below comfort level |
-| Context | Noisy dorm room, fast mouse input, high stress |
-| Preconditions | Premoves enabled in live settings |
-| Postconditions | Queued legal move executes after opponent response |
-| Step-by-step flow | During opponent turn, drag next move; observe queued move; continue if response fits |
-| Alternate flow | Disable premoves for serious accuracy |
-| Error path | Opponent reply makes queued idea risky but legal |
-| Feedback points | Board input, queued move behavior, clock feedback |
-| Evidence references | [12] |
+| Where: | Live chess board screen |
+| When: | During a blitz game when the clock is low |
+| Posture: | Seated and physically tense under time pressure |
+| Device: | Desktop browser with mouse |
+| Attention level: | Very high but narrowed by time stress |
+| Environment: | Noisy dorm or fast-play setting |
+| Interaction method: | Drag-and-drop or click-move input while opponent is moving |
+| Goal: | Save seconds under time pressure without losing control |
+| Trigger: | Clock drops below comfort level |
+| Precondition: | Premoves enabled in live settings |
+| Normal flow: | During opponent turn, drag next move; observe queued move; continue if response fits |
+| Alternate flow: | Disable premoves for serious accuracy |
+| Error path: | Opponent reply makes queued idea risky but legal |
+| Feedback observed: | Board input, queued move behavior, clock feedback |
+| Figure or source reference: | [12] |
+| HCI concepts: | Error prevention; direct manipulation; time pressure feedback |
+| Success outcome: | Queued legal move executes after opponent response |
 
 ### C-UC3. Turn on Focus Mode before a serious game
 
 | Field | Detail |
 | --- | --- |
 | Primary persona | C-P2 |
-| Goal | Reduce visual distraction and expand the board |
-| Trigger | User starts a serious game |
-| Context | Dorm noise and many on-screen distractions |
-| Preconditions | Board visible; focus control available |
-| Postconditions | Board expands and nonessential panels hide |
-| Step-by-step flow | Hover near board/sidebar boundary; choose Focus Mode; confirm board-only layout; start game |
-| Alternate flow | Use keyboard shortcut or settings if discovered |
-| Error path | Control hidden on hover and missed by first-time user |
-| Feedback points | Focus icon, expanded board, clocks, draw and resign controls |
-| Evidence references | [13][14] |
+| Where: | Chess.com board page |
+| When: | Before starting a serious game |
+| Posture: | Seated and preparing for focused play |
+| Device: | Desktop browser |
+| Attention level: | High, with distraction sensitivity |
+| Environment: | Dorm or shared space with surrounding noise |
+| Interaction method: | Hovering near board/sidebar boundary and selecting Focus Mode |
+| Goal: | Reduce visual distraction and expand the board |
+| Trigger: | User starts a serious game |
+| Precondition: | Board visible; focus control available |
+| Normal flow: | Hover near board/sidebar boundary; choose Focus Mode; confirm board-only layout; start game |
+| Alternate flow: | Use keyboard shortcut or settings if discovered |
+| Error path: | Control hidden on hover and missed by first-time user |
+| Feedback observed: | Focus icon, expanded board, clocks, draw and resign controls |
+| Figure or source reference: | [13][14] |
+| HCI concepts: | Discoverability; progressive disclosure; attention management |
+| Success outcome: | Board expands and nonessential panels hide |
 
 ### C-UC4. Run Game Review after a finished game, then go to Self Analysis
 
 | Field | Detail |
 | --- | --- |
 | Primary persona | C-P3 |
-| Goal | Understand mistakes and continue engine study |
-| Trigger | Game ends |
-| Context | Quiet desktop, longer study session |
-| Preconditions | Finished game saved; review available |
-| Postconditions | User sees classifications and starts deeper analysis |
-| Step-by-step flow | Click Game Review; inspect graph, accuracy, key moves; retry a move; open Game Analysis or Analysis Board |
-| Alternate flow | Reopen review from archive |
-| Error path | Premium or depth gates interrupt expectations |
-| Feedback points | Game Review button, graph, move classifications, retry, analysis controls |
-| Evidence references | [15][16][17] |
+| Where: | Quiet desktop study setup |
+| When: | Immediately after a completed game |
+| Posture: | Seated for a longer review session |
+| Device: | Desktop browser |
+| Attention level: | High and reflective |
+| Environment: | Quiet room suited to analysis |
+| Interaction method: | Clicking Game Review, graph/move inspection, retry action, and Analysis Board handoff |
+| Goal: | Understand mistakes and continue engine study |
+| Trigger: | Game ends |
+| Precondition: | Finished game saved; review available |
+| Normal flow: | Click Game Review; inspect graph, accuracy, key moves; retry a move; open Game Analysis or Analysis Board |
+| Alternate flow: | Reopen review from archive |
+| Error path: | Premium or depth gates interrupt expectations |
+| Feedback observed: | Game Review button, graph, move classifications, retry, analysis controls |
+| Figure or source reference: | [15][16][17] |
+| HCI concepts: | Feedback; reflection; learning loop; cognitive load |
+| Success outcome: | User sees classifications and starts deeper analysis |
 
 ### C-UC5. Solve puzzles and choose a follow-up lesson or study plan
 
 | Field | Detail |
 | --- | --- |
 | Primary persona | C-P1 |
-| Goal | Build beginner skill through a guided loop |
-| Trigger | Student wants to improve after a loss |
-| Context | Shared laptop, low confidence, needs direction |
-| Preconditions | Puzzles and Learn reachable |
-| Postconditions | User completes a puzzle and chooses next learning action |
-| Step-by-step flow | Open Puzzles; solve puzzle of day or rated puzzle; review feedback; open lesson or study plan; save next step |
-| Alternate flow | Choose a beginner lesson first |
-| Error path | Premium limit appears after click and interrupts momentum |
-| Feedback points | Puzzle feedback, Learn menu, study-plan link, access labels |
-| Evidence references | [18][19][20] |
+| Where: | Shared laptop or student study space |
+| When: | After a loss or when planning improvement practice |
+| Posture: | Seated beginner practice posture |
+| Device: | Laptop browser |
+| Attention level: | Medium; confidence may be low |
+| Environment: | Shared study environment with limited time |
+| Interaction method: | Puzzle interaction, feedback reading, Learn navigation, and study-plan selection |
+| Goal: | Build beginner skill through a guided loop |
+| Trigger: | Student wants to improve after a loss |
+| Precondition: | Puzzles and Learn reachable |
+| Normal flow: | Open Puzzles; solve puzzle of day or rated puzzle; review feedback; open lesson or study plan; save next step |
+| Alternate flow: | Choose a beginner lesson first |
+| Error path: | Premium limit appears after click and interrupts momentum |
+| Feedback observed: | Puzzle feedback, Learn menu, study-plan link, access labels |
+| Figure or source reference: | [18][19][20] |
+| HCI concepts: | Guidance; progressive disclosure; formative feedback |
+| Success outcome: | User completes a puzzle and chooses next learning action |
 
 ## Screen-level HCI analysis with annotated figures
 

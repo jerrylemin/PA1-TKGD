@@ -1,11 +1,30 @@
 {
   "group_id": "GroupID",
   "team_members": [
-    "Member1",
-    "Member2",
-    "Member3",
-    "Member4",
-    "Member5"
+    {
+      "name": "Le Minh",
+      "student_id": "21127645",
+      "role": "Project Coordinator, Integration Lead, PeerReview Lead, WeeklyReport Lead, Final Packaging Lead",
+      "main_contribution": "Coordinated scope, integrated final reports, led PeerReview and WeeklyReport evidence, ran final PDF and zip packaging QA."
+    },
+    {
+      "name": "Nguyen Vu Bach",
+      "student_id": "21127224",
+      "role": "FIFA.com Research Lead, FIFA Screenshot Evidence Lead, ProductResearch Co-Lead",
+      "main_contribution": "Researched FIFA.com, collected official sources, captured and annotated FIFA evidence, and wrote FIFA HCI findings."
+    },
+    {
+      "name": "Pham Nguyen Gia Bao",
+      "student_id": "20127119",
+      "role": "Chess.com Research Lead, Chess.com Screenshot Evidence Lead, ProductResearch Co-Lead",
+      "main_contribution": "Researched Chess.com, collected official sources, captured and annotated Chess.com evidence, and wrote Chess.com HCI findings."
+    },
+    {
+      "name": "Trang Minh Nhut",
+      "student_id": "22127318",
+      "role": "HCI Analysis Lead, PotentialSolutions Lead, Visual QA Lead",
+      "main_contribution": "Mapped HCI concepts, led PotentialSolutions, checked figure captions, and verified drawback-to-solution consistency."
+    }
   ],
   "deliverable_language": "English",
   "sprint_length_days": 14,
@@ -1213,8 +1232,8 @@
     }
   ],
   "assumptions": [
-    "GROUP_ID and member names are placeholders.",
-    "Peer reviewer names are mock names for preparation only.",
+    "GroupID remains in filenames until the real course group ID is provided.",
+    "Peer review feedback entries are mock/internal rehearsal feedback until real classroom peer feedback is available.",
     "Official Vietnamese pages were not surfaced during the source refresh.",
     "Mermaid source is preserved; PDF diagrams include readable text fallback."
   ]
