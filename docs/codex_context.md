@@ -1,6 +1,6 @@
 # PA1 Codex Context
 
-Date: 2026-06-10
+Date: 2026-07-07
 
 This workspace contains a generated HCI PA1 package for a group project. The final product pair is FIFA.com and Chess.com.
 
@@ -14,6 +14,7 @@ Generated deliverables:
 
 Shared source of truth:
 
+- `config/pa1_config.json`
 - `build_pa1_package.py`
 - `pa1_project_data.json`
 - `pa1_sources_fifa_chess.json`
@@ -36,7 +37,9 @@ Real team roster:
 
 Key assumptions:
 
-- `GROUP_ID = "GroupID"` remains in filenames until the real course group ID is provided.
-- Peer-review feedback entries are mock/internal rehearsal feedback until real classroom peer feedback is available.
+- `config/pa1_config.json` currently uses `group_id = "GroupID"`; draft mode permits it, final mode rejects it.
+- Peer-review feedback entries are internal rehearsal feedback until real classroom peer feedback is supplied.
 - Final ownership is FIFA.com: Le Minh + Nguyen Vu Bach; Chess.com: Pham Nguyen Gia Bao + Trang Minh Nhut, at 25% each.
 - Mermaid source lives in `assets/diagrams/mermaid`; six PNGs in `assets/diagrams/rendered` are embedded in the four PDFs and WorkDivision DOCX.
+
+Current verdict: READY DRAFT. `npm run validate:pa1:draft` passes; final mode intentionally fails on the real group ID and real peer-feedback gates. See `docs/pa1_final_validation_report.md` and `docs/pa1_submission_blockers.md`.

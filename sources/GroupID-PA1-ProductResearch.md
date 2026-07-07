@@ -24,16 +24,17 @@ FIFA.com evidence and analysis are co-owned by Le Minh and Nguyen Vu Bach. Chess
 | Figure | Product | Evidence role |
 | --- | --- | --- |
 | F-01 to F-08 | FIFA.com | Captured live pages for home, navigation, Match Centre, search, article, competition, and mobile density |
-| F-09 to F-12 | FIFA.com | Flow/map, crop, and proposed improvement figures grounded in the captured evidence |
+| F-09B, F-10B, F-08A | FIFA.com | Observed footer, media destination, and mobile detail evidence |
 | C-01 to C-08 | Chess.com | Captured live pages for home, play, board, puzzle, learn, navigation, feedback, and mobile layout |
-| C-09 to C-12 | Chess.com | Flow/map, crop, and proposed improvement figures grounded in the captured evidence |
+| C-06M, C-04A | Chess.com | Observed mobile navigation and puzzle detail evidence |
+| S-01, S-02, S-05, S-07 | Proposed designs | Clearly labeled solution sketches; never treated as observed UI |
 
 ## Product selection rationale
 
 | Product | Domain | Modality | Positioning |
 | --- | --- | --- | --- |
-| FIFA | Official football portal and watch ecosystem | Browse-first web product for football information, rankings, ticketing, and watch handoff | Browse-first football web ecosystem for official news, match-following, rankings, tournament discovery, ticketing trust, and FIFA+ watch handoff. |
-| Chess.com | Online chess play and learning platform | Action-first web product for play, review, analysis, and learning | Action-first chess web platform for games, review, self-analysis, puzzles, lessons, study plans, tournaments, and fair-play-guided competitive play. |
+| FIFA | fifa.com (with inside.fifa.com and plus.fifa.com sibling properties) | Browse-first web product for football information, rankings, ticketing, and watch handoff | Browse-first football web ecosystem for official news, match-following, rankings, tournament discovery, ticketing trust, and FIFA+ watch handoff. |
+| Chess.com | chess.com | Action-first web product for play, review, analysis, and learning | Action-first chess web platform for games, review, self-analysis, puzzles, lessons, study plans, tournaments, and fair-play-guided competitive play. |
 
 FIFA.com was selected as the official browse-first football portal. Chess.com was selected as an action-first online chess platform. The comparison isolates how sports websites differ when one product centers on official information discovery and the other centers on immediate gameplay and feedback.
 
@@ -116,12 +117,12 @@ Beginner learners, competitive online players, and returning casual players need
 | F-UC1 | Find today's match schedule | FIFA.com | F-P1 | Mobile | One-handed glance | Low | Public transport | Open FIFA.com, select Match Centre, scan date/live rows | No live match; switch to results | Slow client render; retry/refresh | F-04, F-08 | information scent, visibility of status |
 | F-UC2 | Check live score or result | FIFA.com | F-P1 | Mobile/desktop | Short break | Low | Noisy place | Use Match Centre and live toggle | Sort/filter by competition | Too many entries; search competition | F-04 | mental model, cognitive load |
 | F-UC3 | Read football news article | FIFA.com | F-P2 | Desktop/mobile | Leaning back | Medium | Office | Open News or article URL, scan headline/body | Use related links | Reading interrupted by dense media | F-06 | visual attention, reading load |
-| F-UC4 | Find tournament information | FIFA.com | F-P2 | Desktop | Focused comparison | Medium | Home/office | Open tournament page, scan dates/teams/content | Use navigation/footer | Wrong FIFA property reached | F-07, F-10 | information architecture, consistency |
+| F-UC4 | Find tournament information | FIFA.com | F-P2 | Desktop | Focused comparison | Medium | Home/office | Open tournament page, scan dates/teams/content | Use navigation/footer | Wrong FIFA property reached | F-07, F-09B | information architecture, consistency |
 | F-UC5 | Search team/player/article/tournament | FIFA.com | F-P3 | Laptop | Focused lookup | High | Research session | Open search, enter query, compare result categories | Use navigation if search fails | Sparse or mixed results | F-05 | recognition, error recovery |
 | C-UC1 | Start quick online chess game | Chess.com | C-P2 | Desktop/mobile | Focused play | High | Quiet or noisy room | Open Play, choose time control, start game | Custom challenge or friend | Account prompt or match settings mismatch | C-02, C-07 | efficiency, user control |
 | C-UC2 | Solve a puzzle | Chess.com | C-P1 | Mobile/desktop | Learning posture | Medium | School/home | Open Puzzles, read prompt, make move, observe feedback | Choose puzzle mode | Intro modal or access limit interrupts | C-04, C-11 | feedback, learnability |
 | C-UC3 | Learn a beginner lesson | Chess.com | C-P1 | Laptop | Exploratory | Medium | Home | Open Learn/Lessons, choose beginner topic | Use study plan | Too many paths | C-05 | progressive disclosure |
-| C-UC4 | Review game or view board feedback | Chess.com | C-P3 | Desktop | Reflective study | High | Quiet desk | Finish/open game, view review/analysis controls | Use analysis board | Dense feedback overwhelms | C-03, C-12 | informative feedback |
+| C-UC4 | Review game or view board feedback | Chess.com | C-P3 | Desktop | Reflective study | High | Quiet desk | Finish/open game, view review/analysis controls | Use analysis board | Dense feedback overwhelms | Source-only [15][16][17] | informative feedback |
 | C-UC5 | Read chess news/opening content | Chess.com | C-P3 | Mobile/desktop | Casual reading | Medium | Interrupted attention | Open News, scan article list, open story | Search community content | Navigation density distracts | C-09B, C-06 | content discovery, memory load |
 
 ### F-UC1. Open Match Centre and check today's matches
@@ -404,29 +405,35 @@ The tournament page groups competition discovery content for a tournament follow
 
 The observed promotional modal on mobile is direct evidence of attention interruption over the home-page content.
 
-### Figure F-09. FIFA.com task flow diagram
+### Figure F-09B. FIFA.com footer and ecosystem navigation
 
-![Figure F-09](assets/diagrams/s-01_fifa_solution.png)
-
-The task-first navigation sketch is used as a visual proxy for the proposed FIFA browse-to-task flow.
-
-### Figure F-10. FIFA.com navigation map
-
-![Figure F-10](assets/screenshots/annotated/fifa/fifa_footer_desktop.png)
+![Figure F-09B](assets/screenshots/annotated/fifa/fifa_footer_desktop.png)
 
 The footer and ecosystem links show how global support and sibling destinations extend the navigation map.
 
-### Figure F-11. FIFA.com usability issue crop
+### Figure F-10B. FIFA+ video or media area
 
-![Figure F-11](assets/screenshots/crops/fifa/fifa_home_mobile_crop_A.png)
+![Figure F-10B](assets/screenshots/annotated/fifa/fifa_video_or_media_desktop.png)
 
-The crop isolates the mobile overlay interruption that competes with match and article discovery.
+The captured media destination supplies observed context for the FIFA+ watch surface; source [6] remains authoritative for rails and DAZN handoff claims.
 
-### Figure F-12. FIFA.com proposed improvement sketch
+### Figure F-08A. FIFA.com mobile interruption crop
 
-![Figure F-12](assets/diagrams/s-02_fifa_solution.png)
+![Figure F-08A](assets/screenshots/crops/fifa/fifa_home_mobile_crop_A.png)
 
-The proposed Match Centre filter bar maps the observed fixture-scanning issue to a concrete control redesign.
+The crop isolates the observed mobile overlay interruption.
+
+### Figure S-01. Proposed FIFA task-first navigation
+
+![Figure S-01](assets/diagrams/s-01_fifa_solution.png)
+
+This is a proposed solution sketch, not observed live UI.
+
+### Figure S-02. Proposed FIFA Match Centre filter bar
+
+![Figure S-02](assets/diagrams/s-02_fifa_solution.png)
+
+This is a proposed solution sketch, not observed live UI.
 
 ### Figure C-01. Chess.com home page information hierarchy
 
@@ -476,54 +483,54 @@ The compact play screen shows how clock, board, and action controls compete for 
 
 The mobile layout compresses feature discovery and account prompts into a narrow touch surface.
 
-### Figure C-09. Chess.com task flow diagram
+### Figure C-06M. Chess.com mobile navigation
 
-![Figure C-09](assets/diagrams/s-05_chess_solution.png)
-
-The beginner-home sketch shows the proposed play, learn, puzzle, and review task sequence.
-
-### Figure C-10. Chess.com navigation map
-
-![Figure C-10](assets/screenshots/annotated/chess/chess_navigation_mobile.png)
+![Figure C-06M](assets/screenshots/annotated/chess/chess_navigation_mobile.png)
 
 The mobile navigation capture shows how feature-rich navigation shifts behind compact controls.
 
-### Figure C-11. Chess.com usability issue crop
+### Figure C-04A. Chess.com puzzle prompt crop
 
-![Figure C-11](assets/screenshots/crops/chess/chess_puzzles_desktop_crop_A.png)
+![Figure C-04A](assets/screenshots/crops/chess/chess_puzzles_desktop_crop_A.png)
 
-The puzzle crop isolates a dense learning prompt layered over the board state.
+The crop isolates a dense learning prompt layered over the board state.
 
-### Figure C-12. Chess.com proposed improvement sketch
+### Figure S-05. Proposed Chess.com beginner home
 
-![Figure C-12](assets/diagrams/s-07_chess_solution.png)
+![Figure S-05](assets/diagrams/s-05_chess_solution.png)
 
-The beginner analysis preset sketch maps observed analysis complexity to a progressive-disclosure solution.
+This is a proposed solution sketch, not observed live UI.
+
+### Figure S-07. Proposed Chess.com beginner analysis preset
+
+![Figure S-07](assets/diagrams/s-07_chess_solution.png)
+
+This is a proposed solution sketch, not observed live UI.
 
 ## HCI findings
 
 | Finding ID | Product | Screenshot figure | Screen or flow | Highlighted UI element | Observed behavior | Persona/context | HCI mapping | Benefit/drawback | Concrete scenario | Severity | Evidence | Improvement direction |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F-HCI1 | FIFA | F-01 | Global navigation | Match Centre, News, Rankings, Tickets & Hospitality | Navigation exposes key football information tasks. | F-P1/F-P2 | Information scent; recognition over recall; efficient task entry | Benefit | Lan can enter Match Centre from the top level instead of remembering a direct URL. | High | F-01 and [1][7][8][9] | See related solution direction in PotentialSolutions |
-| F-HCI2 | FIFA | F-02 | All stories & topics | Category and content-type filters | Story browsing supports exploratory scanning across FIFA topics. | F-P2 | Information foraging; hierarchical scanning | Benefit | Ethan narrows from broad news to a tournament story during a short office break. | Medium | F-02 and [2][3] | See related solution direction in PotentialSolutions |
-| F-HCI3 | FIFA | F-09 | Ticket discovery | Official/preferred ticket wording and resale/exchange note | Ticket media releases create a clear trust cue. | F-P3 | Credibility; error prevention; trust | Benefit | Maria avoids a third-party ticket tab because FIFA identifies FIFA.com/tickets as the source. | High | F-09 and [4][5][9] | See related solution direction in PotentialSolutions |
-| F-HCI4 | FIFA | F-10 | FIFA+ entry | Hero and get-started controls | FIFA+ states the watch proposition and next action. | F-P3 | Feedforward; clear CTA; reduced ambiguity | Benefit | Maria can tell that the next step is to sign in or get started before watching. | Medium | F-10 and [6] | See related solution direction in PotentialSolutions |
-| F-HCI5 | FIFA | F-10 | FIFA+ watch rails | Live, highlights, replays, archive, documentaries | FIFA+ supports both live football and time-shifted content. | F-P3 | Flexibility; broad retrieval paths | Benefit | Maria can choose a highlight if live content does not fit the family's schedule. | Medium | F-10 and [6] | See related solution direction in PotentialSolutions |
-| F-HCI6 | FIFA | F-10 | Ecosystem navigation | FIFA.com, inside.fifa.com, plus.fifa.com, Store, Collect, Rewards | Task paths span several sibling properties. | F-P1/F-P3 | Context switching; mental model fragmentation; consistency | Drawback | Lan expects a single football hub but is moved across different hosts for stories, tickets, and video. | High | F-10 and [1][6][9] | See related solution direction in PotentialSolutions |
-| F-HCI7 | FIFA | F-12 | FIFA+ handoff | DAZN-branded page with login/get-started controls | The watch path changes brand context and account expectations. | F-P3 | Continuity break; trust friction; mode boundary | Drawback | Maria pauses because the FIFA+ destination looks like a different service during family planning. | High | F-12 and [6] | See related solution direction in PotentialSolutions |
-| F-HCI8 | FIFA | F-08 | FIFA+ content browsing | Long content rails | Dense rails increase scan cost before a user finds live or archive content. | F-P3 | Visual attention; choice overload | Drawback | Maria searches highlights but has to scan many rail items before choosing. | Medium | F-08 and [6] | See related solution direction in PotentialSolutions |
-| F-HCI9 | FIFA | F-11 | Ticket status | Check regularly for availability | Ticket status is visible only as repeated-check guidance. | F-P3 | Visibility of system status; planning friction | Drawback | Maria cannot tell when new family-trip availability may appear without repeatedly checking. | High | F-11 and [5][9] | See related solution direction in PotentialSolutions |
-| F-HCI10 | FIFA | F-06 | Story hub | Article-first cards | Story browsing is strong, but quick tasks require a second jump. | F-P1/F-P2 | Task interruption; efficiency gap | Drawback | Lan reads a headline and then has to jump elsewhere for scores or tickets. | Medium | F-06 and [1][2][3][7] | See related solution direction in PotentialSolutions |
-| C-HCI1 | Chess.com | C-02 | Homepage | Play, Puzzles, Learn, Train, Watch, Community | Homepage navigation foregrounds core chess tasks. | C-P1/C-P2 | Strong information scent; task signposting | Benefit | Minh sees Learn and Puzzles without knowing internal feature names. | High | C-02 and [10] | See related solution direction in PotentialSolutions |
-| C-HCI2 | Chess.com | C-03 | Start game flow | Random opponent, bot, friend, time controls, rated toggle, rating range | Game start is short and flexible. | C-P2 | Flexibility; user control; low entry friction | Benefit | Alex starts a blitz game quickly or adjusts time control before matching. | High | C-03 and [11] | See related solution direction in PotentialSolutions |
-| C-HCI3 | Chess.com | C-07 | Focus Mode | Expanded board with only essential play controls | Focus Mode hides distractions while preserving clocks and resign/draw actions. | C-P2 | Attention support; reduced clutter; task focus | Benefit | Alex makes decisions with a larger board and fewer side panels. | Medium | C-07 and [13] | See related solution direction in PotentialSolutions |
-| C-HCI4 | Chess.com | C-07 | Game Review | Graph, accuracy, classifications, coach, key moves, retry | Review turns a finished game into concrete feedback. | C-P3 | Feedback; reflection; error recovery; external cognition | Benefit | Quynh sees a blunder classification, retries the move, and understands the alternative. | High | C-07 and [15][16] | See related solution direction in PotentialSolutions |
-| C-HCI5 | Chess.com | C-04 | Analysis Board | Move pieces, setup position, load FEN/PGN, history, collections | Analysis supports expert direct manipulation and artifact transfer. | C-P3 | Direct manipulation; expert control; transfer of artifacts | Benefit | Quynh pastes a PGN, changes a line, and compares engine feedback. | High | C-04 and [17] | See related solution direction in PotentialSolutions |
-| C-HCI6 | Chess.com | C-05 | Study Plans | Skill-level study guides | Study plans reduce uncertainty about what to learn next. | C-P1 | Progressive disclosure; guided learning | Benefit | Minh chooses a beginner plan after puzzles instead of guessing from all lessons. | Medium | C-05 and [19][20] | See related solution direction in PotentialSolutions |
-| C-HCI7 | Chess.com | C-06 | Product surface | Many primary areas and training paths | The broad surface can overwhelm first-time users. | C-P1 | Choice overload; weak progressive disclosure at entry | Drawback | Minh sees Play, Learn, Train, Puzzles, and Watch before knowing the best beginner sequence. | Medium | C-06 and [10][18][19][20] | See related solution direction in PotentialSolutions |
-| C-HCI8 | Chess.com | C-02 | Premove | Queued move during opponent turn | Premoves are efficient but risky when the reply is unexpected. | C-P2 | Speed versus accuracy; error risk | Drawback | Alex premoves a capture that remains legal but weak after a surprising reply. | High | C-02 and [12] | See related solution direction in PotentialSolutions |
-| C-HCI9 | Chess.com | C-03 | Focus Mode discovery | Hover-only board-side control | Focus Mode can be hard to discover because related controls appear only near the board boundary. | C-P2 | Discoverability; hidden controls | Drawback | Alex never enables Focus Mode because the icon appears only on hover. | Medium | C-03 and [13][14] | See related solution direction in PotentialSolutions |
-| C-HCI10 | Chess.com | C-12 | Analysis screens | Toggles, charts, lines, classifications, premium gates | Analysis surfaces many controls and access expectations at once. | C-P1/C-P3 | Cognitive load; progressive disclosure gap; expectation mismatch | Drawback | Minh opens analysis after a loss and cannot tell which chart or control matters first. | Medium | C-12 and [15][16][17][19] | See related solution direction in PotentialSolutions |
+| F-HCI1 | FIFA | F-02 | Global navigation | Match Centre, News, Rankings, Tickets & Hospitality | Navigation exposes key football information tasks. | F-P1/F-P2 | Information scent; recognition over recall; efficient task entry | Benefit | Lan can enter Match Centre from the top level instead of remembering a direct URL. | High | F-02 and [1][7][8][9] | See related solution direction in PotentialSolutions |
+| F-HCI2 | FIFA | F-06 | All stories & topics | Category and content-type filters | Story browsing supports exploratory scanning across FIFA topics. | F-P2 | Information foraging; hierarchical scanning | Benefit | Ethan narrows from broad news to a tournament story during a short office break. | Medium | F-06 and [2][3] | See related solution direction in PotentialSolutions |
+| F-HCI3 | FIFA | Source-only [4][5][9] | Ticket discovery | Official/preferred ticket wording and resale/exchange note | Ticket media releases create a clear trust cue. | F-P3 | Credibility; error prevention; trust | Benefit | Maria avoids a third-party ticket tab because FIFA identifies FIFA.com/tickets as the source. | High | Source-only [4][5][9] and [4][5][9] | See related solution direction in PotentialSolutions |
+| F-HCI4 | FIFA | Source-only [6] | FIFA+ entry | Hero and get-started controls | FIFA+ states the watch proposition and next action. | F-P3 | Feedforward; clear CTA; reduced ambiguity | Benefit | Maria can tell that the next step is to sign in or get started before watching. | Medium | Source-only [6] and [6] | See related solution direction in PotentialSolutions |
+| F-HCI5 | FIFA | F-10B + [6] | FIFA+ watch rails | Live, highlights, replays, archive, documentaries | FIFA+ supports both live football and time-shifted content. | F-P3 | Flexibility; broad retrieval paths | Benefit | Maria can choose a highlight if live content does not fit the family's schedule. | Medium | F-10B + [6] and [6] | See related solution direction in PotentialSolutions |
+| F-HCI6 | FIFA | F-09B + [1][6][9] | Ecosystem navigation | FIFA.com, inside.fifa.com, plus.fifa.com, Store, Collect, Rewards | Task paths span several sibling properties. | F-P1/F-P3 | Context switching; mental model fragmentation; consistency | Drawback | Lan expects a single football hub but is moved across different hosts for stories, tickets, and video. | High | F-09B + [1][6][9] and [1][6][9] | See related solution direction in PotentialSolutions |
+| F-HCI7 | FIFA | Source-only [6] | FIFA+ handoff | DAZN-branded page with login/get-started controls | The watch path changes brand context and account expectations. | F-P3 | Continuity break; trust friction; mode boundary | Drawback | Maria pauses because the FIFA+ destination looks like a different service during family planning. | High | Source-only [6] and [6] | See related solution direction in PotentialSolutions |
+| F-HCI8 | FIFA | F-10B + [6] | FIFA+ content browsing | Long content rails | Dense rails increase scan cost before a user finds live or archive content. | F-P3 | Visual attention; choice overload | Drawback | Maria searches highlights but has to scan many rail items before choosing. | Medium | F-10B + [6] and [6] | See related solution direction in PotentialSolutions |
+| F-HCI9 | FIFA | Source-only [5][9] | Ticket status | Check regularly for availability | Ticket status is visible only as repeated-check guidance. | F-P3 | Visibility of system status; planning friction | Drawback | Maria cannot tell when new family-trip availability may appear without repeatedly checking. | High | Source-only [5][9] and [5][9] | See related solution direction in PotentialSolutions |
+| F-HCI10 | FIFA | F-06 + [1][2][3][7] | Story hub | Article-first cards | Story browsing is strong, but quick tasks require a second jump. | F-P1/F-P2 | Task interruption; efficiency gap | Drawback | Lan reads a headline and then has to jump elsewhere for scores or tickets. | Medium | F-06 + [1][2][3][7] and [1][2][3][7] | See related solution direction in PotentialSolutions |
+| C-HCI1 | Chess.com | C-01 | Homepage | Play, Puzzles, Learn, Train, Watch, Community | Homepage navigation foregrounds core chess tasks. | C-P1/C-P2 | Strong information scent; task signposting | Benefit | Minh sees Learn and Puzzles without knowing internal feature names. | High | C-01 and [10] | See related solution direction in PotentialSolutions |
+| C-HCI2 | Chess.com | C-02 | Start game flow | Random opponent, bot, friend, time controls, rated toggle, rating range | Game start is short and flexible. | C-P2 | Flexibility; user control; low entry friction | Benefit | Alex starts a blitz game quickly or adjusts time control before matching. | High | C-02 and [11] | See related solution direction in PotentialSolutions |
+| C-HCI3 | Chess.com | Source-only [13] | Focus Mode | Expanded board with only essential play controls | Focus Mode hides distractions while preserving clocks and resign/draw actions. | C-P2 | Attention support; reduced clutter; task focus | Benefit | Alex makes decisions with a larger board and fewer side panels. | Medium | Source-only [13] and [13] | See related solution direction in PotentialSolutions |
+| C-HCI4 | Chess.com | Source-only [15][16] | Game Review | Graph, accuracy, classifications, coach, key moves, retry | Review turns a finished game into concrete feedback. | C-P3 | Feedback; reflection; error recovery; external cognition | Benefit | Quynh sees a blunder classification, retries the move, and understands the alternative. | High | Source-only [15][16] and [15][16] | See related solution direction in PotentialSolutions |
+| C-HCI5 | Chess.com | Source-only [17] | Analysis Board | Move pieces, setup position, load FEN/PGN, history, collections | Analysis supports expert direct manipulation and artifact transfer. | C-P3 | Direct manipulation; expert control; transfer of artifacts | Benefit | Quynh pastes a PGN, changes a line, and compares engine feedback. | High | Source-only [17] and [17] | See related solution direction in PotentialSolutions |
+| C-HCI6 | Chess.com | C-05 + [19][20] | Study Plans | Skill-level study guides | Study plans reduce uncertainty about what to learn next. | C-P1 | Progressive disclosure; guided learning | Benefit | Minh chooses a beginner plan after puzzles instead of guessing from all lessons. | Medium | C-05 + [19][20] and [19][20] | See related solution direction in PotentialSolutions |
+| C-HCI7 | Chess.com | C-06 + [10][18][19][20] | Product surface | Many primary areas and training paths | The broad surface can overwhelm first-time users. | C-P1 | Choice overload; weak progressive disclosure at entry | Drawback | Minh sees Play, Learn, Train, Puzzles, and Watch before knowing the best beginner sequence. | Medium | C-06 + [10][18][19][20] and [10][18][19][20] | See related solution direction in PotentialSolutions |
+| C-HCI8 | Chess.com | Source-only [12] | Premove | Queued move during opponent turn | Premoves are efficient but risky when the reply is unexpected. | C-P2 | Speed versus accuracy; error risk | Drawback | Alex premoves a capture that remains legal but weak after a surprising reply. | High | Source-only [12] and [12] | See related solution direction in PotentialSolutions |
+| C-HCI9 | Chess.com | Source-only [13][14] | Focus Mode discovery | Hover-only board-side control | Focus Mode can be hard to discover because related controls appear only near the board boundary. | C-P2 | Discoverability; hidden controls | Drawback | Alex never enables Focus Mode because the icon appears only on hover. | Medium | Source-only [13][14] and [13][14] | See related solution direction in PotentialSolutions |
+| C-HCI10 | Chess.com | Source-only [15][16][17][19] | Analysis screens | Toggles, charts, lines, classifications, premium gates | Analysis surfaces many controls and access expectations at once. | C-P1/C-P3 | Cognitive load; progressive disclosure gap; expectation mismatch | Drawback | Minh opens analysis after a loss and cannot tell which chart or control matters first. | Medium | Source-only [15][16][17][19] and [15][16][17][19] | See related solution direction in PotentialSolutions |
 
 | ID | Product | Type | Screen or flow | UI element | Observed behavior | Persona/context | HCI mapping | Concrete scenario | Severity | Evidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -612,7 +619,7 @@ The beginner analysis preset sketch maps observed analysis complexity to a progr
 
 ## Summary of major drawbacks
 
-The highest-risk FIFA drawbacks are mobile interruption, hidden mobile navigation layers, match/filter scanning, dense article/media pages, and source continuity across FIFA/FIFA+. The highest-risk Chess.com drawbacks are beginner feature overload, account-prompt interruption, mobile board mis-tap risk, unclear beginner learning paths, and dense post-game feedback.
+The canonical FIFA drawbacks are ecosystem sprawl, FIFA+ handoff discontinuity, FIFA+ rail scan overload, ticket-status uncertainty, and article-to-utility friction. The canonical Chess.com drawbacks are novice menu overload, analysis overload, premium-gating interruption, premove blunder risk, and hidden Focus Mode discovery. Each maps to one explicit finding, persona/context, evidence item, and two solution IDs.
 
 ## Diagram PR-D1. ProductResearch task flow map
 
@@ -635,9 +642,10 @@ The full machine-readable screenshot manifest is stored in assets/figures_manife
 | Figure | Product | Evidence role |
 | --- | --- | --- |
 | F-01 to F-08 | FIFA.com | Captured live pages for home, navigation, Match Centre, search, article, competition, and mobile density |
-| F-09 to F-12 | FIFA.com | Flow/map, crop, and proposed improvement figures grounded in the captured evidence |
+| F-09B, F-10B, F-08A | FIFA.com | Observed footer, media destination, and mobile detail evidence |
 | C-01 to C-08 | Chess.com | Captured live pages for home, play, board, puzzle, learn, navigation, feedback, and mobile layout |
-| C-09 to C-12 | Chess.com | Flow/map, crop, and proposed improvement figures grounded in the captured evidence |
+| C-06M, C-04A | Chess.com | Observed mobile navigation and puzzle detail evidence |
+| S-01, S-02, S-05, S-07 | Proposed designs | Clearly labeled solution sketches; never treated as observed UI |
 
 ## References
 [1] Inside FIFA. Official FIFA news and navigation. https://inside.fifa.com/. Accessed 2026-06-10. Supports: Inside FIFA exposes Latest FIFA News and the global navigation labels Match Centre, News, Rankings, Tickets & Hospitality, Play, Inside FIFA, plus sibling destinations such as FIFA+, Store, Collect, and Rewards.

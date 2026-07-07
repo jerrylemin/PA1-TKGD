@@ -47,9 +47,9 @@ Diagram PE-D1. PeerReview traceability. This rendered diagram connects slides, e
 | How did the team avoid generic UX claims? | Every finding names page or flow, control, user, context, principle, scenario, severity, and evidence. |
 | Which redesign gives best impact for effort? | F-S3 and C-S3 are strong low-effort wins: the handoff explainer reduces trust friction and the beginner analysis preset reduces cognitive load. |
 
-## Mock feedback entries
+## Internal rehearsal feedback
 
-These entries are mock/internal rehearsal feedback because real classroom peer feedback was not available in the repository.
+These entries are mock/internal rehearsal feedback only. They are not real classroom peer feedback and must not be presented as such.
 
 | Reviewer | Role | Feedback | Response/revision | Owner | Status |
 | --- | --- | --- | --- | --- | --- |
@@ -61,6 +61,14 @@ These entries are mock/internal rehearsal feedback because real classroom peer f
 | Hana Lim | Mock/internal rehearsal peer | The pair needs a clearer comparison logic. | Reframed FIFA as browse, compare, follow and Chess.com as do, review, improve. | Le Minh | Done |
 | Leo Tran | Mock/internal rehearsal peer | Weekly plan must show QA and packaging. | Added sprint evidence, validation tasks, and zip checks. | Le Minh | Done |
 | Ivy Chen | Mock/internal rehearsal peer | Mockups should not imply invented screenshots. | Changed all mockups to written UI descriptions only. | Trang Minh Nhut | Done |
+
+## Real Classroom Peer Feedback, Pending
+
+Real classroom peer feedback is not available in the repository. Complete this table after the lecture presentation; do not copy rehearsal names into it.
+
+| Commenter name | Feedback or question | Group response | Revision action | Owner | Status |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  | Pending |
 
 ## Revision log and owner mapping
 

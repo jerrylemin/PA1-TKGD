@@ -9,7 +9,11 @@
   "scripts": {
     "capture:pa1": "node scripts/capture-pa1-screenshots.js",
     "annotate:pa1": "node scripts/annotate-pa1-screenshots.js",
-    "visuals:pa1": "npm run capture:pa1 && npm run annotate:pa1"
+    "visuals:pa1": "npm run capture:pa1 && npm run annotate:pa1",
+    "build:pa1": "python build_pa1_package.py",
+    "validate:pa1:draft": "python scripts/validate_pa1_submission.py --mode draft",
+    "validate:pa1:final": "python scripts/validate_pa1_submission.py --mode final",
+    "full:pa1": "npm run visuals:pa1 && npm run build:pa1 && npm run validate:pa1:draft"
   },
   "repository": {
     "type": "git",

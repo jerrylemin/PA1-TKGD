@@ -1,38 +1,80 @@
 # Project Structure
 
+Generated from tracked repository files on 2026-07-07. Depth is limited to four path segments; dependency, Git-object, archive contents, and render-frame listings are summarized.
+
 ```text
 .
-|-- build_pa1_package.py              # Reproducible generator for data, sources, PDFs, zip, manifest, docs
-|-- pa1_project_data.json             # Shared PA1 fact base
-|-- pa1_sources_fifa_chess.json       # FIFA and Chess.com source log
-|-- package.json                       # Playwright and sharp visual pipeline commands
-|-- artifact_manifest.json            # Last generation manifest and validation status
-|-- GroupID-PA1-*.pdf                 # Final PDF deliverables
-|-- GroupID-PA1.zip                   # Final package with four PDFs at top level
-|-- GroupID-PA1-WorkDivision.docx     # Vietnamese work-division support document
+|-- build_pa1_package.py
+|-- package.json
+|-- package-lock.json
+|-- pa1_project_data.json
+|-- pa1_sources_fifa_chess.json
+|-- artifact_manifest.json
+|-- GroupID-PA1-ProductResearch.pdf
+|-- GroupID-PA1-PotentialSolutions.pdf
+|-- GroupID-PA1-PeerReview.pdf
+|-- GroupID-PA1-WeeklyReport.pdf
+|-- GroupID-PA1-WorkDivision.docx
+|-- GroupID-PA1-Presentation.pptx
+|-- GroupID-PA1.zip
 |-- assets/
-|   |-- figures_manifest.json          # Screenshot and solution figure manifest
-|   |-- screenshots/raw/               # Playwright captures
-|   |-- screenshots/annotated/         # sharp annotated screenshots
-|   |-- screenshots/crops/             # UI detail crops
-|   |-- diagrams/                      # Solution sketch figures
-|       |-- mermaid/                   # Six canonical Mermaid diagram sources
-|       |-- rendered/                  # Six rendered PNG diagrams used by reports/DOCX
-|-- scripts/
-|   |-- capture-pa1-screenshots.js
-|   |-- annotate-pa1-screenshots.js
-|   |-- create_pa1_work_division_docx.py
-|   |-- validate_pa1_balance_diagrams.py
+|   |-- figures_manifest.json
+|   |-- diagrams/
+|   |   |-- mermaid/                 # Six canonical .mmd sources
+|   |   |-- rendered/                # Six rendered traceability/workflow PNGs
+|   |   |-- s-01_fifa_solution.png ... s-08_chess_solution.png
+|   |-- screenshots/
+|   |   |-- raw/{fifa,chess}/
+|   |   |-- annotated/{fifa,chess}/
+|   |   |-- crops/{fifa,chess}/
+|   |-- presentation/
+|       |-- raw/{fifa,chess}/
+|       |-- annotated/{fifa,chess}/
+|       |-- crops/{fifa,chess}/
+|       |-- presentation_visual_manifest.json
+|-- config/                          # PA1 naming/link configuration (created by strict-fix pass)
 |-- sources/
-|   |-- GroupID-PA1-*.md              # Editable Markdown source artifacts
+|   |-- GroupID-PA1-ProductResearch.md
+|   |-- GroupID-PA1-PotentialSolutions.md
+|   |-- GroupID-PA1-PeerReview.md
+|   |-- GroupID-PA1-WeeklyReport.md
 |   |-- mermaid-fifa-browse-watch-flow.mmd
 |   |-- mermaid-chess-play-review-learn-flow.mmd
 |   |-- mermaid-sprint-timeline.mmd
+|-- generated_text/
+|   |-- GroupID-PA1-ProductResearch.txt
+|   |-- GroupID-PA1-PotentialSolutions.txt
+|   |-- GroupID-PA1-PeerReview.txt
+|   |-- GroupID-PA1-WeeklyReport.txt
+|-- scripts/
+|   |-- capture-pa1-screenshots.js
+|   |-- annotate-pa1-screenshots.js
+|   |-- annotate_presentation_screenshots.js
+|   |-- create_pa1_work_division_docx.py
+|   |-- validate_pa1_balance_diagrams.py
+|   |-- validate_pa1_final_fix.py
+|   |-- validate_pa1_submission.py   # Strict draft/final validator (created by strict-fix pass)
 |-- docs/
 |   |-- codex_context.md
-|   |-- pa1_fifa_chess_migration_audit.md
 |   |-- project_structure.md
 |   |-- setup_and_run.md
 |   |-- feature_progress.md
 |   |-- session_handoff.md
+|   |-- pa1_strict_gap_audit.md
+|   |-- pa1_submission_blockers.md
+|   |-- pa1_final_validation_report.md
+|   |-- google_drive_readme_template.md
+|   |-- other historical audit and visual-QA reports
+|-- output/
+|   |-- GroupID-PA1-WorkDivision.docx
+|   |-- GroupID-PA1-Presentation.pptx
+|   |-- GroupID-PA1-{ProductResearch,PotentialSolutions,PeerReview,WeeklyReport}.pdf
+|   |-- GroupID-PA1.zip
+|   |-- artifact_manifest.json
+|   |-- presentation_render_before/ # 21 slide PNGs + contact sheet
+|   |-- presentation_render_after/  # 21 slide PNGs + contact sheet
+|-- archive/
+|   |-- previous_pa1_outputs_20260610_233509/ # Historical four PDFs + ZIP
+|-- node_modules/                    # Installed dependencies; never edited directly
+|-- .git/
 ```

@@ -1,0 +1,76 @@
+{
+  "chosen_products": [
+    "FIFA web experience",
+    "Chess.com web experience"
+  ],
+  "source_count_per_product": {
+    "FIFA": 9,
+    "Chess.com": 13
+  },
+  "archived_previous_outputs": null,
+  "manifest": [
+    {
+      "file": "GroupID-PA1-ProductResearch.pdf",
+      "bytes": 10312930,
+      "sha256": "c811e94051ab6bc9473b436549028a10f4e4cb765a8337a704ef2d15d4c0e560",
+      "pages": 44,
+      "pages_text_chars": 57548,
+      "status": "PASS"
+    },
+    {
+      "file": "GroupID-PA1-PotentialSolutions.pdf",
+      "bytes": 574223,
+      "sha256": "77c964c51000a078697d74478a8e0515418a280cc6694c10265927998ee48dd6",
+      "pages": 15,
+      "pages_text_chars": 23942,
+      "status": "PASS"
+    },
+    {
+      "file": "GroupID-PA1-PeerReview.pdf",
+      "bytes": 24535,
+      "sha256": "b1b493d0f1e300577dbe9302b0e873ca4f8ec0c19a584a2cd3c8afd630f64d8e",
+      "pages": 4,
+      "pages_text_chars": 11673,
+      "status": "PASS"
+    },
+    {
+      "file": "GroupID-PA1-WeeklyReport.pdf",
+      "bytes": 25260,
+      "sha256": "1574ed99b745b53c36b929179c7617dc1b795ec34cb8cdf5a6492e2b6c1aef03",
+      "pages": 7,
+      "pages_text_chars": 13715,
+      "status": "PASS"
+    },
+    {
+      "file": "GroupID-PA1.zip",
+      "bytes": 8746574,
+      "sha256": "4d966951602bc3a16efd867477a130d74782586bfe896f4810426337a5b0c300",
+      "contents": [
+        "GroupID-PA1-ProductResearch.pdf",
+        "GroupID-PA1-PotentialSolutions.pdf",
+        "GroupID-PA1-PeerReview.pdf",
+        "GroupID-PA1-WeeklyReport.pdf"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "acceptance": {
+    "ProductResearch": "PASS",
+    "PotentialSolutions": "PASS",
+    "PeerReview": "PASS",
+    "WeeklyReport": "PASS",
+    "Zip": "PASS",
+    "Output PDF copies": "PASS",
+    "Old product removal": "PASS"
+  },
+  "scan_failures": [],
+  "validation_mode": "draft",
+  "readiness": "READY DRAFT",
+  "final_blockers": [
+    "Real group ID is not configured",
+    "Real classroom peer feedback is pending"
+  ],
+  "overall": "PASS",
+  "build_command": "python build_pa1_package.py",
+  "generated_at": "2026-07-07T08:35:16.111411+00:00"
+}

@@ -1,8 +1,10 @@
 # PA1 Final 10/10 Audit After Balance and Diagrams
 
+> Superseded historical audit. It predates strict group-ID and real-peer-feedback gates and must not be used as the current submission verdict.
+
 ## 1. Executive verdict
 
-Status: READY 10/10  
+Historical status claim (superseded): READY 10/10  
 Score: 99.5/100  
 One-sentence reason: Balanced four-member ownership, cross-report IDs, six rendered diagrams, regenerated outputs, and exact zip contents all pass automated validation.
 
@@ -61,6 +63,6 @@ Final Markdown and extracted PDF text: PASS, zero matches.
 | Zip | 5/5 |
 | Total | 99.5/100 |
 
-Critical blockers: 0.  
-Status: READY 10/10.  
+Historical blocker claim (superseded): 0.  
+Historical status claim (superseded): READY 10/10.  
 Manual item: replace `GroupID` with the real group ID when available. Poppler first-page rendering was skipped because the bundled wrapper's native executable is unavailable; PDF extraction and size checks passed.

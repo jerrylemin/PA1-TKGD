@@ -1,8 +1,10 @@
 # PA1 Final Fix Validation
 
-Status: READY 10/10
+> Superseded historical validation. It predates strict group-ID and real-peer-feedback gates and must not be used as the current submission verdict.
+
+Historical status claim (superseded): READY 10/10
 Total score: 99.5/100
-Critical blockers: 0
+Historical blocker claim (superseded): 0
 
 ## Text scans
 - Forbidden final-source/PDF matches: None

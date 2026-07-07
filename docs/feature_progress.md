@@ -42,3 +42,14 @@ Remaining manual updates:
 - Captured 13 usable fresh screenshots with Playwright and generated 11 verified annotation/crop sets in `assets/presentation/`.
 - Rendered and visually reviewed every slide before and after; fixed slides 1, 4, 6, 9, 11, 13, 16, 17, 18, and 20.
 - Replaced small/cut or misleading visuals with larger real UI evidence; final visual review is PASS 21/21.
+
+## 2026-07-07
+
+- Added centralized `config/pa1_config.json` and derived report, ZIP, WorkDivision, and output names from `group_id`.
+- Rebuilt WeeklyReport into the exact ten-section RUP + Scrum minutes structure and removed product References.
+- Corrected all ten PotentialSolutions canonical drawback/finding/solution mappings and added source-only evidence labels where no screenshot visibly proves the claim.
+- Separated internal rehearsal feedback from the pending real-classroom feedback table without fabricating names or comments.
+- Added strict draft/final submission validation, PDF extraction fallback, image checks, ZIP hash checks, freshness checks, and false-readiness detection.
+- Regenerated four PDFs, extracted text, WorkDivision DOCX, output copies, exact four-PDF ZIP, shared JSON, and SHA-256 manifest.
+- `npm run build:pa1`: PASS. `npm run validate:pa1:draft`: PASS. Final mode: expected FAIL until real group ID and peer feedback are provided.
+- Rendered and inspected all 70 final PDF pages; no text exceeded page bounds. DOCX visual render remains unavailable because LibreOffice/soffice is not installed.
