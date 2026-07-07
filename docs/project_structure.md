@@ -16,10 +16,13 @@
 |   |-- screenshots/annotated/         # sharp annotated screenshots
 |   |-- screenshots/crops/             # UI detail crops
 |   |-- diagrams/                      # Solution sketch figures
+|       |-- mermaid/                   # Six canonical Mermaid diagram sources
+|       |-- rendered/                  # Six rendered PNG diagrams used by reports/DOCX
 |-- scripts/
 |   |-- capture-pa1-screenshots.js
 |   |-- annotate-pa1-screenshots.js
 |   |-- create_pa1_work_division_docx.py
+|   |-- validate_pa1_balance_diagrams.py
 |-- sources/
 |   |-- GroupID-PA1-*.md              # Editable Markdown source artifacts
 |   |-- mermaid-fifa-browse-watch-flow.mmd

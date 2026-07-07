@@ -6,6 +6,35 @@ learning, blitz play, and deep review. Nguyen Vu Bach presents FIFA findings, st
 ticket status uncertainty, and article-to-utility friction. Pham Nguyen Gia Bao presents Chess.com findings, showing how Play, Puzzles, Learn, Game Review, Analysis, and Study Plans support action and reflection,
 then explaining risks from feature overload, premove execution, hidden Focus Mode controls, and complex analysis screens. Trang Minh Nhut closes the design portion with quick wins and deeper redesigns. Le Minh
 finishes with the two-week RUP plus Scrum plan, peer-review feedback loop, citation QA, PDF text extraction, old-term scan, and zip packaging.
+Two-person website ownership
+Website
+Owners
+Presentation responsibility
+FIFA.com
+Le Minh and Nguyen Vu Bach
+Le Minh: opening, scope, integration, final QA. Nguyen Vu Bach: research findings and evidence.
+Chess.com
+Pham Nguyen Gia Bao and Trang Minh Nhut
+Pham Nguyen Gia Bao: research findings and evidence. Trang Minh Nhut: HCI mapping, solutions,
+visual QA.
+Cross-report traceability
+Finding
+Drawback
+Solution
+Revision
+Owner
+F-HCI6
+F-D1
+F-S1/F-S2
+Clarify cross-property navigation
+Le Minh and Nguyen Vu Bach
+C-HCI7
+C-D1
+C-S1/C-S2
+Reduce novice feature overload
+Pham Nguyen Gia Bao and Trang Minh Nhut
+Diagram PE-D1. PeerReview traceability. This rendered diagram connects slides, evidence, internal rehearsal feedback, revision actions, and real team owners.
+
 Slide outline
 Slide
 Topic
@@ -79,7 +108,6 @@ Every finding names page or flow, control, user, context, principle, scenario, s
 Which redesign gives best impact for effort?
 F-S3 and C-S3 are strong low-effort wins: the handoff explainer reduces trust friction and the beginner analysis preset reduces cognitive load.
 Mock feedback entries
-
 These entries are mock/internal rehearsal feedback because real classroom peer feedback was not available in the repository.
 Reviewer
 Role
@@ -132,6 +160,13 @@ Reframed FIFA as browse, compare, follow and
 Chess.com as do, review, improve.
 Le Minh
 Done
+
+Reviewer
+Role
+Feedback
+Response/revision
+Owner
+Status
 Leo Tran
 Mock/internal rehearsal peer
 Weekly plan must show QA and packaging.
@@ -194,7 +229,6 @@ FIFA.com/tickets is identified as the official and preferred ticket source; fans
 content, highlights, replays, documentaries, and archive content. The FIFA+ destination is presented through a DAZN-branded page.
 [10] Chess.com homepage. Official Chess.com homepage. https://www.chess.com/. Accessed 2026-06-10. Supports: The homepage foregrounds Play, Puzzles, Learn, Train, Watch, Community, Get Started,
 lessons, bots, puzzles, and watching events.
-
 [11] How do I start a game on Chess.com?. Official Chess.com help. https://support.chess.com/en/articles/8609779-how-do-i-start-a-game-on-chess-com. Accessed 2026-06-10. Supports: Users can start games from
 the homescreen or site-wide Play menu, using recent time control, custom settings, random opponent, bots, or friends.
 [12] What are pre-moves and how do they work?. Official Chess.com help. https://support.chess.com/en/articles/8562432-what-are-pre-moves-and-how-do-they-work. Accessed 2026-06-10. Supports: Premoves can
@@ -207,6 +241,7 @@ Mode, and Flip Board appear when hovering near the board/sidebar boundary, creat
 provides a detailed review flow with accuracy, move classifications, key moves, coach guidance, graphs, and retry learning.
 [17] How do I use the analysis board?. Official Chess.com help. https://support.chess.com/en/articles/8583825-how-do-i-use-the-analysis-board. Accessed 2026-06-10. Supports: The Analysis Board supports direct
 manipulation, setup position, FEN/PGN loading, game history, collections, engine settings, evaluation bar, lines, arrows, and move feedback.
+
 [20] Chess Study Plans for All Levels. Official Chess.com article. https://www.chess.com/article/view/study-plan-directory. Accessed 2026-06-10. Supports: Study plans guide players by skill level and help organize
 training time through curated lessons and videos.
 [22] Cheating And Fair Play On Chess.com. Official Chess.com fair-play page. https://www.chess.com/cheating. Accessed 2026-06-10. Supports: The fair-play page explains competitive integrity, account closures,

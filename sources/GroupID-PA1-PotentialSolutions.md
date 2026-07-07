@@ -4,6 +4,14 @@
 
 The solution set keeps FIFA focused on task-first navigation, continuity across FIFA+, clearer ticket status, and utility entry points. It keeps Chess.com focused on novice onboarding, simpler analysis, expectation-setting around access limits, safer premoves, and clearer Focus Mode discovery.
 
+## Relationship to ProductResearch findings
+
+Every FIFA drawback is owned by Le Minh and Nguyen Vu Bach; every Chess.com drawback is owned by Pham Nguyen Gia Bao and Trang Minh Nhut. Each drawback maps to its ProductResearch finding and evidence figure, affected use case, and exactly two solution IDs in the tables below.
+
+![Diagram PS-D1](assets/diagrams/rendered/pa1_potentialsolutions_traceability.png)
+
+Diagram PS-D1. ProductResearch-to-solution traceability. This rendered diagram shows how an observed finding becomes a drawback, two proposed solutions, and an expected HCI improvement.
+
 ## Drawback inventory
 
 | ID | Product | Drawback | Linked finding | Severity |

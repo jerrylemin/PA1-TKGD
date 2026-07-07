@@ -38,4 +38,5 @@ Key assumptions:
 
 - `GROUP_ID = "GroupID"` remains in filenames until the real course group ID is provided.
 - Peer-review feedback entries are mock/internal rehearsal feedback until real classroom peer feedback is available.
-- Mermaid source is preserved; PDF diagrams use text fallbacks.
+- Final ownership is FIFA.com: Le Minh + Nguyen Vu Bach; Chess.com: Pham Nguyen Gia Bao + Trang Minh Nhut, at 25% each.
+- Mermaid source lives in `assets/diagrams/mermaid`; six PNGs in `assets/diagrams/rendered` are embedded in the four PDFs and WorkDivision DOCX.

@@ -29,6 +29,8 @@ Trang Minh Nhut
 HCI Analysis Lead, PotentialSolutions Lead, Visual QA Lead
 Mapped HCI concepts, led PotentialSolutions, checked figure captions,
 and verified drawback-to-solution consistency.
+Balanced ownership model
+FIFA.com team: Le Minh and Nguyen Vu Bach. Chess.com team: Pham Nguyen Gia Bao and Trang Minh Nhut. All four members perform research, writing, review, and final QA.
 Planned meeting schedule
 Meeting
 Planned date
@@ -65,9 +67,9 @@ collect Chess.com sources, capture and annotate Chess screenshots, write Chess.c
 PotentialSolutions, check figure captions, check consistency between drawbacks and solutions.
 Actions
 Use official sources first; preserve F- and C-prefix IDs; regenerate PDFs from source after final fixes.
+
 Weekly Scrum 1
 Meeting type: Weekly Scrum 1. Planned date: 2026-06-14. Attendance: all four members.
-
 Member
 Completed work
 Next work
@@ -170,43 +172,48 @@ A strong visual report still fails strict readiness if team evidence and scrum d
 WeeklyReport. Final packaging must be regenerated after any source fix.
 Workload matrix
 Member
-Role
+Website ownership
 Research
 Writing
 Review
-Packaging
-Total
+Final QA
+Contribution
 Le Minh
-Coordinator/integration/PeerReview/Wee
-klyReport/packaging
-3
-5
-5
-4
-17
+FIFA.com
+Yes
+Yes
+Yes
+Yes
+25%
 Nguyen Vu Bach
-FIFA.com research and visual evidence
-6
-6
-3
-1
-16
+FIFA.com
+Yes
+Yes
+Yes
+Yes
+25%
 Pham Nguyen Gia Bao
-Chess.com research and visual evidence
-6
-6
-3
-1
-16
-Trang Minh Nhut
-HCI analysis, PotentialSolutions, visual
-QA
-4
-7
-4
-1
-16
+Chess.com
+Yes
+Yes
+Yes
+Yes
+25%
 
+Member
+Website ownership
+Research
+Writing
+Review
+Final QA
+Contribution
+Trang Minh Nhut
+Chess.com
+Yes
+Yes
+Yes
+Yes
+25%
 Final submission checklist
 Deliverable
 Expected filename
@@ -229,16 +236,8 @@ workload matrix, and checklist.
 Submission package
 GroupID-PA1.zip
 Contains exactly the four final PDFs at top level.
-Diagram C. Sprint timeline
-Figure W-01. Weekly sprint timeline and delivery sequence.
-flowchart LR
-A[Day 1 Planning] --> B[Days 2 to 3 Sources]
-B --> C[Days 4 to 6 Personas and Use Cases]
-C --> D[Days 7 to 8 HCI Findings]
-D --> E[Days 9 to 11 Solutions and Drafts]
-E --> F[Days 12 to 13 Rehearsal and QA]
-F --> G[Day 14 Review, PDFs, Zip]
-Text fallback: Planning first, research next, analysis after that, then solution writing, then QA and packaging.
+Diagram WR-D1. WeeklyReport sprint workflow
+Diagram WR-D1. WeeklyReport sprint workflow. This rendered diagram summarizes how the two website teams contributed through planning, two scrums, review, PDF export, and zip validation.
 References
 [1] Inside FIFA. Official FIFA news and navigation. https://inside.fifa.com/. Accessed 2026-06-10. Supports: Inside FIFA exposes Latest FIFA News and the global navigation labels Match Centre, News, Rankings,
 Tickets & Hospitality, Play, Inside FIFA, plus sibling destinations such as FIFA+, Store, Collect, and Rewards.
@@ -255,6 +254,7 @@ FIFA.com/tickets is identified as the official and preferred ticket source; fans
 content, highlights, replays, documentaries, and archive content. The FIFA+ destination is presented through a DAZN-branded page.
 [7] Match Centre. Official FIFA Match Centre. https://www.fifa.com/en/match-centre. Accessed 2026-06-10. Supports: The Match Centre URL exposes fixtures, results, match details, competitions, and live-now
 filtering; some content is client-side rendered.
+
 [8] FIFA/Coca-Cola Men's World Ranking. Official FIFA rankings page. https://inside.fifa.com/fifa-world-ranking/men. Accessed 2026-06-10. Supports: The rankings page exposes the latest men's ranking table, filters,
 official update dates, and ranking rules notes.
 [9] Tickets & Hospitality. Official FIFA tickets page. https://www.fifa.com/en/tickets. Accessed 2026-06-10. Supports: The tickets URL is the official entry point for first-hand FIFA tournament ticket and hospitality
@@ -265,7 +265,6 @@ lessons, bots, puzzles, and watching events.
 the homescreen or site-wide Play menu, using recent time control, custom settings, random opponent, bots, or friends.
 [15] How does Game Review work?. Official Chess.com help. https://support.chess.com/en/articles/8584089-how-does-game-review-work. Accessed 2026-06-10. Supports: Game Review appears after a game and
 provides a detailed review flow with accuracy, move classifications, key moves, coach guidance, graphs, and retry learning.
-
 [17] How do I use the analysis board?. Official Chess.com help. https://support.chess.com/en/articles/8583825-how-do-i-use-the-analysis-board. Accessed 2026-06-10. Supports: The Analysis Board supports direct
 manipulation, setup position, FEN/PGN loading, game history, collections, engine settings, evaluation bar, lines, arrows, and move feedback.
 [18] How do Puzzles work on Chess.com?. Official Chess.com help. https://support.chess.com/en/articles/8608686-how-do-puzzles-work-on-chess-com. Accessed 2026-06-10. Supports: Puzzles are reachable from

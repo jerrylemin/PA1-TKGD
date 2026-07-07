@@ -23,3 +23,22 @@ Remaining manual updates:
 
 - Replace `GroupID` with the real group ID if provided.
 - Replace mock/internal rehearsal feedback names with actual peer names if required.
+
+## 2026-07-02
+
+- Enforced two-person ownership per website and four balanced 25% contribution rows.
+- Added cross-report ownership and ID traceability.
+- Created and rendered six Mermaid diagrams; embedded them in all four reports and WorkDivision.
+- Regenerated four PDFs, exact four-PDF zip, and both WorkDivision DOCX copies.
+- Added `scripts/validate_pa1_balance_diagrams.py`; validation status is PASS.
+
+## 2026-07-06
+
+- Created `GroupID-PA1-Presentation.pptx` and the matching `output/` copy.
+- Expanded the presentation to 21 Vietnamese slides so screenshots and diagrams remain readable without cropping.
+- Split dense sections by product, persona, use case, HCI finding, limitation, and solution.
+- Added substantive speaker notes to all 21 slides for a 5–10 minute presentation.
+- Validated 36 image placements, 21 title objects, no slide overflow, no prohibited visible terms, and identical hashes for both PPTX copies.
+- Captured 13 usable fresh screenshots with Playwright and generated 11 verified annotation/crop sets in `assets/presentation/`.
+- Rendered and visually reviewed every slide before and after; fixed slides 1, 4, 6, 9, 11, 13, 16, 17, 18, and 20.
+- Replaced small/cut or misleading visuals with larger real UI evidence; final visual review is PASS 21/21.

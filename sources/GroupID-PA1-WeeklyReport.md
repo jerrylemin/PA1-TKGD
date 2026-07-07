@@ -13,6 +13,10 @@ Produce PA1 reports for FIFA.com and Chess.com with visual screenshot evidence a
 | Pham Nguyen Gia Bao | 20127119 | Chess.com Research Lead, Chess.com Screenshot Evidence Lead, ProductResearch Co-Lead | Researched Chess.com, collected official sources, captured and annotated Chess.com evidence, and wrote Chess.com HCI findings. |
 | Trang Minh Nhut | 22127318 | HCI Analysis Lead, PotentialSolutions Lead, Visual QA Lead | Mapped HCI concepts, led PotentialSolutions, checked figure captions, and verified drawback-to-solution consistency. |
 
+## Balanced ownership model
+
+FIFA.com team: Le Minh and Nguyen Vu Bach. Chess.com team: Pham Nguyen Gia Bao and Trang Minh Nhut. All four members perform research, writing, review, and final QA.
+
 ## Planned meeting schedule
 
 | Meeting | Planned date | Attendance |
@@ -70,12 +74,12 @@ Meeting type: Weekly Scrum 2. Planned date: 2026-06-19. Attendance: all four mem
 
 ## Workload matrix
 
-| Member | Role | Research | Writing | Review | Packaging | Total |
+| Member | Website ownership | Research | Writing | Review | Final QA | Contribution |
 | --- | --- | --- | --- | --- | --- | --- |
-| Le Minh | Coordinator/integration/PeerReview/WeeklyReport/packaging | 3 | 5 | 5 | 4 | 17 |
-| Nguyen Vu Bach | FIFA.com research and visual evidence | 6 | 6 | 3 | 1 | 16 |
-| Pham Nguyen Gia Bao | Chess.com research and visual evidence | 6 | 6 | 3 | 1 | 16 |
-| Trang Minh Nhut | HCI analysis, PotentialSolutions, visual QA | 4 | 7 | 4 | 1 | 16 |
+| Le Minh | FIFA.com | Yes | Yes | Yes | Yes | 25% |
+| Nguyen Vu Bach | FIFA.com | Yes | Yes | Yes | Yes | 25% |
+| Pham Nguyen Gia Bao | Chess.com | Yes | Yes | Yes | Yes | 25% |
+| Trang Minh Nhut | Chess.com | Yes | Yes | Yes | Yes | 25% |
 
 ## Final submission checklist
 
@@ -87,21 +91,11 @@ Meeting type: Weekly Scrum 2. Planned date: 2026-06-19. Attendance: all four mem
 | WeeklyReport PDF | GroupID-PA1-WeeklyReport.pdf | Contains real roster, planned dates, sprint planning, two per-member scrum records, sprint review, workload matrix, and checklist. |
 | Submission package | GroupID-PA1.zip | Contains exactly the four final PDFs at top level. |
 
-## Diagram C. Sprint timeline
+## Diagram WR-D1. WeeklyReport sprint workflow
 
-Figure W-01. Weekly sprint timeline and delivery sequence.
+![Diagram WR-D1](assets/diagrams/rendered/pa1_weeklyreport_workflow.png)
 
-```mermaid
-flowchart LR
-A[Day 1 Planning] --> B[Days 2 to 3 Sources]
-B --> C[Days 4 to 6 Personas and Use Cases]
-C --> D[Days 7 to 8 HCI Findings]
-D --> E[Days 9 to 11 Solutions and Drafts]
-E --> F[Days 12 to 13 Rehearsal and QA]
-F --> G[Day 14 Review, PDFs, Zip]
-```
-
-Text fallback: Planning first, research next, analysis after that, then solution writing, then QA and packaging.
+Diagram WR-D1. WeeklyReport sprint workflow. This rendered diagram summarizes how the two website teams contributed through planning, two scrums, review, PDF export, and zip validation.
 
 ## References
 [1] Inside FIFA. Official FIFA news and navigation. https://inside.fifa.com/. Accessed 2026-06-10. Supports: Inside FIFA exposes Latest FIFA News and the global navigation labels Match Centre, News, Rankings, Tickets & Hospitality, Play, Inside FIFA, plus sibling destinations such as FIFA+, Store, Collect, and Rewards.

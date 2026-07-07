@@ -4,6 +4,24 @@
 
 Le Minh opens by naming the pair: FIFA and Chess.com web experiences. The first contrast is task posture: FIFA is browse, compare, and follow, while Chess.com is do, review, and improve. Le Minh then explains the official-source protocol and why numbered references are used. Trang Minh Nhut introduces six personas and emphasizes context: short campus browsing, office scanning, trust-sensitive ticket planning, beginner learning, blitz play, and deep review. Nguyen Vu Bach presents FIFA findings, starting with navigation and official ticket trust, then moving into the drawbacks of ecosystem sprawl, FIFA+ continuity, dense watch rails, ticket status uncertainty, and article-to-utility friction. Pham Nguyen Gia Bao presents Chess.com findings, showing how Play, Puzzles, Learn, Game Review, Analysis, and Study Plans support action and reflection, then explaining risks from feature overload, premove execution, hidden Focus Mode controls, and complex analysis screens. Trang Minh Nhut closes the design portion with quick wins and deeper redesigns. Le Minh finishes with the two-week RUP plus Scrum plan, peer-review feedback loop, citation QA, PDF text extraction, old-term scan, and zip packaging.
 
+## Two-person website ownership
+
+| Website | Owners | Presentation responsibility |
+| --- | --- | --- |
+| FIFA.com | Le Minh and Nguyen Vu Bach | Le Minh: opening, scope, integration, final QA. Nguyen Vu Bach: research findings and evidence. |
+| Chess.com | Pham Nguyen Gia Bao and Trang Minh Nhut | Pham Nguyen Gia Bao: research findings and evidence. Trang Minh Nhut: HCI mapping, solutions, visual QA. |
+
+## Cross-report traceability
+
+| Finding | Drawback | Solution | Revision | Owner |
+| --- | --- | --- | --- | --- |
+| F-HCI6 | F-D1 | F-S1/F-S2 | Clarify cross-property navigation | Le Minh and Nguyen Vu Bach |
+| C-HCI7 | C-D1 | C-S1/C-S2 | Reduce novice feature overload | Pham Nguyen Gia Bao and Trang Minh Nhut |
+
+![Diagram PE-D1](assets/diagrams/rendered/pa1_peerreview_traceability.png)
+
+Diagram PE-D1. PeerReview traceability. This rendered diagram connects slides, evidence, internal rehearsal feedback, revision actions, and real team owners.
+
 ## Slide outline
 
 | Slide | Topic | Purpose | Speaker | Time |

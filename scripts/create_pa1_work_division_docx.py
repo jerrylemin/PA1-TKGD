@@ -20,6 +20,7 @@ OUT_DOCX = OUTPUT_DIR / "GroupID-PA1-WorkDivision.docx"
 ROOT_DOCX = ROOT / "GroupID-PA1-WorkDivision.docx"
 LOG_PATH = DOCS_DIR / "pa1_work_division_generation_log.md"
 ROOT_COPY_STATUS = {"copied": False, "error": ""}
+RACI_DIAGRAM = ROOT / "assets" / "diagrams" / "rendered" / "pa1_workdivision_raci.png"
 
 MEMBERS = [
     ("Le Minh", "21127645"),
@@ -380,6 +381,11 @@ def build_docx() -> None:
         [2300, 1500, 3100, 2460],
     )
 
+    add_heading(doc, "10. Sơ đồ RACI trực quan")
+    add_body(doc, "FIFA.com: Le Minh và Nguyen Vu Bach. Chess.com: Pham Nguyen Gia Bao và Trang Minh Nhut. Mỗi thành viên đóng góp 25%, gồm nghiên cứu, viết, rà soát và QA cuối.")
+    if RACI_DIAGRAM.exists():
+        doc.add_picture(str(RACI_DIAGRAM), width=Inches(8.2))
+        add_body(doc, "Sơ đồ WD-D1. Ma trận RACI liên kết bốn thành viên với hai website, giải pháp HCI, PeerReview/WeeklyReport và QA cuối.")
     doc.save(OUT_DOCX)
     try:
         shutil.copy2(OUT_DOCX, ROOT_DOCX)

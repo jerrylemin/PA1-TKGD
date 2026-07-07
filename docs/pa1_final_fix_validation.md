@@ -37,7 +37,7 @@ Critical blockers: 0
 - PDF render sanity check: PASS. Rendered all final PDFs with Poppler and reviewed contact sheets; intermediate PNGs were removed after QA. The only page flagged by an average-pixel check was the mostly whitespace references tail of PotentialSolutions page 14.
 
 ## WorkDivision DOCX
-- Results: {"GroupID-PA1-WorkDivision.docx": {"exists": true, "bytes": 42463, "real_terms_ok": true, "vietnamese_sections_ok": true, "no_detailed_timeline": true}, "output\\GroupID-PA1-WorkDivision.docx": {"exists": true, "bytes": 42463, "real_terms_ok": true, "vietnamese_sections_ok": true, "no_detailed_timeline": true}}
+- Results: {"GroupID-PA1-WorkDivision.docx": {"exists": true, "bytes": 58198, "real_terms_ok": true, "vietnamese_sections_ok": true, "no_detailed_timeline": true}, "output\\GroupID-PA1-WorkDivision.docx": {"exists": true, "bytes": 58198, "real_terms_ok": true, "vietnamese_sections_ok": true, "no_detailed_timeline": true}}
 - Render QA: skipped because LibreOffice/soffice is not installed in this environment.
 
 ## Critical blockers

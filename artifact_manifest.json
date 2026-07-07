@@ -11,31 +11,31 @@
   "manifest": [
     {
       "file": "GroupID-PA1-ProductResearch.pdf",
-      "bytes": 9236485,
-      "pages_text_chars": 54965,
+      "bytes": 9269164,
+      "pages_text_chars": 55117,
       "status": "PASS"
     },
     {
       "file": "GroupID-PA1-PotentialSolutions.pdf",
-      "bytes": 561323,
-      "pages_text_chars": 21162,
+      "bytes": 569049,
+      "pages_text_chars": 21508,
       "status": "PASS"
     },
     {
       "file": "GroupID-PA1-PeerReview.pdf",
-      "bytes": 10755,
-      "pages_text_chars": 10496,
+      "bytes": 23572,
+      "pages_text_chars": 11311,
       "status": "PASS"
     },
     {
       "file": "GroupID-PA1-WeeklyReport.pdf",
-      "bytes": 13358,
-      "pages_text_chars": 13858,
+      "bytes": 20486,
+      "pages_text_chars": 13811,
       "status": "PASS"
     },
     {
       "file": "GroupID-PA1.zip",
-      "bytes": 7852156,
+      "bytes": 7892756,
       "contents": [
         "GroupID-PA1-ProductResearch.pdf",
         "GroupID-PA1-PotentialSolutions.pdf",

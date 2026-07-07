@@ -1,0 +1,389 @@
+{"kind":"deck","id":"pr/cb5262","name":"Deck"}
+{"kind":"layout","layoutId":"26827a9c-3df6-487f-bbe7-af7f2a1e2ccf","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"05d908fa-fdb9-4256-b917-c72737e371ad","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/0bjpyn","slide":1,"title":"PHÂN TÍCH HCI • PA1","textShapes":6}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":1,"text":"PHÂN TÍCH HCI • PA1","textPreview":"PHÂN TÍCH HCI • PA1","textChars":19,"textLines":1,"bbox":[64,52,420,24]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":1,"name":"title-1","text":"Hai nhịp trải nghiệm\ntrên cùng một màn hình","textPreview":"Hai nhịp trải nghiệm | trên cùng một màn hình","textChars":43,"textLines":2,"bbox":[64,100,560,150]}
+{"kind":"textbox","id":"sh/lwval87e","slide":1,"text":"FIFA.com × Chess.com","textPreview":"FIFA.com × Chess.com","textChars":20,"textLines":1,"bbox":[68,276,460,34]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":1,"text":"Nghiên cứu sản phẩm, phát hiện HCI và giải pháp thiết kế","textPreview":"Nghiên cứu sản phẩm, phát hiện HCI và giải pháp thiết kế","textChars":56,"textLines":1,"bbox":[68,326,500,58]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":1,"bbox":[646,66,554,260]}
+{"kind":"shape","id":"sh/loj2t83i","slide":1,"bbox":[646,360,554,260]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":1,"text":"Le Minh • Nguyen Vu Bach • Pham Nguyen Gia Bao • Trang Minh Nhut","textPreview":"Le Minh • Nguyen Vu Bach • Pham Nguyen Gia Bao • Trang Minh Nhut","textChars":64,"textLines":1,"bbox":[68,610,540,42]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":1,"text":"PA1 • 2026","textPreview":"PA1 • 2026","textChars":10,"textLines":1,"bbox":[68,660,180,18]}
+{"kind":"image","id":"im/loj2t83i","slide":1,"name":"","geometry":"roundRect","alt":"Trang chủ FIFA.com","bbox":[656,76,534,240]}
+{"kind":"image","id":"im/3ex0nuxc","slide":1,"name":"","geometry":"roundRect","alt":"Trang chủ Chess.com","bbox":[656,370,534,240]}
+{"kind":"notes","id":"nt/0bjpyn","slide":1,"text":"Mở đầu bằng sự khác biệt cốt lõi: FIFA.com chủ yếu hỗ trợ khám phá thông tin chính thức, còn Chess.com hỗ trợ hành động và phản hồi tức thời. Bài trình bày dùng ảnh giao diện thật để nối người dùng, use case, phát hiện HCI và giải pháp."}
+{"kind":"slide","id":"sl/utmxxx","slide":2,"title":"MỤC TIÊU","textShapes":12}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":2,"name":"kicker-2","text":"MỤC TIÊU","textPreview":"MỤC TIÊU","textChars":8,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":2,"name":"title-2","text":"PA1 kết nối người dùng với bằng chứng","textPreview":"PA1 kết nối người dùng với bằng chứng","textChars":37,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":2,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":2,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":2,"text":"2 / 21","textPreview":"2 / 21","textChars":6,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/8bat47y1","slide":2,"bbox":[64,164,700,438]}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":2,"bbox":[814,197,14,14]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":2,"text":"Hiểu người dùng","textPreview":"Hiểu người dùng","textChars":15,"textLines":1,"bbox":[842,192,352,28]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":2,"text":"Persona, bối cảnh, thiết bị và mức chú ý.","textPreview":"Persona, bối cảnh, thiết bị và mức chú ý.","textChars":41,"textLines":1,"bbox":[842,226,352,54]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":2,"bbox":[814,319,14,14]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":2,"text":"Quan sát hành vi","textPreview":"Quan sát hành vi","textChars":16,"textLines":1,"bbox":[842,314,352,28]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":2,"text":"Theo dõi tác vụ thật bằng ảnh có chú thích.","textPreview":"Theo dõi tác vụ thật bằng ảnh có chú thích.","textChars":43,"textLines":1,"bbox":[842,348,352,54]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":2,"bbox":[814,441,14,14]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":2,"text":"Đề xuất có truy vết","textPreview":"Đề xuất có truy vết","textChars":19,"textLines":1,"bbox":[842,436,352,28]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":2,"text":"Mỗi giải pháp nối với bằng chứng và nguyên tắc HCI.","textPreview":"Mỗi giải pháp nối với bằng chứng và nguyên tắc HCI.","textChars":51,"textLines":1,"bbox":[842,470,352,54]}
+{"kind":"textbox","id":"sh/cbulwval","slide":2,"text":"Kết quả: khuyến nghị có thể kiểm tra trên giao diện.","textPreview":"Kết quả: khuyến nghị có thể kiểm tra trên giao diện.","textChars":52,"textLines":1,"bbox":[814,566,380,54]}
+{"kind":"image","id":"im/65wjudg7","slide":2,"name":"","geometry":"roundRect","alt":"Tìm kiếm FIFA.com","bbox":[74,174,680,418]}
+{"kind":"notes","id":"nt/utmxxx","slide":2,"text":"PA1 không chỉ mô tả giao diện. Nhóm đặt ba mục tiêu: hiểu người dùng, quan sát hành vi trên giao diện thật và tạo giải pháp có thể truy ngược về bằng chứng. Ảnh tìm kiếm minh họa cách nhóm đánh giá một tác vụ cụ thể thay vì đánh giá chung chung."}
+{"kind":"slide","id":"sl/5fsj9p","slide":3,"title":"PHƯƠNG PHÁP NGHIÊN CỨU","textShapes":13}
+{"kind":"textbox","id":"sh/7u54zido","slide":3,"name":"kicker-3","text":"PHƯƠNG PHÁP NGHIÊN CỨU","textPreview":"PHƯƠNG PHÁP NGHIÊN CỨU","textChars":22,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":3,"name":"title-3","text":"Nghiên cứu theo chuỗi có thể kiểm tra","textPreview":"Nghiên cứu theo chuỗi có thể kiểm tra","textChars":37,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":3,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":3,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":3,"text":"3 / 21","textPreview":"3 / 21","textChars":6,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":3,"bbox":[64,216,188,74]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":3,"text":"Nguồn chính thức","textPreview":"Nguồn chính thức","textChars":16,"textLines":1,"bbox":[76,235,164,36]}
+{"kind":"shape","id":"sh/7adsji5s","slide":3,"bbox":[254,251,22,3]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":3,"bbox":[270,242,20,22]}
+{"kind":"shape","id":"sh/u54zidon","slide":3,"bbox":[292,216,188,74]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":3,"text":"Ảnh đa thiết bị","textPreview":"Ảnh đa thiết bị","textChars":15,"textLines":1,"bbox":[304,235,164,36]}
+{"kind":"shape","id":"sh/cbulwval","slide":3,"bbox":[482,251,22,3]}
+{"kind":"shape","id":"sh/neloj2t8","slide":3,"bbox":[498,242,20,22]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":3,"bbox":[520,216,188,74]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":3,"text":"Chú thích HCI","textPreview":"Chú thích HCI","textChars":13,"textLines":1,"bbox":[532,235,164,36]}
+{"kind":"shape","id":"sh/czed8v6p","slide":3,"bbox":[710,251,22,3]}
+{"kind":"shape","id":"sh/n29gr2p8","slide":3,"bbox":[726,242,20,22]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":3,"bbox":[748,216,188,74]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":3,"text":"Đối chiếu","textPreview":"Đối chiếu","textChars":9,"textLines":1,"bbox":[760,235,164,36]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":3,"bbox":[938,251,22,3]}
+{"kind":"shape","id":"sh/onyd0z61","slide":3,"bbox":[954,242,20,22]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":3,"bbox":[976,216,188,74]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":3,"text":"Kiểm định","textPreview":"Kiểm định","textChars":9,"textLines":1,"bbox":[988,235,164,36]}
+{"kind":"shape","id":"sh/vahoza1g","slide":3,"bbox":[104,356,230,286]}
+{"kind":"shape","id":"sh/dg7adsji","slide":3,"bbox":[370,356,230,286]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":3,"text":"Desktop • tablet • mobile","textPreview":"Desktop • tablet • mobile","textChars":25,"textLines":1,"bbox":[682,382,450,34]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":3,"text":"Mỗi kết luận phải chỉ ra màn hình, vùng chú ý, nguyên tắc HCI và tác động tới persona.","textPreview":"Mỗi kết luận phải chỉ ra màn hình, vùng chú ý, nguyên tắc HCI và tác động tới persona.","textChars":86,"textLines":1,"bbox":[682,440,450,108]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":3,"text":"Chuỗi này giúp peer review kiểm tra lại được.","textPreview":"Chuỗi này giúp peer review kiểm tra lại được.","textChars":45,"textLines":1,"bbox":[682,566,450,42]}
+{"kind":"image","id":"im/rqd4vmtw","slide":3,"name":"","geometry":"roundRect","alt":"FIFA.com trên mobile","bbox":[114,366,210,266]}
+{"kind":"image","id":"im/94fu18jq","slide":3,"name":"","geometry":"roundRect","alt":"Chess.com trên mobile","bbox":[380,366,210,266]}
+{"kind":"notes","id":"nt/5fsj9p","slide":3,"text":"Quy trình gồm năm bước: dùng nguồn chính thức, chụp nhiều kích thước, chú thích vùng giao diện, đối chiếu với persona và kiểm định kết luận. Hai ảnh mobile cho thấy cùng một phương pháp được áp dụng nhất quán cho cả hai sản phẩm."}
+{"kind":"slide","id":"sl/42rhle","slide":4,"title":"TỔNG QUAN FIFA.COM","textShapes":6}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":4,"name":"kicker-4","text":"TỔNG QUAN FIFA.COM","textPreview":"TỔNG QUAN FIFA.COM","textChars":18,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":4,"name":"title-4","text":"FIFA.com ưu tiên khám phá thông tin","textPreview":"FIFA.com ưu tiên khám phá thông tin","textChars":35,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":4,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":4,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":4,"text":"4 / 21","textPreview":"4 / 21","textChars":6,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/9knih4by","slide":4,"bbox":[64,158,850,464]}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":4,"bbox":[950,158,250,464]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":4,"text":"Cổng thông tin chính thức, giải đấu, tin tức và dịch vụ","textPreview":"Cổng thông tin chính thức, giải đấu, tin tức và dịch vụ","textChars":55,"textLines":1,"bbox":[104,636,1056,26]}
+{"kind":"image","id":"im/7adsji5s","slide":4,"name":"","geometry":"roundRect","alt":"Trang chủ FIFA.com trên desktop","bbox":[74,168,830,444]}
+{"kind":"image","id":"im/8jqh0fep","slide":4,"name":"","geometry":"roundRect","alt":"Trang chủ FIFA.com trên mobile","bbox":[960,168,230,444]}
+{"kind":"notes","id":"nt/42rhle","slide":4,"text":"FIFA.com hoạt động như một cổng thông tin rộng. Người dùng duyệt tin, giải đấu, lịch, tỷ số và dịch vụ chính thức. Bản desktop cho thấy độ phủ nội dung; bản mobile cho thấy áp lực thu gọn điều hướng và ưu tiên thông tin."}
+{"kind":"slide","id":"sl/pka6w7","slide":5,"title":"TỔNG QUAN CHESS.COM","textShapes":6}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":5,"name":"kicker-5","text":"TỔNG QUAN CHESS.COM","textPreview":"TỔNG QUAN CHESS.COM","textChars":19,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":5,"name":"title-5","text":"Chess.com ưu tiên hành động và phản hồi","textPreview":"Chess.com ưu tiên hành động và phản hồi","textChars":39,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/c7u54zid","slide":5,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/judg7ads","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":5,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/1032lszq","slide":5,"text":"5 / 21","textPreview":"5 / 21","textChars":6,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/cfa9w3m9","slide":5,"bbox":[64,158,850,464]}
+{"kind":"shape","id":"sh/udg7adsj","slide":5,"bbox":[950,158,250,464]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":5,"text":"Lối vào nhanh cho chơi, puzzle, học và luyện tập","textPreview":"Lối vào nhanh cho chơi, puzzle, học và luyện tập","textChars":48,"textLines":1,"bbox":[104,636,1056,26]}
+{"kind":"image","id":"im/i9s36hcr","slide":5,"name":"","geometry":"roundRect","alt":"Trang chủ Chess.com trên desktop","bbox":[74,168,830,444]}
+{"kind":"image","id":"im/j6tovaho","slide":5,"name":"","geometry":"roundRect","alt":"Trang chủ Chess.com trên mobile","bbox":[960,168,230,444]}
+{"kind":"notes","id":"nt/pka6w7","slide":5,"text":"Chess.com tổ chức trải nghiệm quanh hành động. Người dùng được thúc đẩy bắt đầu ván, giải puzzle hoặc học ngay. Điều này tạo tốc độ cao nhưng cũng tăng nguy cơ quá tải tính năng, đặc biệt trên mobile và với người mới."}
+{"kind":"slide","id":"sl/dgi26h","slide":6,"title":"NGƯỜI DÙNG FIFA.COM","textShapes":15}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":6,"name":"kicker-6","text":"NGƯỜI DÙNG FIFA.COM","textPreview":"NGƯỜI DÙNG FIFA.COM","textChars":19,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":6,"name":"title-6","text":"Persona FIFA thay đổi theo mức chú ý","textPreview":"Persona FIFA thay đổi theo mức chú ý","textChars":36,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/onyd0z61","slide":6,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":6,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":6,"text":"6 / 21","textPreview":"6 / 21","textChars":6,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/ovahoza1","slide":6,"bbox":[64,158,290,476]}
+{"kind":"textbox","id":"sh/61032lsz","slide":6,"text":"Lan Trần","textPreview":"Lan Trần","textChars":8,"textLines":1,"bbox":[412,172,270,30]}
+{"kind":"textbox","id":"sh/wval87ed","slide":6,"text":"Xem nhanh","textPreview":"Xem nhanh","textChars":9,"textLines":1,"bbox":[710,172,180,28]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":6,"text":"Kiểm tra tỷ số giữa giờ học.","textPreview":"Kiểm tra tỷ số giữa giờ học.","textChars":28,"textLines":1,"bbox":[412,214,720,54]}
+{"kind":"shape","id":"sh/epkzupwb","slide":6,"bbox":[412,284,720,1]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":6,"text":"Ethan Nguyễn","textPreview":"Ethan Nguyễn","textChars":12,"textLines":1,"bbox":[412,320,270,30]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":6,"text":"Theo giải","textPreview":"Theo giải","textChars":9,"textLines":1,"bbox":[710,320,180,28]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":6,"text":"So sánh lịch và bảng đấu trên desktop.","textPreview":"So sánh lịch và bảng đấu trên desktop.","textChars":38,"textLines":1,"bbox":[412,362,720,54]}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":6,"bbox":[412,432,720,1]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":6,"text":"Maria Phạm","textPreview":"Maria Phạm","textChars":10,"textLines":1,"bbox":[412,468,270,30]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":6,"text":"Độ tin cậy","textPreview":"Độ tin cậy","textChars":10,"textLines":1,"bbox":[710,468,180,28]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":6,"text":"Tìm nguồn vé và nội dung FIFA+ chính thức.","textPreview":"Tìm nguồn vé và nội dung FIFA+ chính thức.","textChars":42,"textLines":1,"bbox":[412,510,720,54]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":6,"bbox":[412,580,720,1]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":6,"text":"Thiết kế cần giữ đường đi rõ ngay cả khi người dùng bị gián đoạn.","textPreview":"Thiết kế cần giữ đường đi rõ ngay cả khi người dùng bị gián đoạn.","textChars":65,"textLines":1,"bbox":[412,606,720,42]}
+{"kind":"image","id":"im/i5sneloj","slide":6,"name":"","geometry":"roundRect","alt":"Ngữ cảnh sử dụng FIFA.com trên mobile","bbox":[74,168,270,456]}
+{"kind":"notes","id":"nt/dgi26h","slide":6,"text":"Ba persona FIFA đại diện cho ba mức chú ý. Lan cần thông tin cực nhanh, Ethan có thời gian so sánh, còn Maria ưu tiên độ tin cậy. Vì vậy giao diện phải vừa hỗ trợ duyệt sâu vừa giữ lối đi rõ cho người dùng bị gián đoạn."}
+{"kind":"slide","id":"sl/if2qf6","slide":7,"title":"NGƯỜI DÙNG CHESS.COM","textShapes":15}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":7,"name":"kicker-7","text":"NGƯỜI DÙNG CHESS.COM","textPreview":"NGƯỜI DÙNG CHESS.COM","textChars":20,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":7,"name":"title-7","text":"Persona Chess thay đổi theo trình độ","textPreview":"Persona Chess thay đổi theo trình độ","textChars":36,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":7,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/0z61032l","slide":7,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":7,"text":"7 / 21","textPreview":"7 / 21","textChars":6,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/itgfmlkj","slide":7,"bbox":[64,158,290,476]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":7,"text":"Minh Bùi","textPreview":"Minh Bùi","textChars":8,"textLines":1,"bbox":[412,172,270,30]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":7,"text":"Người mới","textPreview":"Người mới","textChars":9,"textLines":1,"bbox":[710,172,180,28]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":7,"text":"Cần bước đầu rõ và ít lựa chọn.","textPreview":"Cần bước đầu rõ và ít lựa chọn.","textChars":31,"textLines":1,"bbox":[412,214,720,54]}
+{"kind":"shape","id":"sh/c7u54zid","slide":7,"bbox":[412,284,720,1]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":7,"text":"Alex Hoàng","textPreview":"Alex Hoàng","textChars":10,"textLines":1,"bbox":[412,320,270,30]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":7,"text":"Blitz","textPreview":"Blitz","textChars":5,"textLines":1,"bbox":[710,320,180,28]}
+{"kind":"textbox","id":"sh/judg7ads","slide":7,"text":"Cần thao tác nhanh, tránh lỗi dưới áp lực.","textPreview":"Cần thao tác nhanh, tránh lỗi dưới áp lực.","textChars":42,"textLines":1,"bbox":[412,362,720,54]}
+{"kind":"shape","id":"sh/cfa9w3m9","slide":7,"bbox":[412,432,720,1]}
+{"kind":"textbox","id":"sh/1032lszq","slide":7,"text":"Quỳnh Lê","textPreview":"Quỳnh Lê","textChars":8,"textLines":1,"bbox":[412,468,270,30]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":7,"text":"Phân tích","textPreview":"Phân tích","textChars":9,"textLines":1,"bbox":[710,468,180,28]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":7,"text":"Cần phản hồi sâu và công cụ nâng cao.","textPreview":"Cần phản hồi sâu và công cụ nâng cao.","textChars":37,"textLines":1,"bbox":[412,510,720,54]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":7,"bbox":[412,580,720,1]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":7,"text":"Độ phức tạp nên được tiết lộ theo nhu cầu và năng lực.","textPreview":"Độ phức tạp nên được tiết lộ theo nhu cầu và năng lực.","textChars":54,"textLines":1,"bbox":[412,606,720,42]}
+{"kind":"image","id":"im/0rqd4vmt","slide":7,"name":"","geometry":"roundRect","alt":"Ngữ cảnh sử dụng Chess.com trên mobile","bbox":[74,168,270,456]}
+{"kind":"notes","id":"nt/if2qf6","slide":7,"text":"Ba persona Chess đại diện cho ba mức trình độ. Người mới cần giảm lựa chọn, người chơi blitz cần tốc độ và phòng lỗi, còn người phân tích cần công cụ sâu. Progressive disclosure là nguyên tắc then chốt để phục vụ cả ba nhóm."}
+{"kind":"slide","id":"sl/dqndwx","slide":8,"title":"USE CASE FIFA.COM","textShapes":6}
+{"kind":"textbox","id":"sh/47y1kre1","slide":8,"name":"kicker-8","text":"USE CASE FIFA.COM","textPreview":"USE CASE FIFA.COM","textChars":17,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":8,"name":"title-8","text":"FIFA: tìm lịch và tỷ số nhanh hơn","textPreview":"FIFA: tìm lịch và tỷ số nhanh hơn","textChars":33,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":8,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":8,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":8,"text":"8 / 21","textPreview":"8 / 21","textChars":6,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":8,"bbox":[64,158,820,464]}
+{"kind":"shape","id":"sh/4nap4r65","slide":8,"bbox":[920,158,280,464]}
+{"kind":"textbox","id":"sh/judg7ads","slide":8,"text":"Ý định → giải đấu → trận đấu → trạng thái hiện tại","textPreview":"Ý định → giải đấu → trận đấu → trạng thái hiện tại","textChars":50,"textLines":1,"bbox":[150,636,980,26]}
+{"kind":"image","id":"im/gr2p8nqx","slide":8,"name":"","geometry":"roundRect","alt":"Match Centre FIFA.com trên desktop","bbox":[74,168,800,444]}
+{"kind":"image","id":"im/tovahoza","slide":8,"name":"","geometry":"roundRect","alt":"Match Centre FIFA.com trên mobile","bbox":[930,168,260,444]}
+{"kind":"notes","id":"nt/dqndwx","slide":8,"text":"Use case đầu tiên là kiểm tra lịch và tỷ số. Trên desktop có nhiều không gian cho bộ lọc; trên mobile các vùng tìm kiếm, tab và danh sách cạnh tranh sự chú ý. Đường đi tốt phải giúp người dùng nhận ra giải đấu và trận cần xem ngay."}
+{"kind":"slide","id":"sl/gyrhe2","slide":9,"title":"USE CASE FIFA.COM","textShapes":8}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":9,"name":"kicker-9","text":"USE CASE FIFA.COM","textPreview":"USE CASE FIFA.COM","textChars":17,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":9,"name":"title-9","text":"FIFA: đọc tin và theo dõi giải đấu","textPreview":"FIFA: đọc tin và theo dõi giải đấu","textChars":34,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":9,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":9,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":9,"text":"9 / 21","textPreview":"9 / 21","textChars":6,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":9,"bbox":[64,166,550,430]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":9,"bbox":[666,166,550,430]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":9,"text":"Bài viết chính thức","textPreview":"Bài viết chính thức","textChars":19,"textLines":1,"bbox":[64,610,550,26]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":9,"text":"Thông tin giải đấu","textPreview":"Thông tin giải đấu","textChars":18,"textLines":1,"bbox":[666,610,550,26]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":9,"text":"Hai tác vụ cần liên kết rõ để người đọc không mất ngữ cảnh.","textPreview":"Hai tác vụ cần liên kết rõ để người đọc không mất ngữ cảnh.","textChars":59,"textLines":1,"bbox":[160,654,960,28]}
+{"kind":"image","id":"im/90je9cvi","slide":9,"name":"","geometry":"roundRect","alt":"Bài viết FIFA.com","bbox":[74,176,530,410]}
+{"kind":"image","id":"im/65wjudg7","slide":9,"name":"","geometry":"roundRect","alt":"Trang giải đấu FIFA.com","bbox":[676,176,530,410]}
+{"kind":"notes","id":"nt/gyrhe2","slide":9,"text":"Use case thứ hai nối đọc tin với theo dõi giải đấu. Người dùng thường đi từ bài viết tới lịch, bảng đấu hoặc nội dung liên quan. Nếu liên kết và nhãn không rõ, họ mất ngữ cảnh và phải quay lại điều hướng cấp cao."}
+{"kind":"slide","id":"sl/vfaxpv","slide":10,"title":"USE CASE CHESS.COM","textShapes":6}
+{"kind":"textbox","id":"sh/nap4r65w","slide":10,"name":"kicker-10","text":"USE CASE CHESS.COM","textPreview":"USE CASE CHESS.COM","textChars":18,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/cvixczed","slide":10,"name":"title-10","text":"Chess: bắt đầu ván trong vài giây","textPreview":"Chess: bắt đầu ván trong vài giây","textChars":33,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":10,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":10,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":10,"text":"10 / 21","textPreview":"10 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/54zidony","slide":10,"bbox":[64,158,820,464]}
+{"kind":"shape","id":"sh/judg7ads","slide":10,"bbox":[920,158,280,464]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":10,"text":"Chọn nhịp → chọn đối thủ → bắt đầu","textPreview":"Chọn nhịp → chọn đối thủ → bắt đầu","textChars":34,"textLines":1,"bbox":[170,636,940,26]}
+{"kind":"image","id":"im/j2t83itg","slide":10,"name":"","geometry":"roundRect","alt":"Bắt đầu ván Chess.com trên desktop","bbox":[74,168,800,444]}
+{"kind":"image","id":"im/s36hcrmh","slide":10,"name":"","geometry":"roundRect","alt":"Bắt đầu ván Chess.com trên mobile","bbox":[930,168,260,444]}
+{"kind":"notes","id":"nt/vfaxpv","slide":10,"text":"Use case cốt lõi của Chess.com là bắt đầu ván. Giao diện phải rút ngắn thời gian tới bàn cờ nhưng vẫn cho người dùng kiểm soát nhịp và đối thủ. Trên mobile, nút bắt đầu và thiết lập cần đủ lớn, rõ và không bị lẫn với chức năng phụ."}
+{"kind":"slide","id":"sl/c7o8ka","slide":11,"title":"USE CASE CHESS.COM","textShapes":8}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":11,"name":"kicker-11","text":"USE CASE CHESS.COM","textPreview":"USE CASE CHESS.COM","textChars":18,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":11,"name":"title-11","text":"Chess: học tiếp từ phản hồi","textPreview":"Chess: học tiếp từ phản hồi","textChars":27,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":11,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/9knih4by","slide":11,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":11,"text":"11 / 21","textPreview":"11 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":11,"bbox":[64,166,550,430]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":11,"bbox":[666,166,550,430]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":11,"text":"Thử và nhận phản hồi","textPreview":"Thử và nhận phản hồi","textChars":20,"textLines":1,"bbox":[64,610,550,26]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":11,"text":"Tiếp tục theo trình độ","textPreview":"Tiếp tục theo trình độ","textChars":22,"textLines":1,"bbox":[666,610,550,26]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":11,"text":"Vòng lặp tốt: PLAY → REVIEW → LEARN → PLAY BETTER","textPreview":"Vòng lặp tốt: PLAY → REVIEW → LEARN → PLAY BETTER","textChars":49,"textLines":1,"bbox":[150,654,980,28]}
+{"kind":"image","id":"im/1kre1w7m","slide":11,"name":"","geometry":"roundRect","alt":"Puzzle Chess.com","bbox":[74,176,530,410]}
+{"kind":"image","id":"im/a1gvy90j","slide":11,"name":"","geometry":"roundRect","alt":"Bài học Chess.com","bbox":[676,176,530,410]}
+{"kind":"notes","id":"nt/c7o8ka","slide":11,"text":"Giá trị dài hạn của Chess.com nằm ở vòng lặp chơi, phản hồi và học tiếp. Puzzle cần phản hồi đúng sai rõ; bài học cần bước tiếp theo phù hợp trình độ. Bất kỳ prompt hoặc giới hạn nào chen vào vòng lặp đều có thể làm giảm động lực."}
+{"kind":"slide","id":"sl/m0atop","slide":12,"title":"PHÁT HIỆN HCI FIFA.COM","textShapes":9}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":12,"name":"kicker-12","text":"PHÁT HIỆN HCI FIFA.COM","textPreview":"PHÁT HIỆN HCI FIFA.COM","textChars":22,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":12,"name":"title-12","text":"FIFA mạnh về uy tín và độ phủ","textPreview":"FIFA mạnh về uy tín và độ phủ","textChars":29,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/dsji5sne","slide":12,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":12,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":12,"text":"12 / 21","textPreview":"12 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":12,"bbox":[64,158,1136,394]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":12,"bbox":[120,587,14,14]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":12,"text":"Uy tín nguồn chính thức","textPreview":"Uy tín nguồn chính thức","textChars":23,"textLines":1,"bbox":[148,582,422,28]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":12,"text":"Thương hiệu và nội dung tạo niềm tin cao.","textPreview":"Thương hiệu và nội dung tạo niềm tin cao.","textChars":41,"textLines":1,"bbox":[148,616,422,54]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":12,"bbox":[680,587,14,14]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":12,"text":"Độ phủ nội dung","textPreview":"Độ phủ nội dung","textChars":15,"textLines":1,"bbox":[708,582,442,28]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":12,"text":"Tin, giải đấu, vé và media nằm trong cùng hệ sinh thái.","textPreview":"Tin, giải đấu, vé và media nằm trong cùng hệ sinh thái.","textChars":55,"textLines":1,"bbox":[708,616,442,54]}
+{"kind":"image","id":"im/r65wjudg","slide":12,"name":"","geometry":"roundRect","alt":"Điều hướng FIFA.com","bbox":[74,168,1116,374]}
+{"kind":"notes","id":"nt/m0atop","slide":12,"text":"Điểm mạnh lớn nhất của FIFA.com là uy tín. Người dùng tin đây là nguồn chính thức và có thể tìm nhiều loại nội dung trong cùng hệ sinh thái. Tuy nhiên độ phủ rộng cũng tạo áp lực lên điều hướng và khả năng tìm thấy."}
+{"kind":"slide","id":"sl/5mkzs1","slide":13,"title":"PHÁT HIỆN HCI FIFA.COM","textShapes":9}
+{"kind":"textbox","id":"sh/fyxobm58","slide":13,"name":"kicker-13","text":"PHÁT HIỆN HCI FIFA.COM","textPreview":"PHÁT HIỆN HCI FIFA.COM","textChars":22,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":13,"name":"title-13","text":"FIFA yếu ở tính liên tục","textPreview":"FIFA yếu ở tính liên tục","textChars":24,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":13,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":13,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":13,"text":"13 / 21","textPreview":"13 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/xczed8v6","slide":13,"bbox":[64,158,720,400]}
+{"kind":"shape","id":"sh/je9cvixc","slide":13,"bbox":[824,158,376,400]}
+{"kind":"shape","id":"sh/yxobm58z","slide":13,"bbox":[110,595,14,14]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":13,"text":"Information scent chưa đều","textPreview":"Information scent chưa đều","textChars":26,"textLines":1,"bbox":[138,590,472,28]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":13,"text":"Lối tới Match Centre, vé và FIFA+ chưa luôn rõ theo ý định.","textPreview":"Lối tới Match Centre, vé và FIFA+ chưa luôn rõ theo ý định.","textChars":59,"textLines":1,"bbox":[138,624,472,54]}
+{"kind":"shape","id":"sh/r65wjudg","slide":13,"bbox":[672,595,14,14]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":13,"text":"Handoff dễ mất ngữ cảnh","textPreview":"Handoff dễ mất ngữ cảnh","textChars":23,"textLines":1,"bbox":[700,590,472,28]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":13,"text":"Người dùng cần biết họ đang ở đâu và sẽ đi đâu.","textPreview":"Người dùng cần biết họ đang ở đâu và sẽ đi đâu.","textChars":47,"textLines":1,"bbox":[700,624,472,54]}
+{"kind":"image","id":"im/j2t83itg","slide":13,"name":"","geometry":"roundRect","alt":"Chuyển giao từ FIFA.com sang FIFA+","bbox":[74,168,700,380]}
+{"kind":"image","id":"im/s36hcrmh","slide":13,"name":"","geometry":"roundRect","alt":"Tìm kiếm FIFA.com","bbox":[834,168,356,380]}
+{"kind":"notes","id":"nt/5mkzs1","slide":13,"text":"FIFA.com yếu ở tính liên tục giữa các điểm đến. Khi chuyển sang FIFA+ hoặc dịch vụ khác, người dùng có thể mất dấu hệ sinh thái. Nhãn đích, kỳ vọng tài khoản và đường quay lại cần được thể hiện rõ hơn."}
+{"kind":"slide","id":"sl/68mk33","slide":14,"title":"PHÁT HIỆN HCI CHESS.COM","textShapes":6}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":14,"name":"kicker-14","text":"PHÁT HIỆN HCI CHESS.COM","textPreview":"PHÁT HIỆN HCI CHESS.COM","textChars":23,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":14,"name":"title-14","text":"Chess mạnh về vòng phản hồi","textPreview":"Chess mạnh về vòng phản hồi","textChars":27,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/gn29gr2p","slide":14,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":14,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":14,"text":"14 / 21","textPreview":"14 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":14,"bbox":[64,158,820,464]}
+{"kind":"shape","id":"sh/u54zidon","slide":14,"bbox":[920,158,280,464]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":14,"text":"Thao tác trực tiếp • trạng thái rõ • phản hồi nhanh","textPreview":"Thao tác trực tiếp • trạng thái rõ • phản hồi nhanh","textChars":51,"textLines":1,"bbox":[130,636,1020,26]}
+{"kind":"image","id":"im/u54zidon","slide":14,"name":"","geometry":"roundRect","alt":"Bàn cờ Chess.com","bbox":[74,168,800,444]}
+{"kind":"image","id":"im/z25kb6xk","slide":14,"name":"","geometry":"roundRect","alt":"Puzzle Chess.com trên mobile","bbox":[930,168,260,444]}
+{"kind":"notes","id":"nt/68mk33","slide":14,"text":"Chess.com mạnh về direct manipulation và phản hồi. Bàn cờ dùng mô hình quen thuộc, trạng thái thay đổi ngay sau thao tác và puzzle đưa ra bước tiếp theo. Đây là nền tảng tạo cảm giác tiến bộ liên tục."}
+{"kind":"slide","id":"sl/d1vciv","slide":15,"title":"PHÁT HIỆN HCI CHESS.COM","textShapes":9}
+{"kind":"textbox","id":"sh/byhgn29g","slide":15,"name":"kicker-15","text":"PHÁT HIỆN HCI CHESS.COM","textPreview":"PHÁT HIỆN HCI CHESS.COM","textChars":23,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":15,"name":"title-15","text":"Chess dễ gây quá tải cho người mới","textPreview":"Chess dễ gây quá tải cho người mới","textChars":34,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/t47y1kre","slide":15,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":15,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":15,"text":"15 / 21","textPreview":"15 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/tcj6tova","slide":15,"bbox":[64,158,720,400]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":15,"bbox":[824,158,376,400]}
+{"kind":"shape","id":"sh/yd0z6103","slide":15,"bbox":[110,595,14,14]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":15,"text":"Nhiều tính năng cùng xuất hiện","textPreview":"Nhiều tính năng cùng xuất hiện","textChars":30,"textLines":1,"bbox":[138,590,472,28]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":15,"text":"Người mới khó xác định bước đầu tiên.","textPreview":"Người mới khó xác định bước đầu tiên.","textChars":37,"textLines":1,"bbox":[138,624,472,54]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":15,"bbox":[672,595,14,14]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":15,"text":"Prompt có thể ngắt nhịp","textPreview":"Prompt có thể ngắt nhịp","textChars":23,"textLines":1,"bbox":[700,590,472,28]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":15,"text":"Kỳ vọng truy cập và lợi ích tài khoản cần rõ hơn.","textPreview":"Kỳ vọng truy cập và lợi ích tài khoản cần rõ hơn.","textChars":49,"textLines":1,"bbox":[700,624,472,54]}
+{"kind":"image","id":"im/vu9knih4","slide":15,"name":"","geometry":"roundRect","alt":"Điều hướng Chess.com","bbox":[74,168,700,380]}
+{"kind":"image","id":"im/kre1w7mp","slide":15,"name":"","geometry":"roundRect","alt":"Prompt đăng nhập Chess.com","bbox":[834,168,356,380]}
+{"kind":"notes","id":"nt/d1vciv","slide":15,"text":"Điểm yếu của Chess.com là quá tải ban đầu. Menu phong phú hữu ích cho người có kinh nghiệm nhưng làm tăng tải nhớ cho người mới. Prompt đăng nhập hoặc giới hạn truy cập cũng có thể ngắt ý định chơi nhanh."}
+{"kind":"slide","id":"sl/jpnugf","slide":16,"title":"HẠN CHẾ CHÍNH","textShapes":9}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":16,"name":"kicker-16","text":"HẠN CHẾ CHÍNH","textPreview":"HẠN CHẾ CHÍNH","textChars":13,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":16,"name":"title-16","text":"Hai nhóm hạn chế cần xử lý","textPreview":"Hai nhóm hạn chế cần xử lý","textChars":26,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":16,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/obm58z25","slide":16,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":16,"text":"16 / 21","textPreview":"16 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/65wjudg7","slide":16,"bbox":[64,158,550,360]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":16,"bbox":[666,158,550,360]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":16,"text":"FIFA.com","textPreview":"FIFA.com","textChars":8,"textLines":1,"bbox":[64,534,550,30]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":16,"text":"Đường đi phân tán • handoff thiếu giải thích • tải quét cao","textPreview":"Đường đi phân tán • handoff thiếu giải thích • tải quét cao","textChars":59,"textLines":1,"bbox":[92,574,494,72]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":16,"text":"Chess.com","textPreview":"Chess.com","textChars":9,"textLines":1,"bbox":[666,534,550,30]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":16,"text":"Quá tải tính năng • prompt ngắt nhịp • phòng lỗi chưa nổi bật","textPreview":"Quá tải tính năng • prompt ngắt nhịp • phòng lỗi chưa nổi bật","textChars":61,"textLines":1,"bbox":[694,574,494,72]}
+{"kind":"image","id":"im/8jqh0fep","slide":16,"name":"","geometry":"roundRect","alt":"Toàn bộ vùng footer và hệ sinh thái FIFA.com","bbox":[74,168,530,340]}
+{"kind":"image","id":"im/1w7mp0bi","slide":16,"name":"","geometry":"roundRect","alt":"Toàn bộ điều hướng Chess.com","bbox":[676,168,530,340]}
+{"kind":"notes","id":"nt/jpnugf","slide":16,"text":"Các hạn chế được gom thành hai nhóm. FIFA cần cải thiện khả năng tìm thấy và tính liên tục. Chess cần giảm tải nhận thức và tăng quyền kiểm soát. Việc gom nhóm giúp ưu tiên giải pháp thay vì xử lý từng màn hình rời rạc."}
+{"kind":"slide","id":"sl/nc6gc9","slide":17,"title":"GIẢI PHÁP ĐỀ XUẤT","textShapes":8}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":17,"name":"kicker-17","text":"GIẢI PHÁP ĐỀ XUẤT","textPreview":"GIẢI PHÁP ĐỀ XUẤT","textChars":17,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":17,"name":"title-17","text":"Giải pháp FIFA làm rõ đường đi","textPreview":"Giải pháp FIFA làm rõ đường đi","textChars":30,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":17,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/z61032ls","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":17,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":17,"text":"17 / 21","textPreview":"17 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/orytsvu9","slide":17,"bbox":[64,158,550,390]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":17,"bbox":[666,158,550,390]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":17,"text":"Điều hướng theo tác vụ","textPreview":"Điều hướng theo tác vụ","textChars":22,"textLines":1,"bbox":[64,564,550,26]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":17,"text":"Utility rail giữ ngữ cảnh","textPreview":"Utility rail giữ ngữ cảnh","textChars":25,"textLines":1,"bbox":[666,564,550,26]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":17,"text":"Quick wins: intent switcher • handoff explainer • nhãn quyền truy cập","textPreview":"Quick wins: intent switcher • handoff explainer • nhãn quyền truy cập","textChars":69,"textLines":1,"bbox":[100,624,1080,42]}
+{"kind":"image","id":"im/ulwval87","slide":17,"name":"","geometry":"roundRect","alt":"Giải pháp điều hướng theo tác vụ cho FIFA.com","bbox":[74,168,530,370]}
+{"kind":"image","id":"im/j2t83itg","slide":17,"name":"","geometry":"roundRect","alt":"Giải pháp utility rail cho bài viết FIFA.com","bbox":[676,168,530,370]}
+{"kind":"notes","id":"nt/nc6gc9","slide":17,"text":"Hai giải pháp FIFA được phóng lớn để đọc rõ. Điều hướng theo tác vụ đặt lịch, tỷ số, tin và vé theo ý định. Utility rail giữ hành động liên quan trong bài viết. Các quick win có thể thử nghiệm mà chưa cần thay kiến trúc lõi."}
+{"kind":"slide","id":"sl/t8pxxr","slide":18,"title":"GIẢI PHÁP ĐỀ XUẤT","textShapes":8}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":18,"name":"kicker-18","text":"GIẢI PHÁP ĐỀ XUẤT","textPreview":"GIẢI PHÁP ĐỀ XUẤT","textChars":17,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":18,"name":"title-18","text":"Giải pháp Chess giảm tải ban đầu","textPreview":"Giải pháp Chess giảm tải ban đầu","textChars":32,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/m94fu18j","slide":18,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/83itgfml","slide":18,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":18,"text":"18 / 21","textPreview":"18 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":18,"bbox":[64,158,550,390]}
+{"kind":"shape","id":"sh/4zidonyd","slide":18,"bbox":[666,158,550,390]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":18,"text":"Onboarding theo mục tiêu","textPreview":"Onboarding theo mục tiêu","textChars":24,"textLines":1,"bbox":[64,564,550,26]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":18,"text":"Phân tích theo trình độ","textPreview":"Phân tích theo trình độ","textChars":23,"textLines":1,"bbox":[666,564,550,26]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":18,"text":"Quick wins: beginner preset • focus coachmark • cảnh báo premove","textPreview":"Quick wins: beginner preset • focus coachmark • cảnh báo premove","textChars":64,"textLines":1,"bbox":[100,624,1080,42]}
+{"kind":"image","id":"im/cbulwval","slide":18,"name":"","geometry":"roundRect","alt":"Trang chủ cho người mới của Chess.com","bbox":[74,168,530,370]}
+{"kind":"image","id":"im/tcj6tova","slide":18,"name":"","geometry":"roundRect","alt":"Preset phân tích cho người mới của Chess.com","bbox":[676,168,530,370]}
+{"kind":"notes","id":"nt/t8pxxr","slide":18,"text":"Hai giải pháp Chess tập trung giảm tải cho người mới. Onboarding hỏi mục tiêu trước khi lộ tính năng nâng cao. Preset phân tích dùng ngôn ngữ đơn giản và tiết lộ biểu đồ theo nhu cầu. Coachmark và cảnh báo giúp phòng lỗi trong thao tác nhanh."}
+{"kind":"slide","id":"sl/5y3l3m","slide":19,"title":"PHÂN CHIA CÔNG VIỆC NHÓM","textShapes":26}
+{"kind":"textbox","id":"sh/9cvixcze","slide":19,"name":"kicker-19","text":"PHÂN CHIA CÔNG VIỆC NHÓM","textPreview":"PHÂN CHIA CÔNG VIỆC NHÓM","textChars":24,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":19,"name":"title-19","text":"Mỗi thành viên đóng góp 25%","textPreview":"Mỗi thành viên đóng góp 25%","textChars":27,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/r65wjudg","slide":19,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":19,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":19,"text":"19 / 21","textPreview":"19 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/nih4byhg","slide":19,"bbox":[64,174,256,410]}
+{"kind":"shape","id":"sh/g7adsji5","slide":19,"bbox":[150,198,84,84]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":19,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[150,225,84,30]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":19,"text":"Le Minh","textPreview":"Le Minh","textChars":7,"textLines":1,"bbox":[82,314,220,56]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":19,"text":"21127645","textPreview":"21127645","textChars":8,"textLines":1,"bbox":[82,378,220,24]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":19,"text":"FIFA.com","textPreview":"FIFA.com","textChars":8,"textLines":1,"bbox":[82,430,220,26]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":19,"text":"Điều phối • tích hợp • QA","textPreview":"Điều phối • tích hợp • QA","textChars":25,"textLines":1,"bbox":[86,478,212,70]}
+{"kind":"shape","id":"sh/dg7adsji","slide":19,"bbox":[354,174,256,410]}
+{"kind":"shape","id":"sh/ovahoza1","slide":19,"bbox":[440,198,84,84]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":19,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[440,225,84,30]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":19,"text":"Nguyen Vu Bach","textPreview":"Nguyen Vu Bach","textChars":14,"textLines":1,"bbox":[372,314,220,56]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":19,"text":"21127224","textPreview":"21127224","textChars":8,"textLines":1,"bbox":[372,378,220,24]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":19,"text":"FIFA.com","textPreview":"FIFA.com","textChars":8,"textLines":1,"bbox":[372,430,220,26]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":19,"text":"Nghiên cứu • ảnh bằng chứng","textPreview":"Nghiên cứu • ảnh bằng chứng","textChars":27,"textLines":1,"bbox":[376,478,212,70]}
+{"kind":"shape","id":"sh/94fu18jq","slide":19,"bbox":[644,174,256,410]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":19,"bbox":[730,198,84,84]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":19,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[730,225,84,30]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":19,"text":"Pham Nguyen Gia Bao","textPreview":"Pham Nguyen Gia Bao","textChars":19,"textLines":1,"bbox":[662,314,220,56]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":19,"text":"20127119","textPreview":"20127119","textChars":8,"textLines":1,"bbox":[662,378,220,24]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":19,"text":"Chess.com","textPreview":"Chess.com","textChars":9,"textLines":1,"bbox":[662,430,220,26]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":19,"text":"Nghiên cứu • use case","textPreview":"Nghiên cứu • use case","textChars":21,"textLines":1,"bbox":[666,478,212,70]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":19,"bbox":[934,174,256,410]}
+{"kind":"shape","id":"sh/9knih4by","slide":19,"bbox":[1020,198,84,84]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":19,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[1020,225,84,30]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":19,"text":"Trang Minh Nhut","textPreview":"Trang Minh Nhut","textChars":15,"textLines":1,"bbox":[952,314,220,56]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":19,"text":"22127318","textPreview":"22127318","textChars":8,"textLines":1,"bbox":[952,378,220,24]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":19,"text":"Chess.com","textPreview":"Chess.com","textChars":9,"textLines":1,"bbox":[952,430,220,26]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":19,"text":"HCI • giải pháp • visual QA","textPreview":"HCI • giải pháp • visual QA","textChars":27,"textLines":1,"bbox":[956,478,212,70]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":19,"text":"Mỗi website có hai chủ sở hữu; review và QA được thực hiện chéo.","textPreview":"Mỗi website có hai chủ sở hữu; review và QA được thực hiện chéo.","textChars":64,"textLines":1,"bbox":[150,620,980,32]}
+{"kind":"notes","id":"nt/5y3l3m","slide":19,"text":"Khối lượng được chia cân bằng. Le Minh và Nguyen Vu Bach đồng sở hữu FIFA.com. Pham Nguyen Gia Bao và Trang Minh Nhut đồng sở hữu Chess.com. Mỗi thành viên chịu trách nhiệm chính một mảng và tham gia review chéo, tổng đóng góp 25 phần trăm."}
+{"kind":"slide","id":"sl/gd3hdn","slide":20,"title":"PEER REVIEW VÀ CHỈNH SỬA","textShapes":12}
+{"kind":"textbox","id":"sh/onyd0z61","slide":20,"name":"kicker-20","text":"PEER REVIEW VÀ CHỈNH SỬA","textPreview":"PEER REVIEW VÀ CHỈNH SỬA","textChars":24,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":20,"name":"title-20","text":"Peer review gắn với bằng chứng","textPreview":"Peer review gắn với bằng chứng","textChars":30,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":20,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":20,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":20,"text":"20 / 21","textPreview":"20 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/6tovahoz","slide":20,"bbox":[104,206,220,74]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":20,"text":"Bằng chứng","textPreview":"Bằng chứng","textChars":10,"textLines":1,"bbox":[116,225,196,36]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":20,"bbox":[328,241,36,3]}
+{"kind":"shape","id":"sh/q5o7qpg3","slide":20,"bbox":[358,232,20,22]}
+{"kind":"shape","id":"sh/jqh0fepk","slide":20,"bbox":[386,206,220,74]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":20,"text":"Nhận xét","textPreview":"Nhận xét","textChars":8,"textLines":1,"bbox":[398,225,196,36]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":20,"bbox":[610,241,36,3]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":20,"bbox":[640,232,20,22]}
+{"kind":"shape","id":"sh/j2t83itg","slide":20,"bbox":[668,206,220,74]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":20,"text":"Thay đổi","textPreview":"Thay đổi","textChars":8,"textLines":1,"bbox":[680,225,196,36]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":20,"bbox":[892,241,36,3]}
+{"kind":"shape","id":"sh/ulwval87","slide":20,"bbox":[922,232,20,22]}
+{"kind":"shape","id":"sh/j6tovaho","slide":20,"bbox":[950,206,220,74]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":20,"text":"Chủ sở hữu","textPreview":"Chủ sở hữu","textChars":10,"textLines":1,"bbox":[962,225,196,36]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":20,"bbox":[104,352,220,250]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":20,"text":"Làm rõ handoff FIFA+","textPreview":"Làm rõ handoff FIFA+","textChars":20,"textLines":1,"bbox":[358,420,260,48]}
+{"kind":"shape","id":"sh/bq1oryts","slide":20,"bbox":[680,352,220,250]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":20,"text":"Giảm tải cho người mới","textPreview":"Giảm tải cho người mới","textChars":22,"textLines":1,"bbox":[934,420,260,48]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":20,"text":"Phản hồi hiện có là rehearsal nội bộ; mỗi mục đều có hành động và người phụ trách.","textPreview":"Phản hồi hiện có là rehearsal nội bộ; mỗi mục đều có hành động và người phụ trách.","textChars":82,"textLines":1,"bbox":[180,630,920,34]}
+{"kind":"image","id":"im/qd4vmtwr","slide":20,"name":"","geometry":"roundRect","alt":"Bằng chứng FIFA.com","bbox":[114,362,200,230]}
+{"kind":"image","id":"im/xczed8v6","slide":20,"name":"","geometry":"roundRect","alt":"Bằng chứng Chess.com","bbox":[690,362,200,230]}
+{"kind":"notes","id":"nt/gd3hdn","slide":20,"text":"Peer review hiện tại là rehearsal nội bộ vì chưa có phản hồi lớp học trong nguồn. Quy trình yêu cầu mọi nhận xét chỉ ra bằng chứng, thay đổi cụ thể và chủ sở hữu. Ví dụ FIFA làm rõ handoff; Chess giảm tải bước đầu cho người mới."}
+{"kind":"slide","id":"sl/if9exd","slide":21,"title":"KẾT LUẬN","textShapes":9}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":21,"name":"kicker-21","text":"KẾT LUẬN","textPreview":"KẾT LUẬN","textChars":8,"textLines":1,"bbox":[64,28,520,22]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":21,"name":"title-21","text":"Kết luận: tác vụ đúng, đúng thời điểm","textPreview":"Kết luận: tác vụ đúng, đúng thời điểm","textChars":37,"textLines":1,"bbox":[64,58,1120,58]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":21,"bbox":[64,130,84,3]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1184,30,32,18]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":21,"text":"HCI • PA1 • FIFA.com × Chess.com","textPreview":"HCI • PA1 • FIFA.com × Chess.com","textChars":32,"textLines":1,"bbox":[64,690,400,14]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":21,"text":"21 / 21","textPreview":"21 / 21","textChars":7,"textLines":1,"bbox":[1120,690,96,14]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":21,"bbox":[64,166,550,360]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":21,"bbox":[666,166,550,360]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":21,"text":"FIFA.com","textPreview":"FIFA.com","textChars":8,"textLines":1,"bbox":[64,548,550,30]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":21,"text":"Làm rõ đường đến thông tin chính thức và giữ tính liên tục.","textPreview":"Làm rõ đường đến thông tin chính thức và giữ tính liên tục.","textChars":59,"textLines":1,"bbox":[96,590,486,58]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":21,"text":"Chess.com","textPreview":"Chess.com","textChars":9,"textLines":1,"bbox":[666,548,550,30]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":21,"text":"Giảm quá tải ban đầu, phòng lỗi và phản hồi theo trình độ.","textPreview":"Giảm quá tải ban đầu, phòng lỗi và phản hồi theo trình độ.","textChars":58,"textLines":1,"bbox":[698,590,486,58]}
+{"kind":"image","id":"im/xs72x4na","slide":21,"name":"","geometry":"roundRect","alt":"Tìm kiếm FIFA.com","bbox":[74,176,530,340]}
+{"kind":"image","id":"im/ed8v6psf","slide":21,"name":"","geometry":"roundRect","alt":"Puzzle Chess.com","bbox":[676,176,530,340]}
+{"kind":"notes","id":"nt/if9exd","slide":21,"text":"Kết luận bằng nguyên tắc chung: thiết kế tốt không phải thêm nhiều tính năng, mà làm đúng tác vụ trở nên rõ đúng lúc. FIFA cần ưu tiên độ tin cậy và tính liên tục. Chess cần progressive disclosure, phòng lỗi và phản hồi dễ hiểu."}

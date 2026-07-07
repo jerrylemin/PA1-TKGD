@@ -10,6 +10,17 @@ This report compares FIFA and Chess.com as web experiences with opposite interac
 
 The team observed official website screens through Chromium automation, saved raw screenshots, generated annotated versions and crops with sharp, and recorded captions in assets/figures_manifest.json. Screenshots are used as evidence only when the referenced UI region is visible. Limitations: login-only personalized states were not entered, and any live content visible on access date may change.
 
+## Team ownership and evidence responsibility
+
+FIFA.com evidence and analysis are co-owned by Le Minh and Nguyen Vu Bach. Chess.com evidence and analysis are co-owned by Pham Nguyen Gia Bao and Trang Minh Nhut.
+
+| Scope | Primary contributor | Reviewer |
+| --- | --- | --- |
+| F-UC1, F-UC2, F-HCI1 to F-HCI5 | Nguyen Vu Bach | Le Minh |
+| F-UC3, F-UC4, F-UC5, F-HCI6 to F-HCI10 | Le Minh | Nguyen Vu Bach |
+| C-UC1, C-UC2, C-HCI1 to C-HCI5 | Pham Nguyen Gia Bao | Trang Minh Nhut |
+| C-UC3, C-UC4, C-UC5, C-HCI6 to C-HCI10 | Trang Minh Nhut | Pham Nguyen Gia Bao |
+
 | Figure | Product | Evidence role |
 | --- | --- | --- |
 | F-01 to F-08 | FIFA.com | Captured live pages for home, navigation, Match Centre, search, article, competition, and mobile density |
@@ -603,34 +614,17 @@ The beginner analysis preset sketch maps observed analysis complexity to a progr
 
 The highest-risk FIFA drawbacks are mobile interruption, hidden mobile navigation layers, match/filter scanning, dense article/media pages, and source continuity across FIFA/FIFA+. The highest-risk Chess.com drawbacks are beginner feature overload, account-prompt interruption, mobile board mis-tap risk, unclear beginner learning paths, and dense post-game feedback.
 
-## Diagram A. FIFA browse and watch flow
+## Diagram PR-D1. ProductResearch task flow map
 
-```mermaid
-flowchart LR
-A[Open FIFA.com] --> B[Choose Match Centre or News or Rankings or Tickets]
-B --> C[Read tournament info]
-C --> D{Need live or archive video?}
-D -- Yes --> E[Open FIFA+]
-E --> F[Sign up or log in]
-F --> G[Watch Live and Coming Up or Highlights]
-D -- No --> H[Continue on FIFA.com]
-```
+![Diagram PR-D1](assets/diagrams/rendered/pa1_productresearch_task_flow.png)
 
-Text fallback: Open FIFA.com, choose task entry, read official info, then move to FIFA+ only if video is needed.
+Diagram PR-D1. ProductResearch task flow map. This rendered diagram links observed website tasks to the use cases and HCI findings discussed in the report.
 
-## Diagram B. Chess.com play, review, and learn flow
+## Diagram PR-D2. ProductResearch navigation map
 
-```mermaid
-flowchart LR
-A[Open Chess.com] --> B[Start Game]
-B --> C[Play]
-C --> D[Game Over]
-D --> E[Game Review]
-E --> F[Self Analysis]
-F --> G[Puzzles or Lesson or Study Plan]
-```
+![Diagram PR-D2](assets/diagrams/rendered/pa1_productresearch_navigation_map.png)
 
-Text fallback: Open site, start a game, finish, run Game Review, move into deeper analysis, then continue with training.
+Diagram PR-D2. ProductResearch navigation map. This rendered diagram compares the main information and action areas used as evidence throughout the report.
 
 ## Appendix A: Screenshot manifest
 

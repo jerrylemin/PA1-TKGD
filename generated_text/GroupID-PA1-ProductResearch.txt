@@ -8,6 +8,23 @@ plans tournaments. Numbered references are used for all product claims.
 Method and evidence protocol
 The team observed official website screens through Chromium automation, saved raw screenshots, generated annotated versions and crops with sharp, and recorded captions in assets/figures_manifest.json.
 Screenshots are used as evidence only when the referenced UI region is visible. Limitations: login-only personalized states were not entered, and any live content visible on access date may change.
+Team ownership and evidence responsibility
+FIFA.com evidence and analysis are co-owned by Le Minh and Nguyen Vu Bach. Chess.com evidence and analysis are co-owned by Pham Nguyen Gia Bao and Trang Minh Nhut.
+Scope
+Primary contributor
+Reviewer
+F-UC1, F-UC2, F-HCI1 to F-HCI5
+Nguyen Vu Bach
+Le Minh
+F-UC3, F-UC4, F-UC5, F-HCI6 to F-HCI10
+Le Minh
+Nguyen Vu Bach
+C-UC1, C-UC2, C-HCI1 to C-HCI5
+Pham Nguyen Gia Bao
+Trang Minh Nhut
+C-UC3, C-UC4, C-UC5, C-HCI6 to C-HCI10
+Trang Minh Nhut
+Pham Nguyen Gia Bao
 Figure
 Product
 Evidence role
@@ -45,6 +62,7 @@ official information discovery and the other centers on immediate gameplay and f
 Source method
 Official English pages were prioritized. FIFA client-side pages that yielded sparse crawl text were retained as official URLs when screenshots confirmed the screen. Chess.com claims rely on the official homepage,
 observed Playwright screenshots, and official support pages. Secondary sources were not needed.
+
 Citation
 Product
 Type
@@ -70,11 +88,6 @@ FIFA
 Official FIFA media release
 FIFA directs fans to FIFA.com/tickets to register interest, create a FIFA
 ID, and follow phased ticket releases.
-
-Citation
-Product
-Type
-Claim supported
 [5]
 FIFA
 Official FIFA media release
@@ -175,10 +188,10 @@ The fair-play page explains competitive integrity, account closures,
 fair-play policy, event checks, and enforcement expectations.
 Product A: FIFA.com
 FIFA.com is the official football web portal for sports news, match information, tournament discovery, rankings, official media, tickets, and FIFA+ handoff when relevant.
+
 FIFA user groups
 Casual fans, tournament followers, and media/student researchers need official football information under different time pressure and credibility requirements.
 Product B: Chess.com
-
 Chess.com is an online chess platform for playing games, solving puzzles, learning lessons, reviewing games, reading chess content, and improving chess skill.
 Chess.com user groups
 Beginner learners, competitive online players, and returning casual players need fast play, visible feedback, and progressive learning paths.
@@ -335,6 +348,13 @@ Learn chess basics through lessons, puzzles,
 and a study plan
 Student on shared laptop, beginner mental
 model, low confidence, needs guidance
+
+ID
+Name
+Age
+Tech proficiency
+Goal
+Context
 C-P2
 Alex Hoang
 24
@@ -352,7 +372,6 @@ plan tournament play
 Quiet desktop setup, longer study sessions,
 strong interest in accuracy and improvement
 Use cases
-
 ID
 Title
 Product
@@ -575,6 +594,9 @@ Precondition:
 Browser online; FIFA.com reachable
 Normal flow:
 Open FIFA.com; choose Match Centre; scan today/live filters; open one match detail; return to list
+
+Field
+Detail
 Alternate flow:
 If no live match appears, switch to latest results
 Error path:
@@ -587,7 +609,6 @@ HCI concepts:
 Information scent; recognition over recall; visibility of system status
 Success outcome:
 User knows which matches are active today
-
 F-UC2. Open official tournament news and read one FIFA World Cup 2026 story
 Field
 Detail
@@ -656,6 +677,9 @@ Normal flow:
 Open FIFA global nav; choose Rankings; select men's ranking; scan rank table; note last official update
 Alternate flow:
 Switch filters if the wrong table appears
+
+Field
+Detail
 Error path:
 Ranking table loads after shell; user waits or retries
 Feedback observed:
@@ -667,7 +691,6 @@ Efficient task entry; data table scanability; feedback on loading state
 Success outcome:
 User identifies latest ranking and update date
 F-UC4. Verify official tickets and resale source
-
 Field
 Detail
 Primary persona
@@ -737,6 +760,9 @@ Alternate flow:
 Continue browsing FIFA.com if sign-in is not acceptable
 Error path:
 DAZN branding creates handoff uncertainty
+
+Field
+Detail
 Feedback observed:
 FIFA+ hero, sign-in/get-started controls, live and archive rails
 Figure or source reference:
@@ -750,9 +776,6 @@ Field
 Detail
 Primary persona
 C-P2
-
-Field
-Detail
 Where:
 Dorm room or personal desk
 When:
@@ -820,6 +843,9 @@ Error path:
 Opponent reply makes queued idea risky but legal
 Feedback observed:
 Board input, queued move behavior, clock feedback
+
+Field
+Detail
 Figure or source reference:
 [12]
 HCI concepts:
@@ -833,9 +859,6 @@ Primary persona
 C-P2
 Where:
 Chess.com board page
-
-Field
-Detail
 When:
 Before starting a serious game
 Posture:
@@ -903,6 +926,9 @@ Feedback observed:
 Game Review button, graph, move classifications, retry, analysis controls
 Figure or source reference:
 [15][16][17]
+
+Field
+Detail
 HCI concepts:
 Feedback; reflection; learning loop; cognitive load
 Success outcome:
@@ -916,9 +942,6 @@ Where:
 Shared laptop or student study space
 When:
 After a loss or when planning improvement practice
-
-Field
-Detail
 Posture:
 Seated beginner practice posture
 Device:
@@ -2243,25 +2266,11 @@ Fast for starting a game; slower for understanding review depth
 Summary of major drawbacks
 The highest-risk FIFA drawbacks are mobile interruption, hidden mobile navigation layers, match/filter scanning, dense article/media pages, and source continuity across FIFA/FIFA+. The highest-risk Chess.com
 drawbacks are beginner feature overload, account-prompt interruption, mobile board mis-tap risk, unclear beginner learning paths, and dense post-game feedback.
-Diagram A. FIFA browse and watch flow
-flowchart LR
-A[Open FIFA.com] --> B[Choose Match Centre or News or Rankings or Tickets]
-B --> C[Read tournament info]
-C --> D{Need live or archive video?}
-D -- Yes --> E[Open FIFA+]
-E --> F[Sign up or log in]
-F --> G[Watch Live and Coming Up or Highlights]
-D -- No --> H[Continue on FIFA.com]
-Text fallback: Open FIFA.com, choose task entry, read official info, then move to FIFA+ only if video is needed.
-Diagram B. Chess.com play, review, and learn flow
-flowchart LR
-A[Open Chess.com] --> B[Start Game]
-B --> C[Play]
-C --> D[Game Over]
-D --> E[Game Review]
-E --> F[Self Analysis]
-F --> G[Puzzles or Lesson or Study Plan]
-Text fallback: Open site, start a game, finish, run Game Review, move into deeper analysis, then continue with training.
+Diagram PR-D1. ProductResearch task flow map
+Diagram PR-D1. ProductResearch task flow map. This rendered diagram links observed website tasks to the use cases and HCI findings discussed in the report.
+
+Diagram PR-D2. ProductResearch navigation map
+Diagram PR-D2. ProductResearch navigation map. This rendered diagram compares the main information and action areas used as evidence throughout the report.
 Appendix A: Screenshot manifest
 The full machine-readable screenshot manifest is stored in assets/figures_manifest.json and includes raw paths, annotated paths, crops, highlighted regions, claims, HCI concepts, and captions.
 Appendix B: Figure list
@@ -2281,7 +2290,6 @@ Captured live pages for home, play, board, puzzle, learn, navigation, feedback, 
 C-09 to C-12
 Chess.com
 Flow/map, crop, and proposed improvement figures grounded in the captured evidence
-
 References
 [1] Inside FIFA. Official FIFA news and navigation. https://inside.fifa.com/. Accessed 2026-06-10. Supports: Inside FIFA exposes Latest FIFA News and the global navigation labels Match Centre, News, Rankings,
 Tickets & Hospitality, Play, Inside FIFA, plus sibling destinations such as FIFA+, Store, Collect, and Rewards.
@@ -2306,6 +2314,7 @@ information; the page is client-side rendered in crawled text.
 lessons, bots, puzzles, and watching events.
 [11] How do I start a game on Chess.com?. Official Chess.com help. https://support.chess.com/en/articles/8609779-how-do-i-start-a-game-on-chess-com. Accessed 2026-06-10. Supports: Users can start games from
 the homescreen or site-wide Play menu, using recent time control, custom settings, random opponent, bots, or friends.
+
 [12] What are pre-moves and how do they work?. Official Chess.com help. https://support.chess.com/en/articles/8562432-what-are-pre-moves-and-how-do-they-work. Accessed 2026-06-10. Supports: Premoves can
 be enabled and then entered while it is the opponent's turn; the feature saves time but executes automatically if legal.
 [13] What is focus mode? How do I turn it on?. Official Chess.com help. https://support.chess.com/en/articles/8588088-what-is-focus-mode-how-do-i-turn-it-on. Accessed 2026-06-10. Supports: Focus Mode minimizes
