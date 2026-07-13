@@ -1,13 +1,15 @@
 # PA1 Final 10/10 Audit After Fix
 
+> Superseded historical audit. It predates strict group-ID and real-peer-feedback gates and must not be used as the current submission verdict.
+
 Audit date: 2026-06-22
 Workspace: `C:\Users\Administrator\Documents\MEGA\tkgd\PA1`
 
 ## Executive verdict
 
-Status: READY 10/10
+Historical status claim (superseded): READY 10/10
 Score: 99.5/100
-Critical blockers: 0
+Historical blocker claim (superseded): 0
 
 ## Score table
 

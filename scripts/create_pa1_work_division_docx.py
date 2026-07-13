@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import shutil
 from datetime import datetime
 from pathlib import Path
@@ -16,10 +17,31 @@ from docx.shared import Cm, Inches, Pt, RGBColor
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "output"
 DOCS_DIR = ROOT / "docs"
-OUT_DOCX = OUTPUT_DIR / "GroupID-PA1-WorkDivision.docx"
-ROOT_DOCX = ROOT / "GroupID-PA1-WorkDivision.docx"
+CONFIG_PATH = ROOT / "config" / "pa1_config.json"
+
+
+def load_group_id() -> str:
+    if not CONFIG_PATH.exists():
+        raise FileNotFoundError(f"Missing PA1 configuration: {CONFIG_PATH}")
+
+    config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    group_id = config.get("group_id")
+    if not isinstance(group_id, str) or not group_id.strip():
+        raise ValueError(f"config field 'group_id' must be a non-empty string: {CONFIG_PATH}")
+
+    group_id = group_id.strip()
+    if any(character in group_id for character in '<>:"/\\|?*') or group_id.endswith((".", " ")):
+        raise ValueError(f"config field 'group_id' is not safe for Windows filenames: {group_id!r}")
+    return group_id
+
+
+GROUP_ID = load_group_id()
+ARTIFACT_PREFIX = f"{GROUP_ID}-PA1"
+OUT_DOCX = OUTPUT_DIR / f"{ARTIFACT_PREFIX}-WorkDivision.docx"
+ROOT_DOCX = ROOT / f"{ARTIFACT_PREFIX}-WorkDivision.docx"
 LOG_PATH = DOCS_DIR / "pa1_work_division_generation_log.md"
 ROOT_COPY_STATUS = {"copied": False, "error": ""}
+RACI_DIAGRAM = ROOT / "assets" / "diagrams" / "rendered" / "pa1_workdivision_raci.png"
 
 MEMBERS = [
     ("Le Minh", "21127645"),
@@ -267,7 +289,7 @@ def build_docx() -> None:
                 "Le Minh",
                 "Khóa phạm vi, điều phối tiến độ, tích hợp nội dung, viết PeerReview và WeeklyReport, xuất PDF và đóng gói zip.",
                 "Hỗ trợ rà soát nguồn, tên file, checklist nộp bài và kiểm tra văn bản trích xuất từ PDF.",
-                "PeerReview, WeeklyReport, checklist cuối, PDF và GroupID-PA1.zip.",
+                f"PeerReview, WeeklyReport, checklist cuối, PDF và {ARTIFACT_PREFIX}.zip.",
             ],
             [
                 "Nguyen Vu Bach",
@@ -296,11 +318,11 @@ def build_docx() -> None:
         doc,
         ["Sản phẩm", "Người phụ trách chính", "Người phối hợp", "Nội dung công việc"],
         [
-            ["GroupID-PA1-ProductResearch.pdf", "Nguyen Vu Bach, Pham Nguyen Gia Bao", "Le Minh, Trang Minh Nhut", "Nghiên cứu FIFA.com và Chess.com, persona, use case, HCI findings, hình ảnh, nguồn tham khảo."],
-            ["GroupID-PA1-PotentialSolutions.pdf", "Trang Minh Nhut", "Nguyen Vu Bach, Pham Nguyen Gia Bao", "Chuyển drawback thành giải pháp, ưu tiên impact-effort, mô tả UI và kiểm tra mapping."],
-            ["GroupID-PA1-PeerReview.pdf", "Le Minh", "Cả nhóm", "Kịch bản 7 phút, slide outline, câu hỏi dự kiến, phản hồi mock/internal rehearsal và owner thật."],
-            ["GroupID-PA1-WeeklyReport.pdf", "Le Minh", "Cả nhóm", "Lịch họp, scrum theo từng thành viên, sprint review, workload matrix và checklist cuối."],
-            ["GroupID-PA1.zip", "Le Minh", "Trang Minh Nhut", "Đóng gói đúng bốn PDF ở cấp cao nhất và kiểm tra bằng zip listing."],
+            [f"{ARTIFACT_PREFIX}-ProductResearch.pdf", "Nguyen Vu Bach, Pham Nguyen Gia Bao", "Le Minh, Trang Minh Nhut", "Nghiên cứu FIFA.com và Chess.com, persona, use case, HCI findings, hình ảnh, nguồn tham khảo."],
+            [f"{ARTIFACT_PREFIX}-PotentialSolutions.pdf", "Trang Minh Nhut", "Nguyen Vu Bach, Pham Nguyen Gia Bao", "Chuyển drawback thành giải pháp, ưu tiên impact-effort, mô tả UI và kiểm tra mapping."],
+            [f"{ARTIFACT_PREFIX}-PeerReview.pdf", "Le Minh", "Cả nhóm", "Kịch bản 7 phút, slide outline, câu hỏi dự kiến, phản hồi mock/internal rehearsal và owner thật."],
+            [f"{ARTIFACT_PREFIX}-WeeklyReport.pdf", "Le Minh", "Cả nhóm", "Lịch họp, scrum theo từng thành viên, sprint review, workload matrix và checklist cuối."],
+            [f"{ARTIFACT_PREFIX}.zip", "Le Minh", "Trang Minh Nhut", "Đóng gói đúng bốn PDF ở cấp cao nhất và kiểm tra bằng zip listing."],
         ],
         [2200, 2300, 2100, 2760],
     )
@@ -380,6 +402,11 @@ def build_docx() -> None:
         [2300, 1500, 3100, 2460],
     )
 
+    add_heading(doc, "10. Sơ đồ RACI trực quan")
+    add_body(doc, "FIFA.com: Le Minh và Nguyen Vu Bach. Chess.com: Pham Nguyen Gia Bao và Trang Minh Nhut. Mỗi thành viên đóng góp 25%, gồm nghiên cứu, viết, rà soát và QA cuối.")
+    if RACI_DIAGRAM.exists():
+        doc.add_picture(str(RACI_DIAGRAM), width=Inches(8.2))
+        add_body(doc, "Sơ đồ WD-D1. Ma trận RACI liên kết bốn thành viên với hai website, giải pháp HCI, PeerReview/WeeklyReport và QA cuối.")
     doc.save(OUT_DOCX)
     try:
         shutil.copy2(OUT_DOCX, ROOT_DOCX)
@@ -426,11 +453,11 @@ def validate_docx(path: Path) -> dict[str, object]:
         "21127224",
         "20127119",
         "22127318",
-        "GroupID-PA1-ProductResearch.pdf",
-        "GroupID-PA1-PotentialSolutions.pdf",
-        "GroupID-PA1-PeerReview.pdf",
-        "GroupID-PA1-WeeklyReport.pdf",
-        "GroupID-PA1.zip",
+        f"{ARTIFACT_PREFIX}-ProductResearch.pdf",
+        f"{ARTIFACT_PREFIX}-PotentialSolutions.pdf",
+        f"{ARTIFACT_PREFIX}-PeerReview.pdf",
+        f"{ARTIFACT_PREFIX}-WeeklyReport.pdf",
+        f"{ARTIFACT_PREFIX}.zip",
     ]
     forbidden = ["14-day", "day-by-day", "Day 1", "Day 14", "14 ngày", "từng ngày"]
     return {
@@ -471,8 +498,8 @@ def write_log(results: list[dict[str, object]]) -> None:
         "- Design preset: `standard_business_brief`, with A4 page-size override retained from the existing script.",
         "",
         "## Generation actions",
-        "- Created `output/GroupID-PA1-WorkDivision.docx`.",
-        f"- Root copy status for `GroupID-PA1-WorkDivision.docx`: {ROOT_COPY_STATUS['copied']}.",
+        f"- Created `output/{OUT_DOCX.name}`.",
+        f"- Root copy status for `{ROOT_DOCX.name}`: {ROOT_COPY_STATUS['copied']}.",
         f"- Root copy error: {ROOT_COPY_STATUS['error'] or 'None'}.",
         "- Applied A4 page size, normal margins, centered title/subtitle, bold section headings, visible table borders, header, footer, and required page breaks.",
         "- Updated assignment model: this Vietnamese document covers ProductResearch, PotentialSolutions, PeerReview, WeeklyReport, and final zip packaging.",

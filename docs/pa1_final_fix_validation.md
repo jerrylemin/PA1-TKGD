@@ -1,8 +1,10 @@
 # PA1 Final Fix Validation
 
-Status: READY 10/10
+> Superseded historical validation. It predates strict group-ID and real-peer-feedback gates and must not be used as the current submission verdict.
+
+Historical status claim (superseded): READY 10/10
 Total score: 99.5/100
-Critical blockers: 0
+Historical blocker claim (superseded): 0
 
 ## Text scans
 - Forbidden final-source/PDF matches: None
@@ -37,7 +39,7 @@ Critical blockers: 0
 - PDF render sanity check: PASS. Rendered all final PDFs with Poppler and reviewed contact sheets; intermediate PNGs were removed after QA. The only page flagged by an average-pixel check was the mostly whitespace references tail of PotentialSolutions page 14.
 
 ## WorkDivision DOCX
-- Results: {"GroupID-PA1-WorkDivision.docx": {"exists": true, "bytes": 42463, "real_terms_ok": true, "vietnamese_sections_ok": true, "no_detailed_timeline": true}, "output\\GroupID-PA1-WorkDivision.docx": {"exists": true, "bytes": 42463, "real_terms_ok": true, "vietnamese_sections_ok": true, "no_detailed_timeline": true}}
+- Results: {"GroupID-PA1-WorkDivision.docx": {"exists": true, "bytes": 58198, "real_terms_ok": true, "vietnamese_sections_ok": true, "no_detailed_timeline": true}, "output\\GroupID-PA1-WorkDivision.docx": {"exists": true, "bytes": 58198, "real_terms_ok": true, "vietnamese_sections_ok": true, "no_detailed_timeline": true}}
 - Render QA: skipped because LibreOffice/soffice is not installed in this environment.
 
 ## Critical blockers

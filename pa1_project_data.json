@@ -1,5 +1,13 @@
 {
-  "group_id": "GroupID",
+  "group_id": "Group10",
+  "links": {
+    "github_repo": "https://github.com/jerrylemin/PA1-TKGD",
+    "weekly_scrum_doc_link": "[TEAM INPUT REQUIRED]",
+    "sprint_planning_doc_link": "[TEAM INPUT REQUIRED]",
+    "sprint_review_doc_link": "[TEAM INPUT REQUIRED]",
+    "google_drive_folder_link": "[TEAM INPUT REQUIRED]",
+    "zoom_link": "[TEAM INPUT REQUIRED]"
+  },
   "team_members": [
     {
       "name": "Le Minh",
@@ -32,14 +40,14 @@
     "fifa_web": {
       "id": "fifa_web",
       "name": "FIFA",
-      "domain": "Official football portal and watch ecosystem",
+      "domain": "fifa.com (with inside.fifa.com and plus.fifa.com sibling properties)",
       "modality": "Browse-first web product for football information, rankings, ticketing, and watch handoff",
       "positioning": "Browse-first football web ecosystem for official news, match-following, rankings, tournament discovery, ticketing trust, and FIFA+ watch handoff."
     },
     "chesscom_web": {
       "id": "chesscom_web",
       "name": "Chess.com",
-      "domain": "Online chess play and learning platform",
+      "domain": "chess.com",
       "modality": "Action-first web product for play, review, analysis, and learning",
       "positioning": "Action-first chess web platform for games, review, self-analysis, puzzles, lessons, study plans, tournaments, and fair-play-guided competitive play."
     }
@@ -1232,8 +1240,8 @@
     }
   ],
   "assumptions": [
-    "GroupID remains in filenames until the real course group ID is provided.",
-    "Peer review feedback entries are mock/internal rehearsal feedback until real classroom peer feedback is available.",
+    "The configured group_id remains GroupID until the real course group ID is provided.",
+    "Peer review feedback entries are internal rehearsal feedback until real classroom peer feedback is available.",
     "Official Vietnamese pages were not surfaced during the source refresh.",
     "Mermaid source is preserved; PDF diagrams include readable text fallback."
   ]

@@ -1,6 +1,6 @@
 # PA1 Work Division Generation Log
 
-Generated at: 2026-06-22T15:36:21
+Generated at: 2026-07-14T00:00:46
 
 ## Phase 0 inspection
 - Current working directory: `C:\Users\Administrator\Documents\MEGA\tkgd\PA1`
@@ -11,8 +11,8 @@ Generated at: 2026-06-22T15:36:21
 - Design preset: `standard_business_brief`, with A4 page-size override retained from the existing script.
 
 ## Generation actions
-- Created `output/GroupID-PA1-WorkDivision.docx`.
-- Root copy status for `GroupID-PA1-WorkDivision.docx`: True.
+- Created `output/Group10-PA1-WorkDivision.docx`.
+- Root copy status for `Group10-PA1-WorkDivision.docx`: True.
 - Root copy error: None.
 - Applied A4 page size, normal margins, centered title/subtitle, bold section headings, visible table borders, header, footer, and required page breaks.
 - Updated assignment model: this Vietnamese document covers ProductResearch, PotentialSolutions, PeerReview, WeeklyReport, and final zip packaging.
@@ -20,18 +20,18 @@ Generated at: 2026-06-22T15:36:21
 - Each member has meaningful research, writing, review, or QA responsibilities.
 
 ## Validation results
-### C:\Users\Administrator\Documents\MEGA\tkgd\PA1\output\GroupID-PA1-WorkDivision.docx
+### C:\Users\Administrator\Documents\MEGA\tkgd\PA1\output\Group10-PA1-WorkDivision.docx
 - Exists: True
-- Size: 42463 bytes
+- Size: 58198 bytes
 - Size > 10 KB: True
 - Required title/member/RACI/checklist terms present: True
 - Balanced all-deliverable responsibility model present: True
 - No detailed day-by-day or 14-day plan terms: True
 - Table count: 6
 
-### C:\Users\Administrator\Documents\MEGA\tkgd\PA1\GroupID-PA1-WorkDivision.docx
+### C:\Users\Administrator\Documents\MEGA\tkgd\PA1\Group10-PA1-WorkDivision.docx
 - Exists: True
-- Size: 42463 bytes
+- Size: 58198 bytes
 - Size > 10 KB: True
 - Required title/member/RACI/checklist terms present: True
 - Balanced all-deliverable responsibility model present: True
