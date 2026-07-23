@@ -1,0 +1,355 @@
+[
+  {
+    "num": 1,
+    "id": "F-REF1",
+    "product": "FIFA",
+    "title": "Inside FIFA",
+    "url": "https://inside.fifa.com/",
+    "domain": "inside.fifa.com",
+    "source_type": "Official FIFA news and navigation",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "Inside FIFA exposes Latest FIFA News and the global navigation labels Match Centre, News, Rankings, Tickets & Hospitality, Play, Inside FIFA, plus sibling destinations such as FIFA+, Store, Collect, and Rewards."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 2,
+    "id": "F-REF2",
+    "product": "FIFA",
+    "title": "All stories & topics",
+    "url": "https://inside.fifa.com/all-stories",
+    "domain": "inside.fifa.com",
+    "source_type": "Official FIFA topic index",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "The all stories page supports exploratory browsing through categories, content types, articles, blogs, media releases, videos, and albums."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 3,
+    "id": "F-REF3",
+    "product": "FIFA",
+    "title": "FIFA World Cup 2026 Blog",
+    "url": "https://inside.fifa.com/blogs/fwc-2026",
+    "domain": "inside.fifa.com",
+    "source_type": "Official FIFA tournament blog",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "The FIFA World Cup 2026 blog functions as a tournament story hub with dated updates and story cards."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 4,
+    "id": "F-REF4",
+    "product": "FIFA",
+    "title": "FIFA World Cup 26 Ticketing Programme launches this September",
+    "url": "https://inside.fifa.com/tournament-organisation/commercial/media-releases/world-cup-26-ticketing-programme-launch-september",
+    "domain": "inside.fifa.com",
+    "source_type": "Official FIFA media release",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "FIFA directs fans to FIFA.com/tickets to register interest, create a FIFA ID, and follow phased ticket releases."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 5,
+    "id": "F-REF5",
+    "product": "FIFA",
+    "title": "FIFA World Cup 2026 Last-Minute Sales Phase",
+    "url": "https://inside.fifa.com/media-releases/last-minute-ticket-sales-phase-fifa-world-cup-2026",
+    "domain": "inside.fifa.com",
+    "source_type": "Official FIFA media release",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "FIFA.com/tickets is identified as the official and preferred ticket source; fans are asked to check it regularly; the official Resale/Exchange Marketplace is available for eligible ticket holders."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 6,
+    "id": "F-REF6",
+    "product": "FIFA",
+    "title": "Watch FIFA+ Live Stream Online",
+    "url": "https://www.plus.fifa.com/",
+    "domain": "www.plus.fifa.com",
+    "source_type": "Official FIFA+ watch destination",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "FIFA+ presents a watch surface with sign-in or get-started controls, live or upcoming content, highlights, replays, documentaries, and archive content.",
+      "The FIFA+ destination is presented through a DAZN-branded page."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 7,
+    "id": "F-REF7",
+    "product": "FIFA",
+    "title": "Match Centre",
+    "url": "https://www.fifa.com/en/match-centre",
+    "domain": "www.fifa.com",
+    "source_type": "Official FIFA Match Centre",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "The Match Centre URL exposes fixtures, results, match details, competitions, and live-now filtering; some content is client-side rendered."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 8,
+    "id": "F-REF8",
+    "product": "FIFA",
+    "title": "FIFA/Coca-Cola Men's World Ranking",
+    "url": "https://inside.fifa.com/fifa-world-ranking/men",
+    "domain": "inside.fifa.com",
+    "source_type": "Official FIFA rankings page",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "The rankings page exposes the latest men's ranking table, filters, official update dates, and ranking rules notes."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 9,
+    "id": "F-REF9",
+    "product": "FIFA",
+    "title": "Tickets & Hospitality",
+    "url": "https://www.fifa.com/en/tickets",
+    "domain": "www.fifa.com",
+    "source_type": "Official FIFA tickets page",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "The tickets URL is the official entry point for first-hand FIFA tournament ticket and hospitality information; the page is client-side rendered in crawled text."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 10,
+    "id": "C-REF1",
+    "product": "Chess.com",
+    "title": "Chess.com homepage",
+    "url": "https://www.chess.com/",
+    "domain": "www.chess.com",
+    "source_type": "Official Chess.com homepage",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "The homepage foregrounds Play, Puzzles, Learn, Train, Watch, Community, Get Started, lessons, bots, puzzles, and watching events."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 11,
+    "id": "C-REF2",
+    "product": "Chess.com",
+    "title": "How do I start a game on Chess.com?",
+    "url": "https://support.chess.com/en/articles/8609779-how-do-i-start-a-game-on-chess-com",
+    "domain": "support.chess.com",
+    "source_type": "Official Chess.com help",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "Users can start games from the homescreen or site-wide Play menu, using recent time control, custom settings, random opponent, bots, or friends."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 12,
+    "id": "C-REF3",
+    "product": "Chess.com",
+    "title": "What are pre-moves and how do they work?",
+    "url": "https://support.chess.com/en/articles/8562432-what-are-pre-moves-and-how-do-they-work",
+    "domain": "support.chess.com",
+    "source_type": "Official Chess.com help",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "Premoves can be enabled and then entered while it is the opponent's turn; the feature saves time but executes automatically if legal."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 13,
+    "id": "C-REF4",
+    "product": "Chess.com",
+    "title": "What is focus mode? How do I turn it on?",
+    "url": "https://support.chess.com/en/articles/8588088-what-is-focus-mode-how-do-i-turn-it-on",
+    "domain": "support.chess.com",
+    "source_type": "Official Chess.com help",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "Focus Mode minimizes distractions by expanding the board and showing only the board, clocks, draw, and resign controls."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 14,
+    "id": "C-REF5",
+    "product": "Chess.com",
+    "title": "How do I change my board size?",
+    "url": "https://support.chess.com/en/articles/8609533-how-do-i-change-my-board-size",
+    "domain": "support.chess.com",
+    "source_type": "Official Chess.com help",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "Board settings, Focus Mode, Theatre Mode, and Flip Board appear when hovering near the board/sidebar boundary, creating a discoverability issue for hidden controls."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 15,
+    "id": "C-REF6",
+    "product": "Chess.com",
+    "title": "How does Game Review work?",
+    "url": "https://support.chess.com/en/articles/8584089-how-does-game-review-work",
+    "domain": "support.chess.com",
+    "source_type": "Official Chess.com help",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "Game Review appears after a game and provides a detailed review flow with accuracy, move classifications, key moves, coach guidance, graphs, and retry learning."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 16,
+    "id": "C-REF7",
+    "product": "Chess.com",
+    "title": "How do I use Game Analysis?",
+    "url": "https://support.chess.com/en/articles/8583757-how-do-i-use-game-analysis",
+    "domain": "support.chess.com",
+    "source_type": "Official Chess.com help",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "Game Analysis lets users revisit analyzed games and continue deeper study through analysis tools."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 17,
+    "id": "C-REF8",
+    "product": "Chess.com",
+    "title": "How do I use the analysis board?",
+    "url": "https://support.chess.com/en/articles/8583825-how-do-i-use-the-analysis-board",
+    "domain": "support.chess.com",
+    "source_type": "Official Chess.com help",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "The Analysis Board supports direct manipulation, setup position, FEN/PGN loading, game history, collections, engine settings, evaluation bar, lines, arrows, and move feedback."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 18,
+    "id": "C-REF9",
+    "product": "Chess.com",
+    "title": "How do Puzzles work on Chess.com?",
+    "url": "https://support.chess.com/en/articles/8608686-how-do-puzzles-work-on-chess-com",
+    "domain": "support.chess.com",
+    "source_type": "Official Chess.com help",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "Puzzles are reachable from the side menu or homepage and include puzzle of the day, rated puzzles, themes, Puzzle Rush, and Puzzle Battle."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 19,
+    "id": "C-REF10",
+    "product": "Chess.com",
+    "title": "How do Lessons work on Chess.com?",
+    "url": "https://support.chess.com/en/articles/8609703-how-do-lessons-work-on-chess-com",
+    "domain": "support.chess.com",
+    "source_type": "Official Chess.com help",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "Lessons are reached from Learn, use interactive practice challenges, and include access limits by membership level."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 20,
+    "id": "C-REF11",
+    "product": "Chess.com",
+    "title": "Chess Study Plans for All Levels",
+    "url": "https://www.chess.com/article/view/study-plan-directory",
+    "domain": "www.chess.com",
+    "source_type": "Official Chess.com article",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "Study plans guide players by skill level and help organize training time through curated lessons and videos."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 21,
+    "id": "C-REF12",
+    "product": "Chess.com",
+    "title": "Chess.com tournaments schedule",
+    "url": "https://support.chess.com/en/articles/9062345-chess-com-tournaments-schedule",
+    "domain": "support.chess.com",
+    "source_type": "Official Chess.com help",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "Tournament schedules expose arena and prize tournament calendars such as Titled Tuesday, Arena Kings, Bullet Brawls, and variant events."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  },
+  {
+    "num": 22,
+    "id": "C-REF13",
+    "product": "Chess.com",
+    "title": "Cheating And Fair Play On Chess.com",
+    "url": "https://www.chess.com/cheating",
+    "domain": "www.chess.com",
+    "source_type": "Official Chess.com fair-play page",
+    "language": "English",
+    "access_date": "2026-06-10",
+    "claims_supported": [
+      "The fair-play page explains competitive integrity, account closures, fair-play policy, event checks, and enforcement expectations."
+    ],
+    "confidence": "High",
+    "notes": "Official English source. Vietnamese equivalent not surfaced during the source refresh."
+  }
+]

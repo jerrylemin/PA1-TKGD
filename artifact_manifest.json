@@ -1,0 +1,75 @@
+{
+  "chosen_products": [
+    "FIFA web experience",
+    "Chess.com web experience"
+  ],
+  "source_count_per_product": {
+    "FIFA": 9,
+    "Chess.com": 13
+  },
+  "archived_previous_outputs": null,
+  "manifest": [
+    {
+      "file": "Group10-PA1-ProductResearch.pdf",
+      "bytes": 10312877,
+      "sha256": "74e7901e53d2b05c61a7f443250b8eeabd811c0bacce6f7630007b21dea9382a",
+      "pages": 44,
+      "pages_text_chars": 57548,
+      "status": "PASS"
+    },
+    {
+      "file": "Group10-PA1-PotentialSolutions.pdf",
+      "bytes": 574202,
+      "sha256": "97af5b86da7bc49617fb444ebc61f75785932b971f4ea25852872b84e1a8eebe",
+      "pages": 15,
+      "pages_text_chars": 23942,
+      "status": "PASS"
+    },
+    {
+      "file": "Group10-PA1-PeerReview.pdf",
+      "bytes": 24531,
+      "sha256": "e91ca30c2cd43e3276c8e748bb5e163105401eea07b1c7f72a165485486cf689",
+      "pages": 4,
+      "pages_text_chars": 11673,
+      "status": "PASS"
+    },
+    {
+      "file": "Group10-PA1-WeeklyReport.pdf",
+      "bytes": 259831,
+      "sha256": "46144160ead39e38c71cd250b5cc65b674f507e5e14f757ef160d44729592e02",
+      "pages": 9,
+      "pages_text_chars": 21930,
+      "status": "PASS"
+    },
+    {
+      "file": "Group10-PA1.zip",
+      "bytes": 8959594,
+      "sha256": "3147346707082ca88f22c7dd9e1e5703333b8e3e28d7c3c1c33d2440977af4a4",
+      "contents": [
+        "Group10-PA1-ProductResearch.pdf",
+        "Group10-PA1-PotentialSolutions.pdf",
+        "Group10-PA1-PeerReview.pdf",
+        "Group10-PA1-WeeklyReport.pdf"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "acceptance": {
+    "ProductResearch": "PASS",
+    "PotentialSolutions": "PASS",
+    "PeerReview": "PASS",
+    "WeeklyReport": "PASS",
+    "Zip": "PASS",
+    "Output PDF copies": "PASS",
+    "Old product removal": "PASS"
+  },
+  "scan_failures": [],
+  "validation_mode": "draft",
+  "readiness": "READY DRAFT",
+  "final_blockers": [
+    "Real classroom peer feedback is pending"
+  ],
+  "overall": "PASS",
+  "build_command": "python build_pa1_package.py",
+  "generated_at": "2026-07-13T17:00:47.895300+00:00"
+}

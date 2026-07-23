@@ -1,0 +1,650 @@
+You are Codex. Your task is to perform a strict final 10/10 completion audit for the PA1 repository.
+
+Project:
+PA1 HCI Product Research
+
+Final product pair:
+FIFA.com and Chess.com
+
+Expected final submission:
+
+1. GroupID-PA1-ProductResearch.pdf
+2. GroupID-PA1-PotentialSolutions.pdf
+3. GroupID-PA1-PeerReview.pdf
+4. GroupID-PA1-WeeklyReport.pdf
+5. GroupID-PA1.zip
+
+Important rule:
+This is an audit-only task.
+Do not edit files.
+Do not generate new PDFs.
+Do not rewrite reports.
+Do not create a zip.
+Only inspect, validate, score, and report what is missing.
+If fixes are needed, write a clear fix plan and exact files to edit.
+
+PHASE 0. Repository inspection
+
+1. Print current working directory.
+2. List repository tree to depth 4.
+3. Find all files related to PA1:
+   ProductResearch
+   PotentialSolutions
+   PeerReview
+   WeeklyReport
+   WorkDivision
+   sources
+   screenshots
+   figures
+   manifests
+   zip
+4. Find all generated PDFs.
+5. Find GroupID-PA1.zip.
+6. Identify report source files.
+7. Identify PDF generation pipeline.
+8. Identify screenshot and annotation pipeline.
+9. Save audit notes to:
+   docs/pa1_final_10_10_audit.md
+
+PHASE 1. Required file existence check
+
+Check these files exist:
+
+GroupID-PA1-ProductResearch.pdf
+GroupID-PA1-PotentialSolutions.pdf
+GroupID-PA1-PeerReview.pdf
+GroupID-PA1-WeeklyReport.pdf
+GroupID-PA1.zip
+
+Also check whether these supporting files exist:
+
+assets/figures_manifest.json
+pa1_sources_fifa_chess.json
+docs/pa1_fifa_chess_visual_migration_audit.md
+docs/visual_pipeline_validation.md
+
+For each file, record:
+file path
+exists or missing
+file size
+last modified time
+pass or fail
+
+Acceptance:
+All 4 PDFs must exist.
+GroupID-PA1.zip must exist.
+Each PDF must be larger than 10 KB.
+ProductResearch should be larger than the other reports if it contains many images.
+
+PHASE 2. Zip validation
+
+Inspect GroupID-PA1.zip.
+
+Required:
+
+1. Zip exists.
+2. Zip contains exactly these four PDFs at top level:
+   GroupID-PA1-ProductResearch.pdf
+   GroupID-PA1-PotentialSolutions.pdf
+   GroupID-PA1-PeerReview.pdf
+   GroupID-PA1-WeeklyReport.pdf
+3. Zip does not contain source files.
+4. Zip does not contain old PDFs.
+5. Zip does not contain screenshot folders unless explicitly required.
+6. Zip does not contain nested folders.
+
+Record:
+zip contents
+pass or fail
+missing files
+extra files
+
+PHASE 3. Old product removal scan
+
+Search all final report source files, extracted PDF text, and zip contents for old product terms:
+
+Strava
+Nike Run Club
+NRC
+Garmin
+Garmin Connect
+Forerunner
+smartwatch
+running app
+cycling app
+GPS watch
+START/STOP
+segment leaderboard
+
+Expected:
+Zero matches in final deliverables.
+
+Allowed exception:
+Old product names may appear only in audit or changelog files under a section titled Removed content.
+
+Record:
+term
+file path
+line or page if available
+pass or fail
+
+If any old product term appears in final deliverables, mark the whole submission as NOT 10/10.
+
+PHASE 4. New product consistency scan
+
+Search all final PDFs and source files for:
+
+FIFA.com
+FIFA
+Chess.com
+chess
+Match Centre
+news
+tournament
+fixtures
+Play
+Puzzle
+Learn
+Game Review
+Analysis
+
+Required:
+FIFA.com and Chess.com must appear in all four reports.
+ProductResearch must discuss both products in depth.
+PotentialSolutions must include drawbacks and solutions for both products.
+PeerReview must include both products in presentation and feedback.
+WeeklyReport must mention both products in the sprint scope.
+
+Record:
+file
+FIFA.com coverage
+Chess.com coverage
+pass or fail
+
+PHASE 5. ProductResearch 60 percent rubric audit
+
+Audit GroupID-PA1-ProductResearch.pdf and its source.
+
+Required sections:
+
+1. Title and product pair.
+2. Executive summary.
+3. Method and evidence protocol.
+4. Product selection rationale.
+5. FIFA.com product overview.
+6. Chess.com product overview.
+7. User groups for both products.
+8. At least 6 personas total.
+9. At least 10 use cases total.
+10. Context details for each use case:
+    where
+    when
+    posture
+    device
+    attention level
+    environment
+    interaction method
+11. Use case flow details:
+    goal
+    trigger
+    precondition
+    normal flow
+    alternate flow
+    error path
+    feedback
+12. At least 20 HCI findings total.
+13. Benefits for both products.
+14. Drawbacks for both products.
+15. Difficulty and hindrance discussion for different user types.
+16. Cross-product comparison.
+17. References.
+18. Screenshot manifest or figure appendix.
+19. No generic analysis without concrete UI evidence.
+
+Count and record:
+persona count
+use case count
+HCI finding count
+benefit count
+drawback count
+figure count
+reference count
+
+For every HCI finding, check:
+finding ID exists
+product exists
+screen or flow exists
+specific UI element exists
+figure or source reference exists
+persona/context exists
+HCI concept exists
+benefit or drawback stated
+concrete scenario exists
+severity exists
+improvement direction exists
+
+Scoring:
+60 points possible.
+
+Give points:
+Product overview and selection rationale: 5
+User groups and personas: 8
+Detailed use cases and contexts: 12
+Concrete HCI findings: 20
+Benefits and drawbacks: 10
+Cross-product comparison and references: 5
+
+Mark as PASS only if ProductResearch score is at least 54/60 and no critical section is missing.
+
+PHASE 6. PotentialSolutions 25 percent rubric audit
+
+Audit GroupID-PA1-PotentialSolutions.pdf and its source.
+
+Required:
+
+1. Executive summary.
+2. Drawback inventory.
+3. At least 10 drawbacks total.
+4. Drawbacks cover both FIFA.com and Chess.com.
+5. Every drawback maps to ProductResearch.
+6. Every drawback has at least 2 solutions.
+7. At least 20 solutions total.
+8. Every solution includes:
+   solution ID
+   affected product
+   affected persona
+   affected context
+   HCI principle
+   UI behavior detail
+   expected improvement
+   tradeoff
+   priority
+   effort
+9. Visual solution figures or mockup descriptions.
+10. Prioritization table.
+11. Rollout plan.
+12. References.
+
+Count and record:
+drawback count
+solution count
+FIFA solution count
+Chess.com solution count
+visual solution figure count
+priority table exists
+rollout plan exists
+
+Scoring:
+25 points possible.
+
+Give points:
+Drawback coverage and mapping: 6
+Solution quality and practicality: 9
+HCI principle alignment: 5
+Visual explanation and UI detail: 3
+Prioritization and rollout: 2
+
+Mark as PASS only if PotentialSolutions score is at least 22/25 and every major drawback has a mapped solution.
+
+PHASE 7. PeerReview 10 percent rubric audit
+
+Audit GroupID-PA1-PeerReview.pdf and its source.
+
+Required:
+
+1. Presentation plan.
+2. 5 to 10 minute timing.
+3. 7-minute script or equivalent.
+4. Slide plan.
+5. FIFA.com findings slide.
+6. Chess.com findings slide.
+7. Solution priorities slide.
+8. Sprint and QA slide.
+9. Likely questions.
+10. At least 8 feedback or mock feedback entries.
+11. Commenter name.
+12. Feedback or question.
+13. Group response.
+14. Owner.
+15. Status.
+16. Revision plan.
+
+Scoring:
+10 points possible.
+
+Give points:
+Presentation plan and timing: 2
+Script and slide structure: 2
+Feedback log completeness: 3
+Group responses and revision actions: 2
+Consistency with final topic: 1
+
+Mark as PASS only if PeerReview score is at least 9/10.
+
+PHASE 8. WeeklyReport 5 percent rubric audit
+
+Audit GroupID-PA1-WeeklyReport.pdf and its source.
+
+Required:
+
+1. Team roster.
+2. Role assignment.
+3. Sprint objective.
+4. Sprint planning meeting.
+5. Weekly scrum 1.
+6. Weekly scrum 2.
+7. Sprint review or retrospective.
+8. Workload matrix.
+9. Submission checklist.
+10. All members included:
+    Le Minh 21127645
+    Nguyen Vu Bach 21127224
+    Pham Nguyen Gia Bao 20127119
+    Trang Minh Nhut 22127318
+
+For sprint planning, check:
+date or placeholder
+attendance
+decisions
+actions
+task assignment
+
+For weekly scrum, check each member answers:
+completed work
+next work
+issues or obstacles
+
+For sprint review, check:
+what went well
+what went wrong
+causes
+what to improve
+lessons learned
+
+Scoring:
+5 points possible.
+
+Give points:
+Sprint planning: 1
+Two weekly scrum records: 1.5
+Sprint review: 1
+Workload and member contribution: 1
+Submission checklist: 0.5
+
+Mark as PASS only if WeeklyReport score is at least 4.5/5.
+
+PHASE 9. Visual evidence audit
+
+Check screenshot and figure evidence.
+
+Required folders:
+assets/screenshots/raw/fifa
+assets/screenshots/raw/chess
+assets/screenshots/annotated/fifa
+assets/screenshots/annotated/chess
+assets/screenshots/crops/fifa
+assets/screenshots/crops/chess
+assets/figures_manifest.json
+
+Minimum visual requirements:
+At least 10 FIFA raw screenshots.
+At least 10 Chess.com raw screenshots.
+At least 20 annotated screenshots total.
+At least 24 figures in ProductResearch.
+At least 8 figures or visual solution mockups in PotentialSolutions.
+
+For each manifest item, check:
+figure ID
+product
+screen
+URL
+raw path
+annotated path
+caption
+highlighted region
+HCI concept
+claim
+
+For each annotated screenshot, check:
+file exists
+file size is nonzero
+visual highlight exists if detectable by file comparison or metadata
+caption exists in report
+
+Record:
+raw screenshot counts
+annotated screenshot counts
+crop counts
+manifest item count
+missing captions
+missing files
+
+Mark as PASS only if all minimum visual requirements are met.
+
+PHASE 10. Source and citation audit
+
+Check source log and references.
+
+Required:
+
+1. Source log exists.
+2. Official sources preferred.
+3. FIFA.com sources exist.
+4. Chess.com sources exist.
+5. Every nontrivial product claim has either:
+   a numbered source
+   a figure reference
+   or both
+6. No outdated or irrelevant old-product sources remain.
+7. References appear in ProductResearch.
+8. References appear in PotentialSolutions if solutions cite product evidence.
+
+Record:
+FIFA source count
+Chess.com source count
+official source count
+secondary source count
+missing citations
+
+Mark as PASS only if every major report has credible references.
+
+PHASE 11. Word work division audit
+
+If GroupID-PA1-WorkDivision.docx exists, audit it.
+
+Required:
+
+1. Written in Vietnamese.
+2. Contains all 4 members:
+   Le Minh 21127645
+   Nguyen Vu Bach 21127224
+   Pham Nguyen Gia Bao 20127119
+   Trang Minh Nhut 22127318
+3. Contains general responsibility division.
+4. Does not contain detailed day-by-day plan.
+5. Shows balanced workload.
+6. Contains deliverable ownership.
+7. Contains RACI matrix.
+8. Contains quality checklist.
+9. Contains signature table.
+
+This file may be a supporting document.
+Do not count it as one of the required four final PDFs unless the project submission requires it.
+
+PHASE 12. Formatting and professionalism audit
+
+Check final PDFs for:
+
+1. Cover page or clear title.
+2. Consistent headings.
+3. Readable tables.
+4. Figure numbering.
+5. Captions under figures.
+6. References formatted clearly.
+7. No broken image links.
+8. No placeholder text such as:
+   TODO
+   FIXME
+   lorem ipsum
+   TBD
+   insert screenshot here
+   placeholder
+9. No empty sections.
+10. No duplicated irrelevant sections.
+11. No report says the weekly template is unavailable if the template exists.
+12. No mismatch between product names and figures.
+
+Record all issues with file paths and page or section names where possible.
+
+PHASE 13. Final scoring
+
+Compute total score out of 100:
+
+ProductResearch: 60
+PotentialSolutions: 25
+PeerReview: 10
+WeeklyReport: 5
+
+Also compute a readiness level:
+
+95 to 100:
+READY 10/10, only minor polish if any.
+
+90 to 94:
+NEAR READY, small fixes needed.
+
+80 to 89:
+NOT READY, moderate fixes needed.
+
+Below 80:
+NOT READY, major rewrite needed.
+
+Critical failure rules:
+Even if numeric score is high, mark NOT READY if:
+
+1. Final product pair is not FIFA.com and Chess.com.
+2. Any old product remains in final deliverables.
+3. Missing any required PDF.
+4. Zip is missing or wrong.
+5. ProductResearch lacks concrete HCI use cases.
+6. PotentialSolutions does not map drawbacks to solutions.
+7. WeeklyReport is missing sprint planning, weekly scrum, or sprint review.
+8. Screenshots are claimed but missing.
+9. Reports contain fake or unsupported UI claims.
+
+PHASE 14. Final audit report format
+
+Write final audit report to:
+
+docs/pa1_final_10_10_audit.md
+
+Use this exact structure:
+
+1. Executive verdict
+   Status:
+   Score:
+   One-sentence reason:
+
+2. Required deliverables check
+   Table:
+   File
+   Exists
+   Size
+   Pass/Fail
+   Notes
+
+3. Zip check
+   Contents:
+   Missing:
+   Extra:
+   Pass/Fail:
+
+4. Product consistency check
+   Old product scan:
+   New product scan:
+   Pass/Fail:
+
+5. ProductResearch score
+   Score:
+   Missing:
+   Strengths:
+   Fixes needed:
+
+6. PotentialSolutions score
+   Score:
+   Missing:
+   Strengths:
+   Fixes needed:
+
+7. PeerReview score
+   Score:
+   Missing:
+   Strengths:
+   Fixes needed:
+
+8. WeeklyReport score
+   Score:
+   Missing:
+   Strengths:
+   Fixes needed:
+
+9. Visual evidence audit
+   Screenshot counts:
+   Figure counts:
+   Missing images:
+   Caption issues:
+   Pass/Fail:
+
+10. Citation audit
+    FIFA sources:
+    Chess.com sources:
+    Missing citations:
+    Pass/Fail:
+
+11. Formatting audit
+    Issues:
+    Pass/Fail:
+
+12. Critical blockers
+    List every blocker.
+    If no blockers, write:
+    No critical blockers found.
+
+13. Exact fix plan
+    If score is below 95, write a prioritized fix plan:
+    Priority
+    File
+    Issue
+    Required fix
+    Estimated effort
+
+14. Final checklist
+    Use checkboxes:
+    Product pair correct
+    Old products removed
+    4 PDFs present
+    Zip correct
+    ProductResearch complete
+    PotentialSolutions complete
+    PeerReview complete
+    WeeklyReport complete
+    Visual evidence complete
+    Citations complete
+    Ready to submit
+
+PHASE 15. Final Codex response
+
+Return a concise message with:
+
+1. Final status:
+   READY 10/10, NEAR READY, or NOT READY
+2. Total score.
+3. Critical blockers count.
+4. Required fixes count.
+5. Path to audit report:
+   docs/pa1_final_10_10_audit.md
+6. Clear next action:
+   If READY, say final submission is ready after manual check of GroupID and member names.
+   If NOT READY, list the top 5 fixes only.
+
+Begin now.
