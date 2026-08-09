@@ -1,0 +1,926 @@
+
+===== PAGE 1 =====
+Group10 -PA1-PotentialSolutions 
+Group10-PA1 Potential Solutions 
+FIFA.com and Chess.com web experiences 
+Đồ án PA1 - Môn Thiết kế giao diện - 23KTPM2  
+Team members 
+Member Student ID Main ownership 
+Le Minh 21127645  FIFA.com drawbacks, source trail, final QA 
+Nguyen Vu Bach 21127224  FIFA.com navigation, match -centre solutions, review 
+Pham Nguyen Gia Bao 20127119  Chess.com play, premove, solution mapping  
+Trang Minh Nhut 22127318  Chess.com learning, analysis, document review  
+Summary 
+The solution set keeps FIFA.com focused on  task-first navigation, continuity across FIFA+, clearer ticket status, and utility entry points. It keeps Chess.com focused on nov ice 
+onboarding, simpler analysis, expectation -setting around access limits, safer premoves, and clearer Focus Mode discovery.  
+Revision approach 
+This document reorganizes the original long tables into per-drawback solution cards. Each card keeps the problem, persona, context, HCI cause, proposed UI change, expected 
+improvement, tradeoff, priority, and effort together on the same page. Each solution card uses a relevant live website baseline on the left and explicit text-only UI changes on the right. 
+Traceability and drawback inventory 
+Cross-report linkage: drawback IDs, persona IDs, HCI finding IDs, figure IDs, and source numbers in this report are inherited from Group10-PA1-
+ProductResearch_VisualReport.docx. Live captures provide the observed baseline; the right-hand bullets specify proposed UI changes and are not presented as existing UI. 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 2 =====
+Group10 -PA1-PotentialSolutions 
+Relationship to ProductResearch findings 
+ 
+Each drawback maps to its ProductResearch finding, evidence source, affected persona/context, and exactly two solution IDs. 
+ID Product Drawback Linked finding Severity Solution IDs 
+F-D1 FIFA.com Cross -property navigation and 
+top -level task competition span 
+FIFA. 
+F-HCI6 High  F-S1, F-S2 
+F-D2 FIFA.com The DAZN-branded FIFA+ 
+handoff changes brand and 
+account expectations, creating 
+trust friction and mode-boundary 
+confusion.  
+F-HCI7 High  F-S3, F-S4 
+F-D3 FIFA.com Dense FIFA+ watch rails 
+increase the scan load for live, 
+highlight, documentary, 
+competition, and archive content. 
+F-HCI8 Medium F-S5, F-S6 
+
+===== PAGE 3 =====
+Group10 -PA1-PotentialSolutions 
+ID Product Drawback Linked finding Severity Solution IDs 
+F-D4 FIFA.com Sale, resale, waiting-room, and 
+availability uncertainty force 
+repeated manual checks. 
+F-HCI9 High  F-S7, F-S8 
+F-D5 FIFA.com Article-to-score, article-to-ticket, 
+and article-to-watch tasks require 
+extra navigation after reading. 
+F-HCI10 Medium F-S9, F-S10 
+C-D1 Chess.com The broad menu and feature 
+taxonomy overload novices 
+before they know which path fits 
+their goal. 
+C-HCI7 High  C-S1, C-S2 
+C-D2 Chess.com Game Review and Analysis 
+expose dense charts, lines, 
+classifications, toggles, and 
+labels before novices know what 
+matters. 
+C-HCI10 High  C-S3, C-S4 
+C-D3 Chess.com Lesson, puzzle, and review limits 
+can appear after attention is 
+invested and interrupt learning 
+momentum. 
+C-HCI10 Medium C-S5, C-S6 
+C-D4 Chess.com A legal queued premove may 
+execute after an unexpected 
+reply and create a blunder. 
+C-HCI8 High  C-S7, C-S8 
+C-D5 Chess.com Focus Mode is hard to discover 
+because related controls appear 
+on hover near the board 
+boundary. 
+C-HCI9 Medium C-S9, C-S10 
+FIFA.com solution set 
+Focus area Problem class Main solution direction  Why it matters 
+Navigation  Ecosystem sprawl  Task-first navigation and intent chips  Fewer property jumps for fans who need scores, 
+news, rankings, tickets, or watch actions.  
+FIFA+ handoff  Brand and account boundary  Handoff explainer and shared breadcrumb  Clearer destination expectations and return path.  
+Ticketing  Unclear sale/resale/waiting status  Ticket status dashboard and official alerts  Better planning support for trust -sensitive family 
+ticket decisions.  
+===== PAGE 4 =====
+Group10 -PA1-PotentialSolutions 
+ID Product Drawback Linked finding Severity Solution IDs 
+Articles  Browse-first friction  Utility rail and embedd ed action chips  Readers can move from story context to scores, 
+tickets, or watch actions.  
+  
+===== PAGE 5 =====
+Group10 -PA1-PotentialSolutions 
+F-D1 - FIFA.com drawback and solution card 
+Problem 
+Cross-property navigation and top-level task 
+competition span FIFA.com, Inside FIFA, FIFA+, 
+Store, Collect, and Rewards. 
+Persona 
+F-P1 / F-P3 
+Context 
+Short task entry and trust-sensitive 
+planning. 
+HCI cause 
+Context switching; mental-model 
+consistency. 
+Evidence F-09B + F-HCI6 + [1][6][9] Severity 
+High 
+Priority 
+High 
+Effort 
+Medium 
+Live web evidence Required UI changes 
+ 
+FIFA.com footer/ecosystem navigation. Corresponds to ProductResearch F-09B and F-HCI6. 
+Change the following UI locations: 
+• Global header: keep Match Centre, News, Rankings, Tickets, and Watch visible as 
+the five primary task destinations (F -S1). 
+• Header overflow: move Store, Collect, Rewards, and other corporate properties into a 
+clearly labelled More FIFA menu.  
+• Directly below the homepage hero: add intent chips for Scores, News, Rankings, 
+Tickets, and Watch (F -S2). 
+• Cross -prope rty links: show destination brand and a Back to FIFA.com path before 
+users leave the current property.  
+ID Solution concept How the UI fixes it HCI principle Expected result Tradeoff  
+F-S1 Task-first global nav Keep Match Centre, News, Rankings, Tickets, 
+Watch at top level; move Store, Collect, and 
+Rewards into More FIFA. 
+Recognition over recall; Cognitive 
+load reduction. 
+Fewer property jumps for common 
+tasks.  
+Store and collectibles receive less 
+top-level exposure. 
+F-S2 Audience intent switcher Add five quick-intent chips under the hero: 
+Scores, News, Rankings, Tickets, Watch. 
+Feedforward; efficient entry. Users choose by intent before 
+reading navigation labels. 
+One more row competes for above-
+fold attention. 
+  
+
+===== PAGE 6 =====
+Group10 -PA1-PotentialSolutions 
+F-D2 - FIFA.com drawback and solution card 
+Problem 
+The DAZN-branded FIFA+ handoff changes 
+brand and account expectations, creating 
+trust friction and mode-boundary confusion. 
+Persona 
+F-P3 
+Context 
+Family watch handoff after ticket or news 
+research. 
+HCI cause 
+Continuity; orientation; visibility of system 
+status. 
+Evidence F-10B + F-HCI7 + [6] Severity 
+High 
+Priority 
+High 
+Effort 
+Medium 
+Live web evidence Required UI changes 
+ 
+FIFA+ landing surface after the DAZN handoff. Corresponds to ProductResearch F-10B and F-HCI7. 
+Change the following UI locations: 
+• Before the FIFA+ outbound action: insert an explainer card stating that FIFA+ is powered by 
+DAZN and whether sign -in is required (F-S3). 
+• FIFA+ top bar: add a persistent Back to FIFA.com control and retain FIFA visual identity during 
+the handoff (F -S4). 
+• Primary CTA area: state what opens next —live stream, replay, or sign -in —before navigation 
+occurs.  
+• Account boundary: distinguish F IFA.com and DAZN account state with explicit labels instead of 
+relying on branding alone.  
+ID Solution concept How the UI fixes it HCI principle Expected result Tradeoff  
+F-S3 Handoff explainer card Before leaving FIFA.com, show You are 
+opening FIFA+ powered by DAZN with 
+destination benefits and sign-in 
+expectation. 
+Visibility of system status; trust. Users understand why branding and 
+login state change. 
+Adds one step for repeat viewers. 
+F-S4 Shared breadcrumb and visual bridge Add persistent Back to FIFA.com strip 
+and tournament breadcrumb on FIFA+. 
+Continuity; orientation. Users retain orientation across the watch 
+boundary. 
+Needs cross-property coordination. 
+  
+
+===== PAGE 7 =====
+Group10 -PA1-PotentialSolutions 
+F-D3 - FIFA.com drawback and solution card 
+Problem 
+Dense FIFA+ watch rails increase the scan 
+load for live, highlight, documentary, 
+competition, and archive content. 
+Persona 
+F-P3 
+Context 
+Evening highlight search with family 
+waiting. 
+HCI cause 
+Visual attention; choice overload; 
+Progressive disclosure. 
+Evidence F-10B + F-HCI8 + [6] Severity 
+Medium 
+Priority 
+Medium 
+Effort 
+Medium 
+Live web evidence Required UI changes 
+ 
+FIFA+ live, archive, originals, schedule, and media rails. Corresponds to ProductResearch F-10B/F-HCI8 
+and source [6]. 
+Change the following UI locations: 
+• Above the first media rail: add filters for Live, Highlights, Documentaries, Competitions, and 
+Archive (F -S5). 
+• Each rail header: show item count and a concise See all action so users can predict the content 
+scope.  
+• Media results area : add Compact scan mode with smaller cards and metadata -first rows (F -S6). 
+• Nonmatching rails: collapse them to labelled summaries after a filter is selected, with an option 
+to restore all content.  
+ID Solution concept How the UI fixes it HCI principle Expected result Tradeoff  
+F-S5 Filter-first rail controls Provide filters for Live, Highlights, 
+Documentaries, Competition, and 
+Duration above rails. 
+Visual filtering; reduced scan cost. Users narrow a large content surface 
+faster.  
+Filter accuracy depends on metadata 
+quality. 
+F-S6 Compact scan mode Collapse nonmatching rails into section 
+labels until expanded. 
+Progressive disclosure; visual economy. Lower vertical scanning burden. Some content feels less discoverable. 
+  
+
+===== PAGE 8 =====
+Group10 -PA1-PotentialSolutions 
+F-D4 - FIFA.com drawback and solution card 
+Problem 
+Sale, resale, waiting-room, and availability 
+uncertainty force repeated manual checks. 
+Persona 
+F-P3 
+Context 
+Multi-day family travel and ticket planning. 
+HCI cause 
+Visibility of system status; prospective 
+memory. 
+Evidence F-HCI9 + [5][9] Severity 
+High 
+Priority 
+High 
+Effort 
+Medium 
+Live web evidence Required UI changes 
+ 
+Official FIFA Tickets entry page. Corresponds to ProductResearch F-HCI9 and sources [5][9]. 
+Change the following UI locations: 
+• Tickets landing page, above tournament cards: add a status dashboard for Official sale, Resale, 
+Waiting room, and Sold out (F -S7). 
+• Every ticket card: display last -updated time, next known milestone, and one official action 
+button. 
+• Beside each tournament st atus: add opt -in email/browser availability alerts by date and team (F -
+S8). 
+• Waiting -room and unavailable states: preserve the selected tournament and explain whether 
+users should act now or return later.  
+ID Solution concept How the UI fixes it HCI principle Expected result Tradeoff  
+F-S7 Ticket status dashboard Show Official sale, Resale open, Waiting 
+room, Coming soon, and Latest update 
+time by tournament. 
+Visibility of system status; planning 
+support. 
+Users know whether to act now or wait. Requires reliable status data and 
+governance. 
+F-S8 Official availability alerts Offer email and browser alerts by 
+tournament and market, confirmed by 
+receipt. 
+Memory load reduction; trust. Users stop manually rechecking 
+availability. 
+Notification fatigue and opt-in 
+compliance. 
+  
+
+===== PAGE 9 =====
+Group10 -PA1-PotentialSolutions 
+F-D5 - FIFA.com drawback and solution card 
+Problem 
+Article-to-score, article-to-ticket, and article-
+to-watch tasks require extra navigation after 
+reading. 
+Persona 
+F-P1 / F-P2 / F-P3 
+Context 
+Interrupted story reading followed by a 
+utility task. 
+HCI cause 
+Task continuity; efficiency; information 
+scent. 
+Evidence F-06 + F-HCI10 + [1][2][3][7] Severity 
+Medium 
+Priority 
+Medium 
+Effort 
+Low 
+Live web evidence Required UI changes 
+ 
+FIFA.com news article surface. Corresponds to ProductResearch F-06 and F-HCI10. 
+Change the following UI locations: 
+• Article desktop layout: add a sticky utility rail for Scores, Tickets, Watch, and related tournament 
+information (F -S9). 
+• Article header, below title metadata: add context chips such as Op en Match Centre, Ticket 
+status, and Watch highlights (F -S10). 
+• On mobile: convert the utility rail into a bottom sheet that does not cover the article text.  
+• Action labels: derive the linked competition/team from article metadata so links remain 
+contextual r ather than generic.  
+ID Solution concept How the UI fixes it HCI principle Expected result Tradeoff  
+F-S9 Utility rail on story pages Add right rail or sticky side sheet for 
+Scores today, Rankings latest, Tickets 
+official source, Watch now. 
+Task continuity; reduced jumping. Story readers can branch into utilitarian 
+tasks in context. 
+May distract from article reading. 
+F-S10 Embedded action chips in articles Add context chips in article header: Open 
+Match Centre, View Tickets, Watch on 
+FIFA+. 
+Contextual navigation; information scent. Users can act from the article without 
+searching navigation again. 
+Requires article metadata rules. 
+  
+
+===== PAGE 10 =====
+Group10 -PA1-PotentialSolutions 
+Chess.com solution set 
+Focus area Problem class Main solution direction  Why it matters 
+Onboarding  Feature overload for novices  Goal -based onboarding and personal dashboard  Beginner users see goals before product 
+taxonomy.  
+Analysis  High Cognitive load  Beginner analysis preset and inline glossary  Game Review becomes readable before expert 
+controls appear.  
+Learning access  Premium gates interrupt momentum  Upfront entitlement labels and soft landing  Users know access limits before investing 
+attention.  
+Fast play  Premove risk and hidden Focus Mode  Queue preview, clear shortcut, coachmark, 
+settings shortcut  
+Better Error prevention, recovery, and 
+discoverability.  
+  
+===== PAGE 11 =====
+Group10 -PA1-PotentialSolutions 
+C-D1 - Chess.com drawback and solution card 
+Problem 
+The broad menu and feature taxonomy 
+overload novices before they know which 
+path fits their goal. 
+Persona 
+C-P1 
+Context 
+First visit and beginner study. 
+HCI cause 
+Choice overload; Progressive disclosure. 
+Evidence C-01/C-06 + C-HCI7 + 
+[10][18][19][20] 
+Severity 
+High 
+Priority 
+High 
+Effort 
+Medium 
+Live web evidence Required UI changes 
+ 
+Chess.com home navigation and task surface. Corresponds to ProductResearch C-01/C-06 and C-HCI7. 
+Change the following UI locations: 
+• First -run home area: replace product taxonomy with goal choices —Play now, Review, Learn 
+basics, and Train puzzles (C -S1). 
+• After goal selection: reveal only the next two or three relevant actions, with a View all features 
+escape hatch.  
+• Returning -user home: add a personal dashboard where users pin three frequent tasks and hide 
+unused modules (C -S2). 
+• Left navigation: keep stable l abels but visually separate beginner goals from advanced tools and 
+community content.  
+ID Solution concept How the UI fixes it HCI principle Expected result Tradeoff  
+C-S1 Goal-based onboarding home First -run chooser: Play now, Review last 
+game, Learn basics, Solve puzzles, Join 
+tournament. 
+Progressive disclosure; recognition over 
+recall. 
+New users see goals before feature 
+taxonomy. 
+Adds onboarding state management. 
+C-S2 Personal dashboard mode User pins top three tasks and hides 
+unused modules for 30 days. 
+Personalization; cognitive load reduction. Homepage better matches user intent. May hide growth paths if poorly 
+explained. 
+  
+
+===== PAGE 12 =====
+Group10 -PA1-PotentialSolutions 
+C-D2 - Chess.com drawback and solution card 
+Problem 
+Game Review and Analysis expose dense 
+charts, lines, classifications, toggles, and 
+labels before novices know what matters. 
+Persona 
+C-P1 / C-P3 
+Context 
+Post -loss review on laptop or desktop. 
+HCI cause 
+Cognitive load; external cognition. 
+Evidence C-03 + C-HCI4/C-HCI10 + 
+[15][16][17] 
+Severity 
+High 
+Priority 
+High 
+Effort 
+Low 
+Live web evidence Required UI changes 
+ 
+Chess.com Analysis Board UI. Corresponds to ProductResearch C-03, C-HCI4/C-HCI10, and sources 
+[15][16][17]. 
+Change the following UI locations: 
+• Game Review toolbar: add a Beginner preset that keeps evaluation, best move, and one plain -
+language explanation visible (C -S3). 
+• Advanced charts, engine lines, classifications, and toggles: place them behind a clearly labelled 
+Advanced controls disclosure.  
+• Beside unfamiliar labels: add tap/hover glossary definitions in plain language (C -S4). 
+• Move explanation panel: present one recommended action first, then progressively reveal 
+engine depth and alternative lines.  
+ID Solution concept How the UI fixes it HCI principle Expected result Tradeoff  
+C-S3 Beginner analysis preset One-click preset keeps evaluation bar, 
+best move, and plain-language coach 
+notes. 
+Progressive disclosure; low-friction 
+defaults.  
+Novices get a readable analysis surface. Advanced controls become one step 
+deeper. 
+C-S4 Inline analysis glossary Hover or tap chart and toggle labels for 
+plain-language explanations. 
+Learnability; reduced memory load. Users learn the meaning of graphs and 
+labels in place. 
+Adds copy maintenance and localization 
+work. 
+  
+
+===== PAGE 13 =====
+Group10 -PA1-PotentialSolutions 
+C-D3 - Chess.com drawback and solution card 
+Problem 
+Lesson, puzzle, and review limits can 
+appear after attention is invested and 
+interrupt learning momentum. 
+Persona 
+C-P1 / C-P3 
+Context 
+Beginner learning path after a loss. 
+HCI cause 
+Expectation setting; continuity; visibility of 
+access state. 
+Evidence C-05 + C-HCI9 + [19] Severity 
+Medium 
+Priority 
+Medium 
+Effort 
+Low 
+Live web evidence Required UI changes 
+ 
+Chess.com Lessons UI with learning routes and access prompts. Corresponds to ProductResearch C-05/C-
+HCI9 and source [19]. 
+Change the following UI locations: 
+• Lesson, puzzle, and review cards: label Free, Daily limit, or Premium before users start (C -S5). 
+• Progress area: show remaining free attempts and reset time witho ut forcing users into the 
+activity first.  
+• When a limit is reached: offer a free alternative, resume -later action, and a saved -progress 
+confirmation (C -S6). 
+• Upgrade prompt: keep the user's current learning context visible and avoid replacing the entire 
+task surface. 
+ID Solution concept How the UI fixes it HCI principle Expected result Tradeoff  
+C-S5 Upfront entitlement labels Mark each lesson, puzzle, and analysis 
+feature with access labels before click. 
+Expectation setting; error prevention. Users know limits before investing 
+attention.  
+Access labels may add visual noise. 
+C-S6 Soft-landing after limit reached After a limit wall, offer free alternative, 
+reset timer, and queue for later. 
+Continuity; frustration reduction. Users keep learning instead of stopping 
+abruptly. 
+May reduce upgrade pressure. 
+  
+
+===== PAGE 14 =====
+Group10 -PA1-PotentialSolutions 
+C-D4 - Chess.com drawback and solution card 
+Problem 
+A legal queued premove may execute after 
+an unexpected reply and create a blunder. 
+Persona 
+C-P2 
+Context 
+Blitz or bullet under clock pressure. 
+HCI cause 
+Speed-accuracy tradeoff; Error prevention; 
+recoverability. 
+Evidence C-03 + C-HCI8 + [12] Severity 
+High 
+Priority 
+High 
+Effort 
+Medium 
+Live web evidence Required UI changes 
+ 
+Chess.com live board and Options area where premove behavior is configured. Corresponds to 
+ProductResearch C-03/C-HCI8 and source [12]. 
+Change the following UI locations: 
+• Board edge/status area: show every queued premove as a visible pending sequence (C -S7). 
+• Queued move indicator: add a warning when the opp onent's reply could invalidate the user's 
+tactical assumption.  
+• Near the board and in keyboard help: provide a one -click Clear action and Esc shortcut (C -S8). 
+• After clearing: show immediate confirmation and restore normal legal -move highlighting without 
+interrupting the clock.  
+ID Solution concept How the UI fixes it HCI principle Expected result Tradeoff  
+C-S7 Premove queue preview Show pending premoves with danger 
+icon when opponent reply tree makes 
+risk high. 
+Error prevention; system status. Users see what will execute before it 
+happens. 
+Risk estimate can be imperfect. 
+C-S8 Fast clear shortcut One-click Clear or Esc clears queued 
+premove chain. 
+Recoverability; user control. Users recover from risky queued intent 
+quickly.  
+Adds one more in-game control. 
+  
+
+===== PAGE 15 =====
+Group10 -PA1-PotentialSolutions 
+C-D5 - Chess.com drawback and solution card 
+Problem 
+Focus Mode is hard to discover because 
+related controls appear on hover near the 
+board boundary. 
+Persona 
+C-P2 / C-P3 
+Context 
+Serious-game setup on desktop. 
+HCI cause 
+Discoverability; hidden controls; contextual 
+help. 
+Evidence C-03 + C-HCI3 + [13][14] Severity 
+Medium 
+Priority 
+Medium 
+Effort 
+Low 
+Live web evidence Required UI changes 
+ 
+Chess.com board UI and Options area where Focus Mode must be discoverable. Corresponds to 
+ProductResearch C-03/C-HCI3 and sources [13][14]. 
+Change the following UI locations: 
+• After two completed games: show a one -time coachmark beside the board —Need fewer 
+distractions? Try Focus Mode (C -S9). 
+• Board settings: add a pe rsistent Focus Mode toggle instead of requiring hover discovery (C -
+S10). 
+• In-game top bar: show the active Focus Mode state and provide a reversible exit action.  
+• Mobile board menu: place the same toggle under Display/Board settings so the control is 
+consistent across viewports.  
+ID Solution concept How the UI fixes it HCI principle Expected result Tradeoff  
+C-S9 First -time coachmark After two full games, show Need fewer 
+distractions? Try Focus Mode. 
+Discoverability; contextual help. Users learn the hidden control when it is 
+relevant. 
+Coachmarks can annoy expert users. 
+C-S10 Persistent settings shortcut Add Focus Mode toggle into board 
+settings and keyboard shortcut help. 
+Consistency; discoverability. Focus Mode becomes findable without 
+hover discovery. 
+Settings panel grows slightly. 
+  
+
+===== PAGE 16 =====
+Group10 -PA1-PotentialSolutions 
+Prioritized rollout plan 
+Quick wins 
+ID Concept Why first 
+F-S2 Audience intent switcher High priority with Low effort. Can be tested without changing the full 
+product architecture. 
+F-S3 Handoff explainer card High priority with Low effort. Can be tested without changing the full 
+product architecture. 
+C-S3 Beginner analysis preset High priority with Low effort. Can be tested without changing the full 
+product architecture. 
+C-S5 Upfront entitlement labels High priority with Low effort. Can be tested without changing the full 
+product architecture. 
+F-S9 Utility rail on story pages Medium priority with Low effort. Can be tested without changing the 
+full product architecture. 
+F-S10 Embedded  action chips in articles Medium priority with Low effort. Can be tested without changing the 
+full product architecture. 
+C-S8 Fast clear shortcut Medium priority with Low effort. Can be tested without changing the 
+full product architecture. 
+C-S9 First -time coachmark Medium priority with Low effort. Can be tested without changing the 
+full product architecture. 
+C-S10 Persistent settings shortcut Medium priority with Low effort. Can be tested without changing the 
+full product architecture. 
+Deeper redesigns 
+ID Concept Why deeper 
+F-S1 Task-first global nav Requires cross-page, data, personalization, or cross-property 
+coordination. 
+F-S4 Shared breadcrumb and visual bridge Requires cross-page, data, personalization, or cross-property 
+coordination. 
+F-S5 Filter -first rail controls Requires cross-page, data, personalization, or cross-property 
+coordination. 
+===== PAGE 17 =====
+Group10 -PA1-PotentialSolutions 
+ID Concept Why deeper 
+F-S6 Compact scan mode Requires cross-page, data, personalization, or cross-property 
+coordination. 
+F-S7 Ticket status dashboard Requires cross-page, data, personalization, or cross-property 
+coordination. 
+F-S8 Official availability alerts Requires cross-page, data, personalization, or cross-property 
+coordination. 
+C-S1 Goal -based onboarding home Requires cross-page, data, personalization, or cross-property 
+coordination. 
+C-S2 Personal dashboard mode Requires cross-page, data, personalization, or cross-property 
+coordination. 
+C-S4 Inline analysis glossary Requires cross-page, data, personalization, or cross-property 
+coordina tion. 
+C-S6 Soft-landing after limit reached Requires cross-page, data, personalization, or cross-property 
+coordination. 
+C-S7 Premove queue preview Requires cross-page, data, personalization, or cross-property 
+coordination. 
+Rollout plan 
+Sprint 1 implements quick wins, tests wording and UI placement, and validates with the personas most affected by each drawback. Sprint  2 handles task -first navigation, ticket 
+status, FIFA+ filters, personalized Chess.com home, glossary behavior, and premove queue p review. QA checks that every drawback from ProductResearch still maps to exactly 
+two solutions.  
+Compact solution detail matrix 
+ID Drawback Concept  Detailed UI behavior  HCI mapping  Expected effect Tradeoff  Priority  Effort 
+F-S1 F-D1 Task-first global nav Keep Match Centre, 
+News, Rankings, 
+Tickets, Watch at top 
+level; move Store, 
+Collect, and Rewards 
+into More FIFA.  
+Recognition over recall; 
+Cognitive load 
+reduction. 
+Fewer property jumps 
+for common tasks.  
+Store and collectibles 
+receive less top -level 
+exposure. 
+High Medium 
+F-S2 F-D1 Audience intent switcher  Add five quick -intent 
+chips under the hero: 
+Scores, News, 
+Feedforward; efficient 
+entry. 
+Users choose by intent 
+before reading 
+navigation labels.  
+One more row 
+competes for above-fold 
+attention.  
+High Low 
+===== PAGE 18 =====
+Group10 -PA1-PotentialSolutions 
+Rankings, Tickets, 
+Watch.  
+F-S3 F-D2 Handoff explainer card  Before leaving 
+FIFA.com, show You 
+are opening FIFA+ 
+powered by DAZN with 
+destination benefits and 
+sign-in expectation.  
+Visibility of system 
+status; trust.  
+Users understand why 
+branding and login state 
+change. 
+Adds one step for 
+repeat viewers.  
+High Low 
+F-S4 F-D2 Shared breadcrumb and 
+visual bridge 
+Add persistent Back to 
+FIFA.com strip and 
+tournament breadcrumb 
+on FIFA+.  
+Continuity; orientation.  Users retain orientation 
+across th e watch 
+boundary. 
+Needs cross -property 
+coordination. 
+Medium Medium 
+F-S5 F-D3 Filter-first rail controls  Provide filters for Live, 
+Highlights, 
+Documentaries, 
+Competition, and 
+Duration above rails.  
+Visual filtering; reduced 
+scan cost.  
+Users narrow a large 
+content surface faster.  
+Filter accuracy depends 
+on metadata quality.  
+High Medium 
+F-S6 F-D3 Compact scan mode  Collapse nonmatching 
+rails into section labels 
+until expanded.  
+Progressive disclosure; 
+visual economy.  
+Lower vertical scanning 
+burden. 
+Some content feels less 
+discoverable.  
+Medium Medium 
+F-S7 F-D4 Ticket status dashboard  Show Official sale, 
+Resale open, Waiting 
+room, Coming soon, 
+and Latest update time 
+by tournament.  
+Visibility of system 
+status; planning support.  
+Users know whether to 
+act now or wait.  
+Requires reliable status 
+data and governance.  
+High Medium 
+F-S8 F-D4 Official availability alerts  Offer email and browser 
+alerts by tournament 
+and market, confirmed 
+by receipt. 
+Memory load reduction; 
+trust.  
+Users stop manually 
+rechecking availability.  
+Notification fatigue and 
+opt-in compliance.  
+Medium Medium 
+F-S9 F-D5 Utility rail on story pages  Add right rail or sticky 
+side sheet for Scores 
+today, Rankings latest, 
+Tickets official source, 
+Watch now.  
+Task continuity; reduced 
+jumping. 
+Story readers can 
+branch into utilitarian 
+tasks in context.  
+May distract from article 
+reading. 
+Medium Low 
+F-S10 F-D5 Embedded action chips 
+in articles  
+Add context chips in 
+article header: Open 
+Match Centre, View 
+Tickets, Watch on 
+FIFA+. 
+Contextual navigation; 
+information scent.  
+Users can act from the 
+article without searching 
+navigation again.  
+Requires article 
+metadata rules.  
+Medium Low 
+C-S1 C-D1 Goal-based onboarding 
+home 
+First -run chooser: Play 
+now, Review last game, 
+Learn basics, Solv e 
+puzzles, Join 
+tournament.  
+Progressive disclosure; 
+recognition over recall.  
+New users see goals 
+before feature 
+taxonomy.  
+Adds onboarding state 
+management.  
+High Medium 
+===== PAGE 19 =====
+Group10 -PA1-PotentialSolutions 
+C-S2 C-D1 Personal dashboard 
+mode 
+User pins top three 
+tasks and hides unused 
+modules for 30 days.  
+Personalization; 
+cognitive load reduction.  
+Homepage better 
+matches user intent.  
+May hide growth paths if 
+poorly explained.  
+Medium Medium 
+C-S3 C-D2 Beginner analysis 
+preset 
+One-click preset keeps 
+evaluation bar, best 
+move, and plain-
+language coach notes.  
+Progressive disclosure; 
+low-friction defaults.  
+Novices get a readable 
+analysis surface.  
+Advanced controls 
+become one step 
+deeper. 
+High Low 
+C-S4 C-D2 Inline analysis glossary  Hover or tap chart and 
+toggle labels for plain -
+language explanations.  
+Learnability; reduced 
+memory load. 
+Users learn the meaning 
+of graphs and labels in 
+place. 
+Adds copy maintenance 
+and localization work.  
+Medium Medium 
+C-S5 C-D3 Upfront entitlement 
+labels 
+Mark each lesson, 
+puzzle, and analysis 
+feature with access 
+labels before click.  
+Expectation setting; 
+error prevention.  
+Users know limits before 
+investing attention.  
+Access labels may add 
+visual noise. 
+High Low 
+C-S6 C-D3 Soft-landing after limit 
+reached 
+After a limit wall, offer 
+free alternative, reset 
+timer, and queue for 
+later. 
+Continuity; frustration 
+reduction. 
+Users keep learning 
+instead of stopping 
+abruptly. 
+May reduce upgrade 
+pressure. 
+Medium Medium 
+C-S7 C-D4 Premove queue preview  Show pending 
+premoves with danger 
+icon when oppo nent 
+reply tree makes risk 
+high. 
+Error prevention; system 
+status.  
+Users see what will 
+execute before it 
+happens. 
+Risk estimate can be 
+imperfect.  
+High Medium 
+C-S8 C-D4 Fast clear shortcut  One-click Clear or Esc 
+clears queued premove 
+chain. 
+Recoverability; user 
+control. 
+Users recover from risky 
+queued intent quickly.  
+Adds one more in -game 
+control. 
+Medium Low 
+C-S9 C-D5 First -time coachmark  After two full games, 
+show Need fewer 
+distractions? Try Focus 
+Mode. 
+Discoverability; 
+contextual help.  
+Users learn the hidden 
+control when it is 
+relevant. 
+Coachmarks can annoy 
+expert users.  
+Medium Low 
+C-S10 C-D5 Persistent settings 
+shortcut  
+Add Focus Mode toggle 
+into board settings and 
+keyboard shortcut help.  
+Consistency; 
+discoverability.  
+Focus Mode become s 
+findable without hover 
+discovery.  
+Settings panel grows 
+slightly.  
+Medium Low 
+References 
+[1] Inside FIFA. Official FIFA news and ecosystem navigation. https://inside.fifa.com/. Accessed 2026-07-07. 
+[2] All stories and topics. Official FIFA topic index. https://inside.fifa.com/all-stories. Accessed 2026-07-07. 
+[3] FIFA World Cup 2026 Blog. Official tournament story hub. https://inside.fifa.com/blogs/fwc-2026. Accessed 2026-07-07. 
+[4] FIFA World Cup 26 Ticketing Programme launches this September. Official FIFA media release used for the article baseline. https://inside.fifa.com/tournament-
+organisation/commercial/media-releases/world-cup-26-ticketing-programme-launch-september. Accessed 2026-07-07. 
+===== PAGE 20 =====
+Group10 -PA1-PotentialSolutions 
+[5] FIFA World Cup 2026 Last-Minute Sales Phase. Official ticket-status media release. https://inside.fifa.com/media-releases/last-minute-ticket-sales-phase-fifa-world-cup-2026. Accessed 
+2026-07-07. 
+[6] FIFA+. Live FIFA+ interface containing live, schedule, originals, and archive routes. https://www.plus.fifa.com/. Accessed 2026-07-07. 
+[7] FIFA Match Centre. Official fixtures and results interface. https://www.fifa.com/en/match-centre. Accessed 2026-07-07. 
+[8] FIFA/Coca-Cola Men's World Ranking. Official FIFA ranking interface. https://inside.fifa.com/fifa-world-ranking/men. Accessed 2026-07-07. 
+[9] FIFA Tickets and Hospitality. Official FIFA ticket entry interface. https://www.fifa.com/en/tickets. Accessed 2026-07-07. 
+[10] Chess.com homepage. Live navigation and task-entry interface. https://www.chess.com/. Accessed 2026-07-07. 
+[11] Play Online Chess. Live Chess.com game-entry interface. https://www.chess.com/play/online. Accessed 2026-07-07. 
+[12] What are pre-moves and how do they work? Official behavior reference supporting the premove-risk finding. https://support.chess.com/en/articles/8562432-what-are-pre-moves-and-
+how-do-they-work. Accessed 2026-07-07. 
+[13] What is Focus Mode? Official behavior reference supporting the Focus Mode discoverability finding. https://support.chess.com/en/articles/8588088-what-is-focus-mode-how-do-i-turn-
+it-on. Accessed 2026-07-07. 
+[14] Play Computer. Live Chess.com board and Options interface used in the solution card. https://www.chess.com/play/computer. Accessed 2026-07-07. 
+[15] How does Game Review work? Official behavior reference for post-game review. https://support.chess.com/en/articles/8584089-how-does-game-review-work. Accessed 2026-07-07. 
+[16] Chess Analysis Board. Live Chess.com analysis interface used in the solution card. https://www.chess.com/analysis. Accessed 2026-07-07. 
+[17] How do I use the Analysis Board? Official behavior reference for analysis controls. https://support.chess.com/en/articles/8583825-how-do-i-use-the-analysis-board. Accessed 2026-
+07-07. 
+[18] Chess Puzzles. Live Chess.com puzzle interface used as a learning-flow baseline. https://www.chess.com/puzzles. Accessed 2026-07-07. 
+[19] Chess Lessons. Live Chess.com lessons interface used in the solution card. https://www.chess.com/lessons. Accessed 2026-07-07. 
+[20] Chess Study Plans for All Levels. Official Chess.com learning-path article. https://www.chess.com/article/view/study-plan-directory. Accessed 2026-07-07. 

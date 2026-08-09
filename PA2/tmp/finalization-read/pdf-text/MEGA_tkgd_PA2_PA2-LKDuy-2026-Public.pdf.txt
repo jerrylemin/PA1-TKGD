@@ -1,0 +1,98 @@
+===== PAGE 1 =====
+PROJECT ASSIGNMENT 2 (PA2) 
+FIT-HCMUS - CSC13112 - UI/UX Design - Dr. Le Khanh Duy 
+Deadline: 3 weeks. Please check the submission link on Moodle. 
+Total points: 100/500 
+This is a teamwork assignment. 
+PA Schedule 
+ 
+PA PA (500, subject to change later) 
+PA1 75 
+ 
+Product Research 
+ 
+Potential Solutions 
+PA2 100 
+ 
+User Research, Vision Document 
+ 
+Use Case Spec 
+PA3 150 
+ 
+Paper Prototype (2 scenario * 3 alternatives) 
+ 
+Informal testing 
+ 
+Points for improvements 
+PA4 175 
+ 
+ 
+Hi-fi Prototype 
+ 
+Summative user study 
+ 
+Presentation / Demo 
+ 
+A. Objectives 
+In this PA, students are asked to perform user research and user analysis, draw use case diagrams and write 
+the use case specifications. 
+
+===== PAGE 2 =====
+B. Requirements 
+Requirement 1: User Research & Analysis 
+Keep going with the topics that groups have chosen in PA1. 
+Use one or more of the following methods (interview, observation, try it yourself) to understand your users & 
+gather information about their context, environment, goals, tasks, capabilities, tools, constraints, strengths, 
+weaknesses, limitations and problems. In this phase, you have to report your user research techniques, the 
+process of user research (e.g. interview or observation with how many users? How long did each 
+interview/observation session take? How did you record data from user research sessions)  understandings 
+of users which your team gathered, and Personas – fictional characters your team create based upon your 
+research to represent the different user types, work models (Flow model, Sequence model, Artifact model, 
+etc). Think about reporting ins ights, findings from user research with images, or photos proving observed 
+users’ interesting behaviors to make the report convincing. 
+Requirement 2: User Analysis 
+Perform brainstorming within your group to identify user problems, generate all potential solution ideas and 
+create an affinity diagram of the identified problems and generated ideas (using sticky notes or digital tools 
+like Miro (www.miro.com ), Figma or any tool of your choice). 
+Requirement 3: Proposal 
+Based on the user research results, provide the initial concepts of your design solution to solve user problems. 
+● What problems/pain points of users does your team want to solve? Try to pick the most severe 
+problems which were not sufficiently solved by existing solutions in the market. Remember: you do 
+not need to solve many problems, you’re better to pick only a few “tough problems” to solve. 
+● What is the overall concept of your solution? (E.g., your solution is a smartphone app, a tablet app, a 
+smartwatch app, a web page, a kiosk computer or in which form? Conceptually how would users use 
+or interact with your solution to tackle the identified problems? 
+● For each problem, try to propose 2 to 3 conceptual solutions which significantly differ from each other. 
+Requirement 4: Use Case Specification 
+For each conceptual solution proposed, draw a use case diagram (or flow model) to show actors, artifacts 
+(system, objects, interface…) involved and their interactions with the artifacts. 
+For each use case, write down the use case specification. 
+
+===== PAGE 3 =====
+Requirement 5: Peer Review 
+Groups are required to present their work during lecture sessions, within a 5 to 10-minute timeframe.  
+After the presentation, lecturers and other group members will provide feedback.  
+Groups must document the feedback and questions in a report, including the name of the commenter, the 
+feedback or question, and the group's responses.  
+They will then have several days to revise the project requirements before submitting the final version on 
+Moodle. 
+Requirement 6: Weekly Report 
+Groups must track each member’s tasks using the provided weekly report template. 
+Link: https://drive.google.com/file/d/10Si9z3s-rjtn4oaoz8HMkQP1as7iSPVH/view?usp=sharing  
+C. Grading Scheme 
+● Requirement 1: User Research (25%) 
+● Requirement 2: User Analysis (25%) 
+● Requirement 3: Proposal (20%) 
+● Requirement 4: Use Case Specification (20%) 
+● Requirement 5: Peer Review (5%) 
+● Requirement 6: Weekly Report (5%) 
+D. Documents to be submitted 
+● Requirement 1: GroupID-PA2-UserResearch.pdf 
+● Requirement 2: GroupID-PA2-UserAnalysis.pdf 
+● Requirement 3: GroupID-PA2-ProjectProposal.pdf 
+● Requirement 4: GroupID-PA2-UseCaseDocument.pdf 
+● Requirement 5: GroupID-PA2-PeerReview.pdf 
+● Requirement 6: GroupID-PA2-WeeklyReport.pdf 
+Submission name: GroupID-PA2.zip 
+ 
+ 

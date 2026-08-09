@@ -1,0 +1,406 @@
+
+===== PAGE 1 =====
+Group10-PA1 Product Research  
+Group10-PA1 Product Research 
+FIFA.com and Chess.com web site 
+Đồ án PA1 - Môn học: Thiết kế giao diện - 23KTPM2 
+Product pair: FIFA.com and Chess.com 
+Date: 2026-06-10 
+Thành viên nhóm 
+Name Student ID 
+Le Minh 21127645 
+Nguyen Vu Bach 21127224 
+Pham Nguyen Gia Bao 20127119 
+Trang Minh Nhut 22127318 
+ 
+  
+===== PAGE 2 =====
+Group10-PA1 Product Research  
+Report overview and evidence protocol   
+ 
+Summary 
+This report compares FIFA.com and Chess.com as web experiences with opposite interaction centers. FIFA.com is browse -first: users browse, compare, follow, verify, and hand off to FIFA+ for 
+video.  
+Chess.com is action -first: users play, review, analyze, train, and enter competitive flows.  
+Team ownership and product scope 
+Scope Primary contributor Reviewer  
+F-UC1, F-UC2, F-HCI1 to F-HCI5 Nguyen Vu Bach  Le Minh 
+F-UC3, F-UC4, F-UC5, F-HCI6 to F-HCI10 Le Minh Nguyen Vu Bach  
+C-UC1, C-UC2, C-HCI1 to C-HCI5 Pham Nguyen Gia Bao  Trang Minh Nhut 
+C-UC3, C-UC4, C-UC5, C-HCI6 to C-HCI10 Trang Minh Nhut Pham Nguyen Gia Bao  
+ 
+Product selection 
+Product Positioning 
+FIFA.com Browse-first football web ecosystem for official news, match -following, rankings, tournament discovery, ticketing trust, and FIFA+ watch handoff.  
+Chess.com Action-first chess web platform for games, review, self-analysis, puzzles, lessons, study plans, tournaments, and fair -play-guided competitive play. 
+ 
+  
+===== PAGE 3 =====
+Group10-PA1 Product Research  
+Users, contexts, and use cases   
+ 
+Primary interactive users 
+Product  Persona Goal Context Friction  
+FIFA F-P1 Casual football fan Check fixtures, live scores, results, and short news quickly. Mobile phone or short break; interrupted attention. Slow path to match information. 
+FIFA F-P2 Tournament follower Follow tournament pages, teams, fixtures, standings, rankings, and media. Desktop at home or office; high scan pressure. Too many tournament links to compare. 
+FIFA F-P3 Media/student researcher Find official football news, tournament history, ticket status, and reliable 
+source trails. 
+Laptop research session; trust-sensitive. Unclear source path across FIFA properties. 
+Chess.com C-P1 Beginner learner Start a simple game, learn rules, solve easy puzzles, and follow a study 
+plan. 
+Home or school; low domain knowledge. Feature overload before knowing chess terms. 
+Chess.com C-P2 Competitive player Start rated games quickly and monitor clock, moves, rating, and opponent 
+status.  
+Focused desktop play; motor accuracy and low delay. Delay or mis-tap under time pressure. 
+Chess.com C-P3 Returning player Play a daily or quick game, read content, review mistakes, and continue 
+learning. 
+Interrupted home use; needs recognition and lightweight 
+feedback.  
+Forgets feature locations and analysis 
+meanings. 
+ 
+Use cases 
+Product  Use cases Evidence  Core HCI idea  
+FIFA F-UC1 Find today match schedule; F -UC2 Check live score/result; F -UC3 Read football news article; F -UC4 Find 
+tournament information; F -UC5 Search team/player/article/tournament.  
+F-01 to F-10B, F -08A Information scent; visibility of status; trust; 
+continuity; scan load.  
+Chess.com  C-UC1 Start quick online chess game; C -UC2 Solve a puzzle; C -UC3 Learn a beginner lesson; C -UC4 Review 
+game/analysis; C -UC5 Read content and plan learning.  
+C-01 to C-08, C -06M, C-04A Direct manipulation; Feedback; Error 
+prevention; Progressive di sclosure; User 
+control. 
+ 
+  
+===== PAGE 4 =====
+Group10-PA1 Product Research  
+FIFA.com observed web captures   
+ 
+Figure F-01. FIFA.com home hierarchy 
+ 
+Analysis 
+• Related persona/task: F -P1 casual fan enters FIFA.com during a short break to find matches and headlines.  
+• What the image shows: hero content, countdown, match strip, and article blocks compete for first -view attention.  
+• HCI reading: visual hierarchy splits attention between promotional content and task entry.  
+• Impact: low -attention users may scroll or choose the wrong ro ute before Match Centre.  
+• Design implication: keep common tasks such as Scores, News, Rankings, Tickets, and Watch visible near the 
+first view.  
+Figure F-02. FIFA.com desktop navigation 
+ 
+Analysis 
+• Related persona/task: F -P1 and F-P2 use top navigation for Match Centre, News, Rankings, and Tickets.  
+• What the image shows: key official labels remain visible in the header.  
+• HCI reading: Recognition over recall helps users choose known task labels instead of remembering URLs.  
+• Benefit: faster first step for schedule, ranking, ticket, and news tasks.  
+• Limit: More and sibling properties still expand the navigation map.  
+  
+
+===== PAGE 5 =====
+Group10-PA1 Product Research  
+FIFA.com observed web captures   
+ 
+Figure F-03. FIFA.com mobile navigation 
+ 
+Analysis 
+• Related persona/task: F -P1 uses mobile in public transport or campus contexts with interrupted attention.  
+• What the image shows: compact mobile header plus promotional overlay over page content.  
+• HCI reading: Progressive disclosure saves space, but the overlay adds an interruption before match tasks.  
+• Impact: the capture supports mobile interruption better than pure navigation structure.  
+• Suggested recapture: open mobile menu and capture the menu list after closing the popup.  
+Figure F-04. FIFA.com Match Centre 
+ 
+Analysis 
+• Related persona/task: F -UC1 and F -UC2, checking today fixtures, live scores, or results.  
+• What the image shows: date rail, search, live toggle, match rows, sort, and filter controls.  
+• HCI reading: Visibility of system status and date -based mental model support fixture scanning.  
+• Benefit: users can anchor the task around day, competition, and live state.  
+• Risk: sparse or slow client -rendered rows still create waiting and retry behavior.  
+  
+
+===== PAGE 6 =====
+Group10-PA1 Product Research  
+FIFA.com observed web captures   
+ 
+Figure F-05. FIFA.com search and discovery 
+ 
+Analysis 
+• Related persona/task: F -P3 researcher searches teams, players, articles, or tournaments.  
+• What the image shows: search query, content -type filters, result cards, dates, and mixed content results.  
+• HCI reading: search supports error recovery, but category separation is weak for mixed results.  
+• Impact: official lookup can still require comparing articles, videos, and documents in one list.  
+• Design implication: separate team, tournament, article, media, and ticket results w ith stronger headings.  
+Figure F-06. FIFA.com news article page 
+ 
+Analysis 
+• Related persona/task: F -P2 reads official tournament news; F -P1 may jump from news to scores.  
+• What the image shows: article hero, large visual block, language area, and reading surfa ce. 
+• HCI reading: reading load and scan load increase when users need a quick linked task.  
+• Drawback: browse -first article pages make utility actions such as scores or tickets a second jump.  
+• Design implication: add article utility rail or contextual chips fo r Match Centre, Tickets, and Watch.  
+  
+
+===== PAGE 7 =====
+Group10-PA1 Product Research  
+FIFA.com observed web captures   
+ 
+Figure F-07. FIFA.com tournament page 
+ 
+Analysis 
+• Related persona/task: F -P2 follows tournament pages, teams, standings, and media.  
+• What the image shows: tournament subnavigation plus a promotional modal over the page.  
+• HCI reading: information architecture groups competition content, but overlays interrupt scanning.  
+• Impact: this capture is strong for interruption, weaker for tournament  details until the modal is closed.  
+• Suggested recapture: close the modal and capture the tournament navigation and page content.  
+Figure F-08. FIFA.com mobile content density 
+ 
+Analysis 
+• Related persona/task: F -P1 uses mobile with short attention windows.  
+• What the image shows: dense mobile content and promotional interruption.  
+• HCI reading: small screens magnify cognitive load and attention switching.  
+• Impact: a modal or dense rail can block the quick check the user came for.  
+• Design implication: defer promotional overlays until after the first successful task.  
+  
+
+===== PAGE 8 =====
+Group10-PA1 Product Research  
+FIFA.com observed web captures   
+ 
+Figure F-09B. FIFA.com footer and ecosystem navigation 
+ 
+Analysis 
+• Related persona/task: F -P3 follows official source trails across FIFA pages and sibling destinations.  
+• What the image shows: footer links, upcoming tournaments, app links, and ecosystem destinations.  
+• HCI reading: broad ecosystem support helps global users but increases mental model fragmentation.  
+• Drawback: users can move across FIFA.co m, Inside FIFA, FIFA+, Store, Collect, and Rewards.  
+• Design implication: create clearer task -first global navigation and cross -property breadcrumbs  
+Figure F-10B. FIFA+ video or media area 
+ 
+Analysis 
+• Related persona/task: F -P3 moves from FIFA information to FIFA+ watch content.  
+• What the image shows: DAZN context, FIFA+ hero, sign -up control, media rails, and cookie prompt.  
+• HCI reading: feedforward exists, but the brand/account boundary can break continuity and trust.  
+• Drawback: users may pause because the watc h path feels like a different service.  
+• Suggested recapture: accept or hide cookies, then capture visible live/highlight rails.  
+  
+
+===== PAGE 9 =====
+Group10-PA1 Product Research  
+FIFA.com observed web captures   
+ 
+Figure F-08A. FIFA.com mobile interruption crop 
+ 
+Analysis 
+• Related persona/task: F -P1 tries to scan live or recent content on mobile.  
+• What the image shows: crop isolates overlay intrusion on top of match/page content.  
+• HCI reading: interruption increases motor and memory load on small screens.  
+• Impact: task state is hidden and users must recover context after closing the overlay.  
+• Design implication: place promotional prompts after match lookup or make them smaller and dismissible.  
+ 
+  
+
+===== PAGE 10 =====
+Group10-PA1 Product Research  
+Chess.com observed web captures   
+ 
+Figure C-01. Chess.com home page information hierarchy 
+ 
+Analysis 
+• Related persona/task: C -P1 beginner learner and C -P2 competitive player enter through the home page.  
+• What the image shows: Play, Puzzles, Learn, Train, Watch, and Community are visible from the start.  
+• HCI reading: strong information scent supports recognition of core chess tasks.  
+• Benefit: users see actions without knowing internal feature names.  
+• Drawback: too many first -level routes can overwhelm beginners.  
+Figure C-02. Chess.com play entry point 
+ 
+Analysis 
+• Related persona /task: C -P2 starts a quick online game with default or custom settings.  
+• What the image shows: board, Start Game control, time control, custom challenge, and friend options.  
+• HCI reading: flexibility and user control reduce entry friction for competitive pla yers. 
+• Benefit: fast start path supports short blitz windows.  
+• Risk: account prompts or setting mismatch can interrupt momentum.  
+  
+
+===== PAGE 11 =====
+Group10-PA1 Product Research  
+Chess.com observed web captures   
+ 
+Figure C-03. Chess.com game board or demo board 
+ 
+Analysis 
+• Related persona/task: C -P2 plays or tests a board state; C -P3 reviews board behavior.  
+• What the image shows: direct board surface, pieces, bot panel, and play controls.  
+• HCI reading: Direct manipulation matches the physical chess -board mental model.  
+• Benefit: users a ct by moving pieces rather than translating commands.  
+• Risk: side panels and ads compete with board attention.  
+Figure C-04. Chess.com puzzle page 
+ 
+Analysis 
+• Related persona/task: C -P1 solves a puzzle and expects learning feedback.  
+• What the image shows: puzz le board, prompt area, side progress path, and ad space.  
+• HCI reading: feedback and learnability are central, but layered onboarding increases load.  
+• Benefit: board supports practice through concrete moves.  
+• Design implication: puzzle feedback should stay clo se to the move and avoid blocking the board.  
+  
+
+===== PAGE 12 =====
+Group10-PA1 Product Research  
+Chess.com observed web captures   
+ 
+Figure C-05. Chess.com Learn page 
+ 
+Analysis 
+• Related persona/task: C -P1 chooses a beginner lesson or study plan.  
+• What the image shows: Learn surface, rank/progress area, play prompt, and ads, but the main lesson list is 
+sparse. 
+• HCI reading: Progressive disclosure is needed because many learning routes appear together.  
+• Drawback: this capture is weak for actual lesson content and should be retaken after t he page fully loads.  
+• Suggested recapture: use the Lessons page after content cards load.  
+Figure C-06. Chess.com navigation menu 
+ 
+Analysis 
+• Related persona/task: C -P1 and C-P3 navigate across Play, Puzzles, Learn, Train, Watch, and Community.  
+• What the image  shows: feature -rich side navigation.  
+• HCI reading: recognition helps repeat users, but choice overload affects first -time users.  
+• Drawback: many primary areas compete before a beginner has a learning strategy.  
+• Design implication: add goal -based onboarding a nd a personal dashboard with pinned tasks.  
+  
+
+===== PAGE 13 =====
+Group10-PA1 Product Research  
+Chess.com observed web captures   
+ 
+Figure C-07. Chess.com feedback and move status 
+ 
+Analysis 
+• Related persona/task: C -P2 plays on mobile with clock and move pressure.  
+• What the image shows: compact start/settings screen rather than in -game feedback or move status.  
+• HCI reading: the current image supports mobile setup density, not post -move feedback.  
+• Impact: this mismatch should be fixed before final submission if C -07 is used for feedback claims.  
+• Suggested recapture: capture an active game board with clock, last move, legal move feedback, or move status 
+visible. 
+Figure C-08. Chess.com mobile layout 
+ 
+Analysis 
+• Related persona/task: C -P3 returns on mobile and needs lightweight recognition.  
+• What the image  shows: compressed feature discovery and account prompts.  
+• HCI reading: small screens increase memory load because feature categories are hidden or condensed.  
+• Impact: returning users may forget where review, lessons, or puzzles live.  
+• Design implication: pro vide recent task shortcuts and pinned personal actions.  
+  
+
+===== PAGE 14 =====
+Group10-PA1 Product Research  
+Chess.com observed web captures   
+ 
+Figure C-06M. Chess.com mobile navigation 
+ 
+Analysis 
+• Related persona/task: mobile users search for core actions through compact controls.  
+• What the image shows: homepage compressed into a narrow mobile layout.  
+• HCI reading: Progressive disclosure saves space but weakens discoverability for hidden routes.  
+• Impact: novice users can miss Learn, Focus Mode, or review paths.  
+• Suggested recapture: open the  mobile menu or sidebar so the hidden navigation choices are visible.  
+Figure C-04A. Chess.com puzzle prompt crop 
+ 
+Analysis 
+• Related persona/task: C -P1 studies one puzzle and needs clear next -move feedback.  
+• What the image shows: board state with highlighted  move context.  
+• HCI reading: dense learning prompts should not obscure the board or increase visual search.  
+• Benefit: cropped evidence shows the exact task object for feedback.  
+• Design implication: use short local prompts and progressive explanation after the  move. 
+  
+
+===== PAGE 15 =====
+Group10-PA1 Product Research  
+FIFA.com HCI  
+ 
+FIFA benefits and drawbacks summary 
+ID Type Screen/flow  HCI mapping  Main implication  
+F-HCI1 Benefit Global navigation  Information scent; Recognition over recall; Efficient task entry  Top task labels help users enter Match Centre, News, Rankings, and Tickets 
+quickly.  
+F-HCI2 Benefit All stories and topics  Information foraging; Hierarchical scanning  Topic/category filters support tournament story browsing.  
+F-HCI3 Benefit Ticket discovery  Credibility; Error prevention; trust  Official ticket wording helps users avoid unreliable third -party routes.  
+F-HCI4 Benefit FIFA+ entry  Feedforward; Clear CTA  Hero and get -started controls explain the next action before watching.  
+F-HCI5 Benefit FIFA+ watch rails  Flexibility; Broad retrieval paths  Live, replay, archive, and documentary rails support different watching contexts.  
+F-HCI6 Drawback  Ecosystem navigation  Context switching; Consistency  Tasks span FIFA.com, Inside FIFA, FIFA+, Store, Collect, and Rewards.  
+F-HCI7 Drawback  FIFA+ handoff  Continuity break; Trust friction  DAZN branding and account expectations can make the user pause.  
+F-HCI8 Drawback  FIFA+ browsing  Visual attention; Choice overload  Dense media rails increase scan cost for highlights o r archive content.  
+F-HCI9 Drawback  Ticket status  Visibility of system status  Repeated-check guidance does not show when availability changes.  
+F-HCI10 Drawback  Story hub Task interruption; Efficiency gap  Article readers must jump elsewhere for scores, tickets, or watch actions.  
+ 
+  
+===== PAGE 16 =====
+Group10-PA1 Product Research  
+Chess.com HCI   
+ 
+Chess.com benefits and drawbacks summary 
+ID Type Screen/flow  HCI mapping  Main implication  
+C-HCI1 Benefit Homepage Information scent; Task signposting  Core actions are visible even before users know feature names.  
+C-HCI2 Benefit Start game flow  Flexibility; User control  Players can start quickly or adjust time control before matching.  
+C-HCI3 Benefit Focus Mode Attention support; Reduced clutter  Distraction reduction helps serious play when discovered.  
+C-HCI4 Benefit Game Review  Feedback; Reflection; Error recovery  A finished game becomes actionable learning through classifications and retry.  
+C-HCI5 Benefit Analysis Board Direct manipulation; Expert control  Users can set up positions, load FEN/PGN, and compare lines.  
+C-HCI6 Benefit Study Plans Progressive disclosure; Guidance  Beginner training becomes less ambiguous through curated plans.  
+C-HCI7 Drawback  Product surface  Choice overload  Beginners see too many primary routes before knowing the best sequence.  
+C-HCI8 Drawback  Premove Speed vs accuracy; Error risk  Queued legal moves can become bad after an unexpected reply.  
+C-HCI9 Drawback  Focus discovery  Discoverability; Hidden controls  Hover-only controls mean some users never find Focus Mode.  
+C-HCI10 Drawback  Analysis screens  Cognitive load; Expectation mismatch  Charts, lines, classifications, and gates can overwhelm review tasks.  
+ 
+  
+===== PAGE 17 =====
+Group10-PA1 Product Research  
+Comparison  
+ 
+Dimension  FIFA.com  Chess.com  
+Task type  Browse, compare, follow, verify, then hand off to FIFA+ for video.  Do, review, analyze, train, and enter competitive flows.  
+Target users  Fans checking official football information, tickets, rankings, and video.  Players who want fast games, feedback, training, and fair competitive play.  
+Information scent  Strong for official labels; weaker when tasks cross properties.  Strong action labels o n homepage and support flows.  
+Learnability Easy for news/rankings; ticket and watch handoff need clearer status.  Easy to start; analysis and training depth require guidance.  
+Cognitive load  Browse surfaces and rails can become dense.  Feature breadth and a nalysis controls can overwhelm novices.  
+Error risk Wrong ticket source or lost context during handoff.  Queued premove, hidden Focus Mode, and access -limit interruptions.  
+Best next solution  Task-first navigation, handoff explainer, ticket dashboard, article utility rail.  Goal-based onboarding, beginner analysis preset, premove preview, Focus coachmark.  
+ 
+  
+===== PAGE 18 =====
+Group10-PA1 Product Research  
+Difficulty  
+ 
+ID Product  Difficulty Severity Connected solution direction 
+F-D1 FIFA Ecosystem sprawl across sibling FIFA properties High Task-first global navigation and intent chips. 
+F-D2 FIFA FIFA+ handoff breaks continuity High Handoff explainer and cross-property breadcrumb. 
+F-D3 FIFA FIFA+ scan overload Medium Media category chips and clearer rails. 
+F-D4 FIFA Ticket status uncertainty High Ticket status dashboard and official alerts. 
+F-D5 FIFA Browse-first friction for quick utilitarian tasks Medium Article utility rail and contextual task links. 
+C-D1 Chess.com Menu and feature overload for novices High Goal-based onboarding and personal dashboard. 
+C-D2 Chess.com Analysis overload High Beginner analysis preset and inline glossary. 
+C-D3 Chess.com Premium gating interrupts learning momentum Medium Preview limits and clear access labeling. 
+C-D4 Chess.com Premove blunder risk High Premove queue preview and fast clear shortcut. 
+C-D5 Chess.com Focus Mode is hard to discover Medium Focus Mode coachmark and visible entry. 
+ 
+  
+===== PAGE 19 =====
+Group10-PA1 Product Research  
+Reference  
+ 
+• [1] Inside FIFA, official FIFA news and navigation. https://inside.fifa.com/  
+• [2] All stories and topics, official FIFA topic index. https://inside.fifa.com/all -stories 
+• [3] FIFA World Cup 2026 Blog, official tournament story hub. https://inside.fifa.com/blo gs/fwc-2026 
+• [4] FIFA World Cup 26 Ticketing Programme media release.  
+• [5] FIFA World Cup 2026 Last -Minute Sales Phase media release.  
+• [6] Watch FIFA+ Live Stream Online, official FIFA+ destination. https://www.plus.fifa.com/  
+• [7] Match Centre, official FIFA f ixtures and results page. https://www.fifa.com/en/match -centre 
+• [8] FIFA/Coca -Cola Men's World Ranking. https://inside.fifa.com/fifa -world-ranking/men 
+• [9] Tickets and Hospitality, official FIFA ticket entry point. https://www.fifa.com/en/tickets  
+• [10] Chess. com homepage. https://www.chess.com/  
+• [11] Chess.com help: How do I start a game?  
+• [12] Chess.com help: What are pre -moves? 
+• [13] Chess.com help: Focus Mode.  
+• [14] Chess.com help: Board size and hover controls.  
+• [15] Chess.com help: Game Review.  
+• [16] Chess.com help: Game Analysis.  
+• [17] Chess.com help: Analysis Board.  
+• [18] Chess.com help: Puzzles.  
+• [19] Chess.com help: Lessons.  
+• [20] Chess.com article: Study Plans for All Levels.  
+• [21] Chess.com help: Tournament schedules.  
+• [22] Chess.com fair -play page. 

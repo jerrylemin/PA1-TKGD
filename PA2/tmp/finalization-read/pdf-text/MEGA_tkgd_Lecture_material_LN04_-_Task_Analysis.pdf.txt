@@ -1,0 +1,676 @@
+===== PAGE 1 =====
+User Research & Task Analysis
+
+===== PAGE 2 =====
+2
+6/5/2026
+User analysis
+◼ The process of identifying and describing the users who use the 
+system
+◼ Characteristics of target users
+❑ Age, gender, culture, language
+❑ Computer experience
+❑ Domain experience, application experience
+❑ Usage frequency
+❑ Physical limitations
+❑ Education
+❑ Motivation
+❑ Work environment
+❑ User relationships
+❑ User social status 
+(e.g., role, position)
+❑ Etc. 
+Image: growthpixel.com
+
+===== PAGE 3 =====
+3
+6/5/2026
+User analysis (cont’d)
+◼ Description of target users
+❑ General information
+❑ User characteristics (discussed above)
+❑ User environment 
+◼ Where the tasks will be performed?
+❑ Major goals of the job
+◼ What is the end result?
+❑ User roles (e.g., buyer, seller)
+◼ if any
+❑ User preferences
+❑ Relationships among users
+◼ if any
+Images: openclipart.org
+
+===== PAGE 4 =====
+4
+6/5/2026
+User analysis (cont’d)
+◼ Example system: HaiLua.com.vn
+❑ A web-based application for users to sell and buy farming products
+❑ Key features
+◼ Post products to sell (by famers and others)
+◼ Search for products
+◼ Buy products
+◼ Compare products’ prices and other characteristics
+◼ Rate sellers and buyers
+◼ Provide comments or feedback on products or transactions
+◼ User analysis
+❑ By role
+◼ Buyers/customers
+◼ Sellers (farmers and traders) 
+◼ Administrator
+❑ By language/culture
+◼ Focusing on Vietnam farming products from Vietnamese farmers
+
+
+===== PAGE 5 =====
+5
+6/5/2026
+User analysis (cont’d)
+◼ Techniques to do user analysis 
+❑ Recording
+❑ Interviews
+❑ Questionnaires 
+❑ Observation
+❑ Combination of the above
+◼ Obstacles/challenges
+❑ Designers and users are sometimes isolated
+❑ Users may be overlooked by designers
+◼ Designers may make wrong assumptions about users
+❑ It’s expensive and difficult to talk to some users
+◼ E.g., high-ranking people, doctors, executives 
+
+===== PAGE 6 =====
+6
+6/5/2026
+Task analysis
+◼ The process of analyzing and documenting the 
+tasks that the system may provide to users
+❑ What needs to be done (goal)
+❑ What conditions to do the task (precondition)
+❑ What steps to be taken (subtasks)
+◼ Each task is often a goal to achieve by users
+◼ Task analysis is an early step in UI design that 
+provides basis for 
+❑ UI designing
+❑ UI evaluation and improvement
+❑ User documentation
+
+===== PAGE 7 =====
+7
+6/5/2026
+Task analysis procedure
+◼ Two main steps
+1. Model tasks
+❑ Gathering information 
+❑ Describing tasks into requirements
+2. Evaluate and refine
+❑ Review and update requirements
+
+
+===== PAGE 8 =====
+8
+6/5/2026
+Model tasks
+◼ Create a list of all tasks to be performed by users
+◼ Rank the tasks by frequency of use and importance
+◼ Gather other detailed information about each task
+◼ Model the relationships (e.g., using use-case model)
+❑ between tasks and users
+❑ among tasks
+◼ Present/describe tasks in forms of documents, 
+diagram, etc. 
+
+===== PAGE 9 =====
+9
+6/5/2026
+
+
+===== PAGE 10 =====
+10
+6/5/2026
+
+
+===== PAGE 11 =====
+11
+6/5/2026
+
+
+===== PAGE 12 =====
+12
+6/5/2026
+Techniques to do task analysis
+◼ Techniques to gather in formation (same as doing user 
+analysis)
+❑ Data recording
+❑ Interviews
+❑ Questionnaires 
+❑ Observation
+❑ Combination of the above
+◼ Technique to analyze
+❑ Task decomposition
+
+===== PAGE 13 =====
+13
+6/5/2026
+Data recording
+◼ Documents, manuals, instructions
+◼ Notes, audio, photographs
+◼ Notes + photographs
+◼ Audio + photographs
+◼ Video
+
+
+===== PAGE 14 =====
+14
+6/5/2026
+Observation
+◼ Direct observation
+❑ in the field or in controlled environments
+❑ Structuring frameworks
+❑ Think-aloud protocol
+◼ Person talks about what they are doing, while they are doing it 
+(or just before or after)
+◼ Observer can ask probe questions
+❑ Probe questions affect performance, as does thinking aloud
+◼ Indirect observation
+❑ tracking users’ activities
+◼ Physical location/movement
+◼ Interaction logging, timers
+
+===== PAGE 15 =====
+Observing People
+What do we "see"?
+• Opportunities for new designs
+• Breakdowns
+• Workarounds
+• Mismatches between what users say and do
+
+===== PAGE 16 =====
+Observation
+In the user's own environment
+Observation of everyday tasks
+Why are work-arounds opportunities for new designs?
+Why are breakdowns opportunities for new designs?
+Why are unexpected uses opportunities for new designs? User customization?
+
+===== PAGE 17 =====
+LOOK at what users really do
+• Behavioral Archaelology
+• Behavioral Mapping
+• Fly on the Wall
+• Guided Tours
+• Personal Inventory
+• Rapid Ethnography
+• Shadowing
+• Social Network Mapping
+• Still-Photo Survey
+• Time-Lapse Video
+
+===== PAGE 18 =====
+
+
+===== PAGE 19 =====
+Example
+Jofish Kaye, Yahoo Research
+• To understand people’s personal financial practices, had them empty 
+their wallets and talk through the contents
+
+
+===== PAGE 20 =====
+Personal Inventory
+Quick Activity: Personal inventory of my wallet. 
+
+===== PAGE 21 =====
+
+
+===== PAGE 22 =====
+
+
+===== PAGE 23 =====
+23
+6/5/2026
+Interviews
+◼ Structured
+❑ tightly scripted, often like a questionnaire
+❑ replicable but may lack richness
+◼ Unstructured
+❑ not directed by a script
+❑ rich but not replicable
+◼ Semi-structured
+❑ guided by a script but interesting issues can be explored in 
+more depth
+❑ can provide a good balance between richness and 
+replicability
+
+===== PAGE 24 =====
+Relying on what users say
+Can we rely on what users say about what they want in a new 
+design?
+• Very carefully
+• "Henry Ford:" “If I had asked my customers what they wanted, they would have said 
+a faster horse."
+It is better to watch what they do than to go only on what they say
+• Mismatches may hold keys to new designs
+
+===== PAGE 25 =====
+Users' words are unreliable
+People are notoriously bad at predicting what they would use or 
+would prefer when it is only hypothetical
+They can much better respond to actual, concrete things, or make 
+comparisons
+This highlights the importance of observation and of prototypes
+
+===== PAGE 26 =====
+Users can however… 
+Tell you what they are doing right now
+Tell you how they are feeling right now
+Tell you what their goal is right now
+
+===== PAGE 27 =====
+Why can we not only look?
+Cannot necessarily get motivations from looking by itself
+Can’t get internal thought processes
+Can’t understand hidden motives
+Often takes too much time, not easily scalable
+Not all situations are easily observable (e.g., disaster settings, police work)
+
+===== PAGE 28 =====
+An example
+• A taxi driver was asked to describe how he starts his day. 
+He said “I just start my taxi in the morning and go about 
+looking for passengers.” He wasn’t able to give any 
+details. 
+
+===== PAGE 29 =====
+An example
+• A taxi driver was asked to describe how he starts his day. He 
+said “I just start my taxi in the morning and go about looking for 
+passengers.” He wasn’t able to give any details. 
+• After some time, the interviewer tried a different track – 
+“Imagine that you are going on a trip to your home town 
+today and you want me to drive your taxi while you are 
+away. I am a good driver, but I have never driven a taxi 
+before. Can you teach me how to get ready to drive your 
+taxi every morning? 
+
+===== PAGE 30 =====
+An example
+• A taxi driver was asked to describe how he starts his day. He said “I just 
+start my taxi in the morning and go about looking for passengers.” He 
+wasn’t able to give any details. 
+• After some time, the interviewer tried a different track – “Imagine that you 
+are going on a trip to your home town today and you want me to drive your 
+taxi while you are away. I am a good driver, but I have never driven a taxi 
+before. Can you teach me how to get ready to drive your taxi every 
+morning? 
+• “OK, the first thing you should do is wind up the meter. New people 
+often forget to do that. If the meter stops midway during a ride, you 
+will loose money. Next check the level of the fuel. I share my taxi with 
+someone, and before we hand over, we are supposed to bring up the 
+fuel to this half way mark. See it’s fine today, but check every time. 
+Third, check oil. The oil indicator does not work and you will have to 
+open the bonnet…” he went about, demonstrating each action. 
+
+===== PAGE 31 =====
+
+
+===== PAGE 32 =====
+TRY
+
+===== PAGE 33 =====
+
+
+===== PAGE 34 =====
+
+
+===== PAGE 35 =====
+
+
+===== PAGE 36 =====
+
+
+===== PAGE 37 =====
+37
+6/5/2026
+Questionnaires
+◼ Paper, email and the web used for dissemination
+◼ Questions can be closed or open
+❑ closed questions are easier to analyze, and may be done 
+by computer
+◼ Can be administered to large populations
+◼ Sampling can be a problem when the size of a 
+population is unknown 
+❑ common online
+◼ Tool
+❑ https://surbee.io 
+
+===== PAGE 38 =====
+38
+6/5/2026
+Online questionnaires
+◼ Advantages
+❑ Responses are usually received quickly
+❑ Data can be collected directly into database for analysis
+❑ Time required for data analysis is reduced
+❑ Errors can be corrected easily
+❑ Many online survey tools available
+◼ E.g., survey monkey
+◼ Problems
+❑ Sampling is problematic if population size is unknown
+❑ Preventing individuals from responding more than once
+❑ Delayed response
+
+===== PAGE 39 =====
+39
+6/5/2026
+Task decomposition
+◼ Aims
+❑ describe the actions people do
+❑ describe order of subtasks
+❑ structure them within task subtask hierarchy
+◼ Hierarchical Task Analysis (HTA)
+❑ introduced by Annett and Duncan (1967) to evaluate an 
+organization’s training needs
+❑ very useful for analyzing and representing the behavioral 
+aspects of complex tasks
+❑ now widely used in interface design
+
+===== PAGE 40 =====
+40
+6/5/2026
+Hierarchical Task Analysis (HTA)
+◼ Breaks tasks into subtasks and operations or 
+actions
+❑ These components are represented using a structure chart
+◼ Includes 
+❑ identifying and categorizing tasks
+❑ identifying the subtasks 
+❑ checking the overall accuracy of the model
+◼ Useful for UI design 
+❑ Enabling designers to envision the goals, tasks, subtasks, 
+operations, and plan essential to users’ activities
+
+===== PAGE 41 =====
+41
+6/5/2026
+Generating the Hierarchy
+1. Start from overall goal, e.g. clean the house
+2. Get list of tasks
+3. Break down into numbered sub-tasks
+❑ Group tasks into higher level tasks
+❑ Decompose lowest level tasks further
+4. Describe each sub-task
+❑ How do we know when to stop?
+◼ Is “empty the dust bag” simple enough?
+
+===== PAGE 42 =====
+42
+6/5/2026
+HTA for HaiLua.com.vn
+1. Buy product
+1.1 Search 
+products
+1.1.1 View 
+products
+1.1.1.1 Add to 
+shopping cart
+1.1.1.2 Remove 
+products from 
+shopping cart
+1.1.1.3 Edit 
+shopping cart
+ 1.1.1.4 Check out
+1.1.1.4.1 Provide 
+credit card 
+information
+1.1.1.4.2 Provide 
+shopping 
+information
+1.1.1.4.3 Submit 
+order
+1.1.1.4.3.1 View 
+confirmation
+1.1.1.4.3.2 View 
+receipt
+1.1.1.4.3.3 
+Receive product
+1.2 Compare 
+products
+
+===== PAGE 43 =====
+43
+6/5/2026
+Task analysis procedure
+◼ Two main steps
+1. Model tasks
+❑ Gathering information 
+❑ Describing tasks into requirements
+2. Evaluate and refine requirements
+❑ Review and update requirements
+
+
+===== PAGE 44 =====
+44
+6/5/2026
+Evaluate and refine requirements
+◼ Evaluate, simplify and fix issues in the task 
+description
+◼ Evaluation techniques
+❑ Walk-through
+❑ Formal review/inspection
+❑ Offline review
+❑ Online review
+
+===== PAGE 45 =====
+45
+6/5/2026
+Domain analysis
+◼ The process identifying data models for the system 
+domain
+❑ People and things
+❑ How they are related
+◼ Outputs
+❑ Object or class models (e.g., using UML diagram)
+❑ Data models (Entity Relationship models)
+
+===== PAGE 46 =====
+46
+6/5/2026
+Domain analysis (cont’d)
+◼ HaiLua.com.vn’s class model (high-level)
+Admin
+Farmer
+Customer
+Product
+ShoppingCart
+0..* 0..*
+1
+0..*
+0..*
+0..*
+0..*
+1
+0..*
+0..*
+
+===== PAGE 47 =====
+47
+6/5/2026
+Requirements document
+◼ User analysis
+❑ Description of target users
+◼ General information
+◼ User characteristics (discussed above)
+◼ User environment 
+❑ Where the tasks will be performed?
+◼ Major goals of the job
+❑ What is the end result?
+◼ User roles (e.g., buyer, seller)
+❑ if any
+◼ User preferences
+◼ Relationships among users
+❑ if any
+
+===== PAGE 48 =====
+48
+6/5/2026
+Requirements document (cont’d)
+◼ Task analysis, for each task
+◼ Goal, precondition, subtasks
+◼ Where the task is performed
+❑ On Internet, desktop, mobile
+❑ At a kiosk, a workstation
+◼ How often is the task performed?
+❑ every hour, every day
+❑ once a day, once a month 
+◼ What are resource constraints
+❑ One second, one minute, or not constrained 
+◼ How the task is learned?
+❑ Training, install-and-use, by trying, by watching others
+◼ Task exceptions
+❑ What are exceptions for the task and how exceptions are handled
+◼ Who else are involved in the task
+
+===== PAGE 49 =====
+49
+6/5/2026
+Requirements document (cont’d)
+◼ User and Task analysis
+❑ Use-case model
+◼ Domain analysis
+❑ Object model
+❑ ER model
+
+===== PAGE 50 =====
+50
+6/5/2026
+Team work
+◼ Teams in this exercise are the same as those of 
+your projects
+◼ Two team members who are BA go to another team 
+to interview several potential users about BA’s 
+product
+❑ Record and summarize user characteristics and tasks
+◼ Time
+❑ Interview: 15 minutes
+❑ Report: 10 minutes (5 minutes x 2 teams) 
+
+===== PAGE 51 =====
+51
+6/5/2026
+PERSONA
+
+===== PAGE 52 =====
+52
+6/5/2026
+a.k.a. Personas
+
+===== PAGE 53 =====
+53
+6/5/2026
+
+
+===== PAGE 54 =====
+54
+6/5/2026
+
+
+===== PAGE 55 =====
+55
+6/5/2026
+An example of
+User Persona
+
+===== PAGE 56 =====
+56
+6/5/2026
+Personas
+
+
+===== PAGE 57 =====
+57
+6/5/2026
+Personas
+
+
+===== PAGE 58 =====
+58
+6/5/2026
+Personas
+
+
+===== PAGE 59 =====
+59
+6/5/2026
+Personas
+
+
+===== PAGE 60 =====
+60
+6/5/2026
+Persona
+
+
+===== PAGE 61 =====
+61
+6/5/2026
+Teamwork
+◼ Work in your team
+◼ Interview the potential user in your team or the 
+person who knows most about your users
+◼ Draw a persona for the user
+◼ Describe the user 
+
+
+===== PAGE 62 =====
+62
+6/5/2026
+Over-design UI
+Source: http://mobile.smashingmagazine.com/2009/07/21/iphone-apps-design-mistakes-overblown-visuals/
+Over-design Good design
+
+===== PAGE 63 =====
+63
+6/5/2026
+iPhone Mail vs. Yahoo Finance
+touchable
+untouchable
+Consistent design Inconsistent design 
+
+===== PAGE 64 =====
+64
+6/5/2026
+Notepad++ (Preferences Dialog)
+Inconsistent grouping: two top groups have only one item each. 
+“Show status bar” does not belong to any group
+
+===== PAGE 65 =====
+65
+6/5/2026
+MS PowerPoint vs. Notepad++
+◼ Toolbar buttons are large and with labels
+◼ Toolbar buttons are small and without labels
+
+
+===== PAGE 66 =====
+66
+6/5/2026
+Nguyenkim.com on 8/3
+
+
+===== PAGE 67 =====
+67
+6/5/2026
+chinhphu.vn
+
+
+===== PAGE 68 =====
+68
+6/5/2026
+Videos
+◼ Others
+❑ http://www.dump.com/2011/02/12/a-day-made-of-glass-
+cornings-vision-for-the-future-with-specialty-glass-at-the-
+heart-of-it-video/ 
+❑ Starfire 
+◼ http://www.youtube.com/watch?v=NKJNxgZyVo0 

@@ -1,0 +1,11 @@
+﻿research_question,persona,task,screenshot_evidence,pa1_finding,affinity_cluster,tough_problem,concept_alternative,use_case,report_section
+RQ-F1: How is a quick fixture/result check performed?,F-P1; F-P2,FR-T1,F2-E03; F2-E04; F2-E17,F-D5,FIFA-A1; FIFA-A2; FIFA-A5,Secondary,F-A1,F-UC01,UserResearch §6; UserAnalysis §4
+RQ-F2: How is official World Cup information found?,F-P2; F-P3,FR-T2,F2-E05; F2-E06; F2-E07; F2-E08,F-D5,FIFA-A1; FIFA-A2,Secondary,F-A1,F-UC01,UserResearch §6; UserAnalysis §4
+RQ-F3: What status is visible before ticket action?,F-P3,FR-T3,F2-E09; F2-E18,F-D4,FIFA-A3,TP-FIFA,F-A1,F-UC01; F-UC02; F-UC03; F-UC04,UserResearch §6/§10; UserAnalysis §6/§9; ProjectProposal §2/§4; UseCaseDocument §4-§5
+RQ-F4: What happens at a partner/property boundary?,F-P3,FR-T4,F2-E10; F2-E11; F2-E12; F2-E13,F-D2; F-D3,FIFA-A4,TP-FIFA,F-A2,F-UC05; F-UC06,UserResearch §6/§10; UserAnalysis §6/§9; ProjectProposal §2/§4; UseCaseDocument §4-§5
+RQ-F5: How can future action replace repeated checking?,F-P3,FR-T3,F2-E09; F2-E18,F-D4,FIFA-A3,TP-FIFA,F-A3,F-UC04; F-UC06,ProjectProposal §4/§6; UseCaseDocument §5/§8
+RQ-C1: What choices precede game or bot play?,C-P1; C-P2; C-P3,CR-T1,C2-E02; C2-E03; C2-E04; C2-E13; C2-E16,C-D1,CHESS-A1; CHESS-A2,Secondary,C-A1,C-UC01,UserResearch §6; UserAnalysis §4
+RQ-C2: How is puzzle action signposted?,C-P1,CR-T2,C2-E05; C2-E06; C2-E14,C-D1,CHESS-A3,Secondary,C-A1,C-UC04; C-UC06,UserResearch §6; UseCaseDocument §7
+RQ-C3: How is a beginner learning path continued?,C-P1; C-P3,CR-T3,C2-E07; C2-E08; C2-E09; C2-E12; C2-E15,C-D1,CHESS-A4; CHESS-A6,TP-CHESS,C-A1; C-A2,C-UC02; C-UC06,UserResearch §6/§10; UserAnalysis §6/§9; ProjectProposal §2/§5; UseCaseDocument §6-§7
+RQ-C4: What is the next action at analysis entry?,C-P1; C-P3,CR-T4,C2-E10,C-D2,CHESS-A5,TP-CHESS,C-A1,C-UC01; C-UC02; C-UC03; C-UC04; C-UC05,UserResearch §6/§10; UserAnalysis §6/§9; ProjectProposal §2/§5; UseCaseDocument §6-§7
+RQ-C5: Can review be organized as a comprehensible narrative?,C-P1; C-P3,CR-T4,C2-E08; C2-E10,C-D2,CHESS-A5,TP-CHESS,C-A3,C-UC03; C-UC04; C-UC06,ProjectProposal §5/§6; UseCaseDocument §7/§8

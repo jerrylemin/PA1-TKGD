@@ -1,0 +1,326 @@
+===== PAGE 1 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+User Analysis  |  Group10  |  1
+PROJECT ASSIGNMENT 2
+Group10-PA2 User Analysis
+Evidence-derived prework for group brainstorming and prioritization
+FIFA.com and Chess.com
+Course CSC13112 - UI/UX Design, FIT-HCMUS
+Group Group10
+Team
+Le Minh (21127645); Nguyen Vu Bach (21127224); 
+Pham Nguyen Gia Bao (20127119); Trang Minh Nhut 
+(22127318)
+Evidence date Local evidence audited through 30 July 2026
+Document type Evidence-based redesign report
+Status INCOMPLETE - verified group brainstorming evidence is 
+absent
+
+===== PAGE 2 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+User Analysis  |  Group10  |  2
+Contents
+1. Requirement status and evidence boundary  ...........  3
+2. Required real-session protocol  .....................  3
+3. Analyst prework legend and note inventory  ..........  3
+4. Readable affinity views  ............................  5
+5. Candidate ideas retained for a future group session  ....  6
+6. Provisional tough problems  .........................  7
+7. Scoring formula and missing consensus record  .......  7
+8. Dimension-by-dimension rationale and ownership gap  ....  8
+9. Provisional design requirements  ....................  8
+10. Traceability, limitations, and completion gate  ....  9
+Appendix A. Full 55-note analyst prework  ..............  9
+
+===== PAGE 3 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+User Analysis  |  Group10  |  3
+1. Requirement status and evidence boundary
+Requirement 2 blocker: PA2 requires real group brainstorming. No verified date, duration, 
+participant list, tool/export, raw-note generation record, clustering record, votes, scoring sheet, 
+consensus record, or board screenshot/export was found. This report therefore remains incomplete.
+The material below is analyst prework derived from validated screenshots, PA1 findings, and the User 
+Research task analysis. It must not be presented as a group meeting or group consensus.
+2. Required real-session protocol
+Required field Current status Completion evidence needed
+Date and duration Missing Dated session record with start/end 
+or duration.
+Participants Missing Verified attendee list; do not infer 
+from roster.
+Tool and board Missing Real board screenshot/export from 
+the session.
+Raw note generation Missing Unclustered notes with authorship or 
+session provenance.
+Clustering Missing Record of how notes moved into 
+FIFA and Chess themes.
+Voting/scoring Missing Raw individual votes or an explicit 
+consensus record.
+Decisions and ownership Missing Decision log naming owner and 
+affected requirement.
+When supplied, the session should diverge before converging, compare alternatives, and document 
+review/evaluation as part of an iterative, user-centered design process (LN03 - UI Design Process, pp. 
+19, 23-24, 30).
+3. Analyst prework legend and note inventory
+ [OBS] = visible screenshot state.
+ [PA1] = inherited PA1 report finding with report/page reference.
+ [IDEA] = design inference or proposal, never observed behavior.
+ No note label establishes frequency, severity, vote, or user preference.
+Cluster Representative notes Evidence basis
+FIFA-A1/A2 Task entry, date/filter scanning, 
+mixed result types, interruption.
+F2-E01-E05; PA1 ProductResearch 
+pp. 4-6
+FIFA-A3
+Ticket cards show tournament-
+specific actions but not a 
+consolidated comparison surface in 
+the capture.
+F2-E09/E18; F-D4, PA1 
+PotentialSolutions p. 8
+
+===== PAGE 4 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+User Analysis  |  Group10  |  4
+Cluster Representative notes Evidence basis
+FIFA-A4
+FIFA+ entry, DAZN brand/account 
+context, consent, and sibling-
+property vocabulary change.
+F2-E10-E16; F-D2, PA1 
+PotentialSolutions p. 6
+FIFA-A5 Long mobile match, ticket, and article 
+surfaces. F2-E17-E20
+CHESS-A1-A4
+Many first-level task/setup routes; 
+puzzle and lesson continuation 
+artifacts.
+C2-E01-E09/E12-E16; C-D1, PA1 
+PotentialSolutions p. 11
+CHESS-A5
+Analysis entry shows multiple 
+setup/import paths and Start 
+Analysis; no completed review is 
+visible.
+C2-E10; C-D2 continuity only, PA1 
+PotentialSolutions p. 12
+CHESS-A6
+Promotional/long-page content near 
+learning; ambiguous ad capture is 
+restricted.
+C2-E07/E11/E15; evidence-
+validation.md
+
+===== PAGE 5 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+User Analysis  |  Group10  |  5
+4. Readable affinity views
+Figure UA-F01. FIFA evidence-derived affinity prework. This is not a real brainstorming-board export 
+and does not satisfy Requirement 2.
+Source: generated-diagrams/affinity-fifa.png
+Related: FIFA-A1-FIFA-A5; TP-FIFA
+
+===== PAGE 6 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+User Analysis  |  Group10  |  6
+Figure UA-C01. Chess evidence-derived affinity prework. This is not a real brainstorming-board export 
+and does not satisfy Requirement 2.
+Source: generated-diagrams/affinity-chess.png
+Related: CHESS-A1-CHESS-A6; TP-CHESS
+5. Candidate ideas retained for a future group session
+Problem family Concept candidates Evidence/idea status
+Ticket decision surface
+F-A1 Status Dashboard; F-A2 
+Guided Ticket Concierge; F-A3 Alert-
+First Ticket Planner.
+Proposal ideas linked to F2-E09/E18 
+and F-D4.
+Partner handoff Partner/domain preview; Continue or 
+Stay; return-path preservation.
+Proposal ideas linked to F2-E10/E11 
+and F-D2.
+Beginner review entry
+C-A1 Beginner Analysis Preset; C-
+A2 Conversational Coach; C-A3 
+Visual Game Story.
+Proposal ideas linked narrowly to 
+C2-E10 entry state plus C-D2.
+Learning continuation
+One recommended next action; 
+relevant lesson/puzzle; advanced 
+detail on demand.
+Proposal ideas linked to 
+C2-E07/E08/E15 and C-D1.
+
+===== PAGE 7 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+User Analysis  |  Group10  |  7
+6. Provisional tough problems
+TP-FIFA (provisional): On the captured FIFA ticket landing decision surface, tournament cards 
+expose different visible actions, while a consolidated comparison of sale, resale, hospitality, waiting, 
+availability, freshness, and partner destination is not visible. This is not a universal claim about every 
+FIFA ticket channel.
+HMW-F: How might a responsive web redesign help a ticket planner compare governed visible 
+states and review the official destination before choosing act, wait, continue, or stay?
+TP-CHESS (provisional): At the captured Chess.com analysis-entry state, a beginner or returning 
+player sees multiple setup/import paths and Start Analysis, but the screenshot does not show a 
+completed review or a plain-language next-learning explanation. The problem is entry orientation, 
+not proven completed-review overload.
+HMW-C: How might a responsive web redesign make one beginner review path explicit at entry, 
+then connect a critical position to optional advanced detail and relevant practice?
+7. Scoring formula and missing consensus record
+Proposed group formula: Total = Severity + Frequency + Risk + Reach + Evidence + PA3 relevance, 
+with each dimension scored 1-5. A valid total requires the raw votes or a documented consensus for 
+every dimension.
+Dimension 1 anchor 3 anchor 5 anchor Required 
+rationale/owner
+Severity Minor inconvenience Meaningful friction
+Blocks 
+confidence/comprehe
+nsion
+Named voter or 
+consensus record
+Frequency Rare assumption Occasional 
+assumption
+Repeated/frequent 
+evidence
+Direct evidence or 
+explicit assumption
+Risk Negligible Moderate Trust/error critical Evidence-linked 
+rationale
+Reach Narrow role One role class Multiple roles/devices Scope rationale
+Evidence Single ambiguous 
+item Multiple aligned items Direct + PA1 
+triangulation
+Exact evidence 
+IDs/pages
+PA3 relevance Weak Useful Two-scenario core Concept/prototype 
+rationale
+Candidate Severity Frequency Risk Reach Evidence PA3 Total / 
+owner
+TP-FIFA Not voted Not voted Not voted Not voted F2-E09/E18 Not voted Not 
+
+===== PAGE 8 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+User Analysis  |  Group10  |  8
+Dimension 1 anchor 3 anchor 5 anchor Required 
+rationale/owner
++ F-D4
+computed; 
+owner 
+unavailable
+TP-CHESS Not voted Not voted Not voted Not voted
+C2-E10 + C-
+D2; entry-
+only 
+limitation
+Not voted
+Not 
+computed; 
+owner 
+unavailable
+The two problems are retained provisionally to keep the Proposal and Use Case documents internally 
+traceable. Their selection is an evidence-driven editorial decision, not a fabricated group vote.
+8. Dimension-by-dimension rationale and ownership gap
+Problem / dimension Provisional rationale Verified owner
+TP-FIFA severity/risk
+Ticket planning may cross 
+identity/payment boundaries; PA1 
+documents trust sensitivity (PA1 
+PeerReview pp. 2-3).
+None recorded
+TP-FIFA frequency/reach
+Repeated checking and multi-device 
+scope are PA1/design assumptions, 
+not PA2 measurements.
+None recorded
+TP-FIFA evidence
+F2-E09/E18 show ticket landing/card 
+states; F2-E10/E11 show 
+destination/context changes.
+None recorded
+TP-FIFA PA3 relevance
+Three distinct dashboard, concierge, 
+and alert concepts can test the same 
+decision surface.
+None recorded
+TP-CHESS severity/risk
+C2-E10 supports entry-orientation 
+uncertainty only; no completed-
+review error outcome is observed.
+None recorded
+TP-CHESS frequency/reach
+Beginner/returning scope is 
+provisional; no PA2 participant 
+frequency exists.
+None recorded
+TP-CHESS evidence
+C2-E10 plus C2-E07/E08/E15 and 
+PA1 C-D1/C-D2 establish continuity, 
+not measured overload.
+None recorded
+TP-CHESS PA3 relevance
+Three preset, conversational, and 
+narrative concepts can be compared 
+as parallel prototypes.
+None recorded
+9. Provisional design requirements
+Req. Design requirement Evidence / rationale
+F-R1 Show a plain-language current ticket F2-E09, E18; F-D4
+
+===== PAGE 9 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+User Analysis  |  Group10  |  9
+Req. Design requirement Evidence / rationale
+state before any external exit.
+F-R2
+Compare only governed sale, resale, 
+hospitality, waiting, and availability 
+fields; label unavailable fields rather 
+than inventing them.
+TP-FIFA
+F-R3
+Disclose partner name, destination 
+domain, account boundary, and 
+return path before continuation.
+F2-E10-E13; F-D2
+F-R4
+Encode status with text and icon as 
+well as color; expose last-updated 
+time.
+Trust and accessibility
+C-R1
+Place one explicit Beginner Review 
+entry action before advanced setup 
+paths.
+C2-E10; TP-CHESS
+C-R2
+In the proposed review output, 
+explain one critical position, 
+recommended move, and next 
+learning action in plain language.
+Design hypothesis from C-D2; not 
+captured current output
+C-R3
+Keep engine detail and advanced 
+setup available through explicit 
+progressive disclosure.
+C2-E10
+C-R4
+Provide keyboard and screen-reader 
+labels for every core action; never 
+rely only on color.
+Accessibility
+10. Traceability, limitations, and completion gate
+ Every provisional tough problem links to approved screenshot evidence and a PA1 drawback page.
+ Every Proposal alternative and Use Case ID maps back to one provisional tough problem.
+ No measured improvement, group attendance, note ownership, vote, or consensus is claimed.
+ Completion requires the real group board export, session metadata, raw notes, clustering record, 
+votes/consensus, decisions, and owners.
+Appendix A. Full 55-note analyst prework
+
+===== PAGE 10 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+User Analysis  |  Group10  |  10
+Figure UA-A01. Full 55-note evidence-derived analyst prework. It is not a real group brainstorming-board screenshot/export.
+Source: generated-diagrams/affinity-diagram.png
+Related: All focal tasks and provisional tough problems

@@ -1,0 +1,25 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "capture": "playwright test",
+    "capture:fifa:desktop": "playwright test tests/fifa-desktop.spec.ts",
+    "capture:fifa:mobile": "playwright test tests/fifa-mobile.spec.ts",
+    "capture:chess:desktop": "playwright test tests/chess-desktop.spec.ts",
+    "capture:chess:mobile": "playwright test tests/chess-mobile.spec.ts",
+    "verify": "tsx src/verify-captures.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "csv-stringify": "^6.8.1",
+    "image-size": "^2.0.2",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}

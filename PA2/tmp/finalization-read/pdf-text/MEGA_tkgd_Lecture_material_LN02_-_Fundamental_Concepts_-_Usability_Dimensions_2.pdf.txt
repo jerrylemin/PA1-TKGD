@@ -1,0 +1,764 @@
+===== PAGE 1 =====
+Fundamental Concepts
+
+===== PAGE 2 =====
+Human Capabilities
+
+===== PAGE 3 =====
+•Our Senses
+• How to sense changes/information
+•Our Cognition
+• How we process and interpret input
+•Our Motor System
+• How can we react to input and cognition
+
+===== PAGE 4 =====
+Human Senses
+• Sight, hearing, touch important 
+for the design of current 
+interfaces
+• Others: smell, tastes, kinesthetic
+• Abilities and limitations 
+constrain design space
+
+
+===== PAGE 5 =====
+Human Vision – View Frustum
+
+
+===== PAGE 6 =====
+Human Vision – View Frustum
+
+
+===== PAGE 7 =====
+Human Vision – View Frustum
+Highly detailed
+Mostly movements
+
+===== PAGE 8 =====
+Human Vision – Color Perception
+
+
+===== PAGE 9 =====
+Human Vision – Color Perception
+•
+ 120 millions
+•
+ B/W
+•
+ 1000x more sensitive 
+than cones
+•
+ 6
+-
+ 7 millions
+•
+ 60% R  
+-  
+30% G 
+-  
+10% B
+Rods
+Cones
+
+===== PAGE 10 =====
+Human Vision
+•
+ Color  
+Perception
+•
+ 7
+-
+ 8% of males cannot distinguish red 
+from green
+•
+ 0.4% of women
+•
+ Stereopsis
+•
+ Monocular (
+ color
+ , brightness, shape)
+•
+ Binocular (size, interposition, 
+perspective, parallax) 
+
+
+===== PAGE 11 =====
+1.3
+-
+ 1.7cm
+
+===== PAGE 12 =====
+
+
+===== PAGE 13 =====
+~1.4cm
+~1.4cm
+
+
+===== PAGE 14 =====
+
+
+===== PAGE 15 =====
+
+
+===== PAGE 16 =====
+Audition (Hearing)
+• Capabilities:
+• Pitch – frequency (20 – 20,000 
+Hz)
+• Loudness – amplitude (30 – 100 
+dB)
+• Location (5° source & stream 
+separation)
+• Timbre – type of sound (music 
+instruments)
+
+
+===== PAGE 17 =====
+Touch
+• Three main sensations handled 
+by different types of receptors
+• Pressure (normal)
+• Intense pressure (heat/pain)
+• Temperature (hot/cold)
+• Sensitivity, Dexterity, Flexibility, 
+Speed
+• Where important?
+• Mouse, Keyboards, Buttons, VR, 
+Surgery
+
+
+===== PAGE 18 =====
+Motor System (Our Output System)
+• Capabilities
+• Range of movement, reach, speed, 
+strength, dexterity, accuracy
+Workstation design, device design
+• Often cause of errors
+• Wrong button
+• Double-click vs. Single Click
+• Not-detected mid-air gestures
+• Principles
+• Feedback is important
+• Minimize eye movement
+
+
+===== PAGE 19 =====
+https://www.youtube.com/watch?v=2YduyTzZews
+
+===== PAGE 20 =====
+
+
+===== PAGE 21 =====
+
+
+===== PAGE 22 =====
+LYFT’S USER INTERACTION INSIGHTS
+
+
+===== PAGE 23 =====
+LYFT’S USER INTERACTION INSIGHTS
+
+
+===== PAGE 24 =====
+LYFT’S USER INTERACTION INSIGHTS
+
+
+===== PAGE 25 =====
+SEARCH BAR ACCORDING TO POPULAR DESIGN GUIDELINES
+Google Material Design iOS Material Design
+
+===== PAGE 26 =====
+LYFT’S UNCONVENTIONAL RESEARCH BAR
+
+
+===== PAGE 27 =====
+Human Cognition
+
+===== PAGE 28 =====
+
+
+===== PAGE 29 =====
+
+
+===== PAGE 30 =====
+
+
+===== PAGE 31 =====
+
+
+===== PAGE 32 =====
+
+
+===== PAGE 33 =====
+
+
+===== PAGE 34 =====
+
+
+===== PAGE 35 =====
+
+
+===== PAGE 36 =====
+Human information processing
+(Source: MIT CS Course 6.813/6.831)
+
+===== PAGE 37 =====
+Mini experiment
+• Try to remember items below as many as you can
+TKGD
+Xe đạp
+Nóng Con người
+Trịnh Công Sơn
+CSC13112
+Phần mềm
+ebook
+Google
+Kỹ sư mù sử
+Valentine
+Báo chí
+Nhà đất
+Nhân văn
+U23
+
+
+===== PAGE 38 =====
+Mini experiment (cont’d)
+• How many items do you remember?
+• How could you remember them?
+• familiar?
+• funny?
+• attracting your attention?
+• related? 
+• repeating them?
+
+===== PAGE 39 =====
+Memory
+• Short-term memory (working memory)
+• Small: ~ 7 items or “chunks”
+• Short-lived: ~10 seconds
+• Repeating helps retain chunks
+• Distraction does the opposite 
+• Long-term memory
+• Unlimited size and duration
+• Elaborative rehearshal helps transfer chunks from short-term to long-
+term memory
+Long-term 
+memory
+Short-term 
+memory
+
+
+===== PAGE 40 =====
+Learning
+• A process of transferring and putting 
+information from short-term to long-term 
+memory
+• Implications for user interface design?
+Long-term memory
+Short-term memory
+
+
+===== PAGE 41 =====
+Chunking
+• Chunk is a unit of memory or perception
+• Depends on how the information is presented
+• Depends on what you already know 
+• Linking with the past experience
+H     A    PPY   V   A  L  E     T  I   N   E
+HAPPY   VALENTINE
+Hard to remember all
+Easy remember all
+0888247247 0888.247.247
+323-481-1585
+
+===== PAGE 42 =====
+
+
+===== PAGE 43 =====
+
+
+===== PAGE 44 =====
+
+
+===== PAGE 45 =====
+
+
+===== PAGE 46 =====
+
+
+===== PAGE 47 =====
+iOS Shortcut UIs
+
+===== PAGE 48 =====
+Mr.Porter
+Glanceable UI
+
+===== PAGE 49 =====
+
+
+===== PAGE 50 =====
+Recognition and Recall
+• Recognition
+• Remembering with the help of a visible cue (evidence – bằng chứng)
+• e.g., you recognize your friend easily when seeing his/her face, but you 
+may not remember his/her name.
+
+
+===== PAGE 51 =====
+Recognition and Recall (cont’d)
+• Recall
+• Remembering with no help
+• e.g., you remember a person
+when someone refers to him
+• Do you remember her name?
+• It is easier to recognize than recall things
+• You don’t remember every items in the File menu of Notepad, do you?
+• But you recognize their functions when you look at them
+
+
+===== PAGE 52 =====
+Recognition and Recall (cont’d)
+• Which one is recall and recognition?
+FOR PRESIDENT OF THE UNITED 
+STATES 
+WRITE NAMES OF THE CANDIDATES TO 
+VOTE FOR
+
+===== PAGE 53 =====
+Recognition and Recall (cont’d)
+• Implications
+• Performing operations via visual presentation is more learnable than 
+via command line
+• Direct manipulation is more learnable than other interface styles
+Delete a file name keymap.txtDelete a file name keymap.txt
+What do you need to remember to do?
+
+===== PAGE 54 =====
+Recall in UI
+
+===== PAGE 55 =====
+Recall in UI
+
+
+===== PAGE 56 =====
+Recognition in UI
+
+
+===== PAGE 57 =====
+
+
+===== PAGE 58 =====
+Recognition in UI
+
+
+===== PAGE 59 =====
+Support Recognition in UI
+
+
+===== PAGE 60 =====
+
+
+===== PAGE 61 =====
+
+
+===== PAGE 62 =====
+63
+6/4/2026
+Usability definition
+◼ Usability
+❑ How well users can use the system’s functionality
+◼ Dimensions
+❑ Learnability
+◼ How easy it is to learn and use?
+❑ Efficiency
+◼ How quickly users perform tasks using the UI?
+❑ Memorability 
+◼ How easy it is for users to reestablish proficiency? 
+❑ Errors
+◼ Are the errors committed by users often? Is it easy to recover from errors?
+❑ Satisfaction
+◼ Are users satisfied with the UI?
+
+===== PAGE 63 =====
+USABILITY GOALS AND MEASURES
+Retention over time: How 
+well do users maintain 
+their  knowledge after an 
+hour, a day, or a week?
+Time to learn: How long  does 
+it take for typical  numbers of 
+the user  community to learn 
+how to  use the actions relevant 
+to a  set of tasks?
+Subjective satisfaction: How much 
+did users like using various aspects of 
+the interface?
+Rate of errors by users: 
+How many and what kinds of 
+errors do people make in carrying 
+out the benchmark tasks?
+Speed of performance: How long 
+does it  take to carry out the 
+benchmark tasks?
+Usability 
+Goals
+Increase:
+Satisfaction 
+with your 
+product
+Reduce:
+Learning 
+time
+Reduce:
+Numbers of 
+mistakes
+Reduce:
+Time 
+required to 
+finish tasks
+
+===== PAGE 64 =====
+UX vs. Usability
+Evaluation of understandability vs. holistic design
+Designing it right vs. the right design
+Often, poor usability leads to a bad user 
+experience, but not necessarily
+Remember this?
+
+===== PAGE 65 =====
+USABILITY EVALUATIONS
+
+
+===== PAGE 66 =====
+HOW TO DESIGN FOR A GOOD USABILITY? 
+• Visibility
+• Accessibility
+• Consistency
+• Affordances
+
+===== PAGE 67 =====
+Visibility
+• Operations should be visible to users
+• Unix commands are very invisible vs. Windows’ 
+menus
+• Right click menus are not very visible
+• A reason why iOS does not support much right-click
+• Drag-drop is not either
+• But it’s a direct manipulation style reflecting real world
+• Visibility versus Simplicity
+• More visibility may result in reduced simplicity
+Click OK to enter
+
+===== PAGE 68 =====
+VISIBILITY
+
+
+===== PAGE 69 =====
+VISIBILITY
+
+
+===== PAGE 70 =====
+Accessibility
+
+
+===== PAGE 71 =====
+Accessibility
+
+
+===== PAGE 72 =====
+Accessibility
+
+
+===== PAGE 73 =====
+AFFORDANCES
+
+
+===== PAGE 74 =====
+
+
+===== PAGE 75 =====
+Which one is a button?
+
+===== PAGE 76 =====
+
+
+===== PAGE 77 =====
+
+
+===== PAGE 78 =====
+Natural mapping
+• Physical arrangement of controls matches arrangement of their 
+operations
+• It’s best to map directly, but not always have to be
+• Light switches
+• Car’s turn signals 
+
+
+===== PAGE 79 =====
+Feedback
+• Actions should have immediate effects
+• e.g., push buttons, scroll bars, mouse icons
+• Feedback types
+• Audio
+• Visual 
+• Haptic (giving a feeling, e.g., vibration of a mouse click)
+
+===== PAGE 80 =====
+Consistency
+• Similar things should work similarly
+◼Fonts, colors, icons, layouts, etc.
+• Different things should look different
+• Consistency types
+• Internal: within the system
+• External: across different systems
+• Metaphorical: reflecting real-world objects
+• A print icon is a metaphor of the printer
+
+
+===== PAGE 81 =====
+Concistency (cont’d)
+• Speak the user’s language
+• Use common words, avoid slangs and jargon
+• But avoid wordy and overly verbose
+
+
+===== PAGE 82 =====
+Platform standards
+• Follow guidelines of platforms
+• MS Windows user interface guidelines 
+• Apple user experience guidelines
+• Follow frameworks
+• Various frameworks have their own 
+looks and feels guidelines
+• Learn from existing applications
+
+
+===== PAGE 83 =====
+Efficiency 
+
+===== PAGE 84 =====
+Fitts’s law
+• Time T to move hand to a target of size S at distance D away 
+from the mouse pointer is
+T = a + b * log (D/S + 1)
+- a and b are constants
+- T is dependent only on log (D/S + 1) 
+- log (D/S + 1)  is defined as index of difficulty
+D S
+
+===== PAGE 85 =====
+Implications of Fitts’s law
+• Similar targets should be grouped
+• Targets at screen edge are easy to hit
+• Pie menu is faster to use than linear 
+menu
+• It’s faster 15-20% according to a study by 
+Callahan, 1994
+• Lengthy menus should be avoided
+(Callahan et al. 1994, “An empirical comparison of pie vs. linear menus,” CHI 1991)
+
+===== PAGE 86 =====
+Power law of practice
+• Time Tn to do a task the nth time is
+Tn = T1 * n-a
+a is typically from 0.2 to 0.6
+• Implications
+• With practice, novices get better 
+• But their performance becomes nearly flat
+• Remember the Nielsen’s Learning curve? 
+
+
+===== PAGE 87 =====
+SCROLL BARS & NAVIGATION ARROWS
+
+===== PAGE 88 =====
+Gmail Threw Discard Button Away
+
+
+===== PAGE 89 =====
+POP-UP MENUS
+
+===== PAGE 90 =====
+HISTORY OF MOBILE DROPDOWN LIST UI
+
+===== PAGE 91 =====
+https://support.apple.com/en-vn/guide/iphone/iph145eba8e9/ios 
+
+===== PAGE 92 =====
+
+
+===== PAGE 93 =====
+
+
+===== PAGE 94 =====
+Problem with list
+ -
+ based menu
+
+
+===== PAGE 95 =====
+CIRCULAR MENU
+▪
+ Shorter average acquisition time
+▪
+ Support spatial memory
+
+===== PAGE 96 =====
+
+
+===== PAGE 97 =====
+AUTODESK SKETCHBOOK
+
+===== PAGE 98 =====
+NOKIA (LUMIA) CAMERA APP
+
+===== PAGE 99 =====
+Principles to improve efficiency
+• Make often-used targets big
+• Group targets that are used together
+• Grouped toolbar buttons, menu items, etc.
+• Place oftenly-used menu items on top of menu
+• Use screen corners and edges
+
+
+===== PAGE 100 =====
+Principles to improve efficiency (cont’d)
+• Use keyboard shortcuts and menu accelerators 
+• Predefine a group of styles
+
+
+===== PAGE 101 =====
+Principles to improve efficiency (cont’d)
+• Aggregating and choose most common selections by default
+• Use defaults
+
+
+===== PAGE 102 =====
+Principles to improve efficiency (cont’d)
+• Keep history (e.g., recent files in Word)
+• Auto completion
+• Auto suggestion
+• This makes you lazy, doesn’t it?
+
+
+===== PAGE 103 =====
+Principles to improve efficiency (cont’d)
+• Anticipation
+• Anticipate what users will do next and present 
+corresponding operations for them
+
+
+===== PAGE 104 =====
+Bad menu for efficiency
+• Acrobat Reader for Mac
+
+
+===== PAGE 105 =====
+Mental models 
+• Craik (1943) described mental models as:
+• internal constructions of some aspect of the 
+external world enabling
+predictions to be made
+• Involves unconscious and conscious processes
+• images and analogies are activated
+• Deep versus shallow models
+• e.g. how to drive a car and how it works 
+
+===== PAGE 106 =====
+Mental models 
+• Users develop an understanding of a system through learning 
+about and using it -- mental model:
+• How to use the system (what to do next)?
+• What to do with unfamiliar systems or unexpected situations
+(how the system works)
+• People make inferences using mental models of how to carry 
+out tasks 
+
+===== PAGE 107 =====
+Designs should not 
+confuse/conflict users’ 
+mental model
+
+
+===== PAGE 108 =====
+Interface/Interaction Metaphors
+• A set of  user interface visuals, actions 
+and procedures that exploit specific 
+knowledge that users already have of 
+other domains.
+• The purpose is to give the user 
+instantaneous knowledge about how to 
+interact with the user interface. They are 
+designed to be similar to physical entities 
+but also have their own properties
+
+
+===== PAGE 109 =====
+Metaphors
+• Metaphor is a presentation of real-world in user interface
+• Advantages
+• Highly learnable 
+• Connect with user’s existing model easily 
+• Problems
+• Hard to design metaphors that are appropriate
+• Potentially deceptive and misleading
+• May not be used consistently everywhere
+• Cuturally dependent (localization issue)
+
+
+===== PAGE 110 =====
+Interface/Interaction Metaphors
+
+
+===== PAGE 111 =====
+Interface/Interaction Metaphors
+
+
+===== PAGE 112 =====
+
+
+===== PAGE 113 =====
+
+
+===== PAGE 114 =====
+Interface/Interaction Metaphors
+Digital Finnish Driving License by HiQ
+
+===== PAGE 115 =====
+Interface/Interaction Metaphors
+
+
+===== PAGE 116 =====
+123
+6/4/2026
+Shneiderman’s Eight Golden Rules
+◼ Strive for consistency
+◼ Cater to universal usability
+◼ Offer informative feedback
+◼ Design dialogs to yield closure
+◼ Prevent errors, rapid recovery
+◼ Permit easy reversal of actions
+◼ Support user control
+◼ Reduce memory load
+
+===== PAGE 117 =====
+Conceptual model
+•A conceptual model is the mental model that 
+people carry of how something should be 
+done
+•We describe them in terms of
+• Core activities
+• Objects
+• Interface metaphors 
+
+===== PAGE 118 =====
+FORMULATING A CONCEPTUAL MODEL 
+• What will the users be doing when carrying out 
+their tasks?
+• How will the system support these?
+• What kind of interface metaphor?
+• What kinds of interaction modes and styles to 
+use? 

@@ -1,0 +1,948 @@
+PROJECT ASSIGNMENT 2
+Group10-PA2 Use Case Document
+Actors, system boundaries, flow models, and complete specifications
+FIFA.com and Chess.com
+Contents
+1. Scope  ··············································  3
+2. Actors and external systems  ························  3
+3. Concept-to-use-case mapping  ························  3
+4. FIFA system use case diagram  ·······················  4
+5. FIFA use case specifications  ·······················  4
+6. Chess system use case diagram  ······················  25
+7. Chess use case specifications  ······················  25
+8. Alternative-concept flow models  ····················  46
+9. Nonfunctional and usability requirements  ···········  48
+10. Data and artifact glossary  ························  49
+11. Traceability matrix and open issues  ···············  49
+1. Scope
+This document specifies two conceptual web modules: FIFA Ticket Confidence Layer and Chess Guided Beginner Review. The models define desired behavior for prototyping; they do not claim implementation.
+2. Actors and external systems
+3. Concept-to-use-case mapping
+4. FIFA system use case diagram
+Figure UC-F-SYS. System-level interaction model for the FIFA Ticket Confidence Layer.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\fifa-system-use-cases.svg
+Related: Ticket Buyer; TP-FIFA
+5. FIFA use case specifications
+F-UC01 Select tournament or team
+Main Success Scenario
+1. Actor initiates select tournament or team.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+F-UC02 View current ticket status
+Main Success Scenario
+1. Actor initiates view current ticket status.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+F-UC03 Compare sale, resale, hospitality, and waiting options
+Main Success Scenario
+1. Actor initiates compare sale, resale, hospitality, and waiting options.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+F-UC04 View ticket-category or seat-availability summary
+Main Success Scenario
+1. Actor initiates view ticket-category or seat-availability summary.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+F-UC05 Save ticket plan
+Main Success Scenario
+1. Actor initiates save ticket plan.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+F-UC06 Subscribe to verified alert
+Main Success Scenario
+1. Actor initiates subscribe to verified alert.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+F-UC07 Review partner and destination details
+Main Success Scenario
+1. Actor initiates review partner and destination details.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+F-UC08 Continue to official partner
+Main Success Scenario
+1. Actor initiates continue to official partner.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+F-UC09 Stay on FIFA.com
+Main Success Scenario
+1. Actor initiates stay on fifa.com.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+F-UC10 Return to FIFA.com
+Main Success Scenario
+1. Actor initiates return to fifa.com.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+6. Chess system use case diagram
+Figure UC-C-SYS. System-level interaction model for Chess Guided Beginner Review.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\chess-system-use-cases.svg
+Related: C-P1, C-P3; TP-CHESS
+7. Chess use case specifications
+C-UC01 Open a completed game or analysis position
+Main Success Scenario
+1. Actor initiates open a completed game or analysis position.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+C-UC02 Select Beginner Review
+Main Success Scenario
+1. Actor initiates select beginner review.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+C-UC03 View the main mistake
+Main Success Scenario
+1. Actor initiates view the main mistake.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+C-UC04 View the best move
+Main Success Scenario
+1. Actor initiates view the best move.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+C-UC05 Read a plain-language explanation
+Main Success Scenario
+1. Actor initiates read a plain-language explanation.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+C-UC06 Try the recommended move
+Main Success Scenario
+1. Actor initiates try the recommended move.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+C-UC07 Reveal advanced analysis
+Main Success Scenario
+1. Actor initiates reveal advanced analysis.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+C-UC08 Open a linked lesson
+Main Success Scenario
+1. Actor initiates open a linked lesson.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+C-UC09 Open a linked puzzle
+Main Success Scenario
+1. Actor initiates open a linked puzzle.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+C-UC10 Continue the learning path
+Main Success Scenario
+1. Actor initiates continue the learning path.
+2. System presents the current context, provenance, and primary action.
+3. Actor reviews the information and selects the intended option.
+4. System validates required input and explains any uncertainty or boundary.
+5. Actor confirms the action.
+6. System completes the action and preserves a visible next or return path.
+Alternative and Exception Flows
+A1 at step 3: Actor changes context; system updates the decision surface and preserves prior input when safe.
+A2 at step 5: Actor cancels or stays; system returns to step 2 without external side effects.
+E1 at step 2: Required data is unavailable or stale; system labels the limitation, shows last-known provenance, and offers retry or safe exit.
+E2 at step 4: Input is invalid or inaccessible; system focuses the error summary and returns to the exact field.
+E3 at step 6: External service fails; system preserves the local context and provides a return/retry path.
+Rules, data, outputs, and quality requirements
+8. Alternative-concept flow models
+Figure UC-F-A1. Status Dashboard alternative concept flow with focal branches and breakdowns.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\f-a1-flow.svg
+Related: F-P3; TP-FIFA
+Figure UC-F-A2. Guided Ticket Concierge alternative concept flow with focal branches and breakdowns.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\f-a2-flow.svg
+Related: F-P3; TP-FIFA
+Figure UC-F-A3. Alert-First Ticket Planner alternative concept flow with focal branches and breakdowns.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\f-a3-flow.svg
+Related: F-P3; TP-FIFA
+Figure UC-C-A1. Beginner Analysis Preset alternative concept flow with focal branches and breakdowns.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\c-a1-flow.svg
+Related: C-P1; C-P3; TP-CHESS
+Figure UC-C-A2. Conversational Coach alternative concept flow with focal branches and breakdowns.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\c-a2-flow.svg
+Related: C-P1; C-P3; TP-CHESS
+Figure UC-C-A3. Visual Game Story alternative concept flow with focal branches and breakdowns.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\c-a3-flow.svg
+Related: C-P1; C-P3; TP-CHESS
+9. Nonfunctional and usability requirements
+10. Data and artifact glossary
+11. Traceability matrix and open issues
+Which official system owns ticket state and freshness?
+Which markets, resale rules, and eligibility conditions must the concierge express?
+Which analysis explanations can be generated reliably and with calibrated uncertainty?
+How should entitlement be disclosed when local image evidence is insufficient?
+Which prototype measures will PA3 use without treating design goals as prior results?
+===== TABLE 1 =====
+Course | CSC13112 - UI/UX Design, FIT-HCMUS
+Group | Group10
+Team | Le Minh (21127645); Nguyen Vu Bach (21127224); Pham Nguyen Gia Bao (20127119); Trang Minh Nhut (22127318)
+Evidence date | Local evidence audited through 30 July 2026
+Document type | Evidence-based redesign report
+===== TABLE 2 =====
+Actor/system | Role | Trust boundary
+Ticket Buyer | Selects context, interprets status, saves plan, and decides whether to leave FIFA.com. | May cross partner, identity, notification, and payment boundaries.
+FIFA.com | Hosts the confidence layer and preserves return context. | Must disclose provenance and destination.
+Official Ticketing Partner | Provides official transaction or availability action. | External domain and account state.
+Notification Service | Delivers verified alerts. | Consent and contact data.
+Identity / Account Service | Persists authenticated plan where used. | Authentication and privacy boundary.
+Beginner / Returning Player | Loads a game/position and chooses learning actions. | May be anonymous or authenticated.
+Analysis Engine | Supplies move assessment and candidate alternatives. | Uncertainty and explanation quality.
+Lesson and Puzzle Catalog | Supplies linked learning resources. | Relevance and entitlement state.
+===== TABLE 3 =====
+Concept | Primary use cases
+F-A1 | F-UC01-F-UC04; F-UC07-F-UC10
+F-A2 | F-UC01; F-UC02; F-UC07-F-UC10
+F-A3 | F-UC01; F-UC05-F-UC10
+C-A1 | C-UC01-C-UC10
+C-A2 | C-UC01; C-UC03-C-UC06; C-UC08-C-UC10
+C-A3 | C-UC01; C-UC03-C-UC05; C-UC07-C-UC08; C-UC10
+===== TABLE 4 =====
+Field | Specification
+Goal | Choose the ticket context to inspect.
+Scope | FIFA Ticket Confidence Layer
+Level | User goal
+Primary Actor | Ticket Buyer
+Supporting Actors | FIFA.com; Official Ticketing Partner; Notification/Identity Service as applicable
+Stakeholders and Interests | Ticket Buyer: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to select tournament or team.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Choose the ticket context to inspect.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | F-P3
+Linked Tough Problem | TP-FIFA
+Linked Concept | F-A1/F-A2/F-A3
+Linked Evidence | F2-E09, F2-E18
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 5 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 6 =====
+Field | Specification
+Goal | Understand the latest governed ticket state.
+Scope | FIFA Ticket Confidence Layer
+Level | User goal
+Primary Actor | Ticket Buyer
+Supporting Actors | FIFA.com; Official Ticketing Partner; Notification/Identity Service as applicable
+Stakeholders and Interests | Ticket Buyer: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to view current ticket status.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Understand the latest governed ticket state.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | F-P3
+Linked Tough Problem | TP-FIFA
+Linked Concept | F-A1
+Linked Evidence | F2-E09, F2-E18
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 7 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 8 =====
+Field | Specification
+Goal | Compare currently relevant official options.
+Scope | FIFA Ticket Confidence Layer
+Level | User goal
+Primary Actor | Ticket Buyer
+Supporting Actors | FIFA.com; Official Ticketing Partner; Notification/Identity Service as applicable
+Stakeholders and Interests | Ticket Buyer: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to compare sale, resale, hospitality, and waiting options.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Compare currently relevant official options.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | F-P3
+Linked Tough Problem | TP-FIFA
+Linked Concept | F-A1
+Linked Evidence | F2-E09
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 9 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 10 =====
+Field | Specification
+Goal | See a bounded availability summary without false precision.
+Scope | FIFA Ticket Confidence Layer
+Level | User goal
+Primary Actor | Ticket Buyer
+Supporting Actors | FIFA.com; Official Ticketing Partner; Notification/Identity Service as applicable
+Stakeholders and Interests | Ticket Buyer: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to view ticket-category or seat-availability summary.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | See a bounded availability summary without false precision.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | F-P3
+Linked Tough Problem | TP-FIFA
+Linked Concept | F-A1
+Linked Evidence | F2-E09
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 11 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 12 =====
+Field | Specification
+Goal | Persist tournament and party requirements.
+Scope | FIFA Ticket Confidence Layer
+Level | User goal
+Primary Actor | Ticket Buyer
+Supporting Actors | FIFA.com; Official Ticketing Partner; Notification/Identity Service as applicable
+Stakeholders and Interests | Ticket Buyer: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to save ticket plan.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Persist tournament and party requirements.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | F-P3
+Linked Tough Problem | TP-FIFA
+Linked Concept | F-A3
+Linked Evidence | F2-E09, F2-E18
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 13 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 14 =====
+Field | Specification
+Goal | Receive governed status-change notification.
+Scope | FIFA Ticket Confidence Layer
+Level | User goal
+Primary Actor | Ticket Buyer
+Supporting Actors | FIFA.com; Official Ticketing Partner; Notification/Identity Service as applicable
+Stakeholders and Interests | Ticket Buyer: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to subscribe to verified alert.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Receive governed status-change notification.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | F-P3
+Linked Tough Problem | TP-FIFA
+Linked Concept | F-A3
+Linked Evidence | F2-E09, F2-E18
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 15 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 16 =====
+Field | Specification
+Goal | Inspect official partner, domain, account boundary, and return path.
+Scope | FIFA Ticket Confidence Layer
+Level | User goal
+Primary Actor | Ticket Buyer
+Supporting Actors | FIFA.com; Official Ticketing Partner; Notification/Identity Service as applicable
+Stakeholders and Interests | Ticket Buyer: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to review partner and destination details.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Inspect official partner, domain, account boundary, and return path.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | F-P3
+Linked Tough Problem | TP-FIFA
+Linked Concept | F-A1/F-A2/F-A3
+Linked Evidence | F2-E10, F2-E11
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 17 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 18 =====
+Field | Specification
+Goal | Leave FIFA.com with informed consent.
+Scope | FIFA Ticket Confidence Layer
+Level | User goal
+Primary Actor | Ticket Buyer
+Supporting Actors | FIFA.com; Official Ticketing Partner; Notification/Identity Service as applicable
+Stakeholders and Interests | Ticket Buyer: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to continue to official partner.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Leave FIFA.com with informed consent.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | F-P3
+Linked Tough Problem | TP-FIFA
+Linked Concept | F-A1/F-A2/F-A3
+Linked Evidence | F2-E11
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 19 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 20 =====
+Field | Specification
+Goal | Decline the handoff without losing state.
+Scope | FIFA Ticket Confidence Layer
+Level | User goal
+Primary Actor | Ticket Buyer
+Supporting Actors | FIFA.com; Official Ticketing Partner; Notification/Identity Service as applicable
+Stakeholders and Interests | Ticket Buyer: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to stay on fifa.com.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Decline the handoff without losing state.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | F-P3
+Linked Tough Problem | TP-FIFA
+Linked Concept | F-A1/F-A2/F-A3
+Linked Evidence | F2-E09, F2-E11
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 21 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 22 =====
+Field | Specification
+Goal | Recover the prior ticket context after partner activity.
+Scope | FIFA Ticket Confidence Layer
+Level | User goal
+Primary Actor | Ticket Buyer
+Supporting Actors | FIFA.com; Official Ticketing Partner; Notification/Identity Service as applicable
+Stakeholders and Interests | Ticket Buyer: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to return to fifa.com.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Recover the prior ticket context after partner activity.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | F-P3
+Linked Tough Problem | TP-FIFA
+Linked Concept | F-A1/F-A2/F-A3
+Linked Evidence | F2-E11
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 23 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 24 =====
+Field | Specification
+Goal | Load the artifact to review.
+Scope | Chess Guided Beginner Review
+Level | User goal
+Primary Actor | Beginner Player / Returning Player
+Supporting Actors | Game Review or Analysis Engine; Lesson and Puzzle Catalog; Account/Entitlement Service where supported
+Stakeholders and Interests | Beginner Player / Returning Player: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to open a completed game or analysis position.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Load the artifact to review.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | C-P1; C-P3
+Linked Tough Problem | TP-CHESS
+Linked Concept | C-A1/C-A2/C-A3
+Linked Evidence | C2-E10
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 25 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 26 =====
+Field | Specification
+Goal | Choose the simplified review mode.
+Scope | Chess Guided Beginner Review
+Level | User goal
+Primary Actor | Beginner Player
+Supporting Actors | Game Review or Analysis Engine; Lesson and Puzzle Catalog; Account/Entitlement Service where supported
+Stakeholders and Interests | Beginner Player: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to select beginner review.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Choose the simplified review mode.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | C-P1; C-P3
+Linked Tough Problem | TP-CHESS
+Linked Concept | C-A1
+Linked Evidence | C2-E10
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 27 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 28 =====
+Field | Specification
+Goal | Identify the most important learning point.
+Scope | Chess Guided Beginner Review
+Level | User goal
+Primary Actor | Beginner Player
+Supporting Actors | Game Review or Analysis Engine; Lesson and Puzzle Catalog; Account/Entitlement Service where supported
+Stakeholders and Interests | Beginner Player: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to view the main mistake.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Identify the most important learning point.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | C-P1; C-P3
+Linked Tough Problem | TP-CHESS
+Linked Concept | C-A1/C-A3
+Linked Evidence | C2-E10
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 29 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 30 =====
+Field | Specification
+Goal | Compare the played move with a recommended alternative.
+Scope | Chess Guided Beginner Review
+Level | User goal
+Primary Actor | Beginner Player
+Supporting Actors | Game Review or Analysis Engine; Lesson and Puzzle Catalog; Account/Entitlement Service where supported
+Stakeholders and Interests | Beginner Player: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to view the best move.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Compare the played move with a recommended alternative.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | C-P1; C-P3
+Linked Tough Problem | TP-CHESS
+Linked Concept | C-A1/C-A3
+Linked Evidence | C2-E10
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 31 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 32 =====
+Field | Specification
+Goal | Understand why the position matters.
+Scope | Chess Guided Beginner Review
+Level | User goal
+Primary Actor | Beginner Player
+Supporting Actors | Game Review or Analysis Engine; Lesson and Puzzle Catalog; Account/Entitlement Service where supported
+Stakeholders and Interests | Beginner Player: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to read a plain-language explanation.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Understand why the position matters.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | C-P1; C-P3
+Linked Tough Problem | TP-CHESS
+Linked Concept | C-A1/C-A2/C-A3
+Linked Evidence | C2-E08, C2-E10
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 33 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 34 =====
+Field | Specification
+Goal | Practice the critical move directly.
+Scope | Chess Guided Beginner Review
+Level | User goal
+Primary Actor | Beginner Player
+Supporting Actors | Game Review or Analysis Engine; Lesson and Puzzle Catalog; Account/Entitlement Service where supported
+Stakeholders and Interests | Beginner Player: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to try the recommended move.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Practice the critical move directly.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | C-P1; C-P3
+Linked Tough Problem | TP-CHESS
+Linked Concept | C-A1/C-A2
+Linked Evidence | C2-E08, C2-E10
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 35 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 36 =====
+Field | Specification
+Goal | Access engine/detail controls on demand.
+Scope | Chess Guided Beginner Review
+Level | User goal
+Primary Actor | Returning Player
+Supporting Actors | Game Review or Analysis Engine; Lesson and Puzzle Catalog; Account/Entitlement Service where supported
+Stakeholders and Interests | Returning Player: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to reveal advanced analysis.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Access engine/detail controls on demand.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | C-P1; C-P3
+Linked Tough Problem | TP-CHESS
+Linked Concept | C-A1/C-A3
+Linked Evidence | C2-E10
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 37 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 38 =====
+Field | Specification
+Goal | Continue with one relevant lesson.
+Scope | Chess Guided Beginner Review
+Level | User goal
+Primary Actor | Beginner Player
+Supporting Actors | Game Review or Analysis Engine; Lesson and Puzzle Catalog; Account/Entitlement Service where supported
+Stakeholders and Interests | Beginner Player: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to open a linked lesson.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Continue with one relevant lesson.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | C-P1; C-P3
+Linked Tough Problem | TP-CHESS
+Linked Concept | C-A1/C-A2/C-A3
+Linked Evidence | C2-E07, C2-E08
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 39 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 40 =====
+Field | Specification
+Goal | Practice one related pattern.
+Scope | Chess Guided Beginner Review
+Level | User goal
+Primary Actor | Beginner Player
+Supporting Actors | Game Review or Analysis Engine; Lesson and Puzzle Catalog; Account/Entitlement Service where supported
+Stakeholders and Interests | Beginner Player: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to open a linked puzzle.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Practice one related pattern.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | C-P1; C-P3
+Linked Tough Problem | TP-CHESS
+Linked Concept | C-A1/C-A2
+Linked Evidence | C2-E05, C2-E06
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 41 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 42 =====
+Field | Specification
+Goal | Resume a coherent next-learning sequence.
+Scope | Chess Guided Beginner Review
+Level | User goal
+Primary Actor | Beginner Player / Returning Player
+Supporting Actors | Game Review or Analysis Engine; Lesson and Puzzle Catalog; Account/Entitlement Service where supported
+Stakeholders and Interests | Beginner Player / Returning Player: clear, efficient, accessible action; Group10 design: evidence-aligned behavior; external services: accurate boundary and data handling.
+Trigger | The actor chooses to continue the learning path.
+Preconditions | The relevant page is available; required source artifact or ticket context exists; network state is disclosed.
+Minimal Guarantees | No saved context is corrupted; no external handoff occurs without disclosure; uncertainty remains visible.
+Success Guarantees | Resume a coherent next-learning sequence.
+Frequency | Per planning or review session; design assumption to validate.
+Priority | High for focal concept; Medium when supporting.
+Linked Persona | C-P1; C-P3
+Linked Tough Problem | TP-CHESS
+Linked Concept | C-A1/C-A2/C-A3
+Linked Evidence | C2-E08, C2-E09
+Open Questions | Data freshness, localization, entitlement, and cross-device persistence require stakeholder validation.
+===== TABLE 43 =====
+Category | Requirement
+Business rules | Never label a proposal as current functionality; reveal official destination before external navigation; do not imply precise availability when source data is absent.
+Required data | Context identifier, provenance, timestamp, user choice, and the minimum external reference required by the concept.
+Output artifacts | Updated status/selection, accessible confirmation, saved context or learning artifact, and next/return action.
+Usability | Primary action visible without unnecessary search; terms use plain language; error recovery preserves context.
+Accessibility | Keyboard path, visible focus, programmatic labels, logical reading order, text alternatives, and non-color status channel.
+Security and trust | Minimize personal data; disclose storage and external domains; prevent open redirects; protect account and notification preferences.
+===== TABLE 44 =====
+ID | Requirement / design target
+NFR-01 | A first-time user identifies current ticket state without opening another property.
+NFR-02 | Partner name and destination domain appear before exit; stay and return paths are keyboard accessible.
+NFR-03 | A beginner sees the main review action in the initial viewport and reading order.
+NFR-04 | Advanced analysis remains available through explicit progressive disclosure.
+NFR-05 | Color is not the only status channel; text and icon/structure are provided.
+NFR-06 | Every core action has visible focus, screen-reader name, role, state, and error association.
+NFR-07 | Status timestamps, provenance, and uncertainty are understandable and localized.
+NFR-08 | Personal and notification data are minimized; external navigation prevents spoofed destinations.
+===== TABLE 45 =====
+Artifact | Information carried | User action | Missing / downstream decision
+Ticket card | Tournament and visible action label | Open ticket path | Needs consolidated status, freshness, destination
+Tournament logo | Identity / competition context | Select tournament | Does not encode availability
+Search result card | Type, title, date, summary | Compare/open | Mixed types require selection
+Chessboard | Position and direct manipulation | Move/setup | Needs interpretation and feedback
+Puzzle progress map | Sequence and progress | Start/continue | Does not prove move outcome
+Lesson card | Topic, teacher, category | Choose lesson | Needs personalized priority
+Analysis panel | Setup/import paths and Start Analysis | Configure/start | Needs beginner explanation and next-action priority
+===== TABLE 46 =====
+Tough problem | Concepts | Use cases | Evidence
+TP-FIFA | F-A1/F-A2/F-A3 | F-UC01-F-UC10 | F2-E09-E11, F2-E18; F-D2/F-D4
+TP-CHESS | C-A1/C-A2/C-A3 | C-UC01-C-UC10 | C2-E01, E07, E08, E10, E12, E15; C-D1/C-D2
+===== HEADER 1 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USE CASE DOCUMENT
+===== FOOTER 1 =====
+Use Case Document  |  Group10  |  1

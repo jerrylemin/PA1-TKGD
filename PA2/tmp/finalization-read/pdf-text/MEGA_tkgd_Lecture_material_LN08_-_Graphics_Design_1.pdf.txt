@@ -1,0 +1,403 @@
+===== PAGE 1 =====
+CSC13112 – Thiết Kế Giao Diện
+Graphic Design – Part 1
+7/2022
+
+===== PAGE 2 =====
+2
+7/17/2026
+Outline
+◼ Graphic design
+◼ Affordance
+◼ Affordance in HCI design
+◼ Visible constraints
+
+
+===== PAGE 3 =====
+3
+7/17/2026
+Graphic design
+◼ Graphic design: refers to artistic and professional 
+disciplines which focus on visual communication
+and presentation 
+◼ In UI, it refers the look and feel portion of an 
+interface
+❑ initially encountered by users
+◼ eye catching
+❑ conveys an impression, mood, beauty, etc.
+❑ facilitates finishing the task at hand
+❑ suggests trust
+
+
+===== PAGE 4 =====
+4
+7/17/2026
+What are these items?
+
+
+===== PAGE 5 =====
+5
+7/17/2026
+Affordance
+◼ "Perceived and actual properties of a thing that 
+determine how the thing could be used" – Don 
+Norman
+◼ An affordance is a quality of an object that allows 
+an individual to perform an action
+❑ Related to look and feel of an object
+
+
+===== PAGE 6 =====
+6
+7/17/2026
+Affordance (cont’d) 
+◼ Two types of affordance
+❑ Perceived affordance
+◼ design invites people to take possible actions
+❑ Actual affordance
+◼ the actual actionable properties of the product
+
+
+===== PAGE 7 =====
+7
+7/17/2026
+Perceived affordance
+◼ Is the perceived properties of the object that suggest 
+how we could use it 
+❑ buttons for pressing
+❑ switches for toggling
+
+
+===== PAGE 8 =====
+8
+7/17/2026
+Perceived affordance (cont’d)
+◼ Poor affordances 
+❑ Pull or Push? 
+
+
+===== PAGE 9 =====
+9
+7/17/2026
+Perceived affordance (cont’d)
+◼ Affordance can be dependent on
+❑ Experience
+❑ Knowledge
+❑ Culture of users
+
+
+===== PAGE 10 =====
+10
+7/17/2026
+Perceived affordance (cont’d)
+◼ Door handle – a classic affordance problem
+• Vertical bar → pull
+• Horizontal bar or flat surface → push
+• Knob or handle → grab and twist
+• Bar or handle location
+→ door opens to the left or right
+
+===== PAGE 11 =====
+11
+7/17/2026
+Perceived affordance (cont’d)
+◼ Affordance can be dependent on the
+❑ Context
+❑ Layout
+❑ Locations of the objects placed
+
+===== PAGE 12 =====
+12
+7/17/2026
+Perceived affordance (cont’d)
+◼ Perceived affordance (perception) can differ from 
+real affordance
+❑ the paper-made chair has a perceived affordance for sitting
+❑ but it doesn’t actually afford sitting: it collapses under your 
+weight
+Paper-made 
+chairs
+
+===== PAGE 13 =====
+13
+7/17/2026
+Perceived and real affordance
+◼ Affordance
+❑ Perceived affordance (perception)
+◼ design invites people to take possible actions
+❑ Actual affordance
+◼ the actual actionable properties of the product
+◼ Problems occur when
+❑ these are not the same
+❑ people’s perceptions are not what the designer expects
+
+===== PAGE 14 =====
+14
+7/17/2026
+Perceived and actual affordance (cont’d)
+◼ A false affordance exists when there is no action 
+offered but the information that specifies it is
+❑ E.g., paper-made chairs
+False 
+Affordance
+Perceptible 
+Affordance
+Correct 
+Rejection
+Hidden 
+Affordance
+Affordance
+Perception
+YesNo
+No Yes
+
+
+===== PAGE 15 =====
+15
+7/17/2026
+Perceived and actual affordance (cont’d)
+◼ A false affordance exists when there is no action 
+offered but the information that specifies it is
+❑ E.g., paper-made chairs
+False 
+Affordance
+Perceptible 
+Affordance
+Correct 
+Rejection
+Hidden 
+Affordance
+Affordance
+Perception
+YesNo
+No Yes
+
+
+===== PAGE 16 =====
+16
+7/17/2026
+Perceived and actual affordance (cont’d)
+◼ Perceptible affordance – real affordance 
+False 
+Affordance
+Perceptible 
+Affordance
+Correct 
+Rejection
+Hidden 
+Affordance
+Affordance
+Perception
+YesNo
+No Yes
+
+
+===== PAGE 17 =====
+17
+7/17/2026
+Perceived and actual affordance (cont’d)
+◼ Hidden affordance
+False 
+Affordance
+Perceptible 
+Affordance
+Correct 
+Rejection
+Hidden 
+Affordance
+Affordance
+Perception
+YesNo
+No Yes
+camera
+
+===== PAGE 18 =====
+18
+7/17/2026
+Perceived and actual affordance (cont’d)
+◼ Correct rejection
+False 
+Affordance
+Perceptible 
+Affordance
+Correct 
+Rejection
+Hidden 
+Affordance
+Affordance
+Perception
+YesNo
+No Yes
+
+===== PAGE 19 =====
+19
+7/17/2026
+Signifiers
+◼ An affordance is a quality of an object that allows 
+an individual to perform an action
+◼ A signifier is a thing that communicates the 
+affordance of an object
+◼ A signifier can be labels, instructions, shapes, 
+colors, layouts, sound, videos, animations, mouse 
+shapes, etc. 
+
+===== PAGE 20 =====
+20
+7/17/2026
+Signifiers (cont’d)
+◼ What are signifiers in the following?
+
+
+===== PAGE 21 =====
+21
+7/17/2026
+Affordance in HCI design
+
+
+===== PAGE 22 =====
+22
+7/17/2026
+Affordance in HCI design (cont’d)
+◼ In HCI, interfaces are virtual and do not have 
+affordances like physical objects
+◼ It does not make sense to talk about interfaces in 
+terms of ‘real’ affordances - Norman
+◼ Interfaces are better conceptualized as ‘perceived’ 
+affordances
+◼ In graphical, screen-based interfaces, the designer 
+can control over perceived affordances
+❑ Display screen, pointing device, selection buttons, 
+keyboard
+❑ Actions including touching, pointing, looking, clicking on 
+every pixel of the display
+
+===== PAGE 23 =====
+23
+7/17/2026
+Affordance in HCI design (cont’d)
+◼ GUI design
+❑ perception only through visuals
+❑ designer creates appropriate visual affordances via
+◼ familiar idioms
+◼ metaphors
+recycle-bin
+ iChat icon
+
+
+===== PAGE 24 =====
+24
+7/17/2026
+Affordance in HCI design (cont’d)
+◼ Windows’ scrollbar affordance (MS Word)
+scroll up
+scroll down
+- current position in the document 
+- how big the document is
+scroll whole 
+page down
+scroll whole 
+page up
+distance to top
+
+===== PAGE 25 =====
+25
+7/17/2026
+Affordance in HCI design (cont’d)
+◼ Cognitive considerations
+❑ Perceived affordances
+❑ Constraints
+❑ Feedback
+❑ Mapping
+❑ Mental Models
+❑ Conceptual models
+Source: Don Norman’s book, The Psychology of Everyday Things
+
+===== PAGE 26 =====
+26
+7/17/2026
+Visible constraints
+◼ Limitations of the actions possible perceived from 
+object’s appearance
+❑ provides people with a range of usage possibilities
+
+
+===== PAGE 27 =====
+27
+7/17/2026
+Visible constraints (cont’d)
+◼ The more constraints, the less opportunity for error
+❑ particularly important for managing user input
+
+
+===== PAGE 28 =====
+28
+7/17/2026
+Visible constraints (cont’d)
+◼ Benefits
+❑ Restricting user actions to valid actions
+❑ Helps prevent from selecting incorrect options
+❑ Eliminate need for perfect knowledge
+❑ Recognition over recall
+◼ The more constraints, the less opportunity for error
+❑ But too much constraint, less flexible and less efficient 
+❑ E.g., Expert users prefer typing than clicking to select 
+choices
+
+===== PAGE 29 =====
+29
+7/17/2026
+Visible constraints (cont’d) 
+◼ Constraints vs. flexibility and efficiency 
+One has to click to set 
+focus to enter IP at 
+each part
+
+===== PAGE 30 =====
+30
+7/17/2026
+Visible constraints (cont’d)
+◼ Three main types (Norman, 1999)
+❑ physical
+❑ cultural
+❑ Logical
+◼ Physical constraints
+❑ refer to the way physical objects restrict the movement of 
+things
+❑ E.g. how many ways can you insert a CD or DVD disk into 
+a computer?
+
+===== PAGE 31 =====
+31
+7/17/2026
+Visible constraints (cont’d)
+◼ Logical constraints
+❑ Exploit people’s everyday common sense reasoning about 
+the way the world works
+❑ E.g., the logical relationship between physical layout of a 
+device and the way it works
+
+
+===== PAGE 32 =====
+32
+7/17/2026
+Visible constraints (cont’d)
+◼ Cultural constraints
+❑ Groups of people learn idioms
+◼ red = danger, green = go
+❑ But these differ in different places, e.g.,
+◼ Colors
+❑ Red is not at all danger (preferable) in many countries
+◼ Light switches
+❑ America: down is off
+❑ Britain: down is on
+◼ Faucets
+❑ America: counter-clockwise is on
+
+===== PAGE 33 =====
+33
+7/17/2026
+Summary of topics
+◼ Graphic design
+◼ Affordance
+◼ Affordance in HCI design
+◼ Visible constraints
