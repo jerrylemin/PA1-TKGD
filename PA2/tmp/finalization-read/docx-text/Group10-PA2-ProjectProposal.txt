@@ -1,0 +1,198 @@
+PROJECT ASSIGNMENT 2
+Group10-PA2 Project Proposal
+Task-first redesign concepts for ticket confidence and guided beginner review
+FIFA.com and Chess.com
+Contents
+1. Proposal summary  ···································  3
+2. Evidence-based problem selection  ···················  3
+3. Target users and contexts  ··························  3
+4. Concept family A - FIFA  ····························  3
+5. Concept family B - Chess.com  ·······················  7
+6. Weighted comparison  ································  10
+7. Recommended direction  ······························  11
+8. Scope and non-scope  ································  11
+9. Design principles, risks, and success criteria  ·····  11
+10. Traceability and preparation for PA3  ··············  12
+1. Proposal summary
+These are redesign concepts for existing web experiences. They are not implemented or tested products. Benefits are hypotheses for PA3 prototyping and informal testing.
+2. Evidence-based problem selection
+3. Target users and contexts
+F-P3 plans tickets across days or devices and needs official status before identity, partner, or payment boundaries.
+C-P1 learns with limited terminology; C-P3 returns after gaps and needs recognition plus a clear continuation.
+Secondary personas remain in scope for compatibility, but the initial prototypes focus on these scenarios.
+4. Concept family A - FIFA
+F-A1 Status Dashboard
+Figure PP-F-A1. Status Dashboard concept flow. This is a proposal hypothesis, not an existing or tested feature.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\f-a1-flow.svg
+Related: F-P3; TP-FIFA
+F-A2 Guided Ticket Concierge
+Figure PP-F-A2. Guided Ticket Concierge concept flow. This is a proposal hypothesis, not an existing or tested feature.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\f-a2-flow.svg
+Related: F-P3; TP-FIFA
+F-A3 Alert-First Ticket Planner
+Figure PP-F-A3. Alert-First Ticket Planner concept flow. This is a proposal hypothesis, not an existing or tested feature.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\f-a3-flow.svg
+Related: F-P3; TP-FIFA
+5. Concept family B - Chess.com
+C-A1 Beginner Analysis Preset
+Figure PP-C-A1. Beginner Analysis Preset concept flow. This is a proposal hypothesis, not an existing or tested feature.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\c-a1-flow.svg
+Related: C-P1; C-P3; TP-CHESS
+C-A2 Conversational Coach
+Figure PP-C-A2. Conversational Coach concept flow. This is a proposal hypothesis, not an existing or tested feature.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\c-a2-flow.svg
+Related: C-P1; C-P3; TP-CHESS
+C-A3 Visual Game Story
+Figure PP-C-A3. Visual Game Story concept flow. This is a proposal hypothesis, not an existing or tested feature.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\c-a3-flow.svg
+Related: C-P1; C-P3; TP-CHESS
+6. Weighted comparison
+Scoring uses 1 (weak) to 5 (strong). Each score is multiplied by its percentage weight and divided by 5. F-A1 and C-A1 are recommended for initial prototyping because they most directly expose the focal decision while retaining all six alternatives for PA3 parallel prototyping.
+7. Recommended direction
+8. Scope and non-scope
+9. Design principles, risks, and success criteria
+State before action: disclose current status and destination before commitment.
+One clear next action: present the beginner's primary step before advanced depth.
+Progressive disclosure without removal: advanced and direct routes remain available.
+Trust through provenance: official destination, timestamp, and uncertainty are visible.
+Accessible redundancy: text, icon, structure, and programmatic labels support color.
+10. Traceability and preparation for PA3
+TP-FIFA -> F-A1/F-A2/F-A3 -> FIFA use cases F-UC01-F-UC10.
+TP-CHESS -> C-A1/C-A2/C-A3 -> Chess use cases C-UC01-C-UC10.
+Create two PA3 scenarios, each with three parallel paper-prototype alternatives; test comprehension, next-action selection, error recognition, and return orientation.
+Do not interpret expected benefits as measured outcomes.
+===== TABLE 1 =====
+Course | CSC13112 - UI/UX Design, FIT-HCMUS
+Group | Group10
+Team | Le Minh (21127645); Nguyen Vu Bach (21127224); Pham Nguyen Gia Bao (20127119); Trang Minh Nhut (22127318)
+Evidence date | Local evidence audited through 30 July 2026
+Document type | Evidence-based redesign report
+===== TABLE 2 =====
+Overall concept: A task-first web redesign program with two product-specific modules: Module A, FIFA Ticket Confidence Layer; Module B, Chess Guided Beginner Review.
+===== TABLE 3 =====
+Module | Tough problem | Evidence | PA1 continuity
+A. FIFA Ticket Confidence Layer | Status, availability, resale/waiting, and destination are not consolidated before external action. | F2-E09, E10, E11, E18 | F-D2, F-D4
+B. Chess Guided Beginner Review | Learning and analysis entry expose competing choices and advanced controls before a clear beginner next action. | C2-E01, E07, E08, E10, E12, E15 | C-D1, C-D2
+===== TABLE 4 =====
+Field | Concept definition
+Target persona / scenario | F-P3 - Compare ticket states before action.
+Problem addressed | TP-FIFA.
+Concept summary | Comparison-first dashboard
+Interaction model | Tournament, sale phase, ticket type, availability summary, resale, waiting state, milestone, last update, one official action.
+Primary artifacts | Comparison table and status cards
+Core screens | Dashboard; status detail; destination preview
+Information hierarchy | State -> evidence timestamp -> official action
+HCI principles | Visibility of system status; recognition; error prevention
+Expected benefit | Hypothesis: improves confidence and comparison speed.
+Tradeoff | Adds new status, guidance, or planning structure that must not obscure direct official routes.
+Implementation dependency | Depends on governed real-time status data.
+Privacy / trust | Could appear authoritative when data is stale.
+Accessibility | Text/icon status, keyboard comparison, screen-reader timestamps.
+Evidence links | F2-E09, F2-E18; F-D4
+===== TABLE 5 =====
+Field | Concept definition
+Target persona / scenario | F-P3 - Resolve an individual ticket path.
+Problem addressed | TP-FIFA.
+Concept summary | Step-by-step wizard
+Interaction model | Ask tournament, date/team, ticket type, party size, and eligibility; then explain next official path.
+Primary artifacts | Wizard, eligibility summary, handoff confirmation
+Core screens | Preference steps; result; partner preview
+Information hierarchy | One question -> eligibility -> destination
+HCI principles | Progressive disclosure; feedforward; error prevention
+Expected benefit | Hypothesis: reduces interpretation burden for complex eligibility.
+Tradeoff | Adds new status, guidance, or planning structure that must not obscure direct official routes.
+Implementation dependency | Requires eligibility and market rules.
+Privacy / trust | Collects preference data and must minimize retention.
+Accessibility | Explicit labels, error summary, back navigation, no time limit.
+Evidence links | F2-E09-E11; F-D2/F-D4
+===== TABLE 6 =====
+Field | Concept definition
+Target persona / scenario | F-P3 - Avoid repeated manual checking.
+Problem addressed | TP-FIFA.
+Concept summary | Planning workspace
+Interaction model | Follow tournament/team, save requirements, receive verified state changes, and open partner only when actionable.
+Primary artifacts | Watchlist, requirement card, alert receipt
+Core screens | Planner; consent; verified alert; destination preview
+Information hierarchy | Plan -> wait -> verified change -> action
+HCI principles | Prospective-memory support; user control; trust
+Expected benefit | Hypothesis: replaces repeated checking with governed alerts.
+Tradeoff | Adds new status, guidance, or planning structure that must not obscure direct official routes.
+Implementation dependency | Requires notification service and consent state.
+Privacy / trust | Notification privacy and fatigue.
+Accessibility | Channel choice, quiet hours, accessible alert history.
+Evidence links | F2-E09, F2-E18; F-D4
+===== TABLE 7 =====
+Field | Concept definition
+Target persona / scenario | C-P1; C-P3 - Understand one critical review point.
+Problem addressed | TP-CHESS.
+Concept summary | Simplified review surface
+Interaction model | Show one main mistake, one best move, one plain-language explanation, and one next-learning action; advanced data on demand.
+Primary artifacts | Position card, move comparison, explanation, lesson link
+Core screens | Preset entry; critical position; try move; next action
+Information hierarchy | Primary action -> explanation -> practice -> optional advanced
+HCI principles | Progressive disclosure; feedback; recognition
+Expected benefit | Hypothesis: makes review interpretable before engine detail.
+Tradeoff | Simplification can hide nuance; advanced analysis must remain explicitly available.
+Implementation dependency | Requires review engine and explanation rules.
+Privacy / trust | Explanations must state uncertainty and avoid false authority.
+Accessibility | Keyboard board alternative, text move notation, non-color status.
+Evidence links | C2-E08, C2-E10; C-D1/C-D2
+===== TABLE 8 =====
+Field | Concept definition
+Target persona / scenario | C-P1; C-P3 - Connect intention to feedback.
+Problem addressed | TP-CHESS.
+Concept summary | Guided Q&A
+Interaction model | Ask what the player intended, explain the critical position, and link one lesson or puzzle.
+Primary artifacts | Question card, response options, coach explanation
+Core screens | Intent question; critical position; resource link
+Information hierarchy | Intent -> clarification -> explanation -> next task
+HCI principles | Conversational scaffolding; reflection; contextual help
+Expected benefit | Hypothesis: increases personal relevance of review.
+Tradeoff | Simplification can hide nuance; advanced analysis must remain explicitly available.
+Implementation dependency | Requires safe prompt/explanation logic.
+Privacy / trust | Conversation data and incorrect inference require controls.
+Accessibility | Skip option, concise language, screen-reader announcements.
+Evidence links | C2-E08, C2-E10; C-D2
+===== TABLE 9 =====
+Field | Concept definition
+Target persona / scenario | C-P1; C-P3 - Understand the game as a sequence.
+Problem addressed | TP-CHESS.
+Concept summary | Chapter/timeline review
+Interaction model | Group opening, turning point, main error, recovery chance, and next step; collapse engine detail.
+Primary artifacts | Timeline chapters, board snapshot, recovery action
+Core screens | Story overview; chapter detail; practice
+Information hierarchy | Overview -> turning point -> replay -> next step
+HCI principles | Chunking; external cognition; progressive disclosure
+Expected benefit | Hypothesis: supports recall through narrative structure.
+Tradeoff | Simplification can hide nuance; advanced analysis must remain explicitly available.
+Implementation dependency | Requires reliable event segmentation.
+Privacy / trust | Story labels can oversimplify complex games.
+Accessibility | Linear keyboard order, text chapter summary, scalable board.
+Evidence links | C2-E10; C-D2
+===== TABLE 10 =====
+Concept | Problem fit | Learnability | Error prevention / trust | Task efficiency | Feasibility | Cross-device fit | Accessibility | Evidence strength | Weighted
+F-A1 | 5 | 4 | 5 | 5 | 3 | 4 | 4 | 5 | 89/100
+F-A2 | 5 | 5 | 5 | 3 | 3 | 4 | 5 | 4 | 89/100
+F-A3 | 4 | 4 | 4 | 5 | 2 | 5 | 4 | 4 | 80/100
+C-A1 | 5 | 5 | 4 | 5 | 4 | 4 | 5 | 5 | 93/100
+C-A2 | 4 | 5 | 4 | 3 | 2 | 4 | 4 | 4 | 77/100
+C-A3 | 4 | 4 | 3 | 4 | 3 | 4 | 5 | 4 | 77/100
+===== TABLE 11 =====
+FIFA recommendation: Prototype F-A1 Status Dashboard first, while testing F-A2 and F-A3 as meaningfully different wizard and planning alternatives.
+===== TABLE 12 =====
+Chess recommendation: Prototype C-A1 Beginner Analysis Preset first, while retaining C-A2 conversational and C-A3 narrative alternatives.
+===== TABLE 13 =====
+In scope | Out of scope
+Responsive web concept flows; task entry; information hierarchy; partner disclosure; beginner review; accessible interaction. | Implementation, live ticket inventory, payment processing, identity migration, engine accuracy validation, production integration.
+Three alternatives per tough problem; PA3 hypothesis and test criteria. | Claimed measured improvement, fabricated participant results, premove or Focus Mode redesign as primary scenario.
+===== TABLE 14 =====
+Design goal for PA3 | Target (not a tested result)
+Ticket state recognition | A first-time prototype participant identifies the current state without opening another property.
+Destination feedforward | The partner name and destination domain are visible before exit.
+Beginner review priority | The main review action appears in the initial viewport and keyboard order.
+Advanced access | Advanced analysis remains available through a labeled disclosure control.
+Accessibility | All core actions have keyboard and screen-reader definitions; color is never the only status channel.
+===== HEADER 1 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  PROJECT PROPOSAL
+===== FOOTER 1 =====
+Project Proposal  |  Group10  |  1

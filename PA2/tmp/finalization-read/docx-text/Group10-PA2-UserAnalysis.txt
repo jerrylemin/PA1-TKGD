@@ -1,0 +1,115 @@
+PROJECT ASSIGNMENT 2
+Group10-PA2 User Analysis
+Brainstorming, affinity analysis, prioritization, and design requirements
+FIFA.com and Chess.com
+Contents
+1. Input evidence and analysis method  ·················  3
+2. Brainstorming protocol  ·····························  3
+3. Raw problem-note inventory  ·························  3
+4. Raw solution-idea inventory  ························  3
+5. Affinity diagram  ···································  4
+6. Cluster interpretation  ·····························  6
+7. Problem statements  ·································  6
+8. Prioritization method  ······························  6
+9. Severity and evidence matrix  ·······················  7
+10. Selected tough problems and requirements  ··········  7
+11. Traceability and limitations  ······················  8
+Appendix A. All affinity notes  ························  8
+1. Input evidence and analysis method
+Inputs are the validated screenshot index, PA1 canonical drawbacks, the User Research task analysis, and PA2 requirements. Notes are explicitly labeled [OBS], [PA1], or [IDEA] so observation is not confused with inherited evidence or inference.
+2. Brainstorming protocol
+Diverge from each focal task and evidence item into concise problem notes.
+Add solution ideas without judging feasibility.
+Cluster by task breakdown, not by product page name.
+Normalize duplicates and reject notes based only on misleading filenames.
+Score candidate problems with a transparent rubric, then select two tough problems.
+3. Raw problem-note inventory
+4. Raw solution-idea inventory
+5. Affinity diagram
+Figure UA-01. Affinity diagram containing 55 notes across 11 clusters. Labels distinguish screenshot observation, PA1/course evidence, and design inference.
+Source: C:\Users\Administrator\Documents\MEGA\tkgd\PA2\generated-diagrams\affinity-diagram.svg
+Related: All focal tasks and primary tough problems
+6. Cluster interpretation
+FIFA-A3 and FIFA-A4 converge on a single trust-sensitive decision: understand status and destination before leaving FIFA.com.
+CHESS-A4 and CHESS-A5 converge on next-action priority: a beginner needs one interpretable learning/review action before advanced depth.
+Mobile and promotional findings amplify both problems but are not selected as independent tough problems.
+Premove and Focus Mode remain PA1 findings only; the PA2 screenshot corpus does not validate those states.
+7. Problem statements
+8. Prioritization method
+9. Severity and evidence matrix
+Score rationale: TP-FIFA receives maximum severity, risk, evidence, and PA3 relevance because the task is trust-sensitive and directly linked to F2-E09/E18 plus F-D2/F-D4. TP-CHESS receives maximum severity, reach, evidence, and PA3 relevance because beginner/returning users encounter competing learning and analysis routes across desktop and mobile.
+10. Selected tough problems and requirements
+11. Traceability and limitations
+No selected tough problem lacks approved screenshot evidence and a PA1 drawback link.
+Every concept alternative in the Proposal maps to one tough problem; every use case maps to an actor and concept.
+No group brainstorming meeting was independently documented; this report records a structured evidence-derived brainstorming artifact, not an observed meeting.
+No measured improvement is claimed. Scores prioritize design effort and are not usability results.
+Appendix A. All affinity notes
+The full 55-note inventory is visible in Figure UA-01. Machine-readable source and traceability are retained in evidence-index.csv and traceability-matrix.csv.
+===== TABLE 1 =====
+Course | CSC13112 - UI/UX Design, FIT-HCMUS
+Group | Group10
+Team | Le Minh (21127645); Nguyen Vu Bach (21127224); Pham Nguyen Gia Bao (20127119); Trang Minh Nhut (22127318)
+Evidence date | Local evidence audited through 30 July 2026
+Document type | Evidence-based redesign report
+===== TABLE 2 =====
+Cluster | Representative problem notes | Source
+FIFA-A1 | Modal interruption; compact navigation; sibling-property competition. | F2-E01, E02; F-D1
+FIFA-A2 | Multiple narrowing controls; mixed result types; pagination. | F2-E03-E05
+FIFA-A3 | Tournament cards do not consolidate sale phase, availability, resale, waiting state, or last update. | F2-E09, E18; F-D4
+FIFA-A4 | Brand/account change; error route; consent step; return orientation. | F2-E10-E16; F-D2
+FIFA-A5 | Long mobile surfaces and sparse continuation. | F2-E02, E17-E20
+CHESS-A1/A2 | Many first-level tasks and setup choices before play. | C2-E01-E04, E12-E13, E16
+CHESS-A3/A4 | Puzzle progression split; long lesson catalogs; study guidance is article content. | C2-E05-E09, E14-E15
+CHESS-A5/A6 | Many analysis-entry paths; no beginner explanation; promotions near task content. | C2-E07, E10
+===== TABLE 3 =====
+Problem family | Ideas retained for concept development
+Ticket status | Comparison dashboard; guided concierge; alert-first planner.
+Ticket handoff | Destination disclosure; official-domain preview; stay/continue choice; return link.
+Beginner review | Simplified preset; conversational coach; chapter-based game story.
+Learning priority | One recommended action; linked lesson/puzzle; advanced controls on demand.
+Secondary findings | Task-first navigation; compact rails; mobile anchors; entitlement labels; ad de-emphasis.
+===== TABLE 4 =====
+TP-FIFA: Ticket buyers cannot confidently determine sale phase, availability, resale or waiting status, and partner destination before leaving FIFA.com.
+===== TABLE 5 =====
+HMW-F: How might we help ticket buyers understand current ticket status, next available action, official destination, and return path before they leave FIFA.com?
+===== TABLE 6 =====
+TP-CHESS: Beginner and returning players cannot quickly interpret the most important next action when entering learning and analysis surfaces because task choices, promotions, and advanced controls compete for attention.
+===== TABLE 7 =====
+HMW-C: How might we help a beginner see one clear learning or review action first while keeping advanced Chess.com functions available on demand?
+===== TABLE 8 =====
+Score | Severity | Frequency | Risk | Reach | Evidence | PA3 relevance
+1 | Minor inconvenience | Rare | Negligible | Narrow | Single ambiguous item | Weak
+3 | Meaningful friction | Occasional | Moderate | One persona class | Multiple aligned items | Useful
+5 | Blocks confidence or comprehension | Frequent/repeated task | Trust/error critical | Multiple personas/devices | Direct plus PA1 triangulation | Two-scenario core
+===== TABLE 9 =====
+Candidate | Sev. | Freq. | Risk | Reach | Evid. | PA3 | Total | Decision
+TP-FIFA | 5 | 4 | 5 | 4 | 5 | 5 | 28 | Selected
+TP-CHESS | 5 | 4 | 4 | 5 | 5 | 5 | 28 | Selected
+FIFA cross-property navigation | 4 | 3 | 4 | 4 | 5 | 3 | 23 | Secondary
+Mobile long-page scanning | 3 | 4 | 2 | 5 | 5 | 3 | 22 | Secondary
+Chess ads/promotions | 3 | 3 | 2 | 4 | 3 | 3 | 18 | Secondary
+Premium/entitlement limits | 3 | 3 | 3 | 3 | 2 | 3 | 17 | Secondary; image evidence weak
+Premove / Focus Mode | 4 | 3 | 4 | 2 | 1 | 2 | 16 | Not selected; no PA2 state proof
+===== TABLE 10 =====
+Req. | Design requirement | Evidence / rationale
+F-R1 | Show a plain-language current ticket state before any external exit. | F2-E09, E18; F-D4
+F-R2 | Show sale, resale, hospitality, waiting, and availability categories without implying unavailable data. | TP-FIFA
+F-R3 | Disclose partner name, destination domain, account boundary, and return path before continuation. | F2-E10-E13; F-D2
+F-R4 | Encode status with text and icon as well as color; expose last-updated time. | Trust and accessibility
+C-R1 | Place one main beginner review action in the initial viewport. | C2-E10; TP-CHESS
+C-R2 | Explain one main mistake, best move, and next learning action in plain language. | C-D2
+C-R3 | Keep engine detail and advanced setup available through explicit progressive disclosure. | C2-E10
+C-R4 | Provide keyboard and screen-reader labels for every core action; never rely only on color. | Accessibility
+===== HEADER 1 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+===== FOOTER 1 =====
+User Analysis  |  Group10  |  1
+===== HEADER 2 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+===== FOOTER 2 =====
+User Analysis  |  Group10  |  1
+===== HEADER 3 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  USER ANALYSIS
+===== FOOTER 3 =====
+User Analysis  |  Group10  |  1

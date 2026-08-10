@@ -1,0 +1,475 @@
+===== PAGE 1 =====
+Thiết Kế Giao Diện
+A Few Web and Mobile UI 
+Patterns
+
+===== PAGE 2 =====
+2
+6/24/2024
+Outline
+◼ Overview
+◼ Web UI Patterns
+❑ Navigation
+❑ Forms
+❑ Search
+❑ Wizard
+◼ Mobile UI Patterns
+❑ Navigation 
+❑ Forms
+❑ Search
+❑ Notification, feedback, and invitation
+
+
+===== PAGE 3 =====
+3
+6/24/2024
+What is a UI Design Pattern?
+◼ Object-oriented Methodology
+❑ “Design patterns are descriptions of communicating objects 
+and classes that are customized to solve a general design 
+problem in a particular context” (Erich Gamma et al. 1995)
+◼ Generally, a design pattern is a description of the 
+repeatable problem and its solution 
+◼ UI design patterns are descriptions of common UI 
+design problems and their solutions
+
+===== PAGE 4 =====
+4
+6/24/2024
+Benefits of UI Design Patterns
+◼ UI patterns support external consistency
+❑ Consistency is a key principle of UI design
+◼ Improve learnability, memorability, and satisfaction 
+of UI
+◼ Reduce time to design, develop, and test
+◼ Reduce risks in UI design
+❑ Learning from good and working UI’s
+
+===== PAGE 5 =====
+5
+6/24/2024
+Outline
+◼ Overview
+◼ Web UI Patterns
+❑ Navigation
+❑ Forms
+❑ Search
+❑ Wizard
+◼ Mobile UI Patterns
+❑ Navigation 
+❑ Forms
+❑ Search
+❑ Notification, feedback, and invitation
+
+
+===== PAGE 6 =====
+6
+6/24/2024
+Web Navigation
+◼ Current popular homepage design: menus on top
+Logo, menu, sub-menu, search input box
+Sliders: conveying the current most important messages
+Content
+Fat footer
+
+===== PAGE 7 =====
+7
+6/24/2024
+Navigation: Menus and Sliders
+◼ Horizontal primary menu and submenu 
+◼ Menu can have dropdown lists (vertical menus)
+◼ Sliders should include graphics and most important 
+messages
+◼ Sliders can automatically play, but should not play 
+forever
+❑ Include pause and replay buttons
+❑ Don’t play too fast, let users read the message
+◼ Search input box on top should be prominent 
+◼ Limit scroll on homepage
+◼ Always provide a Home link
+
+===== PAGE 8 =====
+8
+6/24/2024
+Navigation: Menus and Sliders
+Search box
+Multiple sliders
+(don’t animate 
+forever)
+
+===== PAGE 9 =====
+9
+6/24/2024
+Navigation: Vertical Dropdown Menu
+
+
+===== PAGE 10 =====
+10
+6/24/2024
+Fat Footer
+◼ Secondary navigation to provide more shortcuts to 
+important information of a website
+◼ Links to frequently used pages 
+◼ Using the same footer for all pages 
+
+
+===== PAGE 11 =====
+11
+6/24/2024
+Breadcrumbs
+◼ Tell users where they have been, where they are, 
+how they can go back 
+
+
+===== PAGE 12 =====
+12
+6/24/2024
+Pagination 
+◼ Using ‘Previous’, ‘Next’, ‘<‘ and ‘>’ icons, and page 
+numbers
+◼ Google:
+◼ ebay: 
+Allow users to change number of items per page:
+Too many: slow loading
+Too few: slow searching 
+
+===== PAGE 13 =====
+13
+6/24/2024
+Accordion Menu
+◼ Grouping things into sections each with a panel
+◼ Expanding a section when clicking on it
+◼ Allowing users to view content of a section while 
+seeing other sections
+Source: http://jqueryui.com/accordion/
+
+
+===== PAGE 14 =====
+14
+6/24/2024
+Carousel 
+◼ Used to browse through a set of items
+◼ Used when there are many items and limited space 
+while informing users of something more
+◼ Used for visual objects
+
+
+===== PAGE 15 =====
+15
+6/24/2024
+Thumbnail Gallery
+◼ Allowing users to view many images without 
+downloading full sized content
+◼ Many jQuery and dojo plugins available
+◼ Common sizes:
+Width x Height Description
+64×64 Small
+80x80 Medium
+96x96 Medium
+128x128 Large
+144x144 Extra large
+Source: http://www.dmxzone.com/go/17142/creating-a-simple-animated-thumbnail-gallery/
+
+===== PAGE 16 =====
+16
+6/24/2024
+Forms
+◼ Forms contain various input elements: text boxes, 
+combo boxes (dropdown), radio buttons, etc.
+◼ Guidelines
+❑ Use one-column left aligned forms
+❑ Mark required fields or active feedback on required fields
+❑ Provide good feedback for actions and good error 
+messages
+❑ Place labels on the left or top and consistent throughout the 
+website
+❑ Group related fields (using colors or shading)
+
+===== PAGE 17 =====
+17
+6/24/2024
+Forms (cont’d)
+◼ Input prompts placed within input box
+◼ Good defaults
+◼ Good feedback
+◼ Few required info
+Required fields indicated 
+when users leave them 
+without filling
+This form does not use 
+many labels: saves space 
+and time for users
+
+===== PAGE 18 =====
+18
+6/24/2024
+Inplace Editor
+◼ Allows users to edit value easily
+◼ Used for editing a few text, dropdown, etc. values
+◼ Should use signifiers or indicators for possible 
+inplace editors (e.g., highlight when hovering)
+Trello allows editing 
+description and card title 
+by clicking on them
+
+===== PAGE 19 =====
+19
+6/24/2024
+Password Strength Meter
+◼ Used in the sign up form to help users specify their 
+strong passwords
+◼ Helps improve password security on websites
+◼ How to know a password is strong?
+❑ Apply some simple policies, e.g., wiki page or MS page
+Gmail’s sign up form
+
+===== PAGE 20 =====
+20
+6/24/2024
+Input Validation
+◼ Provide validation and feedback input time
+◼ Validate and feedback as much as possible before 
+submitting
+◼ What to validate?
+❑ Required fields
+❑ Acceptable ranges
+❑ Length
+❑ Uniqueness 
+❑ Confirmation 
+❑ Inclusion
+❑ Exclusion 
+
+
+===== PAGE 21 =====
+21
+6/24/2024
+Lazy Registration
+◼ Allows users to quickly register your service
+◼ Why? Users are afraid of having a relationship with 
+a website
+◼ How to get more 
+of their info?
+❑ Use “carrot and 
+stick” approach
+
+
+===== PAGE 22 =====
+22
+6/24/2024
+Search
+◼ Provide a single search field
+❑ Provide advanced search as a secondary option
+◼ Show results in the same page with search criteria
+◼ Offer an option to clear search criteria
+◼ Offer a progress indicator during search
+
+
+===== PAGE 23 =====
+23
+6/24/2024
+Search (cont’d)
+◼ Search criteria is also shown with results
+
+
+===== PAGE 24 =====
+24
+6/24/2024
+Progress Indicator/Wizard
+◼ Used to guide users through a complex multiple step 
+process such as checkout, setup, installation
+❑ Also used when users are not familiar with infrequent 
+processes
+
+
+===== PAGE 25 =====
+25
+6/24/2024
+Progress Indicator/Wizard (cont’d)
+◼ Guidelines
+❑ Minimize number of steps
+❑ If more than 5 steps, group them and don’t use numbers
+❑ Show the current step clearly
+❑ Label all steps/groups clearly
+❑ Allow users to go back to modify inputs in previous steps
+
+===== PAGE 26 =====
+26
+6/24/2024
+Outline
+◼ Overview
+◼ Web UI Patterns
+❑ Navigation
+❑ Forms
+❑ Search
+❑ Wizard
+◼ Mobile UI Patterns
+❑ Navigation 
+❑ Forms
+❑ Search
+❑ Notification, feedback, and invitation
+
+
+===== PAGE 27 =====
+27
+6/24/2024
+Mobile Navigation
+◼ Types (Neil 2012)
+❑ Springboard
+❑ Tab menu
+❑ List menu
+❑ Gallery 
+❑ Metaphor
+
+===== PAGE 28 =====
+28
+6/24/2024
+Springboard
+◼ Home screens for iOS 
+and Android
+◼ Divide screen into 3x3, 2x3, etc.
+◼ Should limit number of items
+in one screen
+❑ Combine w/ tab if needed more
+◼ Provide a search box to search
+items 
+◼ Allow users to change layout
+
+
+===== PAGE 29 =====
+29
+6/24/2024
+Tab menu
+◼ Each tab groups a similar set of 
+functions
+◼ Active tab should be highlighted 
+◼ Tabs at the bottom is preferable 
+(closer to user fingers)
+❑ Android, Windows: tabs on top
+◼ Use icons with accompanying titles
+◼ Titles should be short
+(use list menu or springboard for 
+long titles instead)
+tabs
+
+===== PAGE 30 =====
+30
+6/24/2024
+List Menu
+◼ Various kinds of list
+❑ Title only list
+❑ Grouped list (with sub-sections)
+❑ Enhanced list
+◼ Can show long titles and 
+sub-titles (e.g., hints)
+◼ Can be included in tabs 
+◼ Should indicate touchable items
+
+
+===== PAGE 31 =====
+31
+6/24/2024
+Gallery 
+◼ Suitable for photos, articles, 
+products, restaurant menus
+
+
+===== PAGE 32 =====
+32
+6/24/2024
+Metaphor
+◼ Menu with icons symbolizing physical things
+◼ Strong metaphors may be overkilled
+◼ May be suitable in games
+
+
+===== PAGE 33 =====
+33
+6/24/2024
+iOS 7 – Slide Between Pages
+◼ Moving screens by sliding
+◼ Less visible navigation 
+but efficient
+
+
+===== PAGE 34 =====
+34
+6/24/2024
+Forms
+◼ Keep forms simple
+◼ Only include required fields
+
+
+===== PAGE 35 =====
+35
+6/24/2024
+Registration Form
+◼ Provide instant feedback
+
+
+===== PAGE 36 =====
+36
+6/24/2024
+Search Criteria Form
+◼ Show criteria in a list
+◼ Provide default values
+◼ Have a “clear”/ “reset” button
+◼ Set label with number 
+of results, if possible
+
+
+===== PAGE 37 =====
+37
+6/24/2024
+Single Search Input Box
+◼ Always better to provide simple
+but powerful search capability
+
+
+===== PAGE 38 =====
+38
+6/24/2024
+Search Auto Suggestion
+
+
+===== PAGE 39 =====
+39
+6/24/2024
+Grouped Rows
+
+
+===== PAGE 40 =====
+40
+6/24/2024
+Signifiers 
+◼ Use signifiers/indicators to 
+show affordance of items
+◼ Drag-able
+◼ Checkable
+
+
+===== PAGE 41 =====
+41
+6/24/2024
+Notifications
+
+
+===== PAGE 42 =====
+42
+6/24/2024
+Invitations
+
+
+===== PAGE 43 =====
+43
+6/24/2024
+References
+◼ iOS 7 UI Design Basics: 
+https://developer.apple.com/library/ios/documentation/userexperience/conc
+eptual/MobileHIG/index.html
+◼ http://ui-patterns.com 
+◼ 12 standard screen patterns: 
+http://www.designingwebinterfaces.com/designing-web-interfaces-12-
+screen-patterns 
+◼ Theresa Neil, "Mobile Design Pattern Gallery: UI Patterns for iOS, Android 
+and More,“ O'Reilly Media, February 2012
+◼ Luke Wroblewski, “Web Form Design: Filling in the Blanks”, 2008

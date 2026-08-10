@@ -1,0 +1,1650 @@
+{
+  "pdfs": [
+    {
+      "path": "D:\\MEGA\\tkgd\\Lecture material\\LN01 - Introduction - v2.pdf",
+      "pages": 45,
+      "bytes": 1899970,
+      "sha256": "38c0fbc4ee97a69a24f45ab8d6dceb3db4756e2beec664c11d14334488d158dd",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_Lecture_material_LN01_-_Introduction_-_v2.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\Lecture material\\LN02 - Fundamental Concepts - Usability Dimensions_2.pdf",
+      "pages": 118,
+      "bytes": 6884032,
+      "sha256": "0fd6f6bba2eb2af869b3c753af992cff7be3292469e825b4b260c13bbd66715b",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_Lecture_material_LN02_-_Fundamental_Concepts_-_Usability_Dimensions_2.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\Lecture material\\LN03 - UI Design Process.pdf",
+      "pages": 38,
+      "bytes": 1014276,
+      "sha256": "573f563129a39d9c69f4ade6025e03e01a55ac2aff646abec8cde797d132c748",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_Lecture_material_LN03_-_UI_Design_Process.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\Lecture material\\LN04 - Task Analysis.pdf",
+      "pages": 68,
+      "bytes": 4467083,
+      "sha256": "05f502dfb461b27d82b709ae5cafaa8cdd2d586e5c17ef81a6a61dd7d5e9f934",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_Lecture_material_LN04_-_Task_Analysis.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\Lecture material\\LN06 - WebUI.pdf",
+      "pages": 55,
+      "bytes": 2918921,
+      "sha256": "d3b80c855acbd119a6aa2f283003051bfcbc8a50e00a853f3299a15bbdf34be9",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_Lecture_material_LN06_-_WebUI.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\Lecture material\\LN07 - Mobile UI.pdf",
+      "pages": 55,
+      "bytes": 1718499,
+      "sha256": "4fc8957f81473e84df92f22a4f56947e5ec97218157860dc616f0eeee45babf6",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_Lecture_material_LN07_-_Mobile_UI.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\Lecture material\\LN07 - UI Design Patterns.pdf",
+      "pages": 43,
+      "bytes": 1801982,
+      "sha256": "0de9fd4000a2f040839e0731659074bea8763680a2b2a86238dbaf756543ef54",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_Lecture_material_LN07_-_UI_Design_Patterns.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\Lecture material\\LN08 - Graphics Design 1.pdf",
+      "pages": 33,
+      "bytes": 965517,
+      "sha256": "c4adc0b51451359b8402f492b2d7a0efa7ec7b2f311a53a16c5ecaf0a4304599",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_Lecture_material_LN08_-_Graphics_Design_1.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\Lecture material\\LN09 - Graphics Design 2.pdf",
+      "pages": 34,
+      "bytes": 796631,
+      "sha256": "805b7e1b6f22d9448ae6902dad4f7d8ff042948df97a2132e77448dfdac97aa3",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_Lecture_material_LN09_-_Graphics_Design_2.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA1\\Group10-PA1-PeerReview.pdf",
+      "pages": 8,
+      "bytes": 97553,
+      "sha256": "8bc03818418bd3ab4ba2e0a47cd1f937111a403e88e96240fe5288b7e59d4150",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA1_Group10-PA1-PeerReview.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA1\\Group10-PA1-PotentialSolutions.pdf",
+      "pages": 20,
+      "bytes": 669594,
+      "sha256": "0dfb06b1c270df62a5a24f02bf0c9bb68ad6e5c2f0873ca7e68115a760656770",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA1_Group10-PA1-PotentialSolutions.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA1\\Group10-PA1-ProductResearch.pdf",
+      "pages": 19,
+      "bytes": 930627,
+      "sha256": "4b73ac0303062434b495b95d60e46e495556af733e4946c469a006c394c93b32",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA1_Group10-PA1-ProductResearch.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA1\\Group10-PA1-WeeklyReport.pdf",
+      "pages": 10,
+      "bytes": 267615,
+      "sha256": "ae4b31054d9b34e889751bc95aff5e6d21550fbca2737c78f31978adc6bd8600",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA1_Group10-PA1-WeeklyReport.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA1\\PA1-LKDuy-2026-Public.pdf",
+      "pages": 3,
+      "bytes": 142655,
+      "sha256": "44f9c35bae7e02dcf2ae4bf9a348aab97cc13d4b1f855c6119569b9f02db4c9d",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA1_PA1-LKDuy-2026-Public.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\final\\Group10-PA2-PeerReview.pdf",
+      "pages": 3,
+      "bytes": 142392,
+      "sha256": "7f1151fadf90e8a40ae343f8860be153ea43665d11046f23caafdb2fd038e973",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA2_final_Group10-PA2-PeerReview.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\final\\Group10-PA2-ProjectProposal.pdf",
+      "pages": 17,
+      "bytes": 1310241,
+      "sha256": "0a029ff4d572f8b69c462e990cf6318f77ded71fd733545104922dd4e57a5234",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA2_final_Group10-PA2-ProjectProposal.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\final\\Group10-PA2-UseCaseDocument.pdf",
+      "pages": 23,
+      "bytes": 1253119,
+      "sha256": "34cb9a69625c0d517d1093b0d4440def91d32a551bf1c04919b384462b65fd80",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA2_final_Group10-PA2-UseCaseDocument.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\final\\Group10-PA2-UserAnalysis.pdf",
+      "pages": 10,
+      "bytes": 1278055,
+      "sha256": "1b13a0a64bcf3afe48a238a0adbf3c5aadbff1df0c56ee7cc2d72bd19ace294a",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA2_final_Group10-PA2-UserAnalysis.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\final\\Group10-PA2-UserResearch.pdf",
+      "pages": 31,
+      "bytes": 3325593,
+      "sha256": "a97a7981f4d475f86dc2e869093d15f778425b3232ae1081e49d94898a03d406",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA2_final_Group10-PA2-UserResearch.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\final\\Group10-PA2-WeeklyReport.pdf",
+      "pages": 4,
+      "bytes": 181478,
+      "sha256": "220062ca2de99721c1a02ff5cf5af63085ca08553aed2ed0ff7bfb049b9a61b8",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA2_final_Group10-PA2-WeeklyReport.pdf.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\PA2-LKDuy-2026-Public.pdf",
+      "pages": 3,
+      "bytes": 154880,
+      "sha256": "865b6a604ecc5f1681910177aa88bbd5f6e4a8f651247e1248926858ce896f30",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\pdf-text\\MEGA_tkgd_PA2_PA2-LKDuy-2026-Public.pdf.txt"
+    }
+  ],
+  "docx": [
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\source\\Group10-PA2-PeerReview.docx",
+      "paragraphs": 22,
+      "tables": 6,
+      "bytes": 40835,
+      "sha256": "0daaf705a6c2453bb08eed173c3a5478925a399c2cdd25411180721bfa216dd8",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\docx-text\\Group10-PA2-PeerReview.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\source\\Group10-PA2-ProjectProposal.docx",
+      "paragraphs": 53,
+      "tables": 14,
+      "bytes": 268016,
+      "sha256": "9135a4e7b971fd960e71d79c159abdf8e0f241d22b0ed8d51be4eef660591c73",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\docx-text\\Group10-PA2-ProjectProposal.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\source\\Group10-PA2-UseCaseDocument.docx",
+      "paragraphs": 361,
+      "tables": 46,
+      "bytes": 388242,
+      "sha256": "ba6c6663ca836777277727a8a6cf08c9a280ae8afe67fc12315bb233c906d478",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\docx-text\\Group10-PA2-UseCaseDocument.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\source\\Group10-PA2-UserAnalysis.docx",
+      "paragraphs": 44,
+      "tables": 10,
+      "bytes": 322198,
+      "sha256": "fecf778241dd3d6b0cbf84fc119eceb05a8f937f350d00206f8888e9aa758752",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\docx-text\\Group10-PA2-UserAnalysis.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\source\\Group10-PA2-UserResearch.docx",
+      "paragraphs": 115,
+      "tables": 14,
+      "bytes": 24573262,
+      "sha256": "d69780918b77c13804da3093b91fe599ceb2851f9bea45ed9960836fd7538d31",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\docx-text\\Group10-PA2-UserResearch.txt"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\source\\Group10-PA2-WeeklyReport.docx",
+      "paragraphs": 18,
+      "tables": 8,
+      "bytes": 41601,
+      "sha256": "0a829f229fc95581dcf2fd9d80ebab3ffd2593b612a48950f2a726f07b1bbe2c",
+      "text": "D:\\MEGA\\tkgd\\PA2\\tmp\\finalization-read\\docx-text\\Group10-PA2-WeeklyReport.txt"
+    }
+  ],
+  "images": [
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\automation\\node_modules\\playwright-core\\lib\\server\\chromium\\appIcon.png",
+      "width": 400,
+      "height": 400,
+      "bytes": 16565,
+      "sha256": "6ba994f05c5cf18e22d9b6bef9898fbdec6ad4d4d77f5187d0609cb42d72d01e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\automation\\node_modules\\playwright-core\\lib\\tools\\dashboard\\appIcon.png",
+      "width": 400,
+      "height": 400,
+      "bytes": 18945,
+      "sha256": "38037bcf18c7f9b950da2e1a2d8800d38fb27637ccda293d38368a3704b67f18"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-01-homepage-desktop.png",
+      "width": 1440,
+      "height": 3920,
+      "bytes": 1108202,
+      "sha256": "24d76783f45b0700c1decd6d690581634c49dfa662f508bdbda49e27aa06a4cc"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-02-side-navigation-desktop.png",
+      "width": 1440,
+      "height": 3920,
+      "bytes": 1108840,
+      "sha256": "8c6970c182be139d1c509631eb8ff4cda001ca18a9df0e846d65795007a25bbe"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-05-play-entry.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 301736,
+      "sha256": "97d29c7ede8618030dabff7f65bdfeaebc375138eae2a87ca23af58165890bce"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-06-time-control-selector.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 180486,
+      "sha256": "9a03c1001b524bdf5ea617fb48e21e6ec7e5d669af8e975ca0b44b97712260c4"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-07-custom-game-settings.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 223178,
+      "sha256": "dc53494193cc739d4a632a7aa8c2975fd4bdc98fd8e2e4f163bdc2f13518fa88"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-08-start-game-state.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 209370,
+      "sha256": "fe3843271f77ac2de75b6ec302e32dbd48f88e9b8143ed8cadaf8289c259fb1a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-09-guest-game.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 191677,
+      "sha256": "8674504a3b409079ce5437c3157086ca925ed8fba15d6f24c0c5256ddd6a6ec1"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-10-bot-game.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 436377,
+      "sha256": "10832bcc18a1b488e5a4ec26bc784581e32bd19038b44027eda48be7f9cfa7cd"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-11-active-board.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 414599,
+      "sha256": "cccd4cb39798545874d73e46866902f6132cf6c1ecbeac7be4856b828c3a84dd"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-12-active-board-clock.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 448128,
+      "sha256": "8cb5c33d82a51b645f6bcc8cba63b449662ad3f551db0f8833ee40f0a50a2019"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-13-last-move-indicator.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 369849,
+      "sha256": "df6b1c9541f781e9056050e207a3c468ee1758f3b6f080d1e24933c06627a93a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-14-legal-move-feedback.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 481097,
+      "sha256": "fa2b079ab944b62fde192a922ae42bba823fccf10a288b91f4e4f9d0e595ea65"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-15-draw-control.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 363193,
+      "sha256": "787947947d7115ffc6504d4fe2ef184f7235d1af6bedd92ae991afe3aa83826a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-16-resign-control.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 375340,
+      "sha256": "efd8c226302763579b8df144ca0008c69990f4962475a9b6fd60b689263ea363"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-17-settings-control.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 369729,
+      "sha256": "e8f04d7e1e6641559066a877490ccfa49ddc4f112d77a6b591aa9995c5359b39"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-18-board-side-panel.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 481242,
+      "sha256": "29d2df1a0f6cb89efe1204f89f680d5fd2b52f7fa26cc7214918fead659b14a3"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-19-puzzle-landing.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 365744,
+      "sha256": "6d9b3c79771565fcfc80c479bd4e99ad96006ab06543baae858bc3916f2c17c1"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-20-puzzle-before-move.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 451228,
+      "sha256": "870489c89ad851fd8ea6d4b2346f243371303126c21b0f562120e33ee8912f74"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-21-puzzle-after-correct.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 367428,
+      "sha256": "567ed5d1fa3043eb721dd34bd9a4a2c3523ef3462d15a6b9463e1d7dc2d151cf"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-22-puzzle-after-wrong.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 473015,
+      "sha256": "6122be7f9f427f24215eeb25531d16b4be8bbdc917c63c3ef009d5540f96dba0"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-23-puzzle-feedback.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 379008,
+      "sha256": "0b1b32d0a272277ef97dc6064adf1b0d5d3bebd02f522d64ab51f773ff8990dc"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-24-lessons-landing-loaded.png",
+      "width": 1440,
+      "height": 6869,
+      "bytes": 2709726,
+      "sha256": "93c1000aefaed001be256f01feb2e5315ea8677d70f18edb02751ec33dccd7ac"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-25-beginner-lesson.png",
+      "width": 1440,
+      "height": 6869,
+      "bytes": 2500926,
+      "sha256": "e4927a5fec2824a0f9adf48517becb2456d5963a7461fc3553146a833461af10"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-26-learn-page.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 273799,
+      "sha256": "58a5f5761d6730a716425fcd0569c0e840736d9cd08c56f381a94e1940e98a97"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-27-study-plan.png",
+      "width": 1440,
+      "height": 6357,
+      "bytes": 1420363,
+      "sha256": "46d93686983b1a1c8404edc3da70960ed8067c1919033cc791668a7d51f82c5a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-28-game-review.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 179290,
+      "sha256": "77167fc5bb273df6cd9c68e3ad42e711fd998599762b37eef779ac88ad980c19"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-29-analysis-board.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 179236,
+      "sha256": "cc88bb98dffac4126d39a3a6633dcf71e01a4f8e7ffdb4cc0a69b7349c64f8a4"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-30-evaluation-bar.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 179285,
+      "sha256": "59973300d97cdfb6db55dc887b5b1cfcfebd5efbb19894c7089dda7192df2281"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-31-move-list.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 179238,
+      "sha256": "bb640bdbdffce53bfdefbfa7f31f4c8f746b2e75a6a243c25b33ea8c0f85da46"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-32-engine-lines.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 179236,
+      "sha256": "cc88bb98dffac4126d39a3a6633dcf71e01a4f8e7ffdb4cc0a69b7349c64f8a4"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-33-analysis-chart.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 179285,
+      "sha256": "8b02955cb95d3223932e4c188626b9b6ad7bcb580adcd862cce02e267da25b36"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-34-analysis-toolbar.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 179238,
+      "sha256": "cac087a4fb8298a02c8e6de2ff339a064f8e003590be14762fdc59ec4f902680"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-35-premium-limit-natural.png",
+      "width": 1440,
+      "height": 6869,
+      "bytes": 2438582,
+      "sha256": "ade7fe8373aef1a3e7d23f9f00fc57ca7f185e84ad7f2ae5d006a750a81e8b80"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-36-entitlement-message-natural.png",
+      "width": 1440,
+      "height": 6869,
+      "bytes": 2365200,
+      "sha256": "442be3668a1d6c7c3931c402c1ec1d8f7345806b75fa9bfae0b00abd3b125fea"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-37-premove-setting.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 362989,
+      "sha256": "79d5a4aa3003d91e545757d643cc695458d274b61ba787a44ae2e4508f51a020"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-38-board-queued-premove.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 480818,
+      "sha256": "bcc0f9abfc384bf20ec48c8bb4009e8068dd8e3c03f5dfa4353c310dee21b21a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-39-premove-clear-state.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 375063,
+      "sha256": "79ac6f30690f682e42c1bbe1c3750f537b219cef86895647cd97e47537ef97b8"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-40-focus-mode-control.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 363176,
+      "sha256": "ece9f460a4b379ad6761e80507efc96bb6c2b2b4de6b02752cc817856f4572b2"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-41-focus-mode-hover.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 472891,
+      "sha256": "f61bc36f251d34bdc96c1a6d40d7cfa7e8231552fe0f5e96556964ffcdbfcef8"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-42-focus-mode-tooltip.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 366549,
+      "sha256": "b1516c3cf9ebf85fbc88844552d2607d29796785279300840b4e77f6d492a1bd"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-43-focus-mode-enabled.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 436270,
+      "sha256": "5c0fbc8ee074c06d944100885db2841f06ba1dc88fb08a9b8d600c74cfae7f66"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-44-focus-mode-settings-shortcut.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 473077,
+      "sha256": "0722e1c986b041b21900de98459bfbc0f330b75bd4612c5230c2b6757432e7a4"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-51-account-prompt-natural.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 292681,
+      "sha256": "7b76fa2fc48fb78bef9b02d285e8e01ea681f50ec597c0065b728d13718cf8af"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-52-cookie-banner-natural.png",
+      "width": 1440,
+      "height": 3920,
+      "bytes": 1108202,
+      "sha256": "24d76783f45b0700c1decd6d690581634c49dfa662f508bdbda49e27aa06a4cc"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\desktop\\chess-53-ad-panel-natural.png",
+      "width": 1440,
+      "height": 3920,
+      "bytes": 1129797,
+      "sha256": "53e6782ae7d58579c3e0a0a99b7773522825c885394addc9976ba4fa4ae76082"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\mobile\\chess-03-homepage-mobile.png",
+      "width": 390,
+      "height": 3679,
+      "bytes": 448629,
+      "sha256": "c426651747c3410068b87cc382edcd5be4bb1e876a1d97742edbb22c6d243fac"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\mobile\\chess-04-mobile-navigation-open.png",
+      "width": 390,
+      "height": 3679,
+      "bytes": 454177,
+      "sha256": "59c203376c2ee9572090ea693712e258cd09aa57dc0ec641a05d6b2d1b7dc1ed"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\mobile\\chess-47-play-mobile.png",
+      "width": 390,
+      "height": 1072,
+      "bytes": 76732,
+      "sha256": "7716088c95a04fbc182254c3f5d7e349655896e543d3e778d88646702a38b409"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\mobile\\chess-48-puzzle-mobile.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 187811,
+      "sha256": "19aa50cab1fd409272e76d532239467f5f2b6055357eab66bb467a6086063702"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\mobile\\chess-49-lessons-mobile.png",
+      "width": 390,
+      "height": 11805,
+      "bytes": 2591875,
+      "sha256": "78d0ac23a329fd12d99eaafe73cdbc5f84a7cbabe0e72153d4471832cc64044f"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\chess\\mobile\\chess-50-active-game-mobile.png",
+      "width": 390,
+      "height": 1332,
+      "bytes": 133636,
+      "sha256": "5267eb520f5d60e78800ec97771e906cd1646091e8fe97129bc8f2a58cd9b5e1"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-01-homepage-desktop.png",
+      "width": 1440,
+      "height": 9032,
+      "bytes": 4591249,
+      "sha256": "7c2b3720915ecce93f7f3f89fa81ecd9794a28be4ffcf746ea81a2b6ad21b042"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-02-global-navigation-desktop.png",
+      "width": 1440,
+      "height": 9004,
+      "bytes": 4750428,
+      "sha256": "1c9c8e60762fb2d559b38b61349d605e46421060a5c461c0bbd8a5dec1dcb0c5"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-03-homepage-hero-desktop.png",
+      "width": 1440,
+      "height": 9004,
+      "bytes": 4750428,
+      "sha256": "1c9c8e60762fb2d559b38b61349d605e46421060a5c461c0bbd8a5dec1dcb0c5"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-06-match-centre.png",
+      "width": 1440,
+      "height": 2380,
+      "bytes": 262238,
+      "sha256": "f15ad75f6c9b581b94d3c8392e5b12a23687a85953b8f3e89c3d0a64a4306d0c"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-07-match-centre-today.png",
+      "width": 1440,
+      "height": 2365,
+      "bytes": 290653,
+      "sha256": "f9d5975a65038b1b6e6ab8909b450d932ce798223505e4eeeebe200553cbe7db"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-08-match-centre-live.png",
+      "width": 1440,
+      "height": 2365,
+      "bytes": 305479,
+      "sha256": "8fbec8a53b011a055f495643cc13950590067700e40420d225d27c19bad4ef4b"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-09-match-centre-results.png",
+      "width": 1440,
+      "height": 2365,
+      "bytes": 305479,
+      "sha256": "f2ac7c68d0f31f950cfa69246edb9c60cf86c19212ad782b91c38a22d855df4d"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-10-match-centre-filters.png",
+      "width": 1440,
+      "height": 2380,
+      "bytes": 239833,
+      "sha256": "516ff4531c3256ec9e034afa6a0db969a6ce19c97d09932ddd3db74d96e6f242"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-11-search-page.png",
+      "width": 1440,
+      "height": 5699,
+      "bytes": 2423213,
+      "sha256": "be6992cd4ada1e917b59c5364def81a13cc5253167b7e33a473dc7065ec2cd88"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-12-search-results-mixed-content.png",
+      "width": 1440,
+      "height": 5699,
+      "bytes": 2420825,
+      "sha256": "427440c1eedb38b3a4374626eb2cbe4c786f1dfb7b4f06f0e8c0dcedfc1144f8"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-13-news-article-full.png",
+      "width": 1440,
+      "height": 5265,
+      "bytes": 1768835,
+      "sha256": "bf4eed5ee0d701a7c785a1f7ac37e3964fab4ea66a0b679caa9373f670afe2fb"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-14-article-header.png",
+      "width": 1440,
+      "height": 5265,
+      "bytes": 1773534,
+      "sha256": "1878fc5215dfe6a7fb8c8178c778ac234e5f516627a646c625127a3875fe83ff"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-15-article-body.png",
+      "width": 1440,
+      "height": 5265,
+      "bytes": 1773534,
+      "sha256": "1878fc5215dfe6a7fb8c8178c778ac234e5f516627a646c625127a3875fe83ff"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-16-tournament-landing.png",
+      "width": 1440,
+      "height": 11554,
+      "bytes": 4848550,
+      "sha256": "a97952f1a985346638d75e10d2579fd42383a85b4e8a05ca8830afa8e60860ed"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-17-tournament-after-modal-dismiss.png",
+      "width": 1440,
+      "height": 11561,
+      "bytes": 5935266,
+      "sha256": "b2433c54749bf19ca50664eeaa87841031fa753d2b572cdde7bab3d97d9bf06c"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-18-tournament-subnavigation.png",
+      "width": 1440,
+      "height": 11561,
+      "bytes": 6336888,
+      "sha256": "9449516342b2c09ff24b34eb346f9af852d8a7ddb99e3f5384642186b945589f"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-19-rankings.png",
+      "width": 1440,
+      "height": 5781,
+      "bytes": 2644279,
+      "sha256": "774c47ee57c8edeb045575f7b412587ea623414589488b78b14f7ed2f8e9f3be"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-20-tickets-hospitality-landing.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-21-tournament-logo-row.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-22-ticket-card.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-23-hospitality-card.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-24-explore-details-state.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-25-buy-now-state.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-26-buy-packages-now-state.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-27-register-interest-state.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-28-coming-soon-state.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-29-sold-out-state.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-30-waiting-room-state.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-31-resale-state.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-32-before-partner-handoff.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1970535,
+      "sha256": "99d6fba01ea22bc3dcb3149a3dfc6f1162a3d6535131afdcfebc6dedbe7e2d1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-33-partner-after-public-redirect.png",
+      "width": 1440,
+      "height": 5729,
+      "bytes": 1974126,
+      "sha256": "74819f49b4295c282d8effbeddd58a70a5525386d2a8b6e4c9e0e291a22c7c9c"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-34-fifa-plus-entry.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 993316,
+      "sha256": "d18826eee08f121a343cb0caaeee66abcae8311d7530ddc67177aa97fc15707f"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-35-fifa-plus-dazn-landing.png",
+      "width": 1440,
+      "height": 5252,
+      "bytes": 6196802,
+      "sha256": "1e141dd1d5564714316ae70d4b5ad9420ad9deb4d473542fc41e20a281fb0841"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-36-fifa-plus-cookie-before-dismiss.png",
+      "width": 1440,
+      "height": 6405,
+      "bytes": 7553005,
+      "sha256": "d1b1325fd7bb043ee66f08c8bebab92770a58cff71de2db0f47fd6edbd7d5d26"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-37-fifa-plus-after-cookie-dismiss.png",
+      "width": 1440,
+      "height": 6405,
+      "bytes": 7806673,
+      "sha256": "c76dced94e8f3eb80900aaf297f9b14796139da565876ea9b4ba314591532258"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-38-fifa-plus-hero.png",
+      "width": 1440,
+      "height": 6405,
+      "bytes": 7806673,
+      "sha256": "c76dced94e8f3eb80900aaf297f9b14796139da565876ea9b4ba314591532258"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-39-fifa-plus-live-rail.png",
+      "width": 1440,
+      "height": 6405,
+      "bytes": 7806673,
+      "sha256": "c76dced94e8f3eb80900aaf297f9b14796139da565876ea9b4ba314591532258"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-40-fifa-plus-highlights-rail.png",
+      "width": 1440,
+      "height": 6405,
+      "bytes": 7806673,
+      "sha256": "c76dced94e8f3eb80900aaf297f9b14796139da565876ea9b4ba314591532258"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-41-fifa-plus-documentary-rail.png",
+      "width": 1440,
+      "height": 6405,
+      "bytes": 7806673,
+      "sha256": "c76dced94e8f3eb80900aaf297f9b14796139da565876ea9b4ba314591532258"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-42-fifa-plus-competition-rail.png",
+      "width": 1440,
+      "height": 6405,
+      "bytes": 7806673,
+      "sha256": "c76dced94e8f3eb80900aaf297f9b14796139da565876ea9b4ba314591532258"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-43-fifa-plus-archive-rail.png",
+      "width": 1440,
+      "height": 6405,
+      "bytes": 7806673,
+      "sha256": "c76dced94e8f3eb80900aaf297f9b14796139da565876ea9b4ba314591532258"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-44-footer.png",
+      "width": 1440,
+      "height": 9004,
+      "bytes": 4750428,
+      "sha256": "1c9c8e60762fb2d559b38b61349d605e46421060a5c461c0bbd8a5dec1dcb0c5"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-45-footer-ecosystem-navigation.png",
+      "width": 1440,
+      "height": 9004,
+      "bytes": 4775726,
+      "sha256": "8502771b1ab5ffa1f98d5657f5ee8f68fee896546e47d0e18b3f11dc69e0a689"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-46-store-page.png",
+      "width": 1440,
+      "height": 6026,
+      "bytes": 3015861,
+      "sha256": "59869061d69183775fd571dd876050bf5a7c5e59e2610fe84f457816808e0322"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-47-collect-page.png",
+      "width": 1440,
+      "height": 7187,
+      "bytes": 4566050,
+      "sha256": "adb8e19111363aed656264f721b60d2323a9028c7aaa90d280049b502c9f6b24"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-48-rewards-page.png",
+      "width": 1440,
+      "height": 3673,
+      "bytes": 430561,
+      "sha256": "8ef9ca20a6a66ebc3d8840aa86fdc5fcc5ff423b36f39c015f5de30862044878"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-53-promotional-popup.png",
+      "width": 1440,
+      "height": 11554,
+      "bytes": 6541775,
+      "sha256": "f1cca63b1ba7d8097d597a5ed8507726573f5450e3970567cff22301a1f6566a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\desktop\\fifa-54-cookie-banner.png",
+      "width": 1440,
+      "height": 9004,
+      "bytes": 4654850,
+      "sha256": "02c3466cc010cd1ae2fe6bce8c9aac2c2730aa4025d555fc0c7a5fd5b22913ce"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\mobile\\fifa-04-homepage-mobile.png",
+      "width": 390,
+      "height": 8383,
+      "bytes": 1322692,
+      "sha256": "7e0a48d9082100c1675f4451ce591a57a52f0aafe4f14c82887f90149429971a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\mobile\\fifa-05-mobile-navigation-open.png",
+      "width": 390,
+      "height": 8383,
+      "bytes": 1322616,
+      "sha256": "d69f1e3be1cee7b18fe7bc934b62536c5410aacd2987e3417f4355cd0496f17a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\mobile\\fifa-49-match-centre-mobile.png",
+      "width": 390,
+      "height": 3580,
+      "bytes": 161757,
+      "sha256": "e0edd87a52874efa2165a95c8523ac6ed3e524e19f4fcf24da1489aa3e58b945"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\mobile\\fifa-50-article-mobile.png",
+      "width": 390,
+      "height": 6515,
+      "bytes": 700261,
+      "sha256": "42baebdf71ab9028f0048489e2cf7e79ef85fbb0987fed1e78cddc2bf97818a0"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\mobile\\fifa-51-tickets-mobile.png",
+      "width": 390,
+      "height": 4985,
+      "bytes": 599296,
+      "sha256": "403271008dd8d03521a47418610d4e1a4120623e0767048acae64f040ddab4cf"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\fifa\\mobile\\fifa-52-fifa-plus-entry-mobile.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 247194,
+      "sha256": "2c824e078908f623c18a5de21dd2244e0fc5476865afe294d922e91aae13ca4a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PeerReview\\page-1.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 196878,
+      "sha256": "a38e3d8b42b256d7181f9108024b94e32f3d208d35bb7e1909ce42ff5482d3cf"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PeerReview\\page-2.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 229180,
+      "sha256": "46a341fe030505f305c1a63e08fa874dbc8b9d3a89e8eaa49af5b17d31b26f78"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PeerReview\\page-3.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 252306,
+      "sha256": "dfa20fed4e26a05e50cf6150f569bf5914e4302e05ceb88296df061318ba7018"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PeerReview\\page-4.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 246612,
+      "sha256": "5d7025fc4c35eff1a8ba2899631989c59c855d07f22f1b8b09f3782f27491df4"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PeerReview\\page-5.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 222104,
+      "sha256": "639021d961e7db87d8ce0933d9fd1c45011c8ed7c42d37db192b168690e8c33b"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PeerReview\\page-6.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 234375,
+      "sha256": "483c330ae6ab566b10ba8ef20ef5ed980f3d863f067db42caa4f06e6c9a6ee0b"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PeerReview\\page-7.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 264109,
+      "sha256": "bdbbd5b972849cf85fcbfcba8133a2ad8ac07713c7f3859febc7cd57df83ef57"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PeerReview\\page-8.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 138765,
+      "sha256": "0de5d2d445fa042790ba159679e5eec4b8b49b95950b3f00bbb98d1c052ce8b6"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-01.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 196863,
+      "sha256": "3876004a12cf9703f10c49176060ab0690bb91f4f76e4324ab8592afbcb35890"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-02.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 187481,
+      "sha256": "993a046166551f663b7817a42c0d569e433f00cfee2924a2855a9ddde2c4c5e4"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-03.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 208444,
+      "sha256": "fc488f715cf90ea3e9ba15d3deae1d1c75a85834360ca08e8b7bc70104c32309"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-04.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 38471,
+      "sha256": "63356a76da3835987b5143115cb1d3b352272042eb556fb2f2000b6da340d3c9"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-05.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 325449,
+      "sha256": "60e5949eb3fe11d302073b8485ba8258bfa4d5077aea19ea16d5bcd3bfbce1ca"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-06.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 374609,
+      "sha256": "0e9eecee4b8907adee2b55abc1c0a64a6e5f4e974f010bd160658bc80e3fa8bc"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-07.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 360226,
+      "sha256": "304eda324898c72bfa28276a4715d63c6ed268f7b13eb70f4cd067805ed65bdc"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-08.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 236814,
+      "sha256": "c685a3adbb27ddac72d7edd97c1b73c94eb01075be4d2879f0032e36c9fc794f"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-09.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 366733,
+      "sha256": "44434f7ab157ec76d2dba677f2304213dbc47c82e9d900b4589e31ea6ab53e82"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-10.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 85154,
+      "sha256": "f09aebd4c096b6ca5cb88f911665a6f24631af022c66110ebda0e5f8e5500479"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-11.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 299894,
+      "sha256": "134842b689f3fc7dd3bbe6c90b524af11a82762a25be2838149ac22ca09b9e0d"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-12.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 244238,
+      "sha256": "3ae1fef59969d5b1c4b2661eef8266f2fa3430fa9817aa424d214bdad710d344"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-13.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 305336,
+      "sha256": "cbf293ae65104ce198190417fc9503425413df7f4b3e0af2897455ec4f85b3c9"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-14.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 355951,
+      "sha256": "2fa16f2ee3edd61de042a51a5e310813fd2aabc8fb536ffcc06b1edccdc2d27c"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-15.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 367615,
+      "sha256": "825ff621b3834501b339648b5906fb6e4448cc10d9e284472d313a3eb5a0ae71"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-16.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 196050,
+      "sha256": "a3970a2bb9bfb505e0b11dd0f0f556c872a83274a75f2e0170aeaeb8454d855d"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-17.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 218985,
+      "sha256": "4d7cf2ebb751b360b51c03597e9e3bd44a46b5bcd5febe30f120b295519f7c6a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-18.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 230483,
+      "sha256": "af614ddbc1c23739b83dcf6896b795d9290f608092b5c96d436adeecc4dd82c3"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-19.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 277939,
+      "sha256": "335c75e1e0c7d3975fc03bd977becfdc2b81be42217d43c7ad4054064c542212"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-PotentialSolutions\\page-20.png",
+      "width": 1755,
+      "height": 1241,
+      "bytes": 270771,
+      "sha256": "2614fa5d52b18ab7a5e02b680d508534b880c5cff5b122527799515d416906b4"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-01.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 86104,
+      "sha256": "b0731f515c89b66db6d83315d1b791261bfbbae0e69154b6382009a21b4ba165"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-02.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 126459,
+      "sha256": "14adfd8ca3ce1eff23f708b3723d148b8635e533e964502f5560ffd259b86413"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-03.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 170215,
+      "sha256": "9f0426b24df93c1caca8b539bca35f2dc31e0f48920650979bdbcd1609880fe0"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-04.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 290820,
+      "sha256": "41a05f429e5a72d3acec938b0dd5a39bdd3daa3328d36eb4e21d43352bd85dc7"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-05.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 187086,
+      "sha256": "138410e6714a7db1d4a9104d8a06826dfda4ec3914623f3bf6258b1bade26afa"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-06.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 380910,
+      "sha256": "98560f692e95263e5a26406fea13426cef86b6c8cfddf25fa9db4f784b83f61a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-07.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 267424,
+      "sha256": "e1721e5ab3c0b137b04a3ef42ebcdb9d934ea53cf5d5f7f2e8e523532bba3e96"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-08.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 286741,
+      "sha256": "237bb061e40113ea68f64ac29778639a7b63e559124c241f7dbed351e23ef068"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-09.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 92131,
+      "sha256": "f32d2e2ad8a414d7b46282f1b8256fb37ca0fabc6286e37d13feec83ee760aa3"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-10.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 268855,
+      "sha256": "10b6586d55d0b7afb95c53cc5f6a0a32d9740e3aa95b56eb220ef68738ec3bf0"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-11.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 425010,
+      "sha256": "690807bcc2e54ef250f729e8584169679033fd0e92ce31d8d7abb695add7d731"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-12.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 289846,
+      "sha256": "c6055971a44e2af6e933164bedfc2ce30fee3a46dfe79bd33fd7591cbff5b6f7"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-13.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 173846,
+      "sha256": "4fdb5359d115808c429a879b8c3f069feb0071c754de7421ac36ed237c6e63c6"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-14.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 187619,
+      "sha256": "0e7920a20b820677be7b5088d9bb997cdd8a4d9501e9e485d31c37cb18b7e773"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-15.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 140033,
+      "sha256": "1611be199927e11ac6bb14fa2266b4b238bb836186b0b9a4bf6eab32188713a3"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-16.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 139352,
+      "sha256": "233be20970142ea0235301914fb85e6c58bddd58e557adef8bf432229895aaa6"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-17.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 94154,
+      "sha256": "5c64e1a5e333a85523090051f58c454593af173b5b5d3c9da2fe114106e95acf"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-18.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 108284,
+      "sha256": "902cbb4a2c4fe4d575ead7e9646dcea5e96b4fa3aed41e694c66a2fb09323efd"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-ProductResearch\\page-19.png",
+      "width": 1754,
+      "height": 1241,
+      "bytes": 144331,
+      "sha256": "e53850cae6741b50a67c19486393544490a771e0f6124f3bc664abdff9b5df3a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-WeeklyReport\\page-01.png",
+      "width": 1241,
+      "height": 1755,
+      "bytes": 94028,
+      "sha256": "ce61b214ef89a8b678c06f4b956a35a10becd1ea441eb8224bd48ff0284f9968"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-WeeklyReport\\page-02.png",
+      "width": 1241,
+      "height": 1755,
+      "bytes": 380888,
+      "sha256": "c8a96480103ca60cc4e26ca9a03ec597781a37745b75aacfed81ce91b7b46281"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-WeeklyReport\\page-03.png",
+      "width": 1241,
+      "height": 1755,
+      "bytes": 465562,
+      "sha256": "875f49111c9b1a1d7c19122807ae0fdf1ec24e4bdc07801b848008dc663f23f9"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-WeeklyReport\\page-04.png",
+      "width": 1241,
+      "height": 1755,
+      "bytes": 298514,
+      "sha256": "602ffdb52b9359d8b602988a2c2111d76a8d36748ce8df7ff6d58a16124a9d75"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-WeeklyReport\\page-05.png",
+      "width": 1241,
+      "height": 1755,
+      "bytes": 383656,
+      "sha256": "6fe7855a854ca54653ef4bc7f2aa77e10767b358240d8340e6c5a993e5204328"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-WeeklyReport\\page-06.png",
+      "width": 1241,
+      "height": 1755,
+      "bytes": 329323,
+      "sha256": "9b9d183794cdec0f42aa1d97ca1390a0e42b208440361b3ccacff79c6812bde6"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-WeeklyReport\\page-07.png",
+      "width": 1241,
+      "height": 1755,
+      "bytes": 273524,
+      "sha256": "de2d509dfff6030777b4c5473dce2ea1e51039fd9fc9042b1f7854a3c56eb25e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-WeeklyReport\\page-08.png",
+      "width": 1241,
+      "height": 1755,
+      "bytes": 392210,
+      "sha256": "0cf4ae365346334bf1635cc7110d39006485c6184752059c891fc10ce70d7187"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-WeeklyReport\\page-09.png",
+      "width": 1241,
+      "height": 1755,
+      "bytes": 374401,
+      "sha256": "da58e987b98f844525a509cda31b34d75f5904190f364e96cf05182415d48106"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\Group10-PA1-WeeklyReport\\page-10.png",
+      "width": 1241,
+      "height": 1755,
+      "bytes": 335675,
+      "sha256": "d642b1de41ee5bc81c0be7d689e29290077f626f0446cd1b20027c53ec218077"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\PA1-LKDuy-2026-Public\\page-1.png",
+      "width": 1241,
+      "height": 1754,
+      "bytes": 142090,
+      "sha256": "a5491ad2d7b4d32ef5f2824ba22f78784067d2e5dcfcaa4db63d17d02867b6bf"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\PA1-LKDuy-2026-Public\\page-2.png",
+      "width": 1241,
+      "height": 1754,
+      "bytes": 299054,
+      "sha256": "5db287dd7a5b0c5e6043a4a5de845b8ae19a54704881f21ca5399b420f4ab05b"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\PA1-LKDuy-2026-Public\\page-3.png",
+      "width": 1241,
+      "height": 1754,
+      "bytes": 230523,
+      "sha256": "397aacbfdf9aa760bded5be6d495dd85bf26df11902a54884dae78cf4a5425d0"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\PA2-LKDuy-2026-Public\\page-1.png",
+      "width": 1241,
+      "height": 1754,
+      "bytes": 141597,
+      "sha256": "ef32f6e97c2f68921749336eddacc80cfa1e018451a51ebd1be059e02fef93f0"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\PA2-LKDuy-2026-Public\\page-2.png",
+      "width": 1241,
+      "height": 1754,
+      "bytes": 304769,
+      "sha256": "effea290e7eda2f02228b9b523136d26bdf49fe76ef65e6befc16ad57eb871b9"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\capture-work\\rendered-pdfs\\PA2-LKDuy-2026-Public\\page-3.png",
+      "width": 1241,
+      "height": 1754,
+      "bytes": 211659,
+      "sha256": "819ecd2afb14f1286a0bd250ed5c06e619081b13da1b199f6136804c369cd50c"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\affinity-chess.png",
+      "width": 2200,
+      "height": 2060,
+      "bytes": 193963,
+      "sha256": "e6b74e4338fab71015bb38276d5aa3c18645547ce1a6050f25470dc4cc42e2c5"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\affinity-diagram.png",
+      "width": 3200,
+      "height": 2500,
+      "bytes": 314966,
+      "sha256": "c75b76c4e2d78e08da7c0d8daac38fc9003fd7abf01cd55f74edd8694bd1382b"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\affinity-fifa.png",
+      "width": 2200,
+      "height": 2060,
+      "bytes": 178005,
+      "sha256": "523f2923f197b31e6770d59eb45f59fbb0a5eeb956e0fa4147358cce05325737"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\c-a1-flow.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 56654,
+      "sha256": "94d30ec3c840d073cacc0a214235680e93db88945696af6f4a7794d68949d0f0"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\c-a1-lowfi.png",
+      "width": 2200,
+      "height": 1300,
+      "bytes": 49680,
+      "sha256": "b23c89556ab0717240a5f2f075baa5ec6159e5cfa5f5ec3f6436ec482d68e270"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\c-a2-flow.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 54965,
+      "sha256": "ca22c32a0a9dc095aaee1b3af90f68b742f4a4a83f7756d5cc22f8c389cbe342"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\c-a2-lowfi.png",
+      "width": 2200,
+      "height": 1300,
+      "bytes": 47932,
+      "sha256": "c15b3782a6cbcd54694dca49f9cf00486bbfb5f8b011954339ab9b3315352c1e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\c-a3-flow.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 56737,
+      "sha256": "9fcc105a39b980f89bf759a7a1f543b37b8d9f431f9e82f2c6eaa52d46a822cf"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\c-a3-lowfi.png",
+      "width": 2200,
+      "height": 1300,
+      "bytes": 48930,
+      "sha256": "f86367ab2a7a286ceef4299ab4527162d5dd85d5ca868d507ba01874338f175a"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\chess-system-use-cases.png",
+      "width": 2400,
+      "height": 1700,
+      "bytes": 92432,
+      "sha256": "b1ed031c085369f0ae29f1592651b3def14f6fd2c7c4a31e0cac7e25d82210b1"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\evidence-crops\\c2-e02-decision-surface.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 301491,
+      "sha256": "488805e61f0022898ba14af5b8b31c20deb236e71866f2ac4c542a75ca5bd265"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\evidence-crops\\c2-e07-decision-surface.png",
+      "width": 1440,
+      "height": 1123,
+      "bytes": 476494,
+      "sha256": "0a431b44084e27f17a14a1c461fcad11566f2786573f693e6afe131cd6dde9de"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\evidence-crops\\c2-e08-decision-surface.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 272444,
+      "sha256": "b37e1dc73c2b40d25d7484279d299d51a4a1274f1653a08e4ce63fe9dd0c92b5"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\evidence-crops\\c2-e10-decision-surface.png",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 179592,
+      "sha256": "c4c2222ee349552597e69acccd87d5132a4a26001af49dcdeadce5749454410c"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\evidence-crops\\f2-e03-decision-surface.png",
+      "width": 1440,
+      "height": 1123,
+      "bytes": 117108,
+      "sha256": "b36bca585d41c86ad673a5540c73663a64cc502bfdac9e8049ede08450e51ab7"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\evidence-crops\\f2-e09-decision-surface.png",
+      "width": 1440,
+      "height": 1123,
+      "bytes": 195484,
+      "sha256": "d313b6547d53361d5df4022cd11fe131cb1455dd957e7f86559ada76d8431752"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\evidence-crops\\f2-e11-decision-surface.png",
+      "width": 1440,
+      "height": 1123,
+      "bytes": 1160179,
+      "sha256": "42ffb31db164a8caf14c8d3e68b4fb489bd3d00d316ac1c48b1879d771fe629f"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\evidence-crops\\f2-e18-decision-surface.png",
+      "width": 1200,
+      "height": 1498,
+      "bytes": 539373,
+      "sha256": "dbb96f5657e675b28db9868fcf6ccdf2f4b58634985247f61eb9e7f172745f4f"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\f-a1-flow.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 50834,
+      "sha256": "21bc86730258a52da45809160a71b1b41d75fbe8e900d38f8edae653d02b0486"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\f-a1-lowfi.png",
+      "width": 2200,
+      "height": 1300,
+      "bytes": 51892,
+      "sha256": "81f63b4872247831b1af73119f079a568c5e389adbfd633353d4e02347b6e892"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\f-a2-flow.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 56203,
+      "sha256": "c7e12c5cdb4703e44507c5c4c2c55d209449e1711125e1ad707de85aff7f7ffd"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\f-a2-lowfi.png",
+      "width": 2200,
+      "height": 1300,
+      "bytes": 49702,
+      "sha256": "2dd9aae244399e9559ccd92f9b54486e7a6b5e080b609d047744fc5f5cdb22b4"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\f-a3-flow.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 53211,
+      "sha256": "6feadefd9bfc87cbec6921f6b8ddd2f5a7e284d9559588001ee6a74cc55fc4f4"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\f-a3-lowfi.png",
+      "width": 2200,
+      "height": 1300,
+      "bytes": 46397,
+      "sha256": "84e67724c01520d858a7c6b3adec14c0f5a99a8566688b6c5b3bc2fbfc414450"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\fifa-system-use-cases.png",
+      "width": 2400,
+      "height": 1700,
+      "bytes": 91343,
+      "sha256": "895b85f7f3c833d7d1b2d4098d70a1dd29cf5b8ea4fec21cf5dfff065a94f274"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\wm-a1-artifacts.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 53456,
+      "sha256": "0f60cfb8e5500abeed5f60ead39b2296abb325ab4fe9e7c5f860d9bee4e3f252"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\wm-c-artifacts.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 58632,
+      "sha256": "08e24b8686dc39eae0a0880777996eba2759738c1e2e993a87039541b28b99ff"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\wm-c1-beginner-learning.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 53653,
+      "sha256": "142048597baa4990c8144b16d726e9541a572a81d9e126fe5bd7c2c3cb079498"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\wm-c2-analysis-entry.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 57477,
+      "sha256": "e3a8f3f36e908eea50b2d0c08e1e3a9a6635f7575a935bf2e743dd9f9f7d91fb"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\wm-f-artifacts.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 58352,
+      "sha256": "62d916feba5a4658aebf5abd1ec2928152f504851b32bdaf0cbe050e961a49cd"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\wm-f1-ticket-planning.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 57363,
+      "sha256": "f033db46e21ae43d79c65501b7d1e655d01742b35912ea657b1e72dbff4b0c5e"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\generated-diagrams\\wm-f2-ticket-verification.png",
+      "width": 2200,
+      "height": 1250,
+      "bytes": 57393,
+      "sha256": "97e7180bebad47283e9b3078aa7c2f50fc901b3bac7f553e91dbaa6365d3ef9a"
+    }
+  ],
+  "texts": [
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\evidence-index.csv",
+      "chars": 17084,
+      "lines": 38,
+      "sha256": "10835f8005380ad8a5589a701da8f05df0aa4304df1e2a133a83998eef1c175d"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\traceability-matrix.csv",
+      "chars": 2120,
+      "lines": 12,
+      "sha256": "b185538a33f65d1fe1d54b2e7bfbbf52322097ae1edb31be83f800939de248bb"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\evidence-validation.md",
+      "chars": 2959,
+      "lines": 39,
+      "sha256": "8224a43c4eb11fc6bccb2c4227cb8cf37d808dcfdd06da807f54c6dadd7d37bb"
+    },
+    {
+      "path": "D:\\MEGA\\tkgd\\PA2\\MISSING-EVIDENCE.md",
+      "chars": 2283,
+      "lines": 34,
+      "sha256": "967e8b1d74b8214ab1b6d4d22c6da6024e2102c0fbf870732bd5b16bda991262"
+    }
+  ],
+  "counts": {
+    "pdfs": 21,
+    "pdf_pages": 640,
+    "docx": 6,
+    "images": 202,
+    "image_sheets": 9
+  }
+}

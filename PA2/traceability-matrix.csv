@@ -1,0 +1,7 @@
+﻿pa1_finding,screen_evidence,simulated_session,persona,finding,affinity_cluster,vote,tough_problem,concept,recommendation,use_case,pa3_test,report_section
+FIFA ticket action lacks consolidated decision confidence,F2-E09,F-SES-04/05/06,UR-P-F1,UR-F01,Ticket status clarity,10,TP-FIFA,F-A1,Status Dashboard,F-UC02/F-UC03,State/freshness accuracy,UR 9; UA 7; PP 5; UC 2
+FIFA outbound route needs trust context,F2-E09,F-SES-02/05,UR-P-F1,UR-F02,Handoff trust,8,TP-FIFA,F-A1,Status Dashboard,F-UC04/F-UC06,Destination recognition and return,UR 9; UA 7; PP 5; UC 2
+FIFA mobile browsing loses overview,F2-E02/E03/E04,F-SES-03/04,UR-P-F2,UR-F03,Mobile overview,1,TP-FIFA,F-A1/F-A3,Status Dashboard,F-UC01/F-UC06,Cross-device resumption,UR 9; UA 7; PP 6; UC 2
+Chess analysis entry has high recall demand,C2-E10,C-SES-01/02/05,UR-P-C1,UR-C01,Entry choice overload,4,TP-CHESS,C-A1,Beginner Review Preset,C-UC01/C-UC02,Entry-choice accuracy,UR 9; UA 7; PP 5; UC 2
+Chess learning and analysis lack a beginner bridge,C2-E07/E08/E10,C-SES-02/04/06,UR-P-C1/C2,UR-C02,Vocabulary load / Learning priority,5 / 3,TP-CHESS,C-A1,Beginner Review Preset,C-UC03/C-UC04/C-UC05,Mistake explanation and move trial,UR 9; UA 7; PP 5; UC 2
+Chess practice is strong but disconnected from review,C2-E05/E07/E10,C-SES-03/04/06,UR-P-C2,UR-C03,Practice continuation,5,TP-CHESS,C-A1/C-A3,Beginner Review Preset,C-UC06,Relevant continuation choice,UR 9; UA 7; PP 6; UC 2

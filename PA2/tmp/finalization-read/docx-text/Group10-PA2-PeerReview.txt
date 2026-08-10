@@ -1,0 +1,65 @@
+PROJECT ASSIGNMENT 2
+Group10-PA2 Peer Review
+Pre-review presentation and feedback capture packet
+FIFA.com and Chess.com
+1. Evidence status
+2. Presentation plan (5-10 minutes)
+3. Speaking outline
+State what is observed, inherited from PA1, inferred, and proposed.
+Do not present personas as interview-derived or outcomes as measured.
+Point to exact ticket cards, destination branding, lesson lists, and analysis-entry controls.
+Ask reviewers whether the two tough problems are severe, distinct, and suitable for PA3 alternatives.
+Record feedback verbatim enough to preserve meaning, but do not invent or paraphrase absent comments.
+4. Feedback capture form
+5. Question log
+6. Revision log
+7. Completion gate
+Insert real presentation metadata and commenter names.
+Link every accepted revision to an affected requirement and regenerated page/file.
+Regenerate all affected PDFs and Group10-PA2.zip.
+Remove the incomplete label only after evidence is verified.
+===== TABLE 1 =====
+Course | CSC13112 - UI/UX Design, FIT-HCMUS
+Group | Group10
+Team | Le Minh (21127645); Nguyen Vu Bach (21127224); Pham Nguyen Gia Bao (20127119); Trang Minh Nhut (22127318)
+Evidence date | Local evidence audited through 30 July 2026
+Document type | Evidence-based redesign report
+Status | INCOMPLETE - Awaiting actual lecture feedback
+===== TABLE 2 =====
+Awaiting actual lecture feedback: No PA2 presentation date, duration, presenter record, audience record, commenter name, question, or revision evidence was found. This document is a pre-review packet and must be updated after the lecture.
+===== TABLE 3 =====
+Time | Slide | Speaker focus
+0:00-0:45 | 1. Scope and evidence boundary | Explain PA1 continuity, 105 screenshots, and absence of external participants.
+0:45-1:45 | 2. FIFA task findings | Show ticket landing and partner-boundary evidence without unsupported claims.
+1:45-2:45 | 3. Chess task findings | Show learning/analysis entry and positive guided-learning baseline.
+2:45-3:45 | 4. Affinity and prioritization | Explain 11 clusters, rubric, and two tough problems.
+3:45-5:15 | 5. FIFA concepts | Contrast dashboard, concierge, and alert-first planner.
+5:15-6:45 | 6. Chess concepts | Contrast preset, conversational coach, and visual story.
+6:45-7:45 | 7. Use cases and PA3 | Show system boundaries and six alternative flows.
+7:45-9:00 | 8. Questions | Capture commenter name, exact question, response, and revision decision.
+===== TABLE 4 =====
+Field | To complete during/after lecture
+Presentation date | Awaiting actual lecture feedback.
+Duration | Awaiting actual lecture feedback.
+Presenters | Awaiting actual lecture feedback.
+Audience | Awaiting actual lecture feedback.
+Commenter name | Awaiting actual lecture feedback.
+Comment or question | Awaiting actual lecture feedback.
+Group response | Awaiting actual lecture feedback.
+Decision | Awaiting actual lecture feedback.
+Affected requirement/document | Awaiting actual lecture feedback.
+Revision made | Awaiting actual lecture feedback.
+Evidence of revision | Awaiting actual lecture feedback.
+Status | Open - awaiting actual lecture feedback.
+===== TABLE 5 =====
+# | Commenter | Question / feedback | Group response | Decision | Status
+1 | Awaiting | Awaiting actual lecture feedback. | Awaiting | Awaiting | Open
+2 | Awaiting | Awaiting actual lecture feedback. | Awaiting | Awaiting | Open
+===== TABLE 6 =====
+ID | Affected document / requirement | Revision | Evidence | Owner | Status
+R-01 | Awaiting actual lecture feedback. | Awaiting | Awaiting | Awaiting | Open
+R-02 | Awaiting actual lecture feedback. | Awaiting | Awaiting | Awaiting | Open
+===== HEADER 1 =====
+GROUP10  |  CSC13112 UI/UX DESIGN  |  PEER REVIEW
+===== FOOTER 1 =====
+Peer Review  |  Group10  |  1

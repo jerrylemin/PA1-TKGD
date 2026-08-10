@@ -1,0 +1,363 @@
+===== PAGE 1 =====
+CSC13112 – Thiết Kế Giao Diện
+Graphic Design – Part 2
+
+===== PAGE 2 =====
+2
+7/17/2026
+Outline
+◼ Graphic design philosophies
+◼ Design guidelines
+
+
+===== PAGE 3 =====
+3
+7/17/2026
+Graphic design philosophies
+◼ Aesthetic appeal does not automatically confer usability
+◼ UI design must balance the meaning of its visual elements that 
+conform the mental model of operation
+◼ Preferences
+❑ Simple and natural user’s “language”
+❑ Economy of visual elements
+❑ Clean, well organized
+❑ Less is more
+
+===== PAGE 4 =====
+4
+7/17/2026
+Guidelines for good graphic design
+◼ Basic principles
+❑ Metaphor
+❑ Simplicity and Clarity
+❑ Consistency
+❑ Organization/Alignment/Proximity/Grid
+❑ Legibility and readability
+❑ Color/Contrast
+
+===== PAGE 5 =====
+5
+7/17/2026
+Simplicity
+◼ “Keep it simple, stupid.” (KISS)
+◼ “Less is more.”
+◼ “When in doubt, leave it out.”
+◼ Every element in an interface should have a reason for being there
+❑ make that reason clear too
+
+
+===== PAGE 6 =====
+6
+7/17/2026
+Techniques for simplicity
+◼ Reduction
+❑ Decide what essentially needs to be conveyed by the design
+❑ Examines every element if it serves essential purposes
+❑ Remove inessential elements
+
+
+===== PAGE 7 =====
+7
+7/17/2026
+Nguyenkim.com’s registration
+◼ Can you make it simpler?
+
+
+===== PAGE 8 =====
+8
+7/17/2026
+Techniques for simplicity (cont’d)
+◼ Regularity
+❑ Use a regular pattern
+◼ minimize the unnecessary differences between elements with regularity
+◼ elements provided by the operating system. The users are already familiar them
+❑ Limit inessential variation among elements
+◼ use the same font, color, line width, dimensions, orientation for multiple elements
+◼ irregularities in your design will be magnified in the user’s eyes and assigned meaning 
+and significance
+
+===== PAGE 9 =====
+9
+7/17/2026
+Techniques for simplicity (cont’d)
+◼ Combine elements
+❑ Let elements play multiple roles, e.g.
+◼ Scroll bar
+◼ Title bar
+ scroll up
+scroll down
+- current position in the 
+document 
+- how big the document is
+scroll whole page 
+down
+scroll whole page 
+up
+distance to top
+
+===== PAGE 10 =====
+10
+7/17/2026
+White space
+◼ Leads the eye
+◼ Provides symmetry and balance through its use
+◼ Allows eye to rest between elements of activity
+◼ Used to promote simplicity, elegance, class, refinement
+❑ margins to draw eye around design
+❑ don’t crowd controls together
+
+===== PAGE 11 =====
+11
+7/17/2026
+White space (cont’d)
+◼ Crowded dialog example
+❑ Controls are tightly packed together
+❑ Lack of margins between texts/lables
+
+
+===== PAGE 12 =====
+12
+7/17/2026
+White space (cont’d)
+◼ Put labels in the left margin with white space leading and highlighting 
+them
+◼ Put labels on left of the controls, not above
+◼ Use placeholders 
+Source: Mullet and Sano
+
+===== PAGE 13 =====
+13
+7/17/2026
+Consistency
+◼ Similar things should work similarly
+◼ Different things should look different
+◼ Consistency types
+❑ Internal: within the system
+◼ elements follow same conventions and rules
+❑ External: across different systems
+◼ follow platform and interface style conventions
+❑ Metaphorical: reflecting real-world objects
+◼ A print icon is a metaphor of the printer
+
+
+===== PAGE 14 =====
+14
+7/17/2026
+Consistency (cont’d)
+◼ Example
+❑ Ctrl + F on many Windows applications
+❑ Ctrl + F on MS Outlook
+
+
+===== PAGE 15 =====
+15
+7/17/2026
+Organization
+◼ Grid system
+◼ Grouping of items
+◼ Order of items
+◼ Alignment of items
+◼ Arrangement between items
+
+===== PAGE 16 =====
+16
+7/17/2026
+Grid system
+◼ Grid is an essential tool for graphical design
+❑ A uniform grid (a grid with equal-width columns) is one effective way to achieve 
+both alignment and balance
+◼ Horizontal and vertical lines to locate window components
+❑ aligns related components
+◼ Consistency
+❑ location
+❑ format
+❑ element repetition
+
+
+===== PAGE 17 =====
+17
+7/17/2026
+The Gestalt principles of grouping
+◼ Discovered in the 1920s by the Gestalt school of psychologists
+◼ Describe how early visual processing groups elements in the visual 
+field into larger wholes
+◼ Proximity
+❑ Elements that are closer to each other are more likely to be grouped together
+You see four vertical columns of circles, because the circles
+are closer vertically than they are horizontally.
+
+===== PAGE 18 =====
+18
+7/17/2026
+The Gestalt principles of grouping (cont’d)
+◼ Similarity: Elements with similar attributes are more likely to be 
+grouped
+◼ Continuity: The eye expects to see a contour as a continuous object
+You see four rows of circles, 
+because the circles are more 
+alike horizontally than they are 
+vertically
+You primarily perceive this as two 
+crossing lines, rather than as four 
+lines meeting at a point, or two 
+right angles sharing a vertex
+
+===== PAGE 19 =====
+19
+7/17/2026
+The Gestalt principles of grouping (cont’d)
+◼ Closure: The eye tends to perceive complete, closed figures, 
+even when lines are missing
+◼ Area: When two elements overlap, the smaller one will be 
+interpreted as a figure in front of the larger ground
+◼ Symmetry: The eye prefers explanations with greater symmetry
+We see a triangle in 
+the center although 
+edges aren’t complete
+We see a small 
+square in front of a 
+large square rather 
+than a hole
+We perceive two
+overlapping squares,
+rather than three 
+separate polygons
+
+===== PAGE 20 =====
+20
+7/17/2026
+The Gestalt principles of grouping (cont’d)
+◼ IBM logo
+
+
+===== PAGE 21 =====
+21
+7/17/2026
+Alignment
+◼ Aligning elements horizontally and vertically
+❑ Improve the simplicity of a design
+Source: Interface Hall of Shame
+GHNXFD
+
+===== PAGE 22 =====
+22
+7/17/2026
+Alignment (cont’d)
+◼ Bad alignment
+❑ no flow, causing the eyes to zig-zag around the screen as the user 
+attempts to locate a field of interest
+◼ Poor contrast
+❑ cannot distinguish colored labels from editable fields
+◼ Poor repetition
+❑ buttons do not look like buttons
+◼ Poor explicit structure
+❑ blocks compete with alignment
+Source: Interface 
+Hall of Shame
+
+===== PAGE 23 =====
+23
+7/17/2026
+Balance and symmetry
+◼ Choose an axis (usually vertical)
+◼ Distribute elements equally around the axis 
+❑ Equalize both mass and extend 
+
+===== PAGE 24 =====
+24
+7/17/2026
+Balance and symmetry (cont’d)
+◼ Example
+
+
+===== PAGE 25 =====
+25
+7/17/2026
+Economy of visual elements
+◼ Less is more - unless more is more…
+◼ Minimize number of controls
+◼ Include only those that are necessary
+◼ Appropriately arrange the size, layout of controls, e.g., text fields, 
+combo boxes, checkboxes
+◼ Minimize clutter
+❑ so information is not hidden
+
+===== PAGE 26 =====
+26
+7/17/2026
+Economy of visual elements (cont’d)
+You know what to choose?Overuse 3D effects
+
+===== PAGE 27 =====
+27
+7/17/2026
+Economy of visual elements (cont’d)
+◼ Tabs
+❑ excellent means for factoring related items
+❑ but can be overdone
+Source: Interface Hall of Shame
+
+===== PAGE 28 =====
+28
+7/17/2026
+Legibility and readability
+◼ Characters, symbols, graphical elements should be easily noticeable 
+and distinguishable
+Source: Interface Hall of Shame
+
+===== PAGE 29 =====
+29
+7/17/2026
+Legibility and readability (cont’d)
+◼ Text orientation is difficult to read
+❑ Don’t try too hard to harm your neck
+Source: Interface Hall of Shame
+
+
+===== PAGE 30 =====
+30
+7/17/2026
+Imagery
+◼ Signs, icons, symbols
+❑ right choice within spectrum from concrete to abstract
+◼ Meaningful icon design are hard!
+❑ except for most familiar, always label them
+◼ Consistent and relevant image use
+❑ identifies situations, offerings, etc.
+◼ Avoid ‘eye candy’ unless it supports a message
+◼ Motion attracts attention 
+❑ useful if important, otherwise distracting
+
+===== PAGE 31 =====
+31
+7/17/2026
+Imagery (cont’d)
+◼ Can you guess these icons?
+Source: Interface Hall of Shame
+
+===== PAGE 32 =====
+32
+7/17/2026
+Color and contrast
+◼ Contrast encodes information along visual dimensions 
+
+
+===== PAGE 33 =====
+33
+7/17/2026
+Contrast problems
+Source: Interface Hall of Shame
+
+
+===== PAGE 34 =====
+34
+7/17/2026
+Summary
+◼ Graphic design philosophies
+◼ Design principles
+❑ Metaphor
+❑ Clarity and simplicity
+❑ Consistency
+❑ Organization/Alignment/Proximity/Grids
+❑ Legibility and readability
+❑ Color and contrast
