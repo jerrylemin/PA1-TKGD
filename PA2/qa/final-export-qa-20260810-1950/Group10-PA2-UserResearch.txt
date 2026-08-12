@@ -1,0 +1,1065 @@
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+PROJECT ASSIGNMENT 2
+Group10-PA2 User Research
+FIFA.com and Chess.com
+Course CSC13112 - UI/UX Design, FIT-HCMUS
+Group Group10
+Le Minh (21127645); Nguyen Vu Bach (21127224);
+Team Pham Nguyen Gia Bao (20127119); Trang Minh Nhut
+(22127318)
+UserResearch | Group10 | 1
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Contents
+1. Research scope, methods, and validity boundary — 3
+2. Tasks and protocol — 4
+2.1 FIFA task set — 4
+2.2 Chess task set — 4
+3. Simulated participants — 4
+4. Three-day simulated session plan — 8
+5. Representative Sessions and Patterns — 9
+5.1 Pattern Summary — 10
+5.2 Result Summary — 10
+6. Simulated task results — 10
+7. Personas — 11
+7.1 FIFA trust-sensitive ticket planner — 11
+7.2 FIFA returning tournament follower — 12
+7.3 Chess first-time beginner — 13
+7.4 Chess returning learner who forgets analysis terms — 14
+8. Representative Screenshot Evidence — 15
+9. Findings — 26
+9.1 Findings Summary — 27
+10. Evidence boundary and citations — 27
+11. Revised Work Models — 28
+Work Model Coverage Checklist — 34
+12. Practical Difficulties and Lessons Learned — 35
+Appendix A - Twelve Detailed Simulated Note Sheets — 36
+UserResearch | Group10 | 2
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+A.1 Note sheet F-SIM-01 — 37
+A.2 Note sheet F-SIM-02 — 38
+A.3 Note sheet F-SIM-03 — 39
+A.4 Note sheet F-SIM-04 — 40
+A.5 Note sheet F-SIM-05 — 41
+A.6 Note sheet F-SIM-06 — 42
+A.7 Note sheet C-SIM-01 — 43
+A.8 Note sheet C-SIM-02 — 44
+A.9 Note sheet C-SIM-03 — 45
+A.10 Note sheet C-SIM-04 — 46
+A.11 Note sheet C-SIM-05 — 47
+A.12 Note sheet C-SIM-06 — 48
+1. Research scope, methods, and validity boundary
+Simulated-study disclosure: All participant profiles, sessions, quotations,
+observations, task outcomes, and ratings in this report are scenario-based
+synthetic evidence created to test design hypotheses; they are not
+presented as research with real users.
+Source
+Method What it supports Boundary
+label
+Screen
+Interface inventory, evidence /
+Source A file or screen does
+documented states, PA1
+analysis not prove behavior
+PA1 continuity inherited
+finding
+Shows the path
+Task path, Screen
+available to the
+Try-it-yourself transition, recovery, evidence /
+evaluator, not
+walkthrough and handoff Design
+population
+inspection inference
+performance
+Simulated Scenario coverage, Does not represent Simulated
+user sessions test cases, real-user study / PA3
+UserResearch | Group10 | 3
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Source
+Method What it supports Boundary
+label
+hypotheses, and validation
+measurement
+comparison logic target
+Course source: Course basis: LN01 - Introduction - v2.pdf, pp. 20, 22, 24;
+LN02 - Fundamental Concepts - Usability Dimensions_2.pdf, pp. 62-67, 74-
+76, 83-84, 101-115; LN03 - UI Design Process.pdf, pp. 16-19, 23-24, 28-30,
+34-36; LN04 - Task Analysis.pdf, pp. 3, 6-15, 39-49.
+PA1 inherited finding: FIFA separates useful tournament content from ticket
+decision confidence; Chess.com provides strong play and learning functions
+but exposes analysis choices with high recall demand.
+Design inference: Visibility of system status, recognition over recall,
+progressive disclosure, user control, and error prevention organize the PA2
+questions.
+2. Tasks and protocol
+2.1 FIFA task set
+1. Find ticket entry.
+2. Compare tournament status.
+3. Decide buy, wait, register interest, resale, or hospitality.
+4. Identify destination before leaving FIFA.com.
+5. Resume on mobile.
+6. Recover from missing or stale status.
+2.2 Chess task set
+1. Choose a beginner route.
+2. Continue a lesson.
+3. Solve a puzzle.
+4. Open analysis or review.
+5. Identify one important mistake.
+6. Try a better move.
+7. Read a plain-language explanation.
+8. Continue to practice.
+9. Reveal advanced detail on demand.
+Simulated research session protocol: Each 25-35 minute record uses 5
+UserResearch | Group10 | 4
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+minutes of introduction, 15-20 minutes of task work, and 5 minutes of
+follow-up. Notes are structured; no audio or video is recorded.
+3. Simulated participants
+UserResearch | Group10 | 5
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Domain /
+Freque Motivation and Constraints / Task
+ID Role Age Device application
+ncy context accessibility s
+experience
+Find ticket entry
+F- Follows major Monthly without planning Limited time and
+Casual 18- Android F1-
+SIM-0 finals; Occasional in expertise; data; Large tap
+football fan 24 phone F6
+1 FIFA.com visitor season Commute; one- targets
+handed use
+Watches selected Several
+Compare match
+F- Windows national-team times Avoids creating
+Casual 25- and ticket status; F1-
+SIM-0 laptop + matches; Uses per accounts early;
+football fan 34 Evening planning F6
+2 phone Match Centre tourna High contrast
+at home
+occasionally ment
+Weekly
+Tracks brackets Coordinate a
+F- in Needs fast
+Tournamen 25- and schedules; group trip; Mobile- F1-
+SIM-0 iPhone tourna resumption; Text
+t follower 34 Returning first, shared F6
+3 ment zoom
+FIFA.com visitor planning
+periods
+Follows multiple Connect schedule
+F- MacBook Many open tabs;
+Tournamen 35- competitions; context to ticket F1-
+SIM-0 + Android Weekly Keyboard
+t follower 44 Regular Match action; Desk-to- F6
+4 phone access on laptop
+Centre user mobile transition
+Has bought event Needs
+Trust- At key Avoid unofficial or
+F- tickets online; provenance
+sensitive 35- Windows sale stale destinations; F1-
+SIM-0 Knows FIFA.com before leaving
+ticket 44 laptop window Family purchase F6
+5 but not partner site; Clear status
+planner s planning
+boundaries text, not color
+UserResearch | Group10 | 6
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Domain /
+Freque Motivation and Constraints / Task
+ID Role Age Device application
+ncy context accessibility s
+experience
+alone
+Plans
+Know whether to Low confidence
+Trust- international A few
+F- buy, wait, or after handoff;
+sensitive 45- Android tournament times F1-
+SIM-0 register interest; Plain language
+ticket 54 phone travel; Low- per F6
+6 Mobile on variable and persistent
+planner frequency year
+network focus
+FIFA.com visitor
+Choose a safe
+C- Knows piece Daily Unfamiliar
+First-time 18- Android beginner route; C1-
+SIM-0 movement; First trial analysis terms;
+beginner 24 phone Short study C9
+1 Chess.com week week Plain language
+breaks
+Fears breaking
+C- Played fewer than Understand one
+First-time 25- Windows Twice the position; C1-
+SIM-0 ten games; New mistake; Home
+beginner 34 laptop weekly Keyboard-only C9
+2 account learning session
+path
+Resume without
+C- Completed basic Weekly Forgets feature
+Returning 18- relearning C1-
+SIM-0 iPhone lessons; Returns when locations; Text
+learner 24 navigation; Mobile C9
+3 after four months active zoom
+evening practice
+Knows opening
+C- Reconnect review Forgets analysis
+Returning 35- principles; C1-
+SIM-0 MacBook Monthly to practice; vocabulary;
+learner 44 Intermittent C9
+4 Desktop at home Reduced motion
+lesson and puzzle
+UserResearch | Group10 | 7
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Domain /
+Freque Motivation and Constraints / Task
+ID Role Age Device application
+ncy context accessibility s
+experience
+use
+Intermediat Skips dense
+Review without
+C- e player Club-level casual; panels;
+25- Windows engine overload; C1-
+SIM-0 with low Plays games and Weekly Keyboard
+34 laptop After-game C9
+5 analysis puzzles shortcuts with
+desktop session
+use labels
+Intermediat Find one Terminology
+Several
+C- e player Understands actionable slows scanning;
+35- Android times C1-
+SIM-0 with low tactics; Rarely improvement; Color-
+44 tablet per C9
+6 analysis opens analysis Tablet practice independent
+month
+use session indicators
+Scenario-based synthetic evidence: IDs are fictional study roles; no names identify participants.
+UserResearch | Group10 | 8
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+UserResearch | Group10 | 9
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+4. Three-day simulated session plan
+Sessi Dura Partici Note Recording
+Date Device Tasks Facilitator
+on ID tion pant taker method
+F- F- Structured notes
+16 Jul 28 Android F1, F2, Nguyen Trang
+SES-0 SIM-0 only; no
+2026 min phone F4, F5 Vu Bach Minh Nhut
+1 1 audio/video
+F- F- Windows Structured notes
+16 Jul 31 Nguyen
+SES-0 SIM-0 laptop + F1-F6 Le Minh only; no
+2026 min Vu Bach
+2 2 phone audio/video
+C- C- Pham Structured notes
+16 Jul 29 Android C1-C3, Trang
+SES-0 SIM-0 Nguyen only; no
+2026 min phone C7-C9 Minh Nhut
+1 1 Gia Bao audio/video
+C- C- Pham Structured notes
+16 Jul 32 Windows
+SES-0 SIM-0 C1-C9 Nguyen Le Minh only; no
+2026 min laptop
+2 2 Gia Bao audio/video
+F- F- Structured notes
+17 Jul 30 Nguyen Trang
+SES-0 SIM-0 iPhone F1-F6 only; no
+2026 min Vu Bach Minh Nhut
+3 3 audio/video
+F- F- MacBook Structured notes
+17 Jul 34 Nguyen
+SES-0 SIM-0 + Android F1-F6 Le Minh only; no
+2026 min Vu Bach
+4 4 phone audio/video
+C- 17 Jul 27 C- C1-C3, Pham Trang Structured notes
+iPhone
+SES-0 2026 min SIM-0 C5-C9 Nguyen Minh Nhut only; no
+UserResearch | Group10 | 10
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Sessi Dura Partici Note Recording
+Date Device Tasks Facilitator
+on ID tion pant taker method
+3 3 Gia Bao audio/video
+C- C- Pham Structured notes
+17 Jul 35
+SES-0 SIM-0 MacBook C1-C9 Nguyen Le Minh only; no
+2026 min
+4 4 Gia Bao audio/video
+F- F- Structured notes
+18 Jul 33 Windows Nguyen Trang
+SES-0 SIM-0 F1-F6 only; no
+2026 min laptop Vu Bach Minh Nhut
+5 5 audio/video
+F- F- Structured notes
+18 Jul 35 Android Nguyen
+SES-0 SIM-0 F1-F6 Le Minh only; no
+2026 min phone Vu Bach
+6 6 audio/video
+C- C- Pham Structured notes
+18 Jul 30 Windows Trang
+SES-0 SIM-0 C1-C9 Nguyen only; no
+2026 min laptop Minh Nhut
+5 5 Gia Bao audio/video
+C- C- Pham Structured notes
+18 Jul 34 Android
+SES-0 SIM-0 C1-C9 Nguyen Le Minh only; no
+2026 min tablet
+6 6 Gia Bao audio/video
+Simulated research session: This is a simulated session record used for scenario coverage and planning, not an
+attendance or research claim.
+UserResearch | Group10 | 11
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+5. Representative Sessions and
+Patterns
+Six representative sessions keep the main report concise. The remaining
+detailed note sheets are retained in Appendix A.
+Session Task focus Observed pattern Recovery or result
+F- Find ticket entry The entry was found, Return to the
+SES-01 on mobile but the selected tournament summary
+tournament moved before choosing a
+out of view. route.
+F- Connect Match Schedule context did Re-select the event
+SES-04 Centre to ticket not fully carry into and verify the current
+action ticket planning. ticket state.
+F- Compare ticket Freshness and Stay on FIFA.com
+SES-05 status and partner boundaries when the state or
+destination shaped confidence. destination is unclear.
+C- Choose a Several entry choices Return to the recent
+SES-01 beginner route increased recall game and select
+demand. Beginner Review.
+C- Continue from The next relevant Use one mistake-
+SES-04 explanation to lesson or puzzle was linked practice
+practice not obvious. recommendation.
+C- Review a game on Dense analysis Show one mistake
+SES-06 a smaller screen competed with the first and disclose
+learning priority. advanced depth later.
+5.1 Pattern Summary
+FIFA patterns center on ticket-state clarity, freshness, mobile context, and
+partner handoff trust. Chess patterns center on entry choice, beginner
+explanation, and a clear continuation into practice.
+5.2 Result Summary
+The simulated sessions support two PA3 hypotheses: a FIFA decision layer
+should keep state, freshness, route, and recovery together; a Chess beginner
+review should show one interpretable mistake and one next practice action
+before advanced analysis.
+UserResearch | Group10 | 12
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+6. Simulated task results
+Task
+Hesitat Wrong Recov Confid
+Trace completi Clarity
+ions paths eries ence
+on
+F-SIM-01 / F-
+3/4 3 1 1 3/5 3/5
+SES-01
+F-SIM-02 / F-
+5/6 2 1 1 3/5 4/5
+SES-02
+F-SIM-03 / F-
+4/6 3 1 1 3/5 3/5
+SES-03
+F-SIM-04 / F-
+4/6 3 0 1 2/5 3/5
+SES-04
+F-SIM-05 / F-
+4/6 4 1 1 2/5 3/5
+SES-05
+F-SIM-06 / F-
+3/6 4 2 2 2/5 2/5
+SES-06
+C-SIM-01 / C-
+5/6 3 2 1 3/5 3/5
+SES-01
+C-SIM-02 / C-
+7/9 4 2 1 3/5 3/5
+SES-02
+C-SIM-03 / C-
+6/8 3 2 2 3/5 3/5
+SES-03
+C-SIM-04 / C-
+7/9 3 1 1 3/5 4/5
+SES-04
+C-SIM-05 / C-
+7/9 3 2 1 3/5 3/5
+SES-05
+C-SIM-06 / C-
+8/9 2 1 1 4/5 4/5
+SES-06
+Simulated task result: The FIFA status/handoff records contain lower
+confidence and more hesitation than schedule-oriented work. Chess
+analysis entry has more wrong paths than puzzles; guided lesson work is
+clearer than analysis entry. No row is perfect, and every number traces to
+UserResearch | Group10 | 13
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Task
+Hesitat Wrong Recov Confid
+Trace completi Clarity
+ions paths eries ence
+on
+one note sheet.
+7. Personas
+7.1 FIFA trust-sensitive ticket planner
+Field Record
+Persona ID UR-P-F1
+Summary FIFA trust-sensitive ticket planner
+Compares state and official destination before
+Goals
+departure
+Checks labels, timestamp, domain, and return
+Behaviors
+route
+Context Family purchase at a sale window
+Domain /
+High ticket-domain experience; moderate
+application
+FIFA.com experience
+experience
+Device pattern Laptop first; phone resume
+Frustrations Ambiguous status and unexplained handoff
+Capabilities Careful comparison and risk detection
+Limitations Will wait rather than accept uncertainty
+Simulated quote “I need the state and destination before I leave.”
+Compare sale, resale, hospitality, then choose
+Scenario
+act or stay.
+F-SIM-05/06; F2-E09; PA1 inherited ticket
+Evidence basis
+drawback
+Assumptions to Whether destination preview improves calibrated
+UserResearch | Group10 | 14
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Field Record
+validate trust
+7.2 FIFA returning tournament follower
+Field Record
+Persona ID UR-P-F2
+Summary FIFA returning tournament follower
+Goals Reconnect schedule context to ticket action
+Starts in Match Centre and expects tournament
+Behaviors
+continuity
+Context Weekly tournament planning
+Domain /
+High competition knowledge; regular FIFA.com
+application
+use
+experience
+Device pattern Phone first; laptop comparison
+Frustrations Mobile stack and lost filters
+Capabilities Fast recognition of tournaments and schedules
+Limitations Does not remember ticket channel wording
+“Keep my tournament context when I switch
+Simulated quote
+devices.”
+Follow a tournament, inspect status, resume on
+Scenario
+mobile.
+Evidence basis F-SIM-03/04; F2-E03/E04; PA1 continuity
+Assumptions to Whether persisted context reduces recovery
+validate work
+7.3 Chess first-time beginner
+Field Record
+Persona ID UR-P-C1
+UserResearch | Group10 | 15
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Field Record
+Summary Chess first-time beginner
+Understand one important mistake and next
+Goals
+action
+Uses Learn and Puzzles; avoids engine
+Behaviors
+terminology
+Context Short mobile learning session
+Domain /
+application Basic rules; first week on Chess.com
+experience
+Device pattern Phone; occasional laptop
+Frustrations Too many entry choices
+Willing to try a move and read a short
+Capabilities
+explanation
+Limitations Cannot interpret evaluation vocabulary
+Simulated quote “Show me what to learn first.”
+Scenario Complete a lesson, puzzle, and beginner review.
+C-SIM-01/02; C2-E05-E10; PA1 learning
+Evidence basis
+strength
+Assumptions to
+Whether one preset improves entry selection
+validate
+7.4 Chess returning learner who forgets analysis
+terms
+Field Record
+Persona ID UR-P-C2
+Chess returning learner who forgets analysis
+Summary
+terms
+Goals Resume review and practice after a gap
+UserResearch | Group10 | 16
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Field Record
+Recognizes recent game and lesson outcomes
+Behaviors
+over feature names
+Context Intermittent desktop session
+Domain /
+application Moderate chess knowledge; low analysis use
+experience
+Device pattern Laptop; tablet backup
+Frustrations Recall-heavy labels and dense advanced panels
+Capabilities Can compare moves with plain explanations
+Limitations Forgets analysis terminology
+Simulated quote “I remember the game, not the analysis label.”
+Open recent game, identify one mistake,
+Scenario
+continue practice.
+Evidence basis C-SIM-03/04/05; C2-E07-E10
+Assumptions to Whether outcome-oriented labels improve
+validate memorability
+UserResearch | Group10 | 17
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+8. Representative Screenshot
+Evidence
+Figure UR-EV-03. State: FIFA homepage / entry. What is visible:
+Homepage hero, navigation, and entry choices. Why it matters:
+Establishes the starting context. Limitation: The capture does not prove
+which route a user chooses.
+UserResearch | Group10 | 18
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-EV-04. State: FIFA Match Centre filters. What is visible: Date,
+competition, and match filtering controls. Why it matters: Shows the
+context users must preserve. Limitation: Live match availability
+changes over time.
+UserResearch | Group10 | 19
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-EV-05. State: Tickets and Hospitality landing. What is visible:
+Ticket and hospitality entry cards. Why it matters: Shows multiple
+planning routes. Limitation: It does not confirm current inventory.
+UserResearch | Group10 | 20
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-EV-06A. State: Mobile tickets - top segment. What is visible:
+The first readable ticket cards. Why it matters: Shows the start of the
+mobile decision surface. Limitation: This is only the top window of a
+long page.
+UserResearch | Group10 | 21
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-EV-06B. State: Mobile tickets - later action cards. Authentic
+crops show later ticket actions and the transition to other tournaments;
+they do not use footer-only content as action evidence.
+UserResearch | Group10 | 22
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-EV-07. State: Pre-handoff ticket route state. The captured
+redirect remained on FIFA Tickets & Hospitality, so this evidence
+documents the route before partner handoff and does not claim that a
+partner destination loaded.
+UserResearch | Group10 | 23
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-EV-08. State: FIFA+ destination. What is visible: External
+media destination and branding. Why it matters: Shows another handoff
+boundary. Limitation: Availability and account rules may vary.
+UserResearch | Group10 | 24
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-EV-09. State: Chess homepage. What is visible: Play and
+learning entry choices. Why it matters: Establishes the beginner
+starting point. Limitation: The capture does not measure choice
+difficulty.
+UserResearch | Group10 | 25
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-EV-10. State: Chess play entry. What is visible: Game-start
+choices and controls. Why it matters: Shows one route to a reviewable
+game. Limitation: A completed game is not shown.
+UserResearch | Group10 | 26
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-EV-11. State: Chess lessons. What is visible: Lesson groups
+and progression choices. Why it matters: Shows the learning catalog
+available after review. Limitation: The capture does not prove which
+lesson is relevant to a mistake.
+UserResearch | Group10 | 27
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-EV-12. State: Chess puzzle entry. What is visible: Puzzle task
+and practice entry. Why it matters: Shows a possible continuation
+action. Limitation: Relevance to a specific reviewed game is not
+established.
+Figure UR-EV-13. State: Chess analysis entry. What is visible: Board,
+move list, and analysis controls. Why it matters: Shows the density a
+beginner must interpret. Limitation: The capture does not validate a
+complete Game Review journey.
+UserResearch | Group10 | 28
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+9. Findings
+Figure UR-EV-01. FIFA ticket decision surface used by UR-F01 and UR-F02
+Source: Screen evidence F2-E09; captured interface state only
+Related: Ticket status clarity, freshness, handoff trust, and TP-FIFA
+Figure UR-EV-02. Chess analysis-entry decision surface used by UR-C01
+and UR-C02
+Source: Screen evidence C2-E10; captured interface state only
+Related: Entry choice overload, learning priority, vocabulary load, and TP-
+CHESS
+UserResearch | Group10 | 29
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+9.1 Findings Summary
+Finding Evidence Pattern Design direction
+UR-F01 F2-E09; F- Ticket state and Show state,
+SIM-04/05/06 freshness are freshness, and next
+separated action together
+UR-F02 F2-E09; F- Destination purpose Preview official
+SIM-02/05 and return path are domain, account, and
+unclear return
+UR-F03 F2-E02/E03/E04; Mobile browsing Persist a compact
+F-SIM-03/04 loses tournament tournament summary
+context
+UR-C01 C2-E10; C- Beginners face Place Beginner
+SIM-01/02/05 several review Review beside the
+entries game result
+UR-C02 C2-E07/E08/E10; Advanced detail Show one mistake
+C-SIM-02/04/06 precedes one and plain-language
+learning priority reason first
+UR-C03 C2-E05/E07/E10; Review does not Link one lesson or
+C-SIM-03/04/06 lead to relevant puzzle to the mistake
+practice
+10. Evidence boundary and citations
+Screen evidence: F2-E02-E04 and F2-E09 support FIFA navigation/status
+claims; C2-E05, C2-E07-E10 support Chess learning and analysis-entry
+claims.
+PA1 inherited finding: The product pair, drawbacks, and evidence limits
+remain continuous with PA1.
+Simulated study: Twelve scenario records generate hypotheses and
+traceable synthetic metrics only.
+Design inference: Effectiveness, efficiency, learnability, memorability, errors,
+satisfaction, visibility, recognition, progressive disclosure, control, and
+prevention guide the implications.
+PA3 validation target: Prototype testing must replace synthetic expectations
+with observed user evidence.
+Course basis: LN01 - Introduction - v2.pdf, pp. 20, 22, 24; LN02 -
+Fundamental Concepts - Usability Dimensions_2.pdf, pp. 62-67, 74-76, 83-
+UserResearch | Group10 | 30
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+84, 101-115; LN03 - UI Design Process.pdf, pp. 16-19, 23-24, 28-30, 34-36;
+LN04 - Task Analysis.pdf, pp. 3, 6-15, 39-49.
+11. Revised Work Models
+Each model uses a distinct shape for actor, task/artifact/system, decision,
+interruption, recovery, and output. The flow reads left to right. Captions
+identify the current state, problem point, user decision, recovery path, and
+design opportunity.
+Figure UR-WM-FIFA-PLANNING. Wm Fifa Planning
+Source: PA2 design QA artifact
+Related: FIFA or Chess task evidence, interruption, recovery, and design
+opportunity
+UserResearch | Group10 | 31
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-WM-FIFA-VERIFICATION. Wm Fifa Verification
+Source: PA2 design QA artifact
+Related: FIFA or Chess task evidence, interruption, recovery, and design
+opportunity
+UserResearch | Group10 | 32
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-WM-FIFA-HANDOFF. Wm Fifa Handoff
+Source: PA2 design QA artifact
+Related: FIFA or Chess task evidence, interruption, recovery, and design
+opportunity
+UserResearch | Group10 | 33
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-WM-FIFA-ARTIFACT. Wm Fifa Artifact
+Source: PA2 design QA artifact
+Related: FIFA or Chess task evidence, interruption, recovery, and design
+opportunity
+Figure UR-WM-CHESS-LEARNING. Wm Chess Learning
+Source: PA2 design QA artifact
+Related: FIFA or Chess task evidence, interruption, recovery, and design
+opportunity
+UserResearch | Group10 | 34
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-WM-CHESS-ENTRY. Wm Chess Entry
+Source: PA2 design QA artifact
+Related: FIFA or Chess task evidence, interruption, recovery, and design
+opportunity
+UserResearch | Group10 | 35
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-WM-CHESS-PRACTICE. Wm Chess Practice
+Source: PA2 design QA artifact
+Related: FIFA or Chess task evidence, interruption, recovery, and design
+opportunity
+UserResearch | Group10 | 36
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Figure UR-WM-CHESS-ARTIFACT. Wm Chess Artifact
+Source: PA2 design QA artifact
+Related: FIFA or Chess task evidence, interruption, recovery, and design
+opportunity
+Work Model Coverage Checklist
+Model Trigger System Decision / Recovery Output /
+response interruption opportunity
+FIFA ticket Open Load Act now or Change Ticket plan;
+planning ticket tournament wait; state filters or combine
+planning and route may be retry state and
+state missing action
+FIFA ticket Inspect Return Current Keep last Verified next
+verification freshness timestamp enough; labeled action;
+and source status may update expose
+be unknown and retry provenance
+FIFA Choose Preview Continue or Stay with Handoff or
+partner an domain stay; partner saved return;
+handoff outbound and may fail context explain
+route account destination
+boundary
+FIFA Compare Assemble Choose a Refresh Saved plan;
+information saved event, route; data only stale keep
+model plan state, alert, may be stale fields provenance
+and source beside
+UserResearch | Group10 | 37
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Model Trigger System Decision / Recovery Output /
+response interruption opportunity
+values
+Chess Open a Offer Choose Import Review
+beginner recent Beginner route; no PGN or entry; place
+learning game Review game may play action
+exist beside
+result
+Chess Select Validate Valid input; Correct Guided
+review review recent PGN may input review;
+entry game or fail without identify
+PGN losing failing line
+metadata
+Chess Open key Show Continue or Retry or Practice
+explanation mistake reason and reveal keep action;
+to practice one depth; board- explain
+practice service may only view relevance
+link fail
+Chess Inspect Link Choose next Return to Learning
+learning review position, artifact; saved path;
+artifact artifact reason, content may game preserve
+lesson, and be beginner
+depth unavailable focus
+12. Practical Difficulties and Lessons Learned
+Practical How the group Impact on the
+Lesson learned
+difficulty handled it final version
+The group Claims now
+Screenshots did separated A screenshot name their
+not always show captured state proves only the evidence
+the state needed from simulated visible state and boundary and
+for a claim. behavior and capture time. recovery
+design inference. assumptions.
+Desktop and The revised
+The group used Cross-device
+mobile pages models preserve
+separate mobile continuity must
+expose different tournament/gam
+evidence and be specified as a
+ordering and e context during
+task models. requirement.
+page length. recovery.
+UserResearch | Group10 | 38
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+Appendix A - Twelve Detailed Simulated Note Sheets
+A.1 Note sheet F-SIM-01
+Simulated observation: F-SES-01 - 16 Jul 2026 - 28 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant F-SIM-01; Casual football fan; 18-24; Android phone; motivation: Find
+Participant profile ticket entry without planning expertise; constraint: Limited time and data; accessibility: Large tap
+targets
+Task F1, F2, F4, F5
+Action sequence Opens menu, scrolls to Tickets & Hospitality, returns to Match Centre, then reopens ticket page.
+Hesitation point Pauses at tournament cards with different CTA wording.
+Visible interface
+Tickets & Hospitality card and tournament status text.
+trigger
+Inferred mental
+Ticket page should give one current action.
+model
+Simulated quote “I can find tickets, but I still do not know what is open.”
+Simulated task result Partial success
+Workaround Uses Match Centre as a comparison anchor.
+Design opportunity Show state, freshness, and next action together.
+Limitation Scenario-based; no live sale data.
+UserResearch | Group10 | 39
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+PA3 validation target: Test whether the proposed response reduces the hesitation in F-SES-01 without hiding needed
+control.
+A.2 Note sheet F-SIM-02
+Simulated observation: F-SES-02 - 16 Jul 2026 - 31 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant F-SIM-02; Casual football fan; 25-34; Windows laptop + phone; motivation:
+Participant profile Compare match and ticket status; constraint: Avoids creating accounts early; accessibility: High
+contrast
+Task F1-F6
+Finds Match Centre quickly, compares schedule, opens ticket entry, then checks destination
+Action sequence
+preview.
+Hesitation point Hesitates before the external handoff.
+Visible interface
+Match Centre filters and partner CTA.
+trigger
+Inferred mental
+An official domain preview should precede departure.
+model
+Simulated quote “The schedule is clear; the handoff is the risky part.”
+Simulated task result Success with hesitation
+Workaround Opens destination in a second tab.
+Design opportunity Keep tournament context and return route.
+Limitation Scenario-based; partner response not tested.
+UserResearch | Group10 | 40
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+PA3 validation target: Test whether the proposed response reduces the hesitation in F-SES-02 without hiding needed
+control.
+A.3 Note sheet F-SIM-03
+Simulated observation: F-SES-03 - 17 Jul 2026 - 30 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant F-SIM-03; Tournament follower; 25-34; iPhone; motivation: Coordinate a
+Participant profile
+group trip; constraint: Needs fast resumption; accessibility: Text zoom
+Task F1-F6
+Selects tournament, saves context mentally, moves to phone view, and searches for the same
+Action sequence
+state.
+Hesitation point Loses orientation after the mobile stack changes order.
+Visible interface
+Long mobile tournament-card stack.
+trigger
+Inferred mental
+Mobile should restore the selected tournament first.
+model
+Simulated quote “I want the same tournament to stay at the top.”
+Simulated task result Partial success
+Workaround Uses page search and browser history.
+Design opportunity Persist context across devices.
+Limitation Scenario-based; account synchronization assumed.
+UserResearch | Group10 | 41
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+PA3 validation target: Test whether the proposed response reduces the hesitation in F-SES-03 without hiding needed
+control.
+A.4 Note sheet F-SIM-04
+Simulated observation: F-SES-04 - 17 Jul 2026 - 34 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant F-SIM-04; Tournament follower; 35-44; MacBook + Android phone;
+Participant profile motivation: Connect schedule context to ticket action; constraint: Many open tabs; accessibility:
+Keyboard access on laptop
+Task F1-F6
+Action sequence Uses Match Centre filters, opens ticket card, checks freshness, then returns.
+Hesitation point Questions whether the status changed since the last visit.
+Visible interface
+Status label without a prominent timestamp.
+trigger
+Inferred mental
+Current state requires visible provenance.
+model
+Simulated quote “Is this from today or from the last sale window?”
+Simulated task result Failure on freshness
+Workaround Refreshes and compares wording.
+Design opportunity Display updated time and governed source.
+Limitation Scenario-based; timestamp policy unknown.
+UserResearch | Group10 | 42
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+PA3 validation target: Test whether the proposed response reduces the hesitation in F-SES-04 without hiding needed
+control.
+A.5 Note sheet F-SIM-05
+Simulated observation: F-SES-05 - 18 Jul 2026 - 33 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant F-SIM-05; Trust-sensitive ticket planner; 35-44; Windows laptop;
+Participant profile motivation: Avoid unofficial or stale destinations; constraint: Needs provenance before leaving
+site; accessibility: Clear status text, not color alone
+Task F1-F6
+Action sequence Compares buy, wait, resale, and hospitality paths before choosing to stay.
+Hesitation point Stops when official destination is not explained.
+Visible interface
+Multiple commercial paths and outbound CTA.
+trigger
+Inferred mental
+Departure requires trust evidence and safe cancellation.
+model
+Simulated quote “I will not leave until I know where this goes.”
+Simulated task result Success by choosing stay
+Workaround Copies the domain name for separate checking.
+Design opportunity Preview destination, purpose, and return behavior.
+Limitation Scenario-based; no transaction attempted.
+UserResearch | Group10 | 43
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+PA3 validation target: Test whether the proposed response reduces the hesitation in F-SES-05 without hiding needed
+control.
+A.6 Note sheet F-SIM-06
+Simulated observation: F-SES-06 - 18 Jul 2026 - 35 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant F-SIM-06; Trust-sensitive ticket planner; 45-54; Android phone; motivation:
+Participant profile Know whether to buy, wait, or register interest; constraint: Low confidence after handoff;
+accessibility: Plain language and persistent focus
+Task F1-F6
+Finds ticket page, encounters missing state, retries on variable network, then subscribes
+Action sequence
+conceptually.
+Hesitation point Cannot distinguish missing from sold out.
+Visible interface
+Empty or stale status region.
+trigger
+Inferred mental
+Missing data is not a ticket outcome.
+model
+Simulated quote “No status should not look like no tickets.”
+Simulated task result Recovered after retry
+Workaround Returns to homepage and tries again.
+Design opportunity Differentiate missing, stale, sold out, and waiting room.
+Limitation Scenario-based; notification permission simulated.
+UserResearch | Group10 | 44
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+PA3 validation target: Test whether the proposed response reduces the hesitation in F-SES-06 without hiding needed
+control.
+A.7 Note sheet C-SIM-01
+Simulated observation: C-SES-01 - 16 Jul 2026 - 29 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant C-SIM-01; First-time beginner; 18-24; Android phone; motivation: Choose
+Participant profile
+a safe beginner route; constraint: Unfamiliar analysis terms; accessibility: Plain language
+Task C1-C3, C7-C9
+Action sequence Chooses Learn, continues a lesson, solves a puzzle, then looks for review.
+Hesitation point Opens several analysis entry choices.
+Visible interface
+Learn cards, puzzle board, analysis entry menu.
+trigger
+Inferred mental
+Review should start with a beginner preset.
+model
+Simulated quote “Which button tells me what I did wrong?”
+Simulated task result Partial success
+Workaround Returns to the completed game screen.
+Design opportunity Offer one labeled beginner route.
+Limitation Scenario-based; no engine output claimed.
+PA3 validation target: Test whether the proposed response reduces the hesitation in C-SES-01 without hiding needed
+control.
+UserResearch | Group10 | 45
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+A.8 Note sheet C-SIM-02
+Simulated observation: C-SES-02 - 16 Jul 2026 - 32 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant C-SIM-02; First-time beginner; 25-34; Windows laptop; motivation:
+Participant profile Understand one mistake; constraint: Fears breaking the position; accessibility: Keyboard-only
+path
+Task C1-C9
+Action sequence Uses keyboard to open a game, selects beginner review, tries a move, and reads help.
+Hesitation point Focus order reaches advanced controls before explanation.
+Visible interface
+Analysis controls and terminology links.
+trigger
+Inferred mental
+The main mistake should precede advanced depth.
+model
+Simulated quote “I found analysis, but not the first thing to learn.”
+Simulated task result Success with wrong path
+Workaround Uses Tab and headings to relocate.
+Design opportunity Order content by learning priority.
+Limitation Scenario-based; keyboard path modeled.
+PA3 validation target: Test whether the proposed response reduces the hesitation in C-SES-02 without hiding needed
+control.
+UserResearch | Group10 | 46
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+A.9 Note sheet C-SIM-03
+Simulated observation: C-SES-03 - 17 Jul 2026 - 27 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant C-SIM-03; Returning learner; 18-24; iPhone; motivation: Resume without
+Participant profile
+relearning navigation; constraint: Forgets feature locations; accessibility: Text zoom
+Task C1-C3, C5-C9
+Action sequence Recognizes puzzles, resumes a lesson, opens a completed game, then searches for analysis.
+Hesitation point Forgets the name of the review feature.
+Visible interface
+Navigation labels and game actions.
+trigger
+Inferred mental
+Returning learners recognize outcomes, not feature terms.
+model
+Simulated quote “I remember the result, not the menu name.”
+Simulated task result Recovered
+Workaround Uses recent activity to reopen the game.
+Design opportunity Add review action at the completed game.
+Limitation Scenario-based; recency history assumed.
+PA3 validation target: Test whether the proposed response reduces the hesitation in C-SES-03 without hiding needed
+control.
+UserResearch | Group10 | 47
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+A.10 Note sheet C-SIM-04
+Simulated observation: C-SES-04 - 17 Jul 2026 - 35 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant C-SIM-04; Returning learner; 35-44; MacBook; motivation: Reconnect
+Participant profile
+review to practice; constraint: Forgets analysis vocabulary; accessibility: Reduced motion
+Task C1-C9
+Action sequence Opens game, selects review, reads one explanation, then continues to a lesson.
+Hesitation point Stops at evaluation and engine terms.
+Visible interface
+Evaluation label and advanced analysis controls.
+trigger
+Inferred mental
+Terminology help should be available in place.
+model
+Simulated quote “Tell me why before showing the numbers.”
+Simulated task result Success with hesitation
+Workaround Opens help text and ignores depth.
+Design opportunity Plain-language explanation with optional terms.
+Limitation Scenario-based; explanation quality not measured.
+PA3 validation target: Test whether the proposed response reduces the hesitation in C-SES-04 without hiding needed
+control.
+UserResearch | Group10 | 48
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+A.11 Note sheet C-SIM-05
+Simulated observation: C-SES-05 - 18 Jul 2026 - 30 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant C-SIM-05; Intermediate player with low analysis use; 25-34; Windows
+Participant profile laptop; motivation: Review without engine overload; constraint: Skips dense panels; accessibility:
+Keyboard shortcuts with labels
+Task C1-C9
+Action sequence Finds analysis, follows one candidate line, returns, and selects a puzzle.
+Hesitation point Takes a wrong path into full analysis first.
+Visible interface
+Multiple setup paths and engine panel.
+trigger
+Inferred mental
+Low-analysis users need a preset at entry.
+model
+Simulated quote “I opened the expert view by accident.”
+Simulated task result Recovered
+Workaround Backs out and uses review link.
+Design opportunity Default to beginner review for the scenario.
+Limitation Scenario-based; recommendation accuracy not claimed.
+PA3 validation target: Test whether the proposed response reduces the hesitation in C-SES-05 without hiding needed
+control.
+UserResearch | Group10 | 49
+GROUP10 | CSC13112 UI/UX DESIGN | USERRESEARCH
+A.12 Note sheet C-SIM-06
+Simulated observation: C-SES-06 - 18 Jul 2026 - 34 min; structured notes
+only; no audio/video.
+Field Record
+Simulated participant C-SIM-06; Intermediate player with low analysis use; 35-44; Android tablet;
+Participant profile motivation: Find one actionable improvement; constraint: Terminology slows scanning;
+accessibility: Color-independent indicators
+Task C1-C9
+Action sequence Opens recent game, identifies one turning point, tries a move, and reveals advanced detail.
+Hesitation point Scans slowly on tablet because labels compete.
+Visible interface
+Board, move list, explanation, depth disclosure.
+trigger
+Inferred mental
+A single learning card should lead the visual hierarchy.
+model
+Simulated quote “One mistake and one next exercise is enough.”
+Simulated task result Success
+Workaround Collapses side panels.
+Design opportunity Progressive disclosure and continuation action.
+Limitation Scenario-based; engine availability assumed.
+PA3 validation target: Test whether the proposed response reduces the hesitation in C-SES-06 without hiding needed
+control.
+UserResearch | Group10 | 50

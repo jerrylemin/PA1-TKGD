@@ -1,0 +1,166 @@
+{
+  "assertions": {
+    "six_exact_files": true,
+    "all_have_text": true,
+    "no_blank_candidates": true,
+    "no_edge_candidates": true,
+    "no_field_errors": true,
+    "no_windows_paths": true,
+    "peer_review_updated": true,
+    "peer_review_not_official": true,
+    "six_proposal_concepts": true,
+    "twelve_use_cases": true
+  },
+  "reports": {
+    "Group10-PA2-UserResearch.pdf": {
+      "pages": 49,
+      "text_chars": 40148,
+      "min_page_text_chars": 231,
+      "low_text_pages": [],
+      "blank_page_candidates": [],
+      "edge_ink_candidates": [],
+      "field_errors": [],
+      "absolute_paths": [],
+      "docx_media_count": 22,
+      "pdf_image_xobjects": 1029,
+      "fonts": [
+        "/BAAAAA+Arial-BoldMT",
+        "/CAAAAA+ArialMT",
+        "/DAAAAA+Arial-ItalicMT",
+        "/EAAAAA+Calibri-Bold"
+      ],
+      "contacts": [
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserResearch-contact-001-006.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserResearch-contact-007-012.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserResearch-contact-013-018.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserResearch-contact-019-024.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserResearch-contact-025-030.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserResearch-contact-031-036.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserResearch-contact-037-042.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserResearch-contact-043-048.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserResearch-contact-049-049.png"
+      ]
+    },
+    "Group10-PA2-UserAnalysis.pdf": {
+      "pages": 30,
+      "text_chars": 21693,
+      "min_page_text_chars": 104,
+      "low_text_pages": [],
+      "blank_page_candidates": [],
+      "edge_ink_candidates": [],
+      "field_errors": [],
+      "absolute_paths": [],
+      "docx_media_count": 6,
+      "pdf_image_xobjects": 180,
+      "fonts": [
+        "/BAAAAA+Arial-BoldMT",
+        "/CAAAAA+ArialMT",
+        "/DAAAAA+Calibri-Bold"
+      ],
+      "contacts": [
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserAnalysis-contact-001-006.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserAnalysis-contact-007-012.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserAnalysis-contact-013-018.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserAnalysis-contact-019-024.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UserAnalysis-contact-025-030.png"
+      ]
+    },
+    "Group10-PA2-ProjectProposal.pdf": {
+      "pages": 28,
+      "text_chars": 21758,
+      "min_page_text_chars": 111,
+      "low_text_pages": [],
+      "blank_page_candidates": [],
+      "edge_ink_candidates": [],
+      "field_errors": [],
+      "absolute_paths": [],
+      "docx_media_count": 18,
+      "pdf_image_xobjects": 504,
+      "fonts": [
+        "/BAAAAA+Arial-BoldMT",
+        "/CAAAAA+ArialMT",
+        "/DAAAAA+Arial-ItalicMT",
+        "/EAAAAA+Calibri-Bold"
+      ],
+      "contacts": [
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-ProjectProposal-contact-001-006.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-ProjectProposal-contact-007-012.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-ProjectProposal-contact-013-018.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-ProjectProposal-contact-019-024.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-ProjectProposal-contact-025-028.png"
+      ]
+    },
+    "Group10-PA2-UseCaseDocument.pdf": {
+      "pages": 36,
+      "text_chars": 30855,
+      "min_page_text_chars": 231,
+      "low_text_pages": [],
+      "blank_page_candidates": [],
+      "edge_ink_candidates": [],
+      "field_errors": [],
+      "absolute_paths": [],
+      "docx_media_count": 16,
+      "pdf_image_xobjects": 576,
+      "fonts": [
+        "/BAAAAA+Arial-BoldMT",
+        "/CAAAAA+ArialMT",
+        "/DAAAAA+Arial-ItalicMT",
+        "/EAAAAA+SymbolMT",
+        "/FAAAAA+Calibri-Bold"
+      ],
+      "contacts": [
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UseCaseDocument-contact-001-006.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UseCaseDocument-contact-007-012.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UseCaseDocument-contact-013-018.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UseCaseDocument-contact-019-024.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UseCaseDocument-contact-025-030.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-UseCaseDocument-contact-031-036.png"
+      ]
+    },
+    "Group10-PA2-PeerReview.pdf": {
+      "pages": 2,
+      "text_chars": 3896,
+      "min_page_text_chars": 1590,
+      "low_text_pages": [],
+      "blank_page_candidates": [],
+      "edge_ink_candidates": [],
+      "field_errors": [],
+      "absolute_paths": [],
+      "docx_media_count": 0,
+      "pdf_image_xobjects": 0,
+      "fonts": [
+        "/BAAAAA+Calibri-Bold",
+        "/CAAAAA+Calibri",
+        "/DAAAAA+Calibri-Italic",
+        "/EAAAAA+SymbolMT"
+      ],
+      "contacts": [
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-PeerReview-contact-001-002.png"
+      ]
+    },
+    "Group10-PA2-WeeklyReport.pdf": {
+      "pages": 20,
+      "text_chars": 17346,
+      "min_page_text_chars": 310,
+      "low_text_pages": [],
+      "blank_page_candidates": [],
+      "edge_ink_candidates": [],
+      "field_errors": [],
+      "absolute_paths": [],
+      "docx_media_count": 1,
+      "pdf_image_xobjects": 20,
+      "fonts": [
+        "/BAAAAA+Arial-BoldMT",
+        "/CAAAAA+ArialMT",
+        "/DAAAAA+SymbolMT",
+        "/EAAAAA+Calibri-Bold"
+      ],
+      "contacts": [
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-WeeklyReport-contact-001-006.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-WeeklyReport-contact-007-012.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-WeeklyReport-contact-013-018.png",
+        "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA1\\PA2\\qa\\final-export-qa-20260810-1955\\Group10-PA2-WeeklyReport-contact-019-020.png"
+      ]
+    }
+  }
+}

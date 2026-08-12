@@ -1,0 +1,773 @@
+PROJECT ASSIGNMENT 2
+Group10-PA2 User Analysis
+FIFA.com and Chess.com
+Course CSC13112 - UI/UX Design, FIT-HCMUS
+Group Group10
+Le Minh (21127645); Nguyen Vu Bach (21127224);
+Team Pham Nguyen Gia Bao (20127119); Trang Minh Nhut
+(22127318)
+Contents
+1. Analysis boundary and source discipline — 2
+2. Simulated brainstorming session — 3
+3. Representative Notes — 4
+4. Affinity diagrams and cluster synthesis — 5
+5. Simulated dot voting — 8
+6. Weighted prioritization — 11
+6.1 FIFA candidates — 12
+6.2 Chess candidates — 13
+7. Tough problems — 14
+7.1 TP-FIFA — 14
+7.2 TP-CHESS — 14
+8. Design rationale and validation target — 15
+8.1 Complete Affinity Diagram — 16
+8.2 Voting Visualization — 20
+8.3 Final Rationale — 21
+9. Practical Difficulties and Lessons Learned — 21
+Appendix A - All 72 Raw Notes — 22
+1. Analysis boundary and source
+discipline
+Simulated brainstorming record: The workshop, raw-note generation,
+votes, discussion, attendance, and consensus below are scenario-based
+synthetic evidence prepared for course reporting. They are not
+contemporaneous meeting evidence.
+Screen evidence: Visible interface states seed observable notes only.
+Simulated study: Participant-behavior notes and votes are synthetic
+scenario records.
+Design inference: Clusters and priorities are interpretations that require PA3
+testing.
+2. Simulated brainstorming session
+Field Record
+Record type Simulated brainstorming record
+Date and
+22 Jul 2026, 19:30-20:45 (75 minutes)
+duration
+Le Minh; Nguyen Vu Bach; Pham Nguyen Gia
+Participants
+Bao; Trang Minh Nhut
+Transform PA1 continuity, screen evidence, and
+Objective simulated-study patterns into prioritized PA2
+problems.
+Silent note 12 minutes; each member drafts atomic notes
+generation independently.
+Round-robin 16 minutes; one note per turn, no evaluation
+sharing during sharing.
+18 minutes; group by user task and breakdown
+Clustering
+rather than feature.
+Duplicate 8 minutes; retain the clearest atomic wording and
+merging all source tags.
+6 minutes; name clusters with user-facing task
+Cluster naming
+language.
+8 minutes; six simulated votes per member per
+Prioritization
+product.
+5 minutes; review weighted scores and resolve
+Consensus
+the selected problem statement.
+2 minutes; Bach owns FIFA synthesis, Bao owns
+Owner
+Chess synthesis, Nhut owns diagrams/HCI
+assignment
+mapping, Le owns integration/traceability.
+3. Representative Notes
+Fourteen representative notes remain in the main report. All 72 atomic notes
+are retained in Appendix A.
+Note Produ
+Cluster Representative note
+ID ct
+F- Ticket status
+FIFA Current sale state needs one label
+RN-01 clarity
+F- Ticket status
+FIFA Missing state differs from sold out
+RN-02 clarity
+F- Ticket status
+FIFA Resale must not look like primary sale
+RN-03 clarity
+F- Ticket status
+FIFA Waiting room is a temporary state
+RN-04 clarity
+F- Ticket status
+FIFA Hospitality is a distinct option
+RN-05 clarity
+F- Ticket status
+FIFA State comparison belongs in one view
+RN-06 clarity
+F-
+FIFA Handoff trust Preview the destination domain
+RN-07
+C- Entry choice
+Chess Beginner review needs one named entry
+RN-01 overload
+C- Entry choice
+Chess Analysis setup paths compete
+RN-02 overload
+C- Entry choice
+Chess Feature names require recall
+RN-03 overload
+C- Entry choice
+Chess Completed game should expose review
+RN-04 overload
+C- Entry choice
+Chess Expert view opens too early
+RN-05 overload
+C- Entry choice
+Chess Outcome labels are easier to recognize
+RN-06 overload
+C- Learning
+Chess Show one important mistake first
+RN-07 priority
+4. Affinity diagrams and cluster synthesis
+Prod Co Affected Sever Design
+Cluster Representative notes Pattern
+uct unt task ity direction
+Repeated task-
+Current sale state needs one
+Ticket status state or Compare Critic One comparison
+FIFA 6 label; Missing state differs
+clarity orientation ticket states al dashboard
+from sold out
+breakdown
+Repeated task-
+Preview the destination Destination
+state or Preview
+FIFA Handoff trust 6 domain; Explain why High preview +
+orientation destination
+departure is needed stay/return
+breakdown
+Repeated task-
+Keep selected tournament Persist
+state or Resume on Mediu
+FIFA Mobile overview 6 first; Avoid a long tournament
+orientation mobile m
+undifferentiated card stack context
+breakdown
+Repeated task-
+Ticket entry competes with
+state or Find ticket Mediu
+FIFA Browse load 6 content; Repeated cards Task-led entry
+orientation entry m
+increase scanning
+breakdown
+Repeated task-
+Inspect
+Freshness and Show last-updated time; Name state or Mediu Timestamp +
+FIFA 6 freshness /
+alerts the governed source orientation m controlled alerts
+subscribe
+breakdown
+FIFA Recovery and 6 Retry missing state without Repeated task- Recover Mediu State-specific
+Prod Co Affected Sever Design
+Cluster Representative notes Pattern
+uct unt task ity direction
+state or
+losing context; Network loss
+return orientation and return m recovery
+should retain the last snapshot
+breakdown
+Repeated task-
+Beginner review needs one
+Ches Entry choice state or Critic Beginner review
+6 named entry; Analysis setup Open review
+s overload orientation al preset
+paths compete
+breakdown
+Repeated task-
+Show one important mistake
+Ches state or Identify
+Learning priority 5 first; Explain why before High One mistake first
+s orientation mistake
+numeric depth
+breakdown
+Repeated task-
+No game needs a clear setup
+Ches state or Mediu Validated setup
+Review setup 5 route; Invalid PGN must Open game
+s orientation m states
+preserve input
+breakdown
+Repeated task-
+Evaluation terms need inline
+Ches state or Read Inline plain-
+Vocabulary load 5 help; Plain language should High
+s orientation explanation language help
+lead
+breakdown
+Repeated task-
+Keep the board and main
+Ches state or Review on Mediu Primary-card
+Mobile scanning 5 mistake together; Collapse
+s orientation mobile m hierarchy
+secondary panels
+breakdown
+Ches Practice 5 Link the mistake to one Repeated task- Continue High One relevant
+Prod Co Affected Sever Design
+Cluster Representative notes Pattern
+uct unt task ity direction
+state or
+lesson; Offer one relevant
+s continuation orientation practice next exercise
+puzzle
+breakdown
+Repeated task-
+Reveal engine detail on
+Ches Advanced depth state or Reveal Mediu Progressive
+5 demand; Do not remove
+s disclosure orientation detail m disclosure
+expert access
+breakdown
+5. Simulated dot voting
+Simulated brainstorming record: Each member receives six votes for
+FIFA and six for Chess; totals equal 24 votes per product.
+Fres
+Statu Hand Brow Reco
+Member Mobile hnes Total
+s off se very
+s
+Le Minh 3 2 0 0 1 0 6
+Nguyen Vu
+3 2 0 0 0 1 6
+Bach
+Pham
+Nguyen Gia 2 2 0 1 1 0 6
+Bao
+Trang Minh
+2 2 1 0 1 0 6
+Nhut
+FIFA cluster Total votes
+Ticket status clarity 10
+Handoff trust 8
+Freshness and alerts 3
+Mobile overview 1
+Fres
+Statu Hand Brow Reco
+Member Mobile hnes Total
+s off se very
+s
+Browse load 1
+Recovery and return 1
+Entr Prio Setu Mobi Pract Dept
+Member Vocabulary Total
+y rity p le ice h
+Le Minh 1 0 0 2 0 2 1 6
+Nguyen Vu
+1 1 1 1 0 1 1 6
+Bach
+Pham
+Nguyen Gia 1 1 1 1 0 2 0 6
+Bao
+Trang Minh
+1 1 1 1 1 0 1 6
+Nhut
+Chess cluster Total votes
+Vocabulary load 5
+Practice continuation 5
+Entry choice overload 4
+Learning priority 3
+Review setup 3
+Fres
+Statu Hand Brow Reco
+Member Mobile hnes Total
+s off se very
+s
+Advanced depth disclosure 3
+Mobile scanning 1
+Field Record
+FIFA votes concentrate on status and handoff
+confidence. Chess votes split across vocabulary
+Discussion notes
+and continuation, while entry overload is the
+enabling problem.
+If totals tie, select the item with higher severity,
+Tie-break rule then stronger traceability to the PA3 prototype
+task.
+Prioritize FIFA ticket status plus handoff
+confidence, and treat Chess entry, explanation,
+Consensus statement
+and continuation as one guided beginner review
+problem.
+FIFA: ticket status clarity and handoff trust.
+Selected problems
+Chess: guided beginner review.
+6. Weighted prioritization
+Formula: Weighted score = Severity x 25% + Task frequency x 15% +
+Risk x 20% + Reach x 10% + Evidence strength x 15% + PA3 relevance x
+15%. Each factor is scored 1-5; maximum is 5.00.
+6.1 FIFA candidates
+Weighte
+Candidate Criterion scores Score rationale
+d
+Critical ambiguity;
+frequent planning;
+Severity 5 | Frequency 4 | trust risk; broad
+FIFA status +
+Risk 5 | Reach 4 | 4.60 reach; strong
+freshness
+Evidence 4 | PA3 5 screen/synthetic
+trace; direct PA3
+module.
+Critical departure
+Severity 5 | Frequency 3 | risk; lower
+FIFA handoff
+Risk 5 | Reach 4 | 4.45 frequency; broad
+confidence
+Evidence 4 | PA3 5 consequence; direct
+PA3 decision.
+Frequent but lower
+consequence;
+Severity 3 | Frequency 4 |
+FIFA mobile evidence supports
+Risk 3 | Reach 4 | 3.50
+overview orientation rather
+Evidence 4 | PA3 3
+than transaction
+risk.
+6.2 Chess candidates
+Weighte
+Candidate Criterion scores Score rationale
+d
+High learning
+severity/frequency/r
+Severity 5 | Frequency 5 |
+Chess guided each; strong PA3
+Risk 4 | Reach 5 | 4.65
+beginner review relevance; synthetic
+Evidence 4 | PA3 5
+outcomes require
+validation.
+Broad but
+Severity 3 | Frequency 4 |
+Chess mobile secondary to entry
+Risk 3 | Reach 4 | 3.35
+scanning and learning-priority
+Evidence 3 | PA3 3
+breakdown.
+Important control
+Severity 3 | Frequency 2 | but lower beginner
+Chess
+Risk 3 | Reach 3 | 3.00 frequency; retained
+advanced depth
+Evidence 3 | PA3 4 as a disclosure
+requirement.
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+7. Tough problems
+7.1 TP-FIFA
+TP-FIFA: Users need to compare current ticket state, freshness and official
+destination before leaving FIFA.com.
+Field Record
+Trust-sensitive planners and tournament
+Affected users
+followers
+Context Ticket planning before an outbound handoff
+Screen evidence F2-E03/E04/E09
+Simulated study F-SIM-02/04/05/06 show status or handoff
+result hesitation and 2-3/5 confidence
+Root cause State, freshness, and destination are separated
+Delayed action, unsafe assumption, or
+Consequence
+abandonment
+Official sports sites rarely combine governed
+Market gap state, freshness, and destination preview in one
+decision view
+Comparison, preview, alerts, and recovery inside
+Scope
+FIFA.com
+Transaction, inventory creation, pricing, or
+Out of scope
+partner redesign
+PA3 test Can users accurately choose buy, wait, register
+question interest, resale, hospitality, or stay?
+7.2 TP-CHESS
+TP-CHESS: Beginners need one interpretable mistake and one next
+practice action before advanced analysis.
+UserAnalysis | Group10 | 14
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Field Record
+First-time beginners and returning low-analysis
+Affected users
+learners
+Context After-game review and practice continuation
+Screen evidence C2-E05/E07-E10
+Simulated study C-SIM-01/02/04/05/06 show wrong paths,
+result vocabulary hesitation, and continuation need
+Feature/setup organization precedes the learning
+Root cause
+outcome
+Expert view without an actionable learning
+Consequence
+priority
+Many analysis tools optimize depth before
+Market gap
+beginner interpretation and continuation
+Beginner preset, one mistake, try move,
+Scope
+explanation, practice, optional depth
+Engine redesign, coaching guarantees, or
+Out of scope
+removal of expert controls
+PA3 test Can users explain one mistake and select one
+question relevant practice action?
+8. Design rationale and validation
+target
+HCI rationale: Course basis: LN01 - Introduction - v2.pdf, pp. 20, 22, 24;
+LN02 - Fundamental Concepts - Usability Dimensions_2.pdf, pp. 62-67, 74-
+76, 83-84, 101-115; LN03 - UI Design Process.pdf, pp. 16-19, 23-24, 28-30,
+34-36; LN04 - Task Analysis.pdf, pp. 3, 6-15, 39-49.
+Design inference: The selection balances effectiveness, efficiency,
+learnability, memorability, errors, satisfaction, status visibility, recognition,
+progressive disclosure, user control, and error prevention.
+UserAnalysis | Group10 | 15
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+8.1 Complete Affinity Diagram
+Figure UA-AFFINITY-FIFA-A. FIFA clusters, part 1: status clarity, handoff
+trust, and mobile overview.
+UserAnalysis | Group10 | 16
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Figure UA-AFFINITY-FIFA-B. FIFA clusters, part 2: browse load,
+freshness and alerts, and recovery and return.
+UserAnalysis | Group10 | 17
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Figure UA-AFFINITY-CHESS-A. Chess clusters, part 1: entry choice,
+learning priority, review setup, and vocabulary load.
+UserAnalysis | Group10 | 18
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Figure UA-AFFINITY-CHESS-B. Chess clusters, part 2: mobile scanning,
+practice continuation, and advanced-depth disclosure.
+UserAnalysis | Group10 | 19
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Figure UA-AF-SYNTHESIS. Evidence -> clusters -> patterns ->
+prioritization -> tough problem -> concepts.
+Synthesis flow: Evidence -> Clusters -> Patterns -> Prioritization -> Tough
+problem -> Concepts. This sequence keeps the affinity diagram separate
+from a task sequence.
+8.2 Voting Visualization
+UserAnalysis | Group10 | 20
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Figure UA-VOTE-01. Horizontal bars show the simulated dot counts; the
+tables retain member-level totals and tie-break detail.
+8.3 Final Rationale
+Final rationale: FIFA status and freshness remains the highest-priority
+problem because it combines high severity, trust risk, repeated planning use,
+and direct PA3 testability. Chess beginner review remains the selected
+problem because explanation and practice continuation jointly determine
+whether review becomes learning.
+9. Practical Difficulties and Lessons Learned
+Practical How the group Impact on the
+Lesson learned
+difficulty handled it final version
+The group split
+product views Affinity synthesis The final figures
+Seventy-two
+and kept only should show the expose pattern,
+notes could not
+three transformation, task, severity,
+remain legible on
+representative not only the and design
+one page.
+notes in each notes. implication.
+visible cluster.
+Stable FIFA and
+Chess cluster The revised
+Use-case and
+names were Terminology is diagrams link
+PA1 terms
+used across part of each problem to
+drifted during
+analysis and traceability. one named
+clustering.
+proposal design direction.
+sections.
+UserAnalysis | Group10 | 21
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Appendix A - All 72 Raw Notes
+UserAnalysis | Group10 | 22
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Note Prod
+Cluster Atomic note Source type
+ID uct
+F- Ticket status
+FIFA Current sale state needs one label screen evidence
+RN-01 clarity
+simulated
+F- Ticket status
+FIFA Missing state differs from sold out participant
+RN-02 clarity
+behavior
+F- Ticket status PA1 inherited
+FIFA Resale must not look like primary sale
+RN-03 clarity finding
+F- Ticket status
+FIFA Waiting room is a temporary state design inference
+RN-04 clarity
+F- Ticket status
+FIFA Hospitality is a distinct option screen evidence
+RN-05 clarity
+simulated
+F- Ticket status
+FIFA State comparison belongs in one view participant
+RN-06 clarity
+behavior
+F- PA1 inherited
+FIFA Handoff trust Preview the destination domain
+RN-07 finding
+F-
+FIFA Handoff trust Explain why departure is needed design inference
+RN-08
+F-
+FIFA Handoff trust Offer stay on FIFA.com screen evidence
+RN-09
+F- FIFA Handoff trust Preserve a safe return route simulated
+UserAnalysis | Group10 | 23
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Note Prod
+Cluster Atomic note Source type
+ID uct
+participant
+RN-10
+behavior
+F- PA1 inherited
+FIFA Handoff trust Do not imply partner transaction status
+RN-11 finding
+F-
+FIFA Handoff trust Keep tournament context through handoff design inference
+RN-12
+F-
+FIFA Mobile overview Keep selected tournament first screen evidence
+RN-13
+simulated
+F-
+FIFA Mobile overview Avoid a long undifferentiated card stack participant
+RN-14
+behavior
+F- PA1 inherited
+FIFA Mobile overview Restore filters on return
+RN-15 finding
+F-
+FIFA Mobile overview Use labels that survive small screens design inference
+RN-16
+F-
+FIFA Mobile overview Make status scannable without color screen evidence
+RN-17
+simulated
+F-
+FIFA Mobile overview Resume with one recognition step participant
+RN-18
+behavior
+F- FIFA Browse load Ticket entry competes with content PA1 inherited
+UserAnalysis | Group10 | 24
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Note Prod
+Cluster Atomic note Source type
+ID uct
+RN-19 finding
+F-
+FIFA Browse load Repeated cards increase scanning design inference
+RN-20
+F-
+FIFA Browse load Tournament identity should anchor actions screen evidence
+RN-21
+simulated
+F-
+FIFA Browse load Reduce cross-page comparison participant
+RN-22
+behavior
+F- PA1 inherited
+FIFA Browse load Keep action wording consistent
+RN-23 finding
+F-
+FIFA Browse load Separate browse from purchase intent design inference
+RN-24
+F- Freshness and
+FIFA Show last-updated time screen evidence
+RN-25 alerts
+simulated
+F- Freshness and
+FIFA Name the governed source participant
+RN-26 alerts
+behavior
+F- Freshness and PA1 inherited
+FIFA Label stale data explicitly
+RN-27 alerts finding
+F- Freshness and
+FIFA Allow relevant change alerts design inference
+RN-28 alerts
+UserAnalysis | Group10 | 25
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Note Prod
+Cluster Atomic note Source type
+ID uct
+F- Freshness and
+FIFA Explain notification permission screen evidence
+RN-29 alerts
+simulated
+F- Freshness and
+FIFA Let users edit or stop alerts participant
+RN-30 alerts
+behavior
+F- Recovery and PA1 inherited
+FIFA Retry missing state without losing context
+RN-31 return finding
+F- Recovery and
+FIFA Network loss should retain the last snapshot design inference
+RN-32 return
+F- Recovery and
+FIFA Login mismatch needs safe recovery screen evidence
+RN-33 return
+simulated
+F- Recovery and
+FIFA Expired return links need explanation participant
+RN-34 return
+behavior
+F- Recovery and PA1 inherited
+FIFA Partner failure must offer stay
+RN-35 return finding
+F- Recovery and
+FIFA Never infer purchase completion design inference
+RN-36 return
+C- Ches Entry choice
+Beginner review needs one named entry screen evidence
+RN-01 s overload
+C- Ches Entry choice Analysis setup paths compete simulated
+UserAnalysis | Group10 | 26
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Note Prod
+Cluster Atomic note Source type
+ID uct
+participant
+RN-02 s overload
+behavior
+C- Ches Entry choice PA1 inherited
+Feature names require recall
+RN-03 s overload finding
+C- Ches Entry choice
+Completed game should expose review design inference
+RN-04 s overload
+C- Ches Entry choice
+Expert view opens too early screen evidence
+RN-05 s overload
+simulated
+C- Ches Entry choice
+Outcome labels are easier to recognize participant
+RN-06 s overload
+behavior
+C- Ches PA1 inherited
+Learning priority Show one important mistake first
+RN-07 s finding
+C- Ches
+Learning priority Explain why before numeric depth design inference
+RN-08 s
+C- Ches
+Learning priority Make the next action explicit screen evidence
+RN-09 s
+simulated
+C- Ches
+Learning priority Keep the lesson goal visible participant
+RN-10 s
+behavior
+C- Ches Learning priority Do not present every candidate equally PA1 inherited
+UserAnalysis | Group10 | 27
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Note Prod
+Cluster Atomic note Source type
+ID uct
+RN-11 s finding
+C- Ches
+Review setup No game needs a clear setup route design inference
+RN-12 s
+C- Ches
+Review setup Invalid PGN must preserve input screen evidence
+RN-13 s
+simulated
+C- Ches
+Review setup Board orientation needs confirmation participant
+RN-14 s
+behavior
+C- Ches PA1 inherited
+Review setup Engine failure needs a safe fallback
+RN-15 s finding
+C- Ches
+Review setup Premium restriction needs honest scope design inference
+RN-16 s
+C- Ches
+Vocabulary load Evaluation terms need inline help screen evidence
+RN-17 s
+simulated
+C- Ches
+Vocabulary load Plain language should lead participant
+RN-18 s
+behavior
+C- Ches PA1 inherited
+Vocabulary load Terminology help should not interrupt
+RN-19 s finding
+C- Ches
+Vocabulary load Returning learners forget feature names design inference
+RN-20 s
+UserAnalysis | Group10 | 28
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Note Prod
+Cluster Atomic note Source type
+ID uct
+C- Ches
+Vocabulary load Recognition should replace recall screen evidence
+RN-21 s
+simulated
+C- Ches
+Mobile scanning Keep the board and main mistake together participant
+RN-22 s
+behavior
+C- Ches PA1 inherited
+Mobile scanning Collapse secondary panels
+RN-23 s finding
+C- Ches
+Mobile scanning Use color-independent indicators design inference
+RN-24 s
+C- Ches
+Mobile scanning Preserve state after interruption screen evidence
+RN-25 s
+simulated
+C- Ches
+Mobile scanning Maintain readable tap targets participant
+RN-26 s
+behavior
+C- Ches Practice PA1 inherited
+Link the mistake to one lesson
+RN-27 s continuation finding
+C- Ches Practice
+Offer one relevant puzzle design inference
+RN-28 s continuation
+C- Ches Practice
+Preserve the reviewed position screen evidence
+RN-29 s continuation
+C- Ches Practice Let users continue later simulated
+UserAnalysis | Group10 | 29
+GROUP10 | CSC13112 UI/UX DESIGN | USERANALYSIS
+Note Prod
+Cluster Atomic note Source type
+ID uct
+participant
+RN-30 s continuation
+behavior
+C- Ches Practice PA1 inherited
+Explain why the practice is relevant
+RN-31 s continuation finding
+C- Ches Advanced depth
+Reveal engine detail on demand design inference
+RN-32 s disclosure
+C- Ches Advanced depth
+Do not remove expert access screen evidence
+RN-33 s disclosure
+simulated
+C- Ches Advanced depth
+Remember the disclosure choice participant
+RN-34 s disclosure
+behavior
+C- Ches Advanced depth PA1 inherited
+Keep beginner explanation stable
+RN-35 s disclosure finding
+C- Ches Advanced depth
+Separate learning priority from depth design inference
+RN-36 s disclosure
+Scenario-based synthetic evidence: All 72 notes are one-idea records; simulated participant behavior notes are not real
+observation claims.
+UserAnalysis | Group10 | 30
