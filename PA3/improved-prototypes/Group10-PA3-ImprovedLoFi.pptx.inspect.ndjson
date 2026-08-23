@@ -1,0 +1,93 @@
+{"kind":"deck","id":"pr/psgm2z","name":"Deck"}
+{"kind":"layout","layoutId":"c3b9174d-69a2-4272-a0b4-bbb5bc392505","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"b0ecec19-28da-4642-bbbb-20020012aa57","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/nmj1i5","slide":1,"title":"FIFA.COM · ALT 1 SELECTED","textShapes":28}
+{"kind":"shape","id":"sh/sb29cvih","slide":1,"name":"topbar","bbox":[0,0,1280,82]}
+{"kind":"textbox","id":"sh/rqtsjq1w","slide":1,"name":"kicker","text":"FIFA.COM · ALT 1 SELECTED","textPreview":"FIFA.COM · ALT 1 SELECTED","textChars":25,"textLines":1,"bbox":[36,17,420,18]}
+{"kind":"textbox","id":"sh/6pkral0b","slide":1,"name":"title","text":"Status Dashboard · Iteration 2","textPreview":"Status Dashboard · Iteration 2","textChars":30,"textLines":1,"bbox":[36,37,790,32]}
+{"kind":"textbox","id":"sh/1gvapkjy","slide":1,"name":"subtitle","text":"F-IMP-01/02/03/04/08","textPreview":"F-IMP-01/02/03/04/08","textChars":20,"textLines":1,"bbox":[850,21,390,34]}
+{"kind":"shape","id":"sh/gfm9gfid","slide":1,"name":"footer-rule","bbox":[36,686,1208,0]}
+{"kind":"textbox","id":"sh/fetsna1s","slide":1,"name":"source","text":"Approved FIFA Alt 1 + R2 evidence · pending-state and handoff revisions are explicit.","textPreview":"Approved FIFA Alt 1 + R2 evidence · pending-state and handoff revisions are explicit.","textChars":85,"textLines":1,"bbox":[36,696,1050,16]}
+{"kind":"textbox","id":"sh/edkre507","slide":1,"name":"number","text":"01 / 02","textPreview":"01 / 02","textChars":7,"textLines":1,"bbox":[1150,694,94,18]}
+{"kind":"shape","id":"sh/pkvatkju","slide":1,"name":"fifa-main-surface","bbox":[36,104,782,552]}
+{"kind":"shape","id":"sh/ojm9kfi9","slide":1,"name":"fifa-main-accent","bbox":[36,104,5,552]}
+{"kind":"textbox","id":"sh/y1wvqxkr","slide":1,"name":"fifa-section","text":"TICKET OVERVIEW","textPreview":"TICKET OVERVIEW","textChars":15,"textLines":1,"bbox":[58,124,250,18]}
+{"kind":"textbox","id":"sh/z25wz21c","slide":1,"name":"fifa-heading","text":"Your FIFA ticket","textPreview":"Your FIFA ticket","textChars":16,"textLines":1,"bbox":[58,147,450,30]}
+{"kind":"textbox","id":"sh/k3eds7ix","slide":1,"name":"fifa-meta","text":"Official FIFA source · Last updated 2 min ago","textPreview":"Official FIFA source · Last updated 2 min ago","textChars":45,"textLines":1,"bbox":[58,180,570,20]}
+{"kind":"shape","id":"sh/l4ne1cji","slide":1,"name":"status-surface","bbox":[58,218,738,100]}
+{"kind":"shape","id":"sh/mpwvuh03","slide":1,"name":"status-accent","bbox":[58,218,5,100]}
+{"kind":"textbox","id":"sh/7qpw3m1o","slide":1,"name":"status-label","text":"CURRENT STATUS","textPreview":"CURRENT STATUS","textChars":14,"textLines":1,"bbox":[80,236,160,18]}
+{"kind":"textbox","id":"sh/8rydwrit","slide":1,"name":"status-value","text":"Pending","textPreview":"Pending","textChars":7,"textLines":1,"bbox":[80,258,230,32]}
+{"kind":"textbox","id":"sh/9s7e5cje","slide":1,"name":"status-explain","text":"Awaiting FIFA confirmation","textPreview":"Awaiting FIFA confirmation","textChars":26,"textLines":1,"bbox":[335,247,420,22]}
+{"kind":"textbox","id":"sh/2tcvidkj","slide":1,"name":"status-owner","text":"Owner: FIFA · Expected timing: next confirmation update","textPreview":"Owner: FIFA · Expected timing: next confirmation update","textChars":55,"textLines":1,"bbox":[335,273,420,22]}
+{"kind":"shape","id":"sh/nulcri14","slide":1,"name":"next-surface","bbox":[58,338,738,118]}
+{"kind":"shape","id":"sh/rehszehw","slide":1,"name":"next-accent","bbox":[58,338,5,118]}
+{"kind":"textbox","id":"sh/qd8bq90b","slide":1,"name":"next-label","text":"WHAT HAPPENS NEXT","textPreview":"WHAT HAPPENS NEXT","textChars":17,"textLines":1,"bbox":[80,356,200,18]}
+{"kind":"textbox","id":"sh/d0ja1oz2","slide":1,"name":"next-copy","text":"FIFA confirms the allocation. No action is required from you right now.","textPreview":"FIFA confirms the allocation. No action is required from you right now.","textChars":71,"textLines":1,"bbox":[80,383,650,28]}
+{"kind":"textbox","id":"sh/szatsjih","slide":1,"name":"next-why","text":"The state explains both the wait and the owner of the next step.","textPreview":"The state explains both the wait and the owner of the next step.","textChars":64,"textLines":1,"bbox":[80,417,650,20]}
+{"kind":"textbox","id":"sh/3ahsveh0","slide":1,"name":"actions-label","text":"COMMON ACTIONS","textPreview":"COMMON ACTIONS","textChars":14,"textLines":1,"bbox":[58,486,200,18]}
+{"kind":"shape","id":"sh/i98bm90f","slide":1,"name":"view-order-surface","bbox":[58,512,176,38]}
+{"kind":"textbox","id":"sh/5czax4z6","slide":1,"name":"view-order-label","text":"View Order","textPreview":"View Order","textChars":10,"textLines":1,"bbox":[70,521,152,20]}
+{"kind":"shape","id":"sh/4bqtojil","slide":1,"name":"view-tickets-surface","bbox":[248,512,176,38]}
+{"kind":"textbox","id":"sh/n6ls7yh4","slide":1,"name":"view-tickets-label","text":"View Tickets","textPreview":"View Tickets","textChars":12,"textLines":1,"bbox":[260,521,152,20]}
+{"kind":"textbox","id":"sh/25sbytgj","slide":1,"name":"action-hint","text":"Order status · ticket details","textPreview":"Order status · ticket details","textChars":29,"textLines":1,"bbox":[444,523,320,20]}
+{"kind":"textbox","id":"sh/kbmpsvy1","slide":1,"name":"fifa-footnote","text":"Status first · action second · source remains visible","textPreview":"Status first · action second · source remains visible","textChars":53,"textLines":1,"bbox":[58,603,650,22]}
+{"kind":"shape","id":"sh/lcvq10fm","slide":1,"name":"guardrail-surface","bbox":[856,104,388,552]}
+{"kind":"shape","id":"sh/y947qlgv","slide":1,"name":"guardrail-accent","bbox":[856,104,5,552]}
+{"kind":"textbox","id":"sh/zad8zqxg","slide":1,"name":"guardrail-label","text":"HANDOFF GUARDRAIL","textPreview":"HANDOFF GUARDRAIL","textChars":17,"textLines":1,"bbox":[880,126,260,18]}
+{"kind":"textbox","id":"sh/8fmpwfyd","slide":1,"name":"guardrail-title","text":"Before you leave FIFA.com","textPreview":"Before you leave FIFA.com","textChars":25,"textLines":1,"bbox":[880,157,320,52]}
+{"kind":"textbox","id":"sh/9gfq5kfy","slide":1,"name":"guardrail-copy","text":"Partner destination shown before Continue.","textPreview":"Partner destination shown before Continue.","textChars":42,"textLines":1,"bbox":[880,225,310,44]}
+{"kind":"shape","id":"sh/md47u5g7","slide":1,"name":"partner-banner","bbox":[880,286,320,88]}
+{"kind":"textbox","id":"sh/7ed83axs","slide":1,"name":"partner-label","text":"EXTERNAL PARTNER","textPreview":"EXTERNAL PARTNER","textChars":16,"textLines":1,"bbox":[900,302,180,18]}
+{"kind":"textbox","id":"sh/wj6p0fy9","slide":1,"name":"partner-copy","text":"You will continue to a FIFA partner destination.","textPreview":"You will continue to a FIFA partner destination.","textChars":48,"textLines":1,"bbox":[900,325,270,36]}
+{"kind":"shape","id":"sh/hkfq9kfu","slide":1,"name":"guardrail-line","bbox":[880,404,320,0]}
+{"kind":"textbox","id":"sh/hgnitgfy","slide":1,"name":"revision-trace","text":"REVISION TRACE","textPreview":"REVISION TRACE","textChars":14,"textLines":1,"bbox":[880,426,200,18]}
+{"kind":"textbox","id":"sh/gfeh0byd","slide":1,"name":"revision-copy","text":"F-IMP-01 · define Pending\nF-IMP-02 · show owner + resolution\nF-IMP-03 · place actions beside status\nF-IMP-04 · preview partner boundary\nF-IMP-08 · preserve source/freshness cue","textPreview":"F-IMP-01 · define Pending | F-IMP-02 · show owner + resolution | F-IMP-03 · place actions beside status | F-IMP-04 · preview partner boun...","textChars":176,"textLines":5,"bbox":[880,452,326,126]}
+{"kind":"textbox","id":"sh/ve5gr6xs","slide":1,"name":"guardrail-note","text":"Designed from FIFA Alt 1 strengths and recurring R2 handoff risks.","textPreview":"Designed from FIFA Alt 1 strengths and recurring R2 handoff risks.","textChars":66,"textLines":1,"bbox":[880,610,320,28]}
+{"kind":"notes","id":"nt/nmj1i5","slide":1,"text":""}
+{"kind":"slide","id":"sl/4svc1w","slide":2,"title":"CHESS.COM · ALT 1 SELECTED","textShapes":26}
+{"kind":"shape","id":"sh/k7e18r2d","slide":2,"name":"topbar","bbox":[0,0,1280,82]}
+{"kind":"textbox","id":"sh/j65kzmls","slide":2,"name":"kicker","text":"CHESS.COM · ALT 1 SELECTED","textPreview":"CHESS.COM · ALT 1 SELECTED","textChars":26,"textLines":1,"bbox":[36,17,420,18]}
+{"kind":"textbox","id":"sh/ilwj61k7","slide":2,"name":"title","text":"Beginner Review Flow · Iteration 2","textPreview":"Beginner Review Flow · Iteration 2","textChars":34,"textLines":1,"bbox":[36,37,790,32]}
+{"kind":"textbox","id":"sh/tc725gju","slide":2,"name":"subtitle","text":"C-IMP-01/02/03/04/08","textPreview":"C-IMP-01/02/03/04/08","textChars":20,"textLines":1,"bbox":[850,21,390,34]}
+{"kind":"shape","id":"sh/sby1cb29","slide":2,"name":"footer-rule","bbox":[36,686,1208,0]}
+{"kind":"textbox","id":"sh/7apk361o","slide":2,"name":"source","text":"Approved Chess Alt 1 + R2 evidence · plain-language cause and practice recovery are explicit.","textPreview":"Approved Chess Alt 1 + R2 evidence · plain-language cause and practice recovery are explicit.","textChars":93,"textLines":1,"bbox":[36,696,1050,16]}
+{"kind":"textbox","id":"sh/69gja1k3","slide":2,"name":"number","text":"02 / 02","textPreview":"02 / 02","textChars":7,"textLines":1,"bbox":[1150,694,94,18]}
+{"kind":"shape","id":"sh/1gr29gjq","slide":2,"name":"review-main-surface","bbox":[36,104,782,552]}
+{"kind":"shape","id":"sh/gfylgb2l","slide":2,"name":"review-main-accent","bbox":[36,104,5,552]}
+{"kind":"textbox","id":"sh/il8zmt8z","slide":2,"name":"review-label","text":"BEGINNER REVIEW","textPreview":"BEGINNER REVIEW","textChars":15,"textLines":1,"bbox":[58,124,260,18]}
+{"kind":"textbox","id":"sh/jmh0vyp4","slide":2,"name":"review-title","text":"Start Beginner Review","textPreview":"Start Beginner Review","textChars":21,"textLines":1,"bbox":[58,147,500,30]}
+{"kind":"textbox","id":"sh/4naho3qp","slide":2,"name":"review-progress","text":"Review step 1 of 3 · Game move 23","textPreview":"Review step 1 of 3 · Game move 23","textChars":33,"textLines":1,"bbox":[58,181,450,20]}
+{"kind":"shape","id":"sh/5ojixo7a","slide":2,"name":"progress-rule","bbox":[58,214,738,0]}
+{"kind":"shape","id":"sh/6pszqt8v","slide":2,"name":"progress-fill","bbox":[58,212,240,5]}
+{"kind":"shape","id":"sh/rq10zypg","slide":2,"name":"mistake-surface","bbox":[58,240,738,94]}
+{"kind":"shape","id":"sh/srahs361","slide":2,"name":"mistake-accent","bbox":[58,240,5,94]}
+{"kind":"textbox","id":"sh/tsji187m","slide":2,"name":"mistake-label","text":"MISTAKE","textPreview":"MISTAKE","textChars":7,"textLines":1,"bbox":[80,256,140,18]}
+{"kind":"textbox","id":"sh/mtozu98r","slide":2,"name":"mistake-copy","text":"23. Qd3","textPreview":"23. Qd3","textChars":7,"textLines":1,"bbox":[80,280,220,28]}
+{"kind":"textbox","id":"sh/nuxgnepc","slide":2,"name":"mistake-cause","text":"The queen move leaves the c3 pawn unprotected.","textPreview":"The queen move leaves the c3 pawn unprotected.","textChars":46,"textLines":1,"bbox":[310,276,440,28]}
+{"kind":"shape","id":"sh/bydwva54","slide":2,"name":"better-surface","bbox":[58,354,738,116]}
+{"kind":"shape","id":"sh/qx4fm5oj","slide":2,"name":"better-accent","bbox":[58,354,5,116]}
+{"kind":"textbox","id":"sh/d0vex0nu","slide":2,"name":"better-label","text":"BETTER MOVE","textPreview":"BETTER MOVE","textChars":11,"textLines":1,"bbox":[80,370,150,18]}
+{"kind":"textbox","id":"sh/czmxof69","slide":2,"name":"better-copy","text":"Qe2","textPreview":"Qe2","textChars":3,"textLines":1,"bbox":[80,394,120,28]}
+{"kind":"textbox","id":"sh/3utwrq5s","slide":2,"name":"better-explain","text":"Move the queen to e2 to protect the pawn.","textPreview":"Move the queen to e2 to protect the pawn.","textChars":41,"textLines":1,"bbox":[210,395,510,24]}
+{"kind":"shape","id":"sh/29kvilo7","slide":2,"name":"show-move-surface","bbox":[80,430,160,38]}
+{"kind":"textbox","id":"sh/pwvet0ny","slide":2,"name":"show-move-label","text":"Show the move","textPreview":"Show the move","textChars":13,"textLines":1,"bbox":[92,439,136,20]}
+{"kind":"shape","id":"sh/ov2xkv6d","slide":2,"name":"try-move-surface","bbox":[252,430,160,38]}
+{"kind":"textbox","id":"sh/nqxw3u5w","slide":2,"name":"try-move-label","text":"Try this move","textPreview":"Try this move","textChars":13,"textLines":1,"bbox":[264,439,136,20]}
+{"kind":"shape","id":"sh/m5ofupor","slide":2,"name":"result-surface","bbox":[58,490,738,92]}
+{"kind":"shape","id":"sh/kzel8nix","slide":2,"name":"result-accent","bbox":[58,490,5,92]}
+{"kind":"textbox","id":"sh/50721szi","slide":2,"name":"result-label","text":"AFTER TRY","textPreview":"AFTER TRY","textChars":9,"textLines":1,"bbox":[80,506,120,18]}
+{"kind":"textbox","id":"sh/ixw36d0r","slide":2,"name":"result-copy","text":"Qe2 protects the pawn; see the changed board state.","textPreview":"Qe2 protects the pawn; see the changed board state.","textChars":51,"textLines":1,"bbox":[80,532,660,24]}
+{"kind":"textbox","id":"sh/jy5kzihc","slide":2,"name":"review-actions","text":"Explain another way?   Need more help?   Practice this idea","textPreview":"Explain another way?   Need more help?   Practice this idea","textChars":59,"textLines":1,"bbox":[58,612,700,22]}
+{"kind":"shape","id":"sh/s3ylc7it","slide":2,"name":"learning-rail-surface","bbox":[856,104,388,552]}
+{"kind":"shape","id":"sh/t4725sze","slide":2,"name":"learning-rail-accent","bbox":[856,104,5,552]}
+{"kind":"textbox","id":"sh/61g3ax0n","slide":2,"name":"learning-label","text":"LEARNING CONTINUITY","textPreview":"LEARNING CONTINUITY","textChars":19,"textLines":1,"bbox":[880,126,260,18]}
+{"kind":"textbox","id":"sh/72pk32h8","slide":2,"name":"learning-title","text":"One useful step at a time","textPreview":"One useful step at a time","textChars":25,"textLines":1,"bbox":[880,157,320,52]}
+{"kind":"textbox","id":"sh/grilg7i5","slide":2,"name":"learning-copy","text":"The selected flow keeps the board, cause, better move, and practice bridge in one path.","textPreview":"The selected flow keeps the board, cause, better move, and practice bridge in one path.","textChars":87,"textLines":1,"bbox":[880,224,320,58]}
+{"kind":"shape","id":"sh/hsr29czq","slide":2,"name":"learning-line","bbox":[880,306,320,0]}
+{"kind":"textbox","id":"sh/10z2ps3q","slide":2,"name":"learning-changes","text":"REVISION TRACE","textPreview":"REVISION TRACE","textChars":14,"textLines":1,"bbox":[880,328,200,18]}
+{"kind":"textbox","id":"sh/0zqlw7m5","slide":2,"name":"learning-list","text":"C-IMP-01 · plain-language cause first\nC-IMP-02 · Start here + practice rationale\nC-IMP-03 · persistent practice action\nC-IMP-04 · guided recovery controls\nC-IMP-08 · one-mistake-at-a-time focus","textPreview":"C-IMP-01 · plain-language cause first | C-IMP-02 · Start here + practice rationale | C-IMP-03 · persistent practice action | C-IMP-04 · g...","textChars":193,"textLines":5,"bbox":[880,354,326,132]}
+{"kind":"shape","id":"sh/fyhkn2lk","slide":2,"name":"next-card","bbox":[880,514,320,72]}
+{"kind":"textbox","id":"sh/ex83ux4z","slide":2,"name":"next-card-copy","text":"Next mistake → Practice this idea","textPreview":"Next mistake → Practice this idea","textChars":33,"textLines":1,"bbox":[900,532,280,30]}
+{"kind":"textbox","id":"sh/dwz2ls3u","slide":2,"name":"learning-note","text":"Designed from Chess Alt 1 strengths and recurring R2 entry/continuation risks.","textPreview":"Designed from Chess Alt 1 strengths and recurring R2 entry/continuation risks.","textChars":78,"textLines":1,"bbox":[880,610,320,28]}
+{"kind":"notes","id":"nt/4svc1w","slide":2,"text":""}
