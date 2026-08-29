@@ -1,1 +1,38 @@
+# OS, Office, and editor temporary files
 ~$*
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Python generated files and local environments
+**/__pycache__/
+**/*.py[cod]
+.venv/
+venv/
+
+# JavaScript dependencies and tool caches
+**/node_modules/
+**/.cache/
+**/dist/
+**/build/
+**/tmp/
+**/temp/
+*.log
+
+# Graphify output generated outside the PA4 project
+/graphify-out/
+
+# Graphify caches and timestamped snapshots inside PA4
+PA4/graphify-out/cache/
+PA4/graphify-out/.graphify_*
+PA4/graphify-out/20*/
+PA4/graphify-out/manifest.json
+
+# Superseded local package archives
+PA4/final/archive/

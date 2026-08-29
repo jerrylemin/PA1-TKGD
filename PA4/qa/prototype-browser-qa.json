@@ -1,0 +1,432 @@
+{
+  "generated_at": "2026-08-29T16:26:50.554Z",
+  "checks": [
+    {
+      "name": "Presenter mode loads overview",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Presenter shell is visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Presenter overview visible buttons have routed actions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F01 FIFA overview loads",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F02 FIFA status is visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F11 FIFA identity is consistent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CAL01 Initial Pending",
+      "passed": true,
+      "detail": "{\"disabled\":true,\"ariaDisabled\":\"true\",\"title\":\"Add to Calendar\",\"copy\":\"Available after confirmation\"}"
+    },
+    {
+      "name": "CAL02 Confirmed",
+      "passed": true,
+      "detail": "{\"disabled\":false,\"ariaDisabled\":\"false\",\"title\":\"Add to Calendar\",\"copy\":\"Save this confirmed event\"}"
+    },
+    {
+      "name": "CAL03 Valid save",
+      "passed": true,
+      "detail": "{\"calendarState\":{\"disabled\":false,\"ariaDisabled\":\"false\",\"title\":\"Calendar saved\",\"copy\":\"Toronto event saved\"},\"toastDetail\":\"Toronto · 21 Jun 2026 is ready for your calendar.\"}"
+    },
+    {
+      "name": "CAL04 Switch back to Pending",
+      "passed": true,
+      "detail": "{\"disabled\":true,\"ariaDisabled\":\"true\",\"title\":\"Add to Calendar\",\"copy\":\"Available after confirmation\"}"
+    },
+    {
+      "name": "CAL06 Defensive handler",
+      "passed": true,
+      "detail": "{\"disabled\":true,\"ariaDisabled\":\"true\",\"title\":\"Add to Calendar\",\"copy\":\"Available after confirmation\"}"
+    },
+    {
+      "name": "CAL05 Persistence",
+      "passed": true,
+      "detail": "{\"disabled\":false,\"ariaDisabled\":\"false\",\"title\":\"Calendar saved\",\"copy\":\"Toronto event saved\"}"
+    },
+    {
+      "name": "FIFA desktop FIFA master-detail structure is present",
+      "passed": true,
+      "detail": "{\"eventMasterList\":1,\"selectedWorkspace\":1,\"statusHero\":1,\"progressTimeline\":1,\"actionDock\":1,\"oldStatGrid\":0,\"oldRail\":0}"
+    },
+    {
+      "name": "FIFA desktop old FIFA structures are absent",
+      "passed": true,
+      "detail": "{\"eventMasterList\":1,\"selectedWorkspace\":1,\"statusHero\":1,\"progressTimeline\":1,\"actionDock\":1,\"oldStatGrid\":0,\"oldRail\":0}"
+    },
+    {
+      "name": "FIFA desktop Chess analysis structure is present",
+      "passed": true,
+      "detail": "{\"sideNav\":1,\"boardWorkspace\":1,\"reviewPanel\":1,\"oldRail\":0}"
+    },
+    {
+      "name": "FIFA desktop old Chess rail is absent",
+      "passed": true,
+      "detail": "{\"sideNav\":1,\"boardWorkspace\":1,\"reviewPanel\":1,\"oldRail\":0}"
+    },
+    {
+      "name": "FIFA desktop overview has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA overview visible buttons have routed actions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Presenter reset and unavailable preview remain available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F03 View Order opens detail",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F04 Escape closes modal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F04 Ticket detail opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F05 handoff warning opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F06 Stay keeps FIFA context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F07 Continue enters partner boundary state",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F08 Return preserves FIFA orientation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA refresh resolves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA recoverable error is visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA error retry clears state",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F10 FIFA study route is active",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F10 FIFA product view is visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F10 FIFA presenter shell is removed",
+      "passed": true,
+      "detail": "{\"shell\":0,\"researcher\":0,\"reset\":0,\"unavailable\":0,\"focusableRemoved\":0}"
+    },
+    {
+      "name": "F10 FIFA researcher chrome is removed from the DOM",
+      "passed": true,
+      "detail": "{\"shell\":0,\"researcher\":0,\"reset\":0,\"unavailable\":0,\"focusableRemoved\":0}"
+    },
+    {
+      "name": "F10 FIFA participant text excludes researcher labels",
+      "passed": true,
+      "detail": "FIFA.com\nTICKETS\nTickets\nOrders\nHelp\nFIFA.com\n/\nTickets\n/\nMy Tickets\nMY TICKETS / FIFA WORLD CUP 2026\nYour FIFA tickets\n\nA clear home for allocation status, event context, and the next safe action.\n\n↻\nRefresh status\nEVENT SIDEBAR\nMy events\n2 SAVED\n17\nJUN\n2026\nMexico City\nEstadio Azteca\nMatch 18 · 19:00\nPending\nPending\n→\n21\nJUN\n2026\nToronto\nBMO Field\nMatch 27 · 15:00\nConfirmed\nConfirmed\n→\nOfficial FIFA source\n·\nUpdated 2 min ago\nSELECTED EVENT\nMexico City · Estadio Azteca\n\nGroup stage · Match 18 · 17 Jun 2026 · 19:00 local time\n\nORDER FIFA-26-88421\n●\nLIVE ALLOCATION STATUS\nPending\nAwaiting confirmation\nLAST UPDATED\n2 min ago\n\nFIFA is confirming the allocation for your Mexico City match. Your place is not lost, and no action is required from you right now.\n\nOWNER\nFIFA\nFRESHNESS\nUpdated 2 min ago\nNEXT STEP\nFIFA confirms the allocation.\nExpected timing: next confirmation update\nWhat does Pending mean?\n→\nALLOCATION PROGRESS\nStatus moves from request to ticket\n✓\nNo action needed\n✓\nRequest submitted\nCompleted\n2\nFIFA review\nCurrent\n3\nConfirmation\nUpcoming\n4\nTicket available\nUpcoming\nNEXT ACTIONS\nKeep your context\n\nChoose a detail view or cross the boundary only after checking the destination.\n\n▤\nView Order\nOrder reference & delivery\n↗\n▣\nView Ticket\nEvent detail & availability\n↗\n□\nAdd to Calendar\nAvailable after confirmation\n↗\n↗\nTransfer Tickets\nPartner destination preview first\n↗"
+    },
+    {
+      "name": "F10 FIFA study starts directly in product flow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F09 FIFA mobile overview has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F09 FIFA mobile handoff has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 1024 responsive has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 1024 primary status visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 1024 responsive has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 1024 board visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 768 responsive has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 768 primary status visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 768 responsive has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 768 board visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess desktop FIFA master-detail structure is present",
+      "passed": true,
+      "detail": "{\"eventMasterList\":1,\"selectedWorkspace\":1,\"statusHero\":1,\"progressTimeline\":1,\"actionDock\":1,\"oldStatGrid\":0,\"oldRail\":0}"
+    },
+    {
+      "name": "Chess desktop old FIFA structures are absent",
+      "passed": true,
+      "detail": "{\"eventMasterList\":1,\"selectedWorkspace\":1,\"statusHero\":1,\"progressTimeline\":1,\"actionDock\":1,\"oldStatGrid\":0,\"oldRail\":0}"
+    },
+    {
+      "name": "Chess desktop Chess analysis structure is present",
+      "passed": true,
+      "detail": "{\"sideNav\":1,\"boardWorkspace\":1,\"reviewPanel\":1,\"oldRail\":0}"
+    },
+    {
+      "name": "Chess desktop old Chess rail is absent",
+      "passed": true,
+      "detail": "{\"sideNav\":1,\"boardWorkspace\":1,\"reviewPanel\":1,\"oldRail\":0}"
+    },
+    {
+      "name": "C01 Chess intro loads",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C02 Chess intro hides answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C02 Chess intro board is locked",
+      "passed": true,
+      "detail": "{\"buttons\":0,\"semanticSquares\":64,\"queen\":\"d1 white piece\"}"
+    },
+    {
+      "name": "C02 Chess intro shows the white queen in the source position",
+      "passed": true,
+      "detail": "d1 white piece"
+    },
+    {
+      "name": "C03 intro does not expose a move highlight",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C04 mistake state reveals move and consequence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C04 Chess mistake board is locked",
+      "passed": true,
+      "detail": "{\"buttons\":0,\"semanticSquares\":64,\"queen\":\"d1 white piece\"}"
+    },
+    {
+      "name": "C04 Chess mistake shows the white queen in the source position",
+      "passed": true,
+      "detail": "d1 white piece"
+    },
+    {
+      "name": "C05 better move is revealed at the right stage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C05 Chess better move board is locked",
+      "passed": true,
+      "detail": "{\"buttons\":0,\"semanticSquares\":64,\"queen\":\"d1 white piece\"}"
+    },
+    {
+      "name": "C05 Chess better move shows the white queen in the source position",
+      "passed": true,
+      "detail": "d1 white piece"
+    },
+    {
+      "name": "C06 trial requires a real board",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C07 trial hides exact destination before input",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C08 destination-only click does not solve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C09 destination-only click does not select a source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C10 source selection is visibly indicated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C11 wrong destination gives informative feedback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C12 correct source-to-destination move advances",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C13 practice is interactive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C14 practice destination-only click does not solve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C15 practice wrong move supports retry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C16 practice correct move enables completion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C17 completion state works",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess completion visible buttons have routed actions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C18 Chess desktop has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C19 Chess study route is active",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C19 Chess product view is visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C19 Chess presenter shell is removed",
+      "passed": true,
+      "detail": "{\"shell\":0,\"researcher\":0,\"reset\":0,\"unavailable\":0,\"focusableRemoved\":0}"
+    },
+    {
+      "name": "C19 Chess researcher chrome is removed from the DOM",
+      "passed": true,
+      "detail": "{\"shell\":0,\"researcher\":0,\"reset\":0,\"unavailable\":0,\"focusableRemoved\":0}"
+    },
+    {
+      "name": "C19 Chess participant text excludes researcher labels",
+      "passed": true,
+      "detail": "♞\nchess.com\n◈\nPlay\n◇\nPuzzles\n✦\nLearn\n◉\nReview\nM\n10 + 5\nrapid\nchess.com\nGAME REVIEW\nGAME REVIEW\nLearn from one useful moment.\n\nA guided review for players who want the reason before the engine detail.\n\nQ\nMinh’s rapid game\nvs. StudyBot · 10 + 5\nGAME COMPLETED · STEP 1 OF 3\nOPPONENT\nStudyBot\nBlack · rating 1420\nMOVE 12\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nCompleted game position\nStart the review when you are ready to inspect the learning moment.\nPLAYER\nMinh\nWhite · completed game\nReview position\nBEGINNER REVIEW\nBeginner Review\nSTEP 1 OF 3\nSTART HERE · BEGINNER REVIEW\nStart with the most important learning moment.\n\nWe reduced the review to one useful moment. Start when you are ready to understand the position, then try the idea yourself.\n\nGAME\nMinh's rapid game\n· Move 12 · White to move\nStart Beginner Review →"
+    },
+    {
+      "name": "C20 Chess study intro hides answer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C20 Chess study intro board is locked",
+      "passed": true,
+      "detail": "{\"buttons\":0,\"semanticSquares\":64,\"queen\":\"d1 white piece\"}"
+    },
+    {
+      "name": "C20 Chess study intro shows the white queen in the source position",
+      "passed": true,
+      "detail": "d1 white piece"
+    },
+    {
+      "name": "C21 Chess mobile review has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C21 Chess mobile practice has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No browser console errors",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "errors": [],
+  "status": "PASS"
+}

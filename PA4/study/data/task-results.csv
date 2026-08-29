@@ -1,0 +1,1 @@
+participant_id,product,task_id,task_start,task_end,duration_seconds,success_score,errors,wrong_paths,assistance_count,hesitation_count,recovery_outcome,notes,recording_timestamp_reference

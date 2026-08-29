@@ -1,0 +1,104 @@
+path,category,include_in_graph,reason,canonical_parent,phase,product,evidence_level,sensitive,notes
+.graphifyignore,CANONICAL_SOURCE,FALSE,"Graphify input policy, not a content source",,PA4,project,configuration,false,"Excludes caches and duplicate archives only"
+PA4-LKDuy-2026-Public.pdf,CANONICAL_SOURCE,TRUE,"Official PA4 brief and requirements",,PA4,project,official_requirement,false,"PDF support verified with pypdf"
+README.md,CANONICAL_SOURCE,TRUE,"PA4 operating instructions and external gates",,PA4,project,current_state,false,
+demo/DEMO-SCRIPT.md,CANONICAL_SOURCE,TRUE,"Presenter flow and demo route",,PA4,both,current_plan,false,
+evidence/pa3-pa4-traceability.csv,CANONICAL_SOURCE,TRUE,"Machine-readable continuity and validation map",,PA4,both,traceability,false,
+evidence/prototype-screenshots/chess-desktop-better-move.png,DERIVED_EVIDENCE,TRUE,"Browser QA screenshot",prototype/app.js,PA4,chess,qa,false,
+evidence/prototype-screenshots/chess-desktop-completion.png,DERIVED_EVIDENCE,TRUE,"Browser QA screenshot",prototype/app.js,PA4,chess,qa,false,
+evidence/prototype-screenshots/chess-desktop-mistake.png,DERIVED_EVIDENCE,TRUE,"Browser QA screenshot",prototype/app.js,PA4,chess,qa,false,
+evidence/prototype-screenshots/chess-desktop-practice.png,DERIVED_EVIDENCE,TRUE,"Browser QA screenshot",prototype/app.js,PA4,chess,qa,false,
+evidence/prototype-screenshots/chess-desktop-review-intro.png,DERIVED_EVIDENCE,TRUE,"Browser QA screenshot",prototype/app.js,PA4,chess,qa,false,
+evidence/prototype-screenshots/chess-desktop-trial.png,DERIVED_EVIDENCE,TRUE,"Browser QA screenshot",prototype/app.js,PA4,chess,qa,false,
+evidence/prototype-screenshots/chess-mobile-practice.png,DERIVED_EVIDENCE,TRUE,"Responsive browser QA screenshot",prototype/app.js,PA4,chess,qa,false,
+evidence/prototype-screenshots/chess-mobile-review.png,DERIVED_EVIDENCE,TRUE,"Responsive browser QA screenshot",prototype/app.js,PA4,chess,qa,false,
+evidence/prototype-screenshots/chess-study-intro.png,DERIVED_EVIDENCE,TRUE,"Study-mode browser QA screenshot",prototype/app.js,PA4,chess,qa,false,
+evidence/prototype-screenshots/fifa-desktop-handoff.png,DERIVED_EVIDENCE,TRUE,"Browser QA screenshot",prototype/app.js,PA4,fifa,qa,false,
+evidence/prototype-screenshots/fifa-desktop-order-detail.png,DERIVED_EVIDENCE,TRUE,"Browser QA screenshot",prototype/app.js,PA4,fifa,qa,false,
+evidence/prototype-screenshots/fifa-desktop-overview.png,DERIVED_EVIDENCE,TRUE,"Browser QA screenshot",prototype/app.js,PA4,fifa,qa,false,
+evidence/prototype-screenshots/fifa-mobile-handoff.png,DERIVED_EVIDENCE,TRUE,"Responsive browser QA screenshot",prototype/app.js,PA4,fifa,qa,false,
+evidence/prototype-screenshots/fifa-mobile-overview.png,DERIVED_EVIDENCE,TRUE,"Responsive browser QA screenshot",prototype/app.js,PA4,fifa,qa,false,
+evidence/prototype-screenshots/fifa-study-overview.png,DERIVED_EVIDENCE,TRUE,"Study-mode browser QA screenshot",prototype/app.js,PA4,fifa,qa,false,
+evidence/recordings/README.md,CANONICAL_SOURCE,TRUE,"Recording privacy and verification policy",,PA4,study,policy,false,"No recording media is currently present"
+final/Group10-PA4-HifiProtype.pdf,GENERATED_DELIVERABLE,TRUE,"Final hi-fi submission appearance",source/Group10-PA4-HifiProtype.docx,PA4,both,submission,false,
+final/Group10-PA4-SummativeUserStudy.pdf,GENERATED_DELIVERABLE,TRUE,"Final summative study submission appearance",source/Group10-PA4-SummativeUserStudy.docx,PA4,study,submission,false,
+final/Group10-PA4-WeeklyReport.pdf,GENERATED_DELIVERABLE,TRUE,"Final weekly report submission appearance",source/Group10-PA4-WeeklyReport.docx,PA4,project,submission,false,"Official course template remains externally blocked"
+final/Group10-PA4-WorkingEvidence.zip,PACKAGE_DUPLICATE,FALSE,"Archive duplicates indexed source tree; do not unpack for graphing",,PA4,project,package,false,
+final/Group10-PA4.zip,PACKAGE_DUPLICATE,FALSE,"Archive duplicates final PDFs; do not unpack for graphing",,PA4,project,package,false,
+prototype/app.js,CANONICAL_SOURCE,TRUE,"Prototype behavior and state model",,PA4,both,implementation,false,
+prototype/index.html,CANONICAL_SOURCE,TRUE,"Prototype structure and visible controls",,PA4,both,implementation,false,
+prototype/README.md,CANONICAL_SOURCE,TRUE,"Prototype routes and QA instructions",,PA4,both,current_state,false,
+prototype/styles.css,CANONICAL_SOURCE,TRUE,"Prototype visual and responsive implementation",,PA4,both,implementation,false,
+qa/acceptance-matrix.md,CANONICAL_SOURCE,TRUE,"Local acceptance criteria and status",,PA4,both,qa,false,
+qa/chess-scenario-validation.md,DERIVED_EVIDENCE,TRUE,"Deterministic scenario validation result",qa/validate_chess_scenario.py,PA4,chess,qa,false,
+qa/prototype-browser-qa.json,DERIVED_EVIDENCE,TRUE,"Machine-readable browser QA result",scripts/capture-prototype-qa.mjs,PA4,both,qa,false,
+qa/remediation-acceptance-matrix.md,HISTORICAL_CONTEXT,TRUE,"Historical round-1 remediation acceptance snapshot",,PA4,both,qa,false,"Superseded by remediation-round2-acceptance-matrix.md for current state"
+qa/remediation-round2-acceptance-matrix.md,CANONICAL_SOURCE,TRUE,"Round-2 acceptance and participant-readiness gate",,PA4,both,qa,false,"External evidence remains blocked; local readiness is separate"
+qa/validate_chess_scenario.py,CANONICAL_SOURCE,TRUE,"Chess scenario validator",,PA4,chess,qa,false,
+qa/pdf-renders/chrome-hifi-page.png,DERIVED_EVIDENCE,TRUE,"PDF rendering QA reference image",final/Group10-PA4-HifiProtype.pdf,PA4,both,qa,false,
+qa/pdf-renders/render-manifest.json,DERIVED_EVIDENCE,TRUE,"PDF render QA manifest",scripts/render_pdf_qa.py,PA4,project,qa,false,
+qa/pdf-renders/Group10-PA4-HifiProtype/page-01.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-HifiProtype.pdf,PA4,both,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-HifiProtype/page-02.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-HifiProtype.pdf,PA4,both,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-HifiProtype/page-03.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-HifiProtype.pdf,PA4,both,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-HifiProtype/page-04.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-HifiProtype.pdf,PA4,both,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-HifiProtype/page-05.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-HifiProtype.pdf,PA4,both,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-HifiProtype/page-06.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-HifiProtype.pdf,PA4,both,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-HifiProtype/page-07.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-HifiProtype.pdf,PA4,both,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-SummativeUserStudy/page-01.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-SummativeUserStudy.pdf,PA4,study,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-SummativeUserStudy/page-02.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-SummativeUserStudy.pdf,PA4,study,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-SummativeUserStudy/page-03.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-SummativeUserStudy.pdf,PA4,study,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-SummativeUserStudy/page-04.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-SummativeUserStudy.pdf,PA4,study,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-SummativeUserStudy/page-05.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-SummativeUserStudy.pdf,PA4,study,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-SummativeUserStudy/page-06.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-SummativeUserStudy.pdf,PA4,study,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-WeeklyReport/page-01.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-WeeklyReport.pdf,PA4,project,qa,false,"Excluded by .graphifyignore"
+qa/pdf-renders/Group10-PA4-WeeklyReport/page-02.png,DERIVED_EVIDENCE,FALSE,"Rendered duplicate of final PDF page",final/Group10-PA4-WeeklyReport.pdf,PA4,project,qa,false,"Excluded by .graphifyignore"
+scripts/build_pa4_reports.py,CANONICAL_SOURCE,TRUE,"Report builder and synchronization source",,PA4,project,pipeline,false,
+scripts/capture-prototype-qa.mjs,CANONICAL_SOURCE,TRUE,"Browser QA and screenshot capture harness",,PA4,both,qa,false,
+scripts/package_pa4.py,CANONICAL_SOURCE,TRUE,"Final archive validator and package builder",,PA4,project,pipeline,false,
+scripts/test_build_pa4_reports.py,CANONICAL_SOURCE,TRUE,"Shared report-model synthetic-only tests",scripts/build_pa4_reports.py,PA4,project,qa,false,"Temporary fixtures never enter evidence folders"
+scripts/render_pdf_browser.mjs,CANONICAL_SOURCE,TRUE,"Browser PDF rendering helper",,PA4,project,qa,false,
+scripts/render_pdf_qa.py,CANONICAL_SOURCE,TRUE,"PDF render QA helper",,PA4,project,qa,false,
+source/Group10-PA4-HifiProtype.docx,CANONICAL_SOURCE,TRUE,"Editable hi-fi report source",,PA4,both,report_source,false,
+source/Group10-PA4-SummativeUserStudy.docx,CANONICAL_SOURCE,TRUE,"Editable summative study report source",,PA4,study,report_source,false,
+source/Group10-PA4-WeeklyReport.docx,CANONICAL_SOURCE,TRUE,"Editable weekly report source",,PA4,project,report_source,false,"Current local draft; official template unavailable"
+study/facilitator-script.md,CANONICAL_SOURCE,TRUE,"Study facilitator procedure",,PA4,study,protocol,false,
+study/post-test-interview.md,CANONICAL_SOURCE,TRUE,"Post-test interview schema",,PA4,study,protocol,false,
+study/study-plan.md,CANONICAL_SOURCE,TRUE,"Summative study plan and roles",,PA4,study,protocol,false,
+study/analysis/analysis-report.md,DERIVED_EVIDENCE,TRUE,"Current conservative analysis report",study/analysis/analyze_study.py,PA4,study,analysis,false,"Current data is empty and externally blocked"
+study/analysis/analysis-result.json,DERIVED_EVIDENCE,TRUE,"Current machine-readable analysis result",study/analysis/analyze_study.py,PA4,study,analysis,false,
+study/analysis/analyze_study.py,CANONICAL_SOURCE,TRUE,"Conservative evidence-gated analysis pipeline",,PA4,study,analysis,false,
+study/analysis/questionnaire-summary.csv,DERIVED_EVIDENCE,TRUE,"Generated questionnaire summary",study/analysis/analyze_study.py,PA4,study,analysis,false,
+study/analysis/summary.csv,DERIVED_EVIDENCE,TRUE,"Generated gate summary",study/analysis/analyze_study.py,PA4,study,analysis,false,
+study/analysis/task-metrics.csv,DERIVED_EVIDENCE,TRUE,"Generated task metrics table",study/analysis/analyze_study.py,PA4,study,analysis,false,
+study/analysis/test_analyze_study.py,CANONICAL_SOURCE,TRUE,"Analysis regression and synthetic-fixture tests",study/analysis/analyze_study.py,PA4,study,qa,false,"Synthetic fixtures are test-only"
+study/data/interview-coding.csv,RAW_EVIDENCE,TRUE,"Interview evidence input schema",,PA4,study,schema,false,"Header-only at audit; do not invent rows"
+study/data/participants.csv,RAW_EVIDENCE,TRUE,"Participant metadata input schema",,PA4,study,schema,false,"Header-only at audit; future contents may be sensitive"
+study/data/questionnaire.csv,RAW_EVIDENCE,TRUE,"Questionnaire evidence input schema",,PA4,study,schema,false,"Header-only at audit; do not invent rows"
+study/data/task-results.csv,RAW_EVIDENCE,TRUE,"Task evidence input schema",,PA4,study,schema,false,"Header-only at audit; do not invent rows"
+work/context-audit.md,HISTORICAL_CONTEXT,TRUE,"PA4 evidence and scope audit",,PA4,project,audit,false,
+work/decision-log.md,HISTORICAL_CONTEXT,TRUE,"PA4 product and evidence decisions",,PA4,both,decision,false,
+work/external-blockers.md,CANONICAL_SOURCE,TRUE,"Current external readiness blockers",,PA4,project,blocker,false,
+work/pa1-continuity.md,HISTORICAL_CONTEXT,TRUE,"Existing PA1 continuity adapter",,PA1,both,historical,false,
+work/pa2-continuity.md,HISTORICAL_CONTEXT,TRUE,"Existing PA2 continuity adapter",,PA2,both,historical,false,
+work/pa3-continuity.md,HISTORICAL_CONTEXT,TRUE,"Existing PA3 continuity adapter",,PA3,both,historical,false,
+work/pa4-requirements.md,CANONICAL_SOURCE,TRUE,"PA4 requirements extraction",PA4-LKDuy-2026-Public.pdf,PA4,project,requirement,false,
+work/remediation-audit.md,HISTORICAL_CONTEXT,TRUE,"Verified remediation findings",,PA4,both,remediation,false,
+work/remediation-context.md,HISTORICAL_CONTEXT,TRUE,"Remediation scope and invariants",,PA4,both,remediation,false,
+work/remediation-decision-log.md,HISTORICAL_CONTEXT,TRUE,"Remediation decisions and validation plan",,PA4,both,remediation,false,
+work/remediation-round2-memory-aware-audit.md,HISTORICAL_CONTEXT,TRUE,"Round-2 memory-first audit and source/graph conflict record",,PA4,both,remediation,false,
+work/remediation-round2-decision-log.md,HISTORICAL_CONTEXT,TRUE,"Round-2 reproduction evidence and patch decisions",,PA4,both,remediation,false,
+memory/MEMORY_BUILD_AUDIT.md,CANONICAL_SOURCE,TRUE,"This memory build audit",,PA4,project,memory,false,
+memory/MEMORY_SOURCE_MANIFEST.csv,CANONICAL_SOURCE,TRUE,"Per-file memory classification",,PA4,project,memory,false,
+memory/continuity/PA1_CONTINUITY.md,CANONICAL_SOURCE,TRUE,"Curated PA1 memory adapter",,PA1,both,memory,false,
+memory/continuity/PA2_CONTINUITY.md,CANONICAL_SOURCE,TRUE,"Curated PA2 memory adapter",,PA2,both,memory,false,
+memory/continuity/PA3_CONTINUITY.md,CANONICAL_SOURCE,TRUE,"Curated PA3 memory adapter",,PA3,both,memory,false,
+memory/continuity/PA4_CURRENT_STATE.md,CANONICAL_SOURCE,TRUE,"Curated PA4 current-state adapter",,PA4,both,memory,false,
+memory/PA4_REMEDIATION_HISTORY.md,CANONICAL_SOURCE,TRUE,"Concise PA4 remediation continuity history",,PA4,project,memory,false,"No participant evidence values"
+memory/continuity/PROJECT_DECISION_CHAIN.md,CANONICAL_SOURCE,TRUE,"Explicit cross-phase decision chains",,PA1-PA4,both,memory,false,
+memory/continuity/PROJECT_GLOSSARY.md,CANONICAL_SOURCE,TRUE,"Project-specific terminology",,PA1-PA4,both,memory,false
+memory/GRAPH_COVERAGE.md,GENERATED_DELIVERABLE,FALSE,"Post-build graph coverage and exclusion record",,PA4,memory,derived,false,"Generated after Graphify build; source files remain authoritative"
+memory/GRAPH_QUERY_VALIDATION.md,GENERATED_DELIVERABLE,FALSE,"Exact query, path, and explain validation record",,PA4,memory,derived,false,"Validation summary; raw Q&A results are under graphify-out/memory"
+memory/PA4_MEMORY_INDEX.md,GENERATED_DELIVERABLE,FALSE,"Human/Codex navigation index for PA4 memory",,PA4,memory,derived,false,"Navigation layer over source files and graph artifacts"
+memory/UPDATE_MEMORY.md,GENERATED_DELIVERABLE,FALSE,"Incremental memory maintenance procedure",,PA4,memory,derived,false,"Operational instructions; does not replace source truth"
+memory/MEMORY_ACCEPTANCE.md,GENERATED_DELIVERABLE,FALSE,"M01-M38 memory and Graphify acceptance record",,PA4,memory,derived,false,"Does not assert SUBMISSION_READY"
+memory/continuity/TRACEABILITY_AND_SCHEMA_INDEX.md,CANONICAL_SOURCE,TRUE,"Graph adapter for CSV traceability and empty study schemas",,PA1-PA4,both,memory,false,"Does not copy participant values"

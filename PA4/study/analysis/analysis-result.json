@@ -1,0 +1,76 @@
+{
+  "status": "BLOCKED_PARTICIPANT_COUNT",
+  "participant_row_count": 0,
+  "verified_participant_count": 0,
+  "task_row_count": 0,
+  "questionnaire_row_count": 0,
+  "interview_row_count": 0,
+  "gate": {
+    "participant_rows": 0,
+    "unique_participant_ids": [],
+    "duplicate_participant_ids": [],
+    "metadata_issues": [],
+    "verified_participant_ids": [],
+    "verified_participant_count": 0,
+    "missing_recording_participant_ids": [],
+    "recording_checks": {},
+    "minimum_five_verified": false,
+    "gates": {
+      "G01": {
+        "name": "participant count",
+        "status": "BLOCKED_PARTICIPANT_COUNT"
+      },
+      "G02": {
+        "name": "participant metadata completeness",
+        "status": "BLOCKED_PARTICIPANT_METADATA",
+        "issues": []
+      },
+      "G03": {
+        "name": "recording presence and validity",
+        "status": "BLOCKED_RECORDINGS"
+      }
+    }
+  },
+  "gates": {
+    "G01": {
+      "name": "participant count",
+      "status": "BLOCKED_PARTICIPANT_COUNT"
+    },
+    "G02": {
+      "name": "participant metadata completeness",
+      "status": "BLOCKED_PARTICIPANT_METADATA",
+      "issues": []
+    },
+    "G03": {
+      "name": "recording presence and validity",
+      "status": "BLOCKED_RECORDINGS"
+    },
+    "G04": {
+      "name": "task-result completeness",
+      "status": "BLOCKED_TASK_DATA",
+      "issues": []
+    },
+    "G05": {
+      "name": "questionnaire completeness",
+      "status": "BLOCKED_QUESTIONNAIRE",
+      "issues": []
+    },
+    "G06": {
+      "name": "interview/feedback completeness",
+      "status": "BLOCKED_INTERVIEW_DATA",
+      "issues": []
+    },
+    "G07": {
+      "name": "quantitative-analysis readiness",
+      "status": "BLOCKED_EXTERNAL_EVIDENCE"
+    },
+    "G08": {
+      "name": "final summative-report readiness",
+      "status": "BLOCKED_EXTERNAL_EVIDENCE"
+    }
+  },
+  "issues": [],
+  "task_metric_groups": 0,
+  "questionnaire_rows": 0,
+  "interview_rows": 0
+}

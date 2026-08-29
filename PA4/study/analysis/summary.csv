@@ -1,0 +1,13 @@
+metric,value,status,notes
+G01,BLOCKED_PARTICIPANT_COUNT,BLOCKED_PARTICIPANT_COUNT,participant count
+G02,BLOCKED_PARTICIPANT_METADATA,BLOCKED_PARTICIPANT_METADATA,participant metadata completeness
+G03,BLOCKED_RECORDINGS,BLOCKED_RECORDINGS,recording presence and validity
+G04,BLOCKED_TASK_DATA,BLOCKED_TASK_DATA,task-result completeness
+G05,BLOCKED_QUESTIONNAIRE,BLOCKED_QUESTIONNAIRE,questionnaire completeness
+G06,BLOCKED_INTERVIEW_DATA,BLOCKED_INTERVIEW_DATA,interview/feedback completeness
+G07,BLOCKED_EXTERNAL_EVIDENCE,BLOCKED_EXTERNAL_EVIDENCE,quantitative-analysis readiness
+G08,BLOCKED_EXTERNAL_EVIDENCE,BLOCKED_EXTERNAL_EVIDENCE,final summative-report readiness
+verified_participant_count,0,BLOCKED_RECORDINGS,Only consented recordings with positive duration and a video stream count.
+task_row_count,0,BLOCKED_TASK_DATA,Every verified participant must have all assigned FIFA and Chess tasks.
+questionnaire_response_count,0,BLOCKED_QUESTIONNAIRE,Five raw items are required for each product and verified participant.
+interview_code_count,0,BLOCKED_INTERVIEW_DATA,At least one timestamped post-test feedback record is required per participant.

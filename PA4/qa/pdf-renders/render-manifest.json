@@ -1,0 +1,70 @@
+[
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\final\\Group10-PA4-HifiProtype.pdf",
+    "page_count": 5,
+    "pages": [
+      {
+        "page": 1,
+        "image": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\qa\\pdf-renders\\Group10-PA4-HifiProtype\\page-01.png",
+        "text_chars": 554
+      },
+      {
+        "page": 2,
+        "image": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\qa\\pdf-renders\\Group10-PA4-HifiProtype\\page-02.png",
+        "text_chars": 558
+      },
+      {
+        "page": 3,
+        "image": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\qa\\pdf-renders\\Group10-PA4-HifiProtype\\page-03.png",
+        "text_chars": 306
+      },
+      {
+        "page": 4,
+        "image": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\qa\\pdf-renders\\Group10-PA4-HifiProtype\\page-04.png",
+        "text_chars": 476
+      },
+      {
+        "page": 5,
+        "image": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\qa\\pdf-renders\\Group10-PA4-HifiProtype\\page-05.png",
+        "text_chars": 982
+      }
+    ]
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\final\\Group10-PA4-SummativeUserStudy.pdf",
+    "page_count": 4,
+    "pages": [
+      {
+        "page": 1,
+        "image": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\qa\\pdf-renders\\Group10-PA4-SummativeUserStudy\\page-01.png",
+        "text_chars": 471
+      },
+      {
+        "page": 2,
+        "image": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\qa\\pdf-renders\\Group10-PA4-SummativeUserStudy\\page-02.png",
+        "text_chars": 2275
+      },
+      {
+        "page": 3,
+        "image": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\qa\\pdf-renders\\Group10-PA4-SummativeUserStudy\\page-03.png",
+        "text_chars": 2324
+      },
+      {
+        "page": 4,
+        "image": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\qa\\pdf-renders\\Group10-PA4-SummativeUserStudy\\page-04.png",
+        "text_chars": 1489
+      }
+    ]
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\final\\Group10-PA4-WeeklyReport.pdf",
+    "page_count": 1,
+    "pages": [
+      {
+        "page": 1,
+        "image": "C:\\Users\\Administrator\\Documents\\MEGA\\tkgd\\PA\\PA4\\qa\\pdf-renders\\Group10-PA4-WeeklyReport\\page-01.png",
+        "text_chars": 1852
+      }
+    ]
+  }
+]
