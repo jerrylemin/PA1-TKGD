@@ -6,8 +6,8 @@ Status: study materials prepared; participant evidence is `BLOCKED EXTERNALLY` u
 
 1. Can target users determine a FIFA ticket’s current state, ownership, and next action without coaching?
 2. Can target users recognize an external partner boundary and return to the FIFA context without losing orientation?
-3. Can beginner or returning Chess.com users identify a mistake, understand the reason in their own words, and find the better move?
-4. Can users move from the Chess explanation into a relevant practice activity and return to review?
+3. Can beginner or returning Chess.com users scan the available key moments, choose what to review first, and explain that moment in their own words?
+4. Can users optionally move from a selected Chess card into a safer-move trial or related practice activity and return to the dashboard?
 5. What errors, pauses, wording problems, and recovery behaviors remain in the hi-fi flows?
 
 ## 2. Evaluation expectations
@@ -16,8 +16,8 @@ These are evaluation expectations, not results:
 
 - The status-first FIFA hierarchy should make current state and next-step ownership easier to identify than a distributed ticket-entry surface.
 - The FIFA handoff preview should reduce mistaken assumptions about the external destination and make return orientation explicit.
-- The guided Chess flow should reduce first-choice burden and help beginners explain the move in plain language before advanced analysis.
-- The Chess practice bridge should make the next learning action feel related to the explanation rather than a separate destination.
+- The user-controlled Chess card dashboard should make key moments easy to scan while preserving meaningful choice over what to review first.
+- The optional Chess trial and practice bridges should make the next learning action feel related to the selected explanation rather than a forced sequence or separate destination.
 
 ## 3. Participant criteria
 
@@ -53,7 +53,7 @@ All four members have assigned PA4 work. These assignments describe ownership, n
 |---|---|---|---|---|---|
 | Le Minh | Facilitator | Analysis owner | Read the neutral script, confirm consent, assign the recorded condition order, keep prompts neutral, and control resets. | Integrate PA4 continuity, final reports, and package checklist. | Run the independent analysis gates after evidence ingestion and report blockers without inferring results. |
 | Nguyen Vu Bach | Recording operator | FIFA observer | Set up and verify the consented recording, operate the filename check, and observe FIFA status/handoff behavior without coaching. | Maintain FIFA status-dashboard copy and handoff traceability. | Confirm each session file is readable/verified and that FIFA observations retain timestamps. |
-| Pham Nguyen Gia Bao | Prototype operator | Chess observer | Reset and operate the assigned prototype flow, observe Chess explanation/recovery behavior, and record no-answer coaching. | Maintain Chess scenario/task wording and Beginner Review continuity. | Check Chess task rows and recovery outcomes against the session record. |
+| Pham Nguyen Gia Bao | Prototype operator | Chess observer | Reset and operate the assigned prototype flow, observe card choice, explanation, and recovery behavior, and record no-answer coaching. | Maintain Chess scenario/task wording and Card Review continuity. | Check Chess task rows, choice behavior, and recovery outcomes against the session record. |
 | Trang Minh Nhut | Data recorder | QA reviewer | Record task start/end, success score, errors, wrong paths, assistance, recovery outcome, questionnaire answers, and interview timestamps. | Maintain CSV schemas, browser QA, and report consistency review. | Validate row completeness, duplicate detection, and acceptance-matrix status. |
 
 Required ownership is explicit: Le Minh owns facilitation and analysis; Nguyen Vu Bach owns recording integrity; Trang Minh Nhut owns data integrity; and Pham Nguyen Gia Bao owns the Chess prototype/task surface. Work remains `Assigned` or `In Progress` until the team confirms completion.
@@ -91,7 +91,7 @@ Assign alternating orders by participant ID and store the value structurally in 
 
 | ID | Instruction | Independent success |
 |---|---|---|
-| FIFA-T1 | Determine the current ticket status and explain what needs to happen next. | Participant identifies Pending/Confirmed, explains the state, names the owner, and chooses whether action is required. |
+| FIFA-T1 | Determine the overall ticket situation, then explain what needs to happen next for one event. | Participant uses the account counts, identifies Pending/Confirmed, explains the chosen event state, names the owner, and states whether action is required. |
 | FIFA-T2 | Find the relevant order or ticket detail from the dashboard. | Participant opens View Order or View Tickets and identifies the event and status. |
 | FIFA-T3 | Start the transfer action and identify the destination before leaving FIFA. | Participant opens the handoff preview and names the partner/destination before choosing Continue or Stay. |
 | FIFA-T4 | Return to the FIFA prototype and re-establish the current status context. | Participant returns and identifies that context is preserved and partner completion is not inferred. |
@@ -100,10 +100,10 @@ Assign alternating orders by participant ID and store the value structurally in 
 
 | ID | Instruction | Independent success |
 |---|---|---|
-| CHESS-T1 | Start Beginner Review for the completed game. | Participant chooses the guided start without facilitator help. |
-| CHESS-T2 | Identify the mistake and explain its immediate consequence in your own words. | Participant describes which piece is exposed and what the opponent can capture next. |
-| CHESS-T3 | Find or try a safer move. | Participant reveals the guided alternative, performs a source-to-destination move, and understands the feedback; an incorrect attempt is recorded as recovery behavior, not hidden. |
-| CHESS-T4 | Move from review into a new related practice position and resume context. | Participant opens practice, selects a source and destination, retries after an error if needed, and completes without losing the review idea. |
+| CHESS-T1 | Scan the available key moments and choose what you want to review first. | Participant notices the summary and four cards, names a reason for the choice, and selects any card without facilitator direction. |
+| CHESS-T2 | Open the chosen moment and explain what happened and why it matters in your own words. | Participant uses the selected-card explanation and identifies the relevant idea or consequence. |
+| CHESS-T3 | From a relevant selected moment, find or try a safer move. | Participant reveals the optional alternative, performs a source-to-destination move, and understands the feedback; an incorrect attempt is recorded as recovery behavior, not hidden. |
+| CHESS-T4 | Find the related optional practice activity, enter or complete it, and return to the card dashboard. | Participant recognizes that practice is optional, selects a source and destination, retries after an error if needed, and returns without losing the selected review context. |
 
 ## 11. Measures and scoring
 

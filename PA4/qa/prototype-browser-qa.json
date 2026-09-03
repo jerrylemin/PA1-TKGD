@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-08-29T16:26:50.554Z",
+  "generated_at": "2026-09-03T10:55:10.295Z",
+  "screenshot_dir": "temporary",
   "checks": [
     {
       "name": "Presenter mode loads overview",
@@ -7,7 +8,12 @@
       "detail": ""
     },
     {
-      "name": "Presenter shell is visible",
+      "name": "Presenter identifies FIFA Alt 1 Status Dashboard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Presenter identifies Chess Alt 2 Card Review Mode",
       "passed": true,
       "detail": ""
     },
@@ -17,409 +23,729 @@
       "detail": ""
     },
     {
-      "name": "F01 FIFA overview loads",
+      "name": "FIFA desktop FIFA-A1-01 dashboard opens with state summary",
+      "passed": true,
+      "detail": "{\"summary\":1,\"summaryCards\":4,\"events\":[\"pending\",\"confirmed\"],\"quickActions\":3,\"sourceCues\":2,\"dominantTimeline\":0}"
+    },
+    {
+      "name": "FIFA desktop FIFA-A1-02 Mexico and Toronto are simultaneously visible",
+      "passed": true,
+      "detail": "[\"pending\",\"confirmed\"]"
+    },
+    {
+      "name": "FIFA desktop FIFA-A1-05 quick actions are visible",
+      "passed": true,
+      "detail": "{\"summary\":1,\"summaryCards\":4,\"events\":[\"pending\",\"confirmed\"],\"quickActions\":3,\"sourceCues\":2,\"dominantTimeline\":0}"
+    },
+    {
+      "name": "FIFA desktop FIFA-A1-06 source and freshness are visible",
+      "passed": true,
+      "detail": "{\"summary\":1,\"summaryCards\":4,\"events\":[\"pending\",\"confirmed\"],\"quickActions\":3,\"sourceCues\":2,\"dominantTimeline\":0}"
+    },
+    {
+      "name": "FIFA desktop FIFA-A1-07 lifecycle timeline is not the dashboard structure",
+      "passed": true,
+      "detail": "{\"summary\":1,\"summaryCards\":4,\"events\":[\"pending\",\"confirmed\"],\"quickActions\":3,\"sourceCues\":2,\"dominantTimeline\":0}"
+    },
+    {
+      "name": "FIFA-A1-03 Pending and Confirmed are distinguishable",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "F02 FIFA status is visible",
+      "name": "FIFA-A1-04 status meaning, owner, and safe next action are on cards",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "F11 FIFA identity is consistent",
+      "name": "FIFA dashboard visible buttons have routed actions",
       "passed": true,
       "detail": ""
     },
     {
       "name": "CAL01 Initial Pending",
       "passed": true,
-      "detail": "{\"disabled\":true,\"ariaDisabled\":\"true\",\"title\":\"Add to Calendar\",\"copy\":\"Available after confirmation\"}"
+      "detail": "{\"disabled\":true,\"ariaDisabled\":\"true\",\"title\":\"Add to calendar\",\"copy\":\"Available after confirmation\"}"
     },
     {
       "name": "CAL02 Confirmed",
       "passed": true,
-      "detail": "{\"disabled\":false,\"ariaDisabled\":\"false\",\"title\":\"Add to Calendar\",\"copy\":\"Save this confirmed event\"}"
+      "detail": "{\"disabled\":false,\"ariaDisabled\":\"false\",\"title\":\"Add to calendar\",\"copy\":\"Save confirmed event\"}"
     },
     {
       "name": "CAL03 Valid save",
       "passed": true,
-      "detail": "{\"calendarState\":{\"disabled\":false,\"ariaDisabled\":\"false\",\"title\":\"Calendar saved\",\"copy\":\"Toronto event saved\"},\"toastDetail\":\"Toronto · 21 Jun 2026 is ready for your calendar.\"}"
+      "detail": "{\"disabled\":false,\"ariaDisabled\":\"false\",\"title\":\"Calendar saved\",\"copy\":\"Toronto event saved\"}"
     },
     {
-      "name": "CAL04 Switch back to Pending",
+      "name": "CAL04 Pending remains unavailable",
       "passed": true,
-      "detail": "{\"disabled\":true,\"ariaDisabled\":\"true\",\"title\":\"Add to Calendar\",\"copy\":\"Available after confirmation\"}"
+      "detail": "{\"disabled\":true,\"ariaDisabled\":\"true\",\"title\":\"Add to calendar\",\"copy\":\"Available after confirmation\"}"
     },
     {
-      "name": "CAL06 Defensive handler",
+      "name": "CAL06 Defensive Pending handler",
       "passed": true,
-      "detail": "{\"disabled\":true,\"ariaDisabled\":\"true\",\"title\":\"Add to Calendar\",\"copy\":\"Available after confirmation\"}"
+      "detail": "{\"disabled\":true,\"ariaDisabled\":\"true\",\"title\":\"Add to calendar\",\"copy\":\"Available after confirmation\"}"
     },
     {
-      "name": "CAL05 Persistence",
+      "name": "CAL05 Confirmed save persists",
       "passed": true,
       "detail": "{\"disabled\":false,\"ariaDisabled\":\"false\",\"title\":\"Calendar saved\",\"copy\":\"Toronto event saved\"}"
     },
     {
-      "name": "FIFA desktop FIFA master-detail structure is present",
-      "passed": true,
-      "detail": "{\"eventMasterList\":1,\"selectedWorkspace\":1,\"statusHero\":1,\"progressTimeline\":1,\"actionDock\":1,\"oldStatGrid\":0,\"oldRail\":0}"
-    },
-    {
-      "name": "FIFA desktop old FIFA structures are absent",
-      "passed": true,
-      "detail": "{\"eventMasterList\":1,\"selectedWorkspace\":1,\"statusHero\":1,\"progressTimeline\":1,\"actionDock\":1,\"oldStatGrid\":0,\"oldRail\":0}"
-    },
-    {
-      "name": "FIFA desktop Chess analysis structure is present",
-      "passed": true,
-      "detail": "{\"sideNav\":1,\"boardWorkspace\":1,\"reviewPanel\":1,\"oldRail\":0}"
-    },
-    {
-      "name": "FIFA desktop old Chess rail is absent",
-      "passed": true,
-      "detail": "{\"sideNav\":1,\"boardWorkspace\":1,\"reviewPanel\":1,\"oldRail\":0}"
-    },
-    {
-      "name": "FIFA desktop overview has no horizontal overflow",
+      "name": "FIFA-A1-08 event details open secondarily",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "FIFA overview visible buttons have routed actions",
+      "name": "FIFA-A1-09 handoff destination preview opens",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Presenter reset and unavailable preview remain available",
+      "name": "FIFA-A1-09 cancel keeps FIFA context",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "F03 View Order opens detail",
+      "name": "FIFA-A1-09 continue makes no completion claim",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "F04 Escape closes modal",
+      "name": "FIFA-A1-09 safe return restores account dashboard",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "F04 Ticket detail opens",
+      "name": "FIFA-A1-10 CAL01-CAL06 all passed",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "F05 handoff warning opens",
+      "name": "FIFA summary filters without requiring event selection",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "F06 Stay keeps FIFA context",
+      "name": "FIFA refresh updates account freshness",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "F07 Continue enters partner boundary state",
+      "name": "FIFA unavailable state is recoverable",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "F08 Return preserves FIFA orientation",
+      "name": "FIFA retry clears unavailable state",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "FIFA refresh resolves",
+      "name": "Chess desktop CHESS-A2-01 initial summary chips match card data",
       "passed": true,
-      "detail": ""
+      "detail": "[\"4Key moments\",\"2Mistakes\",\"1Good moves\",\"1Practice available\"]"
     },
     {
-      "name": "FIFA recoverable error is visible",
+      "name": "Chess desktop CHESS-A2-02 multiple key-moment cards are visible",
       "passed": true,
-      "detail": ""
+      "detail": "{\"chips\":[\"4Key moments\",\"2Mistakes\",\"1Good moves\",\"1Practice available\"],\"cards\":4,\"selected\":0,\"miniBoards\":4,\"miniSquares\":256,\"progressRails\":0}"
     },
     {
-      "name": "FIFA error retry clears state",
+      "name": "Chess desktop CHESS-A2-03 cards include recognizable mini-board previews",
       "passed": true,
-      "detail": ""
+      "detail": "{\"chips\":[\"4Key moments\",\"2Mistakes\",\"1Good moves\",\"1Practice available\"],\"cards\":4,\"selected\":0,\"miniBoards\":4,\"miniSquares\":256,\"progressRails\":0}"
     },
     {
-      "name": "F10 FIFA study route is active",
+      "name": "Chess desktop CHESS-A2-04 no first card is forced",
       "passed": true,
-      "detail": ""
+      "detail": "{\"chips\":[\"4Key moments\",\"2Mistakes\",\"1Good moves\",\"1Practice available\"],\"cards\":4,\"selected\":0,\"miniBoards\":4,\"miniSquares\":256,\"progressRails\":0}"
     },
     {
-      "name": "F10 FIFA product view is visible",
+      "name": "Chess desktop CHESS-A2-14 no global wizard rail is present",
       "passed": true,
-      "detail": ""
+      "detail": "♞\nchess.com\n◈\nPlay\n◇\nPuzzles\n✦\nLearn\n◉\nReview\nM\n10 + 5\nrapid\nchess.com\nGAME REVIEW\nDEMO GAME\n?\nExit demo ×\nGAME REVIEW\nFICTIONAL STATIC ANALYSIS\nChoose a moment to review.\n\nScan the completed game, open any card, then review, try, or practice at your own pace.\n\nQ\nMinh's rapid game\nvs. StudyBot · 10 + 5\nGAME COMPLETED · 4 KEY MOMENTS\nOPPONENT\nStudyBot\nBlack · rating 1420\nNO CARD SELECTED\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nCompleted game context\nSelect any key-moment card to inspect its board context.\nPLAYER\nMinh\nWhite · completed game\nChoose any moment\nCARD REVIEW MODE\nChoose a key moment\n\nNothing is selected yet. Scan the previews and open the moment that matters most to you.\n\nYOU CHOOSE THE ORDER\n4\nKey moments\n2\nMistakes\n1\nGood moves\n1\nPractice available\nReview your key moments\n4 cards shown\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♕\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♔\n♘\n♖\nMISTAKE\nMove 12\nQueen safety\n\nA queen move allowed an immediate capture.\n\nReview · Try · Practice\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♘\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♖\nGOOD MOVE\nMove 8\nDevelopment with tempo\n\nA knight joined the game while challenging the centre.\n\nReview explanation\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nMISTAKE\nMove 16\nKing safety\n\nThe king stayed in the centre while lines were opening.\n\nReview explanation\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nIDEA\nMove 5\nOpening idea\n\nA central pawn move opened useful lines for both bishops.\n\nReview explanation\n→\n← Back to prototypes"
     },
     {
-      "name": "F10 FIFA presenter shell is removed",
+      "name": "Chess desktop answer leakage gate hides Qe2 and Qd3",
       "passed": true,
-      "detail": "{\"shell\":0,\"researcher\":0,\"reset\":0,\"unavailable\":0,\"focusableRemoved\":0}"
+      "detail": "♞\nchess.com\n◈\nPlay\n◇\nPuzzles\n✦\nLearn\n◉\nReview\nM\n10 + 5\nrapid\nchess.com\nGAME REVIEW\nDEMO GAME\n?\nExit demo ×\nGAME REVIEW\nFICTIONAL STATIC ANALYSIS\nChoose a moment to review.\n\nScan the completed game, open any card, then review, try, or practice at your own pace.\n\nQ\nMinh's rapid game\nvs. StudyBot · 10 + 5\nGAME COMPLETED · 4 KEY MOMENTS\nOPPONENT\nStudyBot\nBlack · rating 1420\nNO CARD SELECTED\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nCompleted game context\nSelect any key-moment card to inspect its board context.\nPLAYER\nMinh\nWhite · completed game\nChoose any moment\nCARD REVIEW MODE\nChoose a key moment\n\nNothing is selected yet. Scan the previews and open the moment that matters most to you.\n\nYOU CHOOSE THE ORDER\n4\nKey moments\n2\nMistakes\n1\nGood moves\n1\nPractice available\nReview your key moments\n4 cards shown\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♕\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♔\n♘\n♖\nMISTAKE\nMove 12\nQueen safety\n\nA queen move allowed an immediate capture.\n\nReview · Try · Practice\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♘\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♖\nGOOD MOVE\nMove 8\nDevelopment with tempo\n\nA knight joined the game while challenging the centre.\n\nReview explanation\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nMISTAKE\nMove 16\nKing safety\n\nThe king stayed in the centre while lines were opening.\n\nReview explanation\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nIDEA\nMove 5\nOpening idea\n\nA central pawn move opened useful lines for both bishops.\n\nReview explanation\n→\n← Back to prototypes"
     },
     {
-      "name": "F10 FIFA researcher chrome is removed from the DOM",
-      "passed": true,
-      "detail": "{\"shell\":0,\"researcher\":0,\"reset\":0,\"unavailable\":0,\"focusableRemoved\":0}"
-    },
-    {
-      "name": "F10 FIFA participant text excludes researcher labels",
-      "passed": true,
-      "detail": "FIFA.com\nTICKETS\nTickets\nOrders\nHelp\nFIFA.com\n/\nTickets\n/\nMy Tickets\nMY TICKETS / FIFA WORLD CUP 2026\nYour FIFA tickets\n\nA clear home for allocation status, event context, and the next safe action.\n\n↻\nRefresh status\nEVENT SIDEBAR\nMy events\n2 SAVED\n17\nJUN\n2026\nMexico City\nEstadio Azteca\nMatch 18 · 19:00\nPending\nPending\n→\n21\nJUN\n2026\nToronto\nBMO Field\nMatch 27 · 15:00\nConfirmed\nConfirmed\n→\nOfficial FIFA source\n·\nUpdated 2 min ago\nSELECTED EVENT\nMexico City · Estadio Azteca\n\nGroup stage · Match 18 · 17 Jun 2026 · 19:00 local time\n\nORDER FIFA-26-88421\n●\nLIVE ALLOCATION STATUS\nPending\nAwaiting confirmation\nLAST UPDATED\n2 min ago\n\nFIFA is confirming the allocation for your Mexico City match. Your place is not lost, and no action is required from you right now.\n\nOWNER\nFIFA\nFRESHNESS\nUpdated 2 min ago\nNEXT STEP\nFIFA confirms the allocation.\nExpected timing: next confirmation update\nWhat does Pending mean?\n→\nALLOCATION PROGRESS\nStatus moves from request to ticket\n✓\nNo action needed\n✓\nRequest submitted\nCompleted\n2\nFIFA review\nCurrent\n3\nConfirmation\nUpcoming\n4\nTicket available\nUpcoming\nNEXT ACTIONS\nKeep your context\n\nChoose a detail view or cross the boundary only after checking the destination.\n\n▤\nView Order\nOrder reference & delivery\n↗\n▣\nView Ticket\nEvent detail & availability\n↗\n□\nAdd to Calendar\nAvailable after confirmation\n↗\n↗\nTransfer Tickets\nPartner destination preview first\n↗"
-    },
-    {
-      "name": "F10 FIFA study starts directly in product flow",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "F09 FIFA mobile overview has no horizontal overflow",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "F09 FIFA mobile handoff has no horizontal overflow",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "FIFA 1024 responsive has no horizontal overflow",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "FIFA 1024 primary status visible",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Chess 1024 responsive has no horizontal overflow",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Chess 1024 board visible",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "FIFA 768 responsive has no horizontal overflow",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "FIFA 768 primary status visible",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Chess 768 responsive has no horizontal overflow",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Chess 768 board visible",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "Chess desktop FIFA master-detail structure is present",
-      "passed": true,
-      "detail": "{\"eventMasterList\":1,\"selectedWorkspace\":1,\"statusHero\":1,\"progressTimeline\":1,\"actionDock\":1,\"oldStatGrid\":0,\"oldRail\":0}"
-    },
-    {
-      "name": "Chess desktop old FIFA structures are absent",
-      "passed": true,
-      "detail": "{\"eventMasterList\":1,\"selectedWorkspace\":1,\"statusHero\":1,\"progressTimeline\":1,\"actionDock\":1,\"oldStatGrid\":0,\"oldRail\":0}"
-    },
-    {
-      "name": "Chess desktop Chess analysis structure is present",
-      "passed": true,
-      "detail": "{\"sideNav\":1,\"boardWorkspace\":1,\"reviewPanel\":1,\"oldRail\":0}"
-    },
-    {
-      "name": "Chess desktop old Chess rail is absent",
-      "passed": true,
-      "detail": "{\"sideNav\":1,\"boardWorkspace\":1,\"reviewPanel\":1,\"oldRail\":0}"
-    },
-    {
-      "name": "C01 Chess intro loads",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "C02 Chess intro hides answer",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "C02 Chess intro board is locked",
+      "name": "Chess dashboard board is locked",
       "passed": true,
       "detail": "{\"buttons\":0,\"semanticSquares\":64,\"queen\":\"d1 white piece\"}"
     },
     {
-      "name": "C02 Chess intro shows the white queen in the source position",
+      "name": "Chess dashboard board retains the white queen source",
       "passed": true,
       "detail": "d1 white piece"
     },
     {
-      "name": "C03 intro does not expose a move highlight",
+      "name": "Chess dashboard visible buttons have routed actions",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C04 mistake state reveals move and consequence",
+      "name": "CHESS-A2-05 user can independently choose Development",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C04 Chess mistake board is locked",
-      "passed": true,
-      "detail": "{\"buttons\":0,\"semanticSquares\":64,\"queen\":\"d1 white piece\"}"
-    },
-    {
-      "name": "C04 Chess mistake shows the white queen in the source position",
-      "passed": true,
-      "detail": "d1 white piece"
-    },
-    {
-      "name": "C05 better move is revealed at the right stage",
+      "name": "CHESS-A2-06 selected card opens an explanation",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C05 Chess better move board is locked",
-      "passed": true,
-      "detail": "{\"buttons\":0,\"semanticSquares\":64,\"queen\":\"d1 white piece\"}"
-    },
-    {
-      "name": "C05 Chess better move shows the white queen in the source position",
-      "passed": true,
-      "detail": "d1 white piece"
-    },
-    {
-      "name": "C06 trial requires a real board",
+      "name": "CHESS-A2-08 return to all key moments is visible",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C07 trial hides exact destination before input",
+      "name": "CHESS-A2-05 user can choose Queen safety independently",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C08 destination-only click does not solve",
+      "name": "CHESS-A2-07 selected card exposes Review, Try, and Puzzle actions",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C09 destination-only click does not select a source",
+      "name": "CHESS-A2-09 Qh5 card preserves Qh5 to Nxh5 explanation",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C10 source selection is visibly indicated",
+      "name": "Chess selected-detail leakage gate hides Qe2 until reveal",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C11 wrong destination gives informative feedback",
+      "name": "Chess local Review reveals Qe2 at the requested point",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C12 correct source-to-destination move advances",
+      "name": "CHESS-A2-15 another card remains selectable after review",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C13 practice is interactive",
+      "name": "CHESS-A2-05 card order is not fixed",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C14 practice destination-only click does not solve",
+      "name": "CHESS-A2-10 Qe2 trial preserves source-to-destination input",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C15 practice wrong move supports retry",
+      "name": "CHESS-A2-10 destination-only input does not solve",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C16 practice correct move enables completion",
+      "name": "CHESS-A2-10 source selection is visible",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C17 completion state works",
+      "name": "CHESS-A2-11 wrong trial supports retry",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "Chess completion visible buttons have routed actions",
+      "name": "CHESS-A2-10 correct Qe2 trial updates the board",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C18 Chess desktop has no horizontal overflow",
+      "name": "CHESS-A2-13 practice remains optional after trial",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C19 Chess study route is active",
+      "name": "CHESS-A2-15 dashboard remains available after trial",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C19 Chess product view is visible",
+      "name": "CHESS-A2-12 Qd3 practice opens without leaking its answer",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C19 Chess presenter shell is removed",
-      "passed": true,
-      "detail": "{\"shell\":0,\"researcher\":0,\"reset\":0,\"unavailable\":0,\"focusableRemoved\":0}"
-    },
-    {
-      "name": "C19 Chess researcher chrome is removed from the DOM",
-      "passed": true,
-      "detail": "{\"shell\":0,\"researcher\":0,\"reset\":0,\"unavailable\":0,\"focusableRemoved\":0}"
-    },
-    {
-      "name": "C19 Chess participant text excludes researcher labels",
-      "passed": true,
-      "detail": "♞\nchess.com\n◈\nPlay\n◇\nPuzzles\n✦\nLearn\n◉\nReview\nM\n10 + 5\nrapid\nchess.com\nGAME REVIEW\nGAME REVIEW\nLearn from one useful moment.\n\nA guided review for players who want the reason before the engine detail.\n\nQ\nMinh’s rapid game\nvs. StudyBot · 10 + 5\nGAME COMPLETED · STEP 1 OF 3\nOPPONENT\nStudyBot\nBlack · rating 1420\nMOVE 12\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nCompleted game position\nStart the review when you are ready to inspect the learning moment.\nPLAYER\nMinh\nWhite · completed game\nReview position\nBEGINNER REVIEW\nBeginner Review\nSTEP 1 OF 3\nSTART HERE · BEGINNER REVIEW\nStart with the most important learning moment.\n\nWe reduced the review to one useful moment. Start when you are ready to understand the position, then try the idea yourself.\n\nGAME\nMinh's rapid game\n· Move 12 · White to move\nStart Beginner Review →"
-    },
-    {
-      "name": "C20 Chess study intro hides answer",
+      "name": "CHESS-A2-12 practice destination-only input does not solve",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C20 Chess study intro board is locked",
-      "passed": true,
-      "detail": "{\"buttons\":0,\"semanticSquares\":64,\"queen\":\"d1 white piece\"}"
-    },
-    {
-      "name": "C20 Chess study intro shows the white queen in the source position",
-      "passed": true,
-      "detail": "d1 white piece"
-    },
-    {
-      "name": "C21 Chess mobile review has no horizontal overflow",
+      "name": "CHESS-A2-12 practice wrong move supports retry",
       "passed": true,
       "detail": ""
     },
     {
-      "name": "C21 Chess mobile practice has no horizontal overflow",
+      "name": "CHESS-A2-12 correct Qd3 enables completion",
       "passed": true,
       "detail": ""
+    },
+    {
+      "name": "CHESS-A2-13 completed practice offers card and dashboard returns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CHESS-A2-15 another card can be selected after practice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess desktop completed path has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":1440,\"clientWidth\":1440}"
+    },
+    {
+      "name": "FIFA study study route is active",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA study product view is visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA study presenter and researcher chrome are removed",
+      "passed": true,
+      "detail": "{\"shell\":0,\"researcher\":0,\"internalIds\":false}"
+    },
+    {
+      "name": "FIFA study participant surface excludes lab labels and internal IDs",
+      "passed": true,
+      "detail": "FIFA.com\nTICKETS\nTickets\nOrders\nHelp\nFIFA.com\n/\nTickets\n/\nOverview\nYOUR TICKETS / FIFA WORLD CUP 2026\nAll ticket activity, one view.\n\nCheck every current state and the safest next action before opening event detail.\n\n↻\nRefresh status\nSTATUS AT A GLANCE\nWhat is true now\nUse a state to filter the event list\n2\nAll tickets\n2 upcoming events\n1\nConfirmed\nTicket available\n1\nPending\nFIFA is confirming\n0\nAction needed\nNothing required now\nUPCOMING EVENTS\nYour next matches\n2 events shown\n17\nJUN\n2026\nPending\nMEXICO CITY\nEstadio Azteca\n\nGroup stage · Match 18 · 19:00 local time\n\nFIFA is confirming your allocation.\nNo immediate action is required. Your place is not lost.\nOWNER\nFIFA\nNEXT\nConfirmation update\nSOURCE\nOfficial FIFA\nView status\nView order\nAdd to calendar\nAvailable after confirmation\n21\nJUN\n2026\nConfirmed\nTORONTO\nBMO Field\n\nGroup stage · Match 27 · 15:00 local time\n\nYour mobile ticket is available.\nYou own the next action: review or save the ticket.\nOWNER\nYou\nNEXT\nView ticket\nSOURCE\nOfficial FIFA\nView ticket\nAdd to calendar\nSave confirmed event\nQUICK ACTIONS\nCommon tasks\n▦\nView order\nBoth event records\n→\n↗\nTransfer tickets\nPreview partner first\n→\n?\nTicket help\nStatus and handoff guide\n→\nSOURCE & ALERTS\nCurrent and supported\nOfficial FIFA source\nUpdated 2 min ago\n↻\nLast checked\n2 min ago\nStatus updates are off\nEnable a demo confirmation cue\n→"
+    },
+    {
+      "name": "FIFA study FIFA-A1-01 dashboard opens with state summary",
+      "passed": true,
+      "detail": "{\"summary\":1,\"summaryCards\":4,\"events\":[\"pending\",\"confirmed\"],\"quickActions\":3,\"sourceCues\":2,\"dominantTimeline\":0}"
+    },
+    {
+      "name": "FIFA study FIFA-A1-02 Mexico and Toronto are simultaneously visible",
+      "passed": true,
+      "detail": "[\"pending\",\"confirmed\"]"
+    },
+    {
+      "name": "FIFA study FIFA-A1-05 quick actions are visible",
+      "passed": true,
+      "detail": "{\"summary\":1,\"summaryCards\":4,\"events\":[\"pending\",\"confirmed\"],\"quickActions\":3,\"sourceCues\":2,\"dominantTimeline\":0}"
+    },
+    {
+      "name": "FIFA study FIFA-A1-06 source and freshness are visible",
+      "passed": true,
+      "detail": "{\"summary\":1,\"summaryCards\":4,\"events\":[\"pending\",\"confirmed\"],\"quickActions\":3,\"sourceCues\":2,\"dominantTimeline\":0}"
+    },
+    {
+      "name": "FIFA study FIFA-A1-07 lifecycle timeline is not the dashboard structure",
+      "passed": true,
+      "detail": "{\"summary\":1,\"summaryCards\":4,\"events\":[\"pending\",\"confirmed\"],\"quickActions\":3,\"sourceCues\":2,\"dominantTimeline\":0}"
+    },
+    {
+      "name": "Chess study study route is active",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess study product view is visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess study presenter and researcher chrome are removed",
+      "passed": true,
+      "detail": "{\"shell\":0,\"researcher\":0,\"internalIds\":false}"
+    },
+    {
+      "name": "Chess study participant surface excludes lab labels and internal IDs",
+      "passed": true,
+      "detail": "♞\nchess.com\n◈\nPlay\n◇\nPuzzles\n✦\nLearn\n◉\nReview\nM\n10 + 5\nrapid\nchess.com\nGAME REVIEW\nGAME REVIEW\nChoose a moment to review.\n\nScan the completed game, open any card, then review, try, or practice at your own pace.\n\nQ\nMinh's rapid game\nvs. StudyBot · 10 + 5\nGAME COMPLETED · 4 KEY MOMENTS\nOPPONENT\nStudyBot\nBlack · rating 1420\nNO CARD SELECTED\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nCompleted game context\nSelect any key-moment card to inspect its board context.\nPLAYER\nMinh\nWhite · completed game\nChoose any moment\nCARD REVIEW MODE\nChoose a key moment\n\nNothing is selected yet. Scan the previews and open the moment that matters most to you.\n\nYOU CHOOSE THE ORDER\n4\nKey moments\n2\nMistakes\n1\nGood moves\n1\nPractice available\nReview your key moments\n4 cards shown\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♕\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♔\n♘\n♖\nMISTAKE\nMove 12\nQueen safety\n\nA queen move allowed an immediate capture.\n\nReview · Try · Practice\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♘\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♖\nGOOD MOVE\nMove 8\nDevelopment with tempo\n\nA knight joined the game while challenging the centre.\n\nReview explanation\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nMISTAKE\nMove 16\nKing safety\n\nThe king stayed in the centre while lines were opening.\n\nReview explanation\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nIDEA\nMove 5\nOpening idea\n\nA central pawn move opened useful lines for both bishops.\n\nReview explanation\n→"
+    },
+    {
+      "name": "Chess study CHESS-A2-01 initial summary chips match card data",
+      "passed": true,
+      "detail": "[\"4Key moments\",\"2Mistakes\",\"1Good moves\",\"1Practice available\"]"
+    },
+    {
+      "name": "Chess study CHESS-A2-02 multiple key-moment cards are visible",
+      "passed": true,
+      "detail": "{\"chips\":[\"4Key moments\",\"2Mistakes\",\"1Good moves\",\"1Practice available\"],\"cards\":4,\"selected\":0,\"miniBoards\":4,\"miniSquares\":256,\"progressRails\":0}"
+    },
+    {
+      "name": "Chess study CHESS-A2-03 cards include recognizable mini-board previews",
+      "passed": true,
+      "detail": "{\"chips\":[\"4Key moments\",\"2Mistakes\",\"1Good moves\",\"1Practice available\"],\"cards\":4,\"selected\":0,\"miniBoards\":4,\"miniSquares\":256,\"progressRails\":0}"
+    },
+    {
+      "name": "Chess study CHESS-A2-04 no first card is forced",
+      "passed": true,
+      "detail": "{\"chips\":[\"4Key moments\",\"2Mistakes\",\"1Good moves\",\"1Practice available\"],\"cards\":4,\"selected\":0,\"miniBoards\":4,\"miniSquares\":256,\"progressRails\":0}"
+    },
+    {
+      "name": "Chess study CHESS-A2-14 no global wizard rail is present",
+      "passed": true,
+      "detail": "♞\nchess.com\n◈\nPlay\n◇\nPuzzles\n✦\nLearn\n◉\nReview\nM\n10 + 5\nrapid\nchess.com\nGAME REVIEW\nGAME REVIEW\nChoose a moment to review.\n\nScan the completed game, open any card, then review, try, or practice at your own pace.\n\nQ\nMinh's rapid game\nvs. StudyBot · 10 + 5\nGAME COMPLETED · 4 KEY MOMENTS\nOPPONENT\nStudyBot\nBlack · rating 1420\nNO CARD SELECTED\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nCompleted game context\nSelect any key-moment card to inspect its board context.\nPLAYER\nMinh\nWhite · completed game\nChoose any moment\nCARD REVIEW MODE\nChoose a key moment\n\nNothing is selected yet. Scan the previews and open the moment that matters most to you.\n\nYOU CHOOSE THE ORDER\n4\nKey moments\n2\nMistakes\n1\nGood moves\n1\nPractice available\nReview your key moments\n4 cards shown\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♕\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♔\n♘\n♖\nMISTAKE\nMove 12\nQueen safety\n\nA queen move allowed an immediate capture.\n\nReview · Try · Practice\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♘\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♖\nGOOD MOVE\nMove 8\nDevelopment with tempo\n\nA knight joined the game while challenging the centre.\n\nReview explanation\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nMISTAKE\nMove 16\nKing safety\n\nThe king stayed in the centre while lines were opening.\n\nReview explanation\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nIDEA\nMove 5\nOpening idea\n\nA central pawn move opened useful lines for both bishops.\n\nReview explanation\n→"
+    },
+    {
+      "name": "Chess study answer leakage gate hides Qe2 and Qd3",
+      "passed": true,
+      "detail": "♞\nchess.com\n◈\nPlay\n◇\nPuzzles\n✦\nLearn\n◉\nReview\nM\n10 + 5\nrapid\nchess.com\nGAME REVIEW\nGAME REVIEW\nChoose a moment to review.\n\nScan the completed game, open any card, then review, try, or practice at your own pace.\n\nQ\nMinh's rapid game\nvs. StudyBot · 10 + 5\nGAME COMPLETED · 4 KEY MOMENTS\nOPPONENT\nStudyBot\nBlack · rating 1420\nNO CARD SELECTED\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nCompleted game context\nSelect any key-moment card to inspect its board context.\nPLAYER\nMinh\nWhite · completed game\nChoose any moment\nCARD REVIEW MODE\nChoose a key moment\n\nNothing is selected yet. Scan the previews and open the moment that matters most to you.\n\nYOU CHOOSE THE ORDER\n4\nKey moments\n2\nMistakes\n1\nGood moves\n1\nPractice available\nReview your key moments\n4 cards shown\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♕\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♔\n♘\n♖\nMISTAKE\nMove 12\nQueen safety\n\nA queen move allowed an immediate capture.\n\nReview · Try · Practice\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♘\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♖\nGOOD MOVE\nMove 8\nDevelopment with tempo\n\nA knight joined the game while challenging the centre.\n\nReview explanation\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nMISTAKE\nMove 16\nKing safety\n\nThe king stayed in the centre while lines were opening.\n\nReview explanation\n→\n♜\n♝\n♛\n♚\n♜\n♟\n♟\n♟\n♟\n♟\n♟\n♟\n♞\n♟\n♗\n♙\n♙\n♙\n♙\n♙\n♙\n♙\n♖\n♘\n♕\n♔\n♘\n♖\nIDEA\nMove 5\nOpening idea\n\nA central pawn move opened useful lines for both bishops.\n\nReview explanation\n→"
+    },
+    {
+      "name": "Chess study has no researcher hint or forced selection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fifa 1440x900 has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":1440,\"clientWidth\":1440}"
+    },
+    {
+      "name": "FIFA 1440 summary remains visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 1440 event cards remain available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 1440 quick actions remain usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 1440 summary cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "FIFA 1440 content cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "FIFA 1440 event drawer fits the viewport and remains dismissible",
+      "passed": true,
+      "detail": "{\"left\":920,\"right\":1440,\"width\":520,\"viewportWidth\":1440,\"rootScrollable\":true,\"closeVisible\":true}"
+    },
+    {
+      "name": "FIFA 1440 handoff dialog fits the viewport and remains dismissible",
+      "passed": true,
+      "detail": "{\"left\":435,\"right\":1005,\"width\":570,\"viewportWidth\":1440,\"rootScrollable\":true,\"closeVisible\":true}"
+    },
+    {
+      "name": "chess 1440x900 has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":1440,\"clientWidth\":1440}"
+    },
+    {
+      "name": "Chess 1440 summary chips remain visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 1440 card grid remains available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 1440 mini-board remains recognizable",
+      "passed": true,
+      "detail": "{\"x\":631.1875,\"y\":489.234375,\"width\":84,\"height\":84}"
+    },
+    {
+      "name": "Chess 1440 summary cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 1440 moment cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 1440 selected detail and return are usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 1440 selected workspace cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 1440 selected detail has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":1440,\"clientWidth\":1440}"
+    },
+    {
+      "name": "fifa 1024x768 has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":1024,\"clientWidth\":1024}"
+    },
+    {
+      "name": "FIFA 1024 summary remains visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 1024 event cards remain available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 1024 quick actions remain usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 1024 summary cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "FIFA 1024 content cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "FIFA 1024 event drawer fits the viewport and remains dismissible",
+      "passed": true,
+      "detail": "{\"left\":504,\"right\":1024,\"width\":520,\"viewportWidth\":1024,\"rootScrollable\":true,\"closeVisible\":true}"
+    },
+    {
+      "name": "FIFA 1024 handoff dialog fits the viewport and remains dismissible",
+      "passed": true,
+      "detail": "{\"left\":227,\"right\":797,\"width\":570,\"viewportWidth\":1024,\"rootScrollable\":true,\"closeVisible\":true}"
+    },
+    {
+      "name": "chess 1024x768 has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":1024,\"clientWidth\":1024}"
+    },
+    {
+      "name": "Chess 1024 summary chips remain visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 1024 card grid remains available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 1024 mini-board remains recognizable",
+      "passed": true,
+      "detail": "{\"x\":137,\"y\":478.234375,\"width\":84,\"height\":84}"
+    },
+    {
+      "name": "Chess 1024 summary cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 1024 moment cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 1024 selected detail and return are usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 1024 selected workspace cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 1024 selected detail has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":1024,\"clientWidth\":1024}"
+    },
+    {
+      "name": "fifa 768x1024 has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":768,\"clientWidth\":768}"
+    },
+    {
+      "name": "FIFA 768 summary remains visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 768 event cards remain available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 768 quick actions remain usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 768 summary cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "FIFA 768 content cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "FIFA 768 event drawer fits the viewport and remains dismissible",
+      "passed": true,
+      "detail": "{\"left\":248,\"right\":768,\"width\":520,\"viewportWidth\":768,\"rootScrollable\":true,\"closeVisible\":true}"
+    },
+    {
+      "name": "FIFA 768 handoff dialog fits the viewport and remains dismissible",
+      "passed": true,
+      "detail": "{\"left\":99,\"right\":669,\"width\":570,\"viewportWidth\":768,\"rootScrollable\":true,\"closeVisible\":true}"
+    },
+    {
+      "name": "chess 768x1024 has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":768,\"clientWidth\":768}"
+    },
+    {
+      "name": "Chess 768 summary chips remain visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 768 card grid remains available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 768 mini-board remains recognizable",
+      "passed": true,
+      "detail": "{\"x\":61,\"y\":491.96875,\"width\":84,\"height\":84}"
+    },
+    {
+      "name": "Chess 768 summary cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 768 moment cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 768 selected detail and return are usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 768 selected workspace cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 768 selected detail has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":768,\"clientWidth\":768}"
+    },
+    {
+      "name": "fifa 390x844 has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":390,\"clientWidth\":390}"
+    },
+    {
+      "name": "FIFA 390 summary remains visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 390 event cards remain available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 390 quick actions remain usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FIFA 390 summary cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "FIFA 390 content cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "FIFA 390 event drawer fits the viewport and remains dismissible",
+      "passed": true,
+      "detail": "{\"left\":0,\"right\":390,\"width\":390,\"viewportWidth\":390,\"rootScrollable\":true,\"closeVisible\":true}"
+    },
+    {
+      "name": "FIFA 390 handoff dialog fits the viewport and remains dismissible",
+      "passed": true,
+      "detail": "{\"left\":12,\"right\":378,\"width\":366,\"viewportWidth\":390,\"rootScrollable\":true,\"closeVisible\":true}"
+    },
+    {
+      "name": "chess 390x844 has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":390,\"clientWidth\":390}"
+    },
+    {
+      "name": "Chess 390 summary chips remain visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 390 card grid remains available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 390 mini-board remains recognizable",
+      "passed": true,
+      "detail": "{\"x\":41,\"y\":681.21875,\"width\":78,\"height\":78}"
+    },
+    {
+      "name": "Chess 390 summary cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 390 moment cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 390 selected detail and return are usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chess 390 selected workspace cards do not overlap",
+      "passed": true,
+      "detail": "null"
+    },
+    {
+      "name": "Chess 390 selected detail has no horizontal overflow",
+      "passed": true,
+      "detail": "{\"scrollWidth\":390,\"clientWidth\":390}"
     },
     {
       "name": "No browser console errors",

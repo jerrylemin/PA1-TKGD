@@ -1,16 +1,16 @@
-# Graph Report - PA4  (2026-08-29)
+# Graph Report - PA4  (2026-09-03)
 
 ## Corpus Check
-- 55 files · ~162,733 words
+- 53 files · ~164,173 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 661 nodes · 1015 edges · 80 communities (59 shown, 21 thin omitted)
+- 699 nodes · 1081 edges · 80 communities (59 shown, 21 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 32 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b6f6bde7`
+- Built from commit: `793cfa10`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -99,13 +99,13 @@
 1. `analyze()` - 26 edges
 2. `str` - 25 edges
 3. `AnalysisTests` - 24 edges
-4. `Group10 PA4 summative user study plan` - 18 edges
-5. `Any` - 17 edges
-6. `handleAction()` - 16 edges
-7. `str` - 15 edges
-8. `build_hifi_docx()` - 14 edges
-9. `str` - 13 edges
-10. `build_summative_report_data()` - 13 edges
+4. `handleAction()` - 18 edges
+5. `Group10 PA4 summative user study plan` - 18 edges
+6. `renderChess()` - 17 edges
+7. `Any` - 17 edges
+8. `str` - 15 edges
+9. `build_hifi_docx()` - 14 edges
+10. `str` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Chess review intro screenshot with answer disclosure held back` --visibly_demonstrates--> `Current Participant Chess Flow`  [EXTRACTED]
@@ -130,16 +130,16 @@ Cohesion: 0.16
 Nodes (42): Any, Document, ListFlowable, Paragraph, ParagraphStyle, build_hifi_docx(), build_hifi_pdf(), build_hifi_report_data() (+34 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.10
-Nodes (44): actionTarget, applyChessMove(), applyMode(), boardMarkup(), boardPanel(), chessAdvancedModal(), chessHelpModal(), chessMoveForPhase() (+36 more)
+Cohesion: 0.08
+Nodes (55): actionTarget, applyChessMove(), applyMode(), boardMarkup(), boardPanel(), chessAdvancedModal(), chessHelpModal(), chessMoments (+47 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.23
-Nodes (23): analyze(), build_task_metrics(), clean(), duration_from_row(), interview_gate(), main(), mean_or_blank(), median_or_blank() (+15 more)
+Cohesion: 0.12
+Nodes (30): analyze(), build_task_metrics(), clean(), duration_from_row(), interview_gate(), main(), mean_or_blank(), median_or_blank() (+22 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.20
-Nodes (7): AnalysisTests, Synthetic-only analysis tests; fixtures never enter PA4 evidence folders., A complete synthetic fixture may exercise the pipeline, never final evidence., bool, int, Path, str
+Cohesion: 0.12
+Nodes (16): Authoritative concept definitions, Chess, Chess Alt 2 — Card Review Mode, Current PA4 mismatch audit, Decision table, FIFA, FIFA Alt 1 — Status Dashboard, Git baseline (+8 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.09
@@ -178,12 +178,12 @@ Cohesion: 0.15
 Nodes (12): 10. Candidate implementation stack, 1. Repository state, 2. Applicable instructions, 3. PA1 continuity, 4. PA2 continuity, 5. PA3 continuity, 6. PA4 official requirements, 7. Existing PA4 state (+4 more)
 
 ### Community 13 - "Community 13"
-Cohesion: 0.17
-Nodes (11): 10. Closing design implications · 60 seconds, 1. Continuity · 45 seconds, 2. FIFA problem · 60 seconds, 3. FIFA PA3 evidence · 60 seconds, 4. FIFA hi-fi demo · 4 minutes, 5. Chess problem · 60 seconds, 6. Chess PA3 evidence · 60 seconds, 7. Chess hi-fi demo · 4–5 minutes (+3 more)
+Cohesion: 0.15
+Nodes (12): 10. Closing design implications · 60 seconds, 1. Continuity · 45 seconds, 2. FIFA problem · 60 seconds, 3. FIFA PA3 evidence · 60 seconds, 4. FIFA hi-fi demo · 4 minutes, 5. Chess problem · 60 seconds, 6. Chess PA3 direction · 60 seconds, 6. Chess PA3 evidence · 60 seconds (+4 more)
 
 ### Community 14 - "Community 14"
-Cohesion: 0.16
-Nodes (13): assertLockedChessBoard(), assertNoHorizontalOverflow(), assertRedesignStructure(), assertStudyChromeHidden(), calendarToast, check(), checks, countVisibleButtonsWithoutRoutes() (+5 more)
+Cohesion: 0.14
+Nodes (23): assertCardsDoNotOverlap(), assertDialogFitsViewport(), assertInitialChessConcept(), assertInitialFifaConcept(), assertLockedChessBoard(), assertNoHorizontalOverflow(), assertRedesignStructure(), assertResponsiveProduct() (+15 more)
 
 ### Community 15 - "Community 15"
 Cohesion: 0.17
@@ -306,8 +306,8 @@ Cohesion: 0.40
 Nodes (4): Chess, FIFA, PA1 continuity summary, Team continuity
 
 ### Community 64 - "Community 64"
-Cohesion: 0.40
-Nodes (4): checks, errors, generated_at, status
+Cohesion: 0.33
+Nodes (5): checks, errors, generated_at, screenshot_dir, status
 
 ### Community 66 - "Community 66"
 Cohesion: 0.20
@@ -358,24 +358,24 @@ Cohesion: 0.29
 Nodes (7): name, status, name, status, gates, G07, G08
 
 ## Knowledge Gaps
-- **321 isolated node(s):** `fifaEvents`, `fifaState`, `chessState`, `chessScenario`, `chessPieces` (+316 more)
+- **338 isolated node(s):** `fifaEvents`, `fifaState`, `chessState`, `chessScenario`, `chessMoments` (+333 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **21 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Any` connect `Community 0` to `Community 2`, `Community 3`, `Community 6`, `Community 7`?**
-  _High betweenness centrality (0.061) - this node is a cross-community bridge._
-- **Why does `analyze()` connect `Community 2` to `Community 8`, `Community 3`, `Community 68`?**
-  _High betweenness centrality (0.052) - this node is a cross-community bridge._
+- **Why does `Any` connect `Community 0` to `Community 2`, `Community 6`, `Community 7`?**
+  _High betweenness centrality (0.055) - this node is a cross-community bridge._
+- **Why does `analyze()` connect `Community 2` to `Community 8`, `Community 68`?**
+  _High betweenness centrality (0.047) - this node is a cross-community bridge._
 - **Why does `Summative report reads canonical analysis state` connect `Community 8` to `Community 2`, `Community 31`?**
-  _High betweenness centrality (0.044) - this node is a cross-community bridge._
+  _High betweenness centrality (0.039) - this node is a cross-community bridge._
 - **Are the 11 inferred relationships involving `analyze()` (e.g. with `.test_t01_zero_participants_is_blocked()` and `.test_t02_four_complete_participants_are_blocked_by_count()`) actually correct?**
   _`analyze()` has 11 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 9 inferred relationships involving `Any` (e.g. with `semantic_checks()` and `validate_local_readiness()`) actually correct?**
-  _`Any` has 9 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `fifaEvents`, `fifaState`, `chessState` to the rest of the system?**
-  _331 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _348 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.10202020202020202 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08311688311688312 - nodes in this community are weakly interconnected._
+- **Should `Community 2` be split into smaller, more focused modules?**
+  _Cohesion score 0.11717171717171718 - nodes in this community are weakly interconnected._

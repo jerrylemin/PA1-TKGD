@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#081d2b" />
-    <title>Group10 PA4 · Product direction prototypes</title>
+    <title>Group10 PA4 &middot; Product direction prototypes</title>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="app.js"></script>
   </head>
@@ -13,10 +13,7 @@
       <header class="lab-header" aria-label="Prototype presenter controls">
         <button class="lab-brand" type="button" data-route="home" aria-label="Return to prototype overview">
           <span class="brand-mark">G10</span>
-          <span>
-            <strong>GROUP10 / PA4</strong>
-            <small>Two tested product directions</small>
-          </span>
+          <span><strong>GROUP10 / PA4</strong><small>Two tested product directions</small></span>
         </button>
         <nav class="lab-nav" aria-label="Prototype navigation">
           <button type="button" data-route="home" class="lab-nav-item is-active">Overview</button>
@@ -31,91 +28,64 @@
           <div class="home-console-intro">
             <div>
               <span class="console-kicker">FINAL HI-FI PROTOTYPES</span>
-              <h1 id="homeTitle">Two tested directions,<br /><em>ready to present.</em></h1>
-              <p class="home-lede">A curated view of the selected PA3 directions: FIFA’s status-first tickets and Chess.com’s beginner review path.</p>
+              <h1 id="homeTitle">Two selected directions,<br /><em>restored in full.</em></h1>
+              <p class="home-lede">FIFA answers what is true across the account now. Chess lets the player scan, choose, and review learning moments in any order.</p>
             </div>
             <div class="home-console-note">
               <span class="note-index">01 / 02</span>
-              <strong>Choose a product to enter its task flow.</strong>
-              <span>Static demo data · desktop + mobile</span>
+              <strong>Choose a product to inspect its interaction model.</strong>
+              <span>Fictional product data &middot; desktop + mobile</span>
             </div>
           </div>
 
           <div class="prototype-rows" aria-label="Product prototypes">
             <article class="prototype-row prototype-row-fifa">
               <div class="prototype-row-info">
-                <div class="prototype-row-top"><span class="prototype-index">01</span><span class="prototype-tag">SELECTED · PA3 ALT 1</span></div>
+                <div class="prototype-row-top"><span class="prototype-index">01</span><span class="prototype-tag">SELECTED &middot; PA3 ALT 1</span></div>
                 <div class="prototype-product-lockup fifa-lockup">FIFA<span>.com</span></div>
                 <h2>Status Dashboard</h2>
                 <div class="prototype-copy">
-                  <span>PROBLEM</span>
-                  <p>Ticket status is easy to miss when the next step belongs to someone else.</p>
-                  <span>DESIGN RESPONSE</span>
-                  <p>Keep status, ownership, timing, and the next safe action in one view.</p>
+                  <span>CORE QUESTION</span>
+                  <p>What is the state of all my ticket activity right now?</p>
+                  <span>CONTROL MODEL</span>
+                  <p>Scan account counts, compare events, then take the safest contextual action.</p>
                 </div>
-                <button type="button" class="prototype-enter prototype-enter-fifa" data-route="fifa"><span>Enter FIFA</span><span aria-hidden="true">↗</span></button>
+                <button type="button" class="prototype-enter prototype-enter-fifa" data-route="fifa"><span>Enter FIFA</span><span aria-hidden="true">&nearr;</span></button>
               </div>
-              <div class="prototype-preview prototype-preview-fifa" aria-label="FIFA ticket workspace preview">
-                <div class="preview-window-label"><span>LIVE VISUAL PREVIEW</span><span>Ticket management</span></div>
-                <div class="fifa-preview-layout">
-                  <div class="fifa-preview-events">
-                    <span class="preview-label">MY EVENTS</span>
-                    <div class="preview-event is-active"><span><strong>17 JUN</strong><small>Mexico City</small></span><b>Pending</b></div>
-                    <div class="preview-event"><span><strong>21 JUN</strong><small>Toronto</small></span><b>Confirmed</b></div>
-                  </div>
-                  <div class="fifa-preview-status">
-                    <span class="preview-label">SELECTED EVENT · MEXICO CITY</span>
-                    <strong>Pending</strong>
-                    <p>FIFA is confirming your allocation.</p>
-                    <div class="preview-progress"><i></i><i class="is-current"></i><i></i><i></i></div>
-                    <span class="preview-next">NEXT · CONFIRMATION</span>
-                  </div>
-                </div>
+              <div class="prototype-preview prototype-preview-fifa" aria-label="FIFA status dashboard preview">
+                <div class="preview-window-label"><span>LIVE VISUAL PREVIEW</span><span>Account status</span></div>
+                <div class="fifa-preview-summary"><span><b>2</b><small>All</small></span><span><b>1</b><small>Confirmed</small></span><span><b>1</b><small>Pending</small></span><span><b>0</b><small>Action</small></span></div>
+                <div class="fifa-preview-cards"><div><span>17 JUN &middot; MEXICO CITY</span><strong>Pending</strong><small>FIFA confirms next</small></div><div><span>21 JUN &middot; TORONTO</span><strong>Confirmed</strong><small>View ticket</small></div></div>
               </div>
             </article>
 
             <article class="prototype-row prototype-row-chess">
               <div class="prototype-row-info">
-                <div class="prototype-row-top"><span class="prototype-index">02</span><span class="prototype-tag">SELECTED · PA3 ALT 1</span></div>
+                <div class="prototype-row-top"><span class="prototype-index">02</span><span class="prototype-tag">SELECTED &middot; PA3 ALT 2</span></div>
                 <div class="prototype-product-lockup chess-lockup">chess<span>.com</span></div>
-                <h2>Beginner Review</h2>
+                <h2>Card Review Mode</h2>
                 <div class="prototype-copy">
-                  <span>PROBLEM</span>
-                  <p>A beginner can see a mistake without understanding why it matters.</p>
-                  <span>DESIGN RESPONSE</span>
-                  <p>Translate one moment into a safer move, a guided try, and relevant practice.</p>
+                  <span>CORE QUESTION</span>
+                  <p>What learning moment do I want to inspect?</p>
+                  <span>CONTROL MODEL</span>
+                  <p>Scan multiple moments, choose any card, then review, try, or practice.</p>
                 </div>
-                <button type="button" class="prototype-enter prototype-enter-chess" data-route="chess"><span>Enter Chess</span><span aria-hidden="true">↗</span></button>
+                <button type="button" class="prototype-enter prototype-enter-chess" data-route="chess"><span>Enter Chess</span><span aria-hidden="true">&nearr;</span></button>
               </div>
-              <div class="prototype-preview prototype-preview-chess" aria-label="Chess review workspace preview">
+              <div class="prototype-preview prototype-preview-chess" aria-label="Chess card review dashboard preview">
                 <div class="preview-window-label"><span>LIVE VISUAL PREVIEW</span><span>Game review</span></div>
-                <div class="chess-preview-layout">
-                  <div class="chess-preview-board" aria-hidden="true">
-                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-                  </div>
-                  <div class="chess-preview-copy"><span class="preview-label">BEGINNER REVIEW</span><strong>One useful moment</strong><p>Explain → try → practice</p><div class="preview-review-steps"><b>1</b><span></span><b>2</b><span></span><b>3</b></div></div>
-                </div>
+                <div class="chess-preview-summary"><span>4 key moments</span><span>2 mistakes</span><span>1 good move</span></div>
+                <div class="chess-preview-cards"><div><i></i><span><b>Queen safety</b><small>Move 12 &middot; Mistake</small></span></div><div><i></i><span><b>Development</b><small>Move 8 &middot; Good move</small></span></div><div><i></i><span><b>King safety</b><small>Move 16 &middot; Mistake</small></span></div></div>
               </div>
             </article>
           </div>
 
-          <div class="home-console-footer"><span>PA1 → PA2 → PA3 → PA4</span><p>Both flows preserve the validated task semantics while making the highest-risk decisions visible.</p><span>BUILD 01 / 01</span></div>
+          <div class="home-console-footer"><span>PA1 &rarr; PA2 &rarr; PA3 &rarr; PA4</span><p>Both prototypes preserve their selected question and make control ownership visible.</p><span>BUILD 02 / 02</span></div>
         </section>
 
         <section id="fifaView" class="lab-view product-view fifa-frame" aria-labelledby="fifaTitle" hidden>
           <div class="product-bar">
-            <div class="product-brand-lockup">
-              <span class="fifa-wordmark">FIFA<span>.com</span></span>
-              <span class="product-divider"></span>
-              <span class="product-context">Tickets</span>
-            </div>
+            <div class="product-brand-lockup"><span class="fifa-wordmark">FIFA<span>.com</span></span><span class="product-divider"></span><span class="product-context">Tickets</span></div>
             <nav class="product-nav" aria-label="FIFA account navigation">
               <button type="button" class="product-nav-item is-active" data-action="fifa-overview">Tickets</button>
               <button type="button" class="product-nav-item" data-action="fifa-view-order">Orders</button>
@@ -123,86 +93,75 @@
             </nav>
             <div class="product-bar-actions">
               <span class="demo-badge study-researcher-chrome"><span class="live-dot"></span> DEMO DATA</span>
-              <button type="button" class="product-exit study-researcher-chrome" data-route="home">Exit demo <span aria-hidden="true">×</span></button>
+              <button type="button" class="product-exit study-researcher-chrome" data-route="home">Exit demo <span aria-hidden="true">&times;</span></button>
             </div>
           </div>
-          <button type="button" class="presenter-float study-researcher-chrome" data-route="home">← Back to prototypes</button>
+          <button type="button" class="presenter-float study-researcher-chrome" data-route="home">&larr; Back to prototypes</button>
 
           <div class="fifa-product-body">
-            <div class="product-breadcrumb">FIFA.com <span>/</span> Tickets <span>/</span> My Tickets</div>
+            <div class="product-breadcrumb">FIFA.com <span>/</span> Tickets <span>/</span> Overview</div>
             <div class="product-heading-row">
-              <div>
-                <span class="section-eyebrow">MY TICKETS / FIFA WORLD CUP 2026</span>
-                <h1 id="fifaTitle">Your FIFA tickets</h1>
-                <p class="product-subtitle">A clear home for allocation status, event context, and the next safe action.</p>
-              </div>
-              <button type="button" class="refresh-control" data-action="fifa-refresh"><span class="refresh-icon">↻</span><span>Refresh status</span></button>
+              <div><span class="section-eyebrow">YOUR TICKETS / FIFA WORLD CUP 2026</span><h1 id="fifaTitle">All ticket activity, one view.</h1><p class="product-subtitle">Check every current state and the safest next action before opening event detail.</p></div>
+              <button type="button" class="refresh-control" data-action="fifa-refresh"><span class="refresh-icon">&#8635;</span><span>Refresh status</span></button>
             </div>
 
             <div id="fifaAlert" class="inline-alert inline-alert-error" role="alert" hidden>
-              <span class="alert-icon">!</span>
-              <div><strong>We could not refresh this status.</strong><span>Your previous timestamp is still shown. Retry when ready.</span></div>
-              <div class="alert-actions"><button type="button" class="text-button" data-action="fifa-refresh">Retry status</button><button type="button" class="text-button" data-action="fifa-return-overview">Return to tickets</button></div>
+              <span class="alert-icon">!</span><div><strong>We could not refresh these statuses.</strong><span>The previous timestamp is still shown.</span></div>
+              <div class="alert-actions"><button type="button" class="text-button" data-action="fifa-refresh">Retry status</button><button type="button" class="text-button" data-action="fifa-return-overview">Show all tickets</button></div>
             </div>
             <div id="fifaReturnNotice" class="inline-alert inline-alert-success" role="status" hidden>
-              <span class="alert-icon">✓</span>
-              <div><strong>Back in FIFA context.</strong><span>Your pending status and return context are preserved.</span></div>
+              <span class="alert-icon">&#10003;</span><div><strong>Back in FIFA context.</strong><span>Your ticket states remain visible; no partner completion was inferred.</span></div>
               <button type="button" class="text-button" data-action="fifa-dismiss-notice">Dismiss</button>
             </div>
 
-            <div class="fifa-workspace" id="fifaWorkspace">
-              <aside class="event-master-list" aria-labelledby="fifaEventsHeading">
-                <div class="master-list-heading"><div><span class="section-eyebrow">EVENT SIDEBAR</span><h2 id="fifaEventsHeading">My events</h2></div><span class="event-count">2 saved</span></div>
-                <div class="event-master-items">
-                  <button type="button" class="event-row event-master-item event-row-pending is-selected" data-action="fifa-select-event" data-event="pending" aria-label="Select Mexico City pending event" aria-pressed="true">
-                    <span class="event-row-marker" aria-hidden="true"></span>
-                    <span class="event-date"><strong>17</strong><span>JUN<br />2026</span></span>
-                    <span class="event-details"><strong>Mexico City</strong><span>Estadio Azteca<br />Match 18 · 19:00</span><small><span class="event-status-dot pending-dot"></span>Pending</small></span>
-                    <span class="event-row-trailing"><span class="row-status status-text-pending">Pending</span><span class="row-arrow" aria-hidden="true">→</span></span>
-                  </button>
-                  <button type="button" class="event-row event-master-item event-row-confirmed" data-action="fifa-select-event" data-event="confirmed" aria-label="Select Toronto confirmed event" aria-pressed="false">
-                    <span class="event-row-marker" aria-hidden="true"></span>
-                    <span class="event-date"><strong>21</strong><span>JUN<br />2026</span></span>
-                    <span class="event-details"><strong>Toronto</strong><span>BMO Field<br />Match 27 · 15:00</span><small><span class="event-status-dot confirmed-dot"></span>Confirmed</small></span>
-                    <span class="event-row-trailing"><span class="row-status status-text-confirmed">Confirmed</span><span class="row-arrow" aria-hidden="true">→</span></span>
-                  </button>
+            <section class="fifa-status-summary" aria-labelledby="fifaSummaryHeading">
+              <div class="dashboard-section-heading"><div><span class="section-eyebrow">STATUS AT A GLANCE</span><h2 id="fifaSummaryHeading">What is true now</h2></div><span>Use a state to filter the event list</span></div>
+              <div class="fifa-summary-grid">
+                <button type="button" class="status-summary-card is-active" data-action="fifa-filter" data-filter="all" aria-pressed="true"><span class="summary-icon summary-icon-all">2</span><span><strong>All tickets</strong><small>2 upcoming events</small></span></button>
+                <button type="button" class="status-summary-card status-summary-confirmed" data-action="fifa-filter" data-filter="confirmed" aria-pressed="false"><span class="summary-icon">1</span><span><strong>Confirmed</strong><small>Ticket available</small></span></button>
+                <button type="button" class="status-summary-card status-summary-pending" data-action="fifa-filter" data-filter="pending" aria-pressed="false"><span class="summary-icon">1</span><span><strong>Pending</strong><small>FIFA is confirming</small></span></button>
+                <button type="button" class="status-summary-card status-summary-action" data-action="fifa-filter" data-filter="action" aria-pressed="false"><span class="summary-icon">0</span><span><strong>Action needed</strong><small>Nothing required now</small></span></button>
+              </div>
+            </section>
+
+            <div class="fifa-dashboard-grid" id="fifaWorkspace">
+              <section class="upcoming-events" aria-labelledby="fifaEventsHeading">
+                <div class="dashboard-section-heading"><div><span class="section-eyebrow">UPCOMING EVENTS</span><h2 id="fifaEventsHeading">Your next matches</h2></div><span id="fifaVisibleCount">2 events shown</span></div>
+                <div class="event-card-grid">
+                  <article class="ticket-event-card ticket-event-pending" data-fifa-event-card data-event="pending">
+                    <div class="event-card-top"><div class="event-date-block"><strong>17</strong><span>JUN<br />2026</span></div><span class="event-state event-state-pending"><i></i>Pending</span></div>
+                    <div class="event-card-copy"><span class="event-city">MEXICO CITY</span><h3>Estadio Azteca</h3><p>Group stage &middot; Match 18 &middot; 19:00 local time</p></div>
+                    <div class="event-meaning"><strong>FIFA is confirming your allocation.</strong><span>No immediate action is required. Your place is not lost.</span></div>
+                    <dl class="event-meta"><div><dt>OWNER</dt><dd>FIFA</dd></div><div><dt>NEXT</dt><dd>Confirmation update</dd></div><div><dt>SOURCE</dt><dd>Official FIFA</dd></div></dl>
+                    <div class="event-card-actions"><button type="button" class="event-primary-action" data-action="fifa-view-tickets" data-event="pending">View status</button><button type="button" class="event-secondary-action" data-action="fifa-view-order" data-event="pending">View order</button><button id="fifaCalendarPending" type="button" class="event-calendar-action" data-action="fifa-calendar" data-event="pending" disabled aria-disabled="true"><strong>Add to calendar</strong><small>Available after confirmation</small></button></div>
+                  </article>
+
+                  <article class="ticket-event-card ticket-event-confirmed" data-fifa-event-card data-event="confirmed">
+                    <div class="event-card-top"><div class="event-date-block"><strong>21</strong><span>JUN<br />2026</span></div><span class="event-state event-state-confirmed"><i></i>Confirmed</span></div>
+                    <div class="event-card-copy"><span class="event-city">TORONTO</span><h3>BMO Field</h3><p>Group stage &middot; Match 27 &middot; 15:00 local time</p></div>
+                    <div class="event-meaning"><strong>Your mobile ticket is available.</strong><span>You own the next action: review or save the ticket.</span></div>
+                    <dl class="event-meta"><div><dt>OWNER</dt><dd>You</dd></div><div><dt>NEXT</dt><dd>View ticket</dd></div><div><dt>SOURCE</dt><dd>Official FIFA</dd></div></dl>
+                    <div class="event-card-actions"><button type="button" class="event-primary-action" data-action="fifa-view-tickets" data-event="confirmed">View ticket</button><button id="fifaCalendarConfirmed" type="button" class="event-secondary-action event-calendar-action" data-action="fifa-calendar" data-event="confirmed" aria-disabled="false"><strong>Add to calendar</strong><small>Save confirmed event</small></button></div>
+                  </article>
                 </div>
-                <div class="master-list-footer"><span class="source-dot"></span><span>Official FIFA source</span><span class="master-footer-divider">·</span><span id="fifaFootFreshness">Updated 2 min ago</span></div>
-                <div class="study-researcher-chrome master-researcher-tools"><button type="button" class="master-reset" data-action="fifa-reset">Reset demo state</button><button type="button" class="master-tool-link" data-action="fifa-preview-error">Preview unavailable state <span>→</span></button></div>
-              </aside>
-
-              <section class="selected-event-workspace" aria-labelledby="selectedEventTitle">
-                <div class="selected-event-heading">
-                  <div><span class="section-eyebrow">SELECTED EVENT</span><h2 id="selectedEventTitle">Mexico City · Estadio Azteca</h2><p id="selectedEventMeta">Group stage · Match 18 · 17 Jun 2026 · 19:00 local time</p></div>
-                  <span class="event-reference">ORDER FIFA-26-88421</span>
-                </div>
-
-                <section class="status-hero" aria-labelledby="fifaStatusHeading">
-                  <div class="status-hero-heading">
-                    <div class="status-hero-title"><span id="fifaStatusIcon" class="status-icon status-icon-pending">●</span><div><span class="status-hero-label">LIVE ALLOCATION STATUS</span><h2 id="fifaStatusHeading">Pending</h2><span id="fifaStatusPill" class="status-pill status-pill-pending">Awaiting confirmation</span></div></div>
-                    <div class="last-updated"><span>LAST UPDATED</span><strong id="fifaLastUpdated">2 min ago</strong></div>
-                  </div>
-                  <p id="fifaStatusMeaning">FIFA is confirming the allocation for your Mexico City match. Your place is not lost, and no action is required from you right now.</p>
-                  <div class="status-meta-grid"><div><span>OWNER</span><strong id="fifaOwner">FIFA</strong></div><div><span>FRESHNESS</span><strong id="fifaFreshness">Updated 2 min ago</strong></div><div><span>NEXT STEP</span><strong id="fifaNextStep">FIFA confirms the allocation.</strong><small id="fifaNextMeta">Expected timing: next confirmation update</small></div></div>
-                  <button type="button" class="inline-link" data-action="fifa-toggle-explanation" aria-expanded="false" aria-controls="fifaExplanation">What does Pending mean? <span aria-hidden="true">→</span></button>
-                  <div id="fifaExplanation" class="explanation-drawer" hidden><strong>Pending = awaiting FIFA confirmation.</strong><span>The next decision belongs to FIFA. We will keep this event on your dashboard so you can return without starting over.</span></div>
-                </section>
-
-                <section class="fifa-progress-section" aria-labelledby="fifaProgressHeading">
-                  <div class="section-head"><div><span class="section-eyebrow">ALLOCATION PROGRESS</span><h2 id="fifaProgressHeading">Status moves from request to ticket</h2></div><span class="action-needed-label"><span class="action-check">✓</span><span id="fifaActionCopy">No action needed</span></span></div>
-                  <div class="fifa-timeline" aria-label="Ticket allocation progress">
-                    <div class="fifa-timeline-step is-done" data-fifa-step="1"><span class="fifa-timeline-node" aria-hidden="true">✓</span><span><strong>Request submitted</strong><small data-step-status>Completed</small></span></div>
-                    <div class="fifa-timeline-step is-current" data-fifa-step="2" aria-current="step"><span class="fifa-timeline-node" aria-hidden="true">2</span><span><strong>FIFA review</strong><small data-step-status>Current</small></span></div>
-                    <div class="fifa-timeline-step" data-fifa-step="3"><span class="fifa-timeline-node" aria-hidden="true">3</span><span><strong>Confirmation</strong><small data-step-status>Upcoming</small></span></div>
-                    <div class="fifa-timeline-step" data-fifa-step="4"><span class="fifa-timeline-node" aria-hidden="true">4</span><span><strong>Ticket available</strong><small data-step-status>Upcoming</small></span></div>
-                  </div>
-                </section>
-
-                <section class="action-dock" aria-labelledby="quickActionsHeading">
-                  <div class="action-dock-copy"><span class="section-eyebrow">NEXT ACTIONS</span><h2 id="quickActionsHeading">Keep your context</h2><p>Choose a detail view or cross the boundary only after checking the destination.</p></div>
-                  <div class="action-dock-buttons"><button type="button" class="dock-action" data-action="fifa-view-order" data-fifa-primary="order"><span class="dock-action-icon">▤</span><span><strong>View Order</strong><small>Order reference &amp; delivery</small></span><span class="dock-arrow">↗</span></button><button type="button" class="dock-action" data-action="fifa-view-tickets" data-fifa-primary="tickets"><span class="dock-action-icon">▣</span><span><strong>View Ticket</strong><small>Event detail &amp; availability</small></span><span class="dock-arrow">↗</span></button><button type="button" class="dock-action dock-action-muted" data-action="fifa-calendar" disabled aria-disabled="true"><span class="dock-action-icon">□</span><span><strong id="calendarActionTitle">Add to Calendar</strong><small id="calendarActionCopy">Available after confirmation</small></span><span class="dock-arrow">↗</span></button><button type="button" class="dock-action dock-action-transfer" data-action="fifa-open-handoff"><span class="dock-action-icon">↗</span><span><strong>Transfer Tickets</strong><small>Partner destination preview first</small></span><span class="dock-arrow">↗</span></button></div>
-                </section>
+                <div id="fifaEmptyState" class="dashboard-empty-state" hidden><strong>No events need action.</strong><span>Both current records already show their safest next step.</span><button type="button" data-action="fifa-filter" data-filter="all">Show all tickets</button></div>
               </section>
+
+              <aside class="dashboard-side-stack" aria-label="Ticket quick actions and support">
+                <section class="quick-action-panel" aria-labelledby="quickActionsHeading">
+                  <span class="section-eyebrow">QUICK ACTIONS</span><h2 id="quickActionsHeading">Common tasks</h2>
+                  <button type="button" class="quick-action-row" data-action="fifa-view-order"><span class="quick-action-mark">&#9638;</span><span><strong>View order</strong><small>Both event records</small></span><span>&rarr;</span></button>
+                  <button type="button" class="quick-action-row quick-action-transfer" data-action="fifa-open-handoff" data-event="confirmed"><span class="quick-action-mark">&nearr;</span><span><strong>Transfer tickets</strong><small>Preview partner first</small></span><span>&rarr;</span></button>
+                  <button type="button" class="quick-action-row" data-action="fifa-help"><span class="quick-action-mark">?</span><span><strong>Ticket help</strong><small>Status and handoff guide</small></span><span>&rarr;</span></button>
+                </section>
+                <section class="support-panel" aria-labelledby="supportHeading">
+                  <span class="section-eyebrow">SOURCE &amp; ALERTS</span><h2 id="supportHeading">Current and supported</h2>
+                  <div class="support-cue"><span class="source-dot"></span><span><strong>Official FIFA source</strong><small id="fifaFootFreshness">Updated 2 min ago</small></span></div>
+                  <div class="support-cue"><span class="support-cue-mark">&#8635;</span><span><strong>Last checked</strong><small id="fifaLastUpdated">2 min ago</small></span></div>
+                  <button type="button" class="notification-control" data-action="fifa-notifications"><span><strong id="fifaNotificationTitle">Status updates are off</strong><small id="fifaNotificationCopy">Enable a demo confirmation cue</small></span><span>&rarr;</span></button>
+                </section>
+                <div class="study-researcher-chrome researcher-tools"><button type="button" data-action="fifa-reset">Reset demo state</button><button type="button" data-action="fifa-preview-error">Preview unavailable state</button></div>
+              </aside>
             </div>
           </div>
         </section>
@@ -210,31 +169,31 @@
         <section id="chessView" class="lab-view product-view chess-frame" aria-labelledby="chessTitle" hidden>
           <div class="chess-analysis-shell">
             <nav class="product-side-nav" aria-label="Chess product navigation">
-              <div class="side-nav-brand"><span class="side-brand-piece">♞</span><span>chess<span>.com</span></span></div>
-              <div class="side-nav-links"><span><i>◈</i>Play</span><span><i>◇</i>Puzzles</span><span><i>✦</i>Learn</span><span class="is-active"><i>◉</i>Review</span></div>
+              <div class="side-nav-brand"><span class="side-brand-piece">&#9822;</span><span>chess<span>.com</span></span></div>
+              <div class="side-nav-links"><span><i>&#9672;</i>Play</span><span><i>&#9671;</i>Puzzles</span><span><i>&#10022;</i>Learn</span><span class="is-active"><i>&#9673;</i>Review</span></div>
               <div class="side-nav-footer"><span class="side-nav-user">M</span><span class="side-nav-game">10 + 5<br /><small>rapid</small></span></div>
             </nav>
             <div class="chess-workspace">
               <div class="chess-compact-bar">
                 <div class="compact-product-label"><span class="chess-wordmark">chess<span>.com</span></span><span class="product-divider"></span><span>Game Review</span></div>
-                <div class="compact-bar-actions"><span class="demo-badge demo-badge-warm study-researcher-chrome"><span class="live-dot"></span> DEMO GAME</span><button type="button" class="product-icon-button study-researcher-chrome" data-action="chess-help" aria-label="Open Chess review help">?</button><button type="button" class="product-exit study-researcher-chrome" data-route="home">Exit demo <span aria-hidden="true">×</span></button></div>
+                <div class="compact-bar-actions"><span class="demo-badge demo-badge-warm study-researcher-chrome"><span class="live-dot"></span> DEMO GAME</span><button type="button" class="product-icon-button study-researcher-chrome" data-action="chess-help" aria-label="Open card review help">?</button><button type="button" class="product-exit study-researcher-chrome" data-route="home">Exit demo <span aria-hidden="true">&times;</span></button></div>
               </div>
               <div class="chess-workspace-head">
-                <div><span class="section-eyebrow">GAME REVIEW <span class="source-label source-label-warm study-researcher-chrome"><span class="source-dot"></span>Local demo analysis</span></span><h1 id="chessTitle">Learn from one useful moment.</h1><p class="product-subtitle">A guided review for players who want the reason before the engine detail.</p></div>
-                <div class="game-identity"><span class="game-avatar">Q</span><span><strong>Minh’s rapid game</strong><small>vs. StudyBot · 10 + 5</small></span><span id="chessHeaderStatus">Game completed · Step 1 of 3</span></div>
+                <div><span class="section-eyebrow">GAME REVIEW <span class="source-label source-label-warm study-researcher-chrome"><span class="source-dot"></span>Fictional static analysis</span></span><h1 id="chessTitle">Choose a moment to review.</h1><p class="product-subtitle">Scan the completed game, open any card, then review, try, or practice at your own pace.</p></div>
+                <div class="game-identity"><span class="game-avatar">Q</span><span><strong>Minh's rapid game</strong><small>vs. StudyBot &middot; 10 + 5</small></span><span id="chessHeaderStatus">Game completed &middot; 4 key moments</span></div>
               </div>
-              <div class="chess-analysis-grid">
-                <section class="chess-board-workspace" id="chessBoardArea" aria-label="Chess board workspace">
-                  <div class="board-workspace-header"><div><span class="board-overline">OPPONENT</span><strong>StudyBot</strong><span>Black · rating 1420</span></div><span class="board-round-label">MOVE 12</span></div>
+              <div class="chess-review-layout">
+                <section class="chess-board-workspace" id="chessBoardArea" aria-label="Selected game position">
+                  <div class="board-workspace-header"><div><span class="board-overline">OPPONENT</span><strong>StudyBot</strong><span>Black &middot; rating 1420</span></div><span id="chessBoardMoveLabel" class="board-round-label">COMPLETED GAME</span></div>
                   <div id="chessBoardFrame" class="board-frame" aria-live="polite"></div>
                   <div id="chessBoardFeedback" class="board-feedback-overlay" role="status" hidden></div>
-                  <div class="board-workspace-footer"><div><span class="board-overline">PLAYER</span><strong>Minh</strong><span>White · completed game</span></div><span class="board-game-result">Review position</span></div>
+                  <div class="board-workspace-footer"><div><span class="board-overline">PLAYER</span><strong>Minh</strong><span>White &middot; completed game</span></div><span id="chessBoardContext" class="board-game-result">Supporting position</span></div>
                 </section>
-                <aside id="chessReviewPanel" class="review-panel" aria-label="Beginner Review panel"><div id="chessStage" aria-live="polite"></div></aside>
+                <section id="chessReviewPanel" class="review-dashboard-shell" aria-label="Card Review Mode"><div id="chessStage" aria-live="polite"></div></section>
               </div>
             </div>
           </div>
-          <button type="button" class="presenter-float presenter-float-chess study-researcher-chrome" data-route="home">← Back to prototypes</button>
+          <button type="button" class="presenter-float presenter-float-chess study-researcher-chrome" data-route="home">&larr; Back to prototypes</button>
         </section>
       </main>
 

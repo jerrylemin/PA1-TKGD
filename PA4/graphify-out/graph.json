@@ -55,7 +55,7 @@
       "label": "fifaState",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L28",
+      "source_location": "L22",
       "id": "prototype_app_fifastate",
       "community": 1,
       "norm_label": "fifastate"
@@ -64,7 +64,7 @@
       "label": "chessState",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L38",
+      "source_location": "L33",
       "id": "prototype_app_chessstate",
       "community": 1,
       "norm_label": "chessstate"
@@ -73,16 +73,25 @@
       "label": "chessScenario",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L46",
+      "source_location": "L45",
       "id": "prototype_app_chessscenario",
       "community": 1,
       "norm_label": "chessscenario"
     },
     {
+      "label": "chessMoments",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L104",
+      "id": "prototype_app_chessmoments",
+      "community": 1,
+      "norm_label": "chessmoments"
+    },
+    {
       "label": "chessPieces",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L105",
+      "source_location": "L167",
       "id": "prototype_app_chesspieces",
       "community": 1,
       "norm_label": "chesspieces"
@@ -91,7 +100,7 @@
       "label": "modalRoot",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L110",
+      "source_location": "L172",
       "id": "prototype_app_modalroot",
       "community": 1,
       "norm_label": "modalroot"
@@ -100,7 +109,7 @@
       "label": "toastRoot",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L111",
+      "source_location": "L173",
       "id": "prototype_app_toastroot",
       "community": 1,
       "norm_label": "toastroot"
@@ -109,7 +118,7 @@
       "label": "isStudyMode()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L114",
+      "source_location": "L176",
       "id": "prototype_app_isstudymode",
       "community": 1,
       "norm_label": "isstudymode()"
@@ -118,7 +127,7 @@
       "label": "studyProduct()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L118",
+      "source_location": "L180",
       "id": "prototype_app_studyproduct",
       "community": 1,
       "norm_label": "studyproduct()"
@@ -127,7 +136,7 @@
       "label": "applyMode()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L123",
+      "source_location": "L185",
       "id": "prototype_app_applymode",
       "community": 1,
       "norm_label": "applymode()"
@@ -136,7 +145,7 @@
       "label": "removeStudyChrome()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L130",
+      "source_location": "L192",
       "id": "prototype_app_removestudychrome",
       "community": 1,
       "norm_label": "removestudychrome()"
@@ -145,7 +154,7 @@
       "label": "currentRoute()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L135",
+      "source_location": "L197",
       "id": "prototype_app_currentroute",
       "community": 1,
       "norm_label": "currentroute()"
@@ -154,7 +163,7 @@
       "label": "navigate()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L141",
+      "source_location": "L203",
       "id": "prototype_app_navigate",
       "community": 1,
       "norm_label": "navigate()"
@@ -163,7 +172,7 @@
       "label": "setRoute()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L150",
+      "source_location": "L209",
       "id": "prototype_app_setroute",
       "community": 1,
       "norm_label": "setroute()"
@@ -172,7 +181,7 @@
       "label": "showToast()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L166",
+      "source_location": "L223",
       "id": "prototype_app_showtoast",
       "community": 1,
       "norm_label": "showtoast()"
@@ -181,7 +190,7 @@
       "label": "openModal()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L179",
+      "source_location": "L236",
       "id": "prototype_app_openmodal",
       "community": 1,
       "norm_label": "openmodal()"
@@ -190,7 +199,7 @@
       "label": "closeModal()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L197",
+      "source_location": "L249",
       "id": "prototype_app_closemodal",
       "community": 1,
       "norm_label": "closemodal()"
@@ -199,97 +208,16 @@
       "label": "renderFifa()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L208",
+      "source_location": "L260",
       "id": "prototype_app_renderfifa",
       "community": 1,
       "norm_label": "renderfifa()"
     },
     {
-      "label": "applyChessMove()",
-      "file_type": "code",
-      "source_file": "prototype/app.js",
-      "source_location": "L282",
-      "id": "prototype_app_applychessmove",
-      "community": 1,
-      "norm_label": "applychessmove()"
-    },
-    {
-      "label": "chessPositionForPhase()",
-      "file_type": "code",
-      "source_file": "prototype/app.js",
-      "source_location": "L290",
-      "id": "prototype_app_chesspositionforphase",
-      "community": 1,
-      "norm_label": "chesspositionforphase()"
-    },
-    {
-      "label": "chessMoveForPhase()",
-      "file_type": "code",
-      "source_file": "prototype/app.js",
-      "source_location": "L301",
-      "id": "prototype_app_chessmoveforphase",
-      "community": 1,
-      "norm_label": "chessmoveforphase()"
-    },
-    {
-      "label": "boardMarkup()",
-      "file_type": "code",
-      "source_file": "prototype/app.js",
-      "source_location": "L305",
-      "id": "prototype_app_boardmarkup",
-      "community": 1,
-      "norm_label": "boardmarkup()"
-    },
-    {
-      "label": "explanationDetail()",
-      "file_type": "code",
-      "source_file": "prototype/app.js",
-      "source_location": "L341",
-      "id": "prototype_app_explanationdetail",
-      "community": 1,
-      "norm_label": "explanationdetail()"
-    },
-    {
-      "label": "reviewPanelHeader()",
-      "file_type": "code",
-      "source_file": "prototype/app.js",
-      "source_location": "L346",
-      "id": "prototype_app_reviewpanelheader",
-      "community": 1,
-      "norm_label": "reviewpanelheader()"
-    },
-    {
-      "label": "redesignedBoardPanel()",
-      "file_type": "code",
-      "source_file": "prototype/app.js",
-      "source_location": "L350",
-      "id": "prototype_app_redesignedboardpanel",
-      "community": 1,
-      "norm_label": "redesignedboardpanel()"
-    },
-    {
-      "label": "explanationButton()",
-      "file_type": "code",
-      "source_file": "prototype/app.js",
-      "source_location": "L368",
-      "id": "prototype_app_explanationbutton",
-      "community": 1,
-      "norm_label": "explanationbutton()"
-    },
-    {
-      "label": "renderChess()",
-      "file_type": "code",
-      "source_file": "prototype/app.js",
-      "source_location": "L373",
-      "id": "prototype_app_renderchess",
-      "community": 1,
-      "norm_label": "renderchess()"
-    },
-    {
       "label": "fifaOrderModal()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L456",
+      "source_location": "L297",
       "id": "prototype_app_fifaordermodal",
       "community": 1,
       "norm_label": "fifaordermodal()"
@@ -298,7 +226,7 @@
       "label": "fifaTicketsModal()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L467",
+      "source_location": "L308",
       "id": "prototype_app_fifaticketsmodal",
       "community": 1,
       "norm_label": "fifaticketsmodal()"
@@ -307,7 +235,7 @@
       "label": "fifaHandoffModal()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L480",
+      "source_location": "L321",
       "id": "prototype_app_fifahandoffmodal",
       "community": 1,
       "norm_label": "fifahandoffmodal()"
@@ -316,7 +244,7 @@
       "label": "fifaHandoffCompleteModal()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L490",
+      "source_location": "L332",
       "id": "prototype_app_fifahandoffcompletemodal",
       "community": 1,
       "norm_label": "fifahandoffcompletemodal()"
@@ -325,34 +253,151 @@
       "label": "fifaHelpModal()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L500",
+      "source_location": "L342",
       "id": "prototype_app_fifahelpmodal",
       "community": 1,
       "norm_label": "fifahelpmodal()"
     },
     {
+      "label": "applyChessMove()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L352",
+      "id": "prototype_app_applychessmove",
+      "community": 1,
+      "norm_label": "applychessmove()"
+    },
+    {
+      "label": "selectedChessMoment()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L360",
+      "id": "prototype_app_selectedchessmoment",
+      "community": 1,
+      "norm_label": "selectedchessmoment()"
+    },
+    {
+      "label": "positionForMoment()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L364",
+      "id": "prototype_app_positionformoment",
+      "community": 1,
+      "norm_label": "positionformoment()"
+    },
+    {
+      "label": "chessMoveForPhase()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L368",
+      "id": "prototype_app_chessmoveforphase",
+      "community": 1,
+      "norm_label": "chessmoveforphase()"
+    },
+    {
+      "label": "chessPositionForPhase()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L372",
+      "id": "prototype_app_chesspositionforphase",
+      "community": 1,
+      "norm_label": "chesspositionforphase()"
+    },
+    {
+      "label": "boardMarkup()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L382",
+      "id": "prototype_app_boardmarkup",
+      "community": 1,
+      "norm_label": "boardmarkup()"
+    },
+    {
+      "label": "redesignedBoardPanel()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L411",
+      "id": "prototype_app_redesignedboardpanel",
+      "community": 1,
+      "norm_label": "redesignedboardpanel()"
+    },
+    {
+      "label": "miniBoardMarkup()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L429",
+      "id": "prototype_app_miniboardmarkup",
+      "community": 1,
+      "norm_label": "miniboardmarkup()"
+    },
+    {
+      "label": "momentsForFilter()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L445",
+      "id": "prototype_app_momentsforfilter",
+      "community": 1,
+      "norm_label": "momentsforfilter()"
+    },
+    {
+      "label": "renderChessDashboard()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L452",
+      "id": "prototype_app_renderchessdashboard",
+      "community": 1,
+      "norm_label": "renderchessdashboard()"
+    },
+    {
+      "label": "renderMomentDetail()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L465",
+      "id": "prototype_app_rendermomentdetail",
+      "community": 1,
+      "norm_label": "rendermomentdetail()"
+    },
+    {
+      "label": "renderChessTrial()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L479",
+      "id": "prototype_app_renderchesstrial",
+      "community": 1,
+      "norm_label": "renderchesstrial()"
+    },
+    {
+      "label": "renderChessPractice()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L493",
+      "id": "prototype_app_renderchesspractice",
+      "community": 1,
+      "norm_label": "renderchesspractice()"
+    },
+    {
+      "label": "renderChess()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L505",
+      "id": "prototype_app_renderchess",
+      "community": 1,
+      "norm_label": "renderchess()"
+    },
+    {
       "label": "chessHelpModal()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L510",
+      "source_location": "L538",
       "id": "prototype_app_chesshelpmodal",
       "community": 1,
       "norm_label": "chesshelpmodal()"
     },
     {
-      "label": "chessAdvancedModal()",
-      "file_type": "code",
-      "source_file": "prototype/app.js",
-      "source_location": "L521",
-      "id": "prototype_app_chessadvancedmodal",
-      "community": 1,
-      "norm_label": "chessadvancedmodal()"
-    },
-    {
       "label": "resetFifa()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L532",
+      "source_location": "L549",
       "id": "prototype_app_resetfifa",
       "community": 1,
       "norm_label": "resetfifa()"
@@ -361,16 +406,34 @@
       "label": "resetChess()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L538",
+      "source_location": "L555",
       "id": "prototype_app_resetchess",
       "community": 1,
       "norm_label": "resetchess()"
     },
     {
+      "label": "selectFifaEventFromTarget()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L560",
+      "id": "prototype_app_selectfifaeventfromtarget",
+      "community": 1,
+      "norm_label": "selectfifaeventfromtarget()"
+    },
+    {
+      "label": "returnToChessDashboard()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L564",
+      "id": "prototype_app_returntochessdashboard",
+      "community": 1,
+      "norm_label": "returntochessdashboard()"
+    },
+    {
       "label": "handleAction()",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L543",
+      "source_location": "L569",
       "id": "prototype_app_handleaction",
       "community": 1,
       "norm_label": "handleaction()"
@@ -379,7 +442,7 @@
       "label": "routeTarget",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L731",
+      "source_location": "L729",
       "id": "prototype_app_routetarget",
       "community": 1,
       "norm_label": "routetarget"
@@ -388,25 +451,16 @@
       "label": "actionTarget",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L737",
+      "source_location": "L735",
       "id": "prototype_app_actiontarget",
       "community": 1,
       "norm_label": "actiontarget"
     },
     {
-      "label": "eventRow",
-      "file_type": "code",
-      "source_file": "prototype/app.js",
-      "source_location": "L746",
-      "id": "prototype_app_eventrow",
-      "community": 1,
-      "norm_label": "eventrow"
-    },
-    {
       "label": "focusable",
       "file_type": "code",
       "source_file": "prototype/app.js",
-      "source_location": "L759",
+      "source_location": "L752",
       "id": "prototype_app_focusable",
       "community": 1,
       "norm_label": "focusable"
@@ -430,10 +484,19 @@
       "norm_label": "generated_at"
     },
     {
-      "label": "checks",
+      "label": "screenshot_dir",
       "file_type": "code",
       "source_file": "qa/prototype-browser-qa.json",
       "source_location": "L3",
+      "id": "qa_prototype_browser_qa_screenshot_dir",
+      "community": 64,
+      "norm_label": "screenshot_dir"
+    },
+    {
+      "label": "checks",
+      "file_type": "code",
+      "source_file": "qa/prototype-browser-qa.json",
+      "source_location": "L4",
       "id": "qa_prototype_browser_qa_checks",
       "community": 64,
       "norm_label": "checks"
@@ -442,7 +505,7 @@
       "label": "errors",
       "file_type": "code",
       "source_file": "qa/prototype-browser-qa.json",
-      "source_location": "L430",
+      "source_location": "L756",
       "id": "qa_prototype_browser_qa_errors",
       "community": 64,
       "norm_label": "errors"
@@ -451,7 +514,7 @@
       "label": "status",
       "file_type": "code",
       "source_file": "qa/prototype-browser-qa.json",
-      "source_location": "L431",
+      "source_location": "L757",
       "id": "qa_prototype_browser_qa_status",
       "community": 64,
       "norm_label": "status"
@@ -1024,19 +1087,28 @@
       "norm_label": "capture-prototype-qa.mjs"
     },
     {
-      "label": "screenshotDir",
+      "label": "playwrightCandidates",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L6",
-      "id": "scripts_capture_prototype_qa_screenshotdir",
+      "source_location": "L7",
+      "id": "scripts_capture_prototype_qa_playwrightcandidates",
       "community": 14,
-      "norm_label": "screenshotdir"
+      "norm_label": "playwrightcandidates"
+    },
+    {
+      "label": "playwrightPath",
+      "file_type": "code",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L11",
+      "id": "scripts_capture_prototype_qa_playwrightpath",
+      "community": 14,
+      "norm_label": "playwrightpath"
     },
     {
       "label": "qaDir",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L7",
+      "source_location": "L19",
       "id": "scripts_capture_prototype_qa_qadir",
       "community": 14,
       "norm_label": "qadir"
@@ -1045,7 +1117,7 @@
       "label": "errors",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L12",
+      "source_location": "L24",
       "id": "scripts_capture_prototype_qa_errors",
       "community": 14,
       "norm_label": "errors"
@@ -1054,7 +1126,7 @@
       "label": "checks",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L13",
+      "source_location": "L25",
       "id": "scripts_capture_prototype_qa_checks",
       "community": 14,
       "norm_label": "checks"
@@ -1063,7 +1135,7 @@
       "label": "check()",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L16",
+      "source_location": "L28",
       "id": "scripts_capture_prototype_qa_check",
       "community": 14,
       "norm_label": "check()"
@@ -1072,7 +1144,7 @@
       "label": "screenshot()",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L21",
+      "source_location": "L33",
       "id": "scripts_capture_prototype_qa_screenshot",
       "community": 14,
       "norm_label": "screenshot()"
@@ -1081,25 +1153,16 @@
       "label": "visibleText()",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L25",
+      "source_location": "L37",
       "id": "scripts_capture_prototype_qa_visibletext",
       "community": 14,
       "norm_label": "visibletext()"
     },
     {
-      "label": "fifaCalendarState()",
-      "file_type": "code",
-      "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L29",
-      "id": "scripts_capture_prototype_qa_fifacalendarstate",
-      "community": 14,
-      "norm_label": "fifacalendarstate()"
-    },
-    {
       "label": "click()",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L38",
+      "source_location": "L41",
       "id": "scripts_capture_prototype_qa_click",
       "community": 14,
       "norm_label": "click()"
@@ -1108,52 +1171,97 @@
       "label": "assertNoHorizontalOverflow()",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L44",
+      "source_location": "L47",
       "id": "scripts_capture_prototype_qa_assertnohorizontaloverflow",
       "community": 14,
       "norm_label": "assertnohorizontaloverflow()"
     },
     {
-      "label": "countVisibleButtonsWithoutRoutes()",
+      "label": "assertCardsDoNotOverlap()",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L49",
-      "id": "scripts_capture_prototype_qa_countvisiblebuttonswithoutroutes",
+      "source_location": "L55",
+      "id": "scripts_capture_prototype_qa_assertcardsdonotoverlap",
       "community": 14,
-      "norm_label": "countvisiblebuttonswithoutroutes()"
+      "norm_label": "assertcardsdonotoverlap()"
     },
     {
-      "label": "assertLockedChessBoard()",
+      "label": "assertDialogFitsViewport()",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L60",
-      "id": "scripts_capture_prototype_qa_assertlockedchessboard",
+      "source_location": "L74",
+      "id": "scripts_capture_prototype_qa_assertdialogfitsviewport",
       "community": 14,
-      "norm_label": "assertlockedchessboard()"
+      "norm_label": "assertdialogfitsviewport()"
+    },
+    {
+      "label": "assertVisibleButtonRouting()",
+      "file_type": "code",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L90",
+      "id": "scripts_capture_prototype_qa_assertvisiblebuttonrouting",
+      "community": 14,
+      "norm_label": "assertvisiblebuttonrouting()"
     },
     {
       "label": "assertStudyChromeHidden()",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L70",
+      "source_location": "L101",
       "id": "scripts_capture_prototype_qa_assertstudychromehidden",
       "community": 14,
       "norm_label": "assertstudychromehidden()"
     },
     {
-      "label": "assertRedesignStructure()",
+      "label": "fifaCalendarState()",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L86",
-      "id": "scripts_capture_prototype_qa_assertredesignstructure",
+      "source_location": "L114",
+      "id": "scripts_capture_prototype_qa_fifacalendarstate",
       "community": 14,
-      "norm_label": "assertredesignstructure()"
+      "norm_label": "fifacalendarstate()"
+    },
+    {
+      "label": "assertLockedChessBoard()",
+      "file_type": "code",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L123",
+      "id": "scripts_capture_prototype_qa_assertlockedchessboard",
+      "community": 14,
+      "norm_label": "assertlockedchessboard()"
+    },
+    {
+      "label": "assertInitialFifaConcept()",
+      "file_type": "code",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L133",
+      "id": "scripts_capture_prototype_qa_assertinitialfifaconcept",
+      "community": 14,
+      "norm_label": "assertinitialfifaconcept()"
+    },
+    {
+      "label": "assertInitialChessConcept()",
+      "file_type": "code",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L149",
+      "id": "scripts_capture_prototype_qa_assertinitialchessconcept",
+      "community": 14,
+      "norm_label": "assertinitialchessconcept()"
+    },
+    {
+      "label": "assertResponsiveProduct()",
+      "file_type": "code",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L167",
+      "id": "scripts_capture_prototype_qa_assertresponsiveproduct",
+      "community": 14,
+      "norm_label": "assertresponsiveproduct()"
     },
     {
       "label": "calendarToast",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L137",
+      "source_location": "L235",
       "id": "scripts_capture_prototype_qa_calendartoast",
       "community": 14,
       "norm_label": "calendartoast"
@@ -1162,7 +1270,7 @@
       "label": "result",
       "file_type": "code",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L329",
+      "source_location": "L374",
       "id": "scripts_capture_prototype_qa_result",
       "community": 14,
       "norm_label": "result"
@@ -2271,7 +2379,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L1",
       "id": "study_analysis_test_analyze_study_py",
-      "community": 3,
+      "community": 2,
       "norm_label": "test_analyze_study.py"
     },
     {
@@ -2280,7 +2388,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L22",
       "id": "analysis_test_analyze_study_analysistests",
-      "community": 3,
+      "community": 2,
       "norm_label": "analysistests"
     },
     {
@@ -2289,7 +2397,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L23",
       "id": "analysis_test_analyze_study_analysistests_setup",
-      "community": 3,
+      "community": 2,
       "norm_label": ".setup()"
     },
     {
@@ -2298,7 +2406,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L32",
       "id": "analysis_test_analyze_study_analysistests_teardown",
-      "community": 3,
+      "community": 2,
       "norm_label": ".teardown()"
     },
     {
@@ -2307,7 +2415,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L35",
       "id": "analysis_test_analyze_study_analysistests_write_csv",
-      "community": 3,
+      "community": 2,
       "norm_label": ".write_csv()"
     },
     {
@@ -2316,7 +2424,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L35",
       "id": "study_analysis_test_analyze_study_py_path",
-      "community": 3,
+      "community": 2,
       "norm_label": "path"
     },
     {
@@ -2325,7 +2433,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L35",
       "id": "study_analysis_test_analyze_study_py_str",
-      "community": 3,
+      "community": 2,
       "norm_label": "str"
     },
     {
@@ -2334,7 +2442,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L41",
       "id": "analysis_test_analyze_study_analysistests_write_templates",
-      "community": 3,
+      "community": 2,
       "norm_label": ".write_templates()"
     },
     {
@@ -2343,7 +2451,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L47",
       "id": "analysis_test_analyze_study_analysistests_participant_rows",
-      "community": 3,
+      "community": 2,
       "norm_label": ".participant_rows()"
     },
     {
@@ -2352,7 +2460,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L47",
       "id": "study_analysis_test_analyze_study_py_int",
-      "community": 3,
+      "community": 2,
       "norm_label": "int"
     },
     {
@@ -2361,7 +2469,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L47",
       "id": "study_analysis_test_analyze_study_py_bool",
-      "community": 3,
+      "community": 2,
       "norm_label": "bool"
     },
     {
@@ -2370,7 +2478,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L64",
       "id": "analysis_test_analyze_study_analysistests_write_participants",
-      "community": 3,
+      "community": 2,
       "norm_label": ".write_participants()"
     },
     {
@@ -2379,7 +2487,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L72",
       "id": "analysis_test_analyze_study_analysistests_write_complete_results",
-      "community": 3,
+      "community": 2,
       "norm_label": ".write_complete_results()"
     },
     {
@@ -2388,7 +2496,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L120",
       "id": "analysis_test_analyze_study_analysistests_verified_recordings",
-      "community": 3,
+      "community": 2,
       "norm_label": ".verified_recordings()"
     },
     {
@@ -2397,7 +2505,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L123",
       "id": "analysis_test_analyze_study_analysistests_test_t01_zero_participants_is_blocked",
-      "community": 3,
+      "community": 2,
       "norm_label": ".test_t01_zero_participants_is_blocked()"
     },
     {
@@ -2406,7 +2514,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L128",
       "id": "analysis_test_analyze_study_analysistests_test_t02_four_complete_participants_are_blocked_by_count",
-      "community": 3,
+      "community": 2,
       "norm_label": ".test_t02_four_complete_participants_are_blocked_by_count()"
     },
     {
@@ -2415,7 +2523,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L135",
       "id": "analysis_test_analyze_study_analysistests_test_t03_five_participants_without_task_rows_are_blocked",
-      "community": 3,
+      "community": 2,
       "norm_label": ".test_t03_five_participants_without_task_rows_are_blocked()"
     },
     {
@@ -2424,7 +2532,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L144",
       "id": "analysis_test_analyze_study_analysistests_test_t04_missing_questionnaire_is_blocked",
-      "community": 3,
+      "community": 2,
       "norm_label": ".test_t04_missing_questionnaire_is_blocked()"
     },
     {
@@ -2433,7 +2541,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L152",
       "id": "analysis_test_analyze_study_analysistests_test_t05_missing_interview_data_is_blocked",
-      "community": 3,
+      "community": 2,
       "norm_label": ".test_t05_missing_interview_data_is_blocked()"
     },
     {
@@ -2478,7 +2586,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L199",
       "id": "analysis_test_analyze_study_analysistests_test_t07_duplicate_participant_id_is_validation_error",
-      "community": 3,
+      "community": 2,
       "norm_label": ".test_t07_duplicate_participant_id_is_validation_error()"
     },
     {
@@ -2487,7 +2595,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L207",
       "id": "analysis_test_analyze_study_analysistests_test_t08_duplicate_task_row_is_validation_error",
-      "community": 3,
+      "community": 2,
       "norm_label": ".test_t08_duplicate_task_row_is_validation_error()"
     },
     {
@@ -2496,7 +2604,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L219",
       "id": "analysis_test_analyze_study_analysistests_test_t09_negative_duration_is_validation_error",
-      "community": 3,
+      "community": 2,
       "norm_label": ".test_t09_negative_duration_is_validation_error()"
     },
     {
@@ -2505,7 +2613,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L231",
       "id": "analysis_test_analyze_study_analysistests_test_t10_invalid_success_score_is_validation_error",
-      "community": 3,
+      "community": 2,
       "norm_label": ".test_t10_invalid_success_score_is_validation_error()"
     },
     {
@@ -2514,7 +2622,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L243",
       "id": "analysis_test_analyze_study_analysistests_test_t11_missing_assigned_order_is_validation_error",
-      "community": 3,
+      "community": 2,
       "norm_label": ".test_t11_missing_assigned_order_is_validation_error()"
     },
     {
@@ -2523,7 +2631,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L252",
       "id": "analysis_test_analyze_study_analysistests_test_t12_fully_complete_synthetic_fixture_passes_only_in_test_fixture",
-      "community": 3,
+      "community": 2,
       "norm_label": ".test_t12_fully_complete_synthetic_fixture_passes_only_in_test_fixture()"
     },
     {
@@ -2532,7 +2640,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L1",
       "id": "analysis_test_analyze_study_rationale_1",
-      "community": 3,
+      "community": 2,
       "norm_label": "synthetic-only analysis tests; fixtures never enter pa4 evidence folders."
     },
     {
@@ -2541,7 +2649,7 @@
       "source_file": "study/analysis/test_analyze_study.py",
       "source_location": "L253",
       "id": "analysis_test_analyze_study_rationale_253",
-      "community": 3,
+      "community": 2,
       "norm_label": "a complete synthetic fixture may exercise the pipeline, never final evidence."
     },
     {
@@ -2743,13 +2851,13 @@
       "norm_label": "5. chess problem \u00b7 60 seconds"
     },
     {
-      "label": "6. Chess PA3 evidence \u00b7 60 seconds",
+      "label": "6. Chess PA3 direction \u00b7 60 seconds",
       "file_type": "document",
       "source_file": "demo/DEMO-SCRIPT.md",
       "source_location": "L33",
-      "id": "demo_demo_script_6_chess_pa3_evidence_60_seconds",
+      "id": "demo_demo_script_6_chess_pa3_direction_60_seconds",
       "community": 13,
-      "norm_label": "6. chess pa3 evidence \u00b7 60 seconds"
+      "norm_label": "6. chess pa3 direction \u00b7 60 seconds"
     },
     {
       "label": "7. Chess hi-fi demo \u00b7 4\u20135 minutes",
@@ -3286,7 +3394,7 @@
       "label": "Start",
       "file_type": "document",
       "source_file": "prototype/README.md",
-      "source_location": "L8",
+      "source_location": "L10",
       "id": "prototype_readme_start",
       "community": 25,
       "norm_label": "start"
@@ -3295,7 +3403,7 @@
       "label": "code:powershell (python -m http.server 4173 --bind 127.0.0.1 --directory PA4/)",
       "file_type": "document",
       "source_file": "prototype/README.md",
-      "source_location": "L12",
+      "source_location": "L14",
       "id": "prototype_readme_codeblock_1",
       "community": 25,
       "norm_label": "code:powershell (python -m http.server 4173 --bind 127.0.0.1 --directory pa4/)"
@@ -3304,7 +3412,7 @@
       "label": "Demo paths",
       "file_type": "document",
       "source_file": "prototype/README.md",
-      "source_location": "L20",
+      "source_location": "L22",
       "id": "prototype_readme_demo_paths",
       "community": 25,
       "norm_label": "demo paths"
@@ -3313,7 +3421,7 @@
       "label": "Study and presenter modes",
       "file_type": "document",
       "source_file": "prototype/README.md",
-      "source_location": "L25",
+      "source_location": "L27",
       "id": "prototype_readme_study_and_presenter_modes",
       "community": 25,
       "norm_label": "study and presenter modes"
@@ -3322,7 +3430,7 @@
       "label": "QA",
       "file_type": "document",
       "source_file": "prototype/README.md",
-      "source_location": "L33",
+      "source_location": "L35",
       "id": "prototype_readme_qa",
       "community": 25,
       "norm_label": "qa"
@@ -3331,7 +3439,7 @@
       "label": "code:powershell (node PA4/scripts/capture-prototype-qa.mjs)",
       "file_type": "document",
       "source_file": "prototype/README.md",
-      "source_location": "L37",
+      "source_location": "L39",
       "id": "prototype_readme_codeblock_2",
       "community": 25,
       "norm_label": "code:powershell (node pa4/scripts/capture-prototype-qa.mjs)"
@@ -3506,213 +3614,6 @@
       "id": "qa_remediation_round2_acceptance_matrix_participant_readiness_hard_gate",
       "community": 29,
       "norm_label": "participant-readiness hard gate"
-    },
-    {
-      "label": "Group10-PA4-HifiProtype_a1a07ae0.md",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L1",
-      "id": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
-      "community": 22,
-      "norm_label": "group10-pa4-hifiprotype_a1a07ae0.md"
-    },
-    {
-      "label": "Project continuity",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L7",
-      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_project_continuity",
-      "community": 22,
-      "norm_label": "project continuity"
-    },
-    {
-      "label": "Hi-fi design objectives",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L9",
-      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_hi_fi_design_objectives",
-      "community": 22,
-      "norm_label": "hi-fi design objectives"
-    },
-    {
-      "label": "FIFA Status Dashboard",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L15",
-      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_fifa_status_dashboard",
-      "community": 22,
-      "norm_label": "fifa status dashboard"
-    },
-    {
-      "label": "FIFA key interactions",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L19",
-      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_fifa_key_interactions",
-      "community": 22,
-      "norm_label": "fifa key interactions"
-    },
-    {
-      "label": "Chess Beginner Review Flow",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L29",
-      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_chess_beginner_review_flow",
-      "community": 22,
-      "norm_label": "chess beginner review flow"
-    },
-    {
-      "label": "Study routes and responsive validation",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L41",
-      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_study_routes_and_responsive_validation",
-      "community": 22,
-      "norm_label": "study routes and responsive validation"
-    },
-    {
-      "label": "Limitations and external evidence",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L44",
-      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_limitations_and_external_evidence",
-      "community": 22,
-      "norm_label": "limitations and external evidence"
-    },
-    {
-      "label": "Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L1",
-      "id": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
-      "community": 16,
-      "norm_label": "group10-pa4-summativeuserstudy_d13babd7.md"
-    },
-    {
-      "label": "Study objective and research questions",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L6",
-      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_study_objective_and_research_questions",
-      "community": 16,
-      "norm_label": "study objective and research questions"
-    },
-    {
-      "label": "Canonical analysis state",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L13",
-      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_canonical_analysis_state",
-      "community": 16,
-      "norm_label": "canonical analysis state"
-    },
-    {
-      "label": "Setup, roles, and order-neutral procedure",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L17",
-      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_setup_roles_and_order_neutral_procedure",
-      "community": 16,
-      "norm_label": "setup, roles, and order-neutral procedure"
-    },
-    {
-      "label": "Counterbalancing",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L29",
-      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_counterbalancing",
-      "community": 16,
-      "norm_label": "counterbalancing"
-    },
-    {
-      "label": "Tasks and measures",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L32",
-      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_tasks_and_measures",
-      "community": 16,
-      "norm_label": "tasks and measures"
-    },
-    {
-      "label": "Questionnaire and interview",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L36",
-      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_questionnaire_and_interview",
-      "community": 16,
-      "norm_label": "questionnaire and interview"
-    },
-    {
-      "label": "Recording and analysis rule",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L39",
-      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_recording_and_analysis_rule",
-      "community": 16,
-      "norm_label": "recording and analysis rule"
-    },
-    {
-      "label": "Limitations",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L41",
-      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_limitations",
-      "community": 16,
-      "norm_label": "limitations"
-    },
-    {
-      "label": "Evidence index",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L46",
-      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_evidence_index",
-      "community": 16,
-      "norm_label": "evidence index"
-    },
-    {
-      "label": "Group10-PA4-WeeklyReport_3edd0b82.md",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
-      "source_location": "L1",
-      "id": "graphify_out_converted_group10_pa4_weeklyreport_3edd0b82_md",
-      "community": 36,
-      "norm_label": "group10-pa4-weeklyreport_3edd0b82.md"
-    },
-    {
-      "label": "Group and artifact snapshot",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
-      "source_location": "L6",
-      "id": "converted_group10_pa4_weeklyreport_3edd0b82_group_and_artifact_snapshot",
-      "community": 36,
-      "norm_label": "group and artifact snapshot"
-    },
-    {
-      "label": "Real Group10 roster",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
-      "source_location": "L8",
-      "id": "converted_group10_pa4_weeklyreport_3edd0b82_real_group10_roster",
-      "community": 36,
-      "norm_label": "real group10 roster"
-    },
-    {
-      "label": "Evidence and blockers",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
-      "source_location": "L10",
-      "id": "converted_group10_pa4_weeklyreport_3edd0b82_evidence_and_blockers",
-      "community": 36,
-      "norm_label": "evidence and blockers"
-    },
-    {
-      "label": "Next weekly checkpoint",
-      "file_type": "document",
-      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
-      "source_location": "L15",
-      "id": "converted_group10_pa4_weeklyreport_3edd0b82_next_weekly_checkpoint",
-      "community": 36,
-      "norm_label": "next weekly checkpoint"
     },
     {
       "label": "facilitator-script.md",
@@ -4516,6 +4417,159 @@
       "norm_label": "exact revision ids from the improved-prototype evidence"
     },
     {
+      "label": "pa3-selection-correction.md",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L1",
+      "id": "work_pa3_selection_correction_md",
+      "community": 3,
+      "norm_label": "pa3-selection-correction.md"
+    },
+    {
+      "label": "PA3 selection continuity correction",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L1",
+      "id": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "community": 3,
+      "norm_label": "pa3 selection continuity correction"
+    },
+    {
+      "label": "Git baseline",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L5",
+      "id": "work_pa3_selection_correction_git_baseline",
+      "community": 3,
+      "norm_label": "git baseline"
+    },
+    {
+      "label": "Authoritative concept definitions",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L13",
+      "id": "work_pa3_selection_correction_authoritative_concept_definitions",
+      "community": 3,
+      "norm_label": "authoritative concept definitions"
+    },
+    {
+      "label": "Historical selection conflict",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L22",
+      "id": "work_pa3_selection_correction_historical_selection_conflict",
+      "community": 3,
+      "norm_label": "historical selection conflict"
+    },
+    {
+      "label": "Current PA4 mismatch audit",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L26",
+      "id": "work_pa3_selection_correction_current_pa4_mismatch_audit",
+      "community": 3,
+      "norm_label": "current pa4 mismatch audit"
+    },
+    {
+      "label": "FIFA",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L28",
+      "id": "work_pa3_selection_correction_fifa",
+      "community": 3,
+      "norm_label": "fifa"
+    },
+    {
+      "label": "Chess",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L42",
+      "id": "work_pa3_selection_correction_chess",
+      "community": 3,
+      "norm_label": "chess"
+    },
+    {
+      "label": "Root cause",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L54",
+      "id": "work_pa3_selection_correction_root_cause",
+      "community": 3,
+      "norm_label": "root cause"
+    },
+    {
+      "label": "Decision table",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L58",
+      "id": "work_pa3_selection_correction_decision_table",
+      "community": 3,
+      "norm_label": "decision table"
+    },
+    {
+      "label": "Planned files",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L74",
+      "id": "work_pa3_selection_correction_planned_files",
+      "community": 3,
+      "norm_label": "planned files"
+    },
+    {
+      "label": "Implemented correction",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L89",
+      "id": "work_pa3_selection_correction_implemented_correction",
+      "community": 3,
+      "norm_label": "implemented correction"
+    },
+    {
+      "label": "FIFA Alt 1 \u2014 Status Dashboard",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L91",
+      "id": "work_pa3_selection_correction_fifa_alt_1_status_dashboard",
+      "community": 3,
+      "norm_label": "fifa alt 1 \u2014 status dashboard"
+    },
+    {
+      "label": "Chess Alt 2 \u2014 Card Review Mode",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L99",
+      "id": "work_pa3_selection_correction_chess_alt_2_card_review_mode",
+      "community": 3,
+      "norm_label": "chess alt 2 \u2014 card review mode"
+    },
+    {
+      "label": "Study synchronization and evidence boundary",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L107",
+      "id": "work_pa3_selection_correction_study_synchronization_and_evidence_boundary",
+      "community": 3,
+      "norm_label": "study synchronization and evidence boundary"
+    },
+    {
+      "label": "Validation evidence",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L114",
+      "id": "work_pa3_selection_correction_validation_evidence",
+      "community": 3,
+      "norm_label": "validation evidence"
+    },
+    {
+      "label": "Stale-reference classification",
+      "file_type": "document",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L127",
+      "id": "work_pa3_selection_correction_stale_reference_classification",
+      "community": 3,
+      "norm_label": "stale-reference classification"
+    },
+    {
       "label": "pa4-requirements.md",
       "file_type": "document",
       "source_file": "work/pa4-requirements.md",
@@ -4973,6 +5027,294 @@
       "id": "work_remediation_round2_memory_aware_audit_candidate_affected_files",
       "community": 33,
       "norm_label": "candidate affected files"
+    },
+    {
+      "label": "explanationDetail()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L341",
+      "community": 1,
+      "norm_label": "explanationdetail()",
+      "id": "prototype_app_explanationdetail"
+    },
+    {
+      "label": "reviewPanelHeader()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L346",
+      "community": 1,
+      "norm_label": "reviewpanelheader()",
+      "id": "prototype_app_reviewpanelheader"
+    },
+    {
+      "label": "explanationButton()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L368",
+      "community": 1,
+      "norm_label": "explanationbutton()",
+      "id": "prototype_app_explanationbutton"
+    },
+    {
+      "label": "chessAdvancedModal()",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L521",
+      "community": 1,
+      "norm_label": "chessadvancedmodal()",
+      "id": "prototype_app_chessadvancedmodal"
+    },
+    {
+      "label": "eventRow",
+      "file_type": "code",
+      "source_file": "prototype/app.js",
+      "source_location": "L746",
+      "community": 1,
+      "norm_label": "eventrow",
+      "id": "prototype_app_eventrow"
+    },
+    {
+      "label": "screenshotDir",
+      "file_type": "code",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L6",
+      "community": 14,
+      "norm_label": "screenshotdir",
+      "id": "scripts_capture_prototype_qa_screenshotdir"
+    },
+    {
+      "label": "countVisibleButtonsWithoutRoutes()",
+      "file_type": "code",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L49",
+      "community": 14,
+      "norm_label": "countvisiblebuttonswithoutroutes()",
+      "id": "scripts_capture_prototype_qa_countvisiblebuttonswithoutroutes"
+    },
+    {
+      "label": "assertRedesignStructure()",
+      "file_type": "code",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L86",
+      "community": 14,
+      "norm_label": "assertredesignstructure()",
+      "id": "scripts_capture_prototype_qa_assertredesignstructure"
+    },
+    {
+      "label": "6. Chess PA3 evidence \u00b7 60 seconds",
+      "file_type": "document",
+      "source_file": "demo/DEMO-SCRIPT.md",
+      "source_location": "L33",
+      "community": 13,
+      "norm_label": "6. chess pa3 evidence \u00b7 60 seconds",
+      "id": "demo_demo_script_6_chess_pa3_evidence_60_seconds"
+    },
+    {
+      "label": "Group10-PA4-HifiProtype_a1a07ae0.md",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L1",
+      "community": 22,
+      "norm_label": "group10-pa4-hifiprotype_a1a07ae0.md",
+      "id": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md"
+    },
+    {
+      "label": "Project continuity",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L7",
+      "community": 22,
+      "norm_label": "project continuity",
+      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_project_continuity"
+    },
+    {
+      "label": "Hi-fi design objectives",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L9",
+      "community": 22,
+      "norm_label": "hi-fi design objectives",
+      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_hi_fi_design_objectives"
+    },
+    {
+      "label": "FIFA Status Dashboard",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L15",
+      "community": 22,
+      "norm_label": "fifa status dashboard",
+      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_fifa_status_dashboard"
+    },
+    {
+      "label": "FIFA key interactions",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L19",
+      "community": 22,
+      "norm_label": "fifa key interactions",
+      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_fifa_key_interactions"
+    },
+    {
+      "label": "Chess Beginner Review Flow",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L29",
+      "community": 22,
+      "norm_label": "chess beginner review flow",
+      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_chess_beginner_review_flow"
+    },
+    {
+      "label": "Study routes and responsive validation",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L41",
+      "community": 22,
+      "norm_label": "study routes and responsive validation",
+      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_study_routes_and_responsive_validation"
+    },
+    {
+      "label": "Limitations and external evidence",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L44",
+      "community": 22,
+      "norm_label": "limitations and external evidence",
+      "id": "converted_group10_pa4_hifiprotype_a1a07ae0_limitations_and_external_evidence"
+    },
+    {
+      "label": "Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "group10-pa4-summativeuserstudy_d13babd7.md",
+      "id": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md"
+    },
+    {
+      "label": "Study objective and research questions",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L6",
+      "community": 16,
+      "norm_label": "study objective and research questions",
+      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_study_objective_and_research_questions"
+    },
+    {
+      "label": "Canonical analysis state",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L13",
+      "community": 16,
+      "norm_label": "canonical analysis state",
+      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_canonical_analysis_state"
+    },
+    {
+      "label": "Setup, roles, and order-neutral procedure",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L17",
+      "community": 16,
+      "norm_label": "setup, roles, and order-neutral procedure",
+      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_setup_roles_and_order_neutral_procedure"
+    },
+    {
+      "label": "Counterbalancing",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L29",
+      "community": 16,
+      "norm_label": "counterbalancing",
+      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_counterbalancing"
+    },
+    {
+      "label": "Tasks and measures",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L32",
+      "community": 16,
+      "norm_label": "tasks and measures",
+      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_tasks_and_measures"
+    },
+    {
+      "label": "Questionnaire and interview",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L36",
+      "community": 16,
+      "norm_label": "questionnaire and interview",
+      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_questionnaire_and_interview"
+    },
+    {
+      "label": "Recording and analysis rule",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L39",
+      "community": 16,
+      "norm_label": "recording and analysis rule",
+      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_recording_and_analysis_rule"
+    },
+    {
+      "label": "Limitations",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L41",
+      "community": 16,
+      "norm_label": "limitations",
+      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_limitations"
+    },
+    {
+      "label": "Evidence index",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L46",
+      "community": 16,
+      "norm_label": "evidence index",
+      "id": "converted_group10_pa4_summativeuserstudy_d13babd7_evidence_index"
+    },
+    {
+      "label": "Group10-PA4-WeeklyReport_3edd0b82.md",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
+      "source_location": "L1",
+      "community": 36,
+      "norm_label": "group10-pa4-weeklyreport_3edd0b82.md",
+      "id": "graphify_out_converted_group10_pa4_weeklyreport_3edd0b82_md"
+    },
+    {
+      "label": "Group and artifact snapshot",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
+      "source_location": "L6",
+      "community": 36,
+      "norm_label": "group and artifact snapshot",
+      "id": "converted_group10_pa4_weeklyreport_3edd0b82_group_and_artifact_snapshot"
+    },
+    {
+      "label": "Real Group10 roster",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
+      "source_location": "L8",
+      "community": 36,
+      "norm_label": "real group10 roster",
+      "id": "converted_group10_pa4_weeklyreport_3edd0b82_real_group10_roster"
+    },
+    {
+      "label": "Evidence and blockers",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
+      "source_location": "L10",
+      "community": 36,
+      "norm_label": "evidence and blockers",
+      "id": "converted_group10_pa4_weeklyreport_3edd0b82_evidence_and_blockers"
+    },
+    {
+      "label": "Next weekly checkpoint",
+      "file_type": "document",
+      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
+      "source_location": "L15",
+      "community": 36,
+      "norm_label": "next weekly checkpoint",
+      "id": "converted_group10_pa4_weeklyreport_3edd0b82_next_weekly_checkpoint"
     },
     {
       "label": "boardPanel()",
@@ -6493,6 +6835,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "prototype/app.js",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_chessmoments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
       "source_location": "L105",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6633,96 +6985,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "prototype/app.js",
-      "source_location": "L251",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_js",
-      "target": "prototype_app_applychessmove"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L259",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_js",
-      "target": "prototype_app_chesspositionforphase"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L270",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_js",
-      "target": "prototype_app_chessmoveforphase"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L274",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_js",
-      "target": "prototype_app_boardmarkup"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L332",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_js",
-      "target": "prototype_app_explanationdetail"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L364",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_js",
-      "target": "prototype_app_reviewpanelheader"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L368",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_js",
-      "target": "prototype_app_redesignedboardpanel"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L337",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_js",
-      "target": "prototype_app_explanationbutton"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L342",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_js",
-      "target": "prototype_app_renderchess"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
       "source_location": "L407",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6773,21 +7035,151 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "prototype/app.js",
-      "source_location": "L458",
+      "source_location": "L251",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "prototype_app_js",
-      "target": "prototype_app_chesshelpmodal"
+      "target": "prototype_app_applychessmove"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "prototype/app.js",
-      "source_location": "L469",
+      "source_location": "L360",
+      "weight": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_selectedchessmoment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L364",
+      "weight": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_positionformoment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L270",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "prototype_app_js",
-      "target": "prototype_app_chessadvancedmodal"
+      "target": "prototype_app_chessmoveforphase"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L259",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_chesspositionforphase"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L274",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_boardmarkup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L368",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_redesignedboardpanel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L429",
+      "weight": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_miniboardmarkup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L445",
+      "weight": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_momentsforfilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L452",
+      "weight": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_renderchessdashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L465",
+      "weight": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_rendermomentdetail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L479",
+      "weight": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_renderchesstrial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L493",
+      "weight": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_renderchesspractice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L342",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_renderchess"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L458",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_chesshelpmodal"
     },
     {
       "relation": "contains",
@@ -6808,6 +7200,26 @@
       "confidence_score": 1.0,
       "source": "prototype_app_js",
       "target": "prototype_app_resetchess"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L560",
+      "weight": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_selectfifaeventfromtarget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L564",
+      "weight": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_returntochessdashboard",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6843,21 +7255,61 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "prototype/app.js",
-      "source_location": "L691",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_js",
-      "target": "prototype_app_eventrow"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
       "source_location": "L704",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "prototype_app_js",
       "target": "prototype_app_focusable"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L332",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_explanationdetail"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L364",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_reviewpanelheader"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L337",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_explanationbutton"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L469",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_chessadvancedmodal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L691",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_js",
+      "target": "prototype_app_eventrow"
     },
     {
       "relation": "contains",
@@ -6949,10 +7401,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "prototype/app.js",
-      "source_location": "L343",
+      "source_location": "L440",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "prototype_app_renderchess",
+      "source": "prototype_app_fifahandoffcompletemodal",
       "target": "prototype_app_isstudymode"
     },
     {
@@ -6960,10 +7412,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "prototype/app.js",
-      "source_location": "L440",
+      "source_location": "L343",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "prototype_app_fifahandoffcompletemodal",
+      "source": "prototype_app_renderchess",
       "target": "prototype_app_isstudymode"
     },
     {
@@ -7235,182 +7687,6 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "prototype/app.js",
-      "source_location": "L262",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_chesspositionforphase",
-      "target": "prototype_app_applychessmove"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L275",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_boardmarkup",
-      "target": "prototype_app_chesspositionforphase"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L290",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_boardmarkup",
-      "target": "prototype_app_chessmoveforphase"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L603",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_handleaction",
-      "target": "prototype_app_chessmoveforphase"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L384",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_redesignedboardpanel",
-      "target": "prototype_app_boardmarkup"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L325",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_boardpanel",
-      "target": "prototype_app_boardmarkup"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L367",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_renderchess",
-      "target": "prototype_app_explanationdetail"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L427",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_renderchesslegacy",
-      "target": "prototype_app_explanationdetail"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L558",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_renderchess",
-      "target": "prototype_app_reviewpanelheader"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L500",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_renderchess",
-      "target": "prototype_app_redesignedboardpanel"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L367",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_renderchess",
-      "target": "prototype_app_explanationbutton"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L427",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_renderchesslegacy",
-      "target": "prototype_app_explanationbutton"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L488",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_resetchess",
-      "target": "prototype_app_renderchess"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L574",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_handleaction",
-      "target": "prototype_app_renderchess"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L362",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_renderchess",
-      "target": "prototype_app_boardpanel"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
-      "source_location": "L367",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "prototype_app_renderchess",
-      "target": "prototype_app_reviewtopline"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "prototype/app.js",
       "source_location": "L515",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -7466,22 +7742,319 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "prototype/app.js",
-      "source_location": "L566",
+      "source_location": "L262",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "prototype_app_handleaction",
-      "target": "prototype_app_chesshelpmodal"
+      "source": "prototype_app_chesspositionforphase",
+      "target": "prototype_app_applychessmove"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "prototype/app.js",
-      "source_location": "L570",
+      "source_location": "L379",
+      "weight": 1.0,
+      "source": "prototype_app_chesspositionforphase",
+      "target": "prototype_app_selectedchessmoment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L384",
+      "weight": 1.0,
+      "source": "prototype_app_boardmarkup",
+      "target": "prototype_app_selectedchessmoment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L412",
+      "weight": 1.0,
+      "source": "prototype_app_redesignedboardpanel",
+      "target": "prototype_app_selectedchessmoment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L466",
+      "weight": 1.0,
+      "source": "prototype_app_rendermomentdetail",
+      "target": "prototype_app_selectedchessmoment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L515",
+      "weight": 1.0,
+      "source": "prototype_app_renderchess",
+      "target": "prototype_app_selectedchessmoment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L379",
+      "weight": 1.0,
+      "source": "prototype_app_chesspositionforphase",
+      "target": "prototype_app_positionformoment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L430",
+      "weight": 1.0,
+      "source": "prototype_app_miniboardmarkup",
+      "target": "prototype_app_positionformoment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L290",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_boardmarkup",
+      "target": "prototype_app_chessmoveforphase"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L603",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "prototype_app_handleaction",
-      "target": "prototype_app_chessadvancedmodal"
+      "target": "prototype_app_chessmoveforphase"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L275",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_boardmarkup",
+      "target": "prototype_app_chesspositionforphase"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L384",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_redesignedboardpanel",
+      "target": "prototype_app_boardmarkup"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L325",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_boardpanel",
+      "target": "prototype_app_boardmarkup"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L500",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_renderchess",
+      "target": "prototype_app_redesignedboardpanel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L453",
+      "weight": 1.0,
+      "source": "prototype_app_renderchessdashboard",
+      "target": "prototype_app_momentsforfilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L467",
+      "weight": 1.0,
+      "source": "prototype_app_rendermomentdetail",
+      "target": "prototype_app_renderchessdashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L513",
+      "weight": 1.0,
+      "source": "prototype_app_renderchess",
+      "target": "prototype_app_renderchessdashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L513",
+      "weight": 1.0,
+      "source": "prototype_app_renderchess",
+      "target": "prototype_app_rendermomentdetail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L513",
+      "weight": 1.0,
+      "source": "prototype_app_renderchess",
+      "target": "prototype_app_renderchesstrial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L513",
+      "weight": 1.0,
+      "source": "prototype_app_renderchess",
+      "target": "prototype_app_renderchesspractice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L488",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_resetchess",
+      "target": "prototype_app_renderchess"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L566",
+      "weight": 1.0,
+      "source": "prototype_app_returntochessdashboard",
+      "target": "prototype_app_renderchess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L574",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_handleaction",
+      "target": "prototype_app_renderchess"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L367",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_renderchess",
+      "target": "prototype_app_explanationdetail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L558",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_renderchess",
+      "target": "prototype_app_reviewpanelheader"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L367",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_renderchess",
+      "target": "prototype_app_explanationbutton"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L362",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_renderchess",
+      "target": "prototype_app_boardpanel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L367",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_renderchess",
+      "target": "prototype_app_reviewtopline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L566",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_handleaction",
+      "target": "prototype_app_chesshelpmodal"
     },
     {
       "relation": "calls",
@@ -7495,6 +8068,39 @@
       "target": "prototype_app_resetfifa"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L594",
+      "weight": 1.0,
+      "source": "prototype_app_handleaction",
+      "target": "prototype_app_selectfifaeventfromtarget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L667",
+      "weight": 1.0,
+      "source": "prototype_app_handleaction",
+      "target": "prototype_app_returntochessdashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L570",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_handleaction",
+      "target": "prototype_app_chessadvancedmodal"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "qa/prototype-browser-qa.json",
@@ -7503,6 +8109,16 @@
       "confidence_score": 1.0,
       "source": "qa_prototype_browser_qa_json",
       "target": "qa_prototype_browser_qa_generated_at"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "qa/prototype-browser-qa.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "qa_prototype_browser_qa_json",
+      "target": "qa_prototype_browser_qa_screenshot_dir",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10067,11 +10683,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L6",
+      "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "scripts_capture_prototype_qa_mjs",
-      "target": "scripts_capture_prototype_qa_screenshotdir"
+      "target": "scripts_capture_prototype_qa_playwrightcandidates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_mjs",
+      "target": "scripts_capture_prototype_qa_playwrightpath",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10139,16 +10765,6 @@
       "source_file": "scripts/capture-prototype-qa.mjs",
       "source_location": "L29",
       "weight": 1.0,
-      "source": "scripts_capture_prototype_qa_mjs",
-      "target": "scripts_capture_prototype_qa_fifacalendarstate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L29",
-      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_capture_prototype_qa_mjs",
       "target": "scripts_capture_prototype_qa_click"
@@ -10167,21 +10783,31 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L40",
+      "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "scripts_capture_prototype_qa_mjs",
-      "target": "scripts_capture_prototype_qa_countvisiblebuttonswithoutroutes"
+      "target": "scripts_capture_prototype_qa_assertcardsdonotoverlap",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L51",
+      "source_location": "L74",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "scripts_capture_prototype_qa_mjs",
-      "target": "scripts_capture_prototype_qa_assertlockedchessboard"
+      "target": "scripts_capture_prototype_qa_assertdialogfitsviewport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_mjs",
+      "target": "scripts_capture_prototype_qa_assertvisiblebuttonrouting",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10197,11 +10823,51 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L77",
+      "source_location": "L29",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_capture_prototype_qa_mjs",
-      "target": "scripts_capture_prototype_qa_assertredesignstructure"
+      "target": "scripts_capture_prototype_qa_fifacalendarstate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_capture_prototype_qa_mjs",
+      "target": "scripts_capture_prototype_qa_assertlockedchessboard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_mjs",
+      "target": "scripts_capture_prototype_qa_assertinitialfifaconcept",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_mjs",
+      "target": "scripts_capture_prototype_qa_assertinitialchessconcept",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_mjs",
+      "target": "scripts_capture_prototype_qa_assertresponsiveproduct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10209,9 +10875,9 @@
       "source_file": "scripts/capture-prototype-qa.mjs",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_capture_prototype_qa_mjs",
-      "target": "scripts_capture_prototype_qa_calendartoast",
-      "confidence_score": 1.0
+      "target": "scripts_capture_prototype_qa_calendartoast"
     },
     {
       "relation": "contains",
@@ -10222,6 +10888,36 @@
       "confidence_score": 1.0,
       "source": "scripts_capture_prototype_qa_mjs",
       "target": "scripts_capture_prototype_qa_result"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_capture_prototype_qa_mjs",
+      "target": "scripts_capture_prototype_qa_screenshotdir"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_capture_prototype_qa_mjs",
+      "target": "scripts_capture_prototype_qa_countvisiblebuttonswithoutroutes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_capture_prototype_qa_mjs",
+      "target": "scripts_capture_prototype_qa_assertredesignstructure"
     },
     {
       "relation": "calls",
@@ -10239,10 +10935,43 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L48",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertcardsdonotoverlap",
+      "target": "scripts_capture_prototype_qa_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertdialogfitsviewport",
+      "target": "scripts_capture_prototype_qa_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertvisiblebuttonrouting",
+      "target": "scripts_capture_prototype_qa_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L70",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "scripts_capture_prototype_qa_countvisiblebuttonswithoutroutes",
+      "source": "scripts_capture_prototype_qa_assertstudychromehidden",
       "target": "scripts_capture_prototype_qa_check"
     },
     {
@@ -10261,10 +10990,43 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "scripts/capture-prototype-qa.mjs",
-      "source_location": "L70",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertinitialfifaconcept",
+      "target": "scripts_capture_prototype_qa_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertinitialchessconcept",
+      "target": "scripts_capture_prototype_qa_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertresponsiveproduct",
+      "target": "scripts_capture_prototype_qa_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L48",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "scripts_capture_prototype_qa_assertstudychromehidden",
+      "source": "scripts_capture_prototype_qa_countvisiblebuttonswithoutroutes",
       "target": "scripts_capture_prototype_qa_check"
     },
     {
@@ -10283,11 +11045,88 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertresponsiveproduct",
+      "target": "scripts_capture_prototype_qa_screenshot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
       "source_location": "L62",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_capture_prototype_qa_assertstudychromehidden",
       "target": "scripts_capture_prototype_qa_visibletext"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertinitialfifaconcept",
+      "target": "scripts_capture_prototype_qa_visibletext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertinitialchessconcept",
+      "target": "scripts_capture_prototype_qa_visibletext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertresponsiveproduct",
+      "target": "scripts_capture_prototype_qa_click",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertresponsiveproduct",
+      "target": "scripts_capture_prototype_qa_assertnohorizontaloverflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertresponsiveproduct",
+      "target": "scripts_capture_prototype_qa_assertcardsdonotoverlap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/capture-prototype-qa.mjs",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "scripts_capture_prototype_qa_assertresponsiveproduct",
+      "target": "scripts_capture_prototype_qa_assertdialogfitsviewport",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13843,9 +14682,9 @@
       "source_file": "demo/DEMO-SCRIPT.md",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "demo_demo_script_group10_pa4_demo_script",
-      "target": "demo_demo_script_6_chess_pa3_evidence_60_seconds"
+      "target": "demo_demo_script_6_chess_pa3_direction_60_seconds",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13886,6 +14725,16 @@
       "confidence_score": 1.0,
       "source": "demo_demo_script_group10_pa4_demo_script",
       "target": "demo_demo_script_10_closing_design_implications_60_seconds"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "demo/DEMO-SCRIPT.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "demo_demo_script_group10_pa4_demo_script",
+      "target": "demo_demo_script_6_chess_pa3_evidence_60_seconds"
     },
     {
       "relation": "contains",
@@ -14546,206 +15395,6 @@
       "confidence_score": 1.0,
       "source": "qa_remediation_round2_acceptance_matrix_pa4_remediation_round_2_acceptance_matrix",
       "target": "qa_remediation_round2_acceptance_matrix_participant_readiness_hard_gate"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
-      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_project_continuity"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
-      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_hi_fi_design_objectives"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
-      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_fifa_status_dashboard"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
-      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_chess_beginner_review_flow"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
-      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_study_routes_and_responsive_validation"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
-      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_limitations_and_external_evidence"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "converted_group10_pa4_hifiprotype_a1a07ae0_fifa_status_dashboard",
-      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_fifa_key_interactions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
-      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_study_objective_and_research_questions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
-      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_canonical_analysis_state"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
-      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_setup_roles_and_order_neutral_procedure"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
-      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_tasks_and_measures"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
-      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_questionnaire_and_interview"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
-      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_recording_and_analysis_rule"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
-      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_limitations"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
-      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_evidence_index"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "converted_group10_pa4_summativeuserstudy_d13babd7_setup_roles_and_order_neutral_procedure",
-      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_counterbalancing"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_weeklyreport_3edd0b82_md",
-      "target": "converted_group10_pa4_weeklyreport_3edd0b82_group_and_artifact_snapshot"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_weeklyreport_3edd0b82_md",
-      "target": "converted_group10_pa4_weeklyreport_3edd0b82_real_group10_roster"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_weeklyreport_3edd0b82_md",
-      "target": "converted_group10_pa4_weeklyreport_3edd0b82_evidence_and_blockers"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "graphify_out_converted_group10_pa4_weeklyreport_3edd0b82_md",
-      "target": "converted_group10_pa4_weeklyreport_3edd0b82_next_weekly_checkpoint"
     },
     {
       "relation": "contains",
@@ -15510,6 +16159,166 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_md",
+      "target": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "target": "work_pa3_selection_correction_git_baseline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "target": "work_pa3_selection_correction_authoritative_concept_definitions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "target": "work_pa3_selection_correction_current_pa4_mismatch_audit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "target": "work_pa3_selection_correction_root_cause",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "target": "work_pa3_selection_correction_decision_table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "target": "work_pa3_selection_correction_planned_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "target": "work_pa3_selection_correction_implemented_correction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "target": "work_pa3_selection_correction_study_synchronization_and_evidence_boundary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "target": "work_pa3_selection_correction_validation_evidence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_pa3_selection_continuity_correction",
+      "target": "work_pa3_selection_correction_stale_reference_classification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_authoritative_concept_definitions",
+      "target": "work_pa3_selection_correction_historical_selection_conflict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_current_pa4_mismatch_audit",
+      "target": "work_pa3_selection_correction_fifa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_current_pa4_mismatch_audit",
+      "target": "work_pa3_selection_correction_chess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_implemented_correction",
+      "target": "work_pa3_selection_correction_fifa_alt_1_status_dashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "work/pa3-selection-correction.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "work_pa3_selection_correction_implemented_correction",
+      "target": "work_pa3_selection_correction_chess_alt_2_card_review_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "work/pa4-requirements.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -15583,9 +16392,9 @@
       "source_file": "work/pre-study-final-fix.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "work_pre_study_final_fix_md",
-      "target": "work_pre_study_final_fix_pa4_pre_study_final_fix",
-      "confidence_score": 1.0
+      "target": "work_pre_study_final_fix_pa4_pre_study_final_fix"
     },
     {
       "relation": "contains",
@@ -15593,9 +16402,9 @@
       "source_file": "work/pre-study-final-fix.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "work_pre_study_final_fix_pa4_pre_study_final_fix",
-      "target": "work_pre_study_final_fix_findings",
-      "confidence_score": 1.0
+      "target": "work_pre_study_final_fix_findings"
     },
     {
       "relation": "contains",
@@ -15603,9 +16412,9 @@
       "source_file": "work/pre-study-final-fix.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "work_pre_study_final_fix_pa4_pre_study_final_fix",
-      "target": "work_pre_study_final_fix_decision",
-      "confidence_score": 1.0
+      "target": "work_pre_study_final_fix_decision"
     },
     {
       "relation": "contains",
@@ -15613,9 +16422,9 @@
       "source_file": "work/pre-study-final-fix.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "work_pre_study_final_fix_pa4_pre_study_final_fix",
-      "target": "work_pre_study_final_fix_files_changed",
-      "confidence_score": 1.0
+      "target": "work_pre_study_final_fix_files_changed"
     },
     {
       "relation": "contains",
@@ -15623,9 +16432,9 @@
       "source_file": "work/pre-study-final-fix.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "work_pre_study_final_fix_pa4_pre_study_final_fix",
-      "target": "work_pre_study_final_fix_validation_result",
-      "confidence_score": 1.0
+      "target": "work_pre_study_final_fix_validation_result"
     },
     {
       "relation": "contains",
@@ -15936,6 +16745,228 @@
       "confidence_score": 1.0,
       "source": "work_remediation_round2_memory_aware_audit_pa4_remediation_round_2_memory_aware_audit",
       "target": "work_remediation_round2_memory_aware_audit_candidate_affected_files"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L427",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_renderchesslegacy",
+      "target": "prototype_app_explanationdetail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "prototype/app.js",
+      "source_location": "L427",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prototype_app_renderchesslegacy",
+      "target": "prototype_app_explanationbutton"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
+      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_project_continuity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
+      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_hi_fi_design_objectives"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
+      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_fifa_status_dashboard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
+      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_chess_beginner_review_flow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
+      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_study_routes_and_responsive_validation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_hifiprotype_a1a07ae0_md",
+      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_limitations_and_external_evidence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-HifiProtype_a1a07ae0.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "converted_group10_pa4_hifiprotype_a1a07ae0_fifa_status_dashboard",
+      "target": "converted_group10_pa4_hifiprotype_a1a07ae0_fifa_key_interactions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
+      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_study_objective_and_research_questions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
+      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_canonical_analysis_state"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
+      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_setup_roles_and_order_neutral_procedure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
+      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_tasks_and_measures"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
+      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_questionnaire_and_interview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
+      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_recording_and_analysis_rule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
+      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_limitations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_summativeuserstudy_d13babd7_md",
+      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_evidence_index"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-SummativeUserStudy_d13babd7.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "converted_group10_pa4_summativeuserstudy_d13babd7_setup_roles_and_order_neutral_procedure",
+      "target": "converted_group10_pa4_summativeuserstudy_d13babd7_counterbalancing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_weeklyreport_3edd0b82_md",
+      "target": "converted_group10_pa4_weeklyreport_3edd0b82_group_and_artifact_snapshot"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_weeklyreport_3edd0b82_md",
+      "target": "converted_group10_pa4_weeklyreport_3edd0b82_real_group10_roster"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_weeklyreport_3edd0b82_md",
+      "target": "converted_group10_pa4_weeklyreport_3edd0b82_evidence_and_blockers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/converted/Group10-PA4-WeeklyReport_3edd0b82.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_out_converted_group10_pa4_weeklyreport_3edd0b82_md",
+      "target": "converted_group10_pa4_weeklyreport_3edd0b82_next_weekly_checkpoint"
     },
     {
       "relation": "calls",
@@ -17135,5 +18166,5 @@
       "source_file": "evidence/prototype-screenshots/chess-desktop-completion.png"
     }
   ],
-  "built_at_commit": "b6f6bde708fba274153e660dd2b70ec8f2528e6c"
+  "built_at_commit": "793cfa10d6ef79cc443b31144229c6ffc9e42cdd"
 }

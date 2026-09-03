@@ -48,7 +48,7 @@ Run the two product sections in the assigned order. “First product” and “s
 
 ### FIFA task wording
 
-1. “Determine the current ticket status and explain what needs to happen next.”
+1. “Determine the overall ticket situation, then explain what needs to happen next for one event.”
 2. “Find the relevant order or ticket detail from the status dashboard.”
 3. “Start the transfer action and identify the destination before leaving FIFA.”
 4. “Return to the FIFA prototype and re-establish the current status context.”
@@ -57,12 +57,12 @@ After the FIFA section, administer the five-item questionnaire when FIFA is the 
 
 ### Chess task wording
 
-Reset the prototype before the Chess section and say: “You have finished this fictional game and want to understand one mistake. Please use the review flow naturally.”
+Reset the prototype before the Chess section and say: “You have finished this fictional game and want to learn from the moments in it. Please use the review dashboard naturally.”
 
-1. “Start Beginner Review for the completed game.”
-2. “Identify the mistake and explain its immediate consequence in your own words.”
-3. “Find or try a safer move.”
-4. “Move from review into a new related practice position and resume context.”
+1. “Scan the available key moments and choose what you want to review first.”
+2. “Open the chosen moment and explain what happened and why it matters in your own words.”
+3. “From a relevant moment, find or try a safer move.”
+4. “Find the related optional practice activity, enter or complete it, and return to the card dashboard.”
 
 After the Chess section, administer the same five-item questionnaire when Chess is the first or second assigned product.
 

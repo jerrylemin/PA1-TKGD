@@ -1,9 +1,11 @@
 # Group10 PA4 hi-fi prototype
 
-This is a dependency-free offline demonstrator for the two selected PA3 directions:
+This dependency-free offline demonstrator implements the task-authoritative PA3 continuity directions:
 
 - FIFA Alt 1: Status Dashboard.
-- Chess Alt 1: Beginner Review Flow.
+- Chess Alt 2: Card Review Mode.
+
+PA3 historical artifacts are preserved unchanged. The Chess Alt 2 direction here is the explicit continuity correction for PA4.
 
 ## Start
 
@@ -19,8 +21,8 @@ The prototype does not call a live FIFA, ticketing, or Chess.com service. All re
 
 ## Demo paths
 
-- FIFA: select the Pending event, open `View Order`, open `Transfer Tickets`, inspect the partner boundary, continue in the offline handoff state, and return to the dashboard.
-- Chess: start Beginner Review, inspect the `Qh5` mistake and `Nxh5` consequence, reveal `Qe2`, perform a source-to-destination trial, complete the separate `Qd3` practice position, and finish the review.
+- FIFA: scan the four account-level status counts, compare the Pending and Confirmed event cards, open the relevant order or tickets, save the eligible event to the calendar, inspect the partner boundary, continue to the offline handoff state, and return to the dashboard.
+- Chess: scan four key-moment cards, choose any card to review, inspect the `Qh5` mistake and `Nxh5` consequence, reveal the optional `Qe2` safer move, try it by selecting source and destination, optionally complete the separate `Qd3` practice position, and return to the card dashboard.
 
 ## Study and presenter modes
 
@@ -28,14 +30,14 @@ The prototype does not call a live FIFA, ticketing, or Chess.com service. All re
 - FIFA participant flow: `http://127.0.0.1:4173/index.html?mode=study&product=fifa#fifa`
 - Chess participant flow: `http://127.0.0.1:4173/index.html?mode=study&product=chess#chess`
 
-Study mode opens directly into one product flow and hides the PA4 lab shell, launcher, offline-demo labels, and researcher-only help/depth controls. Presenter mode retains the overview and demo navigation.
+Study mode opens directly into one product flow and hides the PA4 lab shell, launcher, offline-demo labels, and researcher-only help controls. Presenter mode retains the overview and demo navigation.
 
 ## QA
 
-The existing PA2 Playwright runtime runs the deterministic browser checks and screenshot capture:
+The deterministic Playwright checks use an available local Playwright runtime:
 
 ```powershell
 node PA4/scripts/capture-prototype-qa.mjs
 ```
 
-Screenshots are written to `PA4/evidence/prototype-screenshots/`; the machine-readable result is `PA4/qa/prototype-browser-qa.json`.
+By default, screenshots are written to `PA4/evidence/prototype-screenshots/`; set `PA4_QA_SCREENSHOT_DIR` to use a temporary evidence location. The machine-readable result is `PA4/qa/prototype-browser-qa.json`.
